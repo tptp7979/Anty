@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Anty the war ant race</name>
+  <author>Roo</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>Roo.AntyRaceMod</packageId>
+  <description>
+※ ※ ※ Important note ※ ※ ※
+HumanoidAlienRaces
+MoHARframework
+This mod
+
+Q.Why suddenly the MoHAR framework dependency?
+A.This is to automatically keep the MoHAR framework, which was originally built-in, to the latest version.
+※ ※ ※ Important note ※ ※ ※
+
+이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
+무단 수정과 배포 및 중복 업로드를 금지합니다.
+
+All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
+Unauthorized modification, distribution and duplicate upload are prohibited.
+
+---- ----- ----- ----
+
+  Anty, the problem son of the universe
+
+Anty, a race with the genes of ants, has even stepped into your planetary system.
+These were biological weapons made to replace soldiers, but due to the mistake of an Project personnel, they entered space.
+In order to make up for this mistake, the developer tried to eradicate Anties in various ways.
+But Frequent failures due to fearsome fertility and environmental responsiveness,
+Developers running out of funds and resources went bankrupt, and Anties with no deterrents began to spread rapidly throughout space.
+
+The personality itself is a gentler race than anyone else, But due to the genetics and mindsets modified as weapons, it causes tribal wars in contact with other races.
+
+--- [ + ]
+Anties are quick and brilliant architects. The speed of mining and construction is fast.
+
+Recycling technology has also been developed to maintain endless consumption. Therefore, the efficiency of slaughtering and disassembling corpses is high, and it allows the injured and even the dead to stand on the battlefield again.
+
+They are also less mentally affected because most of their communication system is through pheromone delivery.
+
+--- [ - ]
+Because of this, communication with other races does not occur smoothly, so diplomacy and transaction price improvement is poor.
+
+Also, because of the genes of ants, insects, they are very sensitive to toxic substances and are very ignited.
+
+--- [+, -]
+Some thoughts are different from other races because of the modified mindset as a weapon.
+
+※ ※ ※ Important note ※ ※ ※
+HumanoidAlienRaces
+MoHARframework
+This mod
+
+Q.Why suddenly the MoHAR framework dependency?
+A.This is to automatically keep the MoHAR framework, which was originally built-in, to the latest version.
+※ ※ ※ Important note ※ ※ ※
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>HumanoidAlienRaces</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+	<li>
+      <packageId>goudaquiche.MoharFramework</packageId>
+      <displayName>MoHARframework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+	<li>goudaquiche.MoharFramework</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_Tile_Anty</defName>
+    <label>Anty floor</label>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Floor_Tile_Anty_Corner</defName>
+    <label>Anty floor</label>
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>Mine_TP_AMM</defName>
+    <label>Anty Mine</label>
+  </DesignatorDropdownGroupDef>
+
+</Defs>

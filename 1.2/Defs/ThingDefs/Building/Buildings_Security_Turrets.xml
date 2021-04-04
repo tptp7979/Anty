@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Anty_RecycleTurret</defName>
+		<label>Recycle turret-Outside addon</label>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.54,0.25,0.54)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Turret/RETurretA</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>1800</WorkToBuild>
+			<Mass>22</Mass>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>AntyExoskeleton</li></thingDefs></fuelFilter>
+				<fuelCapacity>30</fuelCapacity>       <!-- 30 bursts -->
+				<fuelMultiplier>1</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>80</pathCost>
+		<fillPercent>0.55</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<AntyExoskeleton>30</AntyExoskeleton>
+			<Steel>15</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Antybuilding</designationCategory>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+			<combatPower>20</combatPower>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_RecycleTurret</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>AntyAcidweapon_D</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_RecycleTurret</defName>
+		<label>Recycle turret bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>35</speed>
+			<damageDef>AT_AcidBomb</damageDef>
+			<explosionRadius>2.1</explosionRadius>
+			<explosionDelay>35</explosionDelay>
+			<preExplosionSpawnThingDef>Filth_AntyAcid</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.2</preExplosionSpawnChance>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+			<stoppingPower>1</stoppingPower>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_RecycleTurret</defName>
+		<label>Recycle turret gun</label>
+		<description>A simple automatic gun made to be mounted on a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Turret/REATurret_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_RecycleTurret</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<range>44.9</range>
+				<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<consumeFuelPerShot>0.125</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Anty_RecycleTurretB</defName>
+		<label>Recycle turret-Inside addon</label>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.54,0.25,0.54)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Turret/RETurretB</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>1800</WorkToBuild>
+			<Mass>22</Mass>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>AntyExoskeleton</li></thingDefs></fuelFilter>
+				<fuelCapacity>30</fuelCapacity>       <!-- 30 bursts -->
+				<fuelMultiplier>1</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>80</pathCost>
+		<fillPercent>0.55</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<AntyExoskeleton>30</AntyExoskeleton>
+			<Steel>15</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Antybuilding</designationCategory>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+			<combatPower>20</combatPower>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_RecycleTurretB</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Combatglue</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_glueRifle</defName>
+		<label>glue Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/jan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(0, 1, 0)</color>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_glueBullet</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<armorPenetrationBase>0.02</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<extraDamages>
+					<li>
+						<def>AT_AcidBullet</def>
+						<amount>1</amount>
+					</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_RecycleTurretB</defName>
+		<label>Recycle turret gun</label>
+		<description>A simple automatic gun made to be mounted on a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Turret/REBTurret_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.1</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_glueRifle</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>14.9</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
+				<soundCast>ShotAnty_E</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<consumeFuelPerShot>0.1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<DamageDef>
+		<defName>AT_glueBullet</defName>
+		<label>gluebullet</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>glueBomb</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>AntyAcid_Bullet</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+				<li>
+					<hediff>AT_glue</hediff>
+					<severityPerDamageDealt>0.1</severityPerDamageDealt>
+					<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	
+	
+<!-- 	<ThingDef ParentName="BuildingBase">
+		<defName>Anty_RecycleTurretC</defName>
+		<label>Recycle turret-Assult addon</label>
+		<description>.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+				<texPath>Things/Building/Turret/OUTurret_Bot</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.54,0.25,0.54)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Turret/OUTurret_Top</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>1800</WorkToBuild>
+			<Mass>22</Mass>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>80</pathCost>
+		<fillPercent>0.55</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<AntyExoskeleton>30</AntyExoskeleton>
+			<Steel>15</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Antybuilding</designationCategory>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+			<combatPower>20</combatPower>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_RecycleTurretC</turretGunDef>
+			<turretBurstCooldownTime>2.2</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Combatglue</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_BackRifle</defName>
+		<label>Red Burst Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/kan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBullet_B</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+			<armorPenetrationBase>0.12</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<extraDamages>
+					<li>
+						<def>AT_BackDamageDef</def>
+						<amount>1</amount>
+					</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_RecycleTurretC</defName>
+		<label>Recycle turret gun</label>
+		<description>A simple automatic gun made to be mounted on a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Turret/OUTurret_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.1</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_BackRifle</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>20.9</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>ShotAnty_G</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<consumeFuelPerShot>0.1</consumeFuelPerShot>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+			</li>
+		</verbs>
+	</ThingDef> -->
+</Defs>

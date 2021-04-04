@@ -1,0 +1,13 @@
+Debris
+Mote
+Piece
+Fragments
+glass
+Cup
+Plate
+Box
+Drumstick
+Magazine
+Launcher
+Nozzle
+Cutter

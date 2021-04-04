@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AntyEggbag_need.label>영양 젤리 필요</AntyEggbag_need.label>
+  <AntyEggbag_need.description>이 개체는 알주머니를 가지고 있습니다, 영양젤리를 섭취해야 하며 주기적으로 유충들을 낳습니다. 알주머니는 제거할 수 없으며, 오직 앤티들만이 유충들을 낳습니다.</AntyEggbag_need.description>
+  <Antybug_need.label>전투자극 젤리 필요</Antybug_need.label>
+  <Antybug_need.description>bug.</Antybug_need.description>
+  <AntyEraser_need.label>초기화 젤리 필요</AntyEraser_need.label>
+  <AntyEraser_need.description>bug.</AntyEraser_need.description>
+</LanguageData>

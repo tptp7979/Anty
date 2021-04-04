@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="TrapIEDBase">
+		<defName>AT_TP_AMM</defName>
+		<label>Repurposed Landmine</label>
+		<description>A landmine with advanced mechanoid detector, which can detonate when it sense mechanoid even from a distance. It can also works like a regular landmine against other targets.\n\nIt is filled with concentrated red-burst, which makes it effective against not only mechanoids, but all types of enemies.</description>
+		<graphicData>
+			<texPath>Things/Building/SI/AT_FM</texPath>
+		</graphicData>
+		<designatorDropdown>Mine_TP_AMM</designatorDropdown>
+		<costList>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+			<AntyExoskeleton>10</AntyExoskeleton>
+			<Refleum>5</Refleum>
+			<Uranium>10</Uranium>
+		</costList>
+		<designationHotKey>Misc7</designationHotKey>
+		<comps>
+		  <li Class="CompProperties_Explosive">
+			<explosiveRadius>3.9</explosiveRadius>
+			<explosiveDamageType>AT_AcidBomb_B</explosiveDamageType>
+			<damageAmountBase>70</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<wickTicks>35</wickTicks>
+			<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+		  </li>
+		  <li Class="CompProperties_UseEffect">
+			<compClass>CompUseEffect_StartWick</compClass>
+		  </li>
+		  <li Class="CompProperties_ProximityFuse">
+			<target>Mech_Centipede</target>
+			<radius>3.9</radius>
+		  </li>
+		  <li Class="CompProperties_ProximityFuse">
+			<target>Mech_Lancer</target>
+			<radius>2</radius>
+		  </li>
+		  <li Class="CompProperties_ProximityFuse">
+			<target>Mech_Scyther</target>
+			<radius>2.1</radius>
+		  </li>
+		  <li Class="CompProperties_ProximityFuse">
+			<target>Mech_Pikeman</target>
+			<radius>2.9</radius>
+		  </li>
+		</comps>
+		<specialDisplayRadius>3.9</specialDisplayRadius>
+		<building>
+			<trapPeacefulWildAnimalsSpringChanceFactor>1</trapPeacefulWildAnimalsSpringChanceFactor>
+		</building>
+		<researchPrerequisites>
+		  <li>Largecolony</li>
+		</researchPrerequisites>
+		<designationCategory>Antybuilding</designationCategory>
+	</ThingDef>
+	
+</Defs>

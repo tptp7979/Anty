@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_PlayerFaction.label>새로운 군체</AT_PlayerFaction.label>
+  <AT_PlayerFaction.description>당신의 앤티 군체입니다.</AT_PlayerFaction.description>
+  <AT_PlayerFaction.pawnSingular>앤티</AT_PlayerFaction.pawnSingular>
+  <AT_PlayerFaction.pawnsPlural>앤티들</AT_PlayerFaction.pawnsPlural>
+  <AntyHive.pawnSingular>앤티</AntyHive.pawnSingular>
+  <AntyHive.pawnsPlural>앤티들</AntyHive.pawnsPlural>
+  <AntyHive.leaderTitle>군단 지휘관</AntyHive.leaderTitle>
+  <AntyHive.label>앤티 군체</AntyHive.label>
+  <AntyHive.description>개미의 유전자를 지닌 종족으로서 건설과 전쟁, 특히나 소모전에 능한 군단입니다.\n\n우주 곳곳을 누비며 생명체 혹은 지적인 존재가 있는 곳이라면 환경에 상관 없이 정착하려 합니다.\n\n지면에 먼저 도달한 앤티들은 빠른 속도로 기반시설을 세우고 행성 궤도에서 대기중인 무리에게 환경정보를 보냅니다.\n\n환경정보를 받은 무리는 환경에 맞는 장비들을 갖추고 착륙하여, 곧바로 전쟁놀이를 즐기기 시작합니다.</AntyHive.description>
+</LanguageData>

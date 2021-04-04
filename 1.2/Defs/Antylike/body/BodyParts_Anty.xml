@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartDef>
+		<defName>AntyTool</defName>
+		<label>Anty petiole</label>
+		<conceptual>true</conceptual>
+	</BodyPartDef>
+	
+	<BodyPartGroupDef>
+		<defName>AntyToolkit</defName>
+		<label>Anty petiole</label>
+		<listOrder>110</listOrder>
+	</BodyPartGroupDef>
+
+	<!-- <BodyPartDef>
+		<defName>AntyThorax</defName>
+		<label>Thorax</label>
+		<hitPoints>35</hitPoints>
+		<skinCovered>true</skinCovered>
+		<bleedRate>1</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+		<canSuggestAmputation>false</canSuggestAmputation>
+	</BodyPartDef> -->
+  
+    <BodyPartDef>
+		<defName>Antyabdomen</defName>
+		<label>Abdomen</label>
+		<hitPoints>35</hitPoints>
+		<skinCovered>true</skinCovered>
+		<bleedRate>1</bleedRate>
+		<canSuggestAmputation>false</canSuggestAmputation>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ExoThorax</defName>
+		<label>Thorax Exoskeleton</label>
+		<hitPoints>1</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>Exoabdomen</defName>
+		<label>abdomen Exoskeleton</label>
+		<hitPoints>1</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>ExoHead</defName>
+		<label>Head Exoskeleton</label>
+		<hitPoints>1</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ExoArm</defName>
+		<label>Arm Exoskeleton</label>
+		<hitPoints>1</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>ExoLeg</defName>
+		<label>Leg Exoskeleton</label>
+		<hitPoints>1</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+			<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+</Defs>
