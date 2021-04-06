@@ -4,7 +4,7 @@
 	<HediffGiverSetDef>
 		<defName>Anty_HediffGiverSet</defName>
 		<hediffGivers>
-			<li Class="OHPLSAnty.CustomRace_HediffGiver_OHPLS">
+			<li Class="OHPLS.CustomRace_HediffGiver_OHPLS">
 				<hediff>AntyLarva_p_STAGE</hediff>
 				<partsToAffect>
 					<li>Antyabdomen</li>

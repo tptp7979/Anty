@@ -314,7 +314,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/Refleum</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(3,3)</drawSize>
 			<damageData>
 					<cornerTL>Damage/Corner</cornerTL>
 					<cornerTR>Damage/Corner</cornerTR>
@@ -350,7 +350,7 @@
 				<glowColor>(255,0,0,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="FuPoSpaAnty.CompProperties_FuelPoweredSpawner">
+			<li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
 				<requiresPower>false</requiresPower>
 				<requiresFuel>true</requiresFuel>
 				<thingToSpawn>Refleum</thingToSpawn>

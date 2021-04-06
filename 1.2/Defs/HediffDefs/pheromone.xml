@@ -11,7 +11,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 				</hediffToNullify>
@@ -61,7 +61,7 @@
 				<severityPerDay>-20</severityPerDay>
 				<showHoursToRecover>true</showHoursToRecover>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffNullifier">
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>Antypheromone_ShootingHigh</li>
 					<li>Antypheromone_ChargeHigh</li>
@@ -87,7 +87,7 @@
 					<severityPerDay>-0.24</severityPerDay>
 					<showHoursToRecover>true</showHoursToRecover>
 				</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_Spawner">
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
 				<thingToSpawn>Anty_pheromone</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<minDaysB4Next>0.98</minDaysB4Next>
@@ -215,7 +215,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>Antypheromone_ShootingHigh</li>
@@ -249,7 +249,7 @@
 				<stateEffecter>Chargepheromone</stateEffecter>
 				<severityIndices>0~5</severityIndices>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>Antypheromoneaftereffect_A</li>
 				</triggeredHediff>
@@ -345,7 +345,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>Antypheromone_ChargeHigh</li>
@@ -379,7 +379,7 @@
 				<stateEffecter>Shootingpheromone</stateEffecter>
 				<severityIndices>0~5</severityIndices>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>Antypheromoneaftereffect_A</li>
 				</triggeredHediff>
@@ -477,7 +477,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 				</hediffToNullify>
@@ -512,7 +512,7 @@
 				<stateEffecter>Suicidepheromone</stateEffecter>
 				<severityIndices>0~5</severityIndices>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_RandySpawnUponDeath">
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
 				<settings>
 					<things>
 						<li>

@@ -89,7 +89,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a worker.</labelNoun>
 		
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntyQueenbirth</li>	
@@ -115,12 +115,12 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect</li>
 				</triggeredHediff>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffNullifier">
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
@@ -145,7 +145,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a soldier.</labelNoun>
 		
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntyQueenbirth</li>	
@@ -178,12 +178,12 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<letterType>AT_Soldierbirth</letterType>
 				<messageType>PositiveEvent</messageType>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect</li>
 				</triggeredHediff>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffNullifier">
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
@@ -227,7 +227,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a queen.</labelNoun>
 		
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntySoldierbirth</li>	
@@ -291,7 +291,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<letterType>AT_Queenbirth</letterType>
 				<messageType>PositiveEvent</messageType>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect</li>
 				</triggeredHediff>
@@ -904,7 +904,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<initialSeverity>0.001</initialSeverity>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>childbirthaftereffect</li>
 				</triggeredHediff>
@@ -1143,7 +1143,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
-			<li Class="MoharHediffsAnty.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				
 				<hediffToApply>AT_Aphidextract-stim</hediffToApply>
 
@@ -1168,7 +1168,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.016</severityPerDay>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_Spawner">
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
 				<thingToSpawn>AT_Aphidextract</thingToSpawn>
 				<spawnCount>5</spawnCount>
 				<minDaysB4Next>2</minDaysB4Next>

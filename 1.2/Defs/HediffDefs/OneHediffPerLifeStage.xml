@@ -14,7 +14,7 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>10000</severityPerDay>
 			</li>
-			<li Class="MoharHediffsAnty.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect_B</li>
 				</triggeredHediff>
@@ -46,7 +46,7 @@
 		<labelNoun>LARVA.labelNoun</labelNoun>
 
 		<comps>
-			<li Class="OHPLSAnty.HediffCompProperties_LifeStageHediffAssociation">
+			<li Class="OHPLS.HediffCompProperties_LifeStageHediffAssociation">
 				<race>Anty</race>
 
 				<bodyPartDef>Antyabdomen</bodyPartDef>
