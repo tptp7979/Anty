@@ -924,7 +924,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<vomitMtbDays>1</vomitMtbDays>
         <minSeverity>0.333</minSeverity>
         <statFactors>
-			<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.95</WorkSpeedGlobal>
 		</statFactors>
       </li>
       <li>
@@ -933,7 +933,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
         <minSeverity>0.666</minSeverity>
         <vomitMtbDays>0.5</vomitMtbDays>
         <statFactors>
-			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.85</WorkSpeedGlobal>
 		</statFactors>
       </li>
     </stages>
