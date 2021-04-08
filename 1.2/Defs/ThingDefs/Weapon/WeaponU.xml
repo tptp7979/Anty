@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
- <!-- 가스 -->
+ <!-- 리플리움 가스 -->
  
 	<ThingDef ParentName="ApparelBase">
 		<defName>AT_Apparel_CombatSmoke</defName>
