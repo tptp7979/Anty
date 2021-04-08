@@ -328,9 +328,9 @@
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
-				<maxCharges>10</maxCharges>
+				<maxCharges>5</maxCharges>
 				<ammoDef>Refleum</ammoDef>
-				<ammoCountToRefill>10</ammoCountToRefill>
+				<ammoCountToRefill>5</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
