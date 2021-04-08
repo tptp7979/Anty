@@ -465,8 +465,6 @@
 			<MoveSpeed>-0.45</MoveSpeed>
 			<Flammability>-1</Flammability>
 			<ToxicSensitivity>-1.5</ToxicSensitivity>
-			<AimingDelayFactor>0.1</AimingDelayFactor>
-			<ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.12</MeleeHitChance>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
@@ -506,7 +504,7 @@
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
-				<maxCharges>5</maxCharges>
+				<maxCharges>10</maxCharges>
 				<ammoDef>Refleum</ammoDef>
 				<ammoCountToRefill>10</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
@@ -518,20 +516,16 @@
 		</comps>
 			<verbs>
 				<li>
-					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<verbClass>Verb_LaunchProjectileStaticAnty</verbClass>
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>BulletExecutionerChain</defaultProjectile>
-					<warmupTime>0.5</warmupTime>
-					<range>24.9</range>
-					<minRange>7.9</minRange>
+					<warmupTime>0.2</warmupTime>
+					<range>20.9</range>
+					<minRange>3.9</minRange>
 					<burstShotCount>1</burstShotCount>
 					<soundCast>ShotAnty_F</soundCast>
 					<muzzleFlashScale>14</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
 					<consumeFuelPerShot>1</consumeFuelPerShot>
-					<targetable>true</targetable>
 					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 					<onlyManualCast>true</onlyManualCast>
 				</li>
@@ -575,9 +569,6 @@
 			<MoveSpeed>-0.25</MoveSpeed>
 			<Flammability>-0.5</Flammability>
 			<ToxicSensitivity>-1.5</ToxicSensitivity>
-			<AimingDelayFactor>0.15</AimingDelayFactor>
-			<ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
-			<MeleeHitChance>-0.12</MeleeHitChance>
 			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
 		</equippedStatOffsets>
 
@@ -647,10 +638,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.35</MoveSpeed>
 			<Flammability>-0.5</Flammability>
-			<AimingDelayFactor>0.05</AimingDelayFactor>
-			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
-			<MeleeHitChance>-0.12</MeleeHitChance>
-			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
 
 		<apparel>

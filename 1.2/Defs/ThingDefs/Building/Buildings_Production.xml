@@ -434,8 +434,9 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 			<joyKind>AT_ChartCheck</joyKind>
-			<watchBuildingStandDistanceRange>1~4</watchBuildingStandDistanceRange>
+			<watchBuildingStandDistanceRange>2~4</watchBuildingStandDistanceRange>
 			<watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+			<watchBuildingInSameRoom>true</watchBuildingInSameRoom>
 		</building>
 		<researchPrerequisites>
 			<li>AntyMassiveButchering</li>
@@ -460,7 +461,8 @@
 		</comps>
 		<designationHotKey>Misc6</designationHotKey>
 		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<!-- <li>PlaceWorker_ShowFacilitiesConnections</li> -->
+			<li>PlaceWorker_WatchArea</li>
 		</placeWorkers>
 	</ThingDef>
 	

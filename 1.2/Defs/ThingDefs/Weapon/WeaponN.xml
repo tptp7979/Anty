@@ -80,7 +80,7 @@
 			<damageDef>AT_ChainDamageDef</damageDef>
 			<damageAmountBase>1</damageAmountBase>
 			<armorPenetrationBase>1</armorPenetrationBase>
-			<speed>30</speed>
+			<speed>80</speed>
 		</projectile>
 		<comps>
 			<li Class="PawnKnockback.CompProperties_HarpoonAttributes">
