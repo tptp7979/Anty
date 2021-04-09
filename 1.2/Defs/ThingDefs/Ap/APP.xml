@@ -225,6 +225,9 @@
 			<texPath>Antylike/Apparel/AT_AP_Power_B</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_B</wornGraphicPath>
+		</apparel>
 	</ThingDef>
 	
 	<ThingDef ParentName="AT_AP_Power_Head_A"><!-- 카타글리피스 헬멧 -->
@@ -236,6 +239,9 @@
 			<texPath>Antylike/Apparel/AT_AP_Power_Head_B</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_Head_B</wornGraphicPath>
+		</apparel>
 	</ThingDef>
 	
 	<ThingDef ParentName="AT_AP_AdditionalPower_A"><!-- 카타글리피스 추가장갑 -->
@@ -247,6 +253,9 @@
 			<texPath>Antylike/Apparel/AT_AP_AdditionalPower_B</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_B</wornGraphicPath>
+		</apparel>
 	</ThingDef>
 	
 	
