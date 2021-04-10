@@ -34,9 +34,9 @@
   <AntyAcidweapon_D.discoveredLetterText>군체의 마지막 단계에 다가갈 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</AntyAcidweapon_D.discoveredLetterText>
   
   <Antypheromonestim.label>페로몬 흡입제</Antypheromonestim.label>
-  <Antypheromonestim.description>앤티들의 페로몬을 농축하여 사용하는 방법을 해금합니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.</Antypheromonestim.description>
+  <Antypheromonestim.description>앤티들의 페로몬을 농축하여 사용하는 방법을 해금합니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromonestim.description>
   <Antypheromonestim.discoveredLetterTitle>정보: 페로몬</Antypheromonestim.discoveredLetterTitle>
-  <Antypheromonestim.discoveredLetterText>이제 당신은 앤티들의 페로몬을 이용할 수 있습니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.</Antypheromonestim.discoveredLetterText>
+  <Antypheromonestim.discoveredLetterText>이제 당신은 앤티들의 페로몬을 이용할 수 있습니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromonestim.discoveredLetterText>
   
   <Combatglue.label>전투용 접착제</Combatglue.label>
   <Combatglue.description>앤티들이 원거리 보병들을 적군의 근거리 보병으로부터 보호하기 위해서 사용하는 전투용 접착제를 사용할 수 있게 됩니다. 앤티들은 이 접착제로부터 아무런 영향도 받지 않습니다.</Combatglue.description>

@@ -191,13 +191,13 @@
 			<li>AntyHive</li>
 		</tags>
 		<discoveredLetterTitle>About: Hive aggregation</discoveredLetterTitle>
-		<discoveredLetterText>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here..</discoveredLetterText>
+		<discoveredLetterText>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>Antypheromonestim</defName>
 		<label>pheromone-Inhalant</label>
-		<description>Unlocks the method of concentrating and using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.</description>
+		<description>Unlocks the method of concentrating and using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
 		<tab>AntyHiveTech</tab>
 		<baseCost>2500</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -211,7 +211,7 @@
 			<li>AntyHive</li>
 		</tags>
 		<discoveredLetterTitle>About: pheromone</discoveredLetterTitle>
-		<discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery.</discoveredLetterText>
+		<discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
