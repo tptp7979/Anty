@@ -2,7 +2,7 @@
 <Defs>
 	<TraderKindDef>
 		<defName>Caravan_AT_REA</defName>
-		<label>Anty Armistice Exchange Group</label>
+		<label>Anty Ceasefire Exchange Group.</label>
 		<commonality>2</commonality>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
