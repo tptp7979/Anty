@@ -79,29 +79,7 @@
 							<li>HeadAttackTool</li>
 						</groups>
 						<parts><!-- 엑소헤드파트 -->
-							
-							<li><!-- 좌측귀 67 -->
-								<def>Ear</def>
-								<customLabel>Left Feeler</customLabel>
-								<coverage>0.07</coverage>
-								<depth>Inside</depth>
-								<groups>
-									<li>UpperHead</li>
-									<li>FullHead</li>
-								</groups>
-							</li><!-- 좌측귀 -->
-							
-							<li><!-- 우측귀 67 -->
-								<def>Ear</def>
-								<customLabel>Right Feeler</customLabel>
-								<coverage>0.07</coverage>
-								<depth>Inside</depth>
-								<groups>
-									<li>UpperHead</li>
-									<li>FullHead</li>
-								</groups>
-							</li><!-- 우측귀 -->
-							
+
 							<li><!-- 머리 8 -->
 								<def>Head</def>
 								<coverage>0.2</coverage>
@@ -150,7 +128,29 @@
 											<li>Eyes</li>
 										</groups>
 									</li>
-									
+
+									<li><!-- 좌측귀 67 -->
+										<def>Ear</def>
+										<customLabel>Left Feeler</customLabel>
+										<coverage>0.07</coverage>
+										<depth>Inside</depth>
+										<groups>
+											<li>UpperHead</li>
+											<li>FullHead</li>
+										</groups>
+									</li><!-- 좌측귀 -->
+							
+									<li><!-- 우측귀 67 -->
+										<def>Ear</def>
+										<customLabel>Right Feeler</customLabel>
+										<coverage>0.07</coverage>
+										<depth>Inside</depth>
+										<groups>
+											<li>UpperHead</li>
+											<li>FullHead</li>
+										</groups>
+									</li><!-- 우측귀 -->
+
 									<li>
 										<def>Nose</def>
 										<coverage>0.10</coverage>
