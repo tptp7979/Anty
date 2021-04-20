@@ -584,7 +584,22 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<li>MyUncleDied</li>
 				<li>MyCousinDied</li>
 				<li>MyKinDied</li>
+				<li>MyHusbandDied</li>
+				<li>MyWifeDied</li>
+				<li>MyFianceDied</li>
+				<li>MyFianceeDied</li>
+				<li>MyLoverDied</li>
+				<li>MyFatherDied</li>
+				<li>MyMotherDied</li>
+				<li>MyGrandparentDied</li>
 				
+				<li>KilledMyFriend</li>
+				<li>KilledMyLover</li>
+				<li>KilledMyFiance</li>
+				<li>KilledMySpouse</li>
+				<li>KilledMyFather</li>
+				<li>KilledMyMother</li>
+
 				<li>KilledMySon</li>
 				<li>KilledMyDaughter</li>
 				<li>KilledMyBrother</li>
