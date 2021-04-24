@@ -411,7 +411,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/kan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(0.25,0.5)</drawSize>
+			<drawSize>(1,0.5)</drawSize>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
