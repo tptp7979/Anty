@@ -97,6 +97,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/jan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
 			<speed>70</speed>
@@ -189,6 +190,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/jan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
 			<speed>70</speed>
@@ -274,6 +276,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/jan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
 			<speed>70</speed>
@@ -385,6 +388,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/jan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
 			<speed>70</speed>
