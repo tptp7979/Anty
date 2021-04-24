@@ -87,7 +87,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullethydroheliumion</defaultProjectile>
-				<warmupTime>0.5</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>34.9</range>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
@@ -126,7 +126,7 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
-			<damageAmountBase>9</damageAmountBase>
+			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<explosionRadius>1.1</explosionRadius>
@@ -217,7 +217,7 @@
 				<extraMeleeDamages>
 					<li>
 						<def>Anty_Cut</def>
-						<amount>10</amount>
+						<amount>8</amount>
 						<chance>0.5</chance>
 					</li>
 					<li>
@@ -238,12 +238,12 @@
 				<extraMeleeDamages>
 					<li>
 						<def>Anty_Poke</def>
-						<amount>15</amount>
+						<amount>10</amount>
 						<chance>0.5</chance>
 					</li>
 					<li>
 						<def>Anty_Cut</def>
-						<amount>15</amount>
+						<amount>10</amount>
 						<chance>0.5</chance>
 					</li>
 					<li>
@@ -269,7 +269,7 @@
 				<extraMeleeDamages>
 					<li>
 						<def>Anty_Poke</def>
-						<amount>10</amount>
+						<amount>8</amount>
 						<chance>0.5</chance>
 					</li>
 					<li>
@@ -365,7 +365,7 @@
 				<verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullethydroheliumion_B</defaultProjectile>
-				<warmupTime>0.5</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>9.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -423,7 +423,7 @@
 			<extraDamages>
 					<li>
 						<def>Stun</def>
-						<amount>3</amount>
+						<amount>2</amount>
 						<chance>0.05</chance>
 					</li>
 			</extraDamages>
@@ -537,7 +537,7 @@
 		<projectile Class="TorgueAnty.TorgueProjectileProps">
 			<speed>30</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
 			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<explosionRadius>3.1</explosionRadius>
 			<subProjectile>Bullethydroheliumion_C_B</subProjectile>
@@ -558,7 +558,7 @@
 		<projectile>
 			<speed>6.5</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
-			<damageAmountBase>6</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<explosionRadius>2.1</explosionRadius>

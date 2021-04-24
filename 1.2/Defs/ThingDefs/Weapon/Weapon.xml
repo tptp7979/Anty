@@ -54,7 +54,7 @@
 		<costList>
 			<AntyExoskeleton>40</AntyExoskeleton>
 			<Steel>40</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
         <verbs>
 			<li>
@@ -102,7 +102,7 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
-			<damageAmountBase>8</damageAmountBase>
+			<damageAmountBase>6</damageAmountBase>
 			<armorPenetrationBase>0.05</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 		</projectile>
@@ -195,7 +195,7 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
-			<damageAmountBase>9</damageAmountBase>
+			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationBase>0.15</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 		</projectile>
@@ -281,7 +281,7 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
-			<damageAmountBase>12</damageAmountBase>
+			<damageAmountBase>9</damageAmountBase>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 		</projectile>
@@ -393,7 +393,7 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
-			<damageAmountBase>8</damageAmountBase>
+			<damageAmountBase>6</damageAmountBase>
 			<armorPenetrationBase>0.15</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 		</projectile>
@@ -509,7 +509,7 @@
 			<impactSoundType>Toxic</impactSoundType>
 			<armorCategory>Blunt</armorCategory>
 			<minDamageToFragment>0</minDamageToFragment>
-			<defaultDamage>8</defaultDamage>
+			<defaultDamage>7</defaultDamage>
 			<defaultArmorPenetration>0.15</defaultArmorPenetration>
 			<buildingDamageFactor>1</buildingDamageFactor>
 			<plantDamageFactor>2</plantDamageFactor>
