@@ -263,9 +263,9 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>11</power>
+				<power>12</power>
 				<armorPenetration>0.2</armorPenetration>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>
