@@ -11,16 +11,6 @@
 		<label>Anty petiole</label>
 		<listOrder>110</listOrder>
 	</BodyPartGroupDef>
-
-	<!-- <BodyPartDef>
-		<defName>AntyThorax</defName>
-		<label>Thorax</label>
-		<hitPoints>35</hitPoints>
-		<skinCovered>true</skinCovered>
-		<bleedRate>1</bleedRate>
-			<destroyableByDamage>false</destroyableByDamage>
-		<canSuggestAmputation>false</canSuggestAmputation>
-	</BodyPartDef> -->
   
     <BodyPartDef>
 		<defName>Antyabdomen</defName>

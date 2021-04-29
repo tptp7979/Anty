@@ -859,6 +859,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<fleshType>Anty_flesh</fleshType>
 		<bloodDef>Filth_BloodInsect</bloodDef>
 		<meatColor>(20,120,20)</meatColor>
+		<nameGenerator>Antypawn_rule</nameGenerator>
+    	<nameGeneratorFemale>Antypawn_rule</nameGeneratorFemale>
 		
 		<litterSizeCurve>
 				<points>
@@ -870,18 +872,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</litterSizeCurve>
 		
 		<lifeStageAges>
- 		<!-- <li>
-			<def>AntyLarva</def>
-			<minAge>0</minAge>
-			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-			<soundDeath>Pawn_Megascarab_Death</soundDeath>
-		</li>
-		<li>
-			<def>HumanlikeTeenager</def>
-			<minAge>0.25</minAge>
-			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-			<soundDeath>Pawn_Megascarab_Death</soundDeath>
-		</li> -->
 		  <li>
             <def>HumanlikeBaby</def>
             <minAge>0</minAge>
@@ -1003,20 +993,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
       </li>
     </damageMultipliers>
 </AlienRace.ThingDef_AlienRace>
-
-	<LifeStageDef>
-		<defName>AntyLarva</defName>
-		<label>Larva</label>
-		<adjective>Larva</adjective>
-		<reproductive>true</reproductive>
-		<bodySizeFactor>0.7</bodySizeFactor>
-		<healthScaleFactor>0.50</healthScaleFactor>
-		<meleeDamageFactor>0.15</meleeDamageFactor>
-		<marketValueFactor>1</marketValueFactor>
-		<statFactors>
-			<MoveSpeed>0.05</MoveSpeed>
-		</statFactors>
-	</LifeStageDef>
 	
 	<FleshTypeDef>
     <defName>Anty_flesh</defName>
@@ -1039,5 +1015,4 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
       </li>
     </wounds>
 	</FleshTypeDef>
-
 </Defs>

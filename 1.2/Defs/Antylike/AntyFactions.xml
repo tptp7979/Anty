@@ -36,7 +36,7 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<pawnNameMaker>Antypawn_rule</pawnNameMaker>
+		<!-- <pawnNameMaker>Antypawn_rule</pawnNameMaker> -->
 		<geneticVariance>1</geneticVariance>
 		<startingResearchTags>
 			<li>ClassicStart</li>
@@ -71,7 +71,7 @@
 		<factionIconPath>Icon/AT_Icon</factionIconPath>
 		<factionNameMaker>NamerFactionAnty</factionNameMaker>
 		<settlementNameMaker>NamerSettlementAnty</settlementNameMaker>
-		<pawnNameMaker>Antypawn_rule</pawnNameMaker>
+		<!-- <pawnNameMaker>Antypawn_rule</pawnNameMaker> -->
 		<raidLootMaker>AntyRaidLootMaker</raidLootMaker>
 		
 		<caravanTraderKinds>

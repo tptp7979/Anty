@@ -264,73 +264,7 @@
 		<addsHediff>AT_Reinforcedexoskeleton</addsHediff>
 		<recipeUsers>
 				<li>Anty</li>
+				<li>Anty_prototype</li>
 		</recipeUsers>
 	</RecipeDef>
-	
-
-	<!-- <ThingDef ParentName="ResourceBase">
-		<defName>AT_Strawberryfruitcandy</defName>
-		<label>Strawberry fruit candy</label>
-		<description>.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/Chocolate</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.88</drawSize>
-		</graphicData>
-		<soundInteract>Standard_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<socialPropernessMatters>true</socialPropernessMatters>
-		<statBases>
-			<MaxHitPoints>60</MaxHitPoints>
-			<MarketValue>5</MarketValue>
-			<Mass>0.088</Mass>
-			<Flammability>1.0</Flammability>
-			<DeteriorationRate>12</DeteriorationRate>
-			<Nutrition>0.15</Nutrition>
-		</statBases>
-		<thingCategories>
-			<li>Foods</li>
-		</thingCategories>
-		<ingestible>
-			<preferability>DesperateOnly</preferability>
-			<foodType>Processed</foodType>
-			<joy>0.12</joy>
-			<joyKind>Gluttonous</joyKind>
-			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
-			<ingestSound>Meal_Eat</ingestSound>
-		</ingestible>
-  	</ThingDef>
-
-	<ThingDef ParentName="ResourceBase">
-		<defName>AT_Strawberrychocolatefruitcandy</defName>
-		<label>Strawberry chocolate fruit candy</label>
-		<description>.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/Chocolate</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.88</drawSize>
-		</graphicData>
-		<soundInteract>Standard_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<socialPropernessMatters>true</socialPropernessMatters>
-		<statBases>
-			<MaxHitPoints>60</MaxHitPoints>
-			<MarketValue>7</MarketValue>
-			<Mass>0.092</Mass>
-			<Flammability>1.0</Flammability>
-			<DeteriorationRate>12</DeteriorationRate>
-			<Nutrition>0.2</Nutrition>
-		</statBases>
-		<thingCategories>
-			<li>Foods</li>
-		</thingCategories>
-		<ingestible>
-			<preferability>DesperateOnly</preferability>
-			<foodType>Processed</foodType>
-			<joy>0.14</joy>
-			<joyKind>Gluttonous</joyKind>
-			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
-			<ingestSound>Meal_Eat</ingestSound>
-		</ingestible>
-  	</ThingDef> -->
 </Defs>
