@@ -4,7 +4,7 @@
   <StorytellerDef ParentName="BaseStoryteller">
 		<defName>AT_soi</defName>
 		    <label>IncendiaryShell Launcher W-008</label>
-    <description>(Now testing)"IncendiaryShell" is the first Anty who set the enemy base on fire during Anties' battles for their survival./n/nShe is now long gone and nothing but dust, but her name still is brought up by young and inexperienced Anty soldiers.\n\nFeel free to ask the medic while you are tied up on a bed for heart removal surgery or aphidization. they will be happy to tell you more about her, who set their enemies ablaze until her last breath.\n\nMost of the events will be replaced with raids, and allies will more likely to drop in for support.\n\nEnjoy the frantic battlefield, which will always result in a complete mess!</description>
+    <description>"IncendiaryShell" is the first Anty who set the enemy base on fire during Anties' battles for their survival./n/nShe is now long gone and nothing but dust, but her name still is brought up by young and inexperienced Anty soldiers.\n\nFeel free to ask the medic while you are tied up on a bed for heart removal surgery or aphidization. they will be happy to tell you more about her, who set their enemies ablaze until her last breath.\n\nMost of the events will be replaced with raids, and allies will more likely to drop in for support.\n\nEnjoy the frantic battlefield, which will always result in a complete mess!</description>
     <portraitLarge>Icon/Soi</portraitLarge>
     <portraitTiny>Icon/Soicut</portraitTiny>
     <listOrder>59</listOrder>

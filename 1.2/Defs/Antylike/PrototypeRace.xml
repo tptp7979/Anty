@@ -183,7 +183,7 @@
     <label>Proty egg</label>
     <description>An unfertilized egg of Protie.</description>
     <graphicData>
-      <color>(145,145,145)</color>
+      <color>(145,20,145)</color>
     </graphicData>
     <statBases>
       <MarketValue>7.0</MarketValue>
