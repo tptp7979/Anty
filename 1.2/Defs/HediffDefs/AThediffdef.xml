@@ -113,6 +113,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
@@ -169,6 +171,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
@@ -282,6 +286,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
@@ -636,8 +642,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<showHoursToRecover>false</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_TendDuration">
-				<!-- <baseTendDurationHours>72</baseTendDurationHours> -->
-				<!-- <severityPerDayTended>-5</severityPerDayTended> -->
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
 				<labelSolidTendedWell>tended</labelSolidTendedWell>
@@ -648,9 +652,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_GetsPermanent">
 				<permanentLabel>Acid melt scar</permanentLabel>
 			</li>
-			<!-- <li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300000</disappearsAfterTicks>
-			</li> -->
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidDamage</damageDef>
 				<ticksPerDamage>300</ticksPerDamage>
@@ -689,8 +690,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<showHoursToRecover>false</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_TendDuration">
-				<!-- <baseTendDurationHours>72</baseTendDurationHours> -->
-				<!-- <severityPerDayTended>-5</severityPerDayTended> -->
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
 				<labelSolidTendedWell>tended</labelSolidTendedWell>
@@ -701,9 +700,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_GetsPermanent">
 				<permanentLabel>Acid melt scar</permanentLabel>
 			</li>
-			<!-- <li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300000</disappearsAfterTicks>
-			</li> -->
 		</comps>
 		<injuryProps>
 			<painPerSeverity>0.0125</painPerSeverity>
@@ -713,15 +709,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<destroyedLabel>melt off</destroyedLabel>
 			<destroyedOutLabel>melt out</destroyedOutLabel>
 		</injuryProps>
-		<stages>
-			<li>
-				<minSeverity>0</minSeverity>
-			</li>
-			<li>
-				<minSeverity>60</minSeverity>
-				<destroyPart>true</destroyPart>
-			</li>
-		</stages>
 	</HediffDef>
 	
 	<DamageDef Name="AT_AcidDamage">
@@ -756,8 +743,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<showHoursToRecover>false</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_TendDuration">
-				<!-- <baseTendDurationHours>36</baseTendDurationHours> -->
-				<!-- <severityPerDayTended>-5</severityPerDayTended> -->
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
 				<labelSolidTendedWell>tended</labelSolidTendedWell>
@@ -768,9 +753,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_GetsPermanent">
 				<permanentLabel>Acid melt scar</permanentLabel>
 			</li>
-			<!-- <li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300000</disappearsAfterTicks>
-			</li> -->
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidDamage_High</damageDef>
 				<ticksPerDamage>300</ticksPerDamage>
@@ -809,8 +791,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<showHoursToRecover>false</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_TendDuration">
-				<!-- <baseTendDurationHours>36</baseTendDurationHours> -->
-				<!-- <severityPerDayTended>-5</severityPerDayTended> -->
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
 				<labelSolidTendedWell>tended</labelSolidTendedWell>
@@ -821,9 +801,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_GetsPermanent">
 				<permanentLabel>Acid melt scar</permanentLabel>
 			</li>
-			<!-- <li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300000</disappearsAfterTicks>
-			</li> -->
 		</comps>
 		<injuryProps>
 			<painPerSeverity>0.0125</painPerSeverity>
@@ -833,15 +810,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<destroyedLabel>melt off</destroyedLabel>
 			<destroyedOutLabel>melt out</destroyedOutLabel>
 		</injuryProps>
-		<stages>
-			<li>
-				<minSeverity>0</minSeverity>
-			</li>
-			<li>
-				<minSeverity>35</minSeverity>
-				<destroyPart>true</destroyPart>
-			</li>
-		</stages>
 	</HediffDef>
 	
 	<DamageDef Name="AT_AcidDamage_High">
