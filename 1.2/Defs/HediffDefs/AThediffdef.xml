@@ -87,7 +87,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		
 		<label>Transforming into a worker.</label>
 		<labelNoun>Transforming into a worker.</labelNoun>
-		
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
@@ -143,7 +143,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		
 		<label>Transforming into a soldier.</label>
 		<labelNoun>Transforming into a soldier.</labelNoun>
-		
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
@@ -225,7 +225,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		
 		<label>Transforming into a queen.</label>
 		<labelNoun>Transforming into a queen.</labelNoun>
-		
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
 				<hediffToNullify>
@@ -319,6 +319,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>Badnutritiondamage</defName>
 		<label>Organizational collapse</label>
 		<description>Organizational collapse.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 		<li>
 			<destroyPart>true</destroyPart>
