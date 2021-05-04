@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- 이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
+무단 수정과 배포 및 중복 업로드를 금지합니다.
+
+All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
+Unauthorized modification, distribution and duplicate upload are prohibited. -->
+	
+<!-- 	<HediffDef>
+		<defName>AntyLifeExtension</defName>
+		<label>LifeExtension</label>
+		<description>test.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>Life Extension</discoverLetterLabel>
+				<discoverLetterText>test</discoverLetterText>
+				<letterType>AT_LifeExtension</letterType>
+				<messageType>PositiveEvent</messageType>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>BadBack</li>
+					<li>Frail</li>
+					<li>Cataract</li>
+					<li>Blindness</li>
+					<li>HearingLoss</li>
+					<li>Dementia</li>
+					<li>Alzheimers</li>
+					<li>Asthma</li>
+					<li>HeartArteryBlockage</li>
+					<li>Carcinoma</li>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<naturalHealingFactor>0.7</naturalHealingFactor>
+				<totalBleedFactor>1.25</totalBleedFactor>
+				<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>TransitionRefleum</hediff>
+					<mtbDays>5</mtbDays>
+					<partsToAffect>
+						<li>Antyabdomen</li>
+					</partsToAffect>
+				</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>AntyTransitionRefleum</defName>
+		<label>TransitionRefleum</label>
+		<labelNoun>TransitionRefleum</labelNoun>
+		<description>.</description>
+		<descriptionHyperlinks><ThingDef>TransitionRefleum</ThingDef></descriptionHyperlinks>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<makesSickThought>true</makesSickThought>
+		<defaultLabelColor>(1.0, 0.1, 0)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>Big jaw</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>1.1</MoveSpeed>
+				</statFactors>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Berserk</mentalState>
+						<mtbDays>15</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>TransitionRefleum</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallAT_LifeExtensionSurgery</defName>
+		<label>Anty LifeExtension Surgery</label>
+		<description>Extends the life of Anty.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Reinforcedexoskeleton_Thing</ThingDef>
+			<HediffDef>AntyLifeExtension</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Reinforced Anty exoskeleton.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AT_Aphidextract</li>
+					</thingDefs>
+				</filter>
+			<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Refleum</li>
+					</thingDefs>
+				</filter>
+			<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Luciferium</li>
+					</thingDefs>
+				</filter>
+			<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AT_Aphidextract</li>
+				<li>Refleum</li>
+				<li>Luciferium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AntyLifeExtension</addsHediff>
+		<recipeUsers>
+				<li>Anty</li>
+		</recipeUsers>
+		<researchPrerequisite>AntyNutritionaljelly</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>CureAntyTransitionRefleum</defName>
+		<label>Remove TransitionRefleum</label>
+		<description>test.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing TransitionRefleum.</jobString>
+		<workAmount>2000</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<isViolation>false</isViolation>
+		<targetsBodyPart>false</targetsBodyPart>
+		<removesHediff>AntyTransitionRefleum</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully Removed {1}'s TransitionRefleum.</successfullyRemovedHediffMessage>
+		<skillRequirements>
+		<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>TransitionRefleum</defName>
+		<label>Transition Refleum</label>
+		<description>test.</description>
+		<graphicData>
+			<texPath>Things/Item/Core</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<Mass>10</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<LetterDef Name="AT_LifeExtension">
+		<defName>AT_LifeExtension</defName>
+		<color>(20, 155, 20)</color>
+		<flashColor>(30, 120, 30)</flashColor>
+		<flashInterval>90</flashInterval>
+		<arriveSound>LetterArrive_Good</arriveSound>
+	</LetterDef> -->
+
+</Defs>
