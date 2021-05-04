@@ -259,7 +259,7 @@
   <Antypheromone_Suicide.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Suicide.ingestible.ingestReportString>
   
   <AT_Reinforcedexoskeleton_Thing.label>앤티 강화 외골격</AT_Reinforcedexoskeleton_Thing.label>
-  <AT_Reinforcedexoskeleton_Thing.description>앤티 강화 외골격 입니다.</AT_Reinforcedexoskeleton_Thing.description>
+  <AT_Reinforcedexoskeleton_Thing.description>리플리움으로 만들어진 앤티의 강화 외골격 입니다. 기존의 외골격과 유기적인 결합을 이루어 아무런 불편함 없이 행동할 수 있으면서도 놀라운 방어성능을 지니고 있습니다.</AT_Reinforcedexoskeleton_Thing.description>
   
   <AT_Aphidextract.label>진액</AT_Aphidextract.label>
   <AT_Aphidextract.description>고농도의 영양분을 함유하고 있는 진액입니다. 영양젤리의 영향으로 여전히 유전자 변형물질의 성질을 가지고 있습니다.</AT_Aphidextract.description>
