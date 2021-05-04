@@ -541,7 +541,7 @@
 			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<explosionRadius>3.1</explosionRadius>
 			<subProjectile>Bullethydroheliumion_C_B</subProjectile>
-			<clusterCount>50</clusterCount>
+			<clusterCount>25</clusterCount>
 			<clusterRadius>8.1</clusterRadius>
 		</projectile>
 	</ThingDef>
@@ -558,7 +558,7 @@
 		<projectile>
 			<speed>6.5</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<explosionRadius>2.1</explosionRadius>

@@ -45,6 +45,9 @@
 			<radius>2.9</radius>
 		  </li>
 		</comps>
+		<killedLeavings>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+   		</killedLeavings>
 		<specialDisplayRadius>3.9</specialDisplayRadius>
 		<building>
 			<trapPeacefulWildAnimalsSpringChanceFactor>1</trapPeacefulWildAnimalsSpringChanceFactor>
