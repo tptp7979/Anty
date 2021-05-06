@@ -502,6 +502,9 @@
 		<defName>LifePoweredGenerator</defName>
 		<label>Life powered generator</label>
 		<description>It is a generator that generates electricity from the extract of aphids.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Aphidextract</ThingDef>
+		</descriptionHyperlinks>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/LifePoweredGenerator</texPath>

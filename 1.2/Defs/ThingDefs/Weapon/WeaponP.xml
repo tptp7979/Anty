@@ -42,12 +42,19 @@
 					<minQualityForArtistic>Excellent</minQualityForArtistic>
 				</li>
 			</comps>
+
+			<descriptionHyperlinks>
+				<HediffDef>Chemicaldissolution_high</HediffDef>
+			</descriptionHyperlinks>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_A</defName>
 		<label>Red Burst Rifle</label>
 		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution_high</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AT_hydroheliumion_A</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -322,6 +329,9 @@
 		<defName>AT_hydroheliumion_B</defName>
 		<label>Red Burst Line Rifle</label>
 		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution_high</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AT_hydroheliumion_B</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -452,6 +462,9 @@
 		<defName>AT_hydroheliumion_C</defName>
 		<label>Red Burst Cluster</label>
 		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution_high</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AT_hydroheliumion_C</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

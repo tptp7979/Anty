@@ -58,7 +58,16 @@
   <AT_Aphidextract-stim.label>진딧물화 수술</AT_Aphidextract-stim.label>
   <AT_Aphidextract-stim.description>유전자 변형을 일으켜 양분이 농축된 체액을 배출하도록 신체를 개조하는 수술입니다.\n\n 뇌가 극단적으로 자극되어 손상되는 부작용이 있습니다.\n\n 앤티들에게는 아무련 영향이 없습니다.</AT_Aphidextract-stim.description>
   <AT_Aphidextract-stim.jobString>진딧물화 수술중.</AT_Aphidextract-stim.jobString>
+
+  <InstallAT_AntyIncreasedviabilitySurgery.label>생존력 증대수술</InstallAT_AntyIncreasedviabilitySurgery.label>
+  <InstallAT_AntyIncreasedviabilitySurgery.description>앤티들의 몸에 리플리움을 주입하여 생존력을 높이는 수술입니다.</InstallAT_AntyIncreasedviabilitySurgery.description>
+  <InstallAT_AntyIncreasedviabilitySurgery.jobString>생존력 증대중.</InstallAT_AntyIncreasedviabilitySurgery.jobString>
   
+  <CureAntyTransitionRefleum.label>변이 리플리움 제거</CureAntyTransitionRefleum.label>
+  <CureAntyTransitionRefleum.description>변이 리플리움을 제거합니다.</CureAntyTransitionRefleum.description>
+  <CureAntyTransitionRefleum.successfullyRemovedHediffMessage>{0} 은(는) {1}의 변이 리플리움을 성공적으로 제거하였습니다.</CureAntyTransitionRefleum.successfullyRemovedHediffMessage>
+  <CureAntyTransitionRefleum.jobString>변이 리플리움 제거중.</CureAntyTransitionRefleum.jobString>
+
   <EVOR_Surgery_Tail_Blade_Anty.label>칼날꼬리 장착</EVOR_Surgery_Tail_Blade_Anty.label>
   <EVOR_Surgery_Tail_Blade_Anty.description>칼날꼬리를 장착합니다.</EVOR_Surgery_Tail_Blade_Anty.description>
   <EVOR_Surgery_Tail_Blade_Anty.jobString>칼날꼬리 장착.</EVOR_Surgery_Tail_Blade_Anty.jobString>

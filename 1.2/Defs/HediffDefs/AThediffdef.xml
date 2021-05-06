@@ -358,7 +358,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyQueenbirth</HediffDef>
-			<HediffDef>Ate_Nutritional_jelly</HediffDef>
 			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
@@ -410,6 +409,11 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<severityPerDay>-0.5</severityPerDay>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
 	
 	<ThoughtDef>
@@ -634,7 +638,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>Chemicaldissolution</defName>
 		<label>Acid melt</label>
 		<labelNoun>Acid melt</labelNoun>
-		<description>Acid melt</description>
+		<description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -735,7 +739,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>Chemicaldissolution_high</defName>
 		<label>Acid melt</label>
 		<labelNoun>Acid melt</labelNoun>
-		<description>Acid melt</description>
+		<description>Acid melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -995,6 +999,36 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</li>
 			<li>
 				<minSeverity>0.6</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.6</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AT_glue_Link</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Combat glue</label>
+		<labelNoun>Combat glue</labelNoun>
+		<description>Combat glue is on it.</description>
+		<defaultLabelColor>(0.2,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>

@@ -5,6 +5,9 @@
 		<defName>Anty_RecycleTurret</defName>
 		<label>Recycle turret-Outside addon</label>
 		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Chemicaldissolution</HediffDef>
+		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
 				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
@@ -146,6 +149,10 @@
 		<defName>Anty_RecycleTurretB</defName>
 		<label>Recycle turret-Inside addon</label>
 		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Chemicaldissolution</HediffDef>
+			<HediffDef>AT_glue_Link</HediffDef>
+		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
 				<texPath>Things/Building/Turret/RETurret_Bot</texPath>

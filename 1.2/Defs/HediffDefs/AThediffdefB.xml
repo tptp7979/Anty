@@ -6,10 +6,13 @@
 All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
 Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
-<!-- 	<HediffDef>
-		<defName>AntyLifeExtension</defName>
-		<label>LifeExtension</label>
-		<description>test.</description>
+	<HediffDef>
+		<defName>AntyIncreasedviability</defName>
+		<label>Increased viability</label>
+		<description>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntyTransitionRefleum</HediffDef>
+		</descriptionHyperlinks>
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -19,41 +22,36 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
 				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
-				<discoverLetterLabel>Life Extension</discoverLetterLabel>
-				<discoverLetterText>test</discoverLetterText>
-				<letterType>AT_LifeExtension</letterType>
+				<discoverLetterLabel>Increased {0}'s viability</discoverLetterLabel>
+				<discoverLetterText>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</discoverLetterText>
+				<letterType>AT_Increasedviability</letterType>
 				<messageType>PositiveEvent</messageType>
-			</li>
-			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
-				<hediffToNullify>
-					<li>BadBack</li>
-					<li>Frail</li>
-					<li>Cataract</li>
-					<li>Blindness</li>
-					<li>HearingLoss</li>
-					<li>Dementia</li>
-					<li>Alzheimers</li>
-					<li>Asthma</li>
-					<li>HeartArteryBlockage</li>
-					<li>Carcinoma</li>
-					<li>Pregnant</li>
-					<li>Pregnant_B</li>
-				</hediffToNullify>
 			</li>
 		</comps>
 		<stages>
 			<li>
-				<naturalHealingFactor>0.7</naturalHealingFactor>
-				<totalBleedFactor>1.25</totalBleedFactor>
+				<naturalHealingFactor>1.3</naturalHealingFactor>
+				<totalBleedFactor>0.75</totalBleedFactor>
+				<statFactors>
+					<HungerRateMultiplier>1.25</HungerRateMultiplier>
+				</statFactors>
 				<hediffGivers>
 				<li Class="HediffGiver_Random">
-					<hediff>TransitionRefleum</hediff>
-					<mtbDays>5</mtbDays>
+					<hediff>AntyTransitionRefleum</hediff>
+					<mtbDays>30</mtbDays>
 					<partsToAffect>
 						<li>Antyabdomen</li>
 					</partsToAffect>
 				</li>
 				</hediffGivers>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
+					<li>Flu</li>
+				</makeImmuneTo>
 			</li>
 		</stages>
 	</HediffDef>
@@ -62,9 +60,14 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>AntyTransitionRefleum</defName>
 		<label>TransitionRefleum</label>
 		<labelNoun>TransitionRefleum</labelNoun>
-		<description>.</description>
-		<descriptionHyperlinks><ThingDef>TransitionRefleum</ThingDef></descriptionHyperlinks>
+		<description>It is a side effect of increased viability. It is contagious and increases the aggression of Anty.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Refleum</ThingDef>
+			<HediffDef>AntyIncreasedviability</HediffDef>
+		</descriptionHyperlinks>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
 		<makesSickThought>true</makesSickThought>
 		<defaultLabelColor>(1.0, 0.1, 0)</defaultLabelColor>
 		<comps>
@@ -73,10 +76,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<li>
 						<label>Big jaw</label>
 						<capacities>
-							<li>Bite</li>
+							<li>Bite_Refleum</li>
 						</capacities>
 						<power>10</power>
-						<cooldownTime>2</cooldownTime>
+						<cooldownTime>1.8</cooldownTime>
 					</li>
 				</tools>
 			</li>
@@ -94,18 +97,71 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</mentalStateGivers>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>TransitionRefleum</spawnThingOnRemoved>
+		<spawnThingOnRemoved>Refleum</spawnThingOnRemoved>
+	</HediffDef>
+
+	<ManeuverDef>
+		<defName>Bite_Refleum</defName>
+		<requiredCapacity>Bite_Refleum</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>Bite_Refleum</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+	<ToolCapacityDef ParentDefName="Bite">
+		<defName>Bite_Refleum</defName>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>Bite_Refleum</defName>
+		<additionalHediffs>
+			<li>
+				<hediff>Bite_Refleum_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<HediffDef>
+		<defName>Bite_Refleum_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Bite_Refleum_Ready</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+				</hediffToNullify>
+				
+				<hediffToApply>AntyTransitionRefleum</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				<bodyPartDef>Antyabdomen</bodyPartDef>
+				
+				<!-- <debug>false</debug> -->
+			</li>
+		</comps>
 	</HediffDef>
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallAT_LifeExtensionSurgery</defName>
-		<label>Anty LifeExtension Surgery</label>
-		<description>Extends the life of Anty.</description>
+		<defName>InstallAT_AntyIncreasedviabilitySurgery</defName>
+		<label>Anty Increased viability Surgery</label>
+		<description>It is a surgery to increase the viability by injecting Refleum into the body of Anties.</description>
 		<descriptionHyperlinks>
-			<ThingDef>AT_Reinforcedexoskeleton_Thing</ThingDef>
-			<HediffDef>AntyLifeExtension</HediffDef>
+			<HediffDef>AntyIncreasedviability</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing Reinforced Anty exoskeleton.</jobString>
+		<jobString>Increasing viability.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -123,36 +179,27 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</filter>
 			<count>20</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Luciferium</li>
-					</thingDefs>
-				</filter>
-			<count>5</count>
-			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AT_Aphidextract</li>
 				<li>Refleum</li>
-				<li>Luciferium</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Antyabdomen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AntyLifeExtension</addsHediff>
+		<addsHediff>AntyIncreasedviability</addsHediff>
 		<recipeUsers>
 				<li>Anty</li>
 		</recipeUsers>
-		<researchPrerequisite>AntyNutritionaljelly</researchPrerequisite>
+		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>CureAntyTransitionRefleum</defName>
 		<label>Remove TransitionRefleum</label>
-		<description>test.</description>
+		<description>Remove TransitionRefleum.</description>
 		<workerClass>Recipe_RemoveHediff</workerClass>
 		<jobString>Removing TransitionRefleum.</jobString>
 		<workAmount>2000</workAmount>
@@ -171,7 +218,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>10</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -179,38 +226,15 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<li>Medicine</li>
 			</categories>
 		</fixedIngredientFilter>
+		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<ThingDef ParentName="ResourceBase">
-		<defName>TransitionRefleum</defName>
-		<label>Transition Refleum</label>
-		<description>test.</description>
-		<graphicData>
-			<texPath>Things/Item/Core</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>10</stackLimit>
-		<useHitPoints>false</useHitPoints>
-		<healthAffectsPrice>false</healthAffectsPrice>
-		<statBases>
-			<MarketValue>1200</MarketValue>
-			<Mass>10</Mass>
-			<Flammability>0</Flammability>
-		</statBases>
-		<intricate>true</intricate>
-		<thingCategories>
-			<li>Manufactured</li>
-		</thingCategories>
-	</ThingDef>
-
-	<LetterDef Name="AT_LifeExtension">
-		<defName>AT_LifeExtension</defName>
+	<LetterDef Name="AT_Increasedviability">
+		<defName>AT_Increasedviability</defName>
 		<color>(20, 155, 20)</color>
 		<flashColor>(30, 120, 30)</flashColor>
 		<flashInterval>90</flashInterval>
 		<arriveSound>LetterArrive_Good</arriveSound>
-	</LetterDef> -->
+	</LetterDef>
 
 </Defs>

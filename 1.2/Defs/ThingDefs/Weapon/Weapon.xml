@@ -14,6 +14,10 @@
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
 	<techLevel>Industrial</techLevel>
+
+	<descriptionHyperlinks Inherit="False">
+		<HediffDef>Chemicaldissolution</HediffDef>
+	</descriptionHyperlinks>
   </ThingDef>
 
  <!-- 라이플 -->
@@ -550,6 +554,9 @@
 		<defName>AT_Combatglue</defName>
 		<label>Combat glue launcher</label>
 		<description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>AT_glue_Link</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AT_Combatglue</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -749,6 +756,9 @@
 		<defName>Shell_AT_glueBomb</defName>
 		<label>Combat glue shell</label>
 		<description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>AT_glue_Link</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/glueBomb</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -959,6 +969,9 @@
 		<defName>AT_AcidCross</defName>
 		<label>Acid Crossbow</label>
 		<description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Antie. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution</HediffDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AcidCross</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

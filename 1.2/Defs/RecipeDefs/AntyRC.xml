@@ -5,6 +5,7 @@
 		<defName>AntyCorpseFlesh</defName>
 		<label>Corpses assembly(Heart)</label>
 		<description>Using corpses to create an Organic matter management core.</description>
+		<descriptionHyperlinks><ThingDef>Anty_Recyclecore</ThingDef></descriptionHyperlinks>
 		<workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
 		<jobString>Corpses assembly(Heart)</jobString>
 		<workAmount>1150</workAmount>
@@ -69,6 +70,7 @@
 		<defName>AntyCorpseFlesh_B</defName>
 		<label>Corpses assembly(BionicHeart)</label>
 		<description>Using corpses to create an Organic matter management core.</description>
+		<descriptionHyperlinks><ThingDef>Anty_Recyclecore</ThingDef></descriptionHyperlinks>
 		<workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
 		<jobString>Corpses assembly(BionicHeart)</jobString>
 		<workAmount>1750</workAmount>

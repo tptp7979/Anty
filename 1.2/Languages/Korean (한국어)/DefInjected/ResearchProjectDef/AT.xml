@@ -66,4 +66,9 @@
   <AntyAphidextract.description>유전자 변형을 일으켜 양분이 농축된 체액을 배출하도록 신체를 개조하는 수술을 연구합니다.\n\n뇌가 극단적으로 자극되어 손상되는 부작용이 있습니다.\n\n수술 과정에서 영양 젤리의 성질이 변하기 때문에 앤티에게는 어떠한 변화도 생기지 않습니다.\n\n 수술에는 영양 젤리와 페로몬 팩이 필요합니다.</AntyAphidextract.description>
   <AntyAphidextract.discoveredLetterTitle>정보: 진딧물</AntyAphidextract.discoveredLetterTitle>
   <AntyAphidextract.discoveredLetterText>이제 당신은 앤티들을 제외한 종족들을 진딧물로 만들 수 있습니다.\n\n 수술에는 영양 젤리와 페로몬 팩이 필요합니다.</AntyAphidextract.discoveredLetterText>
+
+  <AT_IncreasedviabilitySurgery.label>생존력 증대수술</AT_IncreasedviabilitySurgery.label>
+  <AT_IncreasedviabilitySurgery.description>앤티들의 몸에 리플리움을 주입하여 생존력을 높이는 수술을 연구합니다.</AT_IncreasedviabilitySurgery.description>
+
+
 </LanguageData>

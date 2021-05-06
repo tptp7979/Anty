@@ -430,6 +430,74 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 						</east>
 					</offsets>
 				</li>
+				
+				<li><!--변이리플리움-->
+					<path>Antylike/Tails/ATTail_MPA_south</path>
+					<hediffGraphics>
+						<AntyTransitionRefleum>Antylike/Tails/ATTail_MPA</AntyTransitionRefleum>
+					</hediffGraphics>
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<angle>0</angle>
+					<layerOffset>-0.2</layerOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+
+				<li><!--변이리플리움-->
+					<path>Antylike/Tails/ATTail_MPA_south</path>
+					<hediffGraphics>
+						<AntyTransitionRefleum>Antylike/Tails/ATTail_MPB</AntyTransitionRefleum>
+					</hediffGraphics>
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<angle>0</angle>
+					<layerOffset>-0.4</layerOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
 			</bodyAddons><!-- 몸부착물 -->
 		</alienPartGenerator>
 		</generalSettings>

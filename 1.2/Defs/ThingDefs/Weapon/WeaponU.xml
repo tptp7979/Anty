@@ -237,6 +237,9 @@
 		<defName>AT_Apparel_chunk</defName>
 		<label>Anty chunk kit</label>
 		<description>It is a device that generates cover at high speed using Refleum's impact response.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Chunk_A</ThingDef>
+		</descriptionHyperlinks>
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
@@ -376,6 +379,9 @@
 		<defName>AT_Apparel_barricade</defName>
 		<label>Anty barricade kit</label>
 		<description>It is a device that generates cover at high speed using Refleum's impact response.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Barricade_A</ThingDef>
+		</descriptionHyperlinks>
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
