@@ -1040,6 +1040,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
         <multiplier>0</multiplier>
       </li>
 	  <li>
+        <damageDef>AT_glueBomb_B</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+	  <li>
         <damageDef>AT_AcidBullet</damageDef>
         <multiplier>0.8</multiplier>
       </li>
@@ -1049,6 +1053,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
       </li>
 	  <li>
         <damageDef>AT_AcidBomb_B</damageDef>
+        <multiplier>0.8</multiplier>
+      </li>
+	   <li>
+        <damageDef>AT_AcidBomb_C</damageDef>
         <multiplier>0.8</multiplier>
       </li>
 	  <li>
