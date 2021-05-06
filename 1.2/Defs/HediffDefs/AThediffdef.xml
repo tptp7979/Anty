@@ -953,7 +953,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-7</severityPerDay>
+				<severityPerDay>-3.5</severityPerDay>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>Combatglue</stateEffecter>
