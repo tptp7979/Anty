@@ -45,20 +45,20 @@
   <Eraser_jelly.description>초기화 젤리.</Eraser_jelly.description>
   <Chemicaldissolution.label>산성용해</Chemicaldissolution.label>
   <Chemicaldissolution.labelNoun>산성용해</Chemicaldissolution.labelNoun>
-  <Chemicaldissolution.description>산성용해\n\n20초간 0.1데미지/5초.\n\n한 신체 부위에 60 이상의 피해가 있다면 그 부위를 파괴함.</Chemicaldissolution.description>
+  <Chemicaldissolution.description>산성용해\n\n20초간 0.1데미지/5초.\n\n한 신체 부위에 60 이상의 산성 피해가 있다면 그 부위를 파괴함.</Chemicaldissolution.description>
   <Chemicaldissolution.comps.1.labelTendedWell>치료됨</Chemicaldissolution.comps.1.labelTendedWell>
   <Chemicaldissolution.comps.1.labelTendedWellInner>치료됨</Chemicaldissolution.comps.1.labelTendedWellInner>
   <Chemicaldissolution.comps.1.labelSolidTendedWell>치료됨</Chemicaldissolution.comps.1.labelSolidTendedWell>
   <Chemicaldissolution.comps.3.permanentLabel>산성용해 흉터</Chemicaldissolution.comps.3.permanentLabel>
   <Chemicaldissolution.injuryProps.destroyedLabel>녹아내림</Chemicaldissolution.injuryProps.destroyedLabel>
   <Chemicaldissolution.injuryProps.destroyedOutLabel>녹아내림</Chemicaldissolution.injuryProps.destroyedOutLabel>
-  <Chemicaldissolution_high.label>산성용해</Chemicaldissolution_high.label>
-  <Chemicaldissolution_high.labelNoun>산성용해</Chemicaldissolution_high.labelNoun>
-  <Chemicaldissolution_high.description>산성용해\n\n40초간 0.3데미지/5초.\n\n한 신체 부위에 35 이상의 피해가 있다면 그 부위를 파괴함.</Chemicaldissolution_high.description>
+  <Chemicaldissolution_high.label>레드버스트용해</Chemicaldissolution_high.label>
+  <Chemicaldissolution_high.labelNoun>레드버스트용해</Chemicaldissolution_high.labelNoun>
+  <Chemicaldissolution_high.description>레드버스트용해\n\n40초간 0.3데미지/5초.\n\n한 신체 부위에 35 이상의 레드버스트 피해가 있다면 그 부위를 파괴함.</Chemicaldissolution_high.description>
   <Chemicaldissolution_high.comps.1.labelTendedWell>치료됨</Chemicaldissolution_high.comps.1.labelTendedWell>
   <Chemicaldissolution_high.comps.1.labelTendedWellInner>치료됨</Chemicaldissolution_high.comps.1.labelTendedWellInner>
   <Chemicaldissolution_high.comps.1.labelSolidTendedWell>치료됨</Chemicaldissolution_high.comps.1.labelSolidTendedWell>
-  <Chemicaldissolution_high.comps.3.permanentLabel>산성용해 흉터</Chemicaldissolution_high.comps.3.permanentLabel>
+  <Chemicaldissolution_high.comps.3.permanentLabel>레드버스트용해 흉터</Chemicaldissolution_high.comps.3.permanentLabel>
   <Chemicaldissolution_high.injuryProps.destroyedLabel>녹아내림</Chemicaldissolution_high.injuryProps.destroyedLabel>
   <Chemicaldissolution_high.injuryProps.destroyedOutLabel>녹아내림</Chemicaldissolution_high.injuryProps.destroyedOutLabel>
   
@@ -71,13 +71,13 @@
   <Chemicaldissolution_con.comps.3.permanentLabel>산성용해 흉터</Chemicaldissolution_con.comps.3.permanentLabel>
   <Chemicaldissolution_con.injuryProps.destroyedLabel>녹아내림</Chemicaldissolution_con.injuryProps.destroyedLabel>
   <Chemicaldissolution_con.injuryProps.destroyedOutLabel>녹아내림</Chemicaldissolution_con.injuryProps.destroyedOutLabel>
-  <Chemicaldissolution_con_high.label>산성용해</Chemicaldissolution_con_high.label>
-  <Chemicaldissolution_con_high.labelNoun>산성용해</Chemicaldissolution_con_high.labelNoun>
-  <Chemicaldissolution_con_high.description>산성용해</Chemicaldissolution_con_high.description>
+  <Chemicaldissolution_con_high.label>레드버스트용해</Chemicaldissolution_con_high.label>
+  <Chemicaldissolution_con_high.labelNoun>레드버스트용해</Chemicaldissolution_con_high.labelNoun>
+  <Chemicaldissolution_con_high.description>레드버스트용해</Chemicaldissolution_con_high.description>
   <Chemicaldissolution_con_high.comps.1.labelTendedWell>치료됨</Chemicaldissolution_con_high.comps.1.labelTendedWell>
   <Chemicaldissolution_con_high.comps.1.labelTendedWellInner>치료됨</Chemicaldissolution_con_high.comps.1.labelTendedWellInner>
   <Chemicaldissolution_con_high.comps.1.labelSolidTendedWell>치료됨</Chemicaldissolution_con_high.comps.1.labelSolidTendedWell>
-  <Chemicaldissolution_con_high.comps.3.permanentLabel>산성용해 흉터</Chemicaldissolution_con_high.comps.3.permanentLabel>
+  <Chemicaldissolution_con_high.comps.3.permanentLabel>레드버스트용해 흉터</Chemicaldissolution_con_high.comps.3.permanentLabel>
   <Chemicaldissolution_con_high.injuryProps.destroyedLabel>녹아내림</Chemicaldissolution_con_high.injuryProps.destroyedLabel>
   <Chemicaldissolution_con_high.injuryProps.destroyedOutLabel>녹아내림</Chemicaldissolution_con_high.injuryProps.destroyedOutLabel>
   
