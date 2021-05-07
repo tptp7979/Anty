@@ -119,6 +119,7 @@
 			<tags>
 				<li>AT_Gear</li>
 			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
 
 		<recipeMaker>
