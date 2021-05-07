@@ -99,11 +99,11 @@
 
 				<RecipeDef ParentName="SurgeryHard">
 					<defName>CureInjury_AT_Acidmelt_B</defName>
-					<label>cure Acid melt (2 med)</label>
-					<description>Cure Acid melt.</description>
+					<label>cure Red burst melt (2 med)</label>
+					<description>Cure Red burst melt.</description>
 					<workerClass>Recipe_RemoveHediff</workerClass>
-					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Acid melt.</successfullyRemovedHediffMessage>
-					<jobString>Curing Acid melt.</jobString>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Red burst melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Red burst melt.</jobString>
 					<removesHediff>Chemicaldissolution_high</removesHediff>
 					<ingredients>
 						<li>
@@ -124,11 +124,11 @@
 				
 				<RecipeDef ParentName="SurgeryHard">
 					<defName>CureInjury_AT_Acidmelt_B_con</defName>
-					<label>cure Acid melt (2 med)</label>
-					<description>Cure Acid melt.</description>
+					<label>cure Red burst melt (2 med)</label>
+					<description>Cure Red burst melt.</description>
 					<workerClass>Recipe_RemoveHediff</workerClass>
-					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Acid melt.</successfullyRemovedHediffMessage>
-					<jobString>Curing Acid melt.</jobString>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Red burst melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Red burst melt.</jobString>
 					<removesHediff>Chemicaldissolution_con_high</removesHediff>
 					<ingredients>
 						<li>

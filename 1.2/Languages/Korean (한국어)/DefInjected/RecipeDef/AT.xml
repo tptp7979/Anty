@@ -36,20 +36,20 @@
   <CureInjury_AT_Acidmelt_A.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_A.successfullyRemovedHediffMessage>
   <CureInjury_AT_Acidmelt_A.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_A.jobString>
   
-  <CureInjury_AT_Acidmelt_B.label>산성용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B.label>
-  <CureInjury_AT_Acidmelt_B.description>산성용해를 치료합니다.</CureInjury_AT_Acidmelt_B.description>
-  <CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>
-  <CureInjury_AT_Acidmelt_B.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_B.jobString>
+  <CureInjury_AT_Acidmelt_B.label>레드버스트용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B.label>
+  <CureInjury_AT_Acidmelt_B.description>레드버스트용해를 치료합니다.</CureInjury_AT_Acidmelt_B.description>
+  <CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>{0} 은(는) {1}의 레드버스트용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_B.jobString>레드버스트용해 치료.</CureInjury_AT_Acidmelt_B.jobString>
   
   <CureInjury_AT_Acidmelt_A_con.label>산성용해 치료(1 의약품)</CureInjury_AT_Acidmelt_A_con.label>
   <CureInjury_AT_Acidmelt_A_con.description>산성용해를 치료합니다.</CureInjury_AT_Acidmelt_A_con.description>
   <CureInjury_AT_Acidmelt_A_con.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_A_con.successfullyRemovedHediffMessage>
   <CureInjury_AT_Acidmelt_A_con.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_A_con.jobString>
   
-  <CureInjury_AT_Acidmelt_B_con.label>산성용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B_con.label>
-  <CureInjury_AT_Acidmelt_B_con.description>산성용해를 치료합니다.</CureInjury_AT_Acidmelt_B_con.description>
-  <CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>
-  <CureInjury_AT_Acidmelt_B_con.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_B_con.jobString>
+  <CureInjury_AT_Acidmelt_B_con.label>레드버스트용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B_con.label>
+  <CureInjury_AT_Acidmelt_B_con.description>레드버스트용해를 치료합니다.</CureInjury_AT_Acidmelt_B_con.description>
+  <CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>{0} 은(는) {1}의 레드버스트용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_B_con.jobString>레드버스트용해 치료.</CureInjury_AT_Acidmelt_B_con.jobString>
   
   <InstallAT_Reinforcedexoskeleton.label>앤티 강화 외골격 장착</InstallAT_Reinforcedexoskeleton.label>
   <InstallAT_Reinforcedexoskeleton.description>앤티 강화 외골격을 장착합니다.</InstallAT_Reinforcedexoskeleton.description>
