@@ -638,7 +638,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>Chemicaldissolution</defName>
 		<label>Acid melt</label>
 		<labelNoun>Acid melt</labelNoun>
-		<description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 damage to a body part, the part is destroyed.</description>
+		<description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 acid damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -737,9 +737,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
 	<HediffDef ParentName="InjuryBase">
 		<defName>Chemicaldissolution_high</defName>
-		<label>Acid melt</label>
-		<labelNoun>Acid melt</labelNoun>
-		<description>Acid melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 damage to a body part, the part is destroyed.</description>
+		<label>Red burst melt</label>
+		<labelNoun>Red burst melt</labelNoun>
+		<description>Red burst melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 Red burst damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -755,7 +755,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<infectionChance>0.1</infectionChance>
 			</li>
 			<li Class="HediffCompProperties_GetsPermanent">
-				<permanentLabel>Acid melt scar</permanentLabel>
+				<permanentLabel>Red burst melt scar</permanentLabel>
 			</li>
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidDamage_High</damageDef>
@@ -785,9 +785,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
 	<HediffDef ParentName="InjuryBase">
 		<defName>Chemicaldissolution_con_high</defName>
-		<label>Acid melt</label>
-		<labelNoun>Acid melt</labelNoun>
-		<description>Acid melt</description>
+		<label>Red burst melt</label>
+		<labelNoun>Red burst melt</labelNoun>
+		<description>Red burst melt</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -803,7 +803,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<infectionChance>0.1</infectionChance>
 			</li>
 			<li Class="HediffCompProperties_GetsPermanent">
-				<permanentLabel>Acid melt scar</permanentLabel>
+				<permanentLabel>Red burst melt scar</permanentLabel>
 			</li>
 		</comps>
 		<injuryProps>
@@ -818,10 +818,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
 	<DamageDef Name="AT_AcidDamage_High">
 		<defName>AT_AcidDamage_High</defName>
-		<label>Acid melt</label>
+		<label>Red burst melt</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
-		<deathMessage>{0} has been Acid melt to death.</deathMessage>
+		<deathMessage>{0} has been Red burst melt to death.</deathMessage>
 		<hediff>Chemicaldissolution_con_high</hediff>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<impactSoundType>AntyAcid_Bullet</impactSoundType>
