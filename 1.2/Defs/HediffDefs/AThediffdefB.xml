@@ -19,6 +19,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<everCurableByItem>false</everCurableByItem>
+		<defaultLabelColor>(0.3, 0.8, 0.3)</defaultLabelColor>
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
 				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
