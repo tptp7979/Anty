@@ -228,6 +228,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</categories>
 		</fixedIngredientFilter>
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
+		<recipeUsers>
+			<li>Anty</li>
+	</recipeUsers>
 	</RecipeDef>
 
 	<LetterDef Name="AT_Increasedviability">
