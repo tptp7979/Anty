@@ -12,7 +12,7 @@
 	</PawnKindDef>
 
 	<!-- 앤티 플레이어 정착민 -->
-	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
+	<PawnKindDef Name="AT_Colonist" ParentName="AntyPlayerBasePawnKind">
 		<defName>AT_Colonist</defName>
 		<label>Anty Scout</label>
 		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
@@ -40,6 +40,11 @@
 		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
 		<maxGenerationAge>3</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AT_Colonist">
+		<defName>AT_Colonist_B</defName>
+		<defaultFactionType>AncientsHostile</defaultFactionType>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyPlayerBasePawnKind">

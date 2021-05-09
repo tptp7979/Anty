@@ -79,9 +79,11 @@
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
+			<li>Caravan_AT_REA</li>
 		</visitorTraderKinds>
 		<baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
+			<li>Caravan_AT_REA</li>
 		</baseTraderKinds>
 		
     <techLevel>Spacer</techLevel>
