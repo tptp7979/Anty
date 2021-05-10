@@ -374,7 +374,7 @@
 	<ResearchProjectDef>
 		<defName>AT_IncreasedviabilitySurgery</defName>
 		<label>Increased viability Surgery</label>
-		<description>Research to unlock the surgery to increase the viability by injecting Refleum into the body of Anties.</description>
+		<description>Research to unlock the surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</description>
 		<tab>AntyHiveTech</tab>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
