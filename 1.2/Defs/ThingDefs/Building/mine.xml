@@ -81,7 +81,7 @@
 			<drawSize>7.7</drawSize>
 			<shaderParameters>
 				<_smokeScrollSpeed>0.1</_smokeScrollSpeed>
-				<_rotationSpeed>0.2</_rotationSpeed>
+				<_rotationSpeed>0.05</_rotationSpeed>
 				<_smokeAmount>0.1</_smokeAmount>
 				<_MainTex>/Things/Mote/IngressbreakerRadius</_MainTex>
 				<_ScanTex>/Things/Mote/IngressbreakerRadius</_ScanTex>
