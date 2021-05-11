@@ -1025,13 +1025,13 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		  <li>RemoveBodyPart</li>
 		  <li>Euthanize</li>
 		  <li>Anesthetize</li> -->
-		  <li>ExciseCarcinoma</li>
+			<li>ExciseCarcinoma</li>
 			<li>AdministerMechSerumHealer</li>
 			<li>RemoveBodyPart</li>
 			<li>Euthanize</li>
 			<li>Anesthetize</li>
 			<li>CureScaria</li>
-	  <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+		 	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
     </recipes><!-- 수술 -->
 	<damageMultipliers>
