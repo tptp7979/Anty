@@ -47,13 +47,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>.</description>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
-		<initialSeverity>0.01</initialSeverity>
-		<maxSeverity>0.2</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>1000</severityPerDay>
-			</li>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>810</disappearsAfterTicks>
 			</li>
@@ -61,12 +58,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<stages>
 			<li>
 				<becomeVisible>false</becomeVisible>
-				<minSeverity>0</minSeverity>
-				<painOffset>0.50</painOffset>
-			</li>
-			<li>
-				<becomeVisible>false</becomeVisible>
-				<minSeverity>0.1</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -641,10 +632,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 acid damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0</severityPerDay><!-- 7 -->
-				<showHoursToRecover>false</showHoursToRecover>
-			</li>
 			<li Class="HediffCompProperties_TendDuration">
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
@@ -689,10 +676,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Acid melt</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0</severityPerDay><!-- 7 -->
-				<showHoursToRecover>false</showHoursToRecover>
-			</li>
 			<li Class="HediffCompProperties_TendDuration">
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
@@ -742,10 +725,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Red burst melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 Red burst damage to a body part, the part is destroyed.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0</severityPerDay>
-				<showHoursToRecover>false</showHoursToRecover>
-			</li>
 			<li Class="HediffCompProperties_TendDuration">
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
@@ -790,10 +769,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Red burst melt</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0</severityPerDay>
-				<showHoursToRecover>false</showHoursToRecover>
-			</li>
 			<li Class="HediffCompProperties_TendDuration">
 				<labelTendedWell>bandaged</labelTendedWell>
 				<labelTendedWellInner>tended</labelTendedWellInner>
