@@ -39,7 +39,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<hediffGivers>
 				<li Class="HediffGiver_Random">
 					<hediff>AntyTransitionRefleum</hediff>
-					<mtbDays>30</mtbDays>
+					<mtbDays>20</mtbDays>
 					<partsToAffect>
 						<li>Antyabdomen</li>
 					</partsToAffect>
@@ -93,7 +93,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<mentalStateGivers>
 					<li>
 						<mentalState>Berserk</mentalState>
-						<mtbDays>15</mtbDays>
+						<mtbDays>1</mtbDays>
 					</li>
 				</mentalStateGivers>
 			</li>
