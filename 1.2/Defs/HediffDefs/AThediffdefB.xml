@@ -84,6 +84,34 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					</li>
 				</tools>
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>AT_SporeBomb</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<minDaysB4Next>2</minDaysB4Next>
+				<maxDaysB4Next>4</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
+				<settings>
+					<things>
+						<li>
+							<thingToSpawn>AT_SporeBomb</thingToSpawn>
+							<weight>100</weight>
+						</li>
+					</things>
+					<defaultSettings>
+						<stack>
+							<spawnCount>1</spawnCount>
+						</stack>
+					</defaultSettings>
+				</settings>
+					
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
 		</comps>
 		<stages>
 			<li>
@@ -93,7 +121,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<mentalStateGivers>
 					<li>
 						<mentalState>Berserk</mentalState>
-						<mtbDays>1</mtbDays>
+						<mtbDays>3</mtbDays>
 					</li>
 				</mentalStateGivers>
 			</li>
@@ -241,4 +269,42 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<arriveSound>LetterArrive_Good</arriveSound>
 	</LetterDef>
 
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_SporeBomb</defName>
+		<label>Spore release</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Things/Item/pheromone/BB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>AT_SporeBomb</explosiveDamageType>
+				<damageAmountBase>5</damageAmountBase>
+				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>1</startWickHitPointsPercent>
+				<wickTicks>0</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>AT_SporeBomb</target>
+				<radius>1.9</radius>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<DamageDef ParentName="AT_AcidBomb_B">
+		<defName>AT_SporeBomb</defName>
+		<soundExplosion>Explosion_Acid_SB</soundExplosion>
+		<minDamageToFragment>10</minDamageToFragment>
+		<additionalHediffs>
+			<li>
+				<hediff>Bite_Refleum_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
 </Defs>

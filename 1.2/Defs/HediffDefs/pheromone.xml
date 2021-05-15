@@ -609,6 +609,6 @@
 	<DamageDef ParentName="AT_AcidBomb_B">
 		<defName>AT_AcidBomb_C</defName>
 		<soundExplosion>Explosion_Acid_SB</soundExplosion>
-		<minDamageToFragment>500</minDamageToFragment>
+		<minDamageToFragment>10</minDamageToFragment>
 	</DamageDef>
 </Defs>
