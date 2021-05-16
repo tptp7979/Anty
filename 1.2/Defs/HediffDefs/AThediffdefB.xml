@@ -67,6 +67,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<HediffDef>AntyIncreasedviability</HediffDef>
 		</descriptionHyperlinks>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>true</isBad>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<makesSickThought>true</makesSickThought>
@@ -234,7 +235,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
-		<targetsBodyPart>false</targetsBodyPart>
+		<!-- <targetsBodyPart>false</targetsBodyPart> -->
 		<removesHediff>AntyTransitionRefleum</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully Removed {1}'s TransitionRefleum.</successfullyRemovedHediffMessage>
 		<skillRequirements>
@@ -258,7 +259,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 		<recipeUsers>
 			<li>Anty</li>
-	</recipeUsers>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
 	<LetterDef Name="AT_Increasedviability">
