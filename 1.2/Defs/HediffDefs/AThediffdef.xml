@@ -1191,7 +1191,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<MarketValue>6.0</MarketValue>
 			<Mass>0.025</Mass>
 			<Nutrition>1</Nutrition>
-			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
