@@ -153,7 +153,23 @@
 					<li>Corpses</li>
 				</categories>
 			</filter>
-			<count>3</count>
+			<count>1</count>
+		  </li>
+		  <li>
+			<filter>
+				<categories>
+					<li>Corpses</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		  </li>
+		  <li>
+			<filter>
+				<categories>
+					<li>Corpses</li>
+				</categories>
+			</filter>
+			<count>1</count>
 		  </li>
 		</ingredients>
 		<specialProducts>
@@ -191,7 +207,23 @@
 					<li>Corpses</li>
 				</categories>
 			</filter>
-        <count>3</count>
+        <count>1</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>Corpses</li>
+				</categories>
+			</filter>
+        <count>1</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>Corpses</li>
+				</categories>
+			</filter>
+        <count>1</count>
 		</li>
     </ingredients>
     <specialProducts>
