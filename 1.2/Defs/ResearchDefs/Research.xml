@@ -136,6 +136,8 @@
 		<tags>
 			<li>AntyHive</li>
 		</tags>
+		<discoveredLetterTitle>About: Recyclecore</discoveredLetterTitle>
+		<discoveredLetterText>An artificial intelligence core fabricated with corpses.\n\n Used for major equipment or buildings and can be made on the Copy Machining Table.</discoveredLetterText>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>

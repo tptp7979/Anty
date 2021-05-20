@@ -11,6 +11,9 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Anty_Recyclecore</ThingDef>
+		</descriptionHyperlinks>
 		<castEdgeShadows>True</castEdgeShadows>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>

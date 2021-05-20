@@ -7,6 +7,7 @@
 		<description>A landmine with advanced mechanoid detector, which can detonate when it sense mechanoid even from a distance. It can also works like a regular landmine against other targets.\n\nIt is filled with concentrated red-burst, which makes it effective against not only mechanoids, but all types of enemies.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Chemicaldissolution_high</HediffDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Building/SI/AT_FM</texPath>

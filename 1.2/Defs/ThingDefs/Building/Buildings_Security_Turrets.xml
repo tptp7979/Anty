@@ -7,6 +7,7 @@
 		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Chemicaldissolution</HediffDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
@@ -152,6 +153,7 @@
 		<descriptionHyperlinks>
 			<HediffDef>Chemicaldissolution</HediffDef>
 			<HediffDef>AT_glue_Link</HediffDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>

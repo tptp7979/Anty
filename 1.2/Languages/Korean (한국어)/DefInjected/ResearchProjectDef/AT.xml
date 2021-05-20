@@ -21,7 +21,9 @@
   
   <Mediumcolony.label>중기군체</Mediumcolony.label>
   <Mediumcolony.description>군체를 더욱 확장시킬 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</Mediumcolony.description>
-  
+  <Mediumcolony.discoveredLetterTitle>정보: 재활용 코어</Mediumcolony.discoveredLetterTitle>
+  <Mediumcolony.discoveredLetterText>시체들을 이용해 만들어낸 유기물 관리 코어입니다.\n\n 주요 건물이나 장비의 제작에 사용되며, 앤티 기계 가공대에서 제작이 가능합니다.</Mediumcolony.discoveredLetterText>
+
   <AntyAcidweapon_B.label>산성 화기 ⅰ</AntyAcidweapon_B.label>
   <AntyAcidweapon_B.description>앤티들이 체내에 축적해 두는 산성물질을 전투에 활용할 수 있게 해 주는 화기를 사용할 수 있게 됩니다.</AntyAcidweapon_B.description>
   

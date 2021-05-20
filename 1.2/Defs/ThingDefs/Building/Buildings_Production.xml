@@ -235,6 +235,7 @@
 		<description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Antie DNA injected into the device.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AntyExoskeleton</ThingDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Building/Production/Copy_A</texPath>
@@ -310,6 +311,7 @@
 		<description>A device that can incubate refleum based on the exoskeleton of Anties.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Refleum</ThingDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Building/Production/Refleum</texPath>
@@ -504,6 +506,7 @@
 		<description>It is a generator that generates electricity from the extract of aphids.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Aphidextract</ThingDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building</thingClass>
 		<graphicData>
