@@ -25,11 +25,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</comps>
 		<stages>
 			<li>
+				<vomitMtbDays>0.3</vomitMtbDays>
 				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.1</setMax>
-					</li>
 					<li>
 						<capacity>Consciousness</capacity>
 						<offset>-0.5</offset>
@@ -61,7 +58,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>-0.6</offset>
+						<offset>-0.7</offset>
 					</li>
 				</capMods>
 			</li>
