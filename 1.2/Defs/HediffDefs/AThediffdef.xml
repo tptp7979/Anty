@@ -106,7 +106,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
-		<minSeverity>1.0</minSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
@@ -165,7 +164,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
-		<minSeverity>1.0</minSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
@@ -281,7 +279,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
-		<minSeverity>1.0</minSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="HediffCompProperties_Discoverable">
