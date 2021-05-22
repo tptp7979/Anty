@@ -86,7 +86,7 @@
 				<_smokeAmount>0.1</_smokeAmount>
 				<_MainTex>/Things/Mote/IngressbreakerRadius</_MainTex>
 				<_ScanTex>/Things/Mote/IngressbreakerRadius</_ScanTex>
-				<_SmokeTex>/Things/Mote/SmokeTiled</_SmokeTex>
+				<_SmokeTex>/Things/Mote/IngressbreakerRadius</_SmokeTex>
 			</shaderParameters>
 		</graphicData>
 	</ThingDef>
