@@ -68,6 +68,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</descriptionHyperlinks>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>true</isBad>
+		<tendable>true</tendable>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<makesSickThought>true</makesSickThought>
@@ -112,6 +113,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					
 				<spawnMaxAdjacent>40</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<disappearsAtTotalTendQuality>0.5</disappearsAtTotalTendQuality>
 			</li>
 		</comps>
 		<stages>

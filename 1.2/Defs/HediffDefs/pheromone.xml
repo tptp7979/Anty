@@ -89,7 +89,7 @@
 				</li>
 			<li Class="MoharHediffs.HediffCompProperties_Spawner">
 				<thingToSpawn>Anty_pheromone</thingToSpawn>
-				<spawnCount>1</spawnCount>
+				<spawnCount>4</spawnCount>
 				<minDaysB4Next>0.98</minDaysB4Next>
 				<maxDaysB4Next>0.99</maxDaysB4Next>
 				<randomGrace>0</randomGrace>
@@ -98,6 +98,16 @@
 				<spawnVerb>production</spawnVerb>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<ThingDef ParentName="ResourceBase">
