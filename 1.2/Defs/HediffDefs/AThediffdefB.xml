@@ -116,7 +116,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</li>
 			<li Class="HediffCompProperties_TendDuration">
 				<baseTendDurationHours>24</baseTendDurationHours>
-				<disappearsAtTotalTendQuality>0.5</disappearsAtTotalTendQuality>
+				<severityPerDayTended>-0.55</severityPerDayTended>
 			</li>
 		</comps>
 		<stages>
