@@ -9,7 +9,7 @@
 			<texPath>Things/Building/St/Bed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1.75,2)</drawSize>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>Anty_Recyclecore</ThingDef>
