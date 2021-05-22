@@ -115,6 +115,9 @@
 		<defName>Anty_Recyclecore</defName>
 		<label>Recyclecore</label>
 		<description>An artificial intelligence core fabricated with corpses.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AntyCopyTableMachining</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Core</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
