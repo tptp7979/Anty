@@ -8,16 +8,6 @@
 		</colorSpectrum>
 	</FactionDef>
 	
-	<Operation Class="PatchOperationAdd">
-	<xpath>*/PawnKindDef[defName="Colonist"]</xpath>
-		<value>
-			<backstoryCategories>
-				<li>Offworld</li>
-			</backstoryCategories>
-		</value>
-	</Operation>
-  
-  
   <!-- 앤티 플레이어 -->
 	<FactionDef ParentName="AT_PlayerFactionBase">
 		<defName>AT_PlayerFaction</defName>
