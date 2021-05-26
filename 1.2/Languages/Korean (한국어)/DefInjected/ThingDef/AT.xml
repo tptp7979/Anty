@@ -208,13 +208,13 @@
   <AT_Apparel_CombatSmoke.description>앤티들이 전장에서 적들의 이동과 시야를 확실하게 억제하기 위해서 개발한 장비입니다.</AT_Apparel_CombatSmoke.description>
   <BulletCombatSmokeLauncher.label>리플리움 가스 유탄</BulletCombatSmokeLauncher.label>
   <AT_Apparel_CombatSmoke.comps.CompReloadable.chargeNoun>리플리움 가스 유탄</AT_Apparel_CombatSmoke.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.0.label>리플리움 가스팩 발사</AT_Apparel_chunk.verbs.0.label>
+  <AT_Apparel_CombatSmoke.verbs.0.label>리플리움 가스팩 발사</AT_Apparel_CombatSmoke.verbs.0.label>
   
   <AT_Apparel_pheromone_TP.label>지정페로몬 킷</AT_Apparel_pheromone_TP.label>
   <AT_Apparel_pheromone_TP.description>앤티 지휘관들이 병사들에게 공격 지시를 내릴 때 사용하는 장비입니다.</AT_Apparel_pheromone_TP.description>
   <AT_BulletTargetingLauncher.label>지정유탄</AT_BulletTargetingLauncher.label>
   <AT_Apparel_pheromone_TP.comps.CompReloadable.chargeNoun>지정페로몬</AT_Apparel_pheromone_TP.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.0.label>지정페로몬 발사</AT_Apparel_chunk.verbs.0.label>
+  <AT_Apparel_pheromone_TP.verbs.0.label>지정페로몬 발사</AT_Apparel_pheromone_TP.verbs.0.label>
   
   
   <AT_Apparel_chunk.label>외골격잔해 킷</AT_Apparel_chunk.label>
