@@ -763,6 +763,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<li>AT_AP_Power_C</li>
 				<li>AT_AP_Power_Head_C</li>
 				<li>AT_AP_AdditionalPower_C</li>
+				<li>AT_AP_Power_D</li>
+				<li>AT_AP_Power_Head_D</li>
+				<li>AT_AP_AdditionalPower_D</li>
             </apparelList><!-- 옷 -->
 			
 			<whiteApparelList>

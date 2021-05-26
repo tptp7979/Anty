@@ -48,7 +48,7 @@
   <AT_AP_CO_B.description>앤티 지휘관들이 걸치는 망토 입니다. 단순히 계급을 나타내기 위한 옷으로, 방어 성능은 거의 없지만 추위를 어느정도 막아줍니다.</AT_AP_CO_B.description>
   
   <AT_AP_Power_A.label>앤티 카타글리피스 아머</AT_AP_Power_A.label>
-  <AT_AP_Power_A.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_A.description>
+  <AT_AP_Power_A.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n내장된 사격통제 시스템이 조준을 도와줍니다.</AT_AP_Power_A.description>
   <AT_AP_Power_Head_A.label>앤티 카타글리피스 헬멧</AT_AP_Power_Head_A.label>
   <AT_AP_Power_Head_A.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_A.description>
   <AT_AP_AdditionalPower_A.label>앤티 카타글리피스 사이드아머</AT_AP_AdditionalPower_A.label>
@@ -64,15 +64,25 @@
   
   
   <AT_AP_Power_C.label>앤티 디노포네라 아머</AT_AP_Power_C.label>
-  <AT_AP_Power_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다. 두터운 장갑 때문에 이동이 불편하지만 직접 이동하는 대신에 적을 끌어올 수 있습니다.</AT_AP_Power_C.description>
+  <AT_AP_Power_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n 두터운 장갑 때문에 이동이 불편하지만 직접 이동하는 대신에 적을 끌어올 수 있습니다.</AT_AP_Power_C.description>
   <AT_AP_Power_Head_C.label>앤티 디노포네라 헬멧</AT_AP_Power_Head_C.label>
   <AT_AP_Power_Head_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_C.description>
   <AT_AP_AdditionalPower_C.label>앤티 디노포네라 사이드아머</AT_AP_AdditionalPower_C.label>
   <AT_AP_AdditionalPower_C.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_C.description>
   <AT_AP_Power_C.comps.CompReloadable.chargeNoun>외교용 사슬</AT_AP_Power_C.comps.CompReloadable.chargeNoun>
-  <AT_AP_Power_C.verbs.pop_Refleum_Gaspack.label>외교용 사슬 발사</AT_AP_Power_C.verbs.pop_Refleum_Gaspack.label>
+  <AT_AP_Power_C.verbs.label>외교용 사슬 발사</AT_AP_Power_C.verbs.label>
   <BulletExecutionerChain.label>외교용 사슬</BulletExecutionerChain.label>
   
+  <AT_AP_Power_D.label>앤티 파라포네라 아머</AT_AP_Power_D.label>
+  <AT_AP_Power_D.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n적의 무장을 해제시킬 수 있습니다.</AT_AP_Power_D.description>
+  <AT_AP_Power_Head_D.label>앤티 파라포네라 헬멧</AT_AP_Power_Head_D.label>
+  <AT_AP_Power_Head_D.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_D.description>
+  <AT_AP_AdditionalPower_D.label>앤티 파라포네라 사이드아머</AT_AP_AdditionalPower_D.label>
+  <AT_AP_AdditionalPower_D.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_D.description>
+  <AT_AP_Power_D.comps.CompReloadable.chargeNoun>외교용 바늘</AT_AP_Power_D.comps.CompReloadable.chargeNoun>
+  <AT_AP_Power_D.verbs.0.label>외교용 바늘 발사</AT_AP_Power_D.verbs.0.label>
+  <AT_BulletParaponeraLauncher.label>외교용 바늘</AT_BulletParaponeraLauncher.label>
+
   <AntyCopyTailoringBench.label>앤티 재봉대</AntyCopyTailoringBench.label>
   <AntyCopyTailoringBench.description>앤티들이 기존의 재봉대를 모방하여 만든 재봉대 입니다.</AntyCopyTailoringBench.description>
   <AntyCopyTableMachining.label>앤티 기계가공대</AntyCopyTableMachining.label>
@@ -198,13 +208,13 @@
   <AT_Apparel_CombatSmoke.description>앤티들이 전장에서 적들의 이동과 시야를 확실하게 억제하기 위해서 개발한 장비입니다.</AT_Apparel_CombatSmoke.description>
   <BulletCombatSmokeLauncher.label>리플리움 가스 유탄</BulletCombatSmokeLauncher.label>
   <AT_Apparel_CombatSmoke.comps.CompReloadable.chargeNoun>리플리움 가스 유탄</AT_Apparel_CombatSmoke.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.pop_Refleum_Gaspack.label>리플리움 가스팩 발사</AT_Apparel_chunk.verbs.pop_Refleum_Gaspack.label>
+  <AT_Apparel_chunk.verbs.0.label>리플리움 가스팩 발사</AT_Apparel_chunk.verbs.0.label>
   
   <AT_Apparel_pheromone_TP.label>지정페로몬 킷</AT_Apparel_pheromone_TP.label>
   <AT_Apparel_pheromone_TP.description>앤티 지휘관들이 병사들에게 공격 지시를 내릴 때 사용하는 장비입니다.</AT_Apparel_pheromone_TP.description>
   <AT_BulletTargetingLauncher.label>지정유탄</AT_BulletTargetingLauncher.label>
   <AT_Apparel_pheromone_TP.comps.CompReloadable.chargeNoun>지정페로몬</AT_Apparel_pheromone_TP.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.pop_Targeting_pheromone.label>지정페로몬 발사</AT_Apparel_chunk.verbs.pop_Targeting_pheromone.label>
+  <AT_Apparel_chunk.verbs.0.label>지정페로몬 발사</AT_Apparel_chunk.verbs.0.label>
   
   
   <AT_Apparel_chunk.label>외골격잔해 킷</AT_Apparel_chunk.label>
