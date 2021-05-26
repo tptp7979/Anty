@@ -541,10 +541,10 @@
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.35</MoveSpeed>
+			<MoveSpeed>0.4</MoveSpeed>
 			<Flammability>-1</Flammability>
 			<ToxicSensitivity>-1.5</ToxicSensitivity>
-			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeHitChance>0.3</MeleeHitChance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -708,10 +708,10 @@
 			<EquipDelay>6</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.25</MoveSpeed>
+			<MoveSpeed>0.3</MoveSpeed>
 			<Flammability>-0.5</Flammability>
 			<ToxicSensitivity>-1.5</ToxicSensitivity>
-			<MeleeDodgeChance>0.25</MeleeDodgeChance>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
 		</equippedStatOffsets>
 
 		<apparel>
@@ -780,6 +780,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>0.2</MoveSpeed>
 			<Flammability>-0.5</Flammability>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
 		</equippedStatOffsets>
 
 		<apparel>
