@@ -264,7 +264,7 @@
 	<ThingDef ParentName="Anty_GearBase"><!-- 디노포네라 아머 -->
 		<defName>AT_AP_Power_C</defName>
 		<label>Anty Dinoponera armor</label>
-		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt can force enemies to be dragged around.</description>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIts heavy plating slows the wearer, but it is capable of pull the enemies to the wearer, instead of moving in to them.</description>
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>

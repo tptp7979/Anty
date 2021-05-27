@@ -1176,7 +1176,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AT_Aphidextract</defName>
 		<label>Aphid extract</label>
-		<description>It is an extract containing high concentration of nutrients. Under the influence of nutrient jelly, it still has the properties of genetically modified substances.</description>
+		<description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AT_Aphidextract-stim</HediffDef>
 		</descriptionHyperlinks>

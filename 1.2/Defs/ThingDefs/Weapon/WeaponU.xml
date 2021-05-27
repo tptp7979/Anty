@@ -235,8 +235,8 @@
 	
 	<ThingDef ParentName="ApparelBase"><!-- 급조 엄폐물 -->
 		<defName>AT_Apparel_chunk</defName>
-		<label>Anty chunk kit</label>
-		<description>It is a device that generates cover at high speed using Refleum's impact response.</description>
+		<label>Exoskeleton Chunk Cover Kit</label>
+		<description>A pile of exoskeleton used by Anty to provide protection against enemy fire. It disintegrates over time.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Chunk_A</ThingDef>
 		</descriptionHyperlinks>
@@ -377,8 +377,8 @@
 	
 	<ThingDef ParentName="ApparelBase"><!-- 급조 엄폐물 -->
 		<defName>AT_Apparel_barricade</defName>
-		<label>Anty barricade kit</label>
-		<description>It is a device that generates cover at high speed using Refleum's impact response.</description>
+		<label>Quick Field Cover Kit</label>
+		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Barricade_A</ThingDef>
 		</descriptionHyperlinks>

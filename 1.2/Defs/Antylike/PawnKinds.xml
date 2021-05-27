@@ -528,7 +528,7 @@
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
 		<defName>AT_Power</defName>
-		<label>Anty Reinforced infantry</label>
+		<label>Anty Enhanced Infantry</label>
 		<isFighter>true</isFighter>
 		<combatPower>210</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
@@ -557,7 +557,7 @@
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
 		<defName>AT_Power_A</defName>
-		<label>Anty Reinforced infantry</label>
+		<label>Anty Enhanced Ranged Infantry</label>
 		<isFighter>true</isFighter>
 		<combatPower>220</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
@@ -585,7 +585,7 @@
 	
 	<PawnKindDef ParentName="AntyArmyBase_MB">
 		<defName>AT_Power_B</defName>
-		<label>Anty Reinforced infantry</label>
+		<label>Anty Enhanced Close Combat Infantry</label>
 		<isFighter>true</isFighter>
 		<combatPower>280</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
@@ -614,7 +614,7 @@
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
 		<defName>AT_Power_C</defName>
-		<label>Anty Reinforced infantry</label>
+		<label>Anty Enhanced Grenadier</label>
 		<isFighter>true</isFighter>
 		<combatPower>280</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>

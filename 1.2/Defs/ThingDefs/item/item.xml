@@ -216,7 +216,7 @@
 	<ThingDef ParentName="AT_BodyPartProstheticBase">
 		<defName>AT_Reinforcedexoskeleton_Thing</defName>
 		<label>Anty Reinforced exoskeleton</label>
-		<description>A reinforced exoskeleton for Anties.</description>
+		<description>An powered exoskeleton for Antys made with Refleum. It organicly binds to the existing exoskeleton, providing excellent protection without causing any discomfortA powered exoskeleton for Antys made with Refleum. It organically binds to the existing exoskeleton, providing excellent protection without causing any discomfort.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>InstallAT_Reinforcedexoskeleton</RecipeDef>
 			<HediffDef>AT_Reinforcedexoskeleton</HediffDef>

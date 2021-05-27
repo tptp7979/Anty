@@ -52,7 +52,7 @@
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_A</defName>
 		<label>Red Burst Rifle</label>
-		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It is the most standard form of Redburst weapon.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
@@ -330,7 +330,7 @@
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_B</defName>
 		<label>Red Burst Line Rifle</label>
-		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
@@ -464,7 +464,7 @@
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_C</defName>
 		<label>Red Burst Cluster</label>
-		<description>It is a weapon developed by Anties to deal with targets with thick armor or strong body itself, such as mechanoids.\n\n Unlike conventional acid weapons, it fires Red Burst, a compound of Anty-acid and Refleum, rather than Anty-acid. Exhibits powerful power.</description>
+		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It causes huge explosion of redburst. It is most effective against stationed or clustered enemies.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
