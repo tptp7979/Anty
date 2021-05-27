@@ -31,7 +31,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>80</Insulation_Cold>
 			<Insulation_Heat>80</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.15</MoveSpeed>
@@ -106,7 +106,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>60</Insulation_Cold>
 			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<Flammability>-0.5</Flammability>
@@ -175,7 +175,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>60</Insulation_Cold>
 			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
@@ -292,7 +292,7 @@
 			<ArmorRating_Heat>1.65</ArmorRating_Heat>
 			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>25</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.45</MoveSpeed>
@@ -397,7 +397,7 @@
 			<ArmorRating_Heat>1.45</ArmorRating_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.25</MoveSpeed>
@@ -467,7 +467,7 @@
 			<ArmorRating_Heat>1.65</ArmorRating_Heat>
 			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>30</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.35</MoveSpeed>
@@ -538,7 +538,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>80</Insulation_Cold>
 			<Insulation_Heat>80</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
@@ -705,7 +705,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>60</Insulation_Cold>
 			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.3</MoveSpeed>
@@ -775,7 +775,7 @@
 			<ArmorRating_Heat>1.25</ArmorRating_Heat>
 			<Insulation_Cold>60</Insulation_Cold>
 			<Insulation_Heat>60</Insulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.2</MoveSpeed>
