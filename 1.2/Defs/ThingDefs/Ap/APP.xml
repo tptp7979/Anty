@@ -598,7 +598,7 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>AT_BulletParaponeraLauncher</defaultProjectile>
 					<label>pop Diplomatic needle</label>
-					<warmupTime>1</warmupTime>
+					<warmupTime>0</warmupTime>
 					<range>8.9</range>
 					<minRange>1.9</minRange>
 					<burstShotCount>1</burstShotCount>
