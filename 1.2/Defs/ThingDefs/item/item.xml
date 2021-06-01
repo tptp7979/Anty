@@ -126,12 +126,11 @@
 		<soundDrop>Standard_Drop</soundDrop>
 		<stackLimit>10</stackLimit>
 		<healthAffectsPrice>false</healthAffectsPrice>
+		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
 			<MarketValue>400</MarketValue>
 			<Mass>10</Mass>
 			<Flammability>0</Flammability>
-			<DeteriorationRate>1.0</DeteriorationRate>
 		</statBases>
 		<intricate>true</intricate>
 		<thingCategories>

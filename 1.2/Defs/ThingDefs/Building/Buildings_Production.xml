@@ -356,7 +356,7 @@
 				<requiresPower>false</requiresPower>
 				<requiresFuel>true</requiresFuel>
 				<thingToSpawn>Refleum</thingToSpawn>
-				<spawnCount>40</spawnCount>
+				<spawnCount>60</spawnCount>
 				<spawnIntervalRange><min>381335</min><max>421869</max></spawnIntervalRange>
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>

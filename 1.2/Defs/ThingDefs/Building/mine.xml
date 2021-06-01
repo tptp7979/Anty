@@ -24,6 +24,8 @@
 		  <li Class="CompProperties_Explosive">
 			<explosiveRadius>3.9</explosiveRadius>
 			<explosiveDamageType>AT_AcidBomb_B</explosiveDamageType>
+			<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
 			<damageAmountBase>70</damageAmountBase>
 			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<wickTicks>35</wickTicks>
