@@ -103,7 +103,7 @@
 		<projectile>
 			<speed>35</speed>
 			<damageDef>AT_AcidBomb</damageDef>
-			<explosionRadius>2.1</explosionRadius>
+			<explosionRadius>1.9</explosionRadius>
 			<explosionDelay>35</explosionDelay>
 			<preExplosionSpawnThingDef>Filth_AntyAcid</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.2</preExplosionSpawnChance>

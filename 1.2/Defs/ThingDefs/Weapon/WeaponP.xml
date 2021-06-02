@@ -98,7 +98,7 @@
 				<defaultProjectile>Bullethydroheliumion</defaultProjectile>
 				<warmupTime>1</warmupTime>
 				<range>34.9</range>
-				<forcedMissRadius>1.9</forcedMissRadius>
+				<forcedMissRadius>2.1</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_G</soundCast>
@@ -138,7 +138,7 @@
 			<damageAmountBase>7</damageAmountBase>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
-			<explosionRadius>1.1</explosionRadius>
+			<explosionRadius>1.9</explosionRadius>
 			<explosionDelay>0</explosionDelay>
 		</projectile>
 	</ThingDef>

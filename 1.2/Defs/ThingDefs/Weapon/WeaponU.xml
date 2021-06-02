@@ -260,8 +260,8 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>AT_Bulletchunk</defaultProjectile>
 					<warmupTime>0.1</warmupTime>
-					<range>14.9</range>
-					<forcedMissRadius>0.1</forcedMissRadius>
+					<range>5.9</range>
+					<!-- <forcedMissRadius>0.1</forcedMissRadius> -->
 					<burstShotCount>1</burstShotCount>
 					<soundCast>ShotAnty_D</soundCast>
 					<muzzleFlashScale>3</muzzleFlashScale>
@@ -362,11 +362,20 @@
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.2, 0.2, 0.6)</color>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+		<thingClass>HeatSeeker.MissileB</thingClass>
+		<comps>
+			<li Class="HeatSeeker.CompProperties_Missile">
+				<destinationOffsetRadius>0</destinationOffsetRadius>
+				<initialOffsetRadius>0</initialOffsetRadius>
+				<inertiaFactor>0.12</inertiaFactor>
+			</li>
+			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
+		</comps>
 		<projectile>
-			<speed>50</speed>
+			<speed>2</speed>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>0</damageAmountBase>
 			<explosionRadius>0.9</explosionRadius>
 			<explosionDelay>30</explosionDelay>
 			<preExplosionSpawnThingDef>AT_Chunk_A</preExplosionSpawnThingDef>
@@ -402,8 +411,8 @@
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>AT_Bulletbarricade</defaultProjectile>
 					<warmupTime>0.1</warmupTime>
-					<range>14.9</range>
-					<forcedMissRadius>0.1</forcedMissRadius>
+					<range>5.9</range>
+					<!-- <forcedMissRadius>0.1</forcedMissRadius> -->
 					<burstShotCount>1</burstShotCount>
 					<soundCast>ShotAnty_D</soundCast>
 					<muzzleFlashScale>3</muzzleFlashScale>
@@ -505,11 +514,20 @@
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.6, 0.2, 0.2)</color>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+		<thingClass>HeatSeeker.MissileB</thingClass>
+		<comps>
+			<li Class="HeatSeeker.CompProperties_Missile">
+				<destinationOffsetRadius>0</destinationOffsetRadius>
+				<initialOffsetRadius>0</initialOffsetRadius>
+				<inertiaFactor>0.12</inertiaFactor>
+			</li>
+			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
+		</comps>
 		<projectile>
-			<speed>50</speed>
+			<speed>2</speed>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>0</damageAmountBase>
 			<explosionRadius>0.9</explosionRadius>
 			<explosionDelay>30</explosionDelay>
 			<preExplosionSpawnThingDef>AT_Barricade_A</preExplosionSpawnThingDef>
