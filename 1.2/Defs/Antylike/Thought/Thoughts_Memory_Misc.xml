@@ -312,32 +312,32 @@
     <stages>
       <!-- First 6 are in descending order, to preserve localizations indices -->
       <li>
-        <label>sky-high expectations</label>
+        <label>taking over the planet</label>
         <description>The war never stops!</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
       <li>
-        <label>high expectations</label>
+        <label>Form Hive aggregation</label>
         <description>Large Hive, Large battlefields, countless deaths. We're going to be very busy!</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
       <li>
-        <label>moderate expectations</label>
+        <label>Form Hive cluster</label>
         <description>I need to grow our Hive even more and run a bigger battlefield.</description>
         <baseMoodEffect>12</baseMoodEffect>
       </li>
       <li>
-        <label>low expectations</label>
+        <label>Form Hive outpost</label>
         <description>Now it looks a bit like a Hive!</description>
         <baseMoodEffect>18</baseMoodEffect>
       </li>
       <li>
-        <label>very low expectations</label>
+        <label>Laying the foundation for the Hive</label>
         <description>We're laying the groundwork for the Hive!</description>
         <baseMoodEffect>24</baseMoodEffect>
       </li>
       <li>
-        <label>extremely low expectations</label>
+        <label>Hive of nothing</label>
         <description>It's a new battlefield!</description>
         <baseMoodEffect>40</baseMoodEffect>
       </li>
