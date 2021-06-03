@@ -339,7 +339,7 @@
       <li>
         <label>extremely low expectations</label>
         <description>It's a new battlefield!</description>
-        <baseMoodEffect>30</baseMoodEffect>
+        <baseMoodEffect>40</baseMoodEffect>
       </li>
 
       <!-- Later are in ascending order, to preserve localizations indices -->

@@ -89,18 +89,19 @@
   <KilledHumanlikeBloodlust_B.stages.0.label>누군가를 죽임</KilledHumanlikeBloodlust_B.stages.0.label>
   <KilledHumanlikeBloodlust_B.stages.0.description>정말 재미있었어!</KilledHumanlikeBloodlust_B.stages.0.description>
 
-  <Expectations_B.stages.0.label>아무 것도 없는 군체</Expectations_B.stages.0.label>
-  <Expectations_B.stages.0.description>새로운 전장이다!</Expectations_B.stages.0.description>
-  <Expectations_B.stages.1.label>군체의 기반을 다짐</Expectations_B.stages.1.label>
-  <Expectations_B.stages.1.description>우린 군체의 기반을 다지고 있어!</Expectations_B.stages.1.description>
-  <Expectations_B.stages.2.label>초기 군체를 형성함</Expectations_B.stages.2.label>
-  <Expectations_B.stages.2.description>이제 좀 군체다워졌어!</Expectations_B.stages.2.description>
-  <Expectations_B.stages.3.label>중기 군체를 형성함</Expectations_B.stages.3.label>
-  <Expectations_B.stages.3.description>군체를 더 키우고 더 넓은 전장을 장악해야해!</Expectations_B.stages.3.description>
-  <Expectations_B.stages.4.label>대군체를 형성함</Expectations_B.stages.4.label>
-  <Expectations_B.stages.4.description>거대한 군체, 거대한 전장, 수 많은 죽음. 우린 아주 바빠질 거야!</Expectations_B.stages.4.description>
-  <Expectations_B.stages.5.label>행성 장악중</Expectations_B.stages.5.label>
-  <Expectations_B.stages.5.description>전쟁은 절대 멈추지 않아!</Expectations_B.stages.5.description>
+  <Expectations_B.stages.5.label>아무것도 없는 군체</Expectations_B.stages.5.label>
+  <Expectations_B.stages.5.description>새로운 전장이다!</Expectations_B.stages.5.description>
+  <Expectations_B.stages.4.label>군체의 기반을 다짐</Expectations_B.stages.4.label>
+  <Expectations_B.stages.4.description>우린 군체의 기반을 다지고 있어!</Expectations_B.stages.4.description>
+  <Expectations_B.stages.3.label>초기 군체를 형성함</Expectations_B.stages.3.label>
+  <Expectations_B.stages.3.description>이제 좀 군체다워졌어!</Expectations_B.stages.3.description>
+  <Expectations_B.stages.2.label>중기 군체를 형성함</Expectations_B.stages.2.label>
+  <Expectations_B.stages.2.description>군체를 더 키우고 더 넓은 전장을 장악해야해!</Expectations_B.stages.2.description>
+  <Expectations_B.stages.1.label>대군체를 형성함</Expectations_B.stages.1.label>
+  <Expectations_B.stages.1.description>거대한 군체, 거대한 전장, 수 많은 죽음. 우린 아주 바빠질 거야!</Expectations_B.stages.1.description>
+  <Expectations_B.stages.0.label>행성 장악중</Expectations_B.stages.0.label>
+  <Expectations_B.stages.0.description>전쟁은 절대 멈추지 않아!</Expectations_B.stages.0.description>
+
   <Expectations_B.stages.6.label>귀족 앤티</Expectations_B.stages.6.label>
   <Expectations_B.stages.6.description>무언가 멋진 일이 일어났어!</Expectations_B.stages.6.description>
   <Expectations_B.stages.7.label>왕족 앤티</Expectations_B.stages.7.label>

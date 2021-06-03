@@ -637,16 +637,16 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<original>KilledHumanlikeBloodlust</original>
 					<replacer>KilledHumanlikeBloodlust_B</replacer>
 				</li>
-				<li>
-					<original>Expectations</original>
-					<replacer>Expectations_B</replacer>
-				</li>
 			</replacerList>
 			<restrictedThoughts>
                 <li>NeedOutdoors_B</li>
+				<li>Expectations_B</li>
             </restrictedThoughts>
  			<cannotReceiveThoughts>
 				<!-- <li>Pain</li> -->
+				<li>Expectations</li>
+				<li>NewColonyOptimism</li>
+				<li>NewColonyHope</li>
 				
 				<li>MySonDied</li>
 				<li>MyDaughterDied</li>
