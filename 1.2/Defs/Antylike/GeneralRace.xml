@@ -633,6 +633,14 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<original>DefeatedMechCluster</original>
 					<replacer>DefeatedMechCluster_B</replacer>
 				</li>
+				<li>
+					<original>KilledHumanlikeBloodlust</original>
+					<replacer>KilledHumanlikeBloodlust_B</replacer>
+				</li>
+				<li>
+					<original>Expectations</original>
+					<replacer>Expectations_B</replacer>
+				</li>
 			</replacerList>
 			<restrictedThoughts>
                 <li>NeedOutdoors_B</li>

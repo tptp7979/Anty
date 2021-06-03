@@ -177,4 +177,20 @@
       </li>
     </stages>
   </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KilledHumanlikeBloodlust_B</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <durationDays>5</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>killed someone</label>
+        <description>it was so much fun!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
 </Defs>

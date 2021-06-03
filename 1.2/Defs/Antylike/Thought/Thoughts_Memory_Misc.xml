@@ -306,4 +306,54 @@
     </stages>
   </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>Expectations_B</defName>
+    <workerClass>ThoughtWorker_Expectations</workerClass>
+    <stages>
+      <!-- First 6 are in descending order, to preserve localizations indices -->
+      <li>
+        <label>sky-high expectations</label>
+        <description>The war never stops!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>high expectations</label>
+        <description>Large Hive, Large battlefields, countless deaths. We're going to be very busy!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>moderate expectations</label>
+        <description>I need to grow our Hive even more and run a bigger battlefield.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>low expectations</label>
+        <description>Now it looks a bit like a Hive!</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+      <li>
+        <label>very low expectations</label>
+        <description>We're laying the groundwork for the Hive!</description>
+        <baseMoodEffect>24</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely low expectations</label>
+        <description>It's a new battlefield!</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+
+      <!-- Later are in ascending order, to preserve localizations indices -->
+      <li>
+        <label>noble Anty</label>
+        <description>Looks like something great has happened!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>royal Anty</label>
+        <description>big crown!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
 </Defs>

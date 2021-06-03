@@ -71,6 +71,7 @@
 
   <AT_IncreasedviabilitySurgery.label>생존력 증대수술</AT_IncreasedviabilitySurgery.label>
   <AT_IncreasedviabilitySurgery.description>앤티들의 몸에 리플리움을 주입하여 생존력을 높이는 수술을 연구합니다.\n\n수술에는 리플리움과 진액이 필요합니다.</AT_IncreasedviabilitySurgery.description>
-
+  <AT_IncreasedviabilitySurgery.discoveredLetterTitle>정보: 생존력 증대</AT_IncreasedviabilitySurgery.discoveredLetterTitle>
+  <AT_IncreasedviabilitySurgery.discoveredLetterText>수술에는 리플리움과 진액이 필요합니다.</AT_IncreasedviabilitySurgery.discoveredLetterText>
 
 </LanguageData>
