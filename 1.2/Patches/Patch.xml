@@ -464,4 +464,18 @@
       </value>
     </match>
 	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Social Interactions Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Anty"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+      <value>
+			<li>VSIE_BondedPetButcheredOpinion</li>
+			<li>VSIE_ExposedCorpseOfMyFriendOpinion</li>
+			<li>VSIE_IngestedHumanFlesh</li>
+      </value>
+    </match>
+	</Operation>
 </Patch>
