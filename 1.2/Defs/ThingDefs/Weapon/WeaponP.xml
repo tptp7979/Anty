@@ -231,7 +231,7 @@
 					</li>
 					<li>
 						<def>EMP</def>
-						<amount>2</amount>
+						<amount>120</amount>
 					</li>
 				</extraMeleeDamages>
 				<chanceFactor>0.4</chanceFactor>
