@@ -231,7 +231,7 @@
 					</li>
 					<li>
 						<def>EMP</def>
-						<amount>120</amount>
+						<amount>60</amount>
 					</li>
 				</extraMeleeDamages>
 				<chanceFactor>0.4</chanceFactor>
@@ -257,7 +257,7 @@
 					</li>
 					<li>
 						<def>EMP</def>
-						<amount>120</amount>
+						<amount>60</amount>
 					</li>
 					<li>
 						<def>Stun</def>
@@ -404,7 +404,7 @@
 					</li>
 					<li>
 						<def>EMP</def>
-						<amount>120</amount>
+						<amount>25</amount>
 						<chance>0.25</chance>
 					</li>
 					<li>
@@ -438,6 +438,11 @@
 						<def>Stun</def>
 						<amount>2</amount>
 						<chance>0.05</chance>
+					</li>
+					<li>
+						<def>EMP</def>
+						<amount>25</amount>
+						<chance>0.1</chance>
 					</li>
 			</extraDamages>
 		</projectile>
