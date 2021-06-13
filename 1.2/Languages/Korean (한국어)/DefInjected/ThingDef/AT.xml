@@ -10,10 +10,16 @@
   <EggProtyUn.description>프로티의 알입니다. 수정되지 않았습니다.</EggProtyUn.description>
   <Nutritional_jelly_thing.label>영양 젤리</Nutritional_jelly_thing.label>
   <Nutritional_jelly_thing.description>앤티들의 생식 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 성별에 관계 없이 체내에 알주머니를 가지게 됩니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Nutritional_jelly_thing.description>
+  <Nutritional_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Nutritional_jelly_thing.ingestible.ingestCommandString>
+  <Nutritional_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Nutritional_jelly_thing.ingestible.ingestReportString>
   <Battlestimulation_jelly_thing.label>전투자극 젤리</Battlestimulation_jelly_thing.label>
   <Battlestimulation_jelly_thing.description>앤티들의 전투 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 신체능력이 비약적으로 강화됩니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Battlestimulation_jelly_thing.description>
+  <Battlestimulation_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
+  <Battlestimulation_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Battlestimulation_jelly_thing.ingestible.ingestReportString>
   <Eraser_jelly_thing.label>초기화 젤리</Eraser_jelly_thing.label>
   <Eraser_jelly_thing.description>앤티들이 신체의 특성을 지우고 원래의 상태로 돌아가기 위해서 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 다른 젤리들로 추가된 신체능력이 사라집니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Eraser_jelly_thing.description>
+  <Eraser_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Eraser_jelly_thing.ingestible.ingestCommandString>
+  <Eraser_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Eraser_jelly_thing.ingestible.ingestReportString>
   <AT_AP_St_A.label>앤티 셔츠</AT_AP_St_A.label>
   <AT_AP_St_A.description>앤티들이 방구석에서 즐겨입는 옷입니다.</AT_AP_St_A.description>
   <AT_AP_St_B.label>앤티 케이프 셔츠</AT_AP_St_B.label>

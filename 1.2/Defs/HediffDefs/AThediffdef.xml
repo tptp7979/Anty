@@ -359,6 +359,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</statBases>
 		<techLevel>Ultra</techLevel>
 		<ingestible>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
 			<drugCategory>Medical</drugCategory>
 			<nurseable>true</nurseable>
 			<outcomeDoers>
@@ -481,6 +483,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</statBases>
 		<techLevel>Ultra</techLevel>
 		<ingestible>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -599,6 +603,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</statBases>
 		<techLevel>Ultra</techLevel>
 		<ingestible>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
 			<drugCategory>Medical</drugCategory>
 		</ingestible>
 		<comps>
