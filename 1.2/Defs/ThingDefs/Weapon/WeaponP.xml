@@ -184,7 +184,7 @@
 		<gas>
 			<expireSeconds>36~40</expireSeconds>
 			<blockTurretTracking>true</blockTurretTracking>
-			<accuracyPenalty>0.55</accuracyPenalty>
+			<accuracyPenalty>0.80</accuracyPenalty>
 			<rotationSpeed>50</rotationSpeed>
 		</gas>
 	</ThingDef>
