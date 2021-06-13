@@ -24,6 +24,7 @@
 				<parts><!-- 가슴파트 475 -->
 					<li>
 						<def>Spine</def>
+						<customLabel>Thorax spine</customLabel>
 						<coverage>0.12</coverage>
 						<depth>Inside</depth>
 						<groups>
@@ -133,7 +134,7 @@
 										<def>Ear</def>
 										<customLabel>Left Feeler</customLabel>
 										<coverage>0.07</coverage>
-										<depth>Inside</depth>
+										<depth>Outside</depth>
 										<groups>
 											<li>UpperHead</li>
 											<li>FullHead</li>
@@ -144,7 +145,7 @@
 										<def>Ear</def>
 										<customLabel>Right Feeler</customLabel>
 										<coverage>0.07</coverage>
-										<depth>Inside</depth>
+										<depth>Outside</depth>
 										<groups>
 											<li>UpperHead</li>
 											<li>FullHead</li>
@@ -194,20 +195,14 @@
 						<parts><!-- 배파트 -->
 							<li>
 								<def>Exoabdomen</def>
+								<customLabel>Abdomen Exoskeleton add slot1</customLabel>
 								<coverage>0</coverage>
-								<depth>Inside</depth>
-								<groups>
-									<li>Waist</li>
-								</groups>
 							</li>
 							
 							<li>
 								<def>Exoabdomen</def>
+								<customLabel>Abdomen Exoskeleton add slot2</customLabel>
 								<coverage>0</coverage>
-								<depth>Inside</depth>
-								<groups>
-									<li>Waist</li>
-								</groups>
 							</li>
 							
 							<li>
@@ -520,14 +515,13 @@
 								
 								<li><!-- 5 -->
 									<def>Spine</def>
-									<customLabel>Abdominal spine</customLabel>
-									<!-- <def>ExoLeg</def> -->
-									<coverage>0</coverage>
+									<customLabel>Abdomen spine</customLabel>
+									<coverage>0.005</coverage>
 									<depth>Inside</depth>
 									<height>Middle</height>
-									<!-- <groups>
+									<groups>
 										<li>Waist</li>
-									</groups> -->
+									</groups>
 								</li>
 								
 								<li><!-- 좌측엑소레그 -->

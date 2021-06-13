@@ -33,7 +33,7 @@
   
     <BodyPartDef>
 		<defName>Exoabdomen</defName>
-		<label>abdomen Exoskeleton</label>
+		<label>Abdomen Exoskeleton</label>
 		<hitPoints>1</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
