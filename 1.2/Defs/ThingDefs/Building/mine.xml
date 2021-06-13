@@ -21,48 +21,58 @@
 		</costList>
 		<designationHotKey>Misc7</designationHotKey>
 		<comps>
-		  <li Class="CompProperties_Explosive">
+			<li Class="CompProperties_Explosive">
 			<explosiveRadius>3.9</explosiveRadius>
 			<explosiveDamageType>AT_AcidBomb_B</explosiveDamageType>
 			<damageAmountBase>70</damageAmountBase>
 			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<wickTicks>35</wickTicks>
 			<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
-		  </li>
-		  <li Class="CompProperties_UseEffect">
-			<compClass>CompUseEffect_StartWick</compClass>
-		  </li>
-		  <li Class="CompProperties_ProximityFuse">
-			<target>Mech_Centipede</target>
-			<radius>3.9</radius>
-		  </li>
-		  <li Class="CompProperties_ProximityFuse">
-			<target>Mech_Lancer</target>
-			<radius>2</radius>
-		  </li>
-		  <li Class="CompProperties_ProximityFuse">
-			<target>Mech_Scyther</target>
-			<radius>2.1</radius>
-		  </li>
-		  <li Class="CompProperties_ProximityFuse">
-			<target>Mech_Pikeman</target>
-			<radius>2.9</radius>
-		  </li>
-		  <li Class="CompProperties_MoteEmitter">
-			<mote>Mote_IngressbreakerRadius</mote>
-			<maintain>True</maintain>
-			<saveKeysPrefix>glow</saveKeysPrefix>
-		  </li>
+			<startWickOnDamageTaken>
+				<li>Bullet</li>
+				<li>Arrow</li>
+				<li>ArrowHighVelocity</li>
+				<li>AT_AcidBullet</li>
+				<li>AT_AcidBomb</li>
+				<li>AT_AcidBomb_B</li>
+				<li>AT_AcidBomb_C</li>
+				<li>Flame</li>
+			</startWickOnDamageTaken>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_StartWick</compClass>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>Mech_Centipede</target>
+				<radius>3.9</radius>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>Mech_Lancer</target>
+				<radius>2</radius>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>Mech_Scyther</target>
+				<radius>2.1</radius>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>Mech_Pikeman</target>
+				<radius>2.9</radius>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_IngressbreakerRadius</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
 		</comps>
 		<killedLeavings>
 			<Anty_Recyclecore>1</Anty_Recyclecore>
-   		</killedLeavings>
+		</killedLeavings>
 		<specialDisplayRadius>3.9</specialDisplayRadius>
 		<building>
 			<trapPeacefulWildAnimalsSpringChanceFactor>1</trapPeacefulWildAnimalsSpringChanceFactor>
 		</building>
 		<researchPrerequisites>
-		  <li>Largecolony</li>
+			<li>Largecolony</li>
 		</researchPrerequisites>
 		<designationCategory>Antybuilding</designationCategory>
 	</ThingDef>
