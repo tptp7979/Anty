@@ -61,7 +61,7 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
-			<Medicine>6</Medicine>
+			<Medicine>3</Medicine>
 		</skillRequirements>
 		<researchPrerequisite>Mediumcolony</researchPrerequisite>
 	</RecipeDef>
@@ -126,7 +126,7 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
-			<Medicine>12</Medicine>
+			<Medicine>6</Medicine>
 			<Crafting>5</Crafting>
 		</skillRequirements>
 		<researchPrerequisite>Mediumcolony</researchPrerequisite>
