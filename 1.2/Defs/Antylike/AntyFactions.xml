@@ -351,7 +351,6 @@
 		<label>Anty Symbiotic-Hive</label>
 		<leaderTitle>Symbiosis Officer</leaderTitle>
 		<settlementGenerationWeight>0.2</settlementGenerationWeight>
-		<permanentEnemy>false</permanentEnemy>
 		<autoFlee>false</autoFlee>
 		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</description>
@@ -365,7 +364,7 @@
 		<startingGoodwill>50</startingGoodwill>
 		<goodwillDailyFall>1</goodwillDailyFall>
 		<goodwillDailyGain>0</goodwillDailyGain>
-		<permanentEnemyToEveryoneExcept Inherit="False">
+		<permanentEnemyToEveryoneExcept>
 			<li>AntyHive</li>
 			<li>AT_PlayerFaction</li>
 			<li>AT_PlayerFaction_B</li>
