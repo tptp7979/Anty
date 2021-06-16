@@ -593,10 +593,10 @@
 		</weaponTags>
 		<apparelRequired>
 			<li>Apparel_ShieldBelt</li>
-			<li>AT_AP_Power_A</li>
+			<li>AT_AP_Power_D</li>
 			<li>AT_AP_Shooter_A</li>
-			<li>AT_AP_Power_Head_A</li>
-			<li>AT_AP_AdditionalPower_A</li>
+			<li>AT_AP_Power_Head_D</li>
+			<li>AT_AP_AdditionalPower_D</li>
 			<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li> -->
 		</apparelRequired>
 		<apparelMoney>
@@ -622,10 +622,10 @@
 			<li>hydroheliumion_C</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>AT_AP_Power_A</li>
+			<li>AT_AP_Power_C</li>
 			<li>AT_AP_Shooter_A</li>
-			<li>AT_AP_Power_Head_A</li>
-			<li>AT_AP_AdditionalPower_A</li>
+			<li>AT_AP_Power_Head_C</li>
+			<li>AT_AP_AdditionalPower_C</li>
 		</apparelRequired>
 		<apparelMoney>
 			<min>3000</min>

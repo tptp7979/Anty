@@ -483,6 +483,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<listOrder>1040</listOrder>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
 			</li>
 		</comps>
 	</ThingDef>
