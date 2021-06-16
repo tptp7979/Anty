@@ -45,7 +45,7 @@
 		<defaultFactionType>AncientsHostile</defaultFactionType>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
+	<PawnKindDef ParentName="AT_Colonist">
 		<defName>AT_Colonist_C</defName>
 		<apparelTags Inherit="False">
 			<li>AntyShooter</li>

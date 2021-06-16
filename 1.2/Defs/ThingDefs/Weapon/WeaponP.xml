@@ -51,7 +51,7 @@
 
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_A</defName>
-		<label>Red Burst Rifle</label>
+		<label>Red-Burst Rifle</label>
 		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It is the most standard form of Redburst weapon.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
@@ -125,7 +125,7 @@
   
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullethydroheliumion</defName>
-		<label>Red Burst Bullet</label>
+		<label>Red-Burst Bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/kan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -145,7 +145,7 @@
   
 	<DamageDef Name="AT_AcidBomb_B">
 		<defName>AT_AcidBomb_B</defName>
-		<label>Acidbomb</label>
+		<label>Red-Burst bomb</label>
 		<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<isExplosive>true</isExplosive>
@@ -329,7 +329,7 @@
 	
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_B</defName>
-		<label>Red Burst Line Rifle</label>
+		<label>Red-Burst Line Rifle</label>
 		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
@@ -420,7 +420,7 @@
   
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullethydroheliumion_B</defName>
-		<label>Red Burst Bullet</label>
+		<label>Red-Burst Bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/kan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -450,7 +450,7 @@
 	
 	<DamageDef Name="AT_AcidBullet_B">
 		<defName>AT_AcidBullet_B</defName>
-		<label>Red Burst Bullet</label>
+		<label>Red-Burst Bullet</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been shot to death.</deathMessage>
@@ -468,7 +468,7 @@
 	
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_C</defName>
-		<label>Red Burst Cluster</label>
+		<label>Red-Burst Cluster</label>
 		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It causes huge explosion of redburst. It is most effective against stationed or clustered enemies.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
@@ -549,7 +549,7 @@
   
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullethydroheliumion_C</defName>
-		<label>Red Burst Bullet</label>
+		<label>Red-Burst Bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/kan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -570,7 +570,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullethydroheliumion_C_B</defName>
-		<label>Red Burst Bullet</label>
+		<label>Red-Burst Bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/Han</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
