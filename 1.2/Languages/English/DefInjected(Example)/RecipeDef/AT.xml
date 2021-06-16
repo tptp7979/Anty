@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_Aphidextract-stim.label>Aphidization surgery</AT_Aphidextract-stim.label>
+  <AT_Aphidextract-stim.description>It is a surgery that modifies the body to cause genetic modification to drain the nutrient-rich body fluid.\n\n It has the side effect of damaging the brain due to extreme irritation.\n\n Anties have no effect.</AT_Aphidextract-stim.description>
+  <AT_Aphidextract-stim.jobString>During aphidization surgery.</AT_Aphidextract-stim.jobString>
+  <InstallAT_AntyIncreasedviabilitySurgery.label>Anty Increased viability Surgery</InstallAT_AntyIncreasedviabilitySurgery.label>
+  <InstallAT_AntyIncreasedviabilitySurgery.description>It is a surgery to increase the viability by injecting Refleum into the body of Anties.</InstallAT_AntyIncreasedviabilitySurgery.description>
+  <InstallAT_AntyIncreasedviabilitySurgery.jobString>Increasing viability.</InstallAT_AntyIncreasedviabilitySurgery.jobString>
+  <CureAntyTransitionRefleum.label>Remove TransitionRefleum</CureAntyTransitionRefleum.label>
+  <CureAntyTransitionRefleum.description>Remove TransitionRefleum.</CureAntyTransitionRefleum.description>
+  <CureAntyTransitionRefleum.jobString>Removing TransitionRefleum.</CureAntyTransitionRefleum.jobString>
+  <CureAntyTransitionRefleum.successfullyRemovedHediffMessage>{0} has successfully Removed {1}'s TransitionRefleum.</CureAntyTransitionRefleum.successfullyRemovedHediffMessage>
+  <pheromone-stim.label>Stimuate pheromone glands</pheromone-stim.label>
+  <pheromone-stim.description>Stimulate Anty pheromone glands to produce concentrated pheromone.</pheromone-stim.description>
+  <pheromone-stim.jobString>Stimulate pheromone glands.</pheromone-stim.jobString>
+  <AntyCorpseFlesh.label>Corpses assembly(Heart)</AntyCorpseFlesh.label>
+  <AntyCorpseFlesh.description>Using corpses to create an Organic matter management core.</AntyCorpseFlesh.description>
+  <AntyCorpseFlesh.jobString>Corpses assembly(Heart)</AntyCorpseFlesh.jobString>
+  <AntyCorpseFlesh_B.label>Corpses assembly(BionicHeart)</AntyCorpseFlesh_B.label>
+  <AntyCorpseFlesh_B.description>Using corpses to create an Organic matter management core.</AntyCorpseFlesh_B.description>
+  <AntyCorpseFlesh_B.jobString>Corpses assembly(BionicHeart)</AntyCorpseFlesh_B.jobString>
+  <ButcherCorpseFlesh_mass.label>Mass Butchering</ButcherCorpseFlesh_mass.label>
+  <ButcherCorpseFlesh_mass.description>Three corpses are slaughtered at once.</ButcherCorpseFlesh_mass.description>
+  <ButcherCorpseFlesh_mass.jobString>Butchering.</ButcherCorpseFlesh_mass.jobString>
+  <AT_ButcherCorpseMechanoid.label>Mass decomposition</AT_ButcherCorpseMechanoid.label>
+  <AT_ButcherCorpseMechanoid.description>It disassembles 3 mechanoid bodies at once.</AT_ButcherCorpseMechanoid.description>
+  <AT_ButcherCorpseMechanoid.jobString>Mass decomposition.</AT_ButcherCorpseMechanoid.jobString>
+  <CookNutritional_jelly.label>cook Nutritional jelly</CookNutritional_jelly.label>
+  <CookNutritional_jelly.description>cook Nutritional jelly</CookNutritional_jelly.description>
+  <CookNutritional_jelly.jobString>Cooking Nutritional jelly.</CookNutritional_jelly.jobString>
+  <CookBattlestimulation_jelly.label>cook Battle stimulation jelly</CookBattlestimulation_jelly.label>
+  <CookBattlestimulation_jelly.description>cook Battle stimulation jelly</CookBattlestimulation_jelly.description>
+  <CookBattlestimulation_jelly.jobString>Cooking Battle stimulation jelly.</CookBattlestimulation_jelly.jobString>
+  <CookEraser_jelly.label>cook Eraser jelly</CookEraser_jelly.label>
+  <CookEraser_jelly.description>cook Eraser jelly.</CookEraser_jelly.description>
+  <CookEraser_jelly.jobString>Cooking Eraser jelly.</CookEraser_jelly.jobString>
+  <Anty_Copy_ComponentIndustrial.label>Copy component</Anty_Copy_ComponentIndustrial.label>
+  <Anty_Copy_ComponentIndustrial.description>View and duplicate parts that have already been made. However, since it is a complex operation, it takes a long time and consumes a lot of materials...</Anty_Copy_ComponentIndustrial.description>
+  <Anty_Copy_ComponentIndustrial.jobString>Copying component.</Anty_Copy_ComponentIndustrial.jobString>
+  <InstallAT_Reinforcedexoskeleton.label>install Anty Reinforced exoskeleton</InstallAT_Reinforcedexoskeleton.label>
+  <InstallAT_Reinforcedexoskeleton.description>Install a Anty Reinforced exoskeleton.</InstallAT_Reinforcedexoskeleton.description>
+  <InstallAT_Reinforcedexoskeleton.jobString>Installing Reinforced Anty exoskeleton.</InstallAT_Reinforcedexoskeleton.jobString>
+</LanguageData>

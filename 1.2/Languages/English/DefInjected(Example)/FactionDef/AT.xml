@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_PlayerFaction.label>New Hive</AT_PlayerFaction.label>
+  <AT_PlayerFaction.description>Your Anty Hive.</AT_PlayerFaction.description>
+  <AT_PlayerFaction.pawnSingular>Anty</AT_PlayerFaction.pawnSingular>
+  <AT_PlayerFaction.pawnsPlural>Anties</AT_PlayerFaction.pawnsPlural>
+  <AT_PlayerFaction_B.label>Invasion-Hive</AT_PlayerFaction_B.label>
+  <AT_PlayerFaction_B.description>Your Anty Hive.</AT_PlayerFaction_B.description>
+  <AT_PlayerFaction_B.pawnSingular>Anty</AT_PlayerFaction_B.pawnSingular>
+  <AT_PlayerFaction_B.pawnsPlural>Anties</AT_PlayerFaction_B.pawnsPlural>
+  <AntyHive.pawnSingular>Anty</AntyHive.pawnSingular>
+  <AntyHive.pawnsPlural>Anties</AntyHive.pawnsPlural>
+  <AntyHive.leaderTitle>Swarm Lord</AntyHive.leaderTitle>
+  <AntyHive.label>Anty Invasion-Hive</AntyHive.label>
+  <AntyHive.description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive is very aggressive. anything that is not a Symbiotic-Hive, they will attack first.</AntyHive.description>
+  <AntyHive_B.pawnSingular>Anty</AntyHive_B.pawnSingular>
+  <AntyHive_B.pawnsPlural>Anties</AntyHive_B.pawnsPlural>
+  <AntyHive_B.leaderTitle>Symbiosis Officer</AntyHive_B.leaderTitle>
+  <AntyHive_B.label>Anty Symbiotic-Hive</AntyHive_B.label>
+  <AntyHive_B.description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</AntyHive_B.description>
+</LanguageData>

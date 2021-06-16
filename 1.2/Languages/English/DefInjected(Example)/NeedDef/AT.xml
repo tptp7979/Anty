@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AntyEggbag_need.label>Nutritional jelly</AntyEggbag_need.label>
+  <AntyEggbag_need.description>This individual has egg pouches, needs to eat nutritious jelly and spawns larvae periodically. Egg sacs cannot be removed, only entities give birth to larvae.</AntyEggbag_need.description>
+  <Antybug_need.label>Combat-stim jelly</Antybug_need.label>
+  <Antybug_need.description>bug.</Antybug_need.description>
+  <AntyEraser_need.label>Eraser jelly</AntyEraser_need.label>
+  <AntyEraser_need.description>bug.</AntyEraser_need.description>
+</LanguageData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Earlycolony.label>Hive outpost</Earlycolony.label>
+  <Earlycolony.description>Organize the files to research, that allows the rapid growth of the hive early on. Only the Anties may work here.</Earlycolony.description>
+  <AntyNutritionaljelly.label>Nutritional jelly</AntyNutritionaljelly.label>
+  <AntyNutritionaljelly.description>Unlocks the ability to make jelly to provide required nutirents to the eggs. It can be made at the stove.</AntyNutritionaljelly.description>
+  <AntyNutritionaljelly.discoveredLetterTitle>About: Nutritional jelly</AntyNutritionaljelly.discoveredLetterTitle>
+  <AntyNutritionaljelly.discoveredLetterText>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</AntyNutritionaljelly.discoveredLetterText>
+  <AntyMassiveButchering.label>Massive Butchering</AntyMassiveButchering.label>
+  <AntyMassiveButchering.description>Unlocks the electric butcher table that allows mass butcher.</AntyMassiveButchering.description>
+  <AntyMachining.label>Copy machining</AntyMachining.label>
+  <AntyMachining.description>Based on smithing, unlocks new machining tenchology.</AntyMachining.description>
+  <AntyMachining.discoveredLetterTitle>About: Hive cluster</AntyMachining.discoveredLetterTitle>
+  <AntyMachining.discoveredLetterText>Organize the files to research, that allows the further expansion of the hive. Only the Anties may work here.</AntyMachining.discoveredLetterText>
+  <AntyClothing.label>Copy Clothing</AntyClothing.label>
+  <AntyClothing.description>Unlocks the ability to mimic tailoring, which allows replication of existing equipments.</AntyClothing.description>
+  <Mediumcolony.label>Hive cluster</Mediumcolony.label>
+  <Mediumcolony.description>Organize the files to research, that allows the further expansion of the hive. Only the Anties may work here.</Mediumcolony.description>
+  <Mediumcolony.discoveredLetterTitle>About: Recyclecore</Mediumcolony.discoveredLetterTitle>
+  <Mediumcolony.discoveredLetterText>An artificial intelligence core fabricated with corpses.\n\n Used for major equipment or buildings and can be made on the Copy Machining Table.</Mediumcolony.discoveredLetterText>
+  <AntyAcidweapon_B.label>Acid fireweapon ⅰ</AntyAcidweapon_B.label>
+  <AntyAcidweapon_B.description>Unlocks the weapons that utilizes acid that builds up in Anties bodies.</AntyAcidweapon_B.description>
+  <AntyAcidweapon_C.label>Acid fireweapon ⅱ</AntyAcidweapon_C.label>
+  <AntyAcidweapon_C.description>Upgrades the Anty-Acid weapons to enhance the accuracy and firepower.</AntyAcidweapon_C.description>
+  <AntyAcidweapon_D.label>Mass spraying</AntyAcidweapon_D.label>
+  <AntyAcidweapon_D.description>Unlocks the weapons that sprays Anty-Acid on to the battle field.</AntyAcidweapon_D.description>
+  <AntyAcidweapon_D.discoveredLetterTitle>About: Hive aggregation</AntyAcidweapon_D.discoveredLetterTitle>
+  <AntyAcidweapon_D.discoveredLetterText>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here.</AntyAcidweapon_D.discoveredLetterText>
+  <Antypheromonestim.label>pheromone-Inhalant</Antypheromonestim.label>
+  <Antypheromonestim.description>Unlocks the method of concentrating and using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromonestim.description>
+  <Antypheromonestim.discoveredLetterTitle>About: pheromone</Antypheromonestim.discoveredLetterTitle>
+  <Antypheromonestim.discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromonestim.discoveredLetterText>
+  <AntyAphidextract.label>Aphid breeding</AntyAphidextract.label>
+  <AntyAphidextract.description>Research a surgical procedure to genetically modify living beings to excrete highly nutrient fluid.\n\nBrain damage is a common side effect of the surgery, due to extreme stimulation on their brains.\n\n Since the catalyst used for this operation is nutritional jelly, which gets naturally absorbed and used by Antys, the operation cannot be performed on Antys.\n\nThe surgical operation requires a nutritional jelly and pheromone pack.</AntyAphidextract.description>
+  <AntyAphidextract.discoveredLetterTitle>About: Aphid breeding</AntyAphidextract.discoveredLetterTitle>
+  <AntyAphidextract.discoveredLetterText>Now you can turn any other humanoids other than Anty into aphids.\n\n This operation requires nutritional jelly and pheromone pack.</AntyAphidextract.discoveredLetterText>
+  <Combatglue.label>Combat glue</Combatglue.label>
+  <Combatglue.description>Unlocks the combat adhsieve that protects our ranged troops from the melee attackers. It does not affect Anties.</Combatglue.description>
+  <Antycomposite.label>Organic composite</Antycomposite.label>
+  <Antycomposite.description>Research to unlock a new set of apparels that combines of Anties' exoskeleton and inorganic product.</Antycomposite.description>
+  <Largecolony.label>Hive aggregation</Largecolony.label>
+  <Largecolony.description>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here.</Largecolony.description>
+  <Antycomposite_B.label>Hive Power Armor ⅰ</Antycomposite_B.label>
+  <Antycomposite_B.description>We study reinforcement suits that help Anties work smoothly on battlefields in various environments.</Antycomposite_B.description>
+  <hydroheliumion.label>Superacid Weapons</hydroheliumion.label>
+  <hydroheliumion.description>Develope new weapons that work effectively against heavily armored or strong innate body.</hydroheliumion.description>
+  <hydroheliumion_B.label>Superacid Weapons ⅱ</hydroheliumion_B.label>
+  <hydroheliumion_B.description>Develope new weapons that work effectively against heavily armored or strong innate body.</hydroheliumion_B.description>
+  <AT_Forwardbase_A.label>Instant barricade</AT_Forwardbase_A.label>
+  <AT_Forwardbase_A.description>On the battlefield where things may change rapidly, Anties study Instant barricade developed to protect themselves from enemy attacks.</AT_Forwardbase_A.description>
+  <Superregenerationdevice.label>Hyper Reconstruction Device</Superregenerationdevice.label>
+  <Superregenerationdevice.description>Research the device developed to dispatch injured Antys back into the battlefield.</Superregenerationdevice.description>
+  <AT_IncreasedviabilitySurgery.label>Increased viability Surgery</AT_IncreasedviabilitySurgery.label>
+  <AT_IncreasedviabilitySurgery.description>Research to unlock the surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</AT_IncreasedviabilitySurgery.description>
+  <AT_IncreasedviabilitySurgery.discoveredLetterTitle>About: Increased viability Surgery</AT_IncreasedviabilitySurgery.discoveredLetterTitle>
+  <AT_IncreasedviabilitySurgery.discoveredLetterText>Now you can surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</AT_IncreasedviabilitySurgery.discoveredLetterText>
+</LanguageData>

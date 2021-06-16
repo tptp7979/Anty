@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anty_prototype.label>proty</Anty_prototype.label>
+  <Anty_prototype.description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.</Anty_prototype.description>
+  <Anty_prototype.tools.0.label>BigJaw</Anty_prototype.tools.0.label>
+  <Anty_prototype.tools.1.label>head</Anty_prototype.tools.1.label>
+  <EggProty.label>Proty egg</EggProty.label>
+  <EggProty.description>This is Proty's egg.</EggProty.description>
+  <EggProtyUn.label>Proty egg</EggProtyUn.label>
+  <EggProtyUn.description>An unfertilized egg of Protie.</EggProtyUn.description>
+  <Nutritional_jelly_thing.label>Nutritional jelly</Nutritional_jelly_thing.label>
+  <Nutritional_jelly_thing.description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</Nutritional_jelly_thing.description>
+  <Nutritional_jelly_thing.ingestible.ingestCommandString>Take {0}</Nutritional_jelly_thing.ingestible.ingestCommandString>
+  <Nutritional_jelly_thing.ingestible.ingestReportString>Taking {0}.</Nutritional_jelly_thing.ingestible.ingestReportString>
+  <Battlestimulation_jelly_thing.label>Combat-stim jelly</Battlestimulation_jelly_thing.label>
+  <Battlestimulation_jelly_thing.description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities. Anty larvae and serious injuries cannot survive this transformation.</Battlestimulation_jelly_thing.description>
+  <Battlestimulation_jelly_thing.ingestible.ingestCommandString>Take {0}</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
+  <Battlestimulation_jelly_thing.ingestible.ingestReportString>Taking {0}.</Battlestimulation_jelly_thing.ingestible.ingestReportString>
+  <Eraser_jelly_thing.label>Eraser jelly</Eraser_jelly_thing.label>
+  <Eraser_jelly_thing.description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies. Anty larvae and serious injuries cannot survive this transformation.</Eraser_jelly_thing.description>
+  <Eraser_jelly_thing.ingestible.ingestCommandString>Take {0}</Eraser_jelly_thing.ingestible.ingestCommandString>
+  <Eraser_jelly_thing.ingestible.ingestReportString>Taking {0}.</Eraser_jelly_thing.ingestible.ingestReportString>
+  <AT_Aphidextract.label>Aphid extract</AT_Aphidextract.label>
+  <AT_Aphidextract.description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</AT_Aphidextract.description>
+  <AT_SporeBomb.label>Spore release</AT_SporeBomb.label>
+  <AT_SporeBomb.description>.</AT_SporeBomb.description>
+  <Anty_pheromone.label>Anty pheromone Pack</Anty_pheromone.label>
+  <Anty_pheromone.description>Concentrated Anty pheromone that has been packaged with mucous membrane.</Anty_pheromone.description>
+  <Antypheromone_Charge.label>Anty assault pheromone</Antypheromone_Charge.label>
+  <Antypheromone_Charge.description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Charge.description>
+  <Antypheromone_Charge.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Charge.ingestible.ingestCommandString>
+  <Antypheromone_Charge.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Charge.ingestible.ingestReportString>
+  <Antypheromone_Shooting.label>Anty Shooting pheromone</Antypheromone_Shooting.label>
+  <Antypheromone_Shooting.description>a phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they shoot firearms. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances shooting ability.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Shooting.description>
+  <Antypheromone_Shooting.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Shooting.ingestible.ingestCommandString>
+  <Antypheromone_Shooting.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Shooting.ingestible.ingestReportString>
+  <Antypheromone_Suicide.label>Anty detonation phermone</Antypheromone_Suicide.label>
+  <Antypheromone_Suicide.description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Suicide.description>
+  <Antypheromone_Suicide.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Suicide.ingestible.ingestCommandString>
+  <Antypheromone_Suicide.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Suicide.ingestible.ingestReportString>
+  <AT_SuicideBomb.label>SuicideBomb</AT_SuicideBomb.label>
+  <AT_SuicideBomb.description>.</AT_SuicideBomb.description>
+  <AT_AP_St_A.label>Anty Shirt</AT_AP_St_A.label>
+  <AT_AP_St_A.description>An Anties attire wore indoors.</AT_AP_St_A.description>
+  <AT_AP_St_B.label>Anty Cape Shirt</AT_AP_St_B.label>
+  <AT_AP_St_B.description>An outdoor attire beloved by Anties on windy days. The ribbon hides steel wire, which is convenient for garrote.</AT_AP_St_B.description>
+  <AT_AP_St_C.label>Anty Cape Coat</AT_AP_St_C.label>
+  <AT_AP_St_C.description>Apparel that Anties wear during cold winter. Vivid red is visible from anywhere.</AT_AP_St_C.description>
+  <AT_AP_St_D.label>Anty Jacket</AT_AP_St_D.label>
+  <AT_AP_St_D.description>A jacket with a mandible, the symbol of Anties, embroidered in the back. When you see a pack of Anties wearing this, you're a snack.</AT_AP_St_D.description>
+  <AT_AP_St_F.label>Anty Crop top</AT_AP_St_F.label>
+  <AT_AP_St_F.description>A piece of clothing that maximized the exposure of where it can be sweaty.</AT_AP_St_F.description>
+  <AT_AP_Chain_A.label>Anty Chainarmor</AT_AP_Chain_A.label>
+  <AT_AP_Chain_A.description>Early day armor used by Anties to protect their bodies. It is not as sturdy as plate armor, but it is much easier to move in.</AT_AP_Chain_A.description>
+  <AT_AP_Helm_A.label>Anty Plate Helm</AT_AP_Helm_A.label>
+  <AT_AP_Helm_A.description>An Antie plate helm made by scrap metals.</AT_AP_Helm_A.description>
+  <AT_AP_Additionalchain_A.label>Anty Additional chainarmor</AT_AP_Additionalchain_A.label>
+  <AT_AP_Additionalchain_A.description>An extra piece of chain armor designed to protect stomach attached behind waist.</AT_AP_Additionalchain_A.description>
+  <AT_AP_Shooter_A.label>Anty Military uniform</AT_AP_Shooter_A.label>
+  <AT_AP_Shooter_A.description>Anties' combat attire. Depending on the surrounding temperature, it either circulates the air inside to cool, or stops the circulation of air to keep the warmth.</AT_AP_Shooter_A.description>
+  <AT_AP_Head_A.label>Anty Bulletproof Helmet</AT_AP_Head_A.label>
+  <AT_AP_Head_A.description>A bulletproof helmet with camouflage paint.</AT_AP_Head_A.description>
+  <AT_AP_Head_B.label>Anty Bulletproof Commender Helmet</AT_AP_Head_B.label>
+  <AT_AP_Head_B.description>A bulletproof helmet designated for commanders.</AT_AP_Head_B.description>
+  <AT_AP_Flakvest.label>Anty Flakvest</AT_AP_Flakvest.label>
+  <AT_AP_Flakvest.description>A bulletproof vest that can effectively stop the bullets. The plates used in the vest is efficient but lacks flexibility, which cost the mobility of the user.</AT_AP_Flakvest.description>
+  <AT_AP_Additionalarmorplate_A.label>Anty Additional armor plate</AT_AP_Additionalarmorplate_A.label>
+  <AT_AP_Additionalarmorplate_A.description>An extra piece of armorplate desigend to protect stomach attached behind waist.</AT_AP_Additionalarmorplate_A.description>
+  <AT_AP_SH_A.label>Anty Military uniform Cloak</AT_AP_SH_A.label>
+  <AT_AP_SH_A.description>A camouflaged cloak worn by Antie soldiers. Although it lacks the ability to protect the user from the attacks, it protects the user from both hot and cold weather.</AT_AP_SH_A.description>
+  <AT_AP_CO_A.label>Anty Commender Cape</AT_AP_CO_A.label>
+  <AT_AP_CO_A.description>A cloak worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_A.description>
+  <AT_AP_CO_B.label>Anty Commender Cloak</AT_AP_CO_B.label>
+  <AT_AP_CO_B.description>A cape worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_B.description>
+  <AT_AP_Power_A.label>Anty Cataglyphis armor</AT_AP_Power_A.label>
+  <AT_AP_Power_A.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt has a fire control system to reduce aiming time.</AT_AP_Power_A.description>
+  <AT_AP_Power_Head_A.label>Anty Cataglyphis helmet</AT_AP_Power_Head_A.label>
+  <AT_AP_Power_Head_A.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_A.description>
+  <AT_AP_AdditionalPower_A.label>Anty Cataglyphis Additional armor</AT_AP_AdditionalPower_A.label>
+  <AT_AP_AdditionalPower_A.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_A.description>
+  <AT_AP_Power_B.label>Anty Cataglyphis Commender armor</AT_AP_Power_B.label>
+  <AT_AP_Power_B.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_B.description>
+  <AT_AP_Power_Head_B.label>Anty Cataglyphis Commender helmet</AT_AP_Power_Head_B.label>
+  <AT_AP_Power_Head_B.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_B.description>
+  <AT_AP_AdditionalPower_B.label>Anty Cataglyphis Commender Additional armor</AT_AP_AdditionalPower_B.label>
+  <AT_AP_AdditionalPower_B.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_B.description>
+  <AT_AP_Power_C.label>Anty Dinoponera armor</AT_AP_Power_C.label>
+  <AT_AP_Power_C.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIts heavy plating slows the wearer, but it is capable of pull the enemies to the wearer, instead of moving in to them.</AT_AP_Power_C.description>
+  <AT_AP_Power_C.verbs.0.label>pop Diplomatic chain</AT_AP_Power_C.verbs.0.label>
+  <AT_AP_Power_Head_C.label>Anty Dinoponera helmet</AT_AP_Power_Head_C.label>
+  <AT_AP_Power_Head_C.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_C.description>
+  <AT_AP_AdditionalPower_C.label>Anty Dinoponera Additional armor</AT_AP_AdditionalPower_C.label>
+  <AT_AP_AdditionalPower_C.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_C.description>
+  <AT_AP_Power_D.label>Anty Paraponera armor</AT_AP_Power_D.label>
+  <AT_AP_Power_D.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt can disarm the enemy.</AT_AP_Power_D.description>
+  <AT_AP_Power_D.verbs.0.label>pop Diplomatic needle</AT_AP_Power_D.verbs.0.label>
+  <AT_BulletParaponeraLauncher.label>Diplomatic needle</AT_BulletParaponeraLauncher.label>
+  <AT_AP_Power_Head_D.label>Anty Paraponera helmet</AT_AP_Power_Head_D.label>
+  <AT_AP_Power_Head_D.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_D.description>
+  <AT_AP_AdditionalPower_D.label>Anty Paraponera Additional armor</AT_AP_AdditionalPower_D.label>
+  <AT_AP_AdditionalPower_D.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_D.description>
+  <AT_Superregenerationdevice.label>Anty Hyper Reconstruction Device</AT_Superregenerationdevice.label>
+  <AT_Superregenerationdevice.description>A deviced developed by Antys to send the injured soldiers back to the frontline.\n\nSpecialized organic tissues for accelerated healing jump from one place on the body to another, making this device unfit for medical operations.</AT_Superregenerationdevice.description>
+  <AntyCopyTailoringBench.label>Copy tailor bench</AntyCopyTailoringBench.label>
+  <AntyCopyTailoringBench.description>A sewing table that is built by imitating conventional sewing tables.</AntyCopyTailoringBench.description>
+  <AntyCopyTableMachining.label>Copy machining table</AntyCopyTableMachining.label>
+  <AntyCopyTableMachining.description>A fabrication bench that is built by imitating conventional fabricating bench. It is not only capable of handing inorganic materials such as metals but also capable of melding and fabricating the organic-inorganic compound.</AntyCopyTableMachining.description>
+  <AntyTableButcher.label>Anty machine butcher table</AntyTableButcher.label>
+  <AntyTableButcher.description>An electric butchery table invented by Anties, to efficiently handle the vast amount of corpses as a product of countless combats.</AntyTableButcher.description>
+  <AntyExoskeleton_Production.label>Exoskeleton Auto Mine</AntyExoskeleton_Production.label>
+  <AntyExoskeleton_Production.description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Antie DNA injected into the device.</AntyExoskeleton_Production.description>
+  <At_farm.label>Refleum incubator</At_farm.label>
+  <At_farm.description>A device that can incubate refleum based on the exoskeleton of Anties.</At_farm.description>
+  <AT_Chart.label>Anty butcher-chart</AT_Chart.label>
+  <AT_Chart.description>A collection of Anties drawings of other species for more efficient butchering. Although it may not be much more than doodles, it is quite helpful for Anties who spend days with literal guts.</AT_Chart.description>
+  <LifePoweredGenerator.label>Life powered generator</LifePoweredGenerator.label>
+  <LifePoweredGenerator.description>It is a generator that generates electricity from the extract of aphids.</LifePoweredGenerator.description>
+  <Anty_RecycleTurret.label>Recycle turret-Outside addon</Anty_RecycleTurret.label>
+  <Anty_RecycleTurret.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurret.description>
+  <Anty_RecycleTurret.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurret.comps.2.fuelLabel>
+  <Anty_RecycleTurret.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurret.comps.2.fuelGizmoLabel>
+  <Anty_RecycleTurret.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurret.comps.2.outOfFuelMessage>
+  <Bullet_RecycleTurret.label>Recycle turret bullet</Bullet_RecycleTurret.label>
+  <Gun_RecycleTurret.label>Recycle turret gun</Gun_RecycleTurret.label>
+  <Gun_RecycleTurret.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurret.description>
+  <Anty_RecycleTurretB.label>Recycle turret-Inside addon</Anty_RecycleTurretB.label>
+  <Anty_RecycleTurretB.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurretB.description>
+  <Anty_RecycleTurretB.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurretB.comps.2.fuelLabel>
+  <Anty_RecycleTurretB.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurretB.comps.2.fuelGizmoLabel>
+  <Anty_RecycleTurretB.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurretB.comps.2.outOfFuelMessage>
+  <Bullet_glueRifle.label>glue Bullet</Bullet_glueRifle.label>
+  <Gun_RecycleTurretB.label>Recycle turret gun</Gun_RecycleTurretB.label>
+  <Gun_RecycleTurretB.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurretB.description>
+  <AT_TP_AMM.label>Repurposed Landmine</AT_TP_AMM.label>
+  <AT_TP_AMM.description>A landmine with advanced mechanoid detector, which can detonate when it sense mechanoid even from a distance. It can also works like a regular landmine against other targets.\n\nIt is filled with concentrated red-burst, which makes it effective against not only mechanoids, but all types of enemies.</AT_TP_AMM.description>
+  <AT_Wall.label>Anti-impact wall</AT_Wall.label>
+  <AT_Wall.description>An impassable structure, capable of supporting the roof. It distributes shock to the entire structure, allowing it to withstand strong impact such as explosions.\n\nHowever, it is not as effective against more focused force.</AT_Wall.description>
+  <AT_WallB.label>Saliva wall</AT_WallB.label>
+  <AT_WallB.description>n impassable structure, capable of supporting the roof. Because it is made with clay and saliva of Anties, it is very weak.</AT_WallB.description>
+  <AntyAutodoor.label>Anti-impact door</AntyAutodoor.label>
+  <AntyAutodoor.description>Door that distributes shock to the entire structure, allowing it to withstand strong impact such as explosions.\n\nHowever, it is not as effective against more focused force.</AntyAutodoor.description>
+  <AT_Chunk_A.label>Exoskeleton scraps(3H)</AT_Chunk_A.label>
+  <AT_Chunk_A.description>A scraps of exoskeleton that is used by Anties for a pinch of extra protection. It dissolves in time.</AT_Chunk_A.description>
+  <AT_Barricade_A.label>Improvised Refleum barricade(3H)</AT_Barricade_A.label>
+  <AT_Barricade_A.description>An improvised cover developed by Anties to protect themselves from the everchanging tide of the battlefield. It dissolves in time.</AT_Barricade_A.description>
+  <AntyExoskeleton.label>Anty Exoskeleton</AntyExoskeleton.label>
+  <AntyExoskeleton.description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.</AntyExoskeleton.description>
+  <Refleum.label>Refleum</Refleum.label>
+  <Refleum.description>A metallic compound made based on Antie's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</Refleum.description>
+  <Anty_Recyclecore.label>Recyclecore</Anty_Recyclecore.label>
+  <Anty_Recyclecore.description>An artificial intelligence core fabricated with corpses.</Anty_Recyclecore.description>
+  <AT_Reinforcedexoskeleton_Thing.label>Anty Reinforced exoskeleton</AT_Reinforcedexoskeleton_Thing.label>
+  <AT_Reinforcedexoskeleton_Thing.description>An powered exoskeleton for Antys made with Refleum. It organicly binds to the existing exoskeleton, providing excellent protection without causing any discomfortA powered exoskeleton for Antys made with Refleum. It organically binds to the existing exoskeleton, providing excellent protection without causing any discomfort.</AT_Reinforcedexoskeleton_Thing.description>
+  <AT_AcidRifle.label>Acid Rifle</AT_AcidRifle.label>
+  <AT_AcidRifle.description>An early type of modern weapon that shoots Anty-Acid, the acid that builds up in the body of Anties.\n\nIt does not provide reliable firepower due to its unstable nozzle and lack of propulsion power.</AT_AcidRifle.description>
+  <AT_AcidRifle.tools.0.label>grip</AT_AcidRifle.tools.0.label>
+  <AT_AcidRifle.tools.1.label>barrel</AT_AcidRifle.tools.1.label>
+  <Bullet_AcidRifle.label>Acid Bullet</Bullet_AcidRifle.label>
+  <AT_AcidAssaultRifle.label>Acid Assault Rifle</AT_AcidAssaultRifle.label>
+  <AT_AcidAssaultRifle.description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nThe nozzle stabilizer and pressure amplifier provide superior range and accuracy than the earlier version.</AT_AcidAssaultRifle.description>
+  <AT_AcidAssaultRifle.tools.0.label>grip</AT_AcidAssaultRifle.tools.0.label>
+  <AT_AcidAssaultRifle.tools.1.label>barrel</AT_AcidAssaultRifle.tools.1.label>
+  <Bullet_AcidRifle_R.label>Acid Bullet</Bullet_AcidRifle_R.label>
+  <AT_AcidLineRifle.label>Acid Line Rifle</AT_AcidLineRifle.label>
+  <AT_AcidLineRifle.description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nIt is designed to be used behind the Melee, and in front of the ranged combatants, supporting both.\n\nIt is very effective in close range.</AT_AcidLineRifle.description>
+  <AT_AcidLineRifle.tools.0.label>barrel</AT_AcidLineRifle.tools.0.label>
+  <Bullet_AcidRifle_L.label>Acid Bullet</Bullet_AcidRifle_L.label>
+  <AT_LMG.label>Acid Light Machine Gun</AT_LMG.label>
+  <AT_LMG.description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nIts focus on fire rate resulted in weaker shots.</AT_LMG.description>
+  <AT_LMG.tools.0.label>grip</AT_LMG.tools.0.label>
+  <AT_LMG.tools.1.label>barrel</AT_LMG.tools.1.label>
+  <Bullet_AcidRifle_M.label>Acid Bullet</Bullet_AcidRifle_M.label>
+  <AT_AcidLauncher.label>Acid launcher</AT_AcidLauncher.label>
+  <AT_AcidLauncher.description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, further in a larger area.\n\nEffective against heavy armored or clustered enemies.</AT_AcidLauncher.description>
+  <AT_AcidLauncher.tools.0.label>stock</AT_AcidLauncher.tools.0.label>
+  <AT_AcidLauncher.tools.1.label>barrel</AT_AcidLauncher.tools.1.label>
+  <BulletAcidLauncher.label>Acid Grenade</BulletAcidLauncher.label>
+  <Filth_AntyAcid.label>AntyAcid</Filth_AntyAcid.label>
+  <AT_Combatglue.label>Combat glue launcher</AT_Combatglue.label>
+  <AT_Combatglue.description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</AT_Combatglue.description>
+  <AT_Combatglue.tools.0.label>stock</AT_Combatglue.tools.0.label>
+  <AT_Combatglue.tools.1.label>barrel</AT_Combatglue.tools.1.label>
+  <BulletCombatglueLauncher.label>Combat glue Grenade</BulletCombatglueLauncher.label>
+  <Filth_AntyGlue.label>Combat glue</Filth_AntyGlue.label>
+  <Shell_AT_glueBomb.label>Combat glue shell</Shell_AT_glueBomb.label>
+  <Shell_AT_glueBomb.description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</Shell_AT_glueBomb.description>
+  <Bullet_Shell_AT_glueBomb.label>Combat glue shell</Bullet_Shell_AT_glueBomb.label>
+  <AT_Sickle.label>Sickle</AT_Sickle.label>
+  <AT_Sickle.description>An oversized sythe used by Anties.</AT_Sickle.description>
+  <AT_Sickle.tools.0.label>edge</AT_Sickle.tools.0.label>
+  <AT_Sickle.tools.1.label>handle</AT_Sickle.tools.1.label>
+  <AT_Halberd.label>Halberd</AT_Halberd.label>
+  <AT_Halberd.description>A giant ax beloved by Antie warriors. The axeblade is often used as a drawing board.</AT_Halberd.description>
+  <AT_Halberd.tools.0.label>Axe</AT_Halberd.tools.0.label>
+  <AT_Halberd.tools.1.label>Spear</AT_Halberd.tools.1.label>
+  <AT_Halberd.tools.2.label>Hook</AT_Halberd.tools.2.label>
+  <AT_Hammer.label>Hammer</AT_Hammer.label>
+  <AT_Hammer.description>A hammer beloved by Antie warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</AT_Hammer.description>
+  <AT_Hammer.tools.0.label>Hammer</AT_Hammer.tools.0.label>
+  <AT_AcidCross.label>Acid Crossbow</AT_AcidCross.label>
+  <AT_AcidCross.description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Antie. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</AT_AcidCross.description>
+  <AT_AcidCross.tools.0.label>handle</AT_AcidCross.tools.0.label>
+  <AT_Aicdbolt.label>Aicd Bolt</AT_Aicdbolt.label>
+  <AT_PP_S.label>Anty X-war Gift box</AT_PP_S.label>
+  <AT_PP_S.description>We wish you a merry warfare\n\nWe wish you a merry warfare\n\nWe wish you a merry warfare and a Painful death!\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nOh, bring us some pirate pudding\n\nOh, bring us some Tribal pudding\n\nOh, bring us some Empire pudding\n\nAnd bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nSo bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death...again!</AT_PP_S.description>
+  <AT_PP_S.tools.0.label>Box corner</AT_PP_S.tools.0.label>
+  <Bullet_PP_A.label>Giftbox</Bullet_PP_A.label>
+  <BulletExecutionerChain.label>Diplomatic chain</BulletExecutionerChain.label>
+  <AT_hydroheliumion_A.label>Red-Burst Rifle</AT_hydroheliumion_A.label>
+  <AT_hydroheliumion_A.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It is the most standard form of Redburst weapon.</AT_hydroheliumion_A.description>
+  <AT_hydroheliumion_A.tools.0.label>Nozzle</AT_hydroheliumion_A.tools.0.label>
+  <Bullethydroheliumion.label>Red-Burst Bullet</Bullethydroheliumion.label>
+  <Filth_ApproachSmoke_B.label>Acid Refleum gas</Filth_ApproachSmoke_B.label>
+  <AT_RedHalberd.label>Red-burst halberd</AT_RedHalberd.label>
+  <AT_RedHalberd.description>A halberd with an in-built red-burst emitter, which releases red-burst upon impact. Stabbing with the spearhead, which the emitter is directly attached, will inject large amount of red-burst to the target.</AT_RedHalberd.description>
+  <AT_RedHalberd.tools.0.label>Axe</AT_RedHalberd.tools.0.label>
+  <AT_RedHalberd.tools.1.label>Spearhead</AT_RedHalberd.tools.1.label>
+  <AT_RedHalberd.tools.2.label>Hook</AT_RedHalberd.tools.2.label>
+  <AT_hydroheliumion_B.label>Red-Burst Line Rifle</AT_hydroheliumion_B.label>
+  <AT_hydroheliumion_B.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.</AT_hydroheliumion_B.description>
+  <AT_hydroheliumion_B.tools.0.label>Nozzle</AT_hydroheliumion_B.tools.0.label>
+  <Bullethydroheliumion_B.label>Red-Burst Bullet</Bullethydroheliumion_B.label>
+  <AT_hydroheliumion_C.label>Red-Burst Cluster</AT_hydroheliumion_C.label>
+  <AT_hydroheliumion_C.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It causes huge explosion of redburst. It is most effective against stationed or clustered enemies.</AT_hydroheliumion_C.description>
+  <AT_hydroheliumion_C.tools.0.label>Nozzle</AT_hydroheliumion_C.tools.0.label>
+  <Bullethydroheliumion_C.label>Red-Burst Bullet</Bullethydroheliumion_C.label>
+  <Bullethydroheliumion_C_B.label>Red-Burst Bullet</Bullethydroheliumion_C_B.label>
+  <AT_Apparel_CombatSmoke.label>Refleum Gaspack</AT_Apparel_CombatSmoke.label>
+  <AT_Apparel_CombatSmoke.description>An equipment developed by Anty to suppress enemies' sights and movements. It sprays acidified refleum gas over a large area of the battlefield.</AT_Apparel_CombatSmoke.description>
+  <AT_Apparel_CombatSmoke.verbs.0.label>pop Refleum Gaspack</AT_Apparel_CombatSmoke.verbs.0.label>
+  <BulletCombatSmokeLauncher.label>Refleum gas launcher</BulletCombatSmokeLauncher.label>
+  <AT_Apparel_pheromone_TP.label>Targeting pheromone kit</AT_Apparel_pheromone_TP.label>
+  <AT_Apparel_pheromone_TP.description>An equipment worn by Anty commanders to give orders.</AT_Apparel_pheromone_TP.description>
+  <AT_Apparel_pheromone_TP.verbs.0.label>pop Targeting pheromone</AT_Apparel_pheromone_TP.verbs.0.label>
+  <AT_BulletTargetingLauncher.label>Targeting Shell</AT_BulletTargetingLauncher.label>
+  <AT_Apparel_chunk.label>Exoskeleton Chunk Cover Kit</AT_Apparel_chunk.label>
+  <AT_Apparel_chunk.description>A pile of exoskeleton used by Anty to provide protection against enemy fire. It disintegrates over time.</AT_Apparel_chunk.description>
+  <AT_Apparel_chunk.verbs.0.label>pop chunk kit</AT_Apparel_chunk.verbs.0.label>
+  <AT_Bulletchunk.label>chunk Shell</AT_Bulletchunk.label>
+  <AT_Apparel_barricade.label>Quick Field Cover Kit</AT_Apparel_barricade.label>
+  <AT_Apparel_barricade.description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</AT_Apparel_barricade.description>
+  <AT_Apparel_barricade.verbs.0.label>pop barricade kit</AT_Apparel_barricade.verbs.0.label>
+  <AT_Bulletbarricade.label>barricade Shell</AT_Bulletbarricade.label>
+</LanguageData>
