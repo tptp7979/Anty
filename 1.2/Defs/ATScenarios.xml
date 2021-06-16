@@ -131,12 +131,12 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedicineIndustrial</thingDef>
-					<count>30</count>
+					<count>40</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>30</count>
+					<count>40</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -160,7 +160,7 @@
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Steel</thingDef>
-					<count>450</count>
+					<count>1500</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
@@ -168,16 +168,12 @@
 					<count>300</count>
 				</li>
 
-				<!-- Scatter some things anywhere -->
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>ShipChunk</thingDef>
-					<count>3</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>Steel</thingDef>
-					<count>720</count>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>RaidEnemy</incident>
+					<intervalDays>5</intervalDays>
+					<repeat>True</repeat>
+					<occurTick>300000</occurTick>
 				</li>
 			</parts>
 		</scenario>
