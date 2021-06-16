@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<TraderKindDef>
+	<TraderKindDef ParentName="Caravan_AT_REA">
+		<defName>Caravan_AT_REB</defName>
+		<label>close inspection Group</label>
+	</TraderKindDef>
+	<TraderKindDef Name="Caravan_AT_REA">
 		<defName>Caravan_AT_REA</defName>
-		<label>Anty Ceasefire Exchange Group.</label>
-		<commonality>2</commonality>
+		<label>Anty Ceasefire Exchange Group</label>
+		<commonality>10</commonality>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>

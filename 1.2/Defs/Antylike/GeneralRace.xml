@@ -18,12 +18,25 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<maxDamageForSocialfight>7</maxDamageForSocialfight>
 			<immuneToXenophobia>false</immuneToXenophobia>
 			<minAgeForAdulthood>0</minAgeForAdulthood>
+
+			<factionRelations>
+				<li>
+					<factions>
+						<li>AT_PlayerFaction_B</li>
+						<li>AntyHive_B</li>
+					</factions>
+					<goodwill>
+						<min>100</min>
+						<max>100</max>
+					</goodwill>
+				</li>
+			</factionRelations>
 			
 			<forcedRaceTraitEntries>
 				<li>
-                    <defName>AT_Solidexoskeleton</defName>
-                    <chance>10</chance>
-                </li>
+					<defName>AT_Solidexoskeleton</defName>
+					<chance>10</chance>
+				</li>
 			</forcedRaceTraitEntries>
 			
 			<disallowedTraits>
@@ -519,6 +532,16 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
         </hairSettings><!-- 텍스쳐 -->
       
 		<relationSettings><!-- 관계 -->
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings><!-- 관계 -->
       
 		<thoughtSettings><!-- 생각 -->

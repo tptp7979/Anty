@@ -2,94 +2,184 @@
 <Defs>
 	<ScenarioDef>
 		<defName>AT_Scenario</defName>
-		<label>New AntyHive</label>
-    <description>New planets, new encounters, new wars, Anties are always travels in space hoping for these.\n\n But it's a step late, already on this planet, the Anties who have formed a large colony are fighting a stringless war. We need to lay the groundwork so that we can land as soon as possible and join the war.</description>
-    <scenario>
-      <summary>The story of three Antys who arrived to build a new Hive.</summary>
-      <playerFaction>
-        <def>PlayerFaction</def>
-        <factionDef>AT_PlayerFaction</factionDef>
-      </playerFaction>
-      <parts>
+		<label>New Anty Hive</label>
+		<description>New planets, new encounters, new wars, Anties are always travels in space hoping for these.\n\n But it's a step late, already on this planet, the Anties who have formed a large colony are fighting a stringless war. We need to lay the groundwork so that we can land as soon as possible and join the war.</description>
+		<scenario>
+			<summary>The story of three Anties who arrived to build a new Hive.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>AT_PlayerFaction</factionDef>
+			</playerFaction>
+			<parts>
 
-        <!-- Config pages -->
-        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-          <def>ConfigPage_ConfigureStartingPawns</def>
-          <pawnCount>3</pawnCount>
-          <pawnChoiceCount>10</pawnChoiceCount>
-        </li>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>10</pawnChoiceCount>
+				</li>
 
-        <!-- Player starting stuff spawn method-->
-        <li Class="ScenPart_PlayerPawnsArriveMethod">
-          <def>PlayerPawnsArriveMethod</def>
-          <method>DropPods</method>
-          <visible>false</visible>
-        </li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
 
-        <!-- Player starting things -->
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>Silver</thingDef>
-          <count>800</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MealSurvivalPack</thingDef>
-          <count>50</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>MedicineIndustrial</thingDef>
-          <count>30</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>ComponentIndustrial</thingDef>
-          <count>30</count>
-        </li>
-        <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>AT_AcidCross</thingDef>
-		  <count>3</count>
-        </li>
-		<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>EggProty</thingDef>
-				<count>3</count>
-		</li>
-        <li Class="ScenPart_StartingAnimal">
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AT_AcidCross</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>EggProty</thingDef>
+						<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
 				<animalKind>Anty_prototype</animalKind>
 				<count>3</count>
 				<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
-        </li>
+				</li>
 
-        <!-- Scatter some things near player start -->
-        <li Class="ScenPart_ScatterThingsNearPlayerStart">
-          <def>ScatterThingsNearPlayerStart</def>
-          <thingDef>Steel</thingDef>
-          <count>450</count>
-        </li>
-        <li Class="ScenPart_ScatterThingsNearPlayerStart">
-          <def>ScatterThingsNearPlayerStart</def>
-          <thingDef>WoodLog</thingDef>
-          <count>300</count>
-        </li>
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
 
-        <!-- Scatter some things anywhere -->
-        <li Class="ScenPart_ScatterThingsAnywhere">
-          <def>ScatterThingsAnywhere</def>
-          <thingDef>ShipChunk</thingDef>
-          <count>3</count>
-        </li>
-        <li Class="ScenPart_ScatterThingsAnywhere">
-          <def>ScatterThingsAnywhere</def>
-          <thingDef>Steel</thingDef>
-          <count>720</count>
-        </li>
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
 
+	<ScenarioDef>
+		<defName>AT_Scenario_B</defName>
+		<label>Anty Invasion-Hive</label>
+		<description>It is an aggressor Hive that only engages in battle.\n\nIt becomes a permanent hostile state all forces except the Symbiotic-Hive and other Invasion-Hive. However, other Invasion-Hive also turn into hostile relations over time.\n\nDo you want exchanges and negotiations? Prepare an acid solution and a big jaw!</description>
+		<scenario>
+			<summary>The story of the Anties who arrived to smash them all.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>AT_PlayerFaction_B</factionDef>
+			</playerFaction>
+			<parts>
 
-      </parts>
-    </scenario>
-  </ScenarioDef>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>10</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AT_Aphidextract</thingDef>
+					<count>75</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AT_AcidRifle</thingDef>
+					 <count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AT_Sickle</thingDef>
+					<stuff>Plasteel</stuff>
+					 <count>2</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Anty_prototype</animalKind>
+					<count>6</count>
+					<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
 </Defs>

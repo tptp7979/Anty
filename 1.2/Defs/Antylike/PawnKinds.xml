@@ -15,8 +15,6 @@
 	<PawnKindDef Name="AT_Colonist" ParentName="AntyPlayerBasePawnKind">
 		<defName>AT_Colonist</defName>
 		<label>Anty Scout</label>
-		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
-		<isFighter>false</isFighter>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -48,22 +46,17 @@
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
-		<defName>ATB_Colonist</defName>
-		<label>Anty Colonist</label>
-		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
-		<isFighter>false</isFighter>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>ATlarva_A</li>
-					<li>ATlarva_B</li>
-					<li>ATAmigo_B</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>		
-		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-		<maxGenerationAge>0</maxGenerationAge>
-		<minGenerationAge>0</minGenerationAge>
+		<defName>AT_Colonist_C</defName>
+		<apparelTags Inherit="False">
+			<li>AntyShooter</li>
+		</apparelTags>
+		<apparelMoney Inherit="False">
+			<min>550</min>
+			<max>800</max>
+		</apparelMoney>
+		<apparelRequired Inherit="False">
+			<li>AT_AP_Shooter_A</li>
+		</apparelRequired>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">

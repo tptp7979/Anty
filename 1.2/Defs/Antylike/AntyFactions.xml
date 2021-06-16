@@ -26,7 +26,6 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<!-- <pawnNameMaker>Antypawn_rule</pawnNameMaker> -->
 		<geneticVariance>1</geneticVariance>
 		<startingResearchTags>
 			<li>ClassicStart</li>
@@ -42,6 +41,42 @@
 		</apparelStuffFilter>
 	</FactionDef>
 
+	<FactionDef ParentName="AT_PlayerFactionBase">
+		<defName>AT_PlayerFaction_B</defName>
+		<label>Invasion-Hive</label>
+		<description>Your Anty Hive.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AT_Colonist_C</basicMemberKind>
+		<pawnSingular>Anty</pawnSingular>
+		<pawnsPlural>Anties</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<factionIconPath>Icon/ATP_Icon</factionIconPath>
+		<settlementTexturePath>Icon/ATP_HomeIcon</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Leather_Pig</li>
+				<li>Leather_Human</li>
+				<li>AntyExoskeleton</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<permanentEnemyToEveryoneExcept>
+			<li>AntyHive</li>
+			<li>AntyHive_B</li>
+		</permanentEnemyToEveryoneExcept>
+	</FactionDef>
   
   
   <!-- 앤티NPC -->
@@ -61,22 +96,24 @@
 		<factionIconPath>Icon/AT_Icon</factionIconPath>
 		<factionNameMaker>NamerFactionAnty</factionNameMaker>
 		<settlementNameMaker>NamerSettlementAnty</settlementNameMaker>
-		<!-- <pawnNameMaker>Antypawn_rule</pawnNameMaker> -->
 		<raidLootMaker>AntyRaidLootMaker</raidLootMaker>
 		
 		<caravanTraderKinds>
 			<li>Caravan_AT_REA</li>
+			<li>Caravan_AT_REB</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
 			<li>Caravan_AT_REA</li>
+			<li>Caravan_AT_REB</li>
 		</visitorTraderKinds>
 		<baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
 			<li>Caravan_AT_REA</li>
+			<li>Caravan_AT_REB</li>
 		</baseTraderKinds>
 		
-    <techLevel>Spacer</techLevel>
+		<techLevel>Spacer</techLevel>
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>
@@ -294,19 +331,57 @@
   
 	<FactionDef ParentName="AntyFactionBase">
 		<defName>AntyHive</defName>
-		<label>Anty Hive</label>
+		<label>Anty Invasion-Hive</label>
 		<permanentEnemy>false</permanentEnemy>
 		<autoFlee>false</autoFlee>
 		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
-		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.</description>
+		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive is very aggressive. anything that is not a Symbiotic-Hive, they will attack first.</description>
 		<colorSpectrum>
 		  <li>(1, 1, 1)</li>
 		  <li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<naturalColonyGoodwill>-100</naturalColonyGoodwill>
 		<startingGoodwill>-100</startingGoodwill>
-		<goodwillDailyFall>2</goodwillDailyFall>
+		<goodwillDailyFall>1</goodwillDailyFall>
 		<goodwillDailyGain>0</goodwillDailyGain>
+	</FactionDef>
+
+	<FactionDef ParentName="AntyFactionBase">
+		<defName>AntyHive_B</defName>
+		<label>Anty Symbiotic-Hive</label>
+		<leaderTitle>Symbiosis Officer</leaderTitle>
+		<settlementGenerationWeight>0.2</settlementGenerationWeight>
+		<permanentEnemy>false</permanentEnemy>
+		<autoFlee>false</autoFlee>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</description>
+		<colorSpectrum>
+		  <li>(1, 1, 1)</li>
+		  <li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<settlementTexturePath>Icon/AT_Icon_B</settlementTexturePath>
+		<factionIconPath>Icon/AT_Icon_B</factionIconPath>
+		<naturalColonyGoodwill>50</naturalColonyGoodwill>
+		<startingGoodwill>50</startingGoodwill>
+		<goodwillDailyFall>1</goodwillDailyFall>
+		<goodwillDailyGain>0</goodwillDailyGain>
+		<permanentEnemyToEveryoneExcept Inherit="False">
+			<li>AntyHive</li>
+			<li>AT_PlayerFaction</li>
+			<li>AT_PlayerFaction_B</li>
+		</permanentEnemyToEveryoneExcept>
+		
+		<caravanTraderKinds Inherit="False">
+			<li>Caravan_AT_REB</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds Inherit="False">
+			<li>Visitor_Outlander_Standard</li>
+			<li>Caravan_AT_REB</li>
+		</visitorTraderKinds>
+		<baseTraderKinds Inherit="False">
+			<li>Base_Outlander_Standard</li>
+			<li>Caravan_AT_REB</li>
+		</baseTraderKinds>
 	</FactionDef>
 	
 	<ThingSetMakerDef>

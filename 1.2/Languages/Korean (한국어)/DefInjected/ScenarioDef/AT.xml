@@ -3,4 +3,7 @@
   <AT_Scenario.scenario.name>새로운 앤티 군체</AT_Scenario.scenario.name>
   <AT_Scenario.scenario.description>새로운 행성, 새로운 만남, 새로운 전쟁, 앤티들은 항상 이것들을 바라며 우주를 여행합니다.\n\n 하지만 한 발 늦었군요, 이미 이 행성에는 대 군체를 형성한 앤티들이 끝없는 전쟁을 펼치고 있습니다. 한시라도 빨리 착륙해 전쟁에 참여할 수 있도록 기반을 잡아야 합니다.</AT_Scenario.scenario.description>
   <AT_Scenario.scenario.summary>새로운 군체를 건설하기 위해 도착한 세 앤티들의 이야기.</AT_Scenario.scenario.summary>
+  <AT_Scenario_B.scenario.name>앤티 침략 군체</AT_Scenario_B.scenario.name>
+  <AT_Scenario_B.scenario.description>오직 전투만을 실행하는 침략군체입니다.\n\n공생군체와 다른 침략군체를 제외한 모든 세력과 영구적인 적대상태가 됩니다. 하지만 다른 침략군체도 시간이 지나면 적대관계로 변합니다.\n\n교류와 협상을 원하시나요? 산성용액과 큰 턱을 준비하세요!</AT_Scenario_B.scenario.description>
+  <AT_Scenario_B.scenario.summary>다 때려 부수기 위해서 도착한 앤티들의 이야기.</AT_Scenario_B.scenario.summary>
 </LanguageData>
