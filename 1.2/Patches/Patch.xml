@@ -198,6 +198,39 @@
 							</li>  
 						</value>
 					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="AntyHive_B"]</xpath>
+						<value>
+							<royalTitleTags>
+								<li>AntyTitle</li>
+							</royalTitleTags>
+							<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+							<royalTitleInheritanceRelations>
+								<li>Child</li>
+								<li>Grandchild</li>
+								<li>GreatGrandchild</li>
+								<li>NephewOrNiece</li>
+								<li>Spouse</li>
+								<li>Sibling</li>
+								<li>HalfSibling</li>
+								<li>Cousin</li>
+								<li>Parent</li>
+								<li>UncleOrAunt</li>
+							</royalTitleInheritanceRelations>
+							<royalFavorLabel>Order of Hive</royalFavorLabel>
+							<royalFavorIconPath>Icon/AT_Icon_B</royalFavorIconPath>
+							<caravanTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</caravanTraderKinds>
+							<visitorTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</visitorTraderKinds>
+							<baseTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</baseTraderKinds>
+						</value>
+					</li>
 				</operations>
 			</match>
 		</Operation>

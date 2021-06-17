@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<TraderKindDef ParentName="Caravan_AT_REA">
+		<defName>Caravan_AT_REB</defName>
+		<label>Anty close inspection Group</label>
+		<commonality>1</commonality>
+		<category>TributeCollector</category>
+		<tradeCurrency>Favor</tradeCurrency>
+		<faction>AntyHive_B</faction>
+		<hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+		<stockGenerators Inherit="False">
+			<!-- Buying -->
+			<li Class="StockGenerator_BuySingleDef">
+			  <thingDef>AT_Aphidextract</thingDef>
+			</li>
+			<li Class="StockGenerator_BuySingleDef">
+			  <thingDef>Anty_Recyclecore</thingDef>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
 		<RoyalTitleDef Abstract="True" Name="BaseAntyTitle" >
 			<tags>
 				<li>AntyTitle</li>
@@ -14,7 +33,7 @@
 			<label>Platoon leader</label>
 			<description>Platoon leader of Anty Hive.</description>
 			<seniority>0</seniority>
-			<favorCost>8</favorCost>
+			<favorCost>50</favorCost>
 			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
 			<allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
 			<permitPointsAwarded>1</permitPointsAwarded>
@@ -26,7 +45,7 @@
 			<label>Company commander</label>
 			<description>Company commander of Anty Hive.</description>
 			<seniority>100</seniority>
-			<favorCost>16</favorCost>
+			<favorCost>100</favorCost>
 			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
 			<commonality>1</commonality>
 			<permitPointsAwarded>1</permitPointsAwarded>
@@ -38,7 +57,7 @@
 			<label>Battalion commander</label>
 			<description>Battalion commander of Anty Hive.</description>
 			<seniority>200</seniority>
-			<favorCost>20</favorCost>
+			<favorCost>150</favorCost>
 			<minExpectation>Moderate</minExpectation>
 			<changeHeirQuestPoints>1200</changeHeirQuestPoints>
 			<recruitmentResistanceOffset>10</recruitmentResistanceOffset>
@@ -109,7 +128,7 @@
 			<label>Swarm Lord</label>
 			<description>Swarm Lord of Anty Hive.</description>
 			<seniority>300</seniority>
-			<favorCost>28</favorCost>
+			<favorCost>200</favorCost>
 			<minExpectation>High</minExpectation>
 			<changeHeirQuestPoints>1600</changeHeirQuestPoints>
 			<recruitmentResistanceOffset>25</recruitmentResistanceOffset>
