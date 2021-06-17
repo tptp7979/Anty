@@ -3,7 +3,6 @@
 	<TraderKindDef ParentName="Caravan_AT_REA" MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>Caravan_AT_REB</defName>
 		<label>Anty close inspection Group</label>
-		<requestable>False</requestable>
 		<commonality>1</commonality>
 		<category>TributeCollector</category>
 		<tradeCurrency>Favor</tradeCurrency>
