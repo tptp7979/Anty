@@ -1192,6 +1192,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</graphicData>
 		<statBases>
 			<MarketValue>6.0</MarketValue>
+			<RoyalFavorValue>0.2</RoyalFavorValue>
 			<Mass>0.025</Mass>
 			<Nutrition>1</Nutrition>
 			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
@@ -1199,10 +1200,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
 			<preferability>DesperateOnlyForHumanlikes</preferability>
-			<!-- <ingestEffect>EatVegetarian</ingestEffect> -->
 			<ingestSound>Ingest_Inject</ingestSound>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-			<!-- <tasteThought>AteFineMeal</tasteThought> -->
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<thingCategories>
 			<li>AnimalProductRaw</li>

@@ -144,11 +144,6 @@
     <durationDays>2</durationDays>
     <!-- <stackedEffectMultiplier>1</stackedEffectMultiplier> -->
     <stackLimit>3</stackLimit>
-    <nullifyingTraits>
-      <li>Psychopath</li>
-      <li>Bloodlust</li>
-      <li>Cannibal</li>
-    </nullifyingTraits>
     <stages>
       <li>
         <label>Observed Laying Corpse</label>
@@ -166,9 +161,6 @@
     <durationDays>0.5</durationDays>
     <!-- <stackedEffectMultiplier>0.5</stackedEffectMultiplier> -->
     <stackLimit>5</stackLimit>
-    <nullifyingTraits>
-      <li>Bloodlust</li>
-    </nullifyingTraits>
     <stages>
       <li>
         <label>Observed Laying Rotting Corpse</label>
