@@ -40,4 +40,7 @@
   <InstallAT_Reinforcedexoskeleton.label>install Anty Reinforced exoskeleton</InstallAT_Reinforcedexoskeleton.label>
   <InstallAT_Reinforcedexoskeleton.description>Install a Anty Reinforced exoskeleton.</InstallAT_Reinforcedexoskeleton.description>
   <InstallAT_Reinforcedexoskeleton.jobString>Installing Reinforced Anty exoskeleton.</InstallAT_Reinforcedexoskeleton.jobString>
+  <AntyCorpsesqueeze.label>Corpse squeeze</AntyCorpsesqueeze.label>
+  <AntyCorpsesqueeze.description>Using corpses to create an extract.</AntyCorpsesqueeze.description>
+  <AntyCorpsesqueeze.jobString>Corpse squeeze</AntyCorpsesqueeze.jobString>
 </LanguageData>

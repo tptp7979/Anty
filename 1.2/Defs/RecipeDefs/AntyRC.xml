@@ -404,4 +404,73 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>AntyCorpsesqueeze</defName>
+		<label>Corpse squeeze</label>
+		<description>Using corpses to create an extract.</description>
+		<descriptionHyperlinks><ThingDef>AT_Aphidextract</ThingDef></descriptionHyperlinks>
+		<workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+		<jobString>Corpse squeeze</jobString>
+		<workAmount>800</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+		<uiIconThing>AT_Aphidextract</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+				  <categories>
+					<li>Corpses</li>
+				  </categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <categories>
+					<li>Corpses</li>
+				  </categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nutritional_jelly_thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<AT_Aphidextract>10</AT_Aphidextract>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Nutritional_jelly_thing</li>
+			</thingDefs>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			<disallowedCategories>
+				<li>CorpsesMechanoid</li>
+				<li>CorpsesAnimal</li>
+			</disallowedCategories>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesHumanlike</li>
+			</categories>
+			<thingDefs>
+				<li>Nutritional_jelly_thing</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<researchPrerequisite>Mediumcolony</researchPrerequisite>
+	</RecipeDef>
 </Defs>

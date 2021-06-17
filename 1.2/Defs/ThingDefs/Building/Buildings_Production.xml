@@ -193,6 +193,7 @@
 			<li>ButcherCorpseMechanoid</li>
 			<li>ButcherCorpseFlesh_mass</li>
 			<li>AT_ButcherCorpseMechanoid</li>
+			<li>AntyCorpsesqueeze</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

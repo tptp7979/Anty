@@ -75,5 +75,9 @@
   <EVOR_Surgery_Tail_Hand_Anty.label>조작꼬리 장착</EVOR_Surgery_Tail_Hand_Anty.label>
   <EVOR_Surgery_Tail_Hand_Anty.description>조작꼬리 장착합니다.</EVOR_Surgery_Tail_Hand_Anty.description>
   <EVOR_Surgery_Tail_Hand_Anty.jobString>조작꼬리 장착.</EVOR_Surgery_Tail_Hand_Anty.jobString>
+
+  <AntyCorpsesqueeze.label>시체 쥐어짜기</AntyCorpsesqueeze.label>
+  <AntyCorpsesqueeze.description>시체들을 이용하여 진액을 만들어 냅니다.</AntyCorpsesqueeze.description>
+  <AntyCorpsesqueeze.jobString>시체 쥐어짜기</AntyCorpsesqueeze.jobString>
   
 </LanguageData>
