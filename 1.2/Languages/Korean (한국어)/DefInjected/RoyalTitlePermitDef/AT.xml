@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_CallLaborerTeam.label>일개미 호출</AT_CallLaborerTeam.label>
+  <AT_CallLaborerTeam.description>4명의 일개미를 불러 4일 동안 노동에 투입할 수 있습니다.</AT_CallLaborerTeam.description>
+
+  <AT_CallMilitaryAidSmall.label>폭탄투하</AT_CallMilitaryAidSmall.label>
+  <AT_CallMilitaryAidSmall.description>10명의 폭탄을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidSmall.description>
+</LanguageData>

@@ -100,17 +100,14 @@
 		
 		<caravanTraderKinds>
 			<li>Caravan_AT_REA</li>
-			<li>Caravan_AT_REB</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
 			<li>Caravan_AT_REA</li>
-			<li>Caravan_AT_REB</li>
 		</visitorTraderKinds>
 		<baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
 			<li>Caravan_AT_REA</li>
-			<li>Caravan_AT_REB</li>
 		</baseTraderKinds>
 		
 		<techLevel>Spacer</techLevel>
@@ -352,6 +349,7 @@
 		<leaderTitle>Symbiosis Officer</leaderTitle>
 		<settlementGenerationWeight>0.2</settlementGenerationWeight>
 		<autoFlee>false</autoFlee>
+		<humanlikeFaction MayRequire="Ludeon.RimWorld.Royalty">true</humanlikeFaction>
 		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</description>
 		<colorSpectrum>
@@ -369,17 +367,34 @@
 			<li>AT_PlayerFaction</li>
 			<li>AT_PlayerFaction_B</li>
 		</permanentEnemyToEveryoneExcept>
+
+		<royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+			<li>AntyTitle</li>
+		</royalTitleTags>
+		<royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
+			<li>Child</li>
+			<li>Grandchild</li>
+			<li>GreatGrandchild</li>
+			<li>NephewOrNiece</li>
+			<li>Spouse</li>
+			<li>Sibling</li>
+			<li>HalfSibling</li>
+			<li>Cousin</li>
+			<li>Parent</li>
+			<li>UncleOrAunt</li>
+		</royalTitleInheritanceRelations>
+		<royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">Order of Hive</royalFavorLabel>
+		<royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">Icon/AT_Icon_B</royalFavorIconPath>
 		
-		<caravanTraderKinds Inherit="False">
-			<li>Caravan_AT_REB</li>
+		<caravanTraderKinds>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Caravan_AT_REB</li>
 		</caravanTraderKinds>
-		<visitorTraderKinds Inherit="False">
-			<li>Visitor_Outlander_Standard</li>
-			<li>Caravan_AT_REB</li>
+		<visitorTraderKinds>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Caravan_AT_REB</li>
 		</visitorTraderKinds>
-		<baseTraderKinds Inherit="False">
-			<li>Base_Outlander_Standard</li>
-			<li>Caravan_AT_REB</li>
+		<baseTraderKinds>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Caravan_AT_REB</li>
 		</baseTraderKinds>
 	</FactionDef>
 	

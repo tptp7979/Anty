@@ -43,7 +43,7 @@
 
 	<!-- 일반유충 -->	
 	
-	<AlienRace.BackstoryDef ParentName="AntyBackStory">
+	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Larva_B_lazy">
 		<defName>Anty_Larva_B_lazy</defName>
 		<title>Anty Lazy Larva</title>
 		<titleShort>Anty</titleShort>
@@ -79,6 +79,14 @@
 			<li>ATlarva_A</li>
 			<li>ATlarva_B</li>
 		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anty_Larva_B_lazy">
+		<defName>Anty_Larva_B_lazy_Drop</defName>
+		<spawnCategories Inherit="False">
+			<li>ATAmigo_Melee_Drop</li>
+		</spawnCategories>
+		<forcedHediffs Inherit="False"/>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="AntyBackStory">
@@ -340,7 +348,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="AntyBackStory">
+	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Amigo_B_Meleeinfantry">
 		<defName>Anty_Amigo_B_Meleeinfantry</defName>
 		<title>Anty Melee infantry</title>
 		<titleShort>Melee infantry</titleShort>
@@ -364,6 +372,22 @@
 			<li>ATAmigo_Melee</li>
 			<li>ATAmigo_B</li>
 		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anty_Amigo_B_Meleeinfantry">
+		<defName>Anty_Amigo_B_Meleeinfantry_Drop</defName>
+		<spawnCategories Inherit="False">
+			<li>ATAmigo_Melee_Drop</li>
+		</spawnCategories>
+		<forcedHediffs Inherit="False">
+			<li>AntySoldierbirth</li>
+		</forcedHediffs>
+		<forcedTraits>
+			<li>
+				<defName>AT_Solidexoskeleton</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="AntyBackStory">

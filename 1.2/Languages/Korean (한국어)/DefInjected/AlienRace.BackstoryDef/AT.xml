@@ -3,6 +3,9 @@
   <Anty_Larva_B_lazy.title>앤티 게으른 유충</Anty_Larva_B_lazy.title>
   <Anty_Larva_B_lazy.titleShort>앤티</Anty_Larva_B_lazy.titleShort>
   <Anty_Larva_B_lazy.baseDescription>[PAWN_nameDef](은) 정말 게으른 애벌레였습니다. 애벌레들이 할 수 있는 유일한 행동인 꿈틀거리기마저 귀찮아 할 지경이었죠. 그런 [PAWN_pronoun]의 모습조차도 착한 친구들이 사랑해 주었지만 [PAWN_pronoun](은)는 그것조차 귀찮아 했습니다. [PAWN_pronoun](은)는 결국 착한 친구들에게도 미움 받았죠.</Anty_Larva_B_lazy.baseDescription>
+  <Anty_Larva_B_lazy_Drop.title>앤티 게으른 유충</Anty_Larva_B_lazy_Drop.title>
+  <Anty_Larva_B_lazy_Drop.titleShort>앤티</Anty_Larva_B_lazy_Drop.titleShort>
+  <Anty_Larva_B_lazy_Drop.baseDescription>[PAWN_nameDef](은) 정말 게으른 애벌레였습니다. 애벌레들이 할 수 있는 유일한 행동인 꿈틀거리기마저 귀찮아 할 지경이었죠. 그런 [PAWN_pronoun]의 모습조차도 착한 친구들이 사랑해 주었지만 [PAWN_pronoun](은)는 그것조차 귀찮아 했습니다. [PAWN_pronoun](은)는 결국 착한 친구들에게도 미움 받았죠.</Anty_Larva_B_lazy_Drop.baseDescription>
   <Anty_Larva_B_Brave.title>앤티 용감한 유충</Anty_Larva_B_Brave.title>
   <Anty_Larva_B_Brave.titleShort>앤티</Anty_Larva_B_Brave.titleShort>
   <Anty_Larva_B_Brave.baseDescription>[PAWN_nameDef](은) 용감한 애벌레였습니다. 문턱에서 굴러 떨어지기, 딱딱하고 둥그런 물건 위에서 꿈틀거리기, 사나운 날파리들을 스스로 쫓아내기와 같이 다른 애벌레들(은) 상상조차 할 수 없는 위험한 행동을 즐겼습니다. 보모들에게 항상 혼나면서 말이죠.</Anty_Larva_B_Brave.baseDescription>
@@ -30,6 +33,9 @@
   <Anty_Amigo_B_Meleeinfantry.title>앤티 근거리 보병</Anty_Amigo_B_Meleeinfantry.title>
   <Anty_Amigo_B_Meleeinfantry.titleShort>근거리 보병</Anty_Amigo_B_Meleeinfantry.titleShort>
   <Anty_Amigo_B_Meleeinfantry.baseDescription>[PAWN_nameDef](은) 근거리 보병입니다.\n\n 앤티가 생겨난 시점부터 존재했던 병종으로 앤티 인구의 30%를 차지합니다.\n\n 보통 비교적 신체능력이 뛰어나거나 죽음에 대한 두려움이 적은 개체들이 선발되고, 모든 종류의 근거리 무기를 다룰 수 있도록, 그리고 아군과 적군의 포화 속으로 거리낌 없이 돌격할 수 있도록 혹독한 훈련을 받습니다.</Anty_Amigo_B_Meleeinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry_Drop.title>앤티 근거리 보병</Anty_Amigo_B_Meleeinfantry_Drop.title>
+  <Anty_Amigo_B_Meleeinfantry_Drop.titleShort>근거리 보병</Anty_Amigo_B_Meleeinfantry_Drop.titleShort>
+  <Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>[PAWN_nameDef](은) 근거리 보병입니다.\n\n 앤티가 생겨난 시점부터 존재했던 병종으로 앤티 인구의 30%를 차지합니다.\n\n 보통 비교적 신체능력이 뛰어나거나 죽음에 대한 두려움이 적은 개체들이 선발되고, 모든 종류의 근거리 무기를 다룰 수 있도록, 그리고 아군과 적군의 포화 속으로 거리낌 없이 돌격할 수 있도록 혹독한 훈련을 받습니다.</Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>
   <Anty_Amigo_B_Normalinfantry.title>앤티 일반 보병</Anty_Amigo_B_Normalinfantry.title>
   <Anty_Amigo_B_Normalinfantry.titleShort>일반 보병</Anty_Amigo_B_Normalinfantry.titleShort>
   <Anty_Amigo_B_Normalinfantry.baseDescription>[PAWN_nameDef](은) 일반 보병입니다.\n\n 상황에 따라서 근거리나 원거리 보병의 역할을 수행합니다. 모든 종류의 무기를 다룰 수 있지만 전문화된 보병들처럼 능숙하게 다루지는 못합니다.</Anty_Amigo_B_Normalinfantry.baseDescription>

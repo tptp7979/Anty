@@ -295,7 +295,7 @@
 					<li>ATAmigo_Melee</li>
 				</categories>
 			</li>
-		</backstoryFiltersOverride>			
+		</backstoryFiltersOverride>
 		<apparelTags>
 			<li>AntyALL</li>
 			<li>AntyShooter</li>
@@ -597,7 +597,6 @@
 			<li>AT_AP_Shooter_A</li>
 			<li>AT_AP_Power_Head_D</li>
 			<li>AT_AP_AdditionalPower_D</li>
-			<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li> -->
 		</apparelRequired>
 		<apparelMoney>
 			<min>3000</min>
@@ -631,6 +630,49 @@
 			<min>3000</min>
 			<max>6000</max>
 		</apparelMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AntyArmyBase_MB">
+		<defName>AT_Power_D</defName>
+		<label>Anty Enhanced Close Combat Infantry</label>
+		<isFighter>true</isFighter>
+		<combatPower>280</combatPower>
+		<maxGenerationAge>5</maxGenerationAge>
+		<minGenerationAge>2</minGenerationAge>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>
+			<min>2000</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>ATCharge_R</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+			<li>AT_AP_Power_D</li>
+			<li>AT_AP_Shooter_A</li>
+			<li>AT_AP_Power_Head_D</li>
+			<li>AT_AP_AdditionalPower_D</li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>3000</min>
+			<max>6000</max>
+		</apparelMoney>
+		<inventoryOptions>
+			<subOptionsChooseOne Inherit="False">
+			<li>
+				<thingDef>Antypheromone_Suicide</thingDef>
+				<countRange>1</countRange>
+			</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">

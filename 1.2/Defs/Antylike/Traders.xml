@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<TraderKindDef ParentName="Caravan_AT_REA">
+	<TraderKindDef ParentName="Caravan_AT_REA" MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>Caravan_AT_REB</defName>
-		<label>close inspection Group</label>
+		<label>Anty close inspection Group</label>
+		<requestable>False</requestable>
+		<commonality>1</commonality>
+		<category>TributeCollector</category>
+		<tradeCurrency>Favor</tradeCurrency>
+		<faction>AntyHive_B</faction>
+		<hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
 	</TraderKindDef>
 	<TraderKindDef Name="Caravan_AT_REA">
 		<defName>Caravan_AT_REA</defName>

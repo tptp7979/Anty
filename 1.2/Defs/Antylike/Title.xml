@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs MayRequire="Ludeon.RimWorld.Royalty">
+		<RoyalTitleDef Abstract="True" Name="BaseAntyTitle" >
+			<tags>
+				<li>AntyTitle</li>
+			</tags>
+			<awardThought>GainedTitle</awardThought>
+			<lostThought>LostTitle</lostThought>
+			<recruitmentDifficultyOffset>0.2</recruitmentDifficultyOffset>
+		</RoyalTitleDef>
+
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_platoonleader</defName>
+			<label>Platoon leader</label>
+			<description>Platoon leader of Anty Hive.</description>
+			<seniority>0</seniority>
+			<favorCost>8</favorCost>
+			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
+			<allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+			<permitPointsAwarded>1</permitPointsAwarded>
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_companycommander</defName>
+			<label>Company commander</label>
+			<description>Company commander of Anty Hive.</description>
+			<seniority>100</seniority>
+			<favorCost>16</favorCost>
+			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
+			<commonality>1</commonality>
+			<permitPointsAwarded>1</permitPointsAwarded>
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_battalioncommander</defName>
+			<label>Battalion commander</label>
+			<description>Battalion commander of Anty Hive.</description>
+			<seniority>200</seniority>
+			<favorCost>24</favorCost>
+			<minExpectation>Moderate</minExpectation>
+			<changeHeirQuestPoints>1200</changeHeirQuestPoints>
+			<recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+			<commonality>1</commonality>
+			<canBeInherited>True</canBeInherited>
+			<permitPointsAwarded>1</permitPointsAwarded>
+
+			<requiredApparel>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Torso</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>UpperHead</li>
+				<li>FullHead</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			</requiredApparel>
+
+			<throneRoomRequirements>
+			<li Class="RoomRequirement_HasAssignedThroneAnyOf">
+				<things>
+				<li>Throne</li>
+				<li>GrandThrone</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_Area">
+				<area>24</area>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_AllThingsAreGlowing">
+				<labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
+				<thingDef>Brazier</thingDef>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoBeds</labelKey>
+				<buildingTags><li>Bed</li></buildingTags>
+			</li>
+			</throneRoomRequirements>
+
+			<bedroomRequirements>
+			<li Class="RoomRequirement_Area">
+				<area>16</area>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>DoubleBed</li>
+				<li>RoyalBed</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			</bedroomRequirements>
+
+			<foodRequirement>
+			<minQuality>MealSimple</minQuality>
+			<allowedTypes>Processed, Liquor</allowedTypes>
+			<allowedDefs>
+				<li>Ambrosia</li>
+				<li>Milk</li>
+				<li>RawBerries</li>
+			</allowedDefs>
+			</foodRequirement>
+
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_SwarmLord</defName>
+			<label>Swarm Lord</label>
+			<description>Swarm Lord of Anty Hive.</description>
+			<seniority>300</seniority>
+			<favorCost>8</favorCost>
+			<minExpectation>High</minExpectation>
+			<changeHeirQuestPoints>1600</changeHeirQuestPoints>
+			<recruitmentResistanceOffset>25</recruitmentResistanceOffset>
+			<commonality>1</commonality>
+			<canBeInherited>True</canBeInherited>
+			<permitPointsAwarded>1</permitPointsAwarded>
+
+			<permits>
+			<li>TradeSettlement</li>
+			<li>TradeCaravan</li>
+			</permits>
+
+			<requiredApparel>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Torso</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>UpperHead</li>
+				<li>FullHead</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			</requiredApparel>
+
+			<throneRoomRequirements>
+			<li Class="RoomRequirement_HasAssignedThroneAnyOf">
+				<things>
+				<li>Throne</li>
+				<li>GrandThrone</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_Area">
+				<area>30</area>
+			</li>
+			<li Class="RoomRequirement_Impressiveness">
+				<impressiveness>60</impressiveness>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Column</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>Harp</li>
+				<li>Harpsichord</li>
+				<li>Piano</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_AllThingsAreGlowing">
+				<labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
+				<thingDef>Brazier</thingDef>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoBeds</labelKey>
+				<buildingTags><li>Bed</li></buildingTags>
+			</li>
+			</throneRoomRequirements>
+
+			<bedroomRequirements>
+			<li Class="RoomRequirement_Area">
+				<area>24</area>
+			</li>
+			<li Class="RoomRequirement_Impressiveness">
+				<impressiveness>40</impressiveness>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>DoubleBed</li>
+				<li>RoyalBed</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>EndTable</thingDef>
+			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Dresser</thingDef>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			</bedroomRequirements>
+
+			<foodRequirement>
+			<minQuality>MealFine</minQuality>
+			<allowedTypes>Processed, Liquor</allowedTypes>
+			<allowedDefs>
+				<li>Ambrosia</li>
+				<li>Milk</li>
+				<li>RawBerries</li>
+			</allowedDefs>
+			</foodRequirement>
+
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallLaborerTeam</defName>
+			<label>Call Ergate team</label>
+			<description>Call a group of 4 Ergate Anties to assist you for 4 days.</description>
+			<workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+			<minTitle>AT_platoonleader</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,0)</uiPosition>
+			<royalAid>
+				<favorCost>4</favorCost>
+				<pawnKindDef>AT_Colonist_C</pawnKindDef>
+				<pawnCount>4</pawnCount>
+				<aidDurationDays>4</aidDurationDays>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidSmall</defName>
+			<label>Bomb drop</label>
+			<description>Call a group of 10 Bombs to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_platoonleader</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,1)</uiPosition>
+			<royalAid>
+				<favorCost>4</favorCost>
+				<pawnKindDef>AT_Power_D</pawnKindDef>
+				<pawnCount>10</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+</Defs>
