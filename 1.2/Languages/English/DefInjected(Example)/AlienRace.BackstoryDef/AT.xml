@@ -3,6 +3,9 @@
   <Anty_Larva_B_lazy.title>Anty Lazy Larva</Anty_Larva_B_lazy.title>
   <Anty_Larva_B_lazy.titleShort>Anty</Anty_Larva_B_lazy.titleShort>
   <Anty_Larva_B_lazy.baseDescription>[PAWN_nameDef] was a slothful larva. Even just squirming was too much for [PAWN_nameDef]. Kind hearted friends tried to love, but [PAWN_pronoun] considered their attentions a nuisance. Naturally, nobody was left to love [PAWN_objective].</Anty_Larva_B_lazy.baseDescription>
+  <Anty_Larva_B_lazy_Drop.title>Anty Lazy Larva</Anty_Larva_B_lazy_Drop.title>
+  <Anty_Larva_B_lazy_Drop.titleShort>Anty</Anty_Larva_B_lazy_Drop.titleShort>
+  <Anty_Larva_B_lazy_Drop.baseDescription>[PAWN_nameDef] was a slothful larva. Even just squirming was too much for [PAWN_nameDef]. Kind hearted friends tried to love, but [PAWN_pronoun] considered their attentions a nuisance. Naturally, nobody was left to love [PAWN_objective].</Anty_Larva_B_lazy_Drop.baseDescription>
   <Anty_Larva_B_Brave.title>Anty Brave Larva</Anty_Larva_B_Brave.title>
   <Anty_Larva_B_Brave.titleShort>Anty</Anty_Larva_B_Brave.titleShort>
   <Anty_Larva_B_Brave.baseDescription>[PAWN_nameDef] was one daring larva. [PAWN_pronoun] enjoyed extreme activities such as rolling from over the small ledge, squirming over a hard and round surface, and fighting off some mean flies. [PAWN_objective] didn't enjoy the part where he got scolded for it by the nannies.</Anty_Larva_B_Brave.baseDescription>
@@ -30,6 +33,9 @@
   <Anty_Amigo_B_Meleeinfantry.title>Anty Melee infantry</Anty_Amigo_B_Meleeinfantry.title>
   <Anty_Amigo_B_Meleeinfantry.titleShort>Melee infantry</Anty_Amigo_B_Meleeinfantry.titleShort>
   <Anty_Amigo_B_Meleeinfantry.baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</Anty_Amigo_B_Meleeinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry_Drop.title>Anty Melee infantry</Anty_Amigo_B_Meleeinfantry_Drop.title>
+  <Anty_Amigo_B_Meleeinfantry_Drop.titleShort>Melee infantry</Anty_Amigo_B_Meleeinfantry_Drop.titleShort>
+  <Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>
   <Anty_Amigo_B_Normalinfantry.title>Anty general infantry</Anty_Amigo_B_Normalinfantry.title>
   <Anty_Amigo_B_Normalinfantry.titleShort>general infantry</Anty_Amigo_B_Normalinfantry.titleShort>
   <Anty_Amigo_B_Normalinfantry.baseDescription>[PAWN_nameDef] is a general infantry.\n\nMay carry out a role as both close-quarter or ranged infantry, depending on the situation. They are capable of handling every type of weapon, but they are not as proficient in either, unlike the specialized class.</Anty_Amigo_B_Normalinfantry.baseDescription>

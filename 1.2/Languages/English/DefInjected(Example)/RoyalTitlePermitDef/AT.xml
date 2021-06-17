@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_CallLaborerTeam.label>Call Ergate team</AT_CallLaborerTeam.label>
+  <AT_CallLaborerTeam.description>Call a group of 4 Ergate Anties to assist you for 4 days.</AT_CallLaborerTeam.description>
+
+  <AT_CallMilitaryAidSmall.label>Bomb drop</AT_CallMilitaryAidSmall.label>
+  <AT_CallMilitaryAidSmall.description>Call a group of 10 Bombs to aid you in battle.</AT_CallMilitaryAidSmall.description>
+</LanguageData>

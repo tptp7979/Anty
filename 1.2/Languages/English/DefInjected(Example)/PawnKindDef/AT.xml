@@ -18,6 +18,7 @@
   <AT_Power_A.label>Anty Enhanced Ranged Infantry</AT_Power_A.label>
   <AT_Power_B.label>Anty Enhanced Close Combat Infantry</AT_Power_B.label>
   <AT_Power_C.label>Anty Enhanced Grenadier</AT_Power_C.label>
+  <AT_Power_D.label>Anty Enhanced Close Combat Infantry</AT_Power_D.label>
   <AT_PP_S.label>Anty Special diplomat</AT_PP_S.label>
   <Anty_prototype.label>proty</Anty_prototype.label>
 </LanguageData>
