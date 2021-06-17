@@ -293,7 +293,7 @@
 			<label>Call Ranged Combat team</label>
 			<description>Call a group of 5 Ranged Combat Anties to aid you in battle.</description>
 			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-			<minTitle>AT_companycommander</minTitle>
+			<minTitle>AT_battalioncommander</minTitle>
 			<faction>AntyHive_B</faction>
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(0,2)</uiPosition>
