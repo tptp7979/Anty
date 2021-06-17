@@ -38,7 +38,7 @@
 			<label>Battalion commander</label>
 			<description>Battalion commander of Anty Hive.</description>
 			<seniority>200</seniority>
-			<favorCost>24</favorCost>
+			<favorCost>20</favorCost>
 			<minExpectation>Moderate</minExpectation>
 			<changeHeirQuestPoints>1200</changeHeirQuestPoints>
 			<recruitmentResistanceOffset>10</recruitmentResistanceOffset>
@@ -75,41 +75,6 @@
 			</li>
 			</requiredApparel>
 
-			<throneRoomRequirements>
-			<li Class="RoomRequirement_HasAssignedThroneAnyOf">
-				<things>
-				<li>Throne</li>
-				<li>GrandThrone</li>
-				</things>
-			</li>
-			<li Class="RoomRequirement_Area">
-				<area>24</area>
-			</li>
-			<li Class="RoomRequirement_TerrainWithTags">
-				<labelKey>RoomRequirementAllFloored</labelKey>
-				<tags>
-				<li>Floor</li>
-				<li>FineFloor</li>
-				</tags>
-			</li>
-			<li Class="RoomRequirement_ThingCount">
-				<thingDef>Brazier</thingDef>
-				<count>2</count>
-			</li>
-			<li Class="RoomRequirement_AllThingsAreGlowing">
-				<labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-				<thingDef>Brazier</thingDef>
-			</li>
-			<li Class="RoomRequirement_ForbiddenBuildings">
-				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
-				<buildingTags><li>Production</li></buildingTags>
-			</li>
-			<li Class="RoomRequirement_ForbiddenBuildings">
-				<labelKey>RoomRequirementNoBeds</labelKey>
-				<buildingTags><li>Bed</li></buildingTags>
-			</li>
-			</throneRoomRequirements>
-
 			<bedroomRequirements>
 			<li Class="RoomRequirement_Area">
 				<area>16</area>
@@ -127,21 +92,14 @@
 				<li>RoyalBed</li>
 				</things>
 			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Anty_RecycleTurretB</thingDef>
+			</li>
 			<li Class="RoomRequirement_ForbiddenBuildings">
 				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
 				<buildingTags><li>Production</li></buildingTags>
 			</li>
 			</bedroomRequirements>
-
-			<foodRequirement>
-			<minQuality>MealSimple</minQuality>
-			<allowedTypes>Processed, Liquor</allowedTypes>
-			<allowedDefs>
-				<li>Ambrosia</li>
-				<li>Milk</li>
-				<li>RawBerries</li>
-			</allowedDefs>
-			</foodRequirement>
 
 			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
 		</RoyalTitleDef>
@@ -151,18 +109,13 @@
 			<label>Swarm Lord</label>
 			<description>Swarm Lord of Anty Hive.</description>
 			<seniority>300</seniority>
-			<favorCost>8</favorCost>
+			<favorCost>28</favorCost>
 			<minExpectation>High</minExpectation>
 			<changeHeirQuestPoints>1600</changeHeirQuestPoints>
 			<recruitmentResistanceOffset>25</recruitmentResistanceOffset>
 			<commonality>1</commonality>
 			<canBeInherited>True</canBeInherited>
 			<permitPointsAwarded>1</permitPointsAwarded>
-
-			<permits>
-			<li>TradeSettlement</li>
-			<li>TradeCaravan</li>
-			</permits>
 
 			<requiredApparel>
 			<li>
@@ -193,55 +146,6 @@
 			</li>
 			</requiredApparel>
 
-			<throneRoomRequirements>
-			<li Class="RoomRequirement_HasAssignedThroneAnyOf">
-				<things>
-				<li>Throne</li>
-				<li>GrandThrone</li>
-				</things>
-			</li>
-			<li Class="RoomRequirement_Area">
-				<area>30</area>
-			</li>
-			<li Class="RoomRequirement_Impressiveness">
-				<impressiveness>60</impressiveness>
-			</li>
-			<li Class="RoomRequirement_TerrainWithTags">
-				<labelKey>RoomRequirementAllFloored</labelKey>
-				<tags>
-				<li>Floor</li>
-				<li>FineFloor</li>
-				</tags>
-			</li>
-			<li Class="RoomRequirement_ThingCount">
-				<thingDef>Brazier</thingDef>
-				<count>2</count>
-			</li>
-			<li Class="RoomRequirement_ThingCount">
-				<thingDef>Column</thingDef>
-				<count>2</count>
-			</li>
-			<li Class="RoomRequirement_ThingAnyOf">
-				<things>
-				<li>Harp</li>
-				<li>Harpsichord</li>
-				<li>Piano</li>
-				</things>
-			</li>
-			<li Class="RoomRequirement_AllThingsAreGlowing">
-				<labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-				<thingDef>Brazier</thingDef>
-			</li>
-			<li Class="RoomRequirement_ForbiddenBuildings">
-				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
-				<buildingTags><li>Production</li></buildingTags>
-			</li>
-			<li Class="RoomRequirement_ForbiddenBuildings">
-				<labelKey>RoomRequirementNoBeds</labelKey>
-				<buildingTags><li>Bed</li></buildingTags>
-			</li>
-			</throneRoomRequirements>
-
 			<bedroomRequirements>
 			<li Class="RoomRequirement_Area">
 				<area>24</area>
@@ -268,21 +172,14 @@
 			<li Class="RoomRequirement_Thing">
 				<thingDef>Dresser</thingDef>
 			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Anty_RecycleTurretB</thingDef>
+			</li>
 			<li Class="RoomRequirement_ForbiddenBuildings">
 				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
 				<buildingTags><li>Production</li></buildingTags>
 			</li>
 			</bedroomRequirements>
-
-			<foodRequirement>
-			<minQuality>MealFine</minQuality>
-			<allowedTypes>Processed, Liquor</allowedTypes>
-			<allowedDefs>
-				<li>Ambrosia</li>
-				<li>Milk</li>
-				<li>RawBerries</li>
-			</allowedDefs>
-			</foodRequirement>
 
 			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
 		</RoyalTitleDef>

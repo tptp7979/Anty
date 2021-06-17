@@ -356,4 +356,18 @@
     </stages>
     <validWhileDespawned>true</validWhileDespawned>
   </ThoughtDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>TitleNoPersonalBedroom_B</defName>
+    <validWhileDespawned>true</validWhileDespawned>
+    <workerClass>ThoughtWorker_NoPersonalBedroom</workerClass>
+    <nullifyingTraits><li>Ascetic</li></nullifyingTraits>
+    <stages>
+      <li>
+        <label>no personal bedroom</label>
+        <description>I want my own bedroom!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

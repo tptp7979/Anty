@@ -664,6 +664,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<restrictedThoughts>
                 <li>NeedOutdoors_B</li>
 				<li>Expectations_B</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom_B</li>
             </restrictedThoughts>
  			<cannotReceiveThoughts>
 				<!-- <li>Pain</li> -->
@@ -753,6 +754,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<li>MyCousinLost</li>
 				<li>MyKinLost</li>
 				<li>SharedBed</li>
+
+				<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
 				
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
