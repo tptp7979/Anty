@@ -109,7 +109,7 @@
 
 			<bedroomRequirements>
 			<li Class="RoomRequirement_Area">
-				<area>16</area>
+				<area>35</area>
 			</li>
 			<li Class="RoomRequirement_TerrainWithTags">
 				<labelKey>RoomRequirementAllFloored</labelKey>
@@ -123,6 +123,10 @@
 				<li>DoubleBed</li>
 				<li>RoyalBed</li>
 				</things>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
 			</li>
 			<li Class="RoomRequirement_Thing">
 				<thingDef>Anty_RecycleTurretB</thingDef>
@@ -193,7 +197,7 @@
 
 			<bedroomRequirements>
 			<li Class="RoomRequirement_Area">
-				<area>24</area>
+				<area>40</area>
 			</li>
 			<li Class="RoomRequirement_Impressiveness">
 				<impressiveness>40</impressiveness>
@@ -211,17 +215,29 @@
 				<li>RoyalBed</li>
 				</things>
 			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>SculptureSmall</li>
+				<li>SculptureLarge</li>
+				</things>
+			</li>
 			<li Class="RoomRequirement_Thing">
 				<thingDef>EndTable</thingDef>
 			</li>
 			<li Class="RoomRequirement_Thing">
 				<thingDef>Dresser</thingDef>
 			</li>
-			<li Class="RoomRequirement_Thing">
-				<thingDef>Anty_RecycleTurretB</thingDef>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Drape</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
 			</li>
 			<li Class="RoomRequirement_Thing">
-				<thingDef>Anty_RecycleTurret</thingDef>
+				<thingDef>Anty_RecycleTurretB</thingDef>
+				<count>2</count>
 			</li>
 			<li Class="RoomRequirement_ForbiddenBuildings">
 				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
