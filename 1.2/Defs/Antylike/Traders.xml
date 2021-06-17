@@ -9,6 +9,13 @@
 		<tradeCurrency>Favor</tradeCurrency>
 		<faction>AntyHive_B</faction>
 		<hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+		<stockGenerators Inherit="False">
+			<!-- Buying -->
+			<li Class="StockGenerator_BuySlaves" />
+			<li Class="StockGenerator_BuySingleDef">
+			  <thingDef>Anty_Recyclecore</thingDef>
+			</li>
+		</stockGenerators>
 	</TraderKindDef>
 	<TraderKindDef Name="Caravan_AT_REA">
 		<defName>Caravan_AT_REA</defName>

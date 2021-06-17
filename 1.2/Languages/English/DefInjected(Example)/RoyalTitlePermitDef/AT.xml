@@ -2,7 +2,12 @@
 <LanguageData>
   <AT_CallLaborerTeam.label>Call Ergate team</AT_CallLaborerTeam.label>
   <AT_CallLaborerTeam.description>Call a group of 4 Ergate Anties to assist you for 4 days.</AT_CallLaborerTeam.description>
-
-  <AT_CallMilitaryAidSmall.label>Bomb drop</AT_CallMilitaryAidSmall.label>
-  <AT_CallMilitaryAidSmall.description>Call a group of 10 Bombs to aid you in battle.</AT_CallMilitaryAidSmall.description>
+  <AT_CallMilitaryAidMelee.label>Call Close Combat team</AT_CallMilitaryAidMelee.label>
+  <AT_CallMilitaryAidMelee.description>Call a group of 10 Close Combat Anties to aid you in battle.</AT_CallMilitaryAidMelee.description>
+  <AT_CallMilitaryAidBomb.label>Bomb drop</AT_CallMilitaryAidBomb.label>
+  <AT_CallMilitaryAidBomb.description>Call a group of 10 Bombs to aid you in battle.</AT_CallMilitaryAidBomb.description>
+  <AT_CallMilitaryAidRanged.label>Call Ranged Combat team</AT_CallMilitaryAidRanged.label>
+  <AT_CallMilitaryAidRanged.description>Call a group of 5 Ranged Combat Anties to aid you in battle.</AT_CallMilitaryAidRanged.description>
+  <AT_CallMilitaryAidCluster.label>Call Cluster team</AT_CallMilitaryAidCluster.label>
+  <AT_CallMilitaryAidCluster.description>Call a group of 5 Cluster Anties to aid you in battle.</AT_CallMilitaryAidCluster.description>
 </LanguageData>

@@ -568,7 +568,6 @@
 			<li>AT_AP_Shooter_A</li>
 			<li>AT_AP_Power_Head_A</li>
 			<li>AT_AP_AdditionalPower_A</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
 		</apparelRequired>
 		<apparelMoney>
 			<min>3000</min>

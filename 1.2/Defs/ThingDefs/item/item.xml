@@ -129,6 +129,7 @@
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<MarketValue>400</MarketValue>
+			<RoyalFavorValue>1</RoyalFavorValue>
 			<Mass>10</Mass>
 			<Flammability>0</Flammability>
 		</statBases>

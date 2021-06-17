@@ -307,18 +307,73 @@
 		</RoyalTitlePermitDef>
 
 		<RoyalTitlePermitDef>
-			<defName>AT_CallMilitaryAidSmall</defName>
-			<label>Bomb drop</label>
-			<description>Call a group of 10 Bombs to aid you in battle.</description>
+			<defName>AT_CallMilitaryAidMelee</defName>
+			<label>Call Close Combat team</label>
+			<description>Call a group of 10 Close Combat Anties to aid you in battle.</description>
 			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
-			<minTitle>AT_platoonleader</minTitle>
+			<minTitle>AT_companycommander</minTitle>
 			<faction>AntyHive_B</faction>
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(0,1)</uiPosition>
 			<royalAid>
 				<favorCost>4</favorCost>
+				<pawnKindDef>AT_Power_B</pawnKindDef>
+				<pawnCount>10</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidBomb</defName>
+			<label>Bomb drop</label>
+			<description>Call a group of 10 Bombs to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_battalioncommander</minTitle>
+			<prerequisite>AT_CallMilitaryAidMelee</prerequisite>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(1,1)</uiPosition>
+			<royalAid>
+				<favorCost>8</favorCost>
 				<pawnKindDef>AT_Power_D</pawnKindDef>
 				<pawnCount>10</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidRanged</defName>
+			<label>Call Ranged Combat team</label>
+			<description>Call a group of 5 Ranged Combat Anties to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_companycommander</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,2)</uiPosition>
+			<royalAid>
+				<favorCost>4</favorCost>
+				<pawnKindDef>AT_Power_A</pawnKindDef>
+				<pawnCount>5</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidCluster</defName>
+			<label>Call Cluster team</label>
+			<description>Call a group of 5 Cluster Anties to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_SwarmLord</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(1,2)</uiPosition>
+			<royalAid>
+				<favorCost>8</favorCost>
+				<pawnKindDef>AT_Power_C</pawnKindDef>
+				<pawnCount>5</pawnCount>
 				<targetingRange>39.9</targetingRange>
 			</royalAid>
 			<cooldownDays>60</cooldownDays>
