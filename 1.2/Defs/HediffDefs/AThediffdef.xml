@@ -1192,7 +1192,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</graphicData>
 		<statBases>
 			<MarketValue>6.0</MarketValue>
-			<RoyalFavorValue>0.2</RoyalFavorValue>
+			<RoyalFavorValue>0.7</RoyalFavorValue>
 			<Mass>0.025</Mass>
 			<Nutrition>1</Nutrition>
 			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>

@@ -68,6 +68,19 @@
 			<requiredApparel>
 			<li>
 				<bodyPartGroupsMatchAny>
+				<li>Shoulders</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
 				<li>Torso</li>
 				</bodyPartGroupsMatchAny>
 				<requiredTags>
@@ -139,6 +152,19 @@
 			<requiredApparel>
 			<li>
 				<bodyPartGroupsMatchAny>
+				<li>Shoulders</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
 				<li>Torso</li>
 				</bodyPartGroupsMatchAny>
 				<requiredTags>
@@ -194,6 +220,9 @@
 			<li Class="RoomRequirement_Thing">
 				<thingDef>Anty_RecycleTurretB</thingDef>
 			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Anty_RecycleTurret</thingDef>
+			</li>
 			<li Class="RoomRequirement_ForbiddenBuildings">
 				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
 				<buildingTags><li>Production</li></buildingTags>
@@ -214,7 +243,7 @@
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(0,0)</uiPosition>
 			<royalAid>
-				<favorCost>4</favorCost>
+				<favorCost>20</favorCost>
 				<pawnKindDef>AT_Colonist_C</pawnKindDef>
 				<pawnCount>4</pawnCount>
 				<aidDurationDays>4</aidDurationDays>
@@ -232,7 +261,7 @@
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(0,1)</uiPosition>
 			<royalAid>
-				<favorCost>4</favorCost>
+				<favorCost>20</favorCost>
 				<pawnKindDef>AT_Power_B</pawnKindDef>
 				<pawnCount>10</pawnCount>
 				<targetingRange>39.9</targetingRange>
@@ -251,7 +280,7 @@
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(1,1)</uiPosition>
 			<royalAid>
-				<favorCost>8</favorCost>
+				<favorCost>40</favorCost>
 				<pawnKindDef>AT_Power_D</pawnKindDef>
 				<pawnCount>10</pawnCount>
 				<targetingRange>39.9</targetingRange>
@@ -269,7 +298,7 @@
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(0,2)</uiPosition>
 			<royalAid>
-				<favorCost>4</favorCost>
+				<favorCost>30</favorCost>
 				<pawnKindDef>AT_Power_A</pawnKindDef>
 				<pawnCount>5</pawnCount>
 				<targetingRange>39.9</targetingRange>
@@ -287,7 +316,7 @@
 			<permitPointCost>1</permitPointCost>
 			<uiPosition>(1,2)</uiPosition>
 			<royalAid>
-				<favorCost>8</favorCost>
+				<favorCost>40</favorCost>
 				<pawnKindDef>AT_Power_C</pawnKindDef>
 				<pawnCount>5</pawnCount>
 				<targetingRange>39.9</targetingRange>
