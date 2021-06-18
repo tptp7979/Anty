@@ -52,15 +52,10 @@
 					<thingDef>AT_AcidCross</thingDef>
 					<count>3</count>
 				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-						<def>StartingThing_Defined</def>
-						<thingDef>EggProty</thingDef>
-						<count>3</count>
-				</li>
 				<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
 				<animalKind>Anty_prototype</animalKind>
-				<count>3</count>
+				<count>6</count>
 				<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
 				</li>
 

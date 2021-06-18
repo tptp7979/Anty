@@ -8,12 +8,9 @@
 		<description>It's still growing and can't stand the transformation aftereffect. cannot do anything else until the 15th day after birth.</description>
 		<label>LARVA</label>
 		<initialSeverity>1</initialSeverity>
-		<maxSeverity>1.1</maxSeverity>
+		<maxSeverity>1</maxSeverity>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>10000</severityPerDay>
-			</li>
 			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect_B</li>
@@ -22,7 +19,7 @@
 		</comps>
 		<stages>
 		<li>
-        <minSeverity>1.01</minSeverity>
+        <minSeverity>0.01</minSeverity>
 		<becomeVisible>true</becomeVisible>
         <lifeThreatening>false</lifeThreatening>
 			<capMods>

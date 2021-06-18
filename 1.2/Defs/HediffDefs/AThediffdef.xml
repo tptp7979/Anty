@@ -77,7 +77,15 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a worker.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntyErgatebirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntyQueenbirth</li>	
@@ -86,10 +94,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
 				</hediffToNullify>
-				
-				<hediffToApply>AntyErgatebirth</hediffToApply>
-				
-				<!-- <debug>false</debug> -->
 			</li>
 		</comps>
 	</HediffDef>
@@ -135,7 +139,15 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a soldier.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntySoldierbirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntyQueenbirth</li>	
@@ -144,10 +156,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
 				</hediffToNullify>
-				
-				<hediffToApply>AntySoldierbirth</hediffToApply>
-				
-				<!-- <debug>false</debug> -->
 			</li>
 		</comps>
 	</HediffDef>
@@ -219,16 +227,20 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<labelNoun>Transforming into a queen.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntyQueenbirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>AntySoldierbirth</li>	
 					<li>AntyErgatebirth</li>
 				</hediffToNullify>
-				
-				<hediffToApply>AntyQueenbirth</hediffToApply>
-				
-				<!-- <debug>false</debug> -->
 			</li>
 		</comps>
 	</HediffDef>

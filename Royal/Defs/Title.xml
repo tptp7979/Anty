@@ -235,7 +235,7 @@
 				<thingDef>Brazier</thingDef>
 				<count>2</count>
 			</li>
-			<li Class="RoomRequirement_Thing">
+			<li Class="RoomRequirement_ThingCount">
 				<thingDef>Anty_RecycleTurretB</thingDef>
 				<count>2</count>
 			</li>
