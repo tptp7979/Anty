@@ -218,7 +218,7 @@
 								<li>Parent</li>
 								<li>UncleOrAunt</li>
 							</royalTitleInheritanceRelations>
-							<royalFavorLabel>Order of Hive</royalFavorLabel>
+							<royalFavorLabel>Medal of Hive</royalFavorLabel>
 							<royalFavorIconPath>Icon/AT_Icon_B</royalFavorIconPath>
 							<caravanTraderKinds>
 								<li>Caravan_AT_REB</li>
