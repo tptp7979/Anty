@@ -47,6 +47,7 @@
 	
 	<PawnKindDef ParentName="AT_Colonist">
 		<defName>AT_Colonist_C</defName>
+		<defaultFactionType>AT_PlayerFaction_B</defaultFactionType>
 		<apparelTags Inherit="False">
 			<li>AntyShooter</li>
 		</apparelTags>

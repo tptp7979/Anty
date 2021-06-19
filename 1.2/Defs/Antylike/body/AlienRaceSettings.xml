@@ -14,7 +14,20 @@
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>AT_PlayerFaction</li> 
+						<li>AT_PlayerFaction</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>AT_Colonist_C</li>
+							</kindDefs>
+							<chance>100</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>AT_PlayerFaction_B</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
