@@ -4,7 +4,6 @@
 		<defName>Caravan_AT_REB</defName>
 		<label>Anty close inspection Group</label>
 		<commonality>1</commonality>
-		<category>TributeCollector</category>
 		<tradeCurrency>Favor</tradeCurrency>
 		<faction>AntyHive_B</faction>
 		<hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
