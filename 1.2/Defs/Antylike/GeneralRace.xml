@@ -366,7 +366,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					</offsets>
 				</li>
 				
-				<li><!--안광-->
+				<li Class="MoharCustomHAR.MoharBodyAddon"><!--안광-->
 					<path>Antylike/Heads/AT_PE_CC</path>
 					<hediffGraphics>
 						<Antypheromone_SuicideHigh>Antylike/Heads/AT_PE_E</Antypheromone_SuicideHigh>
@@ -378,6 +378,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>0.9</drawSize>
 					<drawnInBed>false</drawnInBed>
+					<drawIfDead>false</drawIfDead>
 					<angle>0</angle>
 					<layerOffset>1</layerOffset>
 					<shaderType>TransparentPostLight</shaderType>
@@ -405,7 +406,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					</offsets>
 				</li>
 				
-				<li><!--배광-->
+				<li Class="MoharCustomHAR.MoharBodyAddon"><!--배광-->
 					<path>Antylike/Tails/ATTail_CP_south</path>
 					<hediffGraphics>
 						<Antypheromone_SuicideHigh>Antylike/Tails/ATTail_EP</Antypheromone_SuicideHigh>
@@ -417,6 +418,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<drawnInBed>false</drawnInBed>
+					<drawIfDead>false</drawIfDead>
 					<angle>0</angle>
 					<layerOffset>-0.319</layerOffset>
 					<shaderType>TransparentPostLight</shaderType>

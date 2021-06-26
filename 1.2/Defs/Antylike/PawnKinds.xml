@@ -528,6 +528,13 @@
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<weaponMoney>
 			<min>1800</min>
 			<max>2500</max>
@@ -557,6 +564,13 @@
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<weaponMoney>
 			<min>2500</min>
 			<max>3000</max>
@@ -584,6 +598,13 @@
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<weaponMoney>
 			<min>2000</min>
 			<max>3000</max>
@@ -612,6 +633,13 @@
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<canBeSapper>true</canBeSapper>
 		<weaponMoney>
 			<min>3500</min>

@@ -86,7 +86,9 @@
 		<spawnCategories Inherit="False">
 			<li>ATAmigo_Melee_Drop</li>
 		</spawnCategories>
-		<forcedHediffs Inherit="False"/>
+		<forcedHediffs Inherit="False">
+		<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
+		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="AntyBackStory">
