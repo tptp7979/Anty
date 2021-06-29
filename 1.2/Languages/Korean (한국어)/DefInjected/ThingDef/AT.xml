@@ -227,13 +227,13 @@
   <AT_Apparel_chunk.description>앤티들이 전장에서 조금이라도 더 보호를 제공받기 위해서 사용하는 외골격 더미입니다. 시간이 지나면 사라집니다.</AT_Apparel_chunk.description>
   <AT_Bulletchunk.label>외골격잔해 설치기</AT_Bulletchunk.label>
   <AT_Apparel_chunk.comps.CompReloadable.chargeNoun>외골격잔해</AT_Apparel_chunk.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.pop_chunk_kit.label>외골격잔해 발사</AT_Apparel_chunk.verbs.pop_chunk_kit.label>
+  <AT_Apparel_chunk.verbs.0.label>외골격잔해 발사</AT_Apparel_chunk.verbs.0.label>
   
   <AT_Apparel_barricade.label>급조엄폐물 킷</AT_Apparel_barricade.label>
   <AT_Apparel_barricade.description>언제 상황이 급변할지 모르는 전장에서 앤티들이 적의 공격으로부터 자신들을 보호하기 위해서 개발된 급조 엄폐물입니다. 시간이 지나면 사라집니다.</AT_Apparel_barricade.description>
   <AT_Bulletbarricade.label>급조엄폐물 설치기</AT_Bulletbarricade.label>
   <AT_Apparel_barricade.comps.CompReloadable.chargeNoun>급조엄폐물</AT_Apparel_barricade.comps.CompReloadable.chargeNoun>
-  <AT_Apparel_chunk.verbs.pop_barricade_kit.label>급조엄폐물 발사</AT_Apparel_chunk.verbs.pop_barricade_kit.label>
+  <AT_Apparel_barricade.verbs.0.label>급조엄폐물 발사</AT_Apparel_barricade.verbs.0.label>
   
   <AT_Sickle.label>앤티 낫</AT_Sickle.label>
   <AT_Sickle.description>앤티들이 사용하는 조금 큰 낫입니다.</AT_Sickle.description>
