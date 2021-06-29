@@ -76,7 +76,7 @@
   <AT_AP_AdditionalPower_C.label>앤티 디노포네라 사이드아머</AT_AP_AdditionalPower_C.label>
   <AT_AP_AdditionalPower_C.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_C.description>
   <AT_AP_Power_C.comps.CompReloadable.chargeNoun>외교용 사슬</AT_AP_Power_C.comps.CompReloadable.chargeNoun>
-  <AT_AP_Power_C.verbs.label>외교용 사슬 발사</AT_AP_Power_C.verbs.label>
+  <AT_AP_Power_C.verbs.0.label>외교용 사슬 발사</AT_AP_Power_C.verbs.0.label>
   <BulletExecutionerChain.label>외교용 사슬</BulletExecutionerChain.label>
   
   <AT_AP_Power_D.label>앤티 파라포네라 아머</AT_AP_Power_D.label>
