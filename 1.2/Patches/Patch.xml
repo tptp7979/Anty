@@ -231,6 +231,20 @@
 							</baseTraderKinds>
 						</value>
 					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="Anty_Commander"]</xpath>
+						<value>
+							<minTitleRequired>AT_SwarmLord</minTitleRequired>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="AT_PP_S"]</xpath>
+						<value>
+							<minTitleRequired>AT_platoonleader</minTitleRequired>
+						</value>
+					</li>
 				</operations>
 			</match>
 		</Operation>
