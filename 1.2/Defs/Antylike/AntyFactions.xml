@@ -223,10 +223,11 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>20</AT_Power>
+				<AT_Power>5</AT_Power>
 				<AT_Sapper_A>3</AT_Sapper_A>
 				<AT_Sapper_B>1</AT_Sapper_B>
-				<AT_Power_B>20</AT_Power_B>
+				<AT_Power_B>5</AT_Power_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>3</AT_Launcher_A>
 				<!-- <AT_SingleUse>1</AT_SingleUse> -->
 				<!-- <AT_PP_S>3</AT_PP_S> -->
@@ -235,14 +236,15 @@
 		
 		<li> 
 			<kindDef>Combat</kindDef>
-			<commonality>5</commonality>
+			<commonality>3</commonality>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>30</AT_Power>
+				<AT_Power>10</AT_Power>
 				<AT_Sapper_A>5</AT_Sapper_A>
 				<AT_Sapper_B>5</AT_Sapper_B>
-				<AT_Power_B>30</AT_Power_B>
+				<AT_Power_B>10</AT_Power_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>3</AT_Launcher_A>
 				<!-- <AT_SingleUse>1</AT_SingleUse> -->
 				<!-- <AT_PP_S>3</AT_PP_S> -->
@@ -255,9 +257,10 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>15</AT_Power>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Power>5</AT_Power>
 				<AT_Power_A>10</AT_Power_A>
-				<AT_Power_B>30</AT_Power_B>
+				<AT_Power_B>10</AT_Power_B>
 				<AT_Power_C>7</AT_Power_C>
 				<AT_Sapper_A>5</AT_Sapper_A>
 				<!-- <AT_PP_S>5</AT_PP_S> -->
