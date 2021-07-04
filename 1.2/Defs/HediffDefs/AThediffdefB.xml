@@ -65,6 +65,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<descriptionHyperlinks>
 			<ThingDef>Refleum</ThingDef>
 			<HediffDef>AntyIncreasedviability</HediffDef>
+			<RecipeDef>CureAntyTransitionRefleum</RecipeDef>
 		</descriptionHyperlinks>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>true</isBad>
