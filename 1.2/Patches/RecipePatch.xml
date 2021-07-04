@@ -50,6 +50,8 @@
         <xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
         <value>
             <li>CookNutritional_jelly</li>
+			<li>CookEraser_jelly</li>
+			<li>CookBattlestimulation_jelly</li>
         </value>
     </Operation>
 	
@@ -57,35 +59,37 @@
         <xpath>*/ThingDef[defName = "FueledStove"]/recipes</xpath>
         <value>
             <li>CookNutritional_jelly</li>
+			<li>CookEraser_jelly</li>
+			<li>CookBattlestimulation_jelly</li>
         </value>
     </Operation>
 	
-	<Operation Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
-        <value>
-            <li>CookBattlestimulation_jelly</li>
-        </value>
-    </Operation>
-	
-	<Operation Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "FueledStove"]/recipes</xpath>
-        <value>
-            <li>CookBattlestimulation_jelly</li>
-        </value>
-    </Operation>
-	
-	<Operation Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
-        <value>
-            <li>CookEraser_jelly</li>
-        </value>
-    </Operation>
-	
-	<Operation Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "FueledStove"]/recipes</xpath>
-        <value>
-            <li>CookEraser_jelly</li>
-        </value>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Rimstro</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName = "RS_Pot"]/recipes</xpath>
+						<value>
+							<li>CookNutritional_jelly</li>
+							<li>CookEraser_jelly</li>
+							<li>CookBattlestimulation_jelly</li>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName = "RS_stove"]</xpath>
+						<value>
+							<recipes>
+								<li>CookNutritional_jelly</li>
+								<li>CookEraser_jelly</li>
+								<li>CookBattlestimulation_jelly</li>
+							</recipes>
+						</value>
+					</li>
+				</operations>
+		</match>
     </Operation>
 	
 </Patch>
