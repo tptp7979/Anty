@@ -71,7 +71,7 @@
 		<match Class="PatchOperationSequence">
 				<operations>
 					<li Class="PatchOperationAdd">
-						<xpath>*/ThingDef[defName = "RS_Pot"]/recipes</xpath>
+						<xpath>*/ThingDef[defName = "RS_stove"]/recipes</xpath>
 						<value>
 							<li>CookNutritional_jelly</li>
 							<li>CookEraser_jelly</li>
@@ -79,7 +79,7 @@
 						</value>
 					</li>
 					<li Class="PatchOperationAdd">
-						<xpath>*/ThingDef[defName = "RS_stove"]</xpath>
+						<xpath>*/ThingDef[defName = "RS_Pot"]</xpath>
 						<value>
 							<recipes>
 								<li>CookNutritional_jelly</li>
