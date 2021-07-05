@@ -100,6 +100,11 @@
 		<factionNameMaker>NamerFactionAnty</factionNameMaker>
 		<settlementNameMaker>NamerSettlementAnty</settlementNameMaker>
 		<raidLootMaker>AntyRaidLootMaker</raidLootMaker>
+		<naturalEnemy>true</naturalEnemy>
+
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<allowedCultures><li>Corunan</li></allowedCultures>
+		<categoryTag>Outlander</categoryTag>
 		
 		<caravanTraderKinds>
 			<li>Caravan_AT_REA</li>
