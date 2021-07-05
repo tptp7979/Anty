@@ -195,6 +195,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<angle>0</angle>
+					<defaultOffset>Head</defaultOffset>
 					<hiddenUnderApparelTag>
 						<li>AntyHide</li>
 					</hiddenUnderApparelTag>
@@ -233,6 +234,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<angle>0</angle>
+					<defaultOffset>Head</defaultOffset>
 					<hiddenUnderApparelTag>
 						<li>AntyHide</li>
 					</hiddenUnderApparelTag>
@@ -271,6 +273,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<angle>0</angle>
+					<defaultOffset>Head</defaultOffset>
 					<hiddenUnderApparelTag>
 						<li>AntyHide</li>
 					</hiddenUnderApparelTag>
@@ -309,6 +312,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<angle>0</angle>
+					<defaultOffset>Head</defaultOffset>
 					<hiddenUnderApparelTag>
 						<li>AntyHide</li>
 					</hiddenUnderApparelTag>
@@ -343,8 +347,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<colorChannel>skin</colorChannel>
 					<drawSize>1</drawSize>
 					<drawnInBed>false</drawnInBed>
+					<defaultOffset>Tail</defaultOffset>
 					<angle>0</angle>
-					<layerOffset>-0.319</layerOffset>
 					<offsets>
 						<south>
 							<bodyTypes>
@@ -380,7 +384,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<drawnInBed>false</drawnInBed>
 					<drawIfDead>false</drawIfDead>
 					<angle>0</angle>
-					<layerOffset>1</layerOffset>
+					<defaultOffset>Head</defaultOffset>
 					<shaderType>TransparentPostLight</shaderType>
 					<hiddenUnderApparelFor>
 						<li>FullHead</li>
@@ -420,7 +424,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<drawnInBed>false</drawnInBed>
 					<drawIfDead>false</drawIfDead>
 					<angle>0</angle>
-					<layerOffset>-0.319</layerOffset>
+					<defaultOffset>Tail</defaultOffset>
 					<shaderType>TransparentPostLight</shaderType>
 					<hiddenUnderApparelTag>
 						<li>AntyFullside</li>
@@ -457,7 +461,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<drawSize>1</drawSize>
 					<drawnInBed>false</drawnInBed>
 					<angle>0</angle>
-					<layerOffset>-0.2</layerOffset>
+					<defaultOffset>Tail</defaultOffset>
 					<shaderType>TransparentPostLight</shaderType>
 					<offsets>
 						<south>
@@ -491,7 +495,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<drawSize>1</drawSize>
 					<drawnInBed>false</drawnInBed>
 					<angle>0</angle>
-					<layerOffset>-0.4</layerOffset>
+					<defaultOffset>Tail</defaultOffset>
 					<shaderType>TransparentPostLight</shaderType>
 					<offsets>
 						<south>

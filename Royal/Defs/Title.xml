@@ -24,7 +24,6 @@
 			</tags>
 			<awardThought>GainedTitle</awardThought>
 			<lostThought>LostTitle</lostThought>
-			<recruitmentDifficultyOffset>0.2</recruitmentDifficultyOffset>
 		</RoyalTitleDef>
 
 		<RoyalTitleDef ParentName="BaseAntyTitle">

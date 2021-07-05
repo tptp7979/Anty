@@ -9,6 +9,8 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- 앤티 플레이어 정착민 -->
@@ -109,6 +111,8 @@
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- 앤티 지휘관 -->
