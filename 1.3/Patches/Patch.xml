@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Chocolate"]/ingestible</xpath>
+		<value>
+			<tasteThought>Chocolate_Mood</tasteThought>
+		</value>
+	</Operation> -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>[1.2] DE Surgeries</li>
+			<li>[1.1] DE Surgeries for RBSE only</li>
+			<li>[1.1] DE Surgeries for RBSE only Color</li>
+			<li>[1.2] DE Surgeries Hard</li>
+			<li>[1.2] DE Surgeries Color</li>
+			<li>1541722340</li>
+			<li>1541914821</li>
+			<li>1556888077</li>
+			<li>2002422428</li>
+			<li>1983507181</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[@Name = "DESurgeries"]/recipeUsers</xpath>
+			<value>
+				<li>Anty</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>[1.2] DE Surgeries</li>
+			<li>[1.1] DE Surgeries for RBSE only</li>
+			<li>[1.1] DE Surgeries for RBSE only Color</li>
+			<li>[1.2] DE Surgeries Hard</li>
+			<li>[1.2] DE Surgeries Color</li>
+			<li>1541722340</li>
+			<li>1541914821</li>
+			<li>1556888077</li>
+			<li>2002422428</li>
+			<li>1983507181</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+			<value>
+				<RecipeDef ParentName="SurgeryEasy">
+					<defName>CureInjury_AT_Acidmelt_A</defName>
+					<label>cure Acid melt (1 med)</label>
+					<description>Cure Acid melt.</description>
+					<workerClass>Recipe_RemoveHediff</workerClass>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Acid melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Acid melt.</jobString>
+					<removesHediff>Chemicaldissolution</removesHediff>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+					<fixedIngredientFilter>
+						<categories>
+							<li>Medicine</li>
+						</categories>
+					</fixedIngredientFilter>
+				</RecipeDef>
+				
+				<RecipeDef ParentName="SurgeryEasy">
+					<defName>CureInjury_AT_Acidmelt_A_con</defName>
+					<label>cure Acid melt (1 med)</label>
+					<description>Cure Acid melt.</description>
+					<workerClass>Recipe_RemoveHediff</workerClass>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Acid melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Acid melt.</jobString>
+					<removesHediff>Chemicaldissolution_con</removesHediff>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+					<fixedIngredientFilter>
+						<categories>
+							<li>Medicine</li>
+						</categories>
+					</fixedIngredientFilter>
+				</RecipeDef>
+
+				<RecipeDef ParentName="SurgeryHard">
+					<defName>CureInjury_AT_Acidmelt_B</defName>
+					<label>cure Red burst melt (2 med)</label>
+					<description>Cure Red burst melt.</description>
+					<workerClass>Recipe_RemoveHediff</workerClass>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Red burst melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Red burst melt.</jobString>
+					<removesHediff>Chemicaldissolution_high</removesHediff>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+					<fixedIngredientFilter>
+						<categories>
+							<li>Medicine</li>
+						</categories>
+					</fixedIngredientFilter>
+				</RecipeDef>
+				
+				<RecipeDef ParentName="SurgeryHard">
+					<defName>CureInjury_AT_Acidmelt_B_con</defName>
+					<label>cure Red burst melt (2 med)</label>
+					<description>Cure Red burst melt.</description>
+					<workerClass>Recipe_RemoveHediff</workerClass>
+					<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Red burst melt.</successfullyRemovedHediffMessage>
+					<jobString>Curing Red burst melt.</jobString>
+					<removesHediff>Chemicaldissolution_con_high</removesHediff>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+					<fixedIngredientFilter>
+						<categories>
+							<li>Medicine</li>
+						</categories>
+					</fixedIngredientFilter>
+				</RecipeDef>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+				<value>
+					<li>AT_PlayerFaction</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+		<Operation Class="PatchOperationFindMod">
+			<mods>
+				<li>Royalty</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				<!-- Guests -->
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+						<value>
+							<li>
+								<factionDef>AntyHive</factionDef>
+								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+								</pawnKinds>
+							</li>  
+						</value>
+					</li>
+					<!-- Mercenaries -->
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+						<value>
+							<li>
+								<factionDef>AntyHive</factionDef>
+								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+									<li>AT_Charge_A</li>
+								</pawnKinds>
+							</li>  
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/FactionDef[defName="AntyHive_B"]</xpath>
+						<value>
+							<royalTitleTags>
+								<li>AntyTitle</li>
+							</royalTitleTags>
+							<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+							<royalTitleInheritanceRelations>
+								<li>Child</li>
+								<li>Grandchild</li>
+								<li>GreatGrandchild</li>
+								<li>NephewOrNiece</li>
+								<li>Spouse</li>
+								<li>Sibling</li>
+								<li>HalfSibling</li>
+								<li>Cousin</li>
+								<li>Parent</li>
+								<li>UncleOrAunt</li>
+							</royalTitleInheritanceRelations>
+							<royalFavorLabel>Medal of Hive</royalFavorLabel>
+							<royalFavorIconPath>Icon/AT_Icon_B</royalFavorIconPath>
+							<caravanTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</caravanTraderKinds>
+							<visitorTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</visitorTraderKinds>
+							<baseTraderKinds>
+								<li>Caravan_AT_REB</li>
+							</baseTraderKinds>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="Anty_Commander"]</xpath>
+						<value>
+							<minTitleRequired>AT_SwarmLord</minTitleRequired>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="AT_PP_S"]</xpath>
+						<value>
+							<minTitleRequired>AT_platoonleader</minTitleRequired>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Amnabi's Flags</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Amnabi.FlagPatternDef>
+                <defName>Pattern_PFF_AntyHive</defName>
+                <texture>Icon/AT_EHive</texture>    <!-- Texture should have a 1.5 : 1 width height ratio -->
+                <usedForFaction>AntyHive</usedForFaction>
+                <probability>1</probability> <!-- If there are multiple defs for a faction it will pick randomly based on this weight -->
+              </Amnabi.FlagPatternDef>
+            </value>
+        </match>
+    </Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Amnabi's Flags</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Amnabi.FlagPatternDef>
+                <defName>Pattern_PFF_AT_PlayerFaction</defName>
+                <texture>Icon/AT_PHive</texture>    <!-- Texture should have a 1.5 : 1 width height ratio -->
+                <usedForFaction>AT_PlayerFaction</usedForFaction>
+                <probability>1</probability> <!-- If there are multiple defs for a faction it will pick randomly based on this weight -->
+              </Amnabi.FlagPatternDef>
+            </value>
+        </match>
+    </Operation>
+		
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>EvolvedOrgansRedux</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef[defName="Anty"]/corePart/parts</xpath>
+					<value>
+
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>left lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>LowerShoulder</def>
+							<customLabel>right lower shoulder</customLabel>
+							<coverage>0.00</coverage>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity1</def>
+							<customLabel>left chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavity2</def>
+							<customLabel>right chest cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>left abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
+							<def>BodyCavityA</def>
+							<customLabel>right abdominal cavity</customLabel>
+							<coverage>0.010</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>upper back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>	
+							<def>Back</def>
+							<customLabel>lower back</customLabel>
+							<coverage>0.020</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+
+					</value>
+				</li>
+			
+			<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Tail_Blade_Anty</defName>
+							<label>&lt;color=#00FFF7&gt;implant Anty serrated stinger tail&lt;/color&gt;</label>
+							<description>Implant a Anty serrated stinger tail.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting Anty serrated stinger tail.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Anty</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Tail_Blade</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Tail_Blade</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>AntyTool</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Tail_Blade</addsHediff>
+						</RecipeDef>
+
+
+						<RecipeDef ParentName="SurgeryFlesh">
+							<defName>EVOR_Surgery_Tail_Hand_Anty</defName>
+							<label>&lt;color=#00FFF7&gt;implant Anty manipulator tail&lt;/color&gt;</label>
+							<description>Implant a Anty manipulator tail.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Implanting Anty manipulator tail.</jobString>
+							<workAmount>3000</workAmount>
+							<skillRequirements>
+								<Medicine>10</Medicine>
+							</skillRequirements>
+							<recipeUsers>
+								<li>Anty</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>EVOR_Item_Tail_Hand</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>EVOR_Item_Tail_Hand</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>AntyTool</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>EVOR_Hediff_Tail_Hand</addsHediff>
+						</RecipeDef>
+					</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Babies and Children</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Anty"]/race/lifeStageAges</xpath>
+      <value>
+        <lifeStageAges>
+          <li>
+            <def>HumanlikeBaby</def>
+            <minAge>0</minAge>
+          </li>
+          <li>
+            <def>HumanlikeToddler</def>
+            <minAge>0.5</minAge>
+          </li>
+          <li>
+            <def>HumanlikeChild</def>
+            <minAge>1</minAge>
+          </li>
+          <li>
+            <def>HumanlikeTeenager</def>
+            <minAge>2</minAge>
+          </li>
+          <li>
+            <def>HumanlikeAdult</def>
+            <minAge>3</minAge>
+          </li>
+        </lifeStageAges>
+      </value>
+    </match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Babies and Children</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Anty"]/race/lifeExpectancy</xpath>
+      <value>
+		<lifeExpectancy>13</lifeExpectancy>
+      </value>
+    </match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Social Interactions Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Anty"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+      <value>
+			<li>VSIE_BondedPetButcheredOpinion</li>
+			<li>VSIE_ExposedCorpseOfMyFriendOpinion</li>
+			<li>VSIE_IngestedHumanFlesh</li>
+      </value>
+    </match>
+	</Operation>
+</Patch>

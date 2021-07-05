@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsFabricationBench"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsFabricationBench"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>AntyCopyTableMachining</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>AntyCopyTailoringBench</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>AntyTableButcher</li>				
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
+        <value>
+            <li>CookNutritional_jelly</li>
+			<li>CookEraser_jelly</li>
+			<li>CookBattlestimulation_jelly</li>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "FueledStove"]/recipes</xpath>
+        <value>
+            <li>CookNutritional_jelly</li>
+			<li>CookEraser_jelly</li>
+			<li>CookBattlestimulation_jelly</li>
+        </value>
+    </Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Rimstro</li>
+        </mods>
+		<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName = "RS_stove"]/recipes</xpath>
+						<value>
+							<li>CookNutritional_jelly</li>
+							<li>CookEraser_jelly</li>
+							<li>CookBattlestimulation_jelly</li>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName = "RS_Pot"]</xpath>
+						<value>
+							<recipes>
+								<li>CookNutritional_jelly</li>
+								<li>CookEraser_jelly</li>
+								<li>CookBattlestimulation_jelly</li>
+							</recipes>
+						</value>
+					</li>
+				</operations>
+		</match>
+    </Operation>
+	
+</Patch>

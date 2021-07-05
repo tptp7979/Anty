@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="AT_PlayerFactionBase">
+		<settlementTexturePath>Icon/ATP_Icon</settlementTexturePath>
+		<colorSpectrum>
+		  <li>(1, 1, 1)</li>
+		</colorSpectrum>
+	</FactionDef>
+	
+  <!-- 앤티 플레이어 -->
+	<FactionDef ParentName="AT_PlayerFactionBase">
+		<defName>AT_PlayerFaction</defName>
+		<label>New Hive</label>
+		<description>Your Anty Hive.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AT_Colonist</basicMemberKind>
+		<pawnSingular>Anty</pawnSingular>
+		<pawnsPlural>Anties</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<factionIconPath>Icon/ATP_Icon</factionIconPath>
+		<settlementTexturePath>Icon/ATP_HomeIcon</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Leather_Pig</li>
+				<li>Leather_Human</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<FactionDef ParentName="AT_PlayerFactionBase">
+		<defName>AT_PlayerFaction_B</defName>
+		<label>Invasion-Hive</label>
+		<description>Your Anty Hive.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AT_Colonist_C</basicMemberKind>
+		<pawnSingular>Anty</pawnSingular>
+		<pawnsPlural>Anties</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<factionIconPath>Icon/ATP_Icon</factionIconPath>
+		<settlementTexturePath>Icon/ATP_HomeIcon</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Leather_Pig</li>
+				<li>Leather_Human</li>
+				<li>AntyExoskeleton</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<permanentEnemyToEveryoneExcept>
+			<li>AntyHive</li>
+			<li>AntyHive_B</li>
+		</permanentEnemyToEveryoneExcept>
+	</FactionDef>
+  
+  
+  <!-- 앤티NPC -->
+
+	<FactionDef ParentName="FactionBase" Name="AntyFactionBase" Abstract="True">
+		<pawnSingular>Anty</pawnSingular>
+		<pawnsPlural>Anties</pawnsPlural>
+		<listOrderPriority>40</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<humanlikeFaction>false</humanlikeFaction>
+		<canUseAvoidGrid>true</canUseAvoidGrid>
+		<leaderTitle>Swarm Lord</leaderTitle>
+		<factionIconPath>Icon/AT_Icon</factionIconPath>
+		<factionNameMaker>NamerFactionAnty</factionNameMaker>
+		<settlementNameMaker>NamerSettlementAnty</settlementNameMaker>
+		<raidLootMaker>AntyRaidLootMaker</raidLootMaker>
+		
+		<caravanTraderKinds>
+			<li>Caravan_AT_REA</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+			<li>Caravan_AT_REA</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+			<li>Caravan_AT_REA</li>
+		</baseTraderKinds>
+		
+		<techLevel>Spacer</techLevel>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<geneticVariance>0.7</geneticVariance>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<!-- 초기일반 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>80</commonality>
+			<maxTotalPoints>7000</maxTotalPoints>
+			<disallowedStrategies>
+				<li>ImmediateAttackSappers</li>
+				<li>Siege</li>
+			</disallowedStrategies>
+			<options>
+				<AT_Raid_A>20</AT_Raid_A>
+				<AT_Rifle_A>5</AT_Rifle_A>
+			</options> 
+		</li>
+		
+			<!-- 일반 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>80</commonality>
+			<maxTotalPoints>8500</maxTotalPoints>
+			<disallowedStrategies>
+				<li>ImmediateAttackSappers</li>
+			</disallowedStrategies>
+			<options>
+				<AT_Raid_A>20</AT_Raid_A>
+				<AT_Rifle_A>5</AT_Rifle_A>
+				<AT_Charge_A>5</AT_Charge_A>
+			</options> 
+		</li>
+
+			<!-- 정규 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>30</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Raid_A>5</AT_Raid_A>
+				<AT_Rifle_A>5</AT_Rifle_A>
+				<AT_Charge_A>5</AT_Charge_A>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>2</AT_Sapper_A>
+				<AT_Rifle_B>30</AT_Rifle_B>
+				<AT_Charge_B>15</AT_Charge_B>
+				<AT_Launcher_A>2</AT_Launcher_A>
+				<!-- <AT_SingleUse>2</AT_SingleUse> -->
+				<!-- <AT_PP_S>1</AT_PP_S> -->
+			</options> 
+		</li>
+		
+			<!-- 정규-화력강화 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>20</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Sapper_B>5</AT_Sapper_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Charge_B>30</AT_Charge_B>
+				<AT_Launcher_A>2</AT_Launcher_A>
+				<!-- <AT_SingleUse>2</AT_SingleUse> -->
+				<!-- <AT_PP_S>2</AT_PP_S> -->
+			</options> 
+		</li>
+		
+			<!-- 정규-중앙드랍 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>15</commonality>
+			<disallowedStrategies>
+				<li>Siege</li>
+				<li>ImmediateAttack</li>
+				<li>ImmediateAttackSmart</li>
+				<li>StageThenAttack</li>
+				<li>ImmediateAttackSappers</li>
+			</disallowedStrategies>
+			<options>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Charge_B>15</AT_Charge_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Launcher_A>2</AT_Launcher_A>
+				<!-- <AT_PP_S>5</AT_PP_S> -->
+			</options> 
+		</li>
+		
+			<!-- 전차화 습격 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>5</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Power>5</AT_Power>
+				<AT_Sapper_A>3</AT_Sapper_A>
+				<AT_Sapper_B>1</AT_Sapper_B>
+				<AT_Power_B>5</AT_Power_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Launcher_A>3</AT_Launcher_A>
+				<!-- <AT_SingleUse>1</AT_SingleUse> -->
+				<!-- <AT_PP_S>3</AT_PP_S> -->
+			</options> 
+		</li>
+		
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>3</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Power>10</AT_Power>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Sapper_B>5</AT_Sapper_B>
+				<AT_Power_B>10</AT_Power_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Launcher_A>3</AT_Launcher_A>
+				<!-- <AT_SingleUse>1</AT_SingleUse> -->
+				<!-- <AT_PP_S>3</AT_PP_S> -->
+			</options> 
+		</li>
+		
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>1</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Power>5</AT_Power>
+				<AT_Power_A>10</AT_Power_A>
+				<AT_Power_B>10</AT_Power_B>
+				<AT_Power_C>7</AT_Power_C>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<!-- <AT_PP_S>5</AT_PP_S> -->
+			</options> 
+		</li>
+		
+		<li>
+			<kindDef>Settlement</kindDef>
+			<maxTotalPoints>5500</maxTotalPoints>
+			<options>
+				<AT_Rifle_B>10</AT_Rifle_B>
+				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Charge_B>50</AT_Charge_B>
+				<AT_SingleUse>5</AT_SingleUse>
+			</options>
+		</li>
+
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<AT_Rifle_B>10</AT_Rifle_B>
+				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Charge_B>10</AT_Charge_B>
+				<AT_Power>5</AT_Power>
+				<AT_Power_A>10</AT_Power_A>
+				<AT_Power_B>50</AT_Power_B>
+				<AT_Power_C>7</AT_Power_C>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_SingleUse>5</AT_SingleUse>
+			</options>
+		</li>
+		
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<AT_Charge_B>15</AT_Charge_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Charge_A>15</AT_Charge_A>
+				<AT_Rifle_A>20</AT_Rifle_A>
+			</options>
+		</li>
+	  
+		<li>
+        <kindDef>Trader</kindDef>
+			<traders>
+				<Anty_Commander>1</Anty_Commander>
+			</traders>
+			<carriers>
+				<Elephant>6</Elephant>
+				<Muffalo>6</Muffalo>
+				<Dromedary>5</Dromedary>
+			</carriers>
+			<guards>
+				<AT_Charge_B>40</AT_Charge_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Charge_A>15</AT_Charge_A>
+				<AT_Rifle_A>20</AT_Rifle_A>
+				<AT_SingleUse>3</AT_SingleUse>
+				<AT_Raid_A>1</AT_Raid_A>
+			</guards>
+		</li>
+		
+		</pawnGroupMakers>
+		<settlementTexturePath>Icon/AT_Icon</settlementTexturePath>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+	</FactionDef>
+  
+  
+	<FactionDef ParentName="AntyFactionBase">
+		<defName>AntyHive</defName>
+		<label>Anty Invasion-Hive</label>
+		<permanentEnemy>false</permanentEnemy>
+		<autoFlee>false</autoFlee>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive is very aggressive. anything that is not a Symbiotic-Hive, they will attack first.</description>
+		<colorSpectrum>
+		  <li>(1, 1, 1)</li>
+		  <li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<naturalColonyGoodwill>-100</naturalColonyGoodwill>
+		<startingGoodwill>-100</startingGoodwill>
+		<goodwillDailyFall>1</goodwillDailyFall>
+		<goodwillDailyGain>0</goodwillDailyGain>
+	</FactionDef>
+
+	<FactionDef ParentName="AntyFactionBase">
+		<defName>AntyHive_B</defName>
+		<label>Anty Symbiotic-Hive</label>
+		<leaderTitle>Symbiosis Officer</leaderTitle>
+		<settlementGenerationWeight>0.2</settlementGenerationWeight>
+		<autoFlee>false</autoFlee>
+		<humanlikeFaction>true</humanlikeFaction>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</description>
+		<colorSpectrum>
+		  <li>(1, 1, 1)</li>
+		  <li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<settlementTexturePath>Icon/AT_Icon_B</settlementTexturePath>
+		<factionIconPath>Icon/AT_Icon_B</factionIconPath>
+		<naturalColonyGoodwill>50</naturalColonyGoodwill>
+		<startingGoodwill>50</startingGoodwill>
+		<goodwillDailyFall>1</goodwillDailyFall>
+		<goodwillDailyGain>0</goodwillDailyGain>
+		<permanentEnemyToEveryoneExcept>
+			<li>AntyHive</li>
+			<li>AT_PlayerFaction</li>
+			<li>AT_PlayerFaction_B</li>
+		</permanentEnemyToEveryoneExcept>
+	</FactionDef>
+	
+	<ThingSetMakerDef>
+		<defName>AntyRaidLootMaker</defName>
+			<root Class="ThingSetMaker_MarketValue">
+				<fixedParams>
+					<filter>
+						<thingDefs>
+							<li>Silver</li>
+							<li>MedicineIndustrial</li>
+							<li>Neutroamine</li>
+							<li>GoJuice</li>
+							<li>Heart</li>
+						</thingDefs>
+					</filter>
+				</fixedParams>
+			</root>
+	</ThingSetMakerDef>
+ 
+</Defs>

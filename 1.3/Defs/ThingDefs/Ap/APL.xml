@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ApparelLayerDef>
+		<defName>AntySkin</defName>
+		<label>Skin</label>
+		<drawOrder>0</drawOrder>
+	</ApparelLayerDef>
+	
+	<ApparelLayerDef>
+		<defName>AntyMiddle</defName>
+		<label>Middle</label>
+		<drawOrder>1</drawOrder>
+	</ApparelLayerDef>
+	
+ 	<ApparelLayerDef>
+		<defName>AntyShell</defName>
+		<label>outer</label>
+		<drawOrder>150</drawOrder>
+	</ApparelLayerDef>
+
+	<ApparelLayerDef>
+		<defName>AntySidegear</defName>
+		<label>AntySidegear</label>
+		<drawOrder>450</drawOrder>
+	</ApparelLayerDef>
+	
+	<ApparelLayerDef>
+		<defName>AntyCover</defName>
+		<label>AntyCover</label>
+		<drawOrder>9750</drawOrder>
+	</ApparelLayerDef>
+	
+<!-- 	<ApparelLayerDef>
+		<defName>OnSkin</defName>
+		<label>skin</label>
+		<drawOrder>0</drawOrder>
+	</ApparelLayerDef> -->
+
+<!-- 	<ApparelLayerDef>
+		<defName>Middle</defName>
+		<label>middle</label>
+		<drawOrder>100</drawOrder>
+	</ApparelLayerDef> -->
+
+<!-- 	<ApparelLayerDef>
+		<defName>Shell</defName>
+		<label>outer</label>
+		<drawOrder>200</drawOrder>
+	</ApparelLayerDef> -->
+	
+<!-- 	<ApparelLayerDef>
+		<defName>Belt</defName>
+		<label>belt</label>
+		<drawOrder>300</drawOrder>
+	</ApparelLayerDef> -->
+
+<!-- 	<ApparelLayerDef>
+		<defName>Overhead</defName>
+		<label>headgear</label>
+		<drawOrder>400</drawOrder>
+	</ApparelLayerDef>
+ -->
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+<!--  <BodyPartGroupDef>
+    <defName>Torso</defName>
+    <label>torso</label>
+    <listOrder>100</listOrder>
+  </BodyPartGroupDef> -->
+  
+<!--   <BodyPartGroupDef>
+    <defName>UpperHead</defName>
+    <label>upper head</label>
+    <listOrder>200</listOrder>
+  </BodyPartGroupDef> -->
+  
+<!--   <BodyPartGroupDef>
+    <defName>FullHead</defName>
+    <label>full head</label>
+    <listOrder>199</listOrder>
+  </BodyPartGroupDef> -->
+  
+<!--   <BodyPartGroupDef>
+    <defName>Eyes</defName>
+    <label>eyes</label>
+    <listOrder>198</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Teeth</defName>
+    <label>teeth</label>
+    <listOrder>197</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Mouth</defName>
+    <label>mouth</label>
+    <listOrder>196</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Neck</defName>
+    <label>neck</label>
+    <listOrder>180</listOrder>
+  </BodyPartGroupDef> -->
+  
+<!--   <BodyPartGroupDef>
+    <defName>Arms</defName>
+    <label>arms</label>
+    <listOrder>90</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Shoulders</defName>
+    <label>shoulders</label>
+    <listOrder>85</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Hands</defName>
+    <label>hands</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Waist</defName>
+    <label>utility slot</label>
+    <listOrder>50</listOrder>
+  </BodyPartGroupDef> -->
+  
+<!--   <BodyPartGroupDef>
+    <defName>Legs</defName>
+    <label>legs</label>
+    <listOrder>10</listOrder>
+  </BodyPartGroupDef> -->
+
+<!--   <BodyPartGroupDef>
+    <defName>Feet</defName>
+    <label>feet</label>
+    <listOrder>9</listOrder>
+  </BodyPartGroupDef> -->
+  
+</Defs>

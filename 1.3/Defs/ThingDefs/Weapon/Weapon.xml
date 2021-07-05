@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="BaseMakeableGun_Anty" ParentName="BaseGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>AntyCopyTableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+	<techLevel>Industrial</techLevel>
+
+	<descriptionHyperlinks Inherit="False">
+		<HediffDef>Chemicaldissolution</HediffDef>
+	</descriptionHyperlinks>
+  </ThingDef>
+
+ <!-- 라이플 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_AcidRifle</defName>
+		<label>Acid Rifle</label>
+		<description>An early type of modern weapon that shoots Anty-Acid, the acid that builds up in the body of Anties.\n\nIt does not provide reliable firepower due to its unstable nozzle and lack of propulsion power.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_AcidRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+			</recipeUsers>
+ 			<researchPrerequisite>AntyAcidweapon_B</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+		<weaponTags>
+			<li>AcidRifle</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>36000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.6</AccuracyShort>
+			<AccuracyMedium>0.6</AccuracyMedium>
+			<AccuracyLong>0.4</AccuracyLong>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>40</AntyExoskeleton>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+        <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AcidRifle</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_C</soundCast><!--  C	 -->
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+	  	</verbs>
+        <tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>5</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_AcidRifle</defName>
+		<label>Acid Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/jan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<armorPenetrationBase>0.05</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+		</projectile>
+	</ThingDef>
+	
+	<!-- 고압 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_AcidAssaultRifle</defName>
+		<label>Acid Assault Rifle</label>
+		<description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nThe nozzle stabilizer and pressure amplifier provide superior range and accuracy than the earlier version.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_HighpressureRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+			</recipeUsers>
+ 			<researchPrerequisite>AntyAcidweapon_C</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+		<weaponTags>
+			<li>AcidRifle</li>
+			<li>AcidRifle_R</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>5.5</Mass>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.4</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>75</AntyExoskeleton>
+			<Steel>75</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+        <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AcidRifle_R</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>34.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_B</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+	  	</verbs>
+        <tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>5</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_AcidRifle_R</defName>
+		<label>Acid Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/jan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBullet</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<stoppingPower>1.5</stoppingPower>
+		</projectile>
+	</ThingDef>
+	
+ <!-- 고압 -->
+ 
+ 	<!-- 라인고압 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_AcidLineRifle</defName>
+		<label>Acid Line Rifle</label>
+		<description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nIt is designed to be used behind the Melee, and in front of the ranged combatants, supporting both.\n\nIt is very effective in close range.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_LineHighpressureRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+			</recipeUsers>
+ 			<researchPrerequisite>AntyAcidweapon_C</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+		<weaponTags>
+			<li>AcidRifle_L</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>5.5</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.25</AccuracyMedium>
+			<AccuracyLong>0.2</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>75</AntyExoskeleton>
+			<Steel>75</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+        <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AcidRifle_L</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>19.9</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_B</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+	  	</verbs>
+        <tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<armorPenetration>0.2</armorPenetration>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_AcidRifle_L</defName>
+		<label>Acid Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/jan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBullet</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+		</projectile>
+	</ThingDef>
+	
+	<DamageDef Name="AT_AcidBullet">
+		<defName>AT_AcidBullet</defName>
+		<label>Acidbullet</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death.</deathMessage>
+		<hediff>Chemicaldissolution</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>AntyAcid_Bullet</impactSoundType>
+		<damageEffecter>Impact_ATAcid</damageEffecter>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<makesBlood>false</makesBlood>
+	</DamageDef>
+	
+ <!-- 라인고압 -->
+ 
+ <!-- 기관 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_LMG</defName>
+		<label>Acid Light Machine Gun</label>
+		<description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, faster and further.\n\nIts focus on fire rate resulted in weaker shots.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_LMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+			</recipeUsers>
+ 			<researchPrerequisite>AntyAcidweapon_D</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+		<weaponTags>
+			<li>AcidRifle_M</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>6.1</Mass>
+			<AccuracyTouch>0.4</AccuracyTouch>
+			<AccuracyShort>0.5</AccuracyShort>
+			<AccuracyMedium>0.4</AccuracyMedium>
+			<AccuracyLong>0.2</AccuracyLong>
+			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>70</AntyExoskeleton>
+			<Steel>80</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+        <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AcidRifle_M</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>27.9</range>
+				<burstShotCount>15</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_E</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+	  	</verbs>
+        <tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>5</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_AcidRifle_M</defName>
+		<label>Acid Bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/jan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+		</projectile>
+	</ThingDef>
+	
+ <!-- 기관 -->
+
+ <!-- 런쳐 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_AcidLauncher</defName>
+		<label>Acid launcher</label>
+		<description>A firearm that fires more Anty-Acid, an acid that builds up in the body of Anties, further in a larger area.\n\nEffective against heavy armored or clustered enemies.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_Acidlauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<generateCommonality>0.3</generateCommonality>
+		<weaponTags>
+			<li>AcidLauncher_A</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>6.4</Mass>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>100</AntyExoskeleton>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+				<Intellectual>5</Intellectual>
+			</skillRequirements>
+			<researchPrerequisite>AntyAcidweapon_D</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BulletAcidLauncher</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<range>30.9</range>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_D</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>BulletAcidLauncher</defName>
+		<label>Acid Grenade</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>30</speed>
+			<damageDef>AT_AcidBomb</damageDef>
+			<explosionRadius>1.9</explosionRadius>
+			<explosionDelay>45</explosionDelay>
+			<preExplosionSpawnThingDef>Filth_AntyAcid</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0</preExplosionSpawnChance>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</ThingDef>
+  
+		<DamageDef Name="AT_AcidBomb">
+			<defName>AT_AcidBomb</defName>
+			<label>Acidbomb</label>
+			<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
+			<externalViolence>true</externalViolence>
+			<isExplosive>true</isExplosive>
+			<deathMessage>{0} has died in an explosion.</deathMessage>
+			<hediff>Chemicaldissolution</hediff>
+			<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+			<impactSoundType>Toxic</impactSoundType>
+			<armorCategory>Blunt</armorCategory>
+			<minDamageToFragment>0</minDamageToFragment>
+			<defaultDamage>7</defaultDamage>
+			<defaultArmorPenetration>0.15</defaultArmorPenetration>
+			<buildingDamageFactor>1</buildingDamageFactor>
+			<plantDamageFactor>2</plantDamageFactor>
+			<!-- <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly> -->
+			<explosionCellMote>Mote_AcidBlast</explosionCellMote>
+			<explosionInteriorMote>Mote_AcidSmoke</explosionInteriorMote>
+			<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+			<explosionColorEdge>(0.6, 0.6, 0.6)</explosionColorEdge>
+			<soundExplosion>Explosion_Acid</soundExplosion>
+			<combatLogRules>Damage_Bomb</combatLogRules>
+			<makesAnimalsFlee>true</makesAnimalsFlee>
+			<makesBlood>false</makesBlood>
+		</DamageDef>
+  
+	<ThingDef ParentName="BaseFilth">
+		<defName>Filth_AntyAcid</defName>
+		<label>AntyAcid</label>
+		<statBases>
+			<Beauty>-20</Beauty>
+			<Cleanliness>-35</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(150, 150, 150, 100)</color>
+		</graphicData>
+		<filth>
+			<disappearsInDays>1~2</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>20</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+ <!-- 런쳐 -->
+ 
+  <!-- 접착 -->
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_Combatglue</defName>
+		<label>Combat glue launcher</label>
+		<description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>AT_glue_Link</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Weapons/AT_Combatglue</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<generateCommonality>0.3</generateCommonality>
+		<weaponTags>
+			<li>AcidLauncher_A</li>
+			<li>ammo_industrial</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>31000</WorkToMake>
+			<Mass>6.4</Mass>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<costList>
+			<AntyExoskeleton>100</AntyExoskeleton>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+				<Intellectual>5</Intellectual>
+			</skillRequirements>
+			<researchPrerequisite>Combatglue</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BulletCombatglueLauncher</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<range>44.9</range>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_D</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>BulletCombatglueLauncher</defName>
+		<label>Combat glue Grenade</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(20, 150, 20, 100)</color>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>AT_glueBomb</damageDef>
+			<explosionRadius>4.1</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+			<preExplosionSpawnThingDef>Filth_AntyGlue</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.35</preExplosionSpawnChance>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+	</ThingDef>
+  
+		<DamageDef Name="AT_glueBomb">
+			<defName>AT_glueBomb</defName>
+			<label>glueBomb</label>
+			<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
+			<externalViolence>true</externalViolence>
+			<isExplosive>true</isExplosive>
+			<deathMessage>{0} has died in an explosion.</deathMessage>
+			<hediff>glueBomb</hediff>
+			<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+			<impactSoundType>AntyGlue_Bullet</impactSoundType>
+			<armorCategory>Blunt</armorCategory>
+			<minDamageToFragment>0</minDamageToFragment>
+			<defaultDamage>1</defaultDamage>
+			<defaultStoppingPower>0</defaultStoppingPower>
+			<defaultArmorPenetration>1</defaultArmorPenetration>
+			<buildingDamageFactor>0</buildingDamageFactor>
+			<plantDamageFactor>0</plantDamageFactor>
+			<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+			<explosionCellMote>Mote_GlueBlast</explosionCellMote>
+			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
+			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
+			<soundExplosion>Explosion_Glue</soundExplosion>
+			<combatLogRules>Damage_Bomb</combatLogRules>
+			<makesAnimalsFlee>true</makesAnimalsFlee>
+			<makesBlood>false</makesBlood>
+			<additionalHediffs>
+				<li>
+					<hediff>AT_glue</hediff>
+					<severityPerDamageDealt>0.3</severityPerDamageDealt>
+					<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				</li>
+			</additionalHediffs>
+		</DamageDef>
+		
+		<DamageDef Name="AT_glueBomb_B">
+			<defName>AT_glueBomb_B</defName>
+			<label>glueBomb</label>
+			<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
+			<externalViolence>true</externalViolence>
+			<isExplosive>true</isExplosive>
+			<deathMessage>{0} has died in an explosion.</deathMessage>
+			<hediff>glueBomb</hediff>
+			<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+			<impactSoundType>AntyGlue_Bullet</impactSoundType>
+			<armorCategory>Blunt</armorCategory>
+			<minDamageToFragment>0</minDamageToFragment>
+			<defaultDamage>1</defaultDamage>
+			<defaultStoppingPower>0</defaultStoppingPower>
+			<defaultArmorPenetration>1</defaultArmorPenetration>
+			<buildingDamageFactor>0</buildingDamageFactor>
+			<plantDamageFactor>0</plantDamageFactor>
+			<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+			<explosionCellMote>Mote_GlueBlast</explosionCellMote>
+			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
+			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
+			<soundExplosion>Explosion_Glue</soundExplosion>
+			<combatLogRules>Damage_Bomb</combatLogRules>
+			<makesAnimalsFlee>true</makesAnimalsFlee>
+			<makesBlood>false</makesBlood>
+			<additionalHediffs>
+				<li>
+					<hediff>AT_glue</hediff>
+					<severityPerDamageDealt>1</severityPerDamageDealt>
+					<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				</li>
+			</additionalHediffs>
+		</DamageDef>
+  
+	<ThingDef ParentName="BaseFilth">
+		<defName>Filth_AntyGlue</defName>
+		<label>Combat glue</label>
+		<statBases>
+			<Beauty>-20</Beauty>
+			<Cleanliness>-35</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(0.2, 0.6, 0.2)</color>
+		</graphicData>
+		<pathCost>25</pathCost>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+		<filth>
+			<disappearsInDays>0.01~0.05</disappearsInDays>
+			<rainWashes>false</rainWashes>
+			<cleaningWorkToReduceThickness>3</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+	</ThingDef>
+	
+	<ThingDef Name="MakeableShellBase_AT" ParentName="ShellBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workAmount>800</workAmount>
+			<targetCountAdjustment>5</targetCountAdjustment>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="MakeableShellBase_AT">
+		<defName>Shell_AT_glueBomb</defName>
+		<label>Combat glue shell</label>
+		<description>A firearm used to fire Anties adhesive to protect the ranged combatants from the charging enemies. Anties are not affected by the adhesive.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>AT_glue_Link</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Weapons/glueBomb</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.9</explosiveRadius>
+				<explosiveDamageType>AT_glueBomb</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+				<wickTicks>30~60</wickTicks>
+			</li>
+		</comps>
+		<projectileWhenLoaded>Bullet_Shell_AT_glueBomb</projectileWhenLoaded>
+		<costList>
+			<AntyExoskeleton>5</AntyExoskeleton>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Combatglue</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Shell_AT_glueBomb</defName>
+		<label>Combat glue shell</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(20, 150, 20, 100)</color>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>AT_glueBomb_B</damageDef>
+			<speed>50</speed>
+			<explosionRadius>5.1</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+			<preExplosionSpawnThingDef>Filth_AntyGlue</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+	
+ <!-- 접착 -->
+ 
+ <!-- 낫 -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>AT_Sickle</defName>
+		<label>Sickle</label>
+		<description>An oversized sythe used by Anties.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Sickle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<costStuffCount>50</costStuffCount>
+		<weaponTags>
+			<li>ATCharge</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.9</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>1.25</cooldownTime>
+			</li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<armorPenetration>0.22</armorPenetration>
+				<cooldownTime>3</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<skillRequirements>
+					<Crafting>3</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<techLevel>Industrial</techLevel>
+	</ThingDef>
+ <!-- 낫 -->
+ 
+ <!-- 할버드 -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>AT_Halberd</defName>
+		<label>Halberd</label>
+		<description>A giant ax beloved by Antie warriors. The axeblade is often used as a drawing board.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Halberd</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<costStuffCount>75</costStuffCount>
+		<weaponTags>
+			<li>ATCharge</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>8.75</Mass>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>Axe</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<armorPenetration>0.3</armorPenetration>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>Spear</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.3</armorPenetration>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>Hook</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.3</armorPenetration>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<skillRequirements>
+					<Crafting>7</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<techLevel>Industrial</techLevel>
+	</ThingDef>
+ <!-- 할버드 -->
+ 
+ <!-- 해머 -->
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>AT_Hammer</defName>
+		<label>Hammer</label>
+		<description>A hammer beloved by Antie warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Hammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<costStuffCount>75</costStuffCount>
+		<weaponTags>
+			<li>ATCharge</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>12</Mass>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>Hammer</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<armorPenetration>0.2</armorPenetration>
+				<cooldownTime>2.4</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<skillRequirements>
+					<Crafting>7</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<techLevel>Industrial</techLevel>
+	</ThingDef>
+ <!-- 해머 -->
+	
+ <!-- 쇠뇌 -->
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>AT_AcidCross</defName>
+		<label>Acid Crossbow</label>
+		<description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Antie. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Weapons/AcidCross</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Large</soundInteract>
+		<costList>
+			<WoodLog>40</WoodLog>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>4.0</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.4</AccuracyLong>
+			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>AcidCross_A</li>
+			<li>ammo_primitive</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AT_Aicdbolt</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>24.9</range>
+				<soundCast>Bow_Large</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+				  <li>Blunt</li>
+				  <li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+ 			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>AT_Aicdbolt</defName>
+		<label>Aicd Bolt</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrow_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidArrow</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	<DamageDef Name="AT_AcidArrow">
+		<defName>AT_AcidArrow</defName>
+		<label>Acid arrow</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Chemicaldissolution</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>AntyAcid_Bullet</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+	</DamageDef>
+ <!-- 쇠뇌 -->
+ 
+	<ThingDef ParentName="BaseGun">
+		<defName>AT_PP_S</defName>
+		<label>Anty X-war Gift box</label>
+		<description>We wish you a merry warfare\n\nWe wish you a merry warfare\n\nWe wish you a merry warfare and a Painful death!\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nOh, bring us some pirate pudding\n\nOh, bring us some Tribal pudding\n\nOh, bring us some Empire pudding\n\nAnd bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nSo bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death...again!</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Weapons/Deadlylove</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>10</Mass>
+			<RangedWeapon_Cooldown>10</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>1</MoveSpeed>
+			<WorkSpeedGlobal>-0.7</WorkSpeedGlobal>
+			<IncomingDamageFactor>1.5</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>Anty_GunSingleUse_PP</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_PP_A</defaultProjectile>
+				<forcedMissRadius>5.9</forcedMissRadius>
+				<warmupTime>0.1</warmupTime>
+				<range>9.9</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>5</burstShotCount>
+				<soundCast>ThrowGrenade</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>1</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>Box corner</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>3.15</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.9</explosiveRadius>
+				<explosiveDamageType>Anty_Bomb_SS</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				<preExplosionSpawnThingDef>Chocolate</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.8</preExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_PP_A</defName>
+		<label>Giftbox</label>
+		<graphicData>
+			<texPath>Things/Weapons/Deadlylove</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Anty_Bomb_SS</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<armorPenetrationBase>0.05</armorPenetrationBase>
+			<explosionRadius>1.9</explosionRadius>
+			<preExplosionSpawnThingDef>Chocolate</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+			<speed>15</speed>
+			<explosionDelay>150</explosionDelay>
+			<arcHeightFactor>5</arcHeightFactor>
+			<shadowSize>0.72</shadowSize>
+		</projectile>
+	</ThingDef>
+	
+	<DamageDef ParentName="Bomb">
+		<defName>Anty_Bomb_SS</defName>
+		<defaultDamage>0</defaultDamage>
+		<buildingDamageFactor>30</buildingDamageFactor>
+		<defaultStoppingPower>3.0</defaultStoppingPower>
+		<defaultArmorPenetration>0.15</defaultArmorPenetration>
+	</DamageDef>
+ 
+</Defs>

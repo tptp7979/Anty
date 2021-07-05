@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyDef>
+    <defName>Anty</defName>
+    <label>Anty</label>
+    <corePart>
+		<def>ExoThorax</def><!-- '외골격-> 몸-> 뼈/장기' '외골격 없는 부위= 목, 어깨, 허리'--><!-- 0 -->
+		<coverage>1</coverage>
+		<height>Middle</height>
+		<depth>Outside</depth>
+		<groups>
+			<li>Torso</li>
+		</groups>
+	<parts><!-- 코어파트 -->
+			<li><!-- 가슴 -->
+					<def>Torso</def>
+					<customLabel>Thorax</customLabel>
+					<coverage>0.2</coverage>
+					<height>Middle</height>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				<parts><!-- 가슴파트 475 -->
+					<li>
+						<def>Spine</def>
+						<customLabel>Thorax spine</customLabel>
+						<coverage>0.12</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+					
+					<li>
+						<def>Ribcage</def>
+						<coverage>0.18</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+					
+					<li>
+						<def>Sternum</def>
+						<coverage>0.12</coverage>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+					
+					<li>
+						<def>Pelvis</def>
+						<coverage>0.25</coverage>
+						<height>Bottom</height>
+						<depth>Inside</depth>
+						<groups>
+							<li>Torso</li>
+						</groups>
+					</li>
+				</parts><!-- 가슴파트 -->
+			</li><!-- 가슴 -->
+
+			<li><!-- 목 -->
+					<def>Neck</def>
+					<coverage>0.1</coverage>
+					<height>Top</height>
+					<groups>
+						<li>Neck</li>
+					</groups>
+				<parts><!-- 목파트 -->
+					<li><!-- 엑소헤드 -->
+						<def>ExoHead</def>
+						<coverage>0.9</coverage>
+						<depth>Outside</depth>
+						<groups>
+							<li>UpperHead</li>
+							<li>FullHead</li>
+							<li>HeadAttackTool</li>
+						</groups>
+						<parts><!-- 엑소헤드파트 -->
+
+							<li><!-- 머리 8 -->
+								<def>Head</def>
+								<coverage>0.2</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>UpperHead</li>
+									<li>FullHead</li>
+								</groups>
+								<parts><!-- 머리파트 9 -->
+									<li>
+										<def>Skull</def>
+										<coverage>0.1</coverage>
+										<depth>Inside</depth>
+										<groups>
+											<li>UpperHead</li>
+											<li>FullHead</li>
+										</groups>
+										<parts>
+											<li>
+												<def>Brain</def>
+												<coverage>0.4</coverage>
+												<groups>
+													<li>UpperHead</li>
+													<li>FullHead</li>
+												</groups>
+											</li>
+										</parts>
+									</li>
+									
+									<li>
+										<def>Eye</def>
+										<customLabel>Left Compound eyes</customLabel>
+										<coverage>0.07</coverage>
+										<groups>
+											<li>FullHead</li>
+											<li>Eyes</li>
+										</groups>
+									</li>
+									
+									<li>
+										<def>Eye</def>
+										<customLabel>Right Compound eyes</customLabel>
+										<coverage>0.07</coverage>
+										<groups>
+											<li>FullHead</li>
+											<li>Eyes</li>
+										</groups>
+									</li>
+
+									<li><!-- 좌측귀 67 -->
+										<def>Ear</def>
+										<customLabel>Left Feeler</customLabel>
+										<coverage>0.07</coverage>
+										<depth>Outside</depth>
+										<groups>
+											<li>UpperHead</li>
+											<li>FullHead</li>
+										</groups>
+									</li><!-- 좌측귀 -->
+							
+									<li><!-- 우측귀 67 -->
+										<def>Ear</def>
+										<customLabel>Right Feeler</customLabel>
+										<coverage>0.07</coverage>
+										<depth>Outside</depth>
+										<groups>
+											<li>UpperHead</li>
+											<li>FullHead</li>
+										</groups>
+									</li><!-- 우측귀 -->
+
+									<li>
+										<def>Nose</def>
+										<coverage>0.10</coverage>
+										<groups>
+											<li>FullHead</li>
+										</groups>
+									</li>
+									
+									<li>
+										<def>Jaw</def>
+										<coverage>0.05</coverage>
+										<groups>
+											<li>Teeth</li>
+											<li>FullHead</li>
+										</groups>
+									</li>
+								</parts><!-- 머리파트 -->
+							</li><!-- 머리 -->
+						</parts><!-- 엑소헤드파트 -->
+					</li><!-- 엑소헤드 -->
+				</parts><!-- 목파트 -->
+			</li><!-- 목 -->
+
+			<li><!-- 엑소압도맨 -->
+					<def>Exoabdomen</def>
+					<coverage>0.13</coverage>
+					<height>Middle</height>
+					<depth>Outside</depth>
+					<groups>
+						<li>Waist</li>
+					</groups>
+				<parts><!-- 엑소압도맨파트 -->
+					<li><!-- 배 -->
+							<def>Antyabdomen</def>
+							<coverage>0.37</coverage>
+							<height>Middle</height>
+							<depth>Inside</depth>
+							<groups>
+								<li>Waist</li>
+							</groups>
+						<parts><!-- 배파트 -->
+							<li>
+								<def>Exoabdomen</def>
+								<customLabel>Abdomen Exoskeleton add slot1</customLabel>
+								<coverage>0</coverage>
+							</li>
+							
+							<li>
+								<def>Exoabdomen</def>
+								<customLabel>Abdomen Exoskeleton add slot2</customLabel>
+								<coverage>0</coverage>
+							</li>
+							
+							<li>
+								<def>Stomach</def>
+								<coverage>0.025</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+							
+							<li>
+								<def>Heart</def>
+								<coverage>0.020</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+							
+							<li>
+								<def>Lung</def>
+								<customLabel>Left lung</customLabel>
+								<coverage>0.025</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+									
+							<li>
+								<def>Lung</def>
+								<customLabel>Right lung</customLabel>
+								<coverage>0.025</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+									
+							<li>
+								<def>Kidney</def>
+								<customLabel>Left kidney</customLabel>
+								<coverage>0.017</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+									
+							<li>
+								<def>Kidney</def>
+								<customLabel>Right kidney</customLabel>
+								<coverage>0.017</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+									
+							<li>
+								<def>Liver</def>
+								<coverage>0.025</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>Waist</li>
+								</groups>
+							</li>
+							
+							<li>
+								<def>AntyTool</def>
+								<coverage>0</coverage>
+								<depth>Inside</depth>
+								<groups>
+									<li>AntyToolkit</li>
+								</groups>
+							</li>
+						</parts><!-- 배파트 -->
+					</li><!-- 배 -->
+				</parts><!-- 엑소압도맨파트 -->
+			</li><!-- 엑소압도맨 -->
+			
+								<li><!-- 좌측어깨 -->
+										<def>Shoulder</def>
+										<customLabel>Left shoulder</customLabel>
+										<coverage>0.13</coverage>
+										<groups>
+											<li>Shoulders</li>
+										</groups>
+									<parts><!-- 어깨파트 -->
+										<li><!-- 엑소암 -->
+												<def>ExoArm</def>
+												<customLabel>Left Exoarm</customLabel>
+												<depth>Outside</depth>
+												<coverage>0.9</coverage>
+												<groups>
+													<li>Arms</li>
+												</groups>
+											<parts><!-- 엑소암파트 -->
+												<li><!-- 팔 -->
+														<def>Arm</def>
+														<customLabel>Left arm</customLabel>
+														<depth>Inside</depth>
+														<coverage>0.35</coverage>
+														<groups>
+															<li>Arms</li>
+														</groups>
+													<parts><!-- 팔파트 -->
+														<li>
+															<def>Humerus</def>
+															<customLabel>Left humerus</customLabel>
+															<coverage>0.1</coverage>
+															<depth>Inside</depth>
+															<groups>
+																<li>Arms</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Radius</def>
+															<customLabel>Left radius</customLabel>
+															<coverage>0.1</coverage>
+															<depth>Inside</depth>
+															<groups>
+																<li>Arms</li>
+															</groups>
+														</li>
+													
+														<li><!-- 손 -->
+																<def>Hand</def>
+																<customLabel>Left hand</customLabel>
+																<coverage>0.14</coverage>
+																<height>Bottom</height>
+																<depth>Outside</depth>
+																<groups>
+																	<li>Hands</li>
+																</groups>
+															<parts><!-- 손파트 -->
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Left pinky</customLabel>
+																	<coverage>0.06</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>LeftHand</li>
+																	</groups>
+																</li>
+																
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Left ring finger</customLabel>
+																	<coverage>0.07</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>LeftHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Left middle finger</customLabel>
+																	<coverage>0.08</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>LeftHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Left index finger</customLabel>
+																	<coverage>0.07</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>LeftHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Left thumb</customLabel>
+																	<coverage>0.08</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>LeftHand</li>
+																	</groups>
+																</li>
+															</parts><!-- 손파트 -->
+														</li><!-- 손 -->
+													</parts><!-- 팔파트 -->
+												</li><!-- 팔 -->
+											</parts><!-- 엑소암파트 -->
+										</li><!-- 엑소암 -->
+									</parts><!-- 어깨파트 -->
+								</li><!-- 좌측어깨 -->
+							   
+								<li><!-- 우측어깨 -->
+										<def>Shoulder</def>
+										<customLabel>Right shoulder</customLabel>
+										<coverage>0.13</coverage>
+										<groups>
+											<li>Shoulders</li>
+										</groups>
+									<parts><!-- 어깨파트 -->
+										<li><!-- 엑소암 -->
+												<def>ExoArm</def>
+												<customLabel>Right Exoarm</customLabel>
+												<depth>Outside</depth>
+												<coverage>0.9</coverage>
+												<groups>
+													<li>Arms</li>
+												</groups>
+											<parts><!-- 엑소암파트 -->
+												<li><!-- 팔 -->
+														<def>Arm</def>
+														<customLabel>Right arm</customLabel>
+														<depth>Inside</depth>
+														<coverage>0.35</coverage>
+														<groups>
+															<li>Arms</li>
+														</groups>
+													<parts><!-- 팔파트 -->
+														<li>
+															<def>Humerus</def>
+															<customLabel>Right humerus</customLabel>
+															<coverage>0.1</coverage>
+															<depth>Inside</depth>
+															<groups>
+																<li>Arms</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Radius</def>
+															<customLabel>Right radius</customLabel>
+															<coverage>0.1</coverage>
+															<depth>Inside</depth>
+															<groups>
+																<li>Arms</li>
+															</groups>
+														</li>
+													
+														<li><!-- 손 -->
+																<def>Hand</def>
+																<customLabel>Right hand</customLabel>
+																<coverage>0.14</coverage>
+																<height>Bottom</height>
+																<depth>Outside</depth>
+																<groups>
+																	<li>Hands</li>
+																</groups>
+															<parts><!-- 손파트 -->
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Right pinky</customLabel>
+																	<coverage>0.06</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>RightHand</li>
+																	</groups>
+																</li>
+																
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Right ring finger</customLabel>
+																	<coverage>0.07</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>RightHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Right middle finger</customLabel>
+																	<coverage>0.08</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>RightHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Right index finger</customLabel>
+																	<coverage>0.07</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>RightHand</li>
+																	</groups>
+																</li>
+															
+																<li>
+																	<def>Finger</def>
+																	<customLabel>Right thumb</customLabel>
+																	<coverage>0.08</coverage>
+																	<groups>
+																		<li>Hands</li>
+																		<li>RightHand</li>
+																	</groups>
+																</li>
+															</parts><!-- 손파트 -->
+														</li><!-- 손 -->
+													</parts><!-- 팔파트 -->
+												</li><!-- 팔 -->
+											</parts><!-- 엑소암파트 -->
+										</li><!-- 엑소암 -->
+									</parts><!-- 어깨파트 -->
+								</li><!-- 우측어깨 -->
+								
+								<li><!-- 5 -->
+									<def>Spine</def>
+									<customLabel>Abdomen spine</customLabel>
+									<coverage>0.005</coverage>
+									<depth>Inside</depth>
+									<height>Middle</height>
+									<groups>
+										<li>Waist</li>
+									</groups>
+								</li>
+								
+								<li><!-- 좌측엑소레그 -->
+										<def>ExoLeg</def>
+										<customLabel>Left ExoLeg</customLabel>
+										<coverage>0.11</coverage>
+										<height>Bottom</height>
+										<groups>
+											<li>Legs</li>
+										</groups>
+									<parts><!-- 엑소레그파트 -->
+										<li><!-- 다리 -->
+												<def>Leg</def>
+												<customLabel>Left leg</customLabel>
+												<depth>Inside</depth>
+												<coverage>0.35</coverage>
+												<height>Bottom</height>
+												<groups>
+													<li>Legs</li>
+												</groups>
+											<parts><!-- 다리파트 -->
+												<li>
+													<def>Femur</def>
+													<customLabel>Left femur</customLabel>
+													<coverage>0.1</coverage>
+													<depth>Inside</depth>
+													<groups>
+														<li>Legs</li>
+													</groups>
+												</li>
+											
+												<li>
+													<def>Tibia</def>
+													<customLabel>Left tibia</customLabel>
+													<coverage>0.1</coverage>
+													<depth>Inside</depth>
+													<groups>
+														<li>Legs</li>
+													</groups>
+												</li>
+												
+												<li><!-- 발 -->
+														<def>Foot</def>
+														<customLabel>Left foot</customLabel>
+														<coverage>0.1</coverage>
+														<depth>Outside</depth>
+														<groups>
+															<li>Feet</li>
+														</groups>
+													<parts><!-- 발파트 -->
+														<li>
+															<def>Toe</def>
+															<customLabel>Left little toe</customLabel>
+															<coverage>0.06</coverage>
+															<groups>
+															<li>Feet</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Toe</def>
+															<customLabel>Left fourth toe</customLabel>
+															<coverage>0.07</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Toe</def>
+															<customLabel>Left middle toe</customLabel>
+															<coverage>0.08</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+											
+														<li>
+															<def>Toe</def>
+															<customLabel>Left second toe</customLabel>
+															<coverage>0.09</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+											
+														<li>
+															<def>Toe</def>
+															<customLabel>Left big toe</customLabel>
+															<coverage>0.09</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+													</parts><!-- 발파트 -->
+												</li><!-- 발 -->
+											</parts><!-- 다리파트 -->
+										</li><!-- 다리 -->
+									</parts><!-- 엑소레그파트 -->
+								</li><!-- 좌측엑소레그 -->
+
+								<li><!-- 우측엑소레그 -->
+										<def>ExoLeg</def>
+										<customLabel>Right ExoLeg</customLabel>
+										<coverage>0.11</coverage>
+										<height>Bottom</height>
+										<groups>
+											<li>Legs</li>
+										</groups>
+									<parts><!-- 엑소레그파트 -->
+										<li><!-- 다리 -->
+												<def>Leg</def>
+												<customLabel>Right leg</customLabel>
+												<depth>Inside</depth>
+												<coverage>0.35</coverage>
+												<height>Bottom</height>
+												<groups>
+													<li>Legs</li>
+												</groups>
+											<parts><!-- 다리파트 -->
+												<li>
+													<def>Femur</def>
+													<customLabel>Right femur</customLabel>
+													<coverage>0.1</coverage>
+													<depth>Inside</depth>
+													<groups>
+														<li>Legs</li>
+													</groups>
+												</li>
+											
+												<li>
+													<def>Tibia</def>
+													<customLabel>Right tibia</customLabel>
+													<coverage>0.1</coverage>
+													<depth>Inside</depth>
+													<groups>
+														<li>Legs</li>
+													</groups>
+												</li>
+												
+												<li><!-- 발 -->
+														<def>Foot</def>
+														<customLabel>Right foot</customLabel>
+														<coverage>0.1</coverage>
+														<depth>Outside</depth>
+														<groups>
+															<li>Feet</li>
+														</groups>
+													<parts><!-- 발파트 -->
+														<li>
+															<def>Toe</def>
+															<customLabel>Right little toe</customLabel>
+															<coverage>0.06</coverage>
+															<groups>
+															<li>Feet</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Toe</def>
+															<customLabel>Right fourth toe</customLabel>
+															<coverage>0.07</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+														
+														<li>
+															<def>Toe</def>
+															<customLabel>Right middle toe</customLabel>
+															<coverage>0.08</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+											
+														<li>
+															<def>Toe</def>
+															<customLabel>Right second toe</customLabel>
+															<coverage>0.09</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+											
+														<li>
+															<def>Toe</def>
+															<customLabel>Right big toe</customLabel>
+															<coverage>0.09</coverage>
+															<groups>
+																<li>Feet</li>
+															</groups>
+														</li>
+													</parts><!-- 발파트 -->
+												</li><!-- 발 -->
+											</parts><!-- 다리파트 -->
+										</li><!-- 다리 -->
+									</parts><!-- 엑소레그파트 -->
+								</li><!-- 우측엑소레그 -->
+	</parts><!-- 코어파트 -->
+    </corePart>
+	</BodyDef>  
+</Defs>
