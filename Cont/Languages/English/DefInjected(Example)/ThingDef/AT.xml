@@ -241,4 +241,6 @@
   <AT_Apparel_barricade.description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</AT_Apparel_barricade.description>
   <AT_Apparel_barricade.verbs.0.label>pop barricade kit</AT_Apparel_barricade.verbs.0.label>
   <AT_Bulletbarricade.label>barricade Shell</AT_Bulletbarricade.label>
+  <ProtyGum.label>Proty Gum</ProtyGum.label>
+  <ProtyGum.description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry Proteas and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proteas trying to chew anything can be suppressed.</ProtyGum.description>
 </LanguageData>

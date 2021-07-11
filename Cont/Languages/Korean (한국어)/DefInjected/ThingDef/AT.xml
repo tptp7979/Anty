@@ -286,4 +286,7 @@
   
   <AT_SuicideBomb.label>자폭</AT_SuicideBomb.label>
   <AT_SporeBomb.label>포자 방출</AT_SporeBomb.label>
+
+  <ProtyGum.label>프로티 껌</ProtyGum.label>
+  <ProtyGum.description>배고픈 프로티들로 가득한 방에 포로를 가두었을 때 프로티들이 포로를 하루 종일 물어뜯는 것을 보고 앤티들이 고안해낸 프로티용 음식입니다.\n말린 가죽을 튀겨 만든 것으로, 뭐든지 씹으려고 하는 프로티들을 조금이나마 억제할 수 있습니다.</ProtyGum.description>
 </LanguageData>

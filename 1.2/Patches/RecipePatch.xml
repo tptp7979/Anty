@@ -76,6 +76,7 @@
 							<li>CookNutritional_jelly</li>
 							<li>CookEraser_jelly</li>
 							<li>CookBattlestimulation_jelly</li>
+							<li>CookProtyGum</li>
 						</value>
 					</li>
 					<li Class="PatchOperationAdd">
@@ -85,6 +86,7 @@
 								<li>CookNutritional_jelly</li>
 								<li>CookEraser_jelly</li>
 								<li>CookBattlestimulation_jelly</li>
+								<li>CookProtyGum</li>
 							</recipes>
 						</value>
 					</li>

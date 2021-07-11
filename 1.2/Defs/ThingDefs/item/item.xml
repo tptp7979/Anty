@@ -270,4 +270,94 @@
 				<li>Anty_prototype</li>
 		</recipeUsers>
 	</RecipeDef>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>ProtyGum</defName>
+		<label>Proty Gum</label>
+		<description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry Proteas and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proteas trying to chew anything can be suppressed.</description>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/Gum</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>0.1</MarketValue>
+			<Mass>0.005</Mass>
+			<Nutrition>0.02</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+			<WorkToMake>12</WorkToMake>
+		</statBases>
+		<ingestible>
+			<foodType>Kibble</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteKibble</tasteThought>
+			<optimalityOffsetHumanlikes>-50</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>35</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_CookMeal</soundWorking>
+
+			<recipeUsers>
+ 				<li>ElectricStove</li>
+				<li>FueledStove</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>CookProtyGum</defName>
+		<label>Cook Proty Gum</label>
+		<description>.</description>
+		<descriptionHyperlinks><ThingDef>ProtyGum</ThingDef></descriptionHyperlinks>
+		<jobString>Cook Proty Gum</jobString>
+		<workAmount>120</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<uiIconThing>ProtyGum</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+				  <categories>
+					<li>Leathers</li>
+				  </categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<ProtyGum>10</ProtyGum>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
 </Defs>
