@@ -30,7 +30,7 @@
 			<defName>AT_platoonleader</defName>
 			<label>Platoon leader</label>
 			<description>Platoon leader of Anty Hive.</description>
-			<seniority>0</seniority>
+			<seniority>500</seniority>
 			<favorCost>50</favorCost>
 			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
 			<allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
@@ -42,7 +42,7 @@
 			<defName>AT_companycommander</defName>
 			<label>Company commander</label>
 			<description>Company commander of Anty Hive.</description>
-			<seniority>100</seniority>
+			<seniority>700</seniority>
 			<favorCost>100</favorCost>
 			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
 			<commonality>1</commonality>
@@ -54,7 +54,7 @@
 			<defName>AT_battalioncommander</defName>
 			<label>Battalion commander</label>
 			<description>Battalion commander of Anty Hive.</description>
-			<seniority>200</seniority>
+			<seniority>900</seniority>
 			<favorCost>150</favorCost>
 			<minExpectation>Moderate</minExpectation>
 			<changeHeirQuestPoints>1200</changeHeirQuestPoints>
@@ -142,7 +142,7 @@
 			<defName>AT_SwarmLord</defName>
 			<label>Swarm Lord</label>
 			<description>Swarm Lord of Anty Hive.</description>
-			<seniority>300</seniority>
+			<seniority>1000</seniority>
 			<favorCost>200</favorCost>
 			<minExpectation>High</minExpectation>
 			<changeHeirQuestPoints>1600</changeHeirQuestPoints>
