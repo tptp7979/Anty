@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anty_Larva_B_lazy.title>앤티 게으른 유충</Anty_Larva_B_lazy.title>
+  <Anty_Larva_B_lazy.titleShort>앤티</Anty_Larva_B_lazy.titleShort>
+  <Anty_Larva_B_lazy.baseDescription>[PAWN_nameDef](은) 정말 게으른 애벌레였습니다. 애벌레들이 할 수 있는 유일한 행동인 꿈틀거리기마저 귀찮아 할 지경이었죠. 그런 [PAWN_pronoun]의 모습조차도 착한 친구들이 사랑해 주었지만 [PAWN_pronoun](은)는 그것조차 귀찮아 했습니다. [PAWN_pronoun](은)는 결국 착한 친구들에게도 미움 받았죠.</Anty_Larva_B_lazy.baseDescription>
+  <Anty_Larva_B_lazy_Drop.title>앤티 게으른 유충</Anty_Larva_B_lazy_Drop.title>
+  <Anty_Larva_B_lazy_Drop.titleShort>앤티</Anty_Larva_B_lazy_Drop.titleShort>
+  <Anty_Larva_B_lazy_Drop.baseDescription>[PAWN_nameDef](은) 정말 게으른 애벌레였습니다. 애벌레들이 할 수 있는 유일한 행동인 꿈틀거리기마저 귀찮아 할 지경이었죠. 그런 [PAWN_pronoun]의 모습조차도 착한 친구들이 사랑해 주었지만 [PAWN_pronoun](은)는 그것조차 귀찮아 했습니다. [PAWN_pronoun](은)는 결국 착한 친구들에게도 미움 받았죠.</Anty_Larva_B_lazy_Drop.baseDescription>
+  <Anty_Larva_B_Brave.title>앤티 용감한 유충</Anty_Larva_B_Brave.title>
+  <Anty_Larva_B_Brave.titleShort>앤티</Anty_Larva_B_Brave.titleShort>
+  <Anty_Larva_B_Brave.baseDescription>[PAWN_nameDef](은) 용감한 애벌레였습니다. 문턱에서 굴러 떨어지기, 딱딱하고 둥그런 물건 위에서 꿈틀거리기, 사나운 날파리들을 스스로 쫓아내기와 같이 다른 애벌레들(은) 상상조차 할 수 없는 위험한 행동을 즐겼습니다. 보모들에게 항상 혼나면서 말이죠.</Anty_Larva_B_Brave.baseDescription>
+  <Anty_Larva_B_Evil.title>앤티 사악한 유충</Anty_Larva_B_Evil.title>
+  <Anty_Larva_B_Evil.titleShort>앤티</Anty_Larva_B_Evil.titleShort>
+  <Anty_Larva_B_Evil.baseDescription>[PAWN_nameDef](은) 사악한 애벌레였습니다. 조금이라도 더 달달한 젤리를 먹기 위해 아픈 척을 하고, 친구들의 관심을 사기 위해서 한 친구를 따돌리기도 하고, 심지어는 보모의 발을 걸어 넘어뜨리기도 했습니다.</Anty_Larva_B_Evil.baseDescription>
+  <Anty_Larva_B_Rough.title>앤티 까칠한 유충</Anty_Larva_B_Rough.title>
+  <Anty_Larva_B_Rough.titleShort>앤티</Anty_Larva_B_Rough.titleShort>
+  <Anty_Larva_B_Rough.baseDescription>[PAWN_nameDef](은) 까칠한 애벌레였습니다. 사소한 일에도 짜증과 화를 냈고, 때문에 사악한 친구들의 표적이 되기도 했습니다. 하지만 [PAWN_pronoun](은)는 그저 완벽한 꿈틀거리기를 위해 집중하는 동안 방해받고 싶지 않았을 뿐이었습니다.</Anty_Larva_B_Rough.baseDescription>
+  <Anty_Larva_B_Kind.title>앤티 다정한 유충</Anty_Larva_B_Kind.title>
+  <Anty_Larva_B_Kind.titleShort>앤티</Anty_Larva_B_Kind.titleShort>
+  <Anty_Larva_B_Kind.baseDescription>[PAWN_nameDef](은) 착한 애벌레였습니다. 미처 영양 젤리를 먹지 못한 친구에게 자신의 것을 나누어 주고, 보모에게 혼나는 용감한 친구의 편을 들어주기도 했죠.</Anty_Larva_B_Kind.baseDescription>
+  <Anty_Larva_B_Idiot.title>앤티 멍청한 유충</Anty_Larva_B_Idiot.title>
+  <Anty_Larva_B_Idiot.titleShort>앤티</Anty_Larva_B_Idiot.titleShort>
+  <Anty_Larva_B_Idiot.baseDescription>[PAWN_nameDef](은) 멍청한 애벌레였습니다. 꿈틀거리기조차 보모에게 수십 번을 들어서야 이해할 수 있었고, 식사조차 매번 흘려가며 먹었습니다. 하지만 시간이 지나고 단순한 일이라면 그 누구보다 잘할 수 있게 되었습니다.</Anty_Larva_B_Idiot.baseDescription>
+  <Anty_Larva_B_Smart.title>앤티 똑똑한 유충</Anty_Larva_B_Smart.title>
+  <Anty_Larva_B_Smart.titleShort>앤티</Anty_Larva_B_Smart.titleShort>
+  <Anty_Larva_B_Smart.baseDescription>[PAWN_nameDef](은) 똑똑한 애벌레였습니다. 알 속에서부터 꿈틀거리기를 완벽히 해내었고, 애벌레가 된 후에는 보모들을 유심히 관찰하며 미래에 자신이 할 일을 열심히 배웠습니다. 하지만 배우는 것에 열중한 나머지 친구들을 잃었습니다.</Anty_Larva_B_Smart.baseDescription>
+  <Anty_Larva_B_Quiet.title>앤티 조용한 유충</Anty_Larva_B_Quiet.title>
+  <Anty_Larva_B_Quiet.titleShort>앤티</Anty_Larva_B_Quiet.titleShort>
+  <Anty_Larva_B_Quiet.baseDescription>[PAWN_nameDef](은) 조용한 애벌레였습니다. 평소에는 먹고 배출하는 것 외에는 하지 않았고 가끔씩 보모들의 눈치를 보며 꿈틀거리는 것이 전부였습니다. [PAWN_pronoun]의 관심은 오로지 자신을 짜증나게 하는 날파리들에게 쏠려있었으니까요. 나중에 알게 된 사실은, 보모에게 알리면 날파리를 쫓아내준다는 것이었습니다.</Anty_Larva_B_Quiet.baseDescription>
+  <Anty_Amigo_B_Rangedinfantry.title>앤티 원거리 보병</Anty_Amigo_B_Rangedinfantry.title>
+  <Anty_Amigo_B_Rangedinfantry.titleShort>원거리 보병</Anty_Amigo_B_Rangedinfantry.titleShort>
+  <Anty_Amigo_B_Rangedinfantry.baseDescription>[PAWN_nameDef](은)는 원거리 보병입니다.\n\n 앤티들은 근접전을 선호하지만 제대로 된 전쟁을 하기 위해서는 원거리에서의 교전이 필요했기에 생겨난 병종입니다.\n\n 보통 비교적 신체능력이 떨어지거나 사격에 재능이 있는 개체들이 선발되고, 모든 종류의 원거리 무기를 다룰 수 있도록 혹독한 훈련을 받습니다.</Anty_Amigo_B_Rangedinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry.title>앤티 근거리 보병</Anty_Amigo_B_Meleeinfantry.title>
+  <Anty_Amigo_B_Meleeinfantry.titleShort>근거리 보병</Anty_Amigo_B_Meleeinfantry.titleShort>
+  <Anty_Amigo_B_Meleeinfantry.baseDescription>[PAWN_nameDef](은) 근거리 보병입니다.\n\n 앤티가 생겨난 시점부터 존재했던 병종으로 앤티 인구의 30%를 차지합니다.\n\n 보통 비교적 신체능력이 뛰어나거나 죽음에 대한 두려움이 적은 개체들이 선발되고, 모든 종류의 근거리 무기를 다룰 수 있도록, 그리고 아군과 적군의 포화 속으로 거리낌 없이 돌격할 수 있도록 혹독한 훈련을 받습니다.</Anty_Amigo_B_Meleeinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry_Drop.title>앤티 근거리 보병</Anty_Amigo_B_Meleeinfantry_Drop.title>
+  <Anty_Amigo_B_Meleeinfantry_Drop.titleShort>근거리 보병</Anty_Amigo_B_Meleeinfantry_Drop.titleShort>
+  <Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>[PAWN_nameDef](은) 근거리 보병입니다.\n\n 앤티가 생겨난 시점부터 존재했던 병종으로 앤티 인구의 30%를 차지합니다.\n\n 보통 비교적 신체능력이 뛰어나거나 죽음에 대한 두려움이 적은 개체들이 선발되고, 모든 종류의 근거리 무기를 다룰 수 있도록, 그리고 아군과 적군의 포화 속으로 거리낌 없이 돌격할 수 있도록 혹독한 훈련을 받습니다.</Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>
+  <Anty_Amigo_B_Normalinfantry.title>앤티 일반 보병</Anty_Amigo_B_Normalinfantry.title>
+  <Anty_Amigo_B_Normalinfantry.titleShort>일반 보병</Anty_Amigo_B_Normalinfantry.titleShort>
+  <Anty_Amigo_B_Normalinfantry.baseDescription>[PAWN_nameDef](은) 일반 보병입니다.\n\n 상황에 따라서 근거리나 원거리 보병의 역할을 수행합니다. 모든 종류의 무기를 다룰 수 있지만 전문화된 보병들처럼 능숙하게 다루지는 못합니다.</Anty_Amigo_B_Normalinfantry.baseDescription>
+  <Anty_Amigo_B_Commander.title>앤티 지휘관</Anty_Amigo_B_Commander.title>
+  <Anty_Amigo_B_Commander.titleShort>지휘관</Anty_Amigo_B_Commander.titleShort>
+  <Anty_Amigo_B_Commander.baseDescription>[PAWN_nameDef](은) 지휘관 입니다.\n\n 군체의 병력을 통솔하기 위해서 강력한 페로몬 분비선을 지니고 있는 개체로써 다른 앤티들과는 달리 더 많고 정확한 지시를 내릴 수 있습니다.</Anty_Amigo_B_Commander.baseDescription>
+</LanguageData>

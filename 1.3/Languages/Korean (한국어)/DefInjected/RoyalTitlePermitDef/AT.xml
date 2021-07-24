@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_CallLaborerTeam.label>일개미 호출</AT_CallLaborerTeam.label>
+  <AT_CallLaborerTeam.description>4명의 일개미를 불러 4일 동안 노동에 투입할 수 있습니다.</AT_CallLaborerTeam.description>
+
+  <AT_CallMilitaryAidMelee.label>근거리 보병 호출</AT_CallMilitaryAidMelee.label>
+  <AT_CallMilitaryAidMelee.description>10명의 앤티 근거리 보병을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidMelee.description>
+  <AT_CallMilitaryAidBomb.label>폭탄투하</AT_CallMilitaryAidBomb.label>
+  <AT_CallMilitaryAidBomb.description>10명의 폭탄을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidBomb.description>
+
+  <AT_CallMilitaryAidRanged.label>원거리 보병 호출</AT_CallMilitaryAidRanged.label>
+  <AT_CallMilitaryAidRanged.description>5명의 앤티 원거리 보병을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidRanged.description>
+  <AT_CallMilitaryAidCluster.label>방사팀 호출</AT_CallMilitaryAidCluster.label>
+  <AT_CallMilitaryAidCluster.description>5명의 앤티 방사기 보병단을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidCluster.description>
+</LanguageData>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Earlycolony.label>초기군체</Earlycolony.label>
+  <Earlycolony.description>초기에 군체의 기반을 빠르게 건설할 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</Earlycolony.description>
+  
+  <AntyNutritionaljelly.label>영양 젤리</AntyNutritionaljelly.label>
+  <AntyNutritionaljelly.description>알주머니에 필요한 영양분을 공급해줄 젤리를 만들 수 있게 됩니다. 기존 조리대에서 만들 수 있습니다.</AntyNutritionaljelly.description>
+  <AntyNutritionaljelly.discoveredLetterTitle>정보: 영양 젤리</AntyNutritionaljelly.discoveredLetterTitle>
+  <AntyNutritionaljelly.discoveredLetterText>알주머니에 필요한 영양분을 공급해줄 젤리를 만들 수 있게 됩니다. 기존 조리대에서 만들 수 있습니다.</AntyNutritionaljelly.discoveredLetterText>
+  
+  <AntyMassiveButchering.label>대량도축</AntyMassiveButchering.label>
+  <AntyMassiveButchering.description>시체들을 대량으로 도축할 수 있는 전기 도축대를 사용할 수 있게 됩니다.</AntyMassiveButchering.description>
+  
+  <AntyMachining.label>모방 기계가공</AntyMachining.label>
+  <AntyMachining.description>재련기술을 토대로 새로운 기계가공 기술을 개발합니다.</AntyMachining.description>
+  <AntyMachining.discoveredLetterTitle>정보: 중기군체</AntyMachining.discoveredLetterTitle>
+  <AntyMachining.discoveredLetterText>군체를 더욱 확장시킬 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</AntyMachining.discoveredLetterText>
+  
+  <AntyClothing.label>모방 재봉</AntyClothing.label>
+  <AntyClothing.description>본래의 재봉기술을 모방해 새로운 장비들을 제작할 수 있게 됩니다.</AntyClothing.description>
+  
+  <Mediumcolony.label>중기군체</Mediumcolony.label>
+  <Mediumcolony.description>군체를 더욱 확장시킬 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</Mediumcolony.description>
+  <Mediumcolony.discoveredLetterTitle>정보: 재활용 코어</Mediumcolony.discoveredLetterTitle>
+  <Mediumcolony.discoveredLetterText>시체들을 이용해 만들어낸 유기물 관리 코어입니다.\n\n 주요 건물이나 장비의 제작에 사용되며, 앤티 기계 가공대에서 제작이 가능합니다.</Mediumcolony.discoveredLetterText>
+
+  <AntyAcidweapon_B.label>산성 화기 ⅰ</AntyAcidweapon_B.label>
+  <AntyAcidweapon_B.description>앤티들이 체내에 축적해 두는 산성물질을 전투에 활용할 수 있게 해 주는 화기를 사용할 수 있게 됩니다.</AntyAcidweapon_B.description>
+  
+  <AntyAcidweapon_C.label>산성 화기 ⅱ</AntyAcidweapon_C.label>
+  <AntyAcidweapon_C.description>앤티들이 체내에 축적해 두는 산성물질을 전투에 활용할 수 있게 해 주는 화기를 발전시켜 더욱 정확하고 강력하게 쏘아낼 수 있게 합니다.</AntyAcidweapon_C.description>
+  
+  <AntyAcidweapon_D.label>대량살포</AntyAcidweapon_D.label>
+  <AntyAcidweapon_D.description>앤티들이 체내에 축적해 두는 산성물질을 전장에 대량으로 살포할 수 있게 해 주는 화기를 사용할 수 있게 됩니다.</AntyAcidweapon_D.description>
+  <AntyAcidweapon_D.discoveredLetterTitle>정보: 대군체</AntyAcidweapon_D.discoveredLetterTitle>
+  <AntyAcidweapon_D.discoveredLetterText>군체의 마지막 단계에 다가갈 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</AntyAcidweapon_D.discoveredLetterText>
+  
+  <Antypheromonestim.label>페로몬 흡입제</Antypheromonestim.label>
+  <Antypheromonestim.description>앤티들의 페로몬을 농축하여 사용하는 방법을 해금합니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromonestim.description>
+  <Antypheromonestim.discoveredLetterTitle>정보: 페로몬</Antypheromonestim.discoveredLetterTitle>
+  <Antypheromonestim.discoveredLetterText>이제 당신은 앤티들의 페로몬을 이용할 수 있습니다. 수술을 통해서 페로몬 팩을 추출할 수 있습니다. 또한 기존의 약물 연구대에서 가공할 수 있습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromonestim.discoveredLetterText>
+  
+  <Combatglue.label>전투용 접착제</Combatglue.label>
+  <Combatglue.description>앤티들이 원거리 보병들을 적군의 근거리 보병으로부터 보호하기 위해서 사용하는 전투용 접착제를 사용할 수 있게 됩니다. 앤티들은 이 접착제로부터 아무런 영향도 받지 않습니다.</Combatglue.description>
+  
+  <Antycomposite.label>유기물 복합재</Antycomposite.label>
+  <Antycomposite.description>앤티들의 외골격과 무기물을 합성해 새로운 의류를 만들어내는 방법을 연구합니다.</Antycomposite.description>
+  
+  <Largecolony.label>대군체</Largecolony.label>
+  <Largecolony.description>군체의 마지막 단계에 다가갈 수 있는 기술을 연구하기 위해 자료들을 정리합니다. 오직 앤티만이 작업할 수 있습니다.</Largecolony.description>
+  
+  <Antycomposite_B.label>군체 강화복</Antycomposite_B.label>
+  <Antycomposite_B.description>앤티들이 다양한 환경의 전장에서도 원활하게 활동할 수 있도록 도와주는 강화복을 연구합니다.</Antycomposite_B.description>
+  
+  <hydroheliumion.label>초강산 화기</hydroheliumion.label>
+  <hydroheliumion.description>메카노이드 같이 장갑이 두텁거나 신체 자체가 강인한 대상과의 전투에서 강력한 위력을 발휘하는 앤티들의 신무기를 연구합니다.</hydroheliumion.description>
+  
+  <hydroheliumion_B.label>초강산 화기 ⅱ</hydroheliumion_B.label>
+  <hydroheliumion_B.description>전장을 레드버스트로 뒤덮을 수 있는 앤티들의 신무기를 연구합니다.</hydroheliumion_B.description>
+  
+  <Superregenerationdevice.label>초재생장치</Superregenerationdevice.label>
+  <Superregenerationdevice.description>앤티들이 전장에서 부상당한 전사들을 다시금 전장에 투입하기 위해서 개발한 장치를 연구합니다.</Superregenerationdevice.description>
+  
+  <AT_Forwardbase_A.label>급조엄폐물</AT_Forwardbase_A.label>
+  <AT_Forwardbase_A.description>언제 상황이 급변할지 모르는 전장에서 앤티 적의 공격으로 부터 자신들을 보호하기 위해서 개발된 급조 엄폐물을 연구합니다.</AT_Forwardbase_A.description>
+  
+  <AntyAphidextract.label>진딧물 사육</AntyAphidextract.label>
+  <AntyAphidextract.description>유전자 변형을 일으켜 양분이 농축된 체액을 배출하도록 신체를 개조하는 수술을 연구합니다.\n\n뇌가 극단적으로 자극되어 손상되는 부작용이 있습니다.\n\n수술 과정에서 영양 젤리의 성질이 변하기 때문에 앤티에게는 어떠한 변화도 생기지 않습니다.\n\n 수술에는 영양 젤리와 페로몬 팩이 필요합니다.</AntyAphidextract.description>
+  <AntyAphidextract.discoveredLetterTitle>정보: 진딧물</AntyAphidextract.discoveredLetterTitle>
+  <AntyAphidextract.discoveredLetterText>이제 당신은 앤티들을 제외한 종족들을 진딧물로 만들 수 있습니다.\n\n 수술에는 영양 젤리와 페로몬 팩이 필요합니다.</AntyAphidextract.discoveredLetterText>
+
+  <AT_IncreasedviabilitySurgery.label>생존력 증대수술</AT_IncreasedviabilitySurgery.label>
+  <AT_IncreasedviabilitySurgery.description>앤티들의 몸에 리플리움을 주입하여 생존력을 높이는 수술을 연구합니다.\n\n수술에는 리플리움과 진액이 필요합니다.</AT_IncreasedviabilitySurgery.description>
+  <AT_IncreasedviabilitySurgery.discoveredLetterTitle>정보: 생존력 증대</AT_IncreasedviabilitySurgery.discoveredLetterTitle>
+  <AT_IncreasedviabilitySurgery.discoveredLetterText>수술에는 리플리움과 진액이 필요합니다.</AT_IncreasedviabilitySurgery.discoveredLetterText>
+
+</LanguageData>

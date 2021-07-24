@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_AcidDamage.label>산성 용해</AT_AcidDamage.label>
+  <AT_AcidDamage.deathMessage>{0} (은)는 산성 용해로 죽었습니다.</AT_AcidDamage.deathMessage>
+  <AT_AcidDamage_High.label>레드버스트 용해</AT_AcidDamage_High.label>
+  <AT_AcidDamage_High.deathMessage>{0} (은)는 레드버스트 용해로 죽었습니다.</AT_AcidDamage_High.deathMessage>
+  <AT_SporeBomb.label>산성 폭발</AT_SporeBomb.label>
+  <AT_SporeBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_SporeBomb.deathMessage>
+  <AT_AcidBomb_C.label>산성 폭발</AT_AcidBomb_C.label>
+  <AT_AcidBomb_C.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_AcidBomb_C.deathMessage>
+  <AT_ParaponeraBomb.label>외교용 바늘</AT_ParaponeraBomb.label>
+  <AT_ParaponeraBomb.deathMessage>{0} (은)는 외교용 바늘에 맞아 죽었습니다.</AT_ParaponeraBomb.deathMessage>
+  <AT_glueBullet.label>접착탄</AT_glueBullet.label>
+  <AT_glueBullet.deathMessage>{0} (은)는 접착탄에 맞아 죽었습니다.</AT_glueBullet.deathMessage>
+  <AT_AcidBullet.label>산성탄</AT_AcidBullet.label>
+  <AT_AcidBullet.deathMessage>{0} (은)는 산성탄에 맞아 죽었습니다.</AT_AcidBullet.deathMessage>
+  <AT_AcidBomb.label>산성 폭발</AT_AcidBomb.label>
+  <AT_AcidBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_AcidBomb.deathMessage>
+  <AT_glueBomb.label>접착탄</AT_glueBomb.label>
+  <AT_glueBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_glueBomb.deathMessage>
+  <AT_glueBomb_B.label>접착탄</AT_glueBomb_B.label>
+  <AT_glueBomb_B.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_glueBomb_B.deathMessage>
+  <AT_AcidArrow.label>산성 화살</AT_AcidArrow.label>
+  <AT_AcidArrow.deathMessage>{0} (은)는 산성 화살에 맞아 죽었습니다.</AT_AcidArrow.deathMessage>
+  <AT_AcidBomb_B.label>레드버스트 폭발</AT_AcidBomb_B.label>
+  <AT_AcidBomb_B.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_AcidBomb_B.deathMessage>
+  <AT_AcidBullet_B.label>레드버스트 탄</AT_AcidBullet_B.label>
+  <AT_AcidBullet_B.deathMessage>{0} (은)는 레드버스트 탄에 맞아 죽었습니다.</AT_AcidBullet_B.deathMessage>
+  <AT_TargetBomb.label>산성 폭발</AT_TargetBomb.label>
+  <AT_TargetBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_TargetBomb.deathMessage>
+</LanguageData>

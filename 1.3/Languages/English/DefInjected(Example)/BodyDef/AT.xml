@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anty.label>Anty</Anty.label>
+  <Anty.corePart.parts.0.customLabel>Thorax</Anty.corePart.parts.0.customLabel>
+  <Anty.corePart.parts.0.parts.0.customLabel>Thorax spine</Anty.corePart.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>Left Compound eyes</Anty.corePart.parts.1.parts.0.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>Right Compound eyes</Anty.corePart.parts.1.parts.0.parts.0.parts.2.customLabel>
+  <Anty.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>Left Feeler</Anty.corePart.parts.1.parts.0.parts.0.parts.3.customLabel>
+  <Anty.corePart.parts.1.parts.0.parts.0.parts.4.customLabel>Right Feeler</Anty.corePart.parts.1.parts.0.parts.0.parts.4.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.0.customLabel>Abdomen Exoskeleton add slot1</Anty.corePart.parts.2.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.1.customLabel>Abdomen Exoskeleton add slot2</Anty.corePart.parts.2.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.4.customLabel>Left lung</Anty.corePart.parts.2.parts.0.parts.4.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.5.customLabel>Right lung</Anty.corePart.parts.2.parts.0.parts.5.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.6.customLabel>Left kidney</Anty.corePart.parts.2.parts.0.parts.6.customLabel>
+  <Anty.corePart.parts.2.parts.0.parts.7.customLabel>Right kidney</Anty.corePart.parts.2.parts.0.parts.7.customLabel>
+  <Anty.corePart.parts.3.customLabel>Left Exoarm</Anty.corePart.parts.3.customLabel>
+  <Anty.corePart.parts.3.parts.0.customLabel>Left shoulder</Anty.corePart.parts.3.parts.0.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.customLabel>Left arm</Anty.corePart.parts.3.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.0.customLabel>Left humerus</Anty.corePart.parts.3.parts.0.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.1.customLabel>Left radius</Anty.corePart.parts.3.parts.0.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.customLabel>Left hand</Anty.corePart.parts.3.parts.0.parts.0.parts.2.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.0.customLabel>Left pinky</Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.0.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.1.customLabel>Left ring finger</Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.1.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.2.customLabel>Left middle finger</Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.2.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.3.customLabel>Left index finger</Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.3.customLabel>
+  <Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.4.customLabel>Left thumb</Anty.corePart.parts.3.parts.0.parts.0.parts.2.parts.4.customLabel>
+  <Anty.corePart.parts.4.customLabel>Right Exoarm</Anty.corePart.parts.4.customLabel>
+  <Anty.corePart.parts.4.parts.0.customLabel>Right shoulder</Anty.corePart.parts.4.parts.0.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.customLabel>Right arm</Anty.corePart.parts.4.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.0.customLabel>Right humerus</Anty.corePart.parts.4.parts.0.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.1.customLabel>Right radius</Anty.corePart.parts.4.parts.0.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.customLabel>Right hand</Anty.corePart.parts.4.parts.0.parts.0.parts.2.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.0.customLabel>Right pinky</Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.0.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.1.customLabel>Right ring finger</Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.1.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.2.customLabel>Right middle finger</Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.2.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.3.customLabel>Right index finger</Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.3.customLabel>
+  <Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.4.customLabel>Right thumb</Anty.corePart.parts.4.parts.0.parts.0.parts.2.parts.4.customLabel>
+  <Anty.corePart.parts.5.customLabel>Abdomen spine</Anty.corePart.parts.5.customLabel>
+  <Anty.corePart.parts.6.customLabel>Left ExoLeg</Anty.corePart.parts.6.customLabel>
+  <Anty.corePart.parts.6.parts.0.customLabel>Left leg</Anty.corePart.parts.6.parts.0.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.0.customLabel>Left femur</Anty.corePart.parts.6.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.1.customLabel>Left tibia</Anty.corePart.parts.6.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.customLabel>Left foot</Anty.corePart.parts.6.parts.0.parts.2.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.parts.0.customLabel>Left little toe</Anty.corePart.parts.6.parts.0.parts.2.parts.0.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.parts.1.customLabel>Left fourth toe</Anty.corePart.parts.6.parts.0.parts.2.parts.1.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.parts.2.customLabel>Left middle toe</Anty.corePart.parts.6.parts.0.parts.2.parts.2.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.parts.3.customLabel>Left second toe</Anty.corePart.parts.6.parts.0.parts.2.parts.3.customLabel>
+  <Anty.corePart.parts.6.parts.0.parts.2.parts.4.customLabel>Left big toe</Anty.corePart.parts.6.parts.0.parts.2.parts.4.customLabel>
+  <Anty.corePart.parts.7.customLabel>Right ExoLeg</Anty.corePart.parts.7.customLabel>
+  <Anty.corePart.parts.7.parts.0.customLabel>Right leg</Anty.corePart.parts.7.parts.0.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.0.customLabel>Right femur</Anty.corePart.parts.7.parts.0.parts.0.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.1.customLabel>Right tibia</Anty.corePart.parts.7.parts.0.parts.1.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.customLabel>Right foot</Anty.corePart.parts.7.parts.0.parts.2.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.parts.0.customLabel>Right little toe</Anty.corePart.parts.7.parts.0.parts.2.parts.0.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.parts.1.customLabel>Right fourth toe</Anty.corePart.parts.7.parts.0.parts.2.parts.1.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.parts.2.customLabel>Right middle toe</Anty.corePart.parts.7.parts.0.parts.2.parts.2.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.parts.3.customLabel>Right second toe</Anty.corePart.parts.7.parts.0.parts.2.parts.3.customLabel>
+  <Anty.corePart.parts.7.parts.0.parts.2.parts.4.customLabel>Right big toe</Anty.corePart.parts.7.parts.0.parts.2.parts.4.customLabel>
+</LanguageData>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NamerFactionAnty.rulePack.rulesStrings.0>r_name->초콜릿 군단</NamerFactionAnty.rulePack.rulesStrings.0>
+  <NamerFactionAnty.rulePack.rulesStrings.1>r_name->딸기사탕 군단</NamerFactionAnty.rulePack.rulesStrings.1>
+  <NamerFactionAnty.rulePack.rulesStrings.2>r_name->계피사탕 군단</NamerFactionAnty.rulePack.rulesStrings.2>
+  <NamerFactionAnty.rulePack.rulesStrings.3>r_name->화이트 초콜릿 군단</NamerFactionAnty.rulePack.rulesStrings.3>
+  <NamerFactionAnty.rulePack.rulesStrings.4>r_name->비스킷 군단</NamerFactionAnty.rulePack.rulesStrings.4>
+  <NamerFactionAnty.rulePack.rulesStrings.5>r_name->포도사탕 군단</NamerFactionAnty.rulePack.rulesStrings.5>
+  <NamerFactionAnty.rulePack.rulesStrings.6>r_name->설탕 군단</NamerFactionAnty.rulePack.rulesStrings.6>
+  <NamerFactionAnty.rulePack.rulesStrings.7>r_name->마카롱 군단</NamerFactionAnty.rulePack.rulesStrings.7>
+  <NamerFactionAnty.rulePack.rulesStrings.8>r_name->치즈 군단</NamerFactionAnty.rulePack.rulesStrings.8>
+  <NamerFactionAnty.rulePack.rulesStrings.9>r_name->딸기뇌 군단</NamerFactionAnty.rulePack.rulesStrings.9>
+  <NamerFactionAnty.rulePack.rulesStrings.10>r_name->치즈볼 군단</NamerFactionAnty.rulePack.rulesStrings.10>
+  <NamerFactionAnty.rulePack.rulesStrings.11>r_name->파라포네라 군단</NamerFactionAnty.rulePack.rulesStrings.11>
+  <NamerFactionAnty.rulePack.rulesStrings.12>r_name->폴리라치스 군단</NamerFactionAnty.rulePack.rulesStrings.12>
+  <NamerFactionAnty.rulePack.rulesStrings.13>r_name->포미카 군단</NamerFactionAnty.rulePack.rulesStrings.13>
+  <NamerFactionAnty.rulePack.rulesStrings.14>r_name->포리어거스 군단</NamerFactionAnty.rulePack.rulesStrings.14>
+  <NamerFactionAnty.rulePack.rulesStrings.15>r_name->나일란데리아 군단</NamerFactionAnty.rulePack.rulesStrings.15>
+  <NamerFactionAnty.rulePack.rulesStrings.16>r_name->카타글리피스 군단</NamerFactionAnty.rulePack.rulesStrings.16>
+  <NamerSettlementAnty.rulePack.rulesStrings.0>r_name(p=12)->[townname_wordgen]</NamerSettlementAnty.rulePack.rulesStrings.0>
+  <NamerSettlementAnty.rulePack.rulesStrings.1>r_name(p=4)->[townname_combo]</NamerSettlementAnty.rulePack.rulesStrings.1>
+  <NamerSettlementAnty.rulePack.rulesStrings.2>r_name->[townname_near]</NamerSettlementAnty.rulePack.rulesStrings.2>
+  <NamerSettlementAnty.rulePack.rulesStrings.3>topicalnoun->[Vegetable]</NamerSettlementAnty.rulePack.rulesStrings.3>
+  <NamerSettlementAnty.rulePack.rulesStrings.4>topicalnoun->[Game]</NamerSettlementAnty.rulePack.rulesStrings.4>
+  <NamerSettlementAnty.rulePack.rulesStrings.5>topicalnoun->[BodyPart]</NamerSettlementAnty.rulePack.rulesStrings.5>
+  <NamerSettlementAnty.rulePack.rulesStrings.6>townname_combo->[topicalnoun] [TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.6>
+  <NamerSettlementAnty.rulePack.rulesStrings.7>townname_combo->[topicalnoun] [Community] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.7>
+  <NamerSettlementAnty.rulePack.rulesStrings.8>townname_combo->[topicalnoun]'s [TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.8>
+  <NamerSettlementAnty.rulePack.rulesStrings.9>townname_combo->[topicalnoun]'s [Community] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.9>
+  <NamerSettlementAnty.rulePack.rulesStrings.10>townname_combo(p=2)->[concept_positive]'s [TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.10>
+  <NamerSettlementAnty.rulePack.rulesStrings.11>townname_combo(p=2)->[concept_positive] [TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.11>
+  <NamerSettlementAnty.rulePack.rulesStrings.12>townname_combo(p=2)->[concept_positive] [Community] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.12>
+  <NamerSettlementAnty.rulePack.rulesStrings.13>townname_combo(p=3)->[Character]'s [TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.13>
+  <NamerSettlementAnty.rulePack.rulesStrings.14>townname_combo(p=3)->[Character]'s [Community] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.14>
+  <NamerSettlementAnty.rulePack.rulesStrings.15>townname_near->[nearnameinitial]-at-the-[TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.15>
+  <NamerSettlementAnty.rulePack.rulesStrings.16>townname_near->[nearnameinitial]-by-the-[TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.16>
+  <NamerSettlementAnty.rulePack.rulesStrings.17>townname_near->[nearnameinitial]-on-the-[TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.17>
+  <NamerSettlementAnty.rulePack.rulesStrings.18>nearnameinitial->[townname_wordgen]</NamerSettlementAnty.rulePack.rulesStrings.18>
+  <NamerSettlementAnty.rulePack.rulesStrings.19>nearnameinitial->[Community]</NamerSettlementAnty.rulePack.rulesStrings.19>
+  <NamerSettlementAnty.rulePack.rulesStrings.20>townname_wordgen(p=2)->[SylE][SylE] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.20>
+  <NamerSettlementAnty.rulePack.rulesStrings.21>townname_wordgen(p=2)->[SylE][SylE][SylE] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.21>
+  <NamerSettlementAnty.rulePack.rulesStrings.22>townname_wordgen(p=2)->[SylE] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.22>
+  <NamerSettlementAnty.rulePack.rulesStrings.23>townname_wordgen(p=2)->[SylE][SylE] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.23>
+  <NamerSettlementAnty.rulePack.rulesStrings.24>townname_wordgen->[TerrainFeature] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.24>
+  <NamerSettlementAnty.rulePack.rulesStrings.25>townname_wordgen->[topicalnoun] [ATSwarm]</NamerSettlementAnty.rulePack.rulesStrings.25>
+  <NamerSettlementAnty.rulePack.rulesStrings.26>ATSwarm->죄수 도축장</NamerSettlementAnty.rulePack.rulesStrings.26>
+  <NamerSettlementAnty.rulePack.rulesStrings.27>ATSwarm->번식지</NamerSettlementAnty.rulePack.rulesStrings.27>
+  <NamerSettlementAnty.rulePack.rulesStrings.28>ATSwarm->시체 재활용 센터</NamerSettlementAnty.rulePack.rulesStrings.28>
+  <NamerSettlementAnty.rulePack.rulesStrings.29>ATSwarm->집결지</NamerSettlementAnty.rulePack.rulesStrings.29>
+  <NamerSettlementAnty.rulePack.rulesStrings.30>ATSwarm->환자 도축장</NamerSettlementAnty.rulePack.rulesStrings.30>
+  <NamerSettlementAnty.rulePack.rulesStrings.31>ATSwarm->영양젤리 공장</NamerSettlementAnty.rulePack.rulesStrings.31>
+  <NamerSettlementAnty.rulePack.rulesStrings.32>ATSwarm->공격기지</NamerSettlementAnty.rulePack.rulesStrings.32>
+  <NamerSettlementAnty.rulePack.rulesStrings.33>ATSwarm->방어기지</NamerSettlementAnty.rulePack.rulesStrings.33>
+</LanguageData>

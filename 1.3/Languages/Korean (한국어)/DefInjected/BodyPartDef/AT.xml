@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AntyTool.label>앤티 계급장</AntyTool.label>
+  <Antyabdomen.label>복부</Antyabdomen.label>
+  <ExoThorax.label>흉부 외골격</ExoThorax.label>
+  <Exoabdomen.label>복부 외골격</Exoabdomen.label>
+  <ExoHead.label>머리 외골격</ExoHead.label>
+  <ExoArm.label>팔 외골격</ExoArm.label>
+  <ExoLeg.label>다리 외골격</ExoLeg.label>
+</LanguageData>

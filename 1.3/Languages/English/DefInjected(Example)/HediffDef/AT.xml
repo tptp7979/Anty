@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <transformationaftereffect.label>transformation aftereffect</transformationaftereffect.label>
+  <transformationaftereffect.labelNoun>transformation aftereffect</transformationaftereffect.labelNoun>
+  <transformationaftereffect.description>.</transformationaftereffect.description>
+  <transformationaftereffect_B.label>transformation aftereffect</transformationaftereffect_B.label>
+  <transformationaftereffect_B.labelNoun>transformation aftereffect</transformationaftereffect_B.labelNoun>
+  <transformationaftereffect_B.description>.</transformationaftereffect_B.description>
+  <AntyErgate.description>Changes Anty's rank to a worker.</AntyErgate.description>
+  <AntyErgate.label>Transforming into a worker.</AntyErgate.label>
+  <AntyErgate.labelNoun>Transforming into a worker.</AntyErgate.labelNoun>
+  <AntyErgatebirth.label>AntyErgate</AntyErgatebirth.label>
+  <AntyErgatebirth.description>This object has no characteristics.</AntyErgatebirth.description>
+  <AntySoldier.description>Changes Anty's rank to a soldier.</AntySoldier.description>
+  <AntySoldier.label>Transforming into a soldier.</AntySoldier.label>
+  <AntySoldier.labelNoun>Transforming into a soldier.</AntySoldier.labelNoun>
+  <AntySoldierbirth.label>AntySoldier</AntySoldierbirth.label>
+  <AntySoldierbirth.description>This entity possesses a very powerful body but does not seem to be useful in anything other than combat.</AntySoldierbirth.description>
+  <AntySoldierbirth.comps.0.discoverLetterLabel>Soldier birth</AntySoldierbirth.comps.0.discoverLetterLabel>
+  <AntySoldierbirth.comps.0.discoverLetterText>{0}'s body is agile and fortified, but the changes don't seem to be helpful other than fighting</AntySoldierbirth.comps.0.discoverLetterText>
+  <AntyQueen.description>Changes Anty's rank to Queen.</AntyQueen.description>
+  <AntyQueen.label>Transforming into a queen.</AntyQueen.label>
+  <AntyQueen.labelNoun>Transforming into a queen.</AntyQueen.labelNoun>
+  <AntyQueenneed.label>Nutritional jelly need</AntyQueenneed.label>
+  <AntyQueenneed.description>nutritious jelly must be consumed constantly. If don't, body will be slowly destroyed.</AntyQueenneed.description>
+  <AntyQueenneed.stages.1.label>Bad nutrition</AntyQueenneed.stages.1.label>
+  <AntyQueenbirth.label>AntyQueen</AntyQueenbirth.label>
+  <AntyQueenbirth.description>This entity has egg sacs. It requires the constant intake of nutrition jelly, and will regularly lay larvae.</AntyQueenbirth.description>
+  <AntyQueenbirth.comps.0.discoverLetterLabel>Queen birth</AntyQueenbirth.comps.0.discoverLetterLabel>
+  <AntyQueenbirth.comps.0.discoverLetterText>{0}'s body has grown egg sacs. It will regularly lay larvae, given a steady supply of nutritious jelly. Otherwise, the body will slowly destroy itself.</AntyQueenbirth.comps.0.discoverLetterText>
+  <Badnutritiondamage.label>Organizational collapse</Badnutritiondamage.label>
+  <Badnutritiondamage.description>Organizational collapse.</Badnutritiondamage.description>
+  <Ate_Nutritional_jelly.label>Ate Nutritional jelly</Ate_Nutritional_jelly.label>
+  <Ate_Nutritional_jelly.labelNoun>Ate Nutritional jelly</Ate_Nutritional_jelly.labelNoun>
+  <Ate_Nutritional_jelly.description>Ate Nutritional jelly</Ate_Nutritional_jelly.description>
+  <Battlestimulation_jelly.label>bug</Battlestimulation_jelly.label>
+  <Battlestimulation_jelly.description>bug.</Battlestimulation_jelly.description>
+  <Ate_Battlestimulation_jelly.label>Ate Combat-stim jelly</Ate_Battlestimulation_jelly.label>
+  <Ate_Battlestimulation_jelly.labelNoun>Ate Combat-stim jelly</Ate_Battlestimulation_jelly.labelNoun>
+  <Ate_Battlestimulation_jelly.description>Ate Combat-stim jelly</Ate_Battlestimulation_jelly.description>
+  <Eraser_jelly.label>Eraser</Eraser_jelly.label>
+  <Eraser_jelly.description>Eraser.</Eraser_jelly.description>
+  <Chemicaldissolution.label>Acid melt</Chemicaldissolution.label>
+  <Chemicaldissolution.labelNoun>Acid melt</Chemicaldissolution.labelNoun>
+  <Chemicaldissolution.description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 acid damage to a body part, the part is destroyed.</Chemicaldissolution.description>
+  <Chemicaldissolution.comps.0.labelTendedWell>bandaged</Chemicaldissolution.comps.0.labelTendedWell>
+  <Chemicaldissolution.comps.0.labelTendedWellInner>tended</Chemicaldissolution.comps.0.labelTendedWellInner>
+  <Chemicaldissolution.comps.0.labelSolidTendedWell>tended</Chemicaldissolution.comps.0.labelSolidTendedWell>
+  <Chemicaldissolution.comps.2.permanentLabel>Acid melt scar</Chemicaldissolution.comps.2.permanentLabel>
+  <Chemicaldissolution.injuryProps.destroyedLabel>melt off</Chemicaldissolution.injuryProps.destroyedLabel>
+  <Chemicaldissolution.injuryProps.destroyedOutLabel>melt out</Chemicaldissolution.injuryProps.destroyedOutLabel>
+  <Chemicaldissolution_con.label>Acid melt</Chemicaldissolution_con.label>
+  <Chemicaldissolution_con.labelNoun>Acid melt</Chemicaldissolution_con.labelNoun>
+  <Chemicaldissolution_con.description>Acid melt</Chemicaldissolution_con.description>
+  <Chemicaldissolution_con.comps.0.labelTendedWell>bandaged</Chemicaldissolution_con.comps.0.labelTendedWell>
+  <Chemicaldissolution_con.comps.0.labelTendedWellInner>tended</Chemicaldissolution_con.comps.0.labelTendedWellInner>
+  <Chemicaldissolution_con.comps.0.labelSolidTendedWell>tended</Chemicaldissolution_con.comps.0.labelSolidTendedWell>
+  <Chemicaldissolution_con.comps.2.permanentLabel>Acid melt scar</Chemicaldissolution_con.comps.2.permanentLabel>
+  <Chemicaldissolution_con.injuryProps.destroyedLabel>melt off</Chemicaldissolution_con.injuryProps.destroyedLabel>
+  <Chemicaldissolution_con.injuryProps.destroyedOutLabel>melt out</Chemicaldissolution_con.injuryProps.destroyedOutLabel>
+  <Chemicaldissolution_high.label>Red burst melt</Chemicaldissolution_high.label>
+  <Chemicaldissolution_high.labelNoun>Red burst melt</Chemicaldissolution_high.labelNoun>
+  <Chemicaldissolution_high.description>Red burst melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 Red burst damage to a body part, the part is destroyed.</Chemicaldissolution_high.description>
+  <Chemicaldissolution_high.comps.0.labelTendedWell>bandaged</Chemicaldissolution_high.comps.0.labelTendedWell>
+  <Chemicaldissolution_high.comps.0.labelTendedWellInner>tended</Chemicaldissolution_high.comps.0.labelTendedWellInner>
+  <Chemicaldissolution_high.comps.0.labelSolidTendedWell>tended</Chemicaldissolution_high.comps.0.labelSolidTendedWell>
+  <Chemicaldissolution_high.comps.2.permanentLabel>Red burst melt scar</Chemicaldissolution_high.comps.2.permanentLabel>
+  <Chemicaldissolution_high.injuryProps.destroyedLabel>melt off</Chemicaldissolution_high.injuryProps.destroyedLabel>
+  <Chemicaldissolution_high.injuryProps.destroyedOutLabel>melt out</Chemicaldissolution_high.injuryProps.destroyedOutLabel>
+  <Chemicaldissolution_con_high.label>Red burst melt</Chemicaldissolution_con_high.label>
+  <Chemicaldissolution_con_high.labelNoun>Red burst melt</Chemicaldissolution_con_high.labelNoun>
+  <Chemicaldissolution_con_high.description>Red burst melt</Chemicaldissolution_con_high.description>
+  <Chemicaldissolution_con_high.comps.0.labelTendedWell>bandaged</Chemicaldissolution_con_high.comps.0.labelTendedWell>
+  <Chemicaldissolution_con_high.comps.0.labelTendedWellInner>tended</Chemicaldissolution_con_high.comps.0.labelTendedWellInner>
+  <Chemicaldissolution_con_high.comps.0.labelSolidTendedWell>tended</Chemicaldissolution_con_high.comps.0.labelSolidTendedWell>
+  <Chemicaldissolution_con_high.comps.2.permanentLabel>Red burst melt scar</Chemicaldissolution_con_high.comps.2.permanentLabel>
+  <Chemicaldissolution_con_high.injuryProps.destroyedLabel>melt off</Chemicaldissolution_con_high.injuryProps.destroyedLabel>
+  <Chemicaldissolution_con_high.injuryProps.destroyedOutLabel>melt out</Chemicaldissolution_con_high.injuryProps.destroyedOutLabel>
+  <glueBomb.label>Combat glue</glueBomb.label>
+  <glueBomb.labelNoun>Combat glue</glueBomb.labelNoun>
+  <glueBomb.description>Combat glue</glueBomb.description>
+  <glueBomb.comps.1.labelTendedWell>bandaged</glueBomb.comps.1.labelTendedWell>
+  <glueBomb.comps.1.labelTendedWellInner>tended</glueBomb.comps.1.labelTendedWellInner>
+  <glueBomb.comps.1.labelSolidTendedWell>tended</glueBomb.comps.1.labelSolidTendedWell>
+  <glueBomb.comps.3.permanentLabel>Combat glue scar</glueBomb.comps.3.permanentLabel>
+  <glueBomb.injuryProps.destroyedLabel>Destroyed</glueBomb.injuryProps.destroyedLabel>
+  <glueBomb.injuryProps.destroyedOutLabel>Destroyed</glueBomb.injuryProps.destroyedOutLabel>
+  <Pregnant_B.label>pregnant</Pregnant_B.label>
+  <Pregnant_B.labelNoun>pregnancy</Pregnant_B.labelNoun>
+  <Pregnant_B.description>This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage.</Pregnant_B.description>
+  <Pregnant_B.stages.0.label>early-stage</Pregnant_B.stages.0.label>
+  <Pregnant_B.stages.1.label>middle-stage</Pregnant_B.stages.1.label>
+  <Pregnant_B.stages.2.label>late-stage</Pregnant_B.stages.2.label>
+  <childbirthaftereffect.label>childbirth aftereffect</childbirthaftereffect.label>
+  <childbirthaftereffect.labelNoun>childbirth aftereffect</childbirthaftereffect.labelNoun>
+  <childbirthaftereffect.description>childbirth aftereffect.</childbirthaftereffect.description>
+  <AT_glue.label>Combat glue</AT_glue.label>
+  <AT_glue.labelNoun>Combat glue</AT_glue.labelNoun>
+  <AT_glue.description>Combat glue is on it.</AT_glue.description>
+  <AT_glue_Link.label>Combat glue</AT_glue_Link.label>
+  <AT_glue_Link.labelNoun>Combat glue</AT_glue_Link.labelNoun>
+  <AT_glue_Link.description>Combat glue is on it.</AT_glue_Link.description>
+  <AT_Target.label>Targeting pheromone</AT_Target.label>
+  <AT_Target.labelNoun>Targeting pheromone</AT_Target.labelNoun>
+  <AT_Target.description>Targeting pheromone is on it.</AT_Target.description>
+  <AT_Aphidextract-stimReady.label>AT_Aphidextract-stimReady</AT_Aphidextract-stimReady.label>
+  <AT_Aphidextract-stimReady.description>!!!</AT_Aphidextract-stimReady.description>
+  <AT_Aphidextract-stim.label>Aphid state</AT_Aphidextract-stim.label>
+  <AT_Aphidextract-stim.labelNoun>Aphid state</AT_Aphidextract-stim.labelNoun>
+  <AT_Aphidextract-stim.description>It's an aphidized state, brain damage and excreting high levels of nutrients every day, eventually dying.</AT_Aphidextract-stim.description>
+  <AntyIncreasedviability.label>Increased viability</AntyIncreasedviability.label>
+  <AntyIncreasedviability.description>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</AntyIncreasedviability.description>
+  <AntyIncreasedviability.comps.0.discoverLetterLabel>Increased {0}'s viability</AntyIncreasedviability.comps.0.discoverLetterLabel>
+  <AntyIncreasedviability.comps.0.discoverLetterText>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</AntyIncreasedviability.comps.0.discoverLetterText>
+  <AntyTransitionRefleum.label>TransitionRefleum</AntyTransitionRefleum.label>
+  <AntyTransitionRefleum.labelNoun>TransitionRefleum</AntyTransitionRefleum.labelNoun>
+  <AntyTransitionRefleum.description>It is a side effect of increased viability. It is contagious and increases the aggression of Anty.</AntyTransitionRefleum.description>
+  <AntyTransitionRefleum.comps.0.tools.0.label>Big jaw</AntyTransitionRefleum.comps.0.tools.0.label>
+  <Bite_Refleum_Ready.label>Bite_Refleum_Ready</Bite_Refleum_Ready.label>
+  <Bite_Refleum_Ready.description>!!!</Bite_Refleum_Ready.description>
+  <AntyLarva_p.description>It's still growing and can't stand the transformation aftereffect. cannot do anything else until the 15th day after birth.</AntyLarva_p.description>
+  <AntyLarva_p.label>LARVA</AntyLarva_p.label>
+  <AntyLarva_p_STAGE.description>LARVA</AntyLarva_p_STAGE.description>
+  <AntyLarva_p_STAGE.label>LARVA</AntyLarva_p_STAGE.label>
+  <AntyLarva_p_STAGE.labelNoun>LARVA.labelNoun</AntyLarva_p_STAGE.labelNoun>
+  <AntyGlandoverload_Ready.label>AntyGlandoverload_Ready</AntyGlandoverload_Ready.label>
+  <AntyGlandoverload_Ready.description>!!!</AntyGlandoverload_Ready.description>
+  <AntyGlandoverload.label>Pheromone gland overloaded</AntyGlandoverload.label>
+  <AntyGlandoverload.labelNoun>Pheromone gland overloaded</AntyGlandoverload.labelNoun>
+  <AntyGlandoverload.description>Pheremone glands have been exhausted from overloading. Constant pheromone inhalation at current state can cause death.</AntyGlandoverload.description>
+  <Antypheromoneaftereffect_A.label>Pheromone gland dormant</Antypheromoneaftereffect_A.label>
+  <Antypheromoneaftereffect_A.labelNoun>Pheromone gland dormant</Antypheromoneaftereffect_A.labelNoun>
+  <Antypheromoneaftereffect_A.description>Pheromone glands are dormant. Stimulating the glands while dormant phase will cause further dormancy.</Antypheromoneaftereffect_A.description>
+  <pheromone-stim.label>pheromone-stim condition</pheromone-stim.label>
+  <pheromone-stim.labelNoun>pheromone-stim condition</pheromone-stim.labelNoun>
+  <pheromone-stim.description>It periodically secretes concentrated pheromones.</pheromone-stim.description>
+  <Antypheromone_ChargeReady.label>Antypheromone_assaultReady</Antypheromone_ChargeReady.label>
+  <Antypheromone_ChargeReady.description>!!!</Antypheromone_ChargeReady.description>
+  <Antypheromone_ChargeHigh.label>Anty assault pheromone</Antypheromone_ChargeHigh.label>
+  <Antypheromone_ChargeHigh.description>Pheromone glands released an unusal amount of assault pheromone, giving a large boost to melee combat performance.</Antypheromone_ChargeHigh.description>
+  <Antypheromone_ShootingReady.label>Antypheromone_ChargeReady</Antypheromone_ShootingReady.label>
+  <Antypheromone_ShootingReady.description>!!!</Antypheromone_ShootingReady.description>
+  <Antypheromone_ShootingHigh.label>Anty Shooting pheromone</Antypheromone_ShootingHigh.label>
+  <Antypheromone_ShootingHigh.description>Pheromone glands released an unusual amount of shooting pheromone, giving a large boost shooting ability.</Antypheromone_ShootingHigh.description>
+  <Antypheromone_SuicideReady.label>Antypheromone_SuicideReady</Antypheromone_SuicideReady.label>
+  <Antypheromone_SuicideReady.description>!!!</Antypheromone_SuicideReady.description>
+  <Antypheromone_SuicideHigh.label>Anty deonation pheromone</Antypheromone_SuicideHigh.label>
+  <Antypheromone_SuicideHigh.description>Preparing for a powerful explosion.</Antypheromone_SuicideHigh.description>
+  <AT_Paraponera.label>Paraponera</AT_Paraponera.label>
+  <AT_Paraponera.labelNoun>Paraponera</AT_Paraponera.labelNoun>
+  <AT_Paraponera.description>Paraponera</AT_Paraponera.description>
+  <AT_Reinforcedexoskeleton.label>Anty Reinforced exoskeleton</AT_Reinforcedexoskeleton.label>
+  <AT_Reinforcedexoskeleton.labelNoun>a Reinforced exoskeleton</AT_Reinforcedexoskeleton.labelNoun>
+  <AT_Reinforcedexoskeleton.description>An installed Reinforced exoskeleton.</AT_Reinforcedexoskeleton.description>
+</LanguageData>

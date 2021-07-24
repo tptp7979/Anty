@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AntyCorpseFlesh.label>시체가공(심장)</AntyCorpseFlesh.label>
+  <AntyCorpseFlesh.description>시체들을 이용하여 유기물 관리 코어를 만들어 냅니다.</AntyCorpseFlesh.description>
+  <AntyCorpseFlesh.jobString>시체가공(심장)</AntyCorpseFlesh.jobString>
+  
+  <AntyCorpseFlesh_B.label>시체가공(생체공학 심장)</AntyCorpseFlesh_B.label>
+  <AntyCorpseFlesh_B.description>시체들을 이용하여 유기물 관리 코어를 만들어 냅니다.</AntyCorpseFlesh_B.description>
+  <AntyCorpseFlesh_B.jobString>시체가공(생체공학 심장)</AntyCorpseFlesh_B.jobString>
+  
+  <ButcherCorpseFlesh_mass.label>대량도축</ButcherCorpseFlesh_mass.label>
+  <ButcherCorpseFlesh_mass.description>3구의 시체를 한번에 도축합니다.</ButcherCorpseFlesh_mass.description>
+  <ButcherCorpseFlesh_mass.jobString>대량도축.</ButcherCorpseFlesh_mass.jobString>
+  <AT_ButcherCorpseMechanoid.label>대량분해</AT_ButcherCorpseMechanoid.label>
+  <AT_ButcherCorpseMechanoid.description>3구의 메카노이드 시체를 한번에 분해합니다.</AT_ButcherCorpseMechanoid.description>
+  <AT_ButcherCorpseMechanoid.jobString>대량분해.</AT_ButcherCorpseMechanoid.jobString>
+  <CookNutritional_jelly.label>영양 젤리 조리</CookNutritional_jelly.label>
+  <CookNutritional_jelly.description>영양 젤리를 조리합니다.</CookNutritional_jelly.description>
+  <CookNutritional_jelly.jobString>영양 젤리 조리.</CookNutritional_jelly.jobString>
+  <CookBattlestimulation_jelly.label>전투자극 젤리 조리</CookBattlestimulation_jelly.label>
+  <CookBattlestimulation_jelly.description>전투자극 젤리를 조리합니다.</CookBattlestimulation_jelly.description>
+  <CookBattlestimulation_jelly.jobString>전투자극 젤리 조리.</CookBattlestimulation_jelly.jobString>
+  <CookEraser_jelly.label>초기화젤리 조리</CookEraser_jelly.label>
+  <CookEraser_jelly.description>초기화젤리를 조리합니다.</CookEraser_jelly.description>
+  <CookEraser_jelly.jobString>초기화 젤리 조리.</CookEraser_jelly.jobString>
+  <Anty_Copy_ComponentIndustrial.label>부품복제</Anty_Copy_ComponentIndustrial.label>
+  <Anty_Copy_ComponentIndustrial.description>이미 만들어진 부품을 보고 복제합니다. 하지만 복잡한 작업이기 때문에 오래 걸리고 재료 또한 많이 소모됩니다.</Anty_Copy_ComponentIndustrial.description>
+  <Anty_Copy_ComponentIndustrial.jobString>부품복제.</Anty_Copy_ComponentIndustrial.jobString>
+  
+  <pheromone-stim.label>페로몬 자극</pheromone-stim.label>
+  <pheromone-stim.description>앤티들의 페로몬 분비선을 자극하여 농축된 페로몬을 생산합니다.</pheromone-stim.description>
+  <pheromone-stim.jobString>페로몬 자극.</pheromone-stim.jobString>
+  
+  <CureInjury_AT_Acidmelt_A.label>산성용해 치료(1 의약품)</CureInjury_AT_Acidmelt_A.label>
+  <CureInjury_AT_Acidmelt_A.description>산성용해를 치료합니다.</CureInjury_AT_Acidmelt_A.description>
+  <CureInjury_AT_Acidmelt_A.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_A.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_A.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_A.jobString>
+  
+  <CureInjury_AT_Acidmelt_B.label>레드버스트용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B.label>
+  <CureInjury_AT_Acidmelt_B.description>레드버스트용해를 치료합니다.</CureInjury_AT_Acidmelt_B.description>
+  <CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>{0} 은(는) {1}의 레드버스트용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_B.jobString>레드버스트용해 치료.</CureInjury_AT_Acidmelt_B.jobString>
+  
+  <CureInjury_AT_Acidmelt_A_con.label>산성용해 치료(1 의약품)</CureInjury_AT_Acidmelt_A_con.label>
+  <CureInjury_AT_Acidmelt_A_con.description>산성용해를 치료합니다.</CureInjury_AT_Acidmelt_A_con.description>
+  <CureInjury_AT_Acidmelt_A_con.successfullyRemovedHediffMessage>{0} 은(는) {1}의 산성용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_A_con.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_A_con.jobString>산성용해 치료.</CureInjury_AT_Acidmelt_A_con.jobString>
+  
+  <CureInjury_AT_Acidmelt_B_con.label>레드버스트용해 치료(2 의약품)</CureInjury_AT_Acidmelt_B_con.label>
+  <CureInjury_AT_Acidmelt_B_con.description>레드버스트용해를 치료합니다.</CureInjury_AT_Acidmelt_B_con.description>
+  <CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>{0} 은(는) {1}의 레드버스트용해를 성공적으로 치료하였습니다.</CureInjury_AT_Acidmelt_B_con.successfullyRemovedHediffMessage>
+  <CureInjury_AT_Acidmelt_B_con.jobString>레드버스트용해 치료.</CureInjury_AT_Acidmelt_B_con.jobString>
+  
+  <InstallAT_Reinforcedexoskeleton.label>앤티 강화 외골격 장착</InstallAT_Reinforcedexoskeleton.label>
+  <InstallAT_Reinforcedexoskeleton.description>앤티 강화 외골격을 장착합니다.</InstallAT_Reinforcedexoskeleton.description>
+  <InstallAT_Reinforcedexoskeleton.jobString>앤티 강화 외골격 장착</InstallAT_Reinforcedexoskeleton.jobString>
+  
+  <AT_Aphidextract-stim.label>진딧물화 수술</AT_Aphidextract-stim.label>
+  <AT_Aphidextract-stim.description>유전자 변형을 일으켜 양분이 농축된 체액을 배출하도록 신체를 개조하는 수술입니다.\n\n 뇌가 극단적으로 자극되어 손상되는 부작용이 있습니다.\n\n 앤티들에게는 아무련 영향이 없습니다.</AT_Aphidextract-stim.description>
+  <AT_Aphidextract-stim.jobString>진딧물화 수술중.</AT_Aphidextract-stim.jobString>
+
+  <InstallAT_AntyIncreasedviabilitySurgery.label>생존력 증대수술</InstallAT_AntyIncreasedviabilitySurgery.label>
+  <InstallAT_AntyIncreasedviabilitySurgery.description>앤티들의 몸에 리플리움을 주입하여 생존력을 높이는 수술입니다.</InstallAT_AntyIncreasedviabilitySurgery.description>
+  <InstallAT_AntyIncreasedviabilitySurgery.jobString>생존력 증대중.</InstallAT_AntyIncreasedviabilitySurgery.jobString>
+  
+  <CureAntyTransitionRefleum.label>변이 리플리움 제거</CureAntyTransitionRefleum.label>
+  <CureAntyTransitionRefleum.description>변이 리플리움을 제거합니다.</CureAntyTransitionRefleum.description>
+  <CureAntyTransitionRefleum.successfullyRemovedHediffMessage>{0} 은(는) {1}의 변이 리플리움을 성공적으로 제거하였습니다.</CureAntyTransitionRefleum.successfullyRemovedHediffMessage>
+  <CureAntyTransitionRefleum.jobString>변이 리플리움 제거중.</CureAntyTransitionRefleum.jobString>
+
+  <EVOR_Surgery_Tail_Blade_Anty.label>칼날꼬리 장착</EVOR_Surgery_Tail_Blade_Anty.label>
+  <EVOR_Surgery_Tail_Blade_Anty.description>칼날꼬리를 장착합니다.</EVOR_Surgery_Tail_Blade_Anty.description>
+  <EVOR_Surgery_Tail_Blade_Anty.jobString>칼날꼬리 장착.</EVOR_Surgery_Tail_Blade_Anty.jobString>
+  
+  <EVOR_Surgery_Tail_Hand_Anty.label>조작꼬리 장착</EVOR_Surgery_Tail_Hand_Anty.label>
+  <EVOR_Surgery_Tail_Hand_Anty.description>조작꼬리 장착합니다.</EVOR_Surgery_Tail_Hand_Anty.description>
+  <EVOR_Surgery_Tail_Hand_Anty.jobString>조작꼬리 장착.</EVOR_Surgery_Tail_Hand_Anty.jobString>
+
+  <AntyCorpsesqueeze.label>시체 쥐어짜기</AntyCorpsesqueeze.label>
+  <AntyCorpsesqueeze.description>시체들을 이용하여 진액을 만들어 냅니다.</AntyCorpsesqueeze.description>
+  <AntyCorpsesqueeze.jobString>시체 쥐어짜기</AntyCorpsesqueeze.jobString>
+  
+  <CookProtyGum.label>프로티 껌 조리</CookProtyGum.label>
+  <CookProtyGum.description>가죽을 자르고 튀겨 프로티 껌을 만듭니다.</CookProtyGum.description>
+  <CookProtyGum.jobString>프로티 껌 조리</CookProtyGum.jobString>
+</LanguageData>

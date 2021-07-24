@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anty_Larva_B_lazy.title>Anty Lazy Larva</Anty_Larva_B_lazy.title>
+  <Anty_Larva_B_lazy.titleShort>Anty</Anty_Larva_B_lazy.titleShort>
+  <Anty_Larva_B_lazy.baseDescription>[PAWN_nameDef] was a slothful larva. Even just squirming was too much for [PAWN_nameDef]. Kind hearted friends tried to love, but [PAWN_pronoun] considered their attentions a nuisance. Naturally, nobody was left to love [PAWN_objective].</Anty_Larva_B_lazy.baseDescription>
+  <Anty_Larva_B_lazy_Drop.title>Anty Lazy Larva</Anty_Larva_B_lazy_Drop.title>
+  <Anty_Larva_B_lazy_Drop.titleShort>Anty</Anty_Larva_B_lazy_Drop.titleShort>
+  <Anty_Larva_B_lazy_Drop.baseDescription>[PAWN_nameDef] was a slothful larva. Even just squirming was too much for [PAWN_nameDef]. Kind hearted friends tried to love, but [PAWN_pronoun] considered their attentions a nuisance. Naturally, nobody was left to love [PAWN_objective].</Anty_Larva_B_lazy_Drop.baseDescription>
+  <Anty_Larva_B_Brave.title>Anty Brave Larva</Anty_Larva_B_Brave.title>
+  <Anty_Larva_B_Brave.titleShort>Anty</Anty_Larva_B_Brave.titleShort>
+  <Anty_Larva_B_Brave.baseDescription>[PAWN_nameDef] was one daring larva. [PAWN_pronoun] enjoyed extreme activities such as rolling from over the small ledge, squirming over a hard and round surface, and fighting off some mean flies. [PAWN_objective] didn't enjoy the part where he got scolded for it by the nannies.</Anty_Larva_B_Brave.baseDescription>
+  <Anty_Larva_B_Evil.title>Anty Evil Larva</Anty_Larva_B_Evil.title>
+  <Anty_Larva_B_Evil.titleShort>Anty</Anty_Larva_B_Evil.titleShort>
+  <Anty_Larva_B_Evil.baseDescription>[PAWN_nameDef] was an evil larva. [PAWN_pronoun] pretended to be sick to get sweeter jelly, bullied a weaker larva to get the attention of others, and even pulled a nanny's leg!</Anty_Larva_B_Evil.baseDescription>
+  <Anty_Larva_B_Rough.title>Anty Rough Larva</Anty_Larva_B_Rough.title>
+  <Anty_Larva_B_Rough.titleShort>Anty</Anty_Larva_B_Rough.titleShort>
+  <Anty_Larva_B_Rough.baseDescription>[PAWN_nameDef] was a larva with a short temper. [PAWN_pronoun] often burst into anger over nothing, which often made him a target by evil friends of his. But all [PAWN_nameDef] ever wanted was not to be interrupted while he was focusing for perfect squirming.</Anty_Larva_B_Rough.baseDescription>
+  <Anty_Larva_B_Kind.title>Anty Kind Larva</Anty_Larva_B_Kind.title>
+  <Anty_Larva_B_Kind.titleShort>Anty</Anty_Larva_B_Kind.titleShort>
+  <Anty_Larva_B_Kind.baseDescription>[PAWN_nameDef] was a kind larvae. [PAWN_pronoun] shared the nutrient jelly with [PAWN_possessive] friends who didn't get to eat, and sided with brave friend who was getting scolded by the nanny.</Anty_Larva_B_Kind.baseDescription>
+  <Anty_Larva_B_Idiot.title>Anty Idiot Larva</Anty_Larva_B_Idiot.title>
+  <Anty_Larva_B_Idiot.titleShort>Anty</Anty_Larva_B_Idiot.titleShort>
+  <Anty_Larva_B_Idiot.baseDescription>[PAWN_nameDef] was not the brightest larva. Even squirming needed to be demonstrated multiple times by the nanny and spilled the food every time [PAWN_pronoun] ate. Over time, [PAWN_pronoun] learned to be better than anyone when it comes to a simple task!</Anty_Larva_B_Idiot.baseDescription>
+  <Anty_Larva_B_Smart.title>Anty Smart Larva</Anty_Larva_B_Smart.title>
+  <Anty_Larva_B_Smart.titleShort>Anty</Anty_Larva_B_Smart.titleShort>
+  <Anty_Larva_B_Smart.baseDescription>[PAWN_nameDef] was a very smart larva. [PAWN_pronoun] mastered squirming even before hatching and was passionate about what [PAWN_pronoun] will do in the future during the study time. All for the cost of losing friends, that is.</Anty_Larva_B_Smart.baseDescription>
+  <Anty_Larva_B_Quiet.title>Anty Quiet Larva</Anty_Larva_B_Quiet.title>
+  <Anty_Larva_B_Quiet.titleShort>Anty</Anty_Larva_B_Quiet.titleShort>
+  <Anty_Larva_B_Quiet.baseDescription>[PAWN_nameDef] was a quiet larva. [PAWN_possessive] daily routine was nothing but eat and poop, and occasionally squirmed discretely, because [PAWN_possessive] attention was always focused on those pesky flies! Which, later [PAWN_pronoun] learned, that when you let the nannies know, they usually shoo them away.</Anty_Larva_B_Quiet.baseDescription>
+  <Anty_Amigo_B_Rangedinfantry.title>Anty Ranged infantry</Anty_Amigo_B_Rangedinfantry.title>
+  <Anty_Amigo_B_Rangedinfantry.titleShort>Ranged infantry</Anty_Amigo_B_Rangedinfantry.titleShort>
+  <Anty_Amigo_B_Rangedinfantry.baseDescription>[PAWN_nameDef] is a ranged infantry.\n\nRanged infantry class was created to engage in a real war, despite the fact that Anties prefer close-quarter combat.\n\nEntities with talent in shooting or less than ideal physical abilities are usually chosen, and trained to master every type of weapon through rigorous training.</Anty_Amigo_B_Rangedinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry.title>Anty Melee infantry</Anty_Amigo_B_Meleeinfantry.title>
+  <Anty_Amigo_B_Meleeinfantry.titleShort>Melee infantry</Anty_Amigo_B_Meleeinfantry.titleShort>
+  <Anty_Amigo_B_Meleeinfantry.baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</Anty_Amigo_B_Meleeinfantry.baseDescription>
+  <Anty_Amigo_B_Meleeinfantry_Drop.title>Anty Melee infantry</Anty_Amigo_B_Meleeinfantry_Drop.title>
+  <Anty_Amigo_B_Meleeinfantry_Drop.titleShort>Melee infantry</Anty_Amigo_B_Meleeinfantry_Drop.titleShort>
+  <Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</Anty_Amigo_B_Meleeinfantry_Drop.baseDescription>
+  <Anty_Amigo_B_Normalinfantry.title>Anty general infantry</Anty_Amigo_B_Normalinfantry.title>
+  <Anty_Amigo_B_Normalinfantry.titleShort>general infantry</Anty_Amigo_B_Normalinfantry.titleShort>
+  <Anty_Amigo_B_Normalinfantry.baseDescription>[PAWN_nameDef] is a general infantry.\n\nMay carry out a role as both close-quarter or ranged infantry, depending on the situation. They are capable of handling every type of weapon, but they are not as proficient in either, unlike the specialized class.</Anty_Amigo_B_Normalinfantry.baseDescription>
+  <Anty_Amigo_B_Commander.title>Anty Commander</Anty_Amigo_B_Commander.title>
+  <Anty_Amigo_B_Commander.titleShort>Commander</Anty_Amigo_B_Commander.titleShort>
+  <Anty_Amigo_B_Commander.baseDescription>[PAWN_nameDef] is a commander.\n\nTo command the hive's military, they are equipped with strong pheromone glands. This property allows them to give more commands with higher accuracy, unlike other entities.</Anty_Amigo_B_Commander.baseDescription>
+</LanguageData>
