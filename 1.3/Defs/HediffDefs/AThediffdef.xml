@@ -784,7 +784,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
 	
 	
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
+<!-- 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>AT_Aphidextract-stim</defName>
 		<label>Aphidization surgery</label>
 		<description>It is a surgery that modifies the body to cause genetic modification to drain the nutrient-rich body fluid.\n\n It has the side effect of damaging the brain due to extreme irritation.\n\n Anties have no effect.</description>
@@ -852,7 +852,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li>
 				<capMods>
 					<li>
-						<capacity>Move</capacity>
+						<capacity>Moving</capacity>
 						<setMax>0.1</setMax>
 					</li>
 				</capMods>
@@ -861,7 +861,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</statFactors>
 				<hediffGivers>
 					<li Class="AntyHediffGiver_Random">
-						<hediff>Badnutritiondamage</hediff>
+						<hediff>AT_AphidEGG</hediff>
 						<mtbDays>1</mtbDays>
 						<partsToAffect>
 							<li>Eye</li>
@@ -880,19 +880,20 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<label>sweety Egg</label>
 		<description>.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Battlestimulation_jelly_thing</ThingDef>
+			<ThingDef>EggSweety</ThingDef>
 		</descriptionHyperlinks>
-		<spawnThingOnRemoved>Battlestimulation_jelly_thing</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EggSweety</spawnThingOnRemoved>
 		<woundAnchorRange>0</woundAnchorRange>
 		<displayWound>true</displayWound>
-	</HediffDef>
+		<isBad>true</isBad>
+	</HediffDef> -->
 	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AT_Aphidextract</defName>
 		<label>Aphid extract</label>
 		<description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</description>
 		<descriptionHyperlinks>
-			<HediffDef>AT_Aphidextract-stim</HediffDef>
+			<!-- <HediffDef>AT_Aphidextract-stim</HediffDef> -->
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/AT_LD</texPath>
