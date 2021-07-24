@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>AntyHiveTech</defName>
+		<label>Antycolony expansion</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectTagDef>
+		<defName>AntyHive</defName>
+	</ResearchProjectTagDef>
+	
+
+	<ResearchProjectDef>
+		<defName>Earlycolony</defName>
+		<label>Hive outpost</label>
+		<description>Organize the files to research, that allows the rapid growth of the hive early on. Only the Anties may work here.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>150</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyNutritionaljelly</defName>
+		<label>Nutritional jelly</label>
+		<description>Unlocks the ability to make jelly to provide required nutirents to the eggs. It can be made at the stove.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>Earlycolony</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Nutritional jelly</discoveredLetterTitle>
+		<discoveredLetterText>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	
+	<ResearchProjectDef>
+		<defName>AntyMassiveButchering</defName>
+		<label>Massive Butchering</label>
+		<description>Unlocks the electric butcher table that allows mass butcher.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>AntyNutritionaljelly</li>
+		  <li>Electricity</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyMachining</defName>
+		<label>Copy machining</label>
+		<description>Based on smithing, unlocks new machining tenchology.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>Earlycolony</li>
+		  <li>Smithing</li>
+		  <li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Hive cluster</discoveredLetterTitle>
+		<discoveredLetterText>Organize the files to research, that allows the further expansion of the hive. Only the Anties may work here.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyClothing</defName>
+		<label>Copy Clothing</label>
+		<description>Unlocks the ability to mimic tailoring, which allows replication of existing equipments.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>Earlycolony</li>
+		  <li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Mediumcolony</defName>
+		<label>Hive cluster</label>
+		<description>Organize the files to research, that allows the further expansion of the hive. Only the Anties may work here.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+		  <li>AntyMachining</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Recyclecore</discoveredLetterTitle>
+		<discoveredLetterText>An artificial intelligence core fabricated with corpses.\n\n Used for major equipment or buildings and can be made on the Copy Machining Table.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyAcidweapon_B</defName>
+		<label>Acid fireweapon ⅰ</label>
+		<description>Unlocks the weapons that utilizes acid that builds up in Anties bodies.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Mediumcolony</li>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyAcidweapon_C</defName>
+		<label>Acid fireweapon ⅱ</label>
+		<description>Upgrades the Anty-Acid weapons to enhance the accuracy and firepower.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>3200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntyAcidweapon_B</li>
+			<li>MultiAnalyzer</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AntyAcidweapon_D</defName>
+		<label>Mass spraying</label>
+		<description>Unlocks the weapons that sprays Anty-Acid on to the battle field.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>3400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntyAcidweapon_C</li>
+			<li>Fabrication</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Hive aggregation</discoveredLetterTitle>
+		<discoveredLetterText>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Antypheromonestim</defName>
+		<label>pheromone-Inhalant</label>
+		<description>Unlocks the method of concentrating and using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Mediumcolony</li>
+			<li>MedicineProduction</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: pheromone</discoveredLetterTitle>
+		<discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntyAphidextract</defName>
+		<label>Aphid breeding</label>
+		<description>Research a surgical procedure to genetically modify living beings to excrete highly nutrient fluid.\n\nBrain damage is a common side effect of the surgery, due to extreme stimulation on their brains.\n\n Since the catalyst used for this operation is nutritional jelly, which gets naturally absorbed and used by Antys, the operation cannot be performed on Antys.\n\nThe surgical operation requires a nutritional jelly and pheromone pack.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Antypheromonestim</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Aphid breeding</discoveredLetterTitle>
+		<discoveredLetterText>Now you can turn any other humanoids other than Anty into aphids.\n\n This operation requires nutritional jelly and pheromone pack.</discoveredLetterText>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Combatglue</defName>
+		<label>Combat glue</label>
+		<description>Unlocks the combat adhsieve that protects our ranged troops from the melee attackers. It does not affect Anties.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntyAcidweapon_C</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Antycomposite</defName>
+		<label>Organic composite</label>
+		<description>Research to unlock a new set of apparels that combines of Anties' exoskeleton and inorganic product.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>2800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntyClothing</li>
+		  <li>Mediumcolony</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Largecolony</defName>
+		<label>Hive aggregation</label>
+		<description>Organize the files to research, that allows the hive to reach the fianl stage. Only the Anties may work here.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>3500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+		  <li>AntyAcidweapon_D</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Antycomposite_B</defName>
+		<label>Hive Power Armor ⅰ</label>
+		<description>We study reinforcement suits that help Anties work smoothly on battlefields in various environments.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>Largecolony</li>
+		  <li>Antycomposite</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>2</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>hydroheliumion</defName>
+		<label>Superacid Weapons</label>
+		<description>Develope new weapons that work effectively against heavily armored or strong innate body.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>Largecolony</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>hydroheliumion_B</defName>
+		<label>Superacid Weapons ⅱ</label>
+		<description>Develope new weapons that work effectively against heavily armored or strong innate body.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>8000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>hydroheliumion</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AT_Forwardbase_A</defName>
+		<label>Instant barricade</label>
+		<description>On the battlefield where things may change rapidly, Anties study Instant barricade developed to protect themselves from enemy attacks.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>3500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>Largecolony</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Superregenerationdevice</defName>
+		<label>Hyper Reconstruction Device</label>
+		<description>Research the device developed to dispatch injured Antys back into the battlefield.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>Largecolony</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>AT_IncreasedviabilitySurgery</defName>
+		<label>Increased viability Surgery</label>
+		<description>Research to unlock the surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>Superregenerationdevice</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: Increased viability Surgery</discoveredLetterTitle>
+		<discoveredLetterText>Now you can surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</discoveredLetterText>
+	</ResearchProjectDef> -->
+	
+</Defs>

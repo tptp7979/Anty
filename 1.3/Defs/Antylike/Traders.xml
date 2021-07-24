@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraderKindDef Name="Caravan_AT_REA">
+		<defName>Caravan_AT_REA</defName>
+		<label>Anty Ceasefire Exchange Group</label>
+		<commonality>10</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>1000</min>
+					<max>2600</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>
+					<min>5</min>
+					<max>20</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>
+					<min>-5</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<countRange>
+					<min>10</min>
+					<max>80</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+				<countRange>
+					<min>10</min>
+					<max>60</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Beer</thingDef>
+				<totalPriceRange>
+					<min>10</min>
+					<max>30</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>
+					<min>5</min>
+					<max>20</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>FoodRaw</categoryDef>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<totalPriceRange>
+					<min>150</min>
+					<max>400</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>4</thingDefCountRange>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_Animals">
+				<maxWildness>0.30</maxWildness>
+				<tradeTagsSell>
+					<li>Anty_Bug</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>Anty_Bug</li>
+				</tradeTagsBuy>
+				<kindCountRange>1~1</kindCountRange>
+				<countRange>3~4</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+			</li>
+			<li Class="StockGenerator_Clothes">
+				<countRange>1~8</countRange>
+			</li>
+			<li Class="StockGenerator_Slaves">
+				<countRange>4~6</countRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+		</stockGenerators>
+	</TraderKindDef>
+  
+</Defs>

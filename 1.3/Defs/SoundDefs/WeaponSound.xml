@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>ShotAnty_A</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g10</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>15</min>        
+          <max>15</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_B</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g02</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>12</min>        
+          <max>12</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_C</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g03</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>9</min>        
+          <max>9</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_E</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g07</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>36</min>        
+          <max>36</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Explosion_Acid</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Impact/ToxicBuildupGained</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~82</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Explosion_Acid_SB</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>g01</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>80~82</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Explosion_Glue</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>g12</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>20~22</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Impact_Glue</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>g09</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>30~32</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <ImpactSoundTypeDef>
+    <defName>AntyAcid_Bullet</defName>
+    <soundDef>Explosion_Acid</soundDef>
+  </ImpactSoundTypeDef>
+  
+  <ImpactSoundTypeDef>
+    <defName>AntyGlue_Bullet</defName>
+    <soundDef>Impact_Glue</soundDef>
+  </ImpactSoundTypeDef>
+ 
+  
+  <SoundDef>
+    <defName>AimingAnty_A</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <subSounds>
+      <li>
+        <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Char_B</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>20~20</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>hydroheliumion_A</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Char_A</clipPath>
+          </li>
+        </grains>
+		<volumeRange>15~20</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_D</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g06</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>12</min>        
+          <max>12</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_F</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g08</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>12</min>        
+          <max>12</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>ShotAnty_G</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>g13</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>12</min>        
+          <max>12</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <ImpactSoundTypeDef>
+    <defName>AntyChainSound</defName>
+    <soundDef>AT_ChainSound</soundDef>
+  </ImpactSoundTypeDef>
+  
+  <SoundDef>
+    <defName>AT_ChainSound</defName>  
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>   
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>gSS</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>24</min>        
+          <max>24</max>
+        </volumeRange>
+		<pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>AT_ChainSoundE</defName>  
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>   
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>gCE</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>24</min>        
+          <max>24</max>
+        </volumeRange>
+		<pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

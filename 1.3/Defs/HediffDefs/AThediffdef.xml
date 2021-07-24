@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- 이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
+무단 수정과 배포 및 중복 업로드를 금지합니다.
+
+All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
+Unauthorized modification, distribution and duplicate upload are prohibited. -->
+
+	<!-- 변태 부작용 -->
+	<HediffDef>
+		<defName>transformationaftereffect</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>transformation aftereffect</label>
+		<labelNoun>transformation aftereffect</labelNoun>
+		<description>.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.95</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<vomitMtbDays>0.3</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>transformationaftereffect_B</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>transformation aftereffect</label>
+		<labelNoun>transformation aftereffect</labelNoun>
+		<description>.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>810</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.7</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- 변태 부작용 -->
+
+	<!-- 일개미 -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AntyErgatebirth</defName>
+		<label>Anty Ergate</label>
+		<description>This object has no characteristics.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Eraser_jelly_thing</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>-0.05</painOffset>
+				<statOffsets>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				</statOffsets>
+				<statFactors>
+					<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.02</ArmorRating_Sharp>
+				</statFactors>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Eraser_jelly_thing</spawnThingOnRemoved>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
+	</HediffDef>
+
+	<ThingDef ParentName="AT_BodyPartProstheticBase">
+		<defName>Eraser_jelly_thing</defName>
+		<label>Eraser jelly</label>
+		<graphicData>
+			<texPath>Things/Item/AntyJC</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies. Anty larvae and serious injuries cannot survive this transformation.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>AntyErgatebirth</RecipeDef>
+			<HediffDef>AntyErgatebirth</HediffDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<costList>
+			<Refleum>20</Refleum>
+			<AntyExoskeleton>30</AntyExoskeleton>
+		</costList>
+		<techHediffsTags>
+			<li>Advanced_AT_jelly</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>AntyErgatebirth</defName>
+		<label>Make Ergate</label>
+		<description>Test.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Eraser_jelly_thing</ThingDef>
+			<HediffDef>AntyErgatebirth</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Test.</jobString>
+		<workAmount>10</workAmount>
+		<skillRequirements Inherit="False"/>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Eraser_jelly_thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Eraser_jelly_thing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>AntyTool</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AntyErgatebirth</addsHediff>
+		<recipeUsers Inherit="False">
+				<li>Anty</li>
+				<li>Anty_prototype</li>
+		</recipeUsers>
+		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
+	</RecipeDef>
+	<!-- 일개미 -->
+	
+	<!-- 병정개미 -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AntySoldierbirth</defName>
+		<label>Anty Soldier</label>
+		<description>This entity possesses a very powerful body but does not seem to be useful in anything other than combat.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Battlestimulation_jelly_thing</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painOffset>-0.05</painOffset>
+				<statOffsets>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				</statOffsets>
+				<statFactors>
+					<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.02</ArmorRating_Sharp>
+				</statFactors>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Battlestimulation_jelly_thing</spawnThingOnRemoved>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
+	</HediffDef>
+
+	<ThingDef ParentName="AT_BodyPartProstheticBase">
+		<defName>Battlestimulation_jelly_thing</defName>
+		<label>Combat-stim jelly</label>
+		<graphicData>
+			<texPath>Things/Item/AntyJC</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities. Anty larvae and serious injuries cannot survive this transformation.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>AntySoldierbirth</RecipeDef>
+			<HediffDef>AntySoldierbirth</HediffDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<costList>
+			<Refleum>20</Refleum>
+			<AntyExoskeleton>30</AntyExoskeleton>
+		</costList>
+		<techHediffsTags>
+			<li>Advanced_AT_jelly</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>AntySoldierbirth</defName>
+		<label>Make Soldier</label>
+		<description>Test.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Battlestimulation_jelly_thing</ThingDef>
+			<HediffDef>AntySoldierbirth</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Test.</jobString>
+		<workAmount>10</workAmount>
+		<skillRequirements Inherit="False"/>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Eraser_jelly_thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Eraser_jelly_thing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>AntyTool</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AntyErgatebirth</addsHediff>
+		<recipeUsers Inherit="False">
+				<li>Anty</li>
+				<li>Anty_prototype</li>
+		</recipeUsers>
+		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
+	</RecipeDef>
+	<!-- 병정개미 -->
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Chemicaldissolution</defName>
+		<label>Acid melt</label>
+		<labelNoun>Acid melt</labelNoun>
+		<description>Acid melt.\n\n0.1Damage/5second for 20second.\n\nIf there is more than 60 acid damage to a body part, the part is destroyed.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>Acid melt scar</permanentLabel>
+			</li>
+			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
+				<damageDef>AT_AcidDamage</damageDef>
+				<ticksPerDamage>300</ticksPerDamage>
+				<damageAmount>0.1</damageAmount>
+				<endTicks>1200</endTicks><!-- 20초 -->
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.006</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<bleedRate>0.01</bleedRate>
+			<destroyedLabel>melt off</destroyedLabel>
+			<destroyedOutLabel>melt out</destroyedOutLabel>
+		</injuryProps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+			</li>
+			<li>
+				<minSeverity>60</minSeverity>
+				<destroyPart>true</destroyPart>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Chemicaldissolution_con</defName>
+		<label>Acid melt</label>
+		<labelNoun>Acid melt</labelNoun>
+		<description>Acid melt</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>Acid melt scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.006</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<bleedRate>0.01</bleedRate>
+			<destroyedLabel>melt off</destroyedLabel>
+			<destroyedOutLabel>melt out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	
+	<DamageDef Name="AT_AcidDamage">
+		<defName>AT_AcidDamage</defName>
+		<label>Acid melt</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been Acid melt to death.</deathMessage>
+		<hediff>Chemicaldissolution_con</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>AntyAcid_Bullet</impactSoundType>
+		<damageEffecter>Impact_ATAcid</damageEffecter>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<makesBlood>false</makesBlood>
+	</DamageDef>
+	
+	
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Chemicaldissolution_high</defName>
+		<label>Red burst melt</label>
+		<labelNoun>Red burst melt</labelNoun>
+		<description>Red burst melt.\n\n0.3Damage/5second for 40second.\n\nIf there is more than 35 Red burst damage to a body part, the part is destroyed.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>Red burst melt scar</permanentLabel>
+			</li>
+			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
+				<damageDef>AT_AcidDamage_High</damageDef>
+				<ticksPerDamage>300</ticksPerDamage>
+				<damageAmount>0.3</damageAmount>
+				<endTicks>2400</endTicks><!-- 40초 -->
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.006</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<bleedRate>0.04</bleedRate>
+			<destroyedLabel>melt off</destroyedLabel>
+			<destroyedOutLabel>melt out</destroyedOutLabel>
+		</injuryProps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+			</li>
+			<li>
+				<minSeverity>35</minSeverity>
+				<destroyPart>true</destroyPart>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Chemicaldissolution_con_high</defName>
+		<label>Red burst melt</label>
+		<labelNoun>Red burst melt</labelNoun>
+		<description>Red burst melt</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.1</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>Red burst melt scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.006</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<bleedRate>0.04</bleedRate>
+			<destroyedLabel>melt off</destroyedLabel>
+			<destroyedOutLabel>melt out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	
+	<DamageDef Name="AT_AcidDamage_High">
+		<defName>AT_AcidDamage_High</defName>
+		<label>Red burst melt</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been Red burst melt to death.</deathMessage>
+		<hediff>Chemicaldissolution_con_high</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>AntyAcid_Bullet</impactSoundType>
+		<damageEffecter>Impact_ATAcid_High</damageEffecter>
+		<armorCategory>Blunt</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<makesBlood>false</makesBlood>
+	</DamageDef>
+	
+	
+	<HediffDef ParentName="InjuryBase">
+		<defName>glueBomb</defName>
+		<label>Combat glue</label>
+		<labelNoun>Combat glue</labelNoun>
+		<description>Combat glue</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>0</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>Combat glue scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0</painPerSeverity>
+			<averagePainPerSeverityPermanent>0</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<bleedRate>0</bleedRate>
+			<destroyedLabel>Destroyed</destroyedLabel>
+			<destroyedOutLabel>Destroyed</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>Pregnant_B</defName>
+		<label>pregnant</label>
+		<labelNoun>pregnancy</labelNoun>
+		<description>This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage.</description>
+		<hediffClass>Hediff_Pregnant</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<initialSeverity>0.001</initialSeverity>
+		<comps>
+			<!-- <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>childbirthaftereffect</li>
+				</triggeredHediff>
+			</li> -->
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.001</severityPerDay>
+			</li>
+		</comps>
+    <stages>
+      <li>
+        <label>early-stage</label>
+        <vomitMtbDays>1.5</vomitMtbDays>
+      </li>
+      <li>
+        <label>middle-stage</label>
+		<painOffset>0.10</painOffset>
+		<vomitMtbDays>1</vomitMtbDays>
+        <minSeverity>0.333</minSeverity>
+        <statFactors>
+			<WorkSpeedGlobal>0.95</WorkSpeedGlobal>
+		</statFactors>
+      </li>
+      <li>
+        <label>late-stage</label>
+		<painOffset>0.20</painOffset>
+        <minSeverity>0.666</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <statFactors>
+			<WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+		</statFactors>
+      </li>
+    </stages>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>childbirthaftereffect</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>childbirth aftereffect</label>
+		<labelNoun>childbirth aftereffect</labelNoun>
+		<description>childbirth aftereffect.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.5</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<vomitMtbDays>0.25</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>AT_glue</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Combat glue</label>
+		<labelNoun>Combat glue</labelNoun>
+		<description>Combat glue is on it.</description>
+		<defaultLabelColor>(0.2,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-3.5</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Combatglue</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.9</MoveSpeed>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.8</MoveSpeed>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.45</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.7</MoveSpeed>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.6</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AT_glue_Link</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Combat glue</label>
+		<labelNoun>Combat glue</labelNoun>
+		<description>Combat glue is on it.</description>
+		<defaultLabelColor>(0.2,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>0.6</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AT_Target</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Targeting pheromone</label>
+		<labelNoun>Targeting pheromone</labelNoun>
+		<description>Targeting pheromone is on it.</description>
+		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-20</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>TargetP</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>1.2</IncomingDamageFactor>
+					<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<LetterDef Name="AT_Soldierbirth">
+		<defName>AT_Soldierbirth</defName>
+		<color>(180, 073, 192)</color>
+		<flashColor>(227, 133, 237)</flashColor>
+		<flashInterval>90</flashInterval>
+		<arriveSound>LetterArrive_Good</arriveSound>
+	</LetterDef>
+	
+	<LetterDef Name="AT_Queenbirth">
+		<defName>AT_Queenbirth</defName>
+		<color>(212, 121, 066)</color>
+		<flashColor>(202, 102, 046)</flashColor>
+		<flashInterval>90</flashInterval>
+		<arriveSound>LetterArrive_Good</arriveSound>
+	</LetterDef>
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>AT_Aphidextract-stim</defName>
+		<label>Aphidization surgery</label>
+		<description>It is a surgery that modifies the body to cause genetic modification to drain the nutrient-rich body fluid.\n\n It has the side effect of damaging the brain due to extreme irritation.\n\n Anties have no effect.</description>
+		<jobString>During aphidization surgery.</jobString>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Aphidextract</ThingDef>
+			<HediffDef>AT_Aphidextract-stim</HediffDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Anty_pheromone</li>
+					</thingDefs>
+				</filter>
+			<count>4</count>
+			</li>
+			<!-- <li>
+				<filter>
+					<thingDefs>
+						<li>Nutritional_jelly_thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li> -->
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<!-- <li>Nutritional_jelly_thing</li> -->
+				<li>Anty_pheromone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Waist</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AT_Aphidextract-stimReady</addsHediff>
+		<researchPrerequisite>AntyAphidextract</researchPrerequisite>
+		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<HediffDef>
+		<defName>AT_Aphidextract-stimReady</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>AT_Aphidextract-stimReady</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+<!-- 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				
+				<hediffToApply>AT_Aphidextract-stim</hediffToApply>
+
+				<bodyPartDef>Waist</bodyPartDef>
+				
+			</li> -->
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AT_Aphidextract-stim</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Aphid state</label>
+		<labelNoun>Aphid state</labelNoun>
+		<description>It's an aphidized state, brain damage and excreting high levels of nutrients every day, eventually dying.</description>
+		<descriptionHyperlinks><ThingDef>AT_Aphidextract</ThingDef></descriptionHyperlinks>
+		<initialSeverity>0.01</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.016</severityPerDay>
+			</li>
+			<!-- <li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>AT_Aphidextract</thingToSpawn>
+				<spawnCount>5</spawnCount>
+				<minDaysB4Next>2</minDaysB4Next>
+				<maxDaysB4Next>3.5</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li> -->
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>AT_Aphid</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.9</HungerRateMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AT_Aphidextract</defName>
+		<label>Aphid extract</label>
+		<description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AT_Aphidextract-stim</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/AT_LD</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.0</MarketValue>
+			<RoyalFavorValue>0.7</RoyalFavorValue>
+			<Mass>0.025</Mass>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<preferability>DesperateOnlyForHumanlikes</preferability>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- 리플리움 가스 -->
+ 
+	<ThingDef ParentName="ApparelBase">
+		<defName>AT_Apparel_CombatSmoke</defName>
+		<label>Refleum Gaspack</label>
+		<description>An equipment developed by Anty to suppress enemies' sights and movements. It sprays acidified refleum gas over a large area of the battlefield.</description>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>10</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>Refleum gas launcher</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<label>pop Refleum Gaspack</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>BulletCombatSmokeLauncher</defaultProjectile>
+					<warmupTime>0.5</warmupTime>
+					<range>29.9</range>
+					<minRange>7.1</minRange>
+					<forcedMissRadius>1.9</forcedMissRadius>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<targetable>true</targetable>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>hydroheliumion</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>10</Refleum>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<graphicData>
+			<texPath>Things/Weapons/AT_CombatSmoke</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>3200</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+				<li>ATApparel</li>
+		</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>BulletCombatSmokeLauncher</defName>
+		<label>Refleum gas launcher</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>AT_AcidBomb_B</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<explosionRadius>6.9</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+		</projectile>
+	</ThingDef>
+
+<!-- 페로몬 -->
+
+	<ThingDef ParentName="ApparelBase"><!-- 지정 페로몬 -->
+		<defName>AT_Apparel_pheromone_TP</defName>
+		<label>Targeting pheromone kit</label>
+		<description>An equipment worn by Anty commanders to give orders.</description>
+		<descriptionHyperlinks><HediffDef>AT_Target</HediffDef></descriptionHyperlinks>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>3</maxCharges>
+				<ammoDef>Anty_pheromone</ammoDef>
+				<ammoCountToRefill>3</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>Targeting pheromone</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<label>pop Targeting pheromone</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>AT_BulletTargetingLauncher</defaultProjectile>
+					<warmupTime>0.5</warmupTime>
+					<range>29.9</range>
+					<minRange>2.1</minRange>
+					<forcedMissRadius>1.9</forcedMissRadius>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<targetable>true</targetable>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>7</Refleum>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Anty_pheromone>3</Anty_pheromone>
+		</costList>
+		<graphicData>
+			<texPath>Things/Weapons/AT_pheromone_TP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+			<statBases>
+				<WorkToMake>1200</WorkToMake>
+				<Mass>3</Mass>
+				<Flammability>0.4</Flammability>
+				<EquipDelay>2</EquipDelay>
+			</statBases>
+				<thingCategories>
+					<li>ATApparel</li>
+				</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AT_BulletTargetingLauncher</defName>
+		<label>Targeting Shell</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>AT_TargetBomb</damageDef>
+			<explosionRadius>1.9</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+		</projectile>
+	</ThingDef>
+	
+	<DamageDef Name="AT_TargetBomb" ParentName="AT_AcidBomb">
+			<defName>AT_TargetBomb</defName>
+			<additionalHediffs>
+				<li>
+					<hediff>AT_Target</hediff>
+					<severityPerDamageDealt>1</severityPerDamageDealt>
+					<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				</li>
+			</additionalHediffs>
+	</DamageDef>
+	
+	
+	<ThingDef ParentName="ApparelBase"><!-- 급조 엄폐물 -->
+		<defName>AT_Apparel_chunk</defName>
+		<label>Exoskeleton Chunk Cover Kit</label>
+		<description>A pile of exoskeleton used by Anty to provide protection against enemy fire. It disintegrates over time.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Chunk_A</ThingDef>
+		</descriptionHyperlinks>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>AntyExoskeleton</ammoDef>
+				<ammoCountToRefill>10</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>chunk Shell</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<label>pop chunk kit</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>AT_Bulletchunk</defaultProjectile>
+					<warmupTime>0.1</warmupTime>
+					<range>5.9</range>
+					<forcedMissRadius>0.1</forcedMissRadius>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>ShotAnty_D</soundCast>
+					<muzzleFlashScale>3</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<targetable>true</targetable>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>AntyAcidweapon_B</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>30</AntyExoskeleton>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<graphicData>
+			<texPath>Antylike/Apparel/barricade/AT_chunk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+			<statBases>
+				<WorkToMake>1200</WorkToMake>
+				<Mass>3</Mass>
+				<Flammability>0.4</Flammability>
+				<EquipDelay>2</EquipDelay>
+				<AccuracyTouch>1</AccuracyTouch>
+				<AccuracyShort>1</AccuracyShort>
+				<AccuracyMedium>1</AccuracyMedium>
+				<AccuracyLong>1</AccuracyLong>
+			</statBases>
+				<thingCategories>
+					<li>ATApparel</li>
+				</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/barricade/AT_chunk</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<offset>(0,0)</offset>
+					</north>
+					<south>
+						<offset>(0,0)</offset>
+					</south>
+					<east>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(-0.15,0)</offset></hulk>
+						<fat> <offset>(-0.20,0)</offset></fat>
+					</east>
+					<west>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(0.15,0)</offset></hulk>
+						<fat> <offset>(0.20,0)</offset></fat>
+					</west>
+
+					<male>  <scale>(1,1)</scale></male>
+					<female><scale>(1,1)</scale></female>
+					<thin>  <scale>(1,1)</scale></thin>
+					<hulk>  <scale>(1.51,1.51)</scale></hulk>
+					<fat>   <scale>(1.51,1.51)</scale></fat>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AT_Bulletchunk</defName>
+		<label>chunk Shell</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.2, 0.2, 0.6)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>2</speed>
+			<damageDef>Stun</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<explosionRadius>0.9</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+			<preExplosionSpawnThingDef>AT_Chunk_A</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+		</projectile>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="ApparelBase"><!-- 급조 엄폐물 -->
+		<defName>AT_Apparel_barricade</defName>
+		<label>Quick Field Cover Kit</label>
+		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Barricade_A</ThingDef>
+		</descriptionHyperlinks>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>10</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>barricade Shell</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<label>pop barricade kit</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>AT_Bulletbarricade</defaultProjectile>
+					<warmupTime>0.1</warmupTime>
+					<range>5.9</range>
+					<forcedMissRadius>0.1</forcedMissRadius>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>ShotAnty_D</soundCast>
+					<muzzleFlashScale>3</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<targetable>true</targetable>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>AT_Forwardbase_A</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>10</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<graphicData>
+			<texPath>Antylike/Apparel/barricade/AT_barricade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+			<statBases>
+				<WorkToMake>2200</WorkToMake>
+				<Mass>3</Mass>
+				<Flammability>0.4</Flammability>
+				<EquipDelay>2</EquipDelay>
+				<AccuracyTouch>1</AccuracyTouch>
+				<AccuracyShort>1</AccuracyShort>
+				<AccuracyMedium>1</AccuracyMedium>
+				<AccuracyLong>1</AccuracyLong>
+			</statBases>
+				<thingCategories>
+					<li>ATApparel</li>
+				</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/barricade/AT_barricade</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<offset>(0,0)</offset>
+					</north>
+					<south>
+						<offset>(0,0)</offset>
+					</south>
+					<east>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(-0.15,0)</offset></hulk>
+						<fat> <offset>(-0.20,0)</offset></fat>
+					</east>
+					<west>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(0.15,0)</offset></hulk>
+						<fat> <offset>(0.20,0)</offset></fat>
+					</west>
+
+					<male>  <scale>(1,1)</scale></male>
+					<female><scale>(1,1)</scale></female>
+					<thin>  <scale>(1,1)</scale></thin>
+					<hulk>  <scale>(1.51,1.51)</scale></hulk>
+					<fat>   <scale>(1.51,1.51)</scale></fat>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AT_Bulletbarricade</defName>
+		<label>barricade Shell</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>2</speed>
+			<damageDef>Stun</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<explosionRadius>0.9</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+			<preExplosionSpawnThingDef>AT_Barricade_A</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+		</projectile>
+	</ThingDef>
+	
+	 <!-- 포탑 -->
+ 
+<!-- 	<ThingDef ParentName="ApparelBase">
+		<defName>AT_Apparel_BlockingDevice</defName>
+		<label>Zone blocking device Gaspack</label>
+		<description>An equipment developed by Anty to suppress enemies' sights and movements. It sprays acidified refleum gas over a large area of the battlefield.</description>
+		<techLevel>Spacer</techLevel>
+			<verbs>
+				<li>
+					<verbClass>Verb_ShootOneUse</verbClass>
+					<label>pop Turret pack</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>BulletTurretLauncher</defaultProjectile>
+					<warmupTime>1.2</warmupTime>
+					<range>12.9</range>
+					<minRange>7.1</minRange>
+					<forcedMissRadius>1.9</forcedMissRadius>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<targetable>true</targetable>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>hydroheliumion</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>10</Refleum>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<graphicData>
+			<texPath>Things/Weapons/AT_BlockingDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>3200</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories>
+				<li>ATApparel</li>
+		</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>BulletTurretLauncher</defName>
+		<label>Zone blocking device launcher</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>Stun</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<explosionRadius>0.9</explosionRadius>
+			<explosionDelay>30</explosionDelay>
+		</projectile>
+	</ThingDef> -->
+</Defs>

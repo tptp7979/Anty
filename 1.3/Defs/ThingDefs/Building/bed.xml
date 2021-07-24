@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BedWithQualityBase">
+		<defName>AT_Superregenerationdevice</defName>
+		<label>Anty Hyper Reconstruction Device</label>
+		<description>A deviced developed by Antys to send the injured soldiers back to the frontline.\n\nSpecialized organic tissues for accelerated healing jump from one place on the body to another, making this device unfit for medical operations.</description>
+		<graphicData>
+			<texPath>Things/Building/St/Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.75,2)</drawSize>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Anty_Recyclecore</ThingDef>
+		</descriptionHyperlinks>
+		<castEdgeShadows>True</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>8800</WorkToBuild>
+			<Mass>60</Mass>
+			<Flammability>0.25</Flammability>
+			<BedRestEffectiveness>0.35</BedRestEffectiveness>
+			<Comfort>0.1</Comfort>
+			<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+			<MedicalTendQualityOffset>1</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>0.5</SurgerySuccessChanceFactor>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>VitalsMonitor</li>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Refleum>35</Refleum>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Anty_Recyclecore>2</Anty_Recyclecore>
+		</costList>
+		<building>
+			<bed_showSleeperBody>false</bed_showSleeperBody>
+			<bed_healPerDay>16</bed_healPerDay>
+			<bed_defaultMedical>true</bed_defaultMedical>
+			<buildingSizeCategory>Small</buildingSizeCategory>
+		</building>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>110</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<designationHotKey>Misc5</designationHotKey>
+		<researchPrerequisites>
+			<li>Superregenerationdevice</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<techLevel>Industrial</techLevel>
+		<uiIconScale>0.90</uiIconScale>
+		<designationCategory>Antybuilding</designationCategory>
+	</ThingDef>
+	
+</Defs>

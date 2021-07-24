@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>More Mechanoids</li>
+			<li>846222458</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "AT_TP_AMM"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Skullywag</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Mammoth</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Assaulter</target>
+					<radius>3.9</radius>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Vanilla Factions Expanded - Mechanoids</li>
+			<li>2009463077</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "AT_TP_AMM"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Centipede</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Lancer</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Knight</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Inquisitor</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Scyther</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Pikeman</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Carpenter</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_AncientMech_AncientCarpenter</target>
+					<radius>3.9</radius>
+				</li>
+
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedCentipede</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedLancer</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedKnight</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedInquisitor</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedScyther</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedPikeman</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_AdvancedCarpenter</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_AncientMech_AncientCarpenter</target>
+					<radius>3.9</radius>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>[RWY]Advanced Mechanoid Warfare</li>
+			<li>2119930282</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "AT_TP_AMM"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_NovaBlossom</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>AMW_Mech_Blacklight</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>AMW_Mech_Frosthound</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>AMW_Mech_Supernova</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Derg</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Charger</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Anarchist</target>
+					<radius>3.9</radius>
+				</li>
+
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Headhunter</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Purger</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Reaper</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Impulse</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Scourge</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Sawblade</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Spike</target>
+					<radius>3.9</radius>
+				</li>
+
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Thrumbo</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Renegade</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Supressor</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Flayer</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Vortex</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Wraith</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Nomad</target>
+					<radius>3.9</radius>
+				</li>
+
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_AMWSeeker</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Spectre</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>Mech_Stalker</target>
+					<radius>3.9</radius>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- 	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Vanilla Factions Expanded - Mechanoids</li>
+			<li>2009463077</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+			<value>
+	<ThingDef ParentName="TrapIEDBase">
+		<defName>AT_TP_AMM_B</defName>
+		<label>Recycle mine(VFE)</label>
+		<description>It is a mine that operates by detecting mechanoids even from a distance. Works the usual way too. Condensed red bursts are stored inside this mine, which is lethal to all targets, not just mechanoids.</description>
+		<graphicData>
+			<texPath>Things/Building/SI/AT_FM</texPath>
+		</graphicData>
+		<designatorDropdown>Mine_TP_AMM</designatorDropdown>
+		<costList>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+			<AntyExoskeleton>10</AntyExoskeleton>
+			<Refleum>5</Refleum>
+			<Uranium>10</Uranium>
+		</costList>
+		<designationHotKey>Misc7</designationHotKey>
+		<comps>
+		  <li Class="CompProperties_Explosive">
+			<explosiveRadius>3.9</explosiveRadius>
+			<explosiveDamageType>AcidBomb_B</explosiveDamageType>
+			<damageAmountBase>70</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<wickTicks>35</wickTicks>
+			<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+		  </li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Centipede</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Lancer</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Knight</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Inquisitor</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Scyther</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Pikeman</target>
+					<radius>3.9</radius>
+				</li>
+				<li Class="CompProperties_ProximityFuse">
+					<target>VFE_Mech_Carpenter</target>
+					<radius>3.9</radius>
+				</li>
+		</comps>
+		<specialDisplayRadius>3.9</specialDisplayRadius>
+		<building>
+			<trapPeacefulWildAnimalsSpringChanceFactor>1</trapPeacefulWildAnimalsSpringChanceFactor>
+		</building>
+		<researchPrerequisites>
+		  <li>Largecolony</li>
+		</researchPrerequisites>
+		<designationCategory>Antybuilding</designationCategory>
+	</ThingDef>
+			</value>
+		</match>
+	</Operation> -->
+	
+</Patch>
