@@ -62,7 +62,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</li>
 			</disallowedTraits>
 			
- 			<!-- <chemicalSettings>
+ 			<chemicalSettings>
 				<li>
 					<chemical>Nutritional_jelly_chemical</chemical>
 					<reactions>
@@ -73,37 +73,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 						</li>
 					</reactions>
 				</li>
-				<li>
-					<chemical>Nutritional_jelly_chemical</chemical>
-					<reactions>
-						<li Class="IngestionOutcomeDoer_GiveHediff">
-							<hediffDef>AntyQueenneed</hediffDef>
-							<chance>1</chance>
-							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
-						</li>
-					</reactions>
-				</li>
-				<li>
-					<chemical>Battlestimulation_jelly_chemical</chemical>
-					<reactions>
-						<li Class="IngestionOutcomeDoer_GiveHediff">
-							<hediffDef>AntySoldierbirth</hediffDef>
-							<chance>1</chance>
-							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
-						</li>
-					</reactions>
-				</li>
-				<li>
-					<chemical>Eraser_jelly_chemical</chemical>
-					<reactions>
-						<li Class="IngestionOutcomeDoer_GiveHediff">
-							<hediffDef>AntyErgatebirth</hediffDef>
-							<chance>1</chance>
-							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
-						</li>
-					</reactions>
-				</li>
-			</chemicalSettings> -->
+			</chemicalSettings>
 
 		<alienPartGenerator>
 			<atlasScale>1</atlasScale>
@@ -982,10 +952,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
       </li>
 	  <li>
         <damageDef>AT_AcidBomb_B</damageDef>
-        <multiplier>0.8</multiplier>
-      </li>
-	   <li>
-        <damageDef>AT_AcidBomb_C</damageDef>
         <multiplier>0.8</multiplier>
       </li>
 	  <li>

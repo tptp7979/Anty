@@ -83,4 +83,13 @@
   <CookProtyGum.label>프로티 껌 조리</CookProtyGum.label>
   <CookProtyGum.description>가죽을 자르고 튀겨 프로티 껌을 만듭니다.</CookProtyGum.description>
   <CookProtyGum.jobString>프로티 껌 조리</CookProtyGum.jobString>
+
+  <!-- 1.3only -->
+  <AntyErgatebirth.label>일개미화</AntyErgatebirth.label>
+  <AntyErgatebirth.description>일개미화.</AntyErgatebirth.description>
+  <AntyErgatebirth.jobString>일개미화</AntyErgatebirth.jobString>
+
+  <AntySoldierbirth.label>병정개미화</AntySoldierbirth.label>
+  <AntySoldierbirth.description>병정개미화.</AntySoldierbirth.description>
+  <AntySoldierbirth.jobString>병정개미화</AntySoldierbirth.jobString>
 </LanguageData>

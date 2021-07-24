@@ -8,10 +8,9 @@
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>
 		<tags>
-			<li>ConsciousnessSource</li>
 			<li>MovingLimbCore</li>
-			<li>Spine</li>
 		</tags>
+		<canSuggestAmputation>false</canSuggestAmputation>
 	</BodyPartDef>
 	
 	<BodyPartGroupDef>
