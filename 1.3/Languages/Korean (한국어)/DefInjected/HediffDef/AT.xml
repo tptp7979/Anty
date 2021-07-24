@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <transformationaftereffect.label>변태 부작용</transformationaftereffect.label>
-  <transformationaftereffect.labelNoun>변태 부작용</transformationaftereffect.labelNoun>
-  <transformationaftereffect.description>변태 부작용</transformationaftereffect.description>
-  <transformationaftereffect_B.label>변태 부작용</transformationaftereffect_B.label>
-  <transformationaftereffect_B.labelNoun>변태 부작용</transformationaftereffect_B.labelNoun>
-  <transformationaftereffect_B.description>변태 부작용</transformationaftereffect_B.description>
-  <childbirthaftereffect.label>출산 부작용</childbirthaftereffect.label>
-  <childbirthaftereffect.labelNoun>출산 부작용</childbirthaftereffect.labelNoun>
-  <childbirthaftereffect.description>출산 부작용</childbirthaftereffect.description>
-  <AntyErgate.description>앤티의 계급을 일꾼으로 변경합니다.</AntyErgate.description>
-  <AntyErgate.label>일꾼으로 변태중.</AntyErgate.label>
-  <AntyErgate.labelNoun>일꾼으로 변태중.</AntyErgate.labelNoun>
   <AntyErgatebirth.label>앤티 일개미</AntyErgatebirth.label>
   <AntyErgatebirth.description>이 개체는 아무런 특징이 없습니다.</AntyErgatebirth.description>
-  <AntySoldier.description>앤티의 계급을 병정으로 변경합니다.</AntySoldier.description>
-  <AntySoldier.label>병정으로 변태중.</AntySoldier.label>
-  <AntySoldier.labelNoun>병정으로 변태중.</AntySoldier.labelNoun>
   <AntySoldierbirth.label>앤티 병정개미</AntySoldierbirth.label>
   <AntySoldierbirth.description>이 개체는 강력한 신체를 가지고 있습니다. 하지만 전투 외에는 별 도움이 될 수 없을 것입니다.</AntySoldierbirth.description>
   <AntySoldierbirth.comps.0.discoverLetterLabel>병정개미 탄생</AntySoldierbirth.comps.0.discoverLetterLabel>
   <AntySoldierbirth.comps.0.discoverLetterText>{0}의 몸이 단단해지고 민첩해졌습니다. 하지만 전투 외에는 별 도움이 될 수 없을 것입니다.</AntySoldierbirth.comps.0.discoverLetterText>
-  <AntyQueen.description>앤티의 계급을 여왕으로 변경합니다.</AntyQueen.description>
-  <AntyQueen.label>여왕으로 변태중.</AntyQueen.label>
-  <AntyQueen.labelNoun>여왕으로 변태중.</AntyQueen.labelNoun>
   <AntyQueenbirth.label>앤티 여왕개미</AntyQueenbirth.label>
   <AntyQueenbirth.description>이 개체는 알주머니를 가지고 있습니다, 영양젤리를 지속적 섭취해야 하며 주기적으로 유충들을 낳습니다.</AntyQueenbirth.description>
   <AntyQueenbirth.comps.0.discoverLetterLabel>여왕개미 탄생</AntyQueenbirth.comps.0.discoverLetterLabel>
@@ -33,16 +15,6 @@
   <AntyQueenneed.stages.1.label>나쁜 영양상태</AntyQueenneed.stages.1.label>
   <Badnutritiondamage.label>조직 붕괴</Badnutritiondamage.label>
   <Badnutritiondamage.description>조직 붕괴.</Badnutritiondamage.description>
-  <Ate_Nutritional_jelly.label>영양젤리를 먹음</Ate_Nutritional_jelly.label>
-  <Ate_Nutritional_jelly.labelNoun>영양젤리를 먹음</Ate_Nutritional_jelly.labelNoun>
-  <Ate_Nutritional_jelly.description>영양젤리를 먹어, 모체와 태아 모두 정상적인 세포활동을 이어나갈 수 있습니다.</Ate_Nutritional_jelly.description>
-  <Battlestimulation_jelly.label>bug</Battlestimulation_jelly.label>
-  <Battlestimulation_jelly.description>bug.</Battlestimulation_jelly.description>
-  <Ate_Battlestimulation_jelly.label>전투자극 젤리를 먹음</Ate_Battlestimulation_jelly.label>
-  <Ate_Battlestimulation_jelly.labelNoun>전투자극 젤리를 먹음</Ate_Battlestimulation_jelly.labelNoun>
-  <Ate_Battlestimulation_jelly.description>전투자극 젤리를 먹어 몸이 단단해지고 민첩해졌습니다.</Ate_Battlestimulation_jelly.description>
-  <Eraser_jelly.label>초기화 젤리</Eraser_jelly.label>
-  <Eraser_jelly.description>초기화 젤리.</Eraser_jelly.description>
   <Chemicaldissolution.label>산성용해</Chemicaldissolution.label>
   <Chemicaldissolution.labelNoun>산성용해</Chemicaldissolution.labelNoun>
   <Chemicaldissolution.description>산성용해\n\n20초간 0.1데미지/5초.\n\n한 신체 부위에 60 이상의 산성 피해가 있다면 그 부위를 파괴함.</Chemicaldissolution.description>
@@ -111,41 +83,13 @@
   <AntyLarva_p_STAGE.label>앤티 성장</AntyLarva_p_STAGE.label>
   <AntyLarva_p_STAGE.labelNoun>앤티 성장</AntyLarva_p_STAGE.labelNoun>
   
-  <Antypheromoneaftereffect_A.label>페로몬 분비선 휴식</Antypheromoneaftereffect_A.label>
-  <Antypheromoneaftereffect_A.labelNoun>페로몬 분비선 휴식</Antypheromoneaftereffect_A.labelNoun>
-  <Antypheromoneaftereffect_A.description>페로몬 분비선이 휴식중입니다. 휴식이 끝나지 않은 상태에서 페로몬 자극이 주어지면 다시금 휴식에 들어갑니다.</Antypheromoneaftereffect_A.description>
-  <AntyGlandoverload.label>페로몬 분비선 과부하</AntyGlandoverload.label>
-  <AntyGlandoverload.labelNoun>페로몬 분비선 과부하</AntyGlandoverload.labelNoun>
-  <AntyGlandoverload.description>페로몬 분비선이 과부하되었습니다. 이 상태에서 페로몬을 지속적으로 흡입할 경우 사망할 수 있습니다.</AntyGlandoverload.description>
-  
-  <pheromone-stim.label>페로몬 자극</pheromone-stim.label>
-  <pheromone-stim.description>주기적으로 농축 페로몬을 분비합니다.</pheromone-stim.description>
-  <pheromone-stim.labelNoun>페로몬 자극 상태</pheromone-stim.labelNoun>
-  
   <Antypheromone_ChargeHigh.label>앤티 돌격 페로몬</Antypheromone_ChargeHigh.label>
   <Antypheromone_ChargeHigh.description>페로몬 분비선에서 대량의 돌격 페로몬이 나와 근접 전투능력이 비약적으로 상승했습니다.</Antypheromone_ChargeHigh.description>
   
   <Antypheromone_ShootingHigh.label>앤티 사격 페로몬</Antypheromone_ShootingHigh.label>
   <Antypheromone_ShootingHigh.description>페로몬 분비선에서 대량의 사격 페로몬이 나와 사격능력이 비약적으로 상승했습니다.</Antypheromone_ShootingHigh.description>
-
-  <Antypheromone_SuicideHigh.label>앤티 자폭 페로몬</Antypheromone_SuicideHigh.label>
-  <Antypheromone_SuicideHigh.description>강력한 폭발을 준비중입니다.</Antypheromone_SuicideHigh.description>
   
   <AT_Reinforcedexoskeleton.label>앤티 강화 외골격</AT_Reinforcedexoskeleton.label>
   <AT_Reinforcedexoskeleton.labelNoun>앤티 강화 외골격</AT_Reinforcedexoskeleton.labelNoun>
   <AT_Reinforcedexoskeleton.description>장착된 앤티 강화 외골격 입니다.</AT_Reinforcedexoskeleton.description>
-  
-  <AT_Aphidextract-stim.label>진딧물화 상태</AT_Aphidextract-stim.label>
-  <AT_Aphidextract-stim.labelNoun>진딧물화 상태</AT_Aphidextract-stim.labelNoun>
-  <AT_Aphidextract-stim.description>진딧물화된 상태입니다, 뇌가 손상되었으며 매일 고농도의 양분을 배출하다가 결국에는 죽게 됩니다.</AT_Aphidextract-stim.description>
-
-  <AntyIncreasedviability.label>생존력 증대</AntyIncreasedviability.label>
-  <AntyIncreasedviability.description>체내의 리플리움이 생존력을 증가시킨 상태입니다. 하지만 리플리움의 과도한 활동으로 심각한 부작용을 일으킬 수 있습니다.</AntyIncreasedviability.description>
-  <AntyIncreasedviability.comps.0.discoverLetterLabel>{0}의 생존력 증대</AntyIncreasedviability.comps.0.discoverLetterLabel>
-  <AntyIncreasedviability.comps.0.discoverLetterText>{0}의 체내의 리플리움이 생존력을 증가시킨 상태입니다. 하지만 리플리움의 과도한 활동으로 심각한 부작용을 일으킬 수 있습니다.</AntyIncreasedviability.comps.0.discoverLetterText>
-
-  <AntyTransitionRefleum.label>변이 리플리움</AntyTransitionRefleum.label>
-  <AntyTransitionRefleum.labelNoun>변이 리플리움</AntyTransitionRefleum.labelNoun>
-  <AntyTransitionRefleum.description>생존력 증가의 부작용입니다. 전염성을 가지고 있으며 앤티의 공격성을 증가시킵니다.</AntyTransitionRefleum.description>
-  <AntyTransitionRefleum.comps.HediffComp_VerbGiver.tools.0.label>큰 턱</AntyTransitionRefleum.comps.HediffComp_VerbGiver.tools.0.label>
 </LanguageData>

@@ -9,17 +9,11 @@
   <EggProtyUn.label>프로티 무정란</EggProtyUn.label>
   <EggProtyUn.description>프로티의 알입니다. 수정되지 않았습니다.</EggProtyUn.description>
   <Nutritional_jelly_thing.label>영양 젤리</Nutritional_jelly_thing.label>
-  <Nutritional_jelly_thing.description>앤티들의 생식 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 성별에 관계 없이 체내에 알주머니를 가지게 됩니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Nutritional_jelly_thing.description>
-  <Nutritional_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Nutritional_jelly_thing.ingestible.ingestCommandString>
-  <Nutritional_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Nutritional_jelly_thing.ingestible.ingestReportString>
+  <Nutritional_jelly_thing.description>앤티들의 생식 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 성별에 관계 없이 체내에 알주머니를 가지게 됩니다.</Nutritional_jelly_thing.description>
   <Battlestimulation_jelly_thing.label>전투자극 젤리</Battlestimulation_jelly_thing.label>
-  <Battlestimulation_jelly_thing.description>앤티들의 전투 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 신체능력이 비약적으로 강화됩니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Battlestimulation_jelly_thing.description>
-  <Battlestimulation_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
-  <Battlestimulation_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Battlestimulation_jelly_thing.ingestible.ingestReportString>
+  <Battlestimulation_jelly_thing.description>앤티들의 전투 개체들이 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 신체능력이 비약적으로 강화됩니다.</Battlestimulation_jelly_thing.description>
   <Eraser_jelly_thing.label>초기화 젤리</Eraser_jelly_thing.label>
-  <Eraser_jelly_thing.description>앤티들이 신체의 특성을 지우고 원래의 상태로 돌아가기 위해서 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 다른 젤리들로 추가된 신체능력이 사라집니다. 앤티 유충들과 중상자들은 이 변태과정을 버틸 수 없습니다.</Eraser_jelly_thing.description>
-  <Eraser_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Eraser_jelly_thing.ingestible.ingestCommandString>
-  <Eraser_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Eraser_jelly_thing.ingestible.ingestReportString>
+  <Eraser_jelly_thing.description>앤티들이 신체의 특성을 지우고 원래의 상태로 돌아가기 위해서 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 다른 젤리들로 추가된 신체능력이 사라집니다.</Eraser_jelly_thing.description>
   <AT_AP_St_A.label>앤티 셔츠</AT_AP_St_A.label>
   <AT_AP_St_A.description>앤티들이 방구석에서 즐겨입는 옷입니다.</AT_AP_St_A.description>
   <AT_AP_St_B.label>앤티 케이프 셔츠</AT_AP_St_B.label>
@@ -70,14 +64,14 @@
   
   
   <AT_AP_Power_C.label>앤티 디노포네라 아머</AT_AP_Power_C.label>
-  <AT_AP_Power_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n 두터운 장갑 때문에 이동이 불편하지만 직접 이동하는 대신에 적을 끌어올 수 있습니다.</AT_AP_Power_C.description>
+  <AT_AP_Power_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n .</AT_AP_Power_C.description>
   <AT_AP_Power_Head_C.label>앤티 디노포네라 헬멧</AT_AP_Power_Head_C.label>
   <AT_AP_Power_Head_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_C.description>
   <AT_AP_AdditionalPower_C.label>앤티 디노포네라 사이드아머</AT_AP_AdditionalPower_C.label>
   <AT_AP_AdditionalPower_C.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_C.description>
-  <AT_AP_Power_C.comps.CompReloadable.chargeNoun>외교용 사슬</AT_AP_Power_C.comps.CompReloadable.chargeNoun>
+<!--   <AT_AP_Power_C.comps.CompReloadable.chargeNoun>외교용 사슬</AT_AP_Power_C.comps.CompReloadable.chargeNoun>
   <AT_AP_Power_C.verbs.0.label>외교용 사슬 발사</AT_AP_Power_C.verbs.0.label>
-  <BulletExecutionerChain.label>외교용 사슬</BulletExecutionerChain.label>
+  <BulletExecutionerChain.label>외교용 사슬</BulletExecutionerChain.label> -->
   
   <AT_AP_Power_D.label>앤티 파라포네라 아머</AT_AP_Power_D.label>
   <AT_AP_Power_D.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n적의 무장을 해제시킬 수 있습니다.</AT_AP_Power_D.description>
@@ -269,11 +263,6 @@
   <Antypheromone_Shooting.ingestible.ingestCommandString>{0} 흡입</Antypheromone_Shooting.ingestible.ingestCommandString>
   <Antypheromone_Shooting.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Shooting.ingestible.ingestReportString>
   
-  <Antypheromone_Suicide.label>앤티 자폭 페로몬</Antypheromone_Suicide.label>
-  <Antypheromone_Suicide.description>앤티들의 산성주머니를 극단적으로 자극하는 페로몬입니다. 이 페로몬을 흡입한 앤티들은 강력한 레드버스트 폭발을 일으킵니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromone_Suicide.description>
-  <Antypheromone_Suicide.ingestible.ingestCommandString>{0} 흡입</Antypheromone_Suicide.ingestible.ingestCommandString>
-  <Antypheromone_Suicide.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Suicide.ingestible.ingestReportString>
-  
   <AT_Reinforcedexoskeleton_Thing.label>앤티 강화 외골격</AT_Reinforcedexoskeleton_Thing.label>
   <AT_Reinforcedexoskeleton_Thing.description>리플리움으로 만들어진 앤티의 강화 외골격 입니다. 기존의 외골격과 유기적인 결합을 이루어 아무런 불편함 없이 행동할 수 있으면서도 놀라운 방어성능을 지니고 있습니다.</AT_Reinforcedexoskeleton_Thing.description>
   
@@ -283,9 +272,6 @@
   <Shell_AT_glueBomb.label>접착탄</Shell_AT_glueBomb.label>
   <Shell_AT_glueBomb.description>앤티들이 원거리 보병들을 적군의 근거리 보병으로부터 보호하기 위해서 사용하는 전투용 접착제를 발사하는 무기입니다. 앤티들은 이 접착제에 큰 영향을 받지 않습니다.</Shell_AT_glueBomb.description>
   <Bullet_Shell_AT_glueBomb.label>접착탄</Bullet_Shell_AT_glueBomb.label>
-  
-  <AT_SuicideBomb.label>자폭</AT_SuicideBomb.label>
-  <AT_SporeBomb.label>포자 방출</AT_SporeBomb.label>
 
   <ProtyGum.label>프로티 껌</ProtyGum.label>
   <ProtyGum.description>배고픈 프로티들로 가득한 방에 포로를 가두었을 때 프로티들이 포로를 하루 종일 물어뜯는 것을 보고 앤티들이 고안해낸 프로티용 음식입니다.\n말린 가죽을 튀겨 만든 것으로, 뭐든지 씹으려고 하는 프로티들을 조금이나마 억제할 수 있습니다.</ProtyGum.description>
