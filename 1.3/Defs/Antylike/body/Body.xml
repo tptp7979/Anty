@@ -274,7 +274,7 @@
 							
 							<li>
 								<def>AntyTool</def>
-								<coverage>0.0005</coverage>
+								<coverage>0.005</coverage>
 								<depth>Inside</depth>
 								<groups>
 									<li>AntyToolkit</li>
@@ -286,16 +286,16 @@
 			</li><!-- 엑소압도맨 -->
 			
 								<li><!-- 좌측어깨 -->
-										<def>Shoulder</def>
-										<customLabel>Left shoulder</customLabel>
+										<def>ExoArm</def>
+										<customLabel>Left Exoarm</customLabel>
 										<coverage>0.13</coverage>
 										<groups>
 											<li>Shoulders</li>
 										</groups>
 									<parts><!-- 어깨파트 -->
 										<li><!-- 엑소암 -->
-												<def>ExoArm</def>
-												<customLabel>Left Exoarm</customLabel>
+												<def>Shoulder</def>
+												<customLabel>Left shoulder</customLabel>
 												<depth>Outside</depth>
 												<coverage>0.9</coverage>
 												<groups>
@@ -400,16 +400,16 @@
 								</li><!-- 좌측어깨 -->
 							   
 								<li><!-- 우측어깨 -->
-										<def>Shoulder</def>
-										<customLabel>Right shoulder</customLabel>
+										<def>ExoArm</def>
+										<customLabel>Right Exoarm</customLabel>
 										<coverage>0.13</coverage>
 										<groups>
 											<li>Shoulders</li>
 										</groups>
 									<parts><!-- 어깨파트 -->
 										<li><!-- 엑소암 -->
-												<def>ExoArm</def>
-												<customLabel>Right Exoarm</customLabel>
+												<def>Shoulder</def>
+												<customLabel>Right shoulder</customLabel>
 												<depth>Outside</depth>
 												<coverage>0.9</coverage>
 												<groups>
@@ -516,7 +516,7 @@
 								<li><!-- 5 -->
 									<def>Spine</def>
 									<customLabel>Abdomen spine</customLabel>
-									<coverage>0</coverage>
+									<coverage>0.005</coverage>
 									<depth>Inside</depth>
 									<height>Middle</height>
 									<groups>
