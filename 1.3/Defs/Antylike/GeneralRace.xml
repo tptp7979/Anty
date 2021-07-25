@@ -696,6 +696,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</researchList><!-- 연구 -->
 			
 			<recipeList><!-- 제작 -->
+				<li>MakeAnty_pheromone</li>
 			</recipeList><!-- 제작 -->
 			
 			<traitList><!-- 특성 -->

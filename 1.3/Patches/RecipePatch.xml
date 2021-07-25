@@ -46,7 +46,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
         <xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
         <value>
             <li>CookNutritional_jelly</li>
@@ -92,6 +92,6 @@
 					</li>
 				</operations>
 		</match>
-    </Operation> -->
+    </Operation>
 	
 </Patch>

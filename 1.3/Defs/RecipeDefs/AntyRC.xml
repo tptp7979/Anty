@@ -249,14 +249,13 @@
 	
 	
 	
-<!-- 	<RecipeDef ParentName="CookMealBase">
+	<RecipeDef ParentName="CookMealBase">
 		<defName>CookNutritional_jelly</defName>
 		<label>cook Nutritional jelly</label>
 		<description>cook Nutritional jelly</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyQueenbirth</HediffDef>
 			<HediffDef>Ate_Nutritional_jelly</HediffDef>
-			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Nutritional jelly.</jobString>
 		<workAmount>1200</workAmount>
@@ -295,7 +294,6 @@
 		<description>cook Battle stimulation jelly</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntySoldierbirth</HediffDef>
-			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Battle stimulation jelly.</jobString>
 		<workAmount>1200</workAmount>
@@ -334,7 +332,6 @@
 		<description>cook Eraser jelly.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyErgatebirth</HediffDef>
-			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Eraser jelly.</jobString>
 		<workAmount>1200</workAmount>
@@ -359,7 +356,7 @@
 		</products>
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>AntyNutritionaljelly</researchPrerequisite>
-	</RecipeDef> -->
+	</RecipeDef>
 	
 	<RecipeDef>
 		<defName>Anty_Copy_ComponentIndustrial</defName>
@@ -436,22 +433,22 @@
 				</filter>
 				<count>1</count>
 			</li>
-			<!-- <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Nutritional_jelly_thing</li>
 					</thingDefs>
 				</filter>
 			<count>1</count>
-			</li> -->
+			</li>
 		</ingredients>
 		<products>
 			<AT_Aphidextract>10</AT_Aphidextract>
 		</products>
 		<fixedIngredientFilter>
-			<!-- <thingDefs>
+			<thingDefs>
 				<li>Nutritional_jelly_thing</li>
-			</thingDefs> -->
+			</thingDefs>
 			<categories>
 				<li>Corpses</li>
 			</categories>
@@ -467,9 +464,9 @@
 			<categories>
 				<li>CorpsesHumanlike</li>
 			</categories>
-			<!-- <thingDefs>
+			<thingDefs>
 				<li>Nutritional_jelly_thing</li>
-			</thingDefs> -->
+			</thingDefs>
 		</defaultIngredientFilter>
 		<researchPrerequisite>Mediumcolony</researchPrerequisite>
 	</RecipeDef>

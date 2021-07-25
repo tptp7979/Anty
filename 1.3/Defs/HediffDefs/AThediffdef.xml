@@ -41,6 +41,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<techHediffsTags>
 			<li>Advanced_AT_jelly</li>
 		</techHediffsTags>
+		<stackLimit>75</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
@@ -138,6 +140,8 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<techHediffsTags>
 			<li>Advanced_AT_jelly</li>
 		</techHediffsTags>
+		<stackLimit>75</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
 	</ThingDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">

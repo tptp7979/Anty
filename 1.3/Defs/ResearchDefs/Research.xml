@@ -199,10 +199,10 @@
 		<discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</discoveredLetterText>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
+	<!-- <ResearchProjectDef>
 		<defName>AntyAphidextract</defName>
 		<label>Aphid breeding</label>
-		<description>Research a surgical procedure to genetically modify living beings to excrete highly nutrient fluid.\n\nBrain damage is a common side effect of the surgery, due to extreme stimulation on their brains.\n\n Since the catalyst used for this operation is nutritional jelly, which gets naturally absorbed and used by Antys, the operation cannot be performed on Antys.\n\nThe surgical operation requires a nutritional jelly and pheromone pack.</description>
+		<description>Test.</description>
 		<tab>AntyHiveTech</tab>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -215,8 +215,8 @@
 			<li>AntyHive</li>
 		</tags>
 		<discoveredLetterTitle>About: Aphid breeding</discoveredLetterTitle>
-		<discoveredLetterText>Now you can turn any other humanoids other than Anty into aphids.\n\n This operation requires nutritional jelly and pheromone pack.</discoveredLetterText>
-	</ResearchProjectDef>
+		<discoveredLetterText>Test.</discoveredLetterText>
+	</ResearchProjectDef> -->
 	
 	<ResearchProjectDef>
 		<defName>Combatglue</defName>

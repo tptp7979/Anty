@@ -27,6 +27,48 @@
 		</thingCategories>
 	</ThingDef>
 
+	<RecipeDef>
+		<defName>MakeAnty_pheromone</defName>
+		<label>Make pheromone Pack</label>
+		<description>Make pheromone Pack.</description>
+		<descriptionHyperlinks><ThingDef>Anty_pheromone</ThingDef></descriptionHyperlinks>
+		<jobString>Make pheromone Pack</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+		<effectWorking>AntyVomit</effectWorking>
+		<soundWorking>Vomit</soundWorking>
+		<uiIconThing>Anty_pheromone</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+				  <categories>
+					<li>Medicine</li>
+				  </categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Anty_pheromone>4</Anty_pheromone>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+	</RecipeDef>
+
 	<ThingDef ParentName="MakeableDrugBase">
 		<defName>Antypheromone_Charge</defName>
 		<label>Anty assault pheromone</label>

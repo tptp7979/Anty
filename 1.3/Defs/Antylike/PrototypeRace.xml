@@ -210,7 +210,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BaseInsect">
+<!--   <ThingDef ParentName="BaseInsect">
     <defName>Anty_Sweety</defName>
     <label>Sweety</label>
     <description>.</description>
@@ -357,6 +357,6 @@
         <hatcherPawn>Anty_Sweety</hatcherPawn>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef> -->
   
 </Defs>

@@ -321,8 +321,8 @@
 
 	<RecipeDef>
 		<defName>CookProtyGum</defName>
-		<label>Cook Proty Gum</label>
-		<description>.</description>
+		<label>Cook Proty Gum ×10</label>
+		<description>Cook Proty Gum.</description>
 		<descriptionHyperlinks><ThingDef>ProtyGum</ThingDef></descriptionHyperlinks>
 		<jobString>Cook Proty Gum</jobString>
 		<workAmount>120</workAmount>

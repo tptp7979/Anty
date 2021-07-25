@@ -17,7 +17,7 @@
   <Battlestimulation_jelly_thing.ingestible.ingestCommandString>Take {0}</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
   <Battlestimulation_jelly_thing.ingestible.ingestReportString>Taking {0}.</Battlestimulation_jelly_thing.ingestible.ingestReportString>
   <Eraser_jelly_thing.label>Eraser jelly</Eraser_jelly_thing.label>
-  <Eraser_jelly_thing.description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies.</Eraser_jelly_thing.description><!--  -->
+  <Eraser_jelly_thing.description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies.\n\nHowever, deformation caused by nutritional jelly is irreversible.</Eraser_jelly_thing.description><!--  -->
   <Eraser_jelly_thing.ingestible.ingestCommandString>Take {0}</Eraser_jelly_thing.ingestible.ingestCommandString>
   <Eraser_jelly_thing.ingestible.ingestReportString>Taking {0}.</Eraser_jelly_thing.ingestible.ingestReportString>
   <AT_Aphidextract.label>Aphid extract</AT_Aphidextract.label>
