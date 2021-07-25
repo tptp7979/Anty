@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>ReleasedHealthyPrisoner_B</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>Released Healthy Prisoner</label>
+        <description>We let an intact prisoner out! We should have gotten more off of it!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KnowGuestOrganHarvested_B</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Bloodlust</li>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Harvesting someone's organs</label>
+        <description>The hive harvested someone's organ. That someone is now one with the hive.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>KnowColonistOrganHarvested_B</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Bloodlust</li>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Colonist Organ Harvested</label>
+        <description>I harvested an organ of our comrade. It is glorious to sacrifice the whole body, even if it was forced.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MyOrganHarvested_B</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>My Organ Harvested</label>
+        <description>It feels like my body's missing something.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- ============== Human corpse butchering ===============-->
+
+  <ThoughtDef>
+    <defName>ButcheredHumanlikeCorpse_B</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Butchered Humanlike Corpse</label>
+        <description>I slaugthered someone!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!--  -->
+	
+	<ThoughtDef>
+    <defName>HadAngeringFight_B</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Had Angering Fight</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KilledMyRival_B</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>Killed My Rival</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="LostMemory">
+    <defName>PawnWithBadOpinionLost_B</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>Losing my rival {0}</label>
+        <description>Damn it.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteInsectMeatDirect_B</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+	<stackLimit>2</stackLimit>
+    <stages>
+      <li>
+        <label>Eating insect meat</label>
+        <description>Soft, sticky, and slimey! Just like jelly!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteInsectMeatAsIngredient_B</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>2</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>Eat insect meat dishes</label>
+        <description>Ate cooked insect meat, and it was soft, sticky, and slimey! Just like jelly!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteCorpse_B</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>0.5</durationDays>
+    <stages>
+      <li>
+        <label>AteCorpse</label>
+        <description>I ate a carcass that wasn't slaughtered! This is waste!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>HarmedMe_B</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>10</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>Hurt me</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>Insulted_B</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>insulted</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>InsultedMood</thoughtToMake>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>InsultedMood_B</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>insulted</label>
+        <description>Oh! Let's fight?</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KindWords_B</defName>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>kind words</label>
+        <baseOpinionOffset>-5</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>KindWordsMood</thoughtToMake>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KindWordsMood_B</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>kind words</label>
+        <description>Hypocritical words, disgusting.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>NeedOutdoors_B</defName>
+    <workerClass>ThoughtWorker_NeedOutdoorsAnty</workerClass>
+	<stackLimit>1</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Assigned to indoor operation for a while</label>
+        <description>I can't be on the battlefield on my feet, but who knows, maybe I will get lucky and get to confront enemy down here... Also, what I am doing is part of the war anyway!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>on indoor operation duty</label>
+        <description>I can't be on the battlefield on my feet, but who knows, maybe I will get lucky and get to confront enemy down here... Also, what I am doing is part of the war anyway!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>Switching operation</label>
+        <description>The operation site has been changed, and I got much to prepare.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Switching operation</label>
+        <description>The operation site has been changed, and I got much to prepare.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>On field operation duty</label>
+        <description>Endless sky! Blind, deadly bullets! It's the best!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+	  <li>
+        <label>Assigned to field operation for a while</label>
+        <description>Endless sky! Blind, deadly bullets! It's the best!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>DefeatedMechCluster_B</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <stages>
+      <li>
+        <label>Mechanoid outpost dissolved</label>
+        <description>We disintegrated all the moving machines! We made sure those BEEP-BOOPS were shut!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Expectations_B</defName>
+    <workerClass>ThoughtWorker_Expectations</workerClass>
+    <stages>
+      <!-- First 6 are in descending order, to preserve localizations indices -->
+      <li>
+        <label>taking over the planet</label>
+        <description>The war never stops!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>Form Hive aggregation</label>
+        <description>Large Hive, Large battlefields, countless deaths. We're going to be very busy!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Form Hive cluster</label>
+        <description>I need to grow our Hive even more and run a bigger battlefield.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Form Hive outpost</label>
+        <description>Now it looks a bit like a Hive!</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+      <li>
+        <label>Laying the foundation for the Hive</label>
+        <description>We're laying the groundwork for the Hive!</description>
+        <baseMoodEffect>24</baseMoodEffect>
+      </li>
+      <li>
+        <label>Hive of nothing</label>
+        <description>It's a new battlefield!</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+
+      <!-- Later are in ascending order, to preserve localizations indices -->
+      <li>
+        <label>noble Anty</label>
+        <description>Looks like something great has happened!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>royal Anty</label>
+        <description>big crown!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
+
+  <ThoughtDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>TitleNoPersonalBedroom_B</defName>
+    <validWhileDespawned>true</validWhileDespawned>
+    <workerClass>ThoughtWorker_NoPersonalBedroom</workerClass>
+    <nullifyingTraits><li>Ascetic</li></nullifyingTraits>
+    <stages>
+      <li>
+        <label>no personal bedroom</label>
+        <description>I want my own bedroom!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

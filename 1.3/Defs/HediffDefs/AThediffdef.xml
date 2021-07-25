@@ -6,90 +6,190 @@
 All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
 Unauthorized modification, distribution and duplicate upload are prohibited. -->
 
-	<!-- 일개미 -->
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>AntyErgatebirth</defName>
-		<label>Anty Ergate</label>
-		<description>This object has no characteristics.</description>
-		<descriptionHyperlinks>
-			<ThingDef>Eraser_jelly_thing</ThingDef>
-		</descriptionHyperlinks>
-		<spawnThingOnRemoved>Eraser_jelly_thing</spawnThingOnRemoved>
-		<woundAnchorRange>0</woundAnchorRange>
-		<displayWound>true</displayWound>
+	<!-- 변태 부작용 -->
+	<HediffDef>
+		<defName>transformationaftereffect</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>transformation aftereffect</label>
+		<labelNoun>transformation aftereffect</labelNoun>
+		<description>.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.95</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<vomitMtbDays>0.3</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>transformationaftereffect_B</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>transformation aftereffect</label>
+		<labelNoun>transformation aftereffect</labelNoun>
+		<description>.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>810</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.7</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- 변태 부작용 -->
+	
+	<!-- 일꾼 -->
+	<HediffDef>
+		<defName>AntyErgate</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>Changes Anty's rank to a worker.</description>
+		
+		<label>Transforming into a worker.</label>
+		<labelNoun>Transforming into a worker.</labelNoun>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntyErgatebirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+					<li>AntyQueenbirth</li>	
+					<li>AntySoldierbirth</li>	
+					<li>AntyQueenneed</li>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
 	</HediffDef>
 
-	<ThingDef ParentName="AT_BodyPartProstheticBase">
-		<defName>Eraser_jelly_thing</defName>
-		<label>Eraser jelly</label>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/AntyJC</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies. Anty larvae and serious injuries cannot survive this transformation.</description>
-		<descriptionHyperlinks>
-			<RecipeDef>AntyErgatebirth</RecipeDef>
-			<HediffDef>AntyErgatebirth</HediffDef>
-		</descriptionHyperlinks>
-		<thingSetMakerTags>
-			<li>RewardStandardLowFreq</li>
-		</thingSetMakerTags>
-		<costList>
-			<Refleum>20</Refleum>
-			<AntyExoskeleton>30</AntyExoskeleton>
-		</costList>
-		<techHediffsTags>
-			<li>Advanced_AT_jelly</li>
-		</techHediffsTags>
-		<stackLimit>75</stackLimit>
-		<drawGUIOverlay>true</drawGUIOverlay>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	<HediffDef>
 		<defName>AntyErgatebirth</defName>
-		<label>Make Ergate</label>
-		<description>Make Ergate.</description>
-		<descriptionHyperlinks>
-			<ThingDef>Eraser_jelly_thing</ThingDef>
-			<HediffDef>AntyErgatebirth</HediffDef>
-		</descriptionHyperlinks>
-		<jobString>Make Ergate.</jobString>
-		<workAmount>10</workAmount>
-		<skillRequirements Inherit="False"/>
-		<ingredients Inherit="False">
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Eraser_jelly_thing</li>
-					</thingDefs>
-				</filter>
-			<count>1</count>
+		<label>AntyErgate</label>
+		<description>This object has no characteristics.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>transformationaftereffect</li>
+				</triggeredHediff>
 			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Eraser_jelly_thing</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>AntyTool</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>AntyErgatebirth</addsHediff>
-		<recipeUsers Inherit="False">
-				<li>Anty</li>
-		</recipeUsers>
-		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
-	</RecipeDef>
-	<!-- 일개미 -->
-	
-	<!-- 병정개미 -->
-	<HediffDef ParentName="ImplantHediffBase">
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- 일꾼 -->
+
+	<!-- 병정 -->
+	<HediffDef>
+		<defName>AntySoldier</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>Changes Anty's rank to a soldier.</description>
+		
+		<label>Transforming into a soldier.</label>
+		<labelNoun>Transforming into a soldier.</labelNoun>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntySoldierbirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+					<li>AntyQueenbirth</li>	
+					<li>AntyErgatebirth</li>
+					<li>AntyQueenneed</li>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
 		<defName>AntySoldierbirth</defName>
-		<label>Anty Soldier</label>
+		<label>AntySoldier</label>
 		<description>This entity possesses a very powerful body but does not seem to be useful in anything other than combat.</description>
-		<descriptionHyperlinks>
-			<ThingDef>Battlestimulation_jelly_thing</ThingDef>
-		</descriptionHyperlinks>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>Soldier birth</discoverLetterLabel>
+				<discoverLetterText>{0}'s body is agile and fortified, but the changes don't seem to be helpful other than fighting</discoverLetterText>
+				<letterType>AT_Soldierbirth</letterType>
+				<messageType>PositiveEvent</messageType>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>transformationaftereffect</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
 		<stages>
 			<li>
 			<painFactor>0.9</painFactor>
@@ -113,75 +213,38 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</statFactors>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>Battlestimulation_jelly_thing</spawnThingOnRemoved>
-		<woundAnchorRange>0</woundAnchorRange>
-		<displayWound>true</displayWound>
+	</HediffDef>
+	<!-- 병정 -->
+
+	<!-- 노예 -->
+	<HediffDef>
+		<defName>AntyQueen</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>Changes Anty's rank to Queen.</description>
+		
+		<label>Transforming into a queen.</label>
+		<labelNoun>Transforming into a queen.</labelNoun>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntyQueenbirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+					<li>AntySoldierbirth</li>	
+					<li>AntyErgatebirth</li>
+				</hediffToNullify>
+			</li>
+		</comps>
 	</HediffDef>
 
-	<ThingDef ParentName="AT_BodyPartProstheticBase">
-		<defName>Battlestimulation_jelly_thing</defName>
-		<label>Combat-stim jelly</label>
-		<graphicData Inherit="False">
-			<texPath>Things/Item/AntyJB</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities. Anty larvae and serious injuries cannot survive this transformation.</description>
-		<descriptionHyperlinks>
-			<RecipeDef>AntySoldierbirth</RecipeDef>
-			<HediffDef>AntySoldierbirth</HediffDef>
-		</descriptionHyperlinks>
-		<thingSetMakerTags>
-			<li>RewardStandardLowFreq</li>
-		</thingSetMakerTags>
-		<costList>
-			<Refleum>20</Refleum>
-			<AntyExoskeleton>30</AntyExoskeleton>
-		</costList>
-		<techHediffsTags>
-			<li>Advanced_AT_jelly</li>
-		</techHediffsTags>
-		<stackLimit>75</stackLimit>
-		<drawGUIOverlay>true</drawGUIOverlay>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-		<defName>AntySoldierbirth</defName>
-		<label>Make Soldier</label>
-		<description>Make Soldier.</description>
-		<descriptionHyperlinks>
-			<ThingDef>Battlestimulation_jelly_thing</ThingDef>
-			<HediffDef>AntySoldierbirth</HediffDef>
-		</descriptionHyperlinks>
-		<jobString>Make Soldier.</jobString>
-		<workAmount>10</workAmount>
-		<skillRequirements Inherit="False"/>
-		<ingredients Inherit="False">
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Battlestimulation_jelly_thing</li>
-					</thingDefs>
-				</filter>
-			<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Battlestimulation_jelly_thing</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>AntyTool</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>AntySoldierbirth</addsHediff>
-		<recipeUsers Inherit="False">
-				<li>Anty</li>
-		</recipeUsers>
-		<surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
-	</RecipeDef>
-	<!-- 병정개미 -->
-
-	<!-- 번식 -->
 	<HediffDef ParentName="AddictionBase">
 		<defName>AntyQueenneed</defName>
 		<label>Nutritional jelly need</label>
@@ -191,13 +254,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<causesNeed>AntyEggbag_need</causesNeed>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<everCurableByItem>false</everCurableByItem>
-		<initialSeverity>0.2</initialSeverity>
 		<stages>
 		<li>
-			<becomeVisible>false</becomeVisible>
 		</li>
 		<li>
-			<becomeVisible>false</becomeVisible>
 			<label>Bad nutrition</label>
 			<hediffGivers>
 				<li Class="HediffGiver_Random">
@@ -237,6 +297,11 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				<letterType>AT_Queenbirth</letterType>
 				<messageType>PositiveEvent</messageType>
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>transformationaftereffect</li>
+				</triggeredHediff>
+			</li>
 		</comps>
 		<stages>
 		<li>
@@ -246,20 +311,11 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<hediff>Pregnant_B</hediff>
 					<mtbDays>1</mtbDays>
 				</li>
-				<li Class="AntyHediffGiver_Random">
-					<hediff>AntyQueenneed</hediff>
-					<mtbDays>0.001</mtbDays>
-				</li>
-				<li Class="AntyHediffGiver_Random">
-					<hediff>Badnutritiondamage</hediff>
-					<mtbDays>0.001</mtbDays>
-					<partsToAffect>
-						<li>AntyTool</li>
-					</partsToAffect>
-				</li>
 			</hediffGivers>
 			<statFactors>
 				<IncomingDamageFactor>1.5</IncomingDamageFactor>
+				<MoveSpeed>0.4</MoveSpeed>
+				<HungerRateMultiplier>1.5</HungerRateMultiplier>
 			</statFactors>
 		</li>
 		</stages>
@@ -276,7 +332,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</li>
 		</stages>
 	</HediffDef>
-
+	<!-- 노예 -->
+	
+	
+	<!-- 노예약물 -->
 	<NeedDef ParentName="DrugAddictionNeedBase">
 		<defName>AntyEggbag_need</defName>
 		<needClass>Need_Chemical</needClass>
@@ -299,6 +358,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyQueenbirth</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/AntyJA</texPath>
@@ -327,7 +387,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="CompProperties_Drug">
 				<chemical>Nutritional_jelly_chemical</chemical>
 				<needLevelOffset>1.00</needLevelOffset>
-				<addictiveness>0.0001</addictiveness>
+				<addictiveness>1</addictiveness>
 				<listOrder>1050</listOrder>
 			</li>
 		</comps>
@@ -371,9 +431,215 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</li>
 		</stages>
 	</ThoughtDef>
-	<!-- 번식 -->
+	<!-- 노예약물 -->
+	<!--  -->
+	
+	
+	
+	
+	<!--  -->
+	<!-- 병정약물 -->
+	<HediffDef ParentName="AddictionBase">
+		<defName>Battlestimulation_jelly</defName>
+		<label>bug</label>
+		<description>bug.</description>
+		<isBad>false</isBad>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<causesNeed>Antybug_need</causesNeed>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>5</disappearsAfterTicks>
+		</li>
+		</comps>
+		<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+		</li>
+		</stages>
+	</HediffDef>
 
-	<!-- 데미지 -->
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Antybug_need</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>Combat-stim jelly</label>
+		<description>bug.</description>
+		<listPriority>982</listPriority>
+		<fallPerDay>0.01</fallPerDay>
+	</NeedDef>
+	
+	<ChemicalDef>
+		<defName>Battlestimulation_jelly_chemical</defName>
+		<label>Combat-stim jelly</label>
+		<addictionHediff>Battlestimulation_jelly</addictionHediff>
+		<canBinge>false</canBinge>
+	</ChemicalDef>
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>Battlestimulation_jelly_thing</defName>
+		<label>Combat-stim jelly</label>
+		<description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities. Anty larvae and serious injuries cannot survive this transformation.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntySoldierbirth</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/AntyJB</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.01</Mass>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<ingestible>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Ate_Battlestimulation_jelly</hediffDef>
+					<severity>1</severity>
+					<toleranceChemical>Battlestimulation_jelly_chemical</toleranceChemical>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Battlestimulation_jelly_chemical</chemical>
+				<needLevelOffset>1.00</needLevelOffset>
+				<addictiveness>0</addictiveness>
+				<listOrder>1050</listOrder>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Antyjelly</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>Ate_Battlestimulation_jelly</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Ate Combat-stim jelly</label>
+		<labelNoun>Ate Combat-stim jelly</labelNoun>
+		<description>Ate Combat-stim jelly</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<ThoughtDef>
+		<defName>Battlestimulation_jelly</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>Ate_Battlestimulation_jelly</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+		<li>
+			<label>Ate Combat-stim jelly</label>
+			<description>The entire body feels contorted.</description>
+			<baseMoodEffect>-2</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
+	<!-- 병정약물 -->
+	<!--  -->
+	
+	<!--  -->
+	<!-- 일꾼약물 -->
+	<HediffDef ParentName="AddictionBase">
+		<defName>Eraser_jelly</defName>
+		<label>Eraser</label>
+		<description>Eraser.</description>
+		<isBad>false</isBad>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<causesNeed>Antybug_need</causesNeed>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>5</disappearsAfterTicks>
+		</li>
+		</comps>
+		<stages>
+		<li>
+			<becomeVisible>false</becomeVisible>
+		</li>
+		</stages>
+	</HediffDef>
+
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>AntyEraser_need</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>Eraser jelly</label>
+		<description>bug.</description>
+		<listPriority>982</listPriority>
+		<fallPerDay>0.01</fallPerDay>
+	</NeedDef>
+	
+	<ChemicalDef>
+		<defName>Eraser_jelly_chemical</defName>
+		<label>Eraser jelly</label>
+		<addictionHediff>Battlestimulation_jelly</addictionHediff>
+		<canBinge>false</canBinge>
+	</ChemicalDef>
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>Eraser_jelly_thing</defName>
+		<label>Eraser jelly</label>
+		<description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies. Anty larvae and serious injuries cannot survive this transformation.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntyErgatebirth</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/AntyJC</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.01</Mass>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<ingestible>
+			<ingestCommandString>Take {0}</ingestCommandString>
+			<ingestReportString>Taking {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Eraser_jelly_chemical</chemical>
+				<needLevelOffset>1.00</needLevelOffset>
+				<addictiveness>0</addictiveness>
+				<listOrder>1050</listOrder>
+			</li>
+		</comps>
+		<tradeTags>
+		<li>Antyjelly</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- 일꾼약물 -->
+	<!--  -->
+	
+	
+	
+	
+	
+	
+	
 	<HediffDef ParentName="InjuryBase">
 		<defName>Chemicaldissolution</defName>
 		<label>Acid melt</label>
@@ -601,11 +867,11 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<isBad>false</isBad>
 		<initialSeverity>0.001</initialSeverity>
 		<comps>
-			<!-- <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>childbirthaftereffect</li>
 				</triggeredHediff>
-			</li> -->
+			</li>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.001</severityPerDay>
 			</li>
@@ -634,6 +900,35 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</statFactors>
       </li>
     </stages>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>childbirthaftereffect</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>childbirth aftereffect</label>
+		<labelNoun>childbirth aftereffect</labelNoun>
+		<description>childbirth aftereffect.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.5</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<vomitMtbDays>0.25</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<HediffDef>
@@ -788,7 +1083,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	
 	
 	
-<!-- 	<RecipeDef ParentName="SurgeryInstallImplantBase">
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>AT_Aphidextract-stim</defName>
 		<label>Aphidization surgery</label>
 		<description>It is a surgery that modifies the body to cause genetic modification to drain the nutrient-rich body fluid.\n\n It has the side effect of damaging the brain due to extreme irritation.\n\n Anties have no effect.</description>
@@ -824,13 +1119,32 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<appliedOnFixedBodyParts>
 			<li>Waist</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AT_Aphidextract-stim</addsHediff>
+		<addsHediff>AT_Aphidextract-stimReady</addsHediff>
 		<researchPrerequisite>AntyAphidextract</researchPrerequisite>
 		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
 		<skillRequirements>
 			<Medicine>6</Medicine>
 		</skillRequirements>
 	</RecipeDef>
+	
+	<HediffDef>
+		<defName>AT_Aphidextract-stimReady</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>AT_Aphidextract-stimReady</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				
+				<hediffToApply>AT_Aphidextract-stim</hediffToApply>
+
+				<bodyPartDef>Waist</bodyPartDef>
+				
+			</li>
+		</comps>
+	</HediffDef>
 	
 	<HediffDef>
 		<defName>AT_Aphidextract-stim</defName>
@@ -847,6 +1161,16 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.016</severityPerDay>
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>AT_Aphidextract</thingToSpawn>
+				<spawnCount>5</spawnCount>
+				<minDaysB4Next>2</minDaysB4Next>
+				<maxDaysB4Next>3.5</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>AT_Aphid</stateEffecter>
 				<severityIndices>0~5</severityIndices>
@@ -856,48 +1180,23 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<li>
 				<capMods>
 					<li>
-						<capacity>Moving</capacity>
+						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
 				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.9</HungerRateMultiplier>
 				</statFactors>
-				<hediffGivers>
-					<li Class="AntyHediffGiver_Random">
-						<hediff>AT_AphidEGG</hediff>
-						<mtbDays>1</mtbDays>
-						<partsToAffect>
-							<li>Eye</li>
-							<li>Ear</li>
-							<li>Arm</li>
-							<li>Leg</li>
-						</partsToAffect>
-					</li>
-				</hediffGivers>
 			</li>
 		</stages>
 	</HediffDef>
-
-	<HediffDef ParentName="ImplantHediffBase">
-		<defName>AT_AphidEGG</defName>
-		<label>sweety Egg</label>
-		<description>.</description>
-		<descriptionHyperlinks>
-			<ThingDef>EggSweety</ThingDef>
-		</descriptionHyperlinks>
-		<spawnThingOnRemoved>EggSweety</spawnThingOnRemoved>
-		<woundAnchorRange>0</woundAnchorRange>
-		<displayWound>true</displayWound>
-		<isBad>true</isBad>
-	</HediffDef> -->
 	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AT_Aphidextract</defName>
 		<label>Aphid extract</label>
 		<description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</description>
 		<descriptionHyperlinks>
-			<!-- <HediffDef>AT_Aphidextract-stim</HediffDef> -->
+			<HediffDef>AT_Aphidextract-stim</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/AT_LD</texPath>

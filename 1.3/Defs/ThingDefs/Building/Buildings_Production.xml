@@ -117,8 +117,8 @@
 		<li>Anty_Copy_ComponentIndustrial</li>
 		<li>AntyCorpseFlesh</li>
 		<li>AntyCorpseFlesh_B</li>
-		<li>ButcherCorpseMechanoid</li>
 		<li>AT_ButcherCorpseMechanoid</li>
+		<li>ButcherCorpseMechanoid</li>
     </recipes>
     <inspectorTabs>
 		<li>ITab_Bills</li>
@@ -277,7 +277,7 @@
 
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>400</basePowerConsumption>
+				<basePowerConsumption>800</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -354,16 +354,13 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(255,0,0,0)</glowColor>
 			</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>400</basePowerConsumption>
-			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Spawner">
-				<requiresPower>true</requiresPower>
+			<li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
+				<requiresPower>false</requiresPower>
+				<requiresFuel>true</requiresFuel>
 				<thingToSpawn>Refleum</thingToSpawn>
-				<spawnCount>40</spawnCount>
-				<spawnIntervalRange><min>301335</min><max>421869</max></spawnIntervalRange> <!--5-7-->
+				<spawnCount>60</spawnCount>
+				<spawnIntervalRange><min>381335</min><max>421869</max></spawnIntervalRange>
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
@@ -506,7 +503,7 @@
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 	
-	<!-- <ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>LifePoweredGenerator</defName>
 		<label>Life powered generator</label>
 		<description>It is a generator that generates electricity from the extract of aphids.</description>
@@ -515,7 +512,6 @@
 			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building</thingClass>
-		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/LifePoweredGenerator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -584,5 +580,5 @@
 			<li>AntyAphidextract</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-	</ThingDef> -->
+	</ThingDef>
 </Defs>

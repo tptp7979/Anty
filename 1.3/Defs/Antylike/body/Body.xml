@@ -274,7 +274,7 @@
 							
 							<li>
 								<def>AntyTool</def>
-								<coverage>0.005</coverage>
+								<coverage>0</coverage>
 								<depth>Inside</depth>
 								<groups>
 									<li>AntyToolkit</li>
@@ -296,7 +296,7 @@
 										<li><!-- 엑소암 -->
 												<def>Shoulder</def>
 												<customLabel>Left shoulder</customLabel>
-												<depth>Outside</depth>
+												<depth>Inside</depth>
 												<coverage>0.9</coverage>
 												<groups>
 													<li>Arms</li>
@@ -410,7 +410,7 @@
 										<li><!-- 엑소암 -->
 												<def>Shoulder</def>
 												<customLabel>Right shoulder</customLabel>
-												<depth>Outside</depth>
+												<depth>Inside</depth>
 												<coverage>0.9</coverage>
 												<groups>
 													<li>Arms</li>

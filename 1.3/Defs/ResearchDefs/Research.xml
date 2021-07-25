@@ -103,6 +103,23 @@
 			<li>ClassicStart</li>
 		</tags>
 	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>AT_Sweetfood</defName>
+		<label>Sweet food</label>
+		<description>Study how to make sweet foods that Anties love.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>Earlycolony</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef> -->
 	
 	<ResearchProjectDef>
 		<defName>Mediumcolony</defName>
@@ -199,10 +216,10 @@
 		<discoveredLetterText>now you can using anties pheromones. Pheromone packs can be extracted through surgery. It can also be processed in existing drug labs.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</discoveredLetterText>
 	</ResearchProjectDef>
 	
-	<!-- <ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>AntyAphidextract</defName>
 		<label>Aphid breeding</label>
-		<description>Test.</description>
+		<description>Research a surgical procedure to genetically modify living beings to excrete highly nutrient fluid.\n\nBrain damage is a common side effect of the surgery, due to extreme stimulation on their brains.\n\n Since the catalyst used for this operation is nutritional jelly, which gets naturally absorbed and used by Antys, the operation cannot be performed on Antys.\n\nThe surgical operation requires a nutritional jelly and pheromone pack.</description>
 		<tab>AntyHiveTech</tab>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -215,8 +232,8 @@
 			<li>AntyHive</li>
 		</tags>
 		<discoveredLetterTitle>About: Aphid breeding</discoveredLetterTitle>
-		<discoveredLetterText>Test.</discoveredLetterText>
-	</ResearchProjectDef> -->
+		<discoveredLetterText>Now you can turn any other humanoids other than Anty into aphids.\n\n This operation requires nutritional jelly and pheromone pack.</discoveredLetterText>
+	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>Combatglue</defName>
@@ -356,7 +373,7 @@
 		</tags>
 	</ResearchProjectDef>
 
-	<!-- <ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>AT_IncreasedviabilitySurgery</defName>
 		<label>Increased viability Surgery</label>
 		<description>Research to unlock the surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</description>
@@ -373,6 +390,6 @@
 		</tags>
 		<discoveredLetterTitle>About: Increased viability Surgery</discoveredLetterTitle>
 		<discoveredLetterText>Now you can surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</discoveredLetterText>
-	</ResearchProjectDef> -->
+	</ResearchProjectDef>
 	
 </Defs>

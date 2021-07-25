@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
+무단 수정과 배포 및 중복 업로드를 금지합니다.
+
+All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
+Unauthorized modification, distribution and duplicate upload are prohibited. -->
+  <AlienRace.ThingDef_AlienRace ParentName="AT_PawnBase">
+    <defName>Anty</defName>
+    <label>Anty</label>
+    <description>Anties are genetically engineered beings by a private company to replace dying soldiers on the battle field.\n\nEverything has gone south when the company has let their guard down to celebrate their recent progress. Due to a mistake made by one of the employees, the Anties have been set free from the lab and ended up in space.\n\nTheir personalities are gentle by nature, but they were made to know only but war. On each planet they end up, they burn everything down to ash, using themselves as the main source of the fuel.</description>
+    <alienRace>
+		<generalSettings>
+			<maleGenderProbability>0.2</maleGenderProbability>
+			<immuneToAge>false</immuneToAge>
+			<humanRecipeImport>true</humanRecipeImport>
+			<canLayDown>true</canLayDown>
+			<maxDamageForSocialfight>7</maxDamageForSocialfight>
+			<immuneToXenophobia>false</immuneToXenophobia>
+			<minAgeForAdulthood>0</minAgeForAdulthood>
+
+			<!-- <factionRelations>
+				<li>
+					<factions>
+						<li>AntyHive</li>
+						<li>AntyHive_B</li>
+					</factions>
+					<goodwill>
+						<min>100</min>
+						<max>100</max>
+					</goodwill>
+				</li>
+			</factionRelations> -->
+			
+			<forcedRaceTraitEntries>
+				<li>
+					<defName>AT_Solidexoskeleton</defName>
+					<chance>20</chance>
+				</li>
+			</forcedRaceTraitEntries>
+			
+			<disallowedTraits>
+				<li>
+					<defName>Bloodlust</defName>
+					<chance>100</chance>
+				</li>
+				<li>
+					<defName>Psychopath</defName>
+					<chance>100</chance>
+				</li>
+				<li>
+					<defName>Cannibal</defName>
+					<chance>100</chance>
+				</li>
+				<li>
+					<defName>Undergrounder</defName>
+					<chance>100</chance>
+				</li>
+				<li>
+					<defName>Tough</defName>
+					<chance>100</chance>
+				</li>
+			</disallowedTraits>
+			
+ 			<chemicalSettings>
+				<li>
+					<chemical>Nutritional_jelly_chemical</chemical>
+					<reactions>
+						<li Class="IngestionOutcomeDoer_GiveHediff">
+							<hediffDef>AntyQueenbirth</hediffDef>
+							<chance>1</chance>
+							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+						</li>
+					</reactions>
+				</li>
+			</chemicalSettings>
+
+		<alienPartGenerator>
+			<atlasScale>1</atlasScale>
+			<aliencrowntypes><!--머리-->
+				<li>AntyA</li>
+				<li>AntyB</li>
+				<li>AntyC</li>
+				<li>AntyA_1</li>
+				<li>AntyB_1</li>
+				<li>AntyC_1</li>
+				<li>AntyA_2</li>
+				<li>AntyB_2</li>
+				<li>AntyC_2</li>
+				<li>AntyA_3</li>
+				<li>AntyB_3</li>
+				<li>AntyC_3</li>
+			</aliencrowntypes><!--머리-->
+			
+			<alienbodytypes><!--몸-->
+				<li>Thin</li>
+			</alienbodytypes><!--몸-->
+			
+			<headOffset>(0,-0.015)</headOffset><!--머리위치-->
+			<useGenderedHeads>true</useGenderedHeads><!--성별머리-->
+			<useGenderedBodies>false</useGenderedBodies><!--성별몸-->
+			
+			<customDrawSize>(1,1)</customDrawSize><!--전체크기-->
+			<customHeadDrawSize>(0.9,0.9)</customHeadDrawSize><!--머리크기-->
+			<customPortraitDrawSize>(0.9,0.9)</customPortraitDrawSize><!--초상화크기-->
+
+			<colorChannels><!--색-->
+			<li>
+				<name>skin</name>
+				<first Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>1</weight>
+							<only>RGBA(1.0,1.0,1.0,1)</only>
+						</li>
+					</options>
+				</first>				
+			</li>
+			<li><!--헤어컬러-->
+				<name>hair</name>
+				<first Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>15</weight>
+							<only>(122,175,250)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(130,180,90)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(150,55,55)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(150,120,70)</only>
+						</li>
+						<li>
+							<weight>15</weight>
+							<only>(80,80,80)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(100,155,155)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(100,80,60)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(155,95,95)</only>
+						</li>
+						<li>
+							<weight>10</weight>
+							<only>(255,255,255)</only>
+						</li>
+					</options>
+				</first>
+			</li>
+			</colorChannels><!--색-->
+
+            <bodyAddons><!-- 몸부착물 -->
+				<li><!--왼쪽더듬이A-->
+					<path>Antylike/Ear/EarL/Ear_L</path>
+					<!-- <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious> -->
+					<hediffGraphics>
+						<BloodLoss>Antylike/Ear/EarL/no/Ear_L1</BloodLoss>
+						<Anesthetic>Antylike/Ear/EarL/no/Ear_L0</Anesthetic>
+						<FoodPoisoning>Antylike/Ear/EarL/no/Ear_L2</FoodPoisoning>
+						<ToxicBuildup>Antylike/Ear/EarL/no/Ear_L1</ToxicBuildup>
+					</hediffGraphics>
+					<bodyPart>Left Feeler</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>Cutout</shaderType>
+					<hiddenUnderApparelTag>
+						<li>AntyHide</li>
+					</hiddenUnderApparelTag>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(-0.41,0.62)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.93)</Thin>
+							</bodyTypes>
+						</north>
+						
+						<east>
+							<bodyTypes>
+							<Thin>(-0.47,0.62)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+
+				<li> <!--오른쪽더듬이A-->
+					<path>Antylike/Ear/EarR/Ear_R</path>
+					<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+					<hediffGraphics>
+						<BloodLoss>Antylike/Ear/EarR/no/Ear_R1</BloodLoss>
+						<Anesthetic>Antylike/Ear/EarR/no/Ear_R0</Anesthetic>
+						<FoodPoisoning>Antylike/Ear/EarR/no/Ear_R2</FoodPoisoning>
+						<ToxicBuildup>Antylike/Ear/EarR/no/Ear_R1</ToxicBuildup>
+					</hediffGraphics>
+					<bodyPart>Right Feeler</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>Cutout</shaderType>
+					<hiddenUnderApparelTag>
+						<li>AntyHide</li>
+					</hiddenUnderApparelTag>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(-0.43,0.62)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.93)</Thin>
+							</bodyTypes>
+						</north>
+						
+						<east>
+							<bodyTypes>
+							<Thin>(-0.47,0.62)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+
+				<li> <!-- 왼쪽더듬이B -->
+					<path>Antylike/Ear/EarL/EarB/Ear_LB</path>
+					<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+					<hediffGraphics>
+						<BloodLoss>Antylike/Ear/EarL/EarB/nob/Ear_LB2</BloodLoss>
+						<Anesthetic>Antylike/Ear/EarL/EarB/nob/Ear_LB0</Anesthetic>
+						<FoodPoisoning>Antylike/Ear/EarL/EarB/nob/Ear_LB1</FoodPoisoning>
+						<ToxicBuildup>Antylike/Ear/EarL/EarB/nob/Ear_LB2</ToxicBuildup>
+					</hediffGraphics>
+					<bodyPart>Left Feeler</bodyPart>
+					<inFrontOfBody>false</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>Cutout</shaderType>
+					<hiddenUnderApparelTag>
+						<li>AntyHide</li>
+					</hiddenUnderApparelTag>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.5,0.6)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+
+				<li> <!-- 오른쪽더듬이B -->
+					<path>Antylike/Ear/EarR/EarB/Ear_RB</path>
+					<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+					<hediffGraphics>
+						<BloodLoss>Antylike/Ear/EarR/EarB/nob/Ear_RB2</BloodLoss>
+						<Anesthetic>Antylike/Ear/EarR/EarB/nob/Ear_RB0</Anesthetic>
+						<FoodPoisoning>Antylike/Ear/EarR/EarB/nob/Ear_RB1</FoodPoisoning>
+						<ToxicBuildup>Antylike/Ear/EarR/EarB/nob/Ear_RB2</ToxicBuildup>
+					</hediffGraphics>
+					<bodyPart>Right Feeler</bodyPart>
+					<inFrontOfBody>false</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>Cutout</shaderType>
+					<hiddenUnderApparelTag>
+						<li>AntyHide</li>
+					</hiddenUnderApparelTag>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.5,0.6)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+			  
+				<li><!--배-->
+					<path>Antylike/Tails/ATTail</path>
+					<!-- <hediffGraphics>
+						<AntyQueenbirth>Antylike/Tails/ATTailB</AntyQueenbirth>
+					</hediffGraphics> -->
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>Cutout</shaderType>
+					<!-- <layerOffset>-0.319</layerOffset> -->
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+			</bodyAddons><!-- 몸부착물 -->
+		</alienPartGenerator>
+		</generalSettings>
+		
+		<graphicPaths><!-- 텍스쳐 -->
+				<li>
+					<head>Antylike/Heads/</head>
+					<body>Antylike/Bodies/</body>
+					<skeleton>Antylike/Bodies/Dessicated_Anty_Thin</skeleton>
+					<skull>Antylike/Bodies/None_Average_Skull_Anty</skull>
+				</li>
+		</graphicPaths><!-- 텍스쳐 -->
+		
+		<styleSettings>
+			<li>
+				<key>HairDef</key>
+				<value>
+					<hasStyle>true</hasStyle>
+					<styleTags>
+						<li>AThair</li>
+						<li>Rural</li>
+					</styleTags>
+				</value>
+			</li>
+			<li>
+				<key>BeardDef</key>
+				<value>
+					<hasStyle>false</hasStyle>
+				</value>
+			</li>
+			<li>
+				<key>TattooDef</key>
+				<value>
+					<hasStyle>false</hasStyle>
+				</value>
+			</li>
+		</styleSettings>
+		
+		<relationSettings><!-- 관계 -->
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings><!-- 관계 -->
+      
+		<thoughtSettings><!-- 생각 -->
+			<replacerList>
+				<li>
+					<original>KnowGuestExecuted</original>
+					<replacer>KnowGuestExecuted_B</replacer> 
+				</li>
+				<li>
+					<original>KnowColonistExecuted</original>
+					<replacer>KnowColonistExecuted_B</replacer> 
+				</li>
+				<li>
+					<original>KnowPrisonerDiedInnocent</original>
+					<replacer>KnowPrisonerDiedInnocent_B</replacer> 
+				</li>
+				<li>
+					<original>KnowColonistDied</original>
+					<replacer>KnowColonistDied_B</replacer> 
+				</li>
+				<li>
+					<original>PawnWithGoodOpinionDied</original>
+					<replacer>PawnWithGoodOpinionDied_B</replacer> 
+				</li>
+				<li>
+					<original>PawnWithBadOpinionDied</original>
+					<replacer>PawnWithBadOpinionDied_B</replacer> 
+				</li>
+				<li>
+					<original>KnowGuestOrganHarvested</original>
+					<replacer>KnowGuestOrganHarvested_B</replacer> 
+				</li>
+				<li>
+					<original>KnowColonistOrganHarvested</original>
+					<replacer>KnowColonistOrganHarvested_B</replacer> 
+				</li>
+				<li>
+					<original>MyOrganHarvested</original>
+					<replacer>MyOrganHarvested_B</replacer> 
+				</li>
+				<li>
+					<original>ButcheredHumanlikeCorpse</original>
+					<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+				</li>
+				<li>
+					<original>HadAngeringFight</original>
+					<replacer>HadAngeringFight_B</replacer> 
+				</li>
+				<li>
+					<original>KilledMyRival</original>
+					<replacer>KilledMyRival_B</replacer>
+				</li>
+				<li>
+					<original>PawnWithBadOpinionLost</original>
+					<replacer>PawnWithBadOpinionLost_B</replacer>
+				</li>
+				<li>
+					<original>ReleasedHealthyPrisoner</original>
+					<replacer>ReleasedHealthyPrisoner_B</replacer>
+				</li>
+				<li>
+					<original>PrisonerBanishedToDie</original>
+					<replacer>ReleasedHealthyPrisoner_B</replacer>
+				</li>
+				<li>
+					<original>ObservedLayingCorpse</original>
+					<replacer>ObservedLayingCorpse_B</replacer>
+				</li>
+				<li>
+					<original>AteInsectMeatDirect</original>
+					<replacer>AteInsectMeatDirect_B</replacer>
+				</li>
+				<li>
+					<original>AteInsectMeatAsIngredient</original>
+					<replacer>AteInsectMeatAsIngredient_B</replacer>
+				</li>
+				<li>
+					<original>HarmedMe</original>
+					<replacer>HarmedMe_B</replacer>
+				</li>
+				<li>
+					<original>ObservedLayingRottingCorpse</original>
+					<replacer>ObservedLayingRottingCorpse_B</replacer>
+				</li>
+				
+				<li>
+					<original>Insulted</original>
+					<replacer>Insulted_B</replacer>
+				</li>
+				<li>
+					<original>InsultedMood</original>
+					<replacer>InsultedMood_B</replacer>
+				</li>
+				
+				<li>
+					<original>KindWords</original>
+					<replacer>KindWords_B</replacer>
+				</li>
+				<li>
+					<original>KindWordsMood</original>
+					<replacer>KindWordsMood_B</replacer>
+				</li>
+				<li>
+					<original>AteCorpse</original>
+					<replacer>AteCorpse_B</replacer>
+				</li>
+				<li>
+					<original>Chocolate_Mood</original>
+					<replacer>Chocolate_Mood_B</replacer>
+				</li>
+				<li>
+					<original>DefeatedMechCluster</original>
+					<replacer>DefeatedMechCluster_B</replacer>
+				</li>
+				<li>
+					<original>KilledHumanlikeBloodlust</original>
+					<replacer>KilledHumanlikeBloodlust_B</replacer>
+				</li>
+			</replacerList>
+			<restrictedThoughts>
+                <li>NeedOutdoors_B</li>
+				<li>Expectations_B</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom_B</li>
+            </restrictedThoughts>
+ 			<cannotReceiveThoughts>
+				<!-- <li>Pain</li> -->
+				<li>Expectations</li>
+				<li>NewColonyOptimism</li>
+				<li>NewColonyHope</li>
+				
+				<li>MySonDied</li>
+				<li>MyDaughterDied</li>
+				<li>MyBrotherDied</li>
+				<li>MySisterDied</li>
+				<li>MyGrandchildDied</li>
+				<li>MyNieceDied</li>
+				<li>MyNephewDied</li>
+				<li>MyHalfSiblingDied</li>
+				<li>MyAuntDied</li>
+				<li>MyUncleDied</li>
+				<li>MyCousinDied</li>
+				<li>MyKinDied</li>
+				<li>MyHusbandDied</li>
+				<li>MyWifeDied</li>
+				<li>MyFianceDied</li>
+				<li>MyFianceeDied</li>
+				<li>MyLoverDied</li>
+				<li>MyFatherDied</li>
+				<li>MyMotherDied</li>
+				<li>MyGrandparentDied</li>
+				
+				<li>KilledMyFriend</li>
+				<li>KilledMyLover</li>
+				<li>KilledMyFiance</li>
+				<li>KilledMySpouse</li>
+				<li>KilledMyFather</li>
+				<li>KilledMyMother</li>
+
+				<li>KilledMySon</li>
+				<li>KilledMyDaughter</li>
+				<li>KilledMyBrother</li>
+				<li>KilledMySister</li>
+				<li>KilledMyKin</li>
+				<li>KilledColonist</li>
+				<li>KilledColonyAnimal</li>
+				
+				<li>AteHumanlikeMeatDirect</li>
+				<li>AteHumanlikeMeatAsIngredient</li>
+				<li>KnowButcheredHumanlikeCorpse</li>
+				<li>ButcheredHumanlikeCorpseOpinion</li>
+				<li>AteRawHumanlikeMeat</li>
+				
+				<li>WitnessedDeathAlly</li>
+				<li>WitnessedDeathNonAlly</li>
+				<li>WitnessedDeathFamily</li>
+				
+				<li>EnvironmentDark</li>
+				<li>NeedOutdoors</li>
+				
+ 				<li>DeadMansApparel</li>
+				<li>HumanLeatherApparelSad</li>
+				
+				<li>ExecutedPrisoner</li>
+				<li>PawnWithBadOpinionLost</li>
+				
+				<li>ColonistLeftUnburied</li>
+				
+				<li>ColonistLost</li>
+				<li>PawnWithGoodOpinionLost</li>
+				<li>PawnWithBadOpinionLost</li>
+				
+				<li>MySonLost</li>
+				<li>MyDaughterLost</li>
+				<li>MyHusbandLost</li>
+				<li>MyWifeLost</li>
+				<li>MyFianceLost</li>
+				<li>MyFianceeLost</li>
+				<li>MyLoverLost</li>
+				<li>MyBrotherLost</li>
+				<li>MySisterLost</li>
+				<li>MyGrandchildLost</li>
+				<li>MyFatherLost</li>
+				<li>MyMotherLost</li>
+				<li>MyNieceLost</li>
+				<li>MyNephewLost</li>
+				<li>MyHalfSiblingLost</li>
+				<li>MyAuntLost</li>
+				<li>MyUncleLost</li>
+				<li>MyGrandparentLost</li>
+				<li>MyCousinLost</li>
+				<li>MyKinLost</li>
+				<li>SharedBed</li>
+
+				<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
+				
+				<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
+				<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
+				
+            </cannotReceiveThoughts>
+		</thoughtSettings><!-- 생각 -->
+      
+		<raceRestriction><!-- 종족제한 -->
+			<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel><!-- 종족옷제한설정 -->
+			<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits><!-- 종족특성제한설정 -->
+		
+            <apparelList><!-- 옷 -->
+				<li>AT_AP_St_A</li>
+				<li>AT_AP_St_B</li>
+				<li>AT_AP_St_C</li>
+				<li>AT_AP_St_D</li>
+				<li>AT_AP_St_F</li>
+				
+				<li>AT_AP_Chain_A</li>
+				<li>AT_AP_Helm_A</li>
+				<li>AT_AP_Additionalchain_A</li>
+				
+				<li>AT_AP_Shooter_A</li>
+				<li>AT_AP_SH_A</li>
+				<li>AT_AP_Head_A</li>
+				<li>AT_AP_Flakvest</li>
+				<li>AT_AP_Additionalarmorplate_A</li>
+				
+				<li>AT_AP_Head_B</li>
+				<li>AT_AP_CO_A</li>
+				<li>AT_AP_CO_B</li>
+				
+				<li>AT_AP_Power_A</li>
+				<li>AT_AP_Power_Head_A</li>
+				<li>AT_AP_AdditionalPower_A</li>
+				<li>AT_AP_Power_B</li>
+				<li>AT_AP_Power_Head_B</li>
+				<li>AT_AP_AdditionalPower_B</li>
+				<li>AT_AP_Power_C</li>
+				<li>AT_AP_Power_Head_C</li>
+				<li>AT_AP_AdditionalPower_C</li>
+				<li>AT_AP_Power_D</li>
+				<li>AT_AP_Power_Head_D</li>
+				<li>AT_AP_AdditionalPower_D</li>
+            </apparelList><!-- 옷 -->
+			
+			<whiteApparelList>
+            </whiteApparelList>
+				
+            <buildingList><!-- 건물 -->
+				<li>AT_WallB</li>
+            </buildingList><!-- 건물 -->
+			
+			<weaponList><!-- 무기 -->
+				<li>AT_AcidCross</li>
+				<li>AT_AcidRifle</li>
+				<li>AT_AcidLineRifle</li>
+				<li>AT_AcidAssaultRifle</li>
+				<li>AT_AcidLauncher</li>
+				<li>AT_LMG</li>
+				<li>AT_hydroheliumion_A</li>
+				<li>AT_hydroheliumion_B</li>
+				<li>AT_hydroheliumion_C</li>
+				<li>AT_RedHalberd</li>
+			</weaponList><!-- 무기 -->
+			
+			<researchList><!-- 연구 -->
+			<li>
+			<projects>
+                <li>Earlycolony</li>
+				<li>Mediumcolony</li>
+				<li>Largecolony</li>
+            </projects>
+			</li>
+			</researchList><!-- 연구 -->
+			
+			<recipeList><!-- 제작 -->
+				<li>MakeAnty_pheromone</li>
+			</recipeList><!-- 제작 -->
+			
+			<traitList><!-- 특성 -->
+				<li>AT_Solidexoskeleton</li>
+			</traitList><!-- 특성 -->
+			
+			<plantList><!-- 식물 -->
+			</plantList><!-- 식물 -->
+			
+        </raceRestriction><!-- 종족제한 -->
+	</alienRace>
+	
+    <statBases><!-- 능력치 -->
+		<MarketValue>800</MarketValue><!-- 가격 -->
+
+		<MoveSpeed>5</MoveSpeed><!-- 이속 -->
+		<Mass>35</Mass><!-- 무게 -->
+		
+		<ComfyTemperatureMax>28</ComfyTemperatureMax><!-- 편한최대온도 -->
+		<ComfyTemperatureMin>19</ComfyTemperatureMin><!-- 편한최소온도 -->
+		
+		<RestRateMultiplier>1</RestRateMultiplier><!-- 잠 -->
+		<HungerRateMultiplier>1</HungerRateMultiplier><!-- 허기 -->
+		<EatingSpeed>1</EatingSpeed><!-- 먹는속도 -->
+
+		<CarryingCapacity>110</CarryingCapacity><!-- 운반량 -->
+		<MeatAmount>20</MeatAmount><!-- 고기량 -->
+		<LeatherAmount>40</LeatherAmount><!-- 가죽량 --><!-- 가죽종류 밑에 있음 -->
+		
+		<PainShockThreshold>0.9</PainShockThreshold><!-- 쓰러짐고통 -->
+		<PsychicSensitivity>0.5</PsychicSensitivity><!-- 정신민감도 -->
+		<MentalBreakThreshold>0.4</MentalBreakThreshold><!-- 정신이상임계 -->
+		<ToxicSensitivity>3</ToxicSensitivity><!-- 독성민감도 -->
+		<Flammability>2</Flammability><!-- 가연성 -->
+		
+		<MeleeDodgeChance>0.8</MeleeDodgeChance><!-- 근접회피확률 -->
+		<MeleeHitChance>1</MeleeHitChance><!-- 근접적중확률 -->
+		<AimingDelayFactor>1</AimingDelayFactor><!-- 조준속도 -->
+		<ShootingAccuracyPawn>0.8</ShootingAccuracyPawn><!-- 조준정확도 -->
+
+		<NegotiationAbility>0</NegotiationAbility><!-- 외교영향력 -->
+		<SellPriceFactor>1</SellPriceFactor><!-- 판매가격 -->
+		<SocialImpact>0.1</SocialImpact><!-- 사회영향력 -->
+		<TradePriceImprovement>0</TradePriceImprovement><!-- 거래가격개선 -->
+
+		<ButcheryMechanoidEfficiency>1.2</ButcheryMechanoidEfficiency><!-- 메카분해효율 -->
+		<ButcheryMechanoidSpeed>1.2</ButcheryMechanoidSpeed><!-- 메카분해속도 -->
+		<SmeltingSpeed>1</SmeltingSpeed><!-- 금속제련속도 -->
+		<GeneralLaborSpeed>1</GeneralLaborSpeed><!-- 재단속도 -->
+		<ConstructionSpeed>1.25</ConstructionSpeed><!-- 건설속도 -->
+
+		<ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency><!-- 도축효율 -->
+		<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed><!-- 도축속도 -->
+		
+		<FoodPoisonChance>1</FoodPoisonChance><!-- 식중독확률 -->
+		<CookSpeed>0.3</CookSpeed><!-- 조리속도 -->
+
+		<PlantWorkSpeed>1</PlantWorkSpeed><!-- 원예 -->
+
+		<GlobalLearningFactor>1.1</GlobalLearningFactor><!-- 전역학습속도 -->
+		<ResearchSpeed>1</ResearchSpeed><!-- 연구속도 -->
+		
+		<MedicalTendQuality>0.8</MedicalTendQuality><!-- 치료품질 -->
+		<DrugSynthesisSpeed>1</DrugSynthesisSpeed><!-- 약물생산속도 -->
+		<MedicalSurgerySuccessChance>1.1</MedicalSurgerySuccessChance><!-- 수술성공확률 -->
+		<ImmunityGainSpeed>1</ImmunityGainSpeed><!-- 항체속도 -->
+		
+		<MiningSpeed>2</MiningSpeed><!-- 채굴속도 -->
+		<MiningYield>0.8</MiningYield><!-- 채굴효율 -->
+
+		<!-- <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      	<ArmorRating_Sharp>0.007</ArmorRating_Sharp> -->
+    </statBases><!-- 능력치 -->
+	
+    <tools><!-- 육체무기 -->
+		<li>
+			<label>Small Jaw</label>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>1.5</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<surpriseAttack>
+				<extraMeleeDamages>
+					<li>
+						<def>Bite</def>
+						<amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			</surpriseAttack>
+		<chanceFactor>0.5</chanceFactor>
+		</li>
+	  
+		<li>
+			<label>Big jaw</label>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<surpriseAttack>
+				<extraMeleeDamages>
+					<li>
+						<def>Bite</def>
+						<amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			</surpriseAttack>
+		<chanceFactor>0.5</chanceFactor>
+		</li>
+    </tools><!-- 육체무기 -->
+
+    <race><!-- 생태 -->
+		<thinkTreeMain>Humanlike</thinkTreeMain>
+		<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+		<intelligence>Humanlike</intelligence>
+		<makesFootprints>true</makesFootprints>
+		<lifeExpectancy>10</lifeExpectancy>
+		<leatherDef>AntyExoskeleton</leatherDef>
+		<nameCategory>HumanStandard</nameCategory>
+		<hasGenders>true</hasGenders>
+	    <body>Anty</body>
+		<baseBodySize>0.9</baseBodySize>
+		<baseHealthScale>0.7</baseHealthScale>
+		<foodType>OmnivoreHuman</foodType>
+		<gestationPeriodDays>10</gestationPeriodDays>
+		<fleshType>Anty_flesh</fleshType>
+		<bloodDef>Filth_BloodInsect</bloodDef>
+		<meatColor>(20,120,20)</meatColor>
+		<nameGenerator>Antypawn_rule</nameGenerator>
+    	<nameGeneratorFemale>Antypawn_rule</nameGeneratorFemale>
+		
+		<litterSizeCurve>
+				<points>
+					<li>(0, 0)</li>
+					<li>(1, 0.70)</li>
+					<li>(2, 0.30)</li>
+					<li>(3, 0)</li>
+				</points>
+		</litterSizeCurve>
+		
+		<lifeStageAges>
+		  <li>
+            <def>HumanlikeBaby</def>
+            <minAge>0</minAge>
+			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+			<soundDeath>Pawn_Megascarab_Death</soundDeath>
+          </li>
+          <li>
+            <def>HumanlikeToddler</def>
+            <minAge>0.25</minAge>
+			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+			<soundDeath>Pawn_Megascarab_Death</soundDeath>
+          </li>
+          <li>
+            <def>HumanlikeChild</def>
+            <minAge>0.26</minAge>
+			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+			<soundDeath>Pawn_Megascarab_Death</soundDeath>
+          </li>
+		  <li>
+            <def>HumanlikeTeenager</def>
+            <minAge>0.28</minAge>
+			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+			<soundDeath>Pawn_Megascarab_Death</soundDeath>
+          </li>
+		<li>
+			<def>HumanlikeAdult</def>
+			<minAge>1</minAge>
+			<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+			<soundDeath>Pawn_Megascarab_Death</soundDeath>
+        </li>
+		</lifeStageAges>
+
+		<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+		<specialShadowData>
+			<volume>(0.3, 0.8, 0.4)</volume>
+			<offset>(0,0,-0.3)</offset>
+		</specialShadowData>
+		<ageGenerationCurve>
+        <points>
+			<li>(0,0)</li>
+			<li>(1,20)</li>
+			<li>(2,100)</li>
+			<li>(3,40)</li>
+			<li>(4,20)</li>
+			<li>(5,0)</li>
+		</points>
+		</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+    </race><!-- 생태 -->
+
+    <recipes>
+<!--       <li>InstallArchotechEye</li>
+		  <li>InstallArchotechArm</li>
+		  <li>InstallArchotechLeg</li>
+		  <li>InstallPowerClaw</li>
+		  <li>InstallBionicEye</li>
+		  <li>InstallBionicArm</li>
+		  <li>InstallBionicLeg</li>
+		  <li>InstallBionicSpine</li>
+		  <li>InstallBionicHeart</li>
+		  <li>InstallBionicStomach</li>
+		  <li>InstallBionicEar</li>
+		  <li>InstallSimpleProstheticArm</li>
+		  <li>InstallSimpleProstheticLeg</li>
+		  <li>InstallSimpleProstheticHeart</li>
+		  <li>InstallCochlearImplant</li>
+		  <li>InstallPegLeg</li>
+		  <li>InstallWoodenFoot</li>
+		  <li>InstallDenture</li>
+		  <li>InstallJoywire</li>
+		  <li>InstallPainstopper</li>
+		  <li>InstallNaturalHeart</li>
+		  <li>InstallNaturalLung</li>
+		  <li>InstallNaturalKidney</li>
+		  <li>InstallNaturalLiver</li>
+		  <li>ExciseCarcinoma</li>
+		  <li>AdministerMechSerumHealer</li>
+		  <li>RemoveBodyPart</li>
+		  <li>Euthanize</li>
+		  <li>Anesthetize</li> -->
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			<li>CureScaria</li>
+		 	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+    </recipes><!-- 수술 -->
+	<damageMultipliers>
+      <li>
+        <damageDef>AT_glueBomb</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+	  <li>
+        <damageDef>AT_glueBomb_B</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+	  <li>
+        <damageDef>AT_AcidBullet</damageDef>
+        <multiplier>0.8</multiplier>
+      </li>
+	  <li>
+        <damageDef>AT_AcidBomb</damageDef>
+        <multiplier>0.8</multiplier>
+      </li>
+	  <li>
+        <damageDef>AT_AcidBomb_B</damageDef>
+        <multiplier>0.8</multiplier>
+      </li>
+	  <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>1.5</multiplier>
+      </li>
+	  <li>
+        <damageDef>Burn</damageDef>
+        <multiplier>1.5</multiplier>
+      </li>
+    </damageMultipliers>
+</AlienRace.ThingDef_AlienRace>
+	
+	<FleshTypeDef>
+    <defName>Anty_flesh</defName>
+    <ateDirect>AteInsectMeatDirect</ateDirect>
+    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesAnimal</corpseCategory>
+    <damageEffecter>Damage_HitInsect</damageEffecter>
+    <!-- <wounds>
+	  <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>0.46,0.50,0.46</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>0.46,0.50,0.46</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>0.46,0.50,0.46</color>
+      </li>
+    </wounds> -->
+	<genericWounds>
+		<li>
+		  <texture>Things/Pawn/Wounds/WoundFleshA</texture>
+		</li>
+		<li>
+		  <texture>Things/Pawn/Wounds/WoundFleshB</texture>
+		</li>
+		<li>
+		  <texture>Things/Pawn/Wounds/WoundFleshC</texture>
+		</li>
+	  </genericWounds>
+	  <bandagedWounds>
+		<li>
+		  <texture>Things/Pawn/Wounds/BandagedA</texture>
+		</li>
+		<li>
+		  <texture>Things/Pawn/Wounds/BandagedB</texture>
+		</li>
+		<li>
+		  <texture>Things/Pawn/Wounds/BandagedC</texture>
+		</li>
+	  </bandagedWounds>
+	  <hediffWounds>
+		<li  MayRequire="Ludeon.RimWorld.Ideology">
+		  <hediff>Scarification</hediff>
+		  <wounds>
+			<li>
+			  <texture>Things/Pawn/Wounds/ScarificationA</texture>
+			  <tintWithSkinColor>true</tintWithSkinColor>
+			  <displayOverApparel>false</displayOverApparel>
+			  <displayPermanent>false</displayPermanent>
+			</li>
+			<li>
+			  <texture>Things/Pawn/Wounds/ScarificationB</texture>
+			  <tintWithSkinColor>true</tintWithSkinColor>
+			  <displayOverApparel>false</displayOverApparel>
+			  <displayPermanent>false</displayPermanent>
+			</li>
+			<li>
+			  <texture>Things/Pawn/Wounds/ScarificationC</texture>
+			  <tintWithSkinColor>true</tintWithSkinColor>
+			  <displayOverApparel>false</displayOverApparel>
+			  <displayPermanent>false</displayPermanent>
+			</li>
+		  </wounds>
+		</li>
+		<li>
+		  <hediff>MissingBodyPart</hediff>
+		  <wounds>
+			<li>
+			  <textureSouth>Things/Pawn/Wounds/MissingEye_Scar_south</textureSouth>
+			  <textureNorth>Things/Pawn/Wounds/MissingEye_Scar_south</textureNorth>
+			  <textureEast>Things/Pawn/Wounds/MissingEye_Scar_east</textureEast>
+			  <textureWest>Things/Pawn/Wounds/MissingEye_Scar_east</textureWest>
+			  <flipWest>true</flipWest>
+			  <onlyOnPart>Eye</onlyOnPart>
+			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+			  <flipOnRotation>South</flipOnRotation>
+			  <tintWithSkinColor>true</tintWithSkinColor>
+			  <missingBodyPartFresh>false</missingBodyPartFresh>
+			  <scale>0.7</scale>
+			</li>
+			<li>
+			  <textureSouth>Things/Pawn/Wounds/MissingEye_Fresh</textureSouth>
+			  <textureNorth>Things/Pawn/Wounds/MissingEye_Fresh</textureNorth>
+			  <textureEast>Things/Pawn/Wounds/MissingEye_Fresh</textureEast>
+			  <textureWest>Things/Pawn/Wounds/MissingEye_Fresh</textureWest>
+			  <flipWest>true</flipWest>
+			  <onlyOnPart>Eye</onlyOnPart>
+			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+			  <flipOnRotation>South</flipOnRotation>
+			  <missingBodyPartFresh>true</missingBodyPartFresh>
+			  <scale>0.7</scale>
+			</li>
+		  </wounds>
+		</li>
+		<li>
+		  <hediff>BionicEye</hediff>
+		  <wounds>
+			<li>
+			  <textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
+			  <textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
+			  <textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
+			  <textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
+			  <flipWest>true</flipWest>
+			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+			  <flipOnRotation>South</flipOnRotation>
+			  <scale>0.85</scale>
+			</li>
+		  </wounds>
+		</li>
+		<li>
+		  <hediff>ArchotechEye</hediff>
+		  <wounds>
+			<li>
+			  <textureSouth>Things/Pawn/Wounds/ArchotechEye_south</textureSouth>
+			  <textureNorth>Things/Pawn/Wounds/ArchotechEye_south</textureNorth>
+			  <textureEast>Things/Pawn/Wounds/ArchotechEye_east</textureEast>
+			  <textureWest>Things/Pawn/Wounds/ArchotechEye_east</textureWest>
+			  <flipWest>true</flipWest>
+			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+			  <flipOnRotation>South</flipOnRotation>
+			  <scale>0.85</scale>
+			</li>
+		  </wounds>
+		</li>
+	  </hediffWounds>
+	</FleshTypeDef>
+</Defs>

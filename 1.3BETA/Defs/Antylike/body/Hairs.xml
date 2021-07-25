@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HairDef>
+		<defName>AThair_A</defName>
+		<label>AT_A</label>
+		<!-- <hairGender>Any</hairGender> -->
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_A</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AThair_B</defName>
+		<label>AT_B</label>
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_B</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>AThair_C</defName>
+		<label>AT_C</label>
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_C</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>AThair_D</defName>
+		<label>AT_D</label>
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_D</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>AThair_E</defName>
+		<label>AT_E</label>
+		<styleGender>Male</styleGender>
+		<texPath>Antylike/Hairs/AThair_E</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>AThair_F</defName>
+		<label>AT_F</label>
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_F</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>AThair_G</defName>
+		<label>AT_G</label>
+		<styleGender>Female</styleGender>
+		<texPath>Antylike/Hairs/AThair_G</texPath>
+		<styleTags>
+			<li>AThair</li>
+		</styleTags>
+	</HairDef>
+  
+</Defs>

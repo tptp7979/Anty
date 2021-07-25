@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- 이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
+무단 수정과 배포 및 중복 업로드를 금지합니다.
+
+All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
+Unauthorized modification, distribution and duplicate upload are prohibited. -->
+	
+	<HediffDef>
+		<defName>AntyIncreasedviability</defName>
+		<label>Increased viability</label>
+		<description>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntyTransitionRefleum</HediffDef>
+		</descriptionHyperlinks>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<everCurableByItem>false</everCurableByItem>
+		<defaultLabelColor>(0.3, 0.8, 0.3)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>Increased {0}'s viability</discoverLetterLabel>
+				<discoverLetterText>Refleum in the body has increased viability. However, excessive activity of Refleum can cause serious side effects.</discoverLetterText>
+				<letterType>AT_Increasedviability</letterType>
+				<messageType>PositiveEvent</messageType>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<naturalHealingFactor>1.3</naturalHealingFactor>
+				<totalBleedFactor>0.75</totalBleedFactor>
+				<statFactors>
+					<HungerRateMultiplier>1.25</HungerRateMultiplier>
+				</statFactors>
+				<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>AntyTransitionRefleum</hediff>
+					<mtbDays>20</mtbDays>
+					<partsToAffect>
+						<li>Antyabdomen</li>
+					</partsToAffect>
+				</li>
+				</hediffGivers>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
+					<li>Flu</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>AntyTransitionRefleum</defName>
+		<label>TransitionRefleum</label>
+		<labelNoun>TransitionRefleum</labelNoun>
+		<description>It is a side effect of increased viability. It is contagious and increases the aggression of Anty.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Refleum</ThingDef>
+			<HediffDef>AntyIncreasedviability</HediffDef>
+			<RecipeDef>CureAntyTransitionRefleum</RecipeDef>
+		</descriptionHyperlinks>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>true</isBad>
+		<tendable>true</tendable>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<makesSickThought>true</makesSickThought>
+		<defaultLabelColor>(1.0, 0.1, 0)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>Big jaw</label>
+						<capacities>
+							<li>Bite_Refleum</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>1.8</cooldownTime>
+					</li>
+				</tools>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>AT_SporeBomb</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<minDaysB4Next>2</minDaysB4Next>
+				<maxDaysB4Next>4</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
+				<settings>
+					<things>
+						<li>
+							<thingToSpawn>AT_SporeBomb</thingToSpawn>
+							<weight>100</weight>
+						</li>
+					</things>
+					<defaultSettings>
+						<stack>
+							<spawnCount>1</spawnCount>
+						</stack>
+					</defaultSettings>
+				</settings>
+					
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<severityPerDayTended>-0.55</severityPerDayTended>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>1.1</MoveSpeed>
+				</statFactors>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Berserk</mentalState>
+						<mtbDays>5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Refleum</spawnThingOnRemoved>
+	</HediffDef>
+
+	<ManeuverDef>
+		<defName>Bite_Refleum</defName>
+		<requiredCapacity>Bite_Refleum</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>Bite_Refleum</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+	<ToolCapacityDef ParentDefName="Bite">
+		<defName>Bite_Refleum</defName>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="Bite">
+		<defName>Bite_Refleum</defName>
+		<additionalHediffs>
+			<li>
+				<hediff>Bite_Refleum_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<HediffDef>
+		<defName>Bite_Refleum_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Bite_Refleum_Ready</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+				</hediffToNullify>
+				
+				<hediffToApply>AntyTransitionRefleum</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				<bodyPartDef>Antyabdomen</bodyPartDef>
+				
+				<!-- <debug>false</debug> -->
+			</li>
+		</comps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallAT_AntyIncreasedviabilitySurgery</defName>
+		<label>Anty Increased viability Surgery</label>
+		<description>It is a surgery to increase the viability by injecting Refleum into the body of Anties.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntyIncreasedviability</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Increasing viability.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AT_Aphidextract</li>
+					</thingDefs>
+				</filter>
+			<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Refleum</li>
+					</thingDefs>
+				</filter>
+			<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AT_Aphidextract</li>
+				<li>Refleum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AntyIncreasedviability</addsHediff>
+		<recipeUsers>
+				<li>Anty</li>
+		</recipeUsers>
+		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>CureAntyTransitionRefleum</defName>
+		<label>Remove TransitionRefleum</label>
+		<description>Remove TransitionRefleum.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing TransitionRefleum.</jobString>
+		<workAmount>2000</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<isViolation>false</isViolation>
+		<!-- <targetsBodyPart>false</targetsBodyPart> -->
+		<removesHediff>AntyTransitionRefleum</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully Removed {1}'s TransitionRefleum.</successfullyRemovedHediffMessage>
+		<skillRequirements>
+		<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
+		<recipeUsers>
+			<li>Anty</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<LetterDef Name="AT_Increasedviability">
+		<defName>AT_Increasedviability</defName>
+		<color>(20, 155, 20)</color>
+		<flashColor>(30, 120, 30)</flashColor>
+		<flashInterval>90</flashInterval>
+		<arriveSound>LetterArrive_Good</arriveSound>
+	</LetterDef>
+
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_SporeBomb</defName>
+		<label>Spore release</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Things/Item/pheromone/BB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>AT_SporeBomb</explosiveDamageType>
+				<damageAmountBase>5</damageAmountBase>
+				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>1</startWickHitPointsPercent>
+				<wickTicks>0</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>AT_SporeBomb</target>
+				<radius>1.9</radius>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<DamageDef ParentName="AT_AcidBomb_B">
+		<defName>AT_SporeBomb</defName>
+		<soundExplosion>Explosion_Acid_SB</soundExplosion>
+		<minDamageToFragment>10</minDamageToFragment>
+		<additionalHediffs>
+			<li>
+				<hediff>Bite_Refleum_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+</Defs>

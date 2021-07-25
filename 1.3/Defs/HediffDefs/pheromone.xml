@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
+	<HediffDef>
+		<defName>AntyGlandoverload_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>AntyGlandoverload_Ready</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+				</hediffToNullify>
+				
+				<hediffToApply>AntyGlandoverload</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				
+				<!-- <debug>false</debug> -->
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AntyGlandoverload</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Pheromone gland overloaded</label>
+		<labelNoun>Pheromone gland overloaded</labelNoun>
+		<description>Pheremone glands have been exhausted from overloading. Constant pheromone inhalation at current state can cause death.</description>
+		<defaultLabelColor>(1,0,1)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>0.1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Antypheromoneaftereffect_A</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Pheromone gland dormant</label>
+		<labelNoun>Pheromone gland dormant</labelNoun>
+		<description>Pheromone glands are dormant. Stimulating the glands while dormant phase will cause further dormancy.</description>
+		<defaultLabelColor>(0,0.5,1)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-20</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Antypheromone_ShootingHigh</li>
+					<li>Antypheromone_ChargeHigh</li>
+					<li>Antypheromone_SuicideHigh</li>
+				</hediffToNullify>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>pheromone-stim</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>pheromone-stim condition</label>
+		<labelNoun>pheromone-stim condition</labelNoun>
+		<description>It periodically secretes concentrated pheromones.</description>
+		<descriptionHyperlinks><ThingDef>Anty_pheromone</ThingDef></descriptionHyperlinks>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+					<severityPerDay>-0.24</severityPerDay>
+					<showHoursToRecover>true</showHoursToRecover>
+				</li>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>Anty_pheromone</thingToSpawn>
+				<spawnCount>4</spawnCount>
+				<minDaysB4Next>0.98</minDaysB4Next>
+				<maxDaysB4Next>0.99</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li>
+		</comps>
+	</HediffDef>
+  
 	<ThingDef ParentName="ResourceBase">
 		<defName>Anty_pheromone</defName>
 		<label>Anty pheromone Pack</label>
 		<description>Concentrated Anty pheromone that has been packaged with mucous membrane.</description>
 		<descriptionHyperlinks>
+			<HediffDef>pheromone-stim</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/pheromone/PO</texPath>
@@ -27,47 +128,25 @@
 		</thingCategories>
 	</ThingDef>
 
-	<RecipeDef>
-		<defName>MakeAnty_pheromone</defName>
-		<label>Make pheromone Pack</label>
-		<description>Make pheromone Pack.</description>
-		<descriptionHyperlinks><ThingDef>Anty_pheromone</ThingDef></descriptionHyperlinks>
-		<jobString>Make pheromone Pack</jobString>
-		<workAmount>1500</workAmount>
-		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
-		<workSkill>Crafting</workSkill>
-		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
-		<effectWorking>AntyVomit</effectWorking>
-		<soundWorking>Vomit</soundWorking>
-		<uiIconThing>Anty_pheromone</uiIconThing>
-		<ingredients>
-			<li>
-				<filter>
-				  <categories>
-					<li>Medicine</li>
-				  </categories>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<products>
-			<Anty_pheromone>4</Anty_pheromone>
-		</products>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-		</defaultIngredientFilter>
-		<recipeUsers>
-			<li>DrugLab</li>
-		</recipeUsers>
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>pheromone-stim</defName>
+		<label>Stimuate pheromone glands</label>
+		<description>Stimulate Anty pheromone glands to produce concentrated pheromone.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Anty_pheromone</ThingDef>
+			<HediffDef>pheromone-stim</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Stimulate pheromone glands.</jobString>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>pheromone-stim</addsHediff>
 		<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+		<recipeUsers>
+			<li>Anty</li>
+		</recipeUsers>
 	</RecipeDef>
+
 
 	<ThingDef ParentName="MakeableDrugBase">
 		<defName>Antypheromone_Charge</defName>
@@ -75,6 +154,8 @@
 		<description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Antypheromone_ChargeHigh</HediffDef>
+			<HediffDef>AntyGlandoverload</HediffDef>
+			<HediffDef>Antypheromoneaftereffect_A</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/pheromone/PC</texPath>
@@ -108,6 +189,10 @@
 					<hediffDef>Antypheromone_ChargeReady</hediffDef>
 					<severity>1.0</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AntyGlandoverload_Ready</hediffDef>
+					<severity>0.1</severity>
+				</li>
 			</outcomeDoers>
 		</ingestible>
 		<recipeMaker>
@@ -137,24 +222,19 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300</disappearsAfterTicks>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+					<li>Antypheromone_ShootingHigh</li>
+				</hediffToNullify>
+				
+				<hediffToApply>Antypheromone_ChargeHigh</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				
+				<!-- <debug>false</debug> -->
 			</li>
 		</comps>
-		<stages>
-			<li>
-				<minSeverity>0</minSeverity>
-				<hediffGivers>
-					<li Class="AntyHediffGiver_Random">
-						<hediff>Antypheromone_ChargeHigh</hediff>
-						<mtbDays>0.0001</mtbDays>
-						<partsToAffect>
-							<li>Antyabdomen</li>
-						</partsToAffect>
-					</li>
-				</hediffGivers>
-			</li>
-		</stages>
 	</HediffDef>
   
 	<HediffDef>
@@ -164,6 +244,8 @@
 		<description>Pheromone glands released an unusal amount of assault pheromone, giving a large boost to melee combat performance.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Antypheromone_Charge</ThingDef>
+			<HediffDef>AntyGlandoverload</HediffDef>
+			<HediffDef>Antypheromoneaftereffect_A</HediffDef>
 		</descriptionHyperlinks>
 		<defaultLabelColor>(1,0.2,0.2)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -178,6 +260,11 @@
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>Chargepheromone</stateEffecter>
 				<severityIndices>0~5</severityIndices>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>Antypheromoneaftereffect_A</li>
+				</triggeredHediff>
 			</li>
 		</comps>
 			<stages>
@@ -206,7 +293,8 @@
 		<description>a phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they shoot firearms. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances shooting ability.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Antypheromone_ShootingHigh</HediffDef>
-		</descriptionHyperlinks>
+			<HediffDef>AntyGlandoverload</HediffDef>
+			<HediffDef>Antypheromoneaftereffect_A</HediffDef></descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/pheromone/PS</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -239,6 +327,10 @@
 					<hediffDef>Antypheromone_ShootingReady</hediffDef>
 					<severity>1.0</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AntyGlandoverload_Ready</hediffDef>
+					<severity>0.1</severity>
+				</li>
 			</outcomeDoers>
 		</ingestible>
 		<recipeMaker>
@@ -268,24 +360,19 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300</disappearsAfterTicks>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+					<li>Antypheromone_ChargeHigh</li>
+				</hediffToNullify>
+				
+				<hediffToApply>Antypheromone_ShootingHigh</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				
+				<!-- <debug>false</debug> -->
 			</li>
 		</comps>
-		<stages>
-			<li>
-				<minSeverity>0</minSeverity>
-				<hediffGivers>
-					<li Class="AntyHediffGiver_Random">
-						<hediff>Antypheromone_ShootingHigh</hediff>
-						<mtbDays>0.0001</mtbDays>
-						<partsToAffect>
-							<li>Antyabdomen</li>
-						</partsToAffect>
-					</li>
-				</hediffGivers>
-			</li>
-		</stages>
 	</HediffDef>
   
 	<HediffDef>
@@ -295,6 +382,8 @@
 		<description>Pheromone glands released an unusual amount of shooting pheromone, giving a large boost shooting ability.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Antypheromone_Shooting</ThingDef>
+			<HediffDef>AntyGlandoverload</HediffDef>
+			<HediffDef>Antypheromoneaftereffect_A</HediffDef>
 		</descriptionHyperlinks>
 		<defaultLabelColor>(1,0.2,0.2)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -309,6 +398,11 @@
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>Shootingpheromone</stateEffecter>
 				<severityIndices>0~5</severityIndices>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>Antypheromoneaftereffect_A</li>
+				</triggeredHediff>
 			</li>
 		</comps>
 			<stages>
@@ -330,4 +424,192 @@
 				</li>
 			</stages>
 	</HediffDef>
+
+
+
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Antypheromone_Suicide</defName>
+		<label>Anty detonation phermone</label>
+		<description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<descriptionHyperlinks><HediffDef>Antypheromone_SuicideHigh</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/pheromone/PE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>25</MarketValue>
+			<Mass>0.005</Mass>
+			<Flammability>2</Flammability>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>20</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Inhale {0}</ingestCommandString>
+			<ingestReportString>Inhaling {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Antypheromone_SuicideReady</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AntyGlandoverload_Ready</hediffDef>
+					<severity>0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+				<recipeUsers>
+					<li>DrugLab</li>
+				</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Anty_pheromone>4</Anty_pheromone>
+			<Refleum>1</Refleum>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1040</listOrder>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>Antypheromone_SuicideReady</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_SuicideReady</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>AntyLarva_p</li>
+				</hediffToNullify>
+				
+				<hediffToApply>Antypheromone_SuicideHigh</hediffToApply>
+				
+				<bodyDef>Anty</bodyDef>
+				<!-- <bodyPartDef>Heart</bodyPartDef> -->
+				
+				<!-- <debug>false</debug> -->
+			</li>
+		</comps>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>Antypheromone_SuicideHigh</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Anty deonation pheromone</label>
+		<description>Preparing for a powerful explosion.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Antypheromone_Suicide</ThingDef>
+		</descriptionHyperlinks>
+		<defaultLabelColor>(0.2,1,0.2)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>17</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Suicidepheromone</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
+				<settings>
+					<things>
+						<li>
+							<thingToSpawn>AT_SuicideBomb</thingToSpawn>
+							<weight>100</weight>
+						</li>
+					</things>
+					<defaultSettings>
+						<stack>
+							<spawnCount>1</spawnCount>
+						</stack>
+					</defaultSettings>
+				</settings>
+					
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+			</li>
+		</comps>
+			<stages>
+				<li>
+					<painOffset>-1</painOffset>
+					<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>0.25</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+	</HediffDef>
+	
+	<ThingDef Name="AT_SuicideBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>1</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<tickerType>Normal</tickerType>
+		<tradeability>None</tradeability>
+	</ThingDef>
+	
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_SuicideBomb</defName>
+		<label>SuicideBomb</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Things/Item/pheromone/BB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
+				<damageAmountBase>100</damageAmountBase>
+				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.1</preExplosionSpawnChance>
+				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>1</startWickHitPointsPercent>
+				<wickTicks>0</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>AT_SuicideBomb</target>
+				<radius>1.9</radius>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<DamageDef ParentName="AT_AcidBomb_B">
+		<defName>AT_AcidBomb_C</defName>
+		<soundExplosion>Explosion_Acid_SB</soundExplosion>
+		<minDamageToFragment>10</minDamageToFragment>
+	</DamageDef>
 </Defs>

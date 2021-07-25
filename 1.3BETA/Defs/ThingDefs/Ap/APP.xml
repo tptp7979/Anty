@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="AT_AP_Power_A" ParentName="Anty_GearBase"><!-- 카타글리피스 아머 -->
+		<defName>AT_AP_Power_A</defName>
+		<label>Anty Cataglyphis armor</label>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt has a fire control system to reduce aiming time.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>95</Refleum>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Uranium>30</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>420</MaxHitPoints>
+			<WorkToMake>32000</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.1</Flammability>
+
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>80</Insulation_Cold>
+			<Insulation_Heat>80</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<Flammability>-1</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_A</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>AntyCover</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	<ThingDef Name="AT_AP_Power_Head_A" ParentName="Anty_HeadgearBase"><!-- 카타글리피스 헬멧 -->
+		<defName>AT_AP_Power_Head_A</defName>
+		<label>Anty Cataglyphis helmet</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_Head_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>50</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Uranium>15</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>2</Mass>
+			<Flammability>0.1</Flammability>
+			
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.5</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_Head_A</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>AntyHide</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	<ThingDef Name="AT_AP_AdditionalPower_A" ParentName="Anty_GearBase"><!-- 카타글리피스 추가장갑 -->
+		<defName>AT_AP_AdditionalPower_A</defName>
+		<label>Anty Cataglyphis Additional armor</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_AdditionalPower_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>60</Refleum>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Uranium>20</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>3.15</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<Flammability>-0.5</Flammability>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_A</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>AntySidegear</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyFullside</li>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="AT_AP_Power_A"><!-- 카타글리피스 아머 -->
+		<defName>AT_AP_Power_B</defName>
+		<label>Anty Cataglyphis Commender armor</label>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</description>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_B</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="AT_AP_Power_Head_A"><!-- 카타글리피스 헬멧 -->
+		<defName>AT_AP_Power_Head_B</defName>
+		<label>Anty Cataglyphis Commender helmet</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</description>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_Head_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_Head_B</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="AT_AP_AdditionalPower_A"><!-- 카타글리피스 추가장갑 -->
+		<defName>AT_AP_AdditionalPower_B</defName>
+		<label>Anty Cataglyphis Commender Additional armor</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</description>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_AdditionalPower_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_B</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="Anty_GearBase"><!-- 디노포네라 아머 -->
+		<defName>AT_AP_Power_C</defName>
+		<label>Anty Dinoponera armor</label>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIts heavy plating slows the wearer, but it is capable of pull the enemies to the wearer, instead of moving in to them.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>125</Refleum>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Uranium>50</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>420</MaxHitPoints>
+			<WorkToMake>32000</WorkToMake>
+			<Mass>6.5</Mass>
+			<Flammability>0.1</Flammability>
+
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.65</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.45</MoveSpeed>
+			<Flammability>-1</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<MeleeHitChance>-0.12</MeleeHitChance>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_C</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>AntyCover</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+		<!-- <comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>5</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>Diplomatic chain</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps> -->
+			<!-- <verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStaticAnty</verbClass>
+					<label>pop Diplomatic chain</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>BulletExecutionerChain</defaultProjectile>
+					<warmupTime>0.2</warmupTime>
+					<range>20.9</range>
+					<minRange>3.9</minRange>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>ShotAnty_F</soundCast>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs> -->
+	</ThingDef>
+	
+	<ThingDef ParentName="Anty_HeadgearBase"><!-- 디노포네라 헬멧 -->
+		<defName>AT_AP_Power_Head_C</defName>
+		<label>Anty Dinoponera helmet</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_Head_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>80</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Uranium>35</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+			
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.45</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+			<Flammability>-0.5</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_Head_C</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>AntyHide</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Anty_GearBase"><!-- 디노포네라 추가장갑 -->
+		<defName>AT_AP_AdditionalPower_C</defName>
+		<label>Anty Dinoponera Additional armor</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_AdditionalPower_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>90</Refleum>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Uranium>40</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>4.15</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.65</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.35</MoveSpeed>
+			<Flammability>-0.5</Flammability>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_C</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>AntySidegear</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyFullside</li>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+
+	<ThingDef ParentName="Anty_GearBase"><!-- 파라포네라 아머 -->
+		<defName>AT_AP_Power_D</defName>
+		<label>Anty Paraponera armor</label>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt can disarm the enemy.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>125</Refleum>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Uranium>50</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>420</MaxHitPoints>
+			<WorkToMake>32000</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.1</Flammability>
+
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>80</Insulation_Cold>
+			<Insulation_Heat>80</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+			<Flammability>-1</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<MeleeHitChance>0.3</MeleeHitChance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_D</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>AntyCover</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>15</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>Diplomatic needle</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_LaunchProjectileStaticAnty</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>AT_BulletParaponeraLauncher</defaultProjectile>
+					<label>pop Diplomatic needle</label>
+					<warmupTime>0</warmupTime>
+					<range>8.9</range>
+					<minRange>1.9</minRange>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>ShotAnty_D</soundCast>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<onlyManualCast>true</onlyManualCast>
+				</li>
+			</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AT_BulletParaponeraLauncher</defName>
+		<label>Diplomatic needle</label>
+		<graphicData>
+			<texPath>Things/Weapons/lan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>50</speed>
+			<damageDef>AT_ParaponeraBomb</damageDef>
+			<explosionRadius>1.9</explosionRadius>
+			<explosionDelay>10</explosionDelay>
+		</projectile>
+	</ThingDef>
+	
+	<DamageDef Name="AT_ParaponeraBomb" ParentName="AT_glueBomb">
+			<defName>AT_ParaponeraBomb</defName>
+			<label>Diplomatic needle</label>
+			<explosionCellMote>Mote_HyBlast</explosionCellMote>
+			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
+			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
+			<soundExplosion>AT_ChainSoundE</soundExplosion>
+			<impactSoundType>Electric</impactSoundType>
+			<additionalHediffs Inherit="False">
+				<li>
+					<hediff>AT_Paraponera</hediff>
+					<severityPerDamageDealt>1</severityPerDamageDealt>
+					<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				</li>
+			</additionalHediffs>
+	</DamageDef>
+
+	<HediffDef>
+		<defName>AT_Paraponera</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Paraponera</label>
+		<labelNoun>Paraponera</labelNoun>
+		<description>Paraponera</description>
+		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>120</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<ThingDef ParentName="Anty_HeadgearBase"><!-- 파라포네라 헬멧 -->
+		<defName>AT_AP_Power_Head_D</defName>
+		<label>Anty Paraponera helmet</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_Power_Head_D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>80</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Uranium>35</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>2</Mass>
+			<Flammability>0.1</Flammability>
+			
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.58</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+			<Flammability>-0.5</Flammability>
+			<ToxicSensitivity>-1.5</ToxicSensitivity>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_Power_Head_D</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyPower</li>
+				<li>AntyHide</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Anty_GearBase"><!-- 파라포네라 추가장갑 -->
+		<defName>AT_AP_AdditionalPower_D</defName>
+		<label>Anty Paraponera Additional armor</label>
+		<description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</description>
+
+		<recipeMaker>
+			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+		</recipeMaker>
+
+		<graphicData>
+			<texPath>Antylike/Apparel/AT_AP_AdditionalPower_D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<costList>
+			<Refleum>90</Refleum>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Uranium>40</Uranium>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToMake>37250</WorkToMake>
+			<Mass>3.15</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.2</MoveSpeed>
+			<Flammability>-0.5</Flammability>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_D</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>AntySidegear</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>AntyFullside</li>
+				<li>AntyPower</li>
+				<li>Spacer</li>
+				<li>EVA</li>
+				<li>PrestigeCombatGear</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+</Defs>

@@ -80,7 +80,7 @@
   <AntyCorpsesqueeze.description>시체들을 이용하여 진액을 만들어 냅니다.</AntyCorpsesqueeze.description>
   <AntyCorpsesqueeze.jobString>시체 쥐어짜기</AntyCorpsesqueeze.jobString>
   
-  <CookProtyGum.label>프로티 껌 조리</CookProtyGum.label>
+  <CookProtyGum.label>프로티 껌 조리 ×10</CookProtyGum.label>
   <CookProtyGum.description>가죽을 자르고 튀겨 프로티 껌을 만듭니다.</CookProtyGum.description>
   <CookProtyGum.jobString>프로티 껌 조리</CookProtyGum.jobString>
 </LanguageData>

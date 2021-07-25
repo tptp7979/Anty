@@ -256,6 +256,7 @@
 		<descriptionHyperlinks>
 			<HediffDef>AntyQueenbirth</HediffDef>
 			<HediffDef>Ate_Nutritional_jelly</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Nutritional jelly.</jobString>
 		<workAmount>1200</workAmount>
@@ -294,6 +295,7 @@
 		<description>cook Battle stimulation jelly</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntySoldierbirth</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Battle stimulation jelly.</jobString>
 		<workAmount>1200</workAmount>
@@ -332,6 +334,7 @@
 		<description>cook Eraser jelly.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyErgatebirth</HediffDef>
+			<HediffDef>transformationaftereffect</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Cooking Eraser jelly.</jobString>
 		<workAmount>1200</workAmount>

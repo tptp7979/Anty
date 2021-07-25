@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>Anty_pheromone</defName>
+		<label>Anty pheromone Pack</label>
+		<description>Concentrated Anty pheromone that has been packaged with mucous membrane.</description>
+		<descriptionHyperlinks>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/pheromone/PO</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<MarketValue>4</MarketValue>
+			<Mass>0.2</Mass>
+			<Flammability>2</Flammability>
+			<DeteriorationRate>0.2</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>MakeAnty_pheromone</defName>
+		<label>Make pheromone Pack</label>
+		<description>Make pheromone Pack.</description>
+		<descriptionHyperlinks><ThingDef>Anty_pheromone</ThingDef></descriptionHyperlinks>
+		<jobString>Make pheromone Pack</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+		<effectWorking>AntyVomit</effectWorking>
+		<soundWorking>Vomit</soundWorking>
+		<uiIconThing>Anty_pheromone</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+				  <categories>
+					<li>Medicine</li>
+				  </categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Anty_pheromone>4</Anty_pheromone>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+	</RecipeDef>
+
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Antypheromone_Charge</defName>
+		<label>Anty assault pheromone</label>
+		<description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Antypheromone_ChargeHigh</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/pheromone/PC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>25</MarketValue>
+			<Mass>0.005</Mass>
+			<Flammability>2</Flammability>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>20</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Inhale {0}</ingestCommandString>
+			<ingestReportString>Inhaling {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Antypheromone_ChargeReady</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+				<recipeUsers>
+					<li>DrugLab</li>
+				</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Anty_pheromone>4</Anty_pheromone>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1040</listOrder>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>Antypheromone_ChargeReady</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_assaultReady</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<hediffGivers>
+					<li Class="AntyHediffGiver_Random">
+						<hediff>Antypheromone_ChargeHigh</hediff>
+						<mtbDays>0.0001</mtbDays>
+						<partsToAffect>
+							<li>Antyabdomen</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>Antypheromone_ChargeHigh</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Anty assault pheromone</label>
+		<description>Pheromone glands released an unusal amount of assault pheromone, giving a large boost to melee combat performance.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Antypheromone_Charge</ThingDef>
+		</descriptionHyperlinks>
+		<defaultLabelColor>(1,0.2,0.2)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Chargepheromone</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+			<stages>
+				<li>
+					<painOffset>-0.3</painOffset>
+					<statOffsets>
+						<MeleeHitChance>4</MeleeHitChance>
+						<MeleeDodgeChance>4</MeleeDodgeChance>
+						<AimingDelayFactor>0.5</AimingDelayFactor>
+						<ShootingAccuracyPawn>-8</ShootingAccuracyPawn>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>0.25</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+	</HediffDef>
+	
+	
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Antypheromone_Shooting</defName>
+		<label>Anty Shooting pheromone</label>
+		<description>a phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they shoot firearms. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances shooting ability.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Antypheromone_ShootingHigh</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/pheromone/PS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>25</MarketValue>
+			<Mass>0.005</Mass>
+			<Flammability>2</Flammability>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>80</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Inhale {0}</ingestCommandString>
+			<ingestReportString>Inhaling {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Antypheromone_ShootingReady</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>Antypheromonestim</researchPrerequisite>
+				<recipeUsers>
+					<li>DrugLab</li>
+				</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Anty_pheromone>4</Anty_pheromone>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1040</listOrder>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>Antypheromone_ShootingReady</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_ChargeReady</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<hediffGivers>
+					<li Class="AntyHediffGiver_Random">
+						<hediff>Antypheromone_ShootingHigh</hediff>
+						<mtbDays>0.0001</mtbDays>
+						<partsToAffect>
+							<li>Antyabdomen</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+  
+	<HediffDef>
+		<defName>Antypheromone_ShootingHigh</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Anty Shooting pheromone</label>
+		<description>Pheromone glands released an unusual amount of shooting pheromone, giving a large boost shooting ability.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Antypheromone_Shooting</ThingDef>
+		</descriptionHyperlinks>
+		<defaultLabelColor>(1,0.2,0.2)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Shootingpheromone</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+			<stages>
+				<li>
+					<statOffsets>
+						<MeleeHitChance>-4</MeleeHitChance>
+						<MeleeDodgeChance>-4</MeleeDodgeChance>
+						<AimingDelayFactor>-0.5</AimingDelayFactor>
+					</statOffsets>
+					<statFactors>
+						<MoveSpeed>0.8</MoveSpeed>
+					</statFactors>
+					<capMods>
+						<li>
+							<capacity>Sight</capacity>
+							<offset>0.25</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+	</HediffDef>
+</Defs>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.RaceSettings>
+		<defName>AT_Race_Setting</defName>
+		<pawnKindSettings>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>AT_Colonist</li>
+							</kindDefs>
+							<chance>100</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>AT_PlayerFaction</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>AT_Colonist_C</li>
+							</kindDefs>
+							<chance>100</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>AT_PlayerFaction_B</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+			
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>AT_Rifle_A</li>
+						<li>Anty_Commander</li>
+					</kindDefs>
+					<chance>20.0</chance>
+				</li>
+			</alienslavekinds>
+			
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>AT_Rifle_A</li>
+					</kindDefs>
+					<chance>20.0</chance>
+				</li>
+			</alienrefugeekinds>
+			
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>AT_Rifle_A</li>
+              </kindDefs>
+							<chance>1.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>AntyHive</li> 
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+</Defs>

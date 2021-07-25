@@ -35,7 +35,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<forcedRaceTraitEntries>
 				<li>
 					<defName>AT_Solidexoskeleton</defName>
-					<chance>15</chance>
+					<chance>30</chance>
 				</li>
 			</forcedRaceTraitEntries>
 			
@@ -67,7 +67,27 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<chemical>Nutritional_jelly_chemical</chemical>
 					<reactions>
 						<li Class="IngestionOutcomeDoer_GiveHediff">
-							<hediffDef>AntyQueenbirth</hediffDef>
+							<hediffDef>AntyQueen</hediffDef>
+							<chance>1</chance>
+							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+						</li>
+					</reactions>
+				</li>
+				<li>
+					<chemical>Battlestimulation_jelly_chemical</chemical>
+					<reactions>
+						<li Class="IngestionOutcomeDoer_GiveHediff">
+							<hediffDef>AntySoldier</hediffDef>
+							<chance>1</chance>
+							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+						</li>
+					</reactions>
+				</li>
+				<li>
+					<chemical>Eraser_jelly_chemical</chemical>
+					<reactions>
+						<li Class="IngestionOutcomeDoer_GiveHediff">
+							<hediffDef>AntyErgate</hediffDef>
 							<chance>1</chance>
 							<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
 						</li>
@@ -76,7 +96,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</chemicalSettings>
 
 		<alienPartGenerator>
-			<atlasScale>1</atlasScale>
 			<aliencrowntypes><!--머리-->
 				<li>AntyA</li>
 				<li>AntyB</li>
@@ -356,20 +375,168 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 						</east>
 					</offsets>
 				</li>
+				
+				<li Class="MoharCustomHAR.MoharBodyAddon"><!--안광-->
+					<path>Antylike/Heads/AT_PE_CC</path>
+					<hediffGraphics>
+						<Antypheromone_SuicideHigh>Antylike/Heads/AT_PE_E</Antypheromone_SuicideHigh>
+						<Antypheromone_ChargeHigh>Antylike/Heads/AT_PE_C</Antypheromone_ChargeHigh>
+						<Antypheromone_ShootingHigh>Antylike/Heads/AT_PE_S</Antypheromone_ShootingHigh>
+					</hediffGraphics>
+					<bodyPart>Eye</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>0.9</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<drawIfDead>false</drawIfDead>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<hiddenUnderApparelFor>
+						<li>FullHead</li>
+					</hiddenUnderApparelFor>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(-0.42,0.55)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.5,0.55)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+				
+				<li Class="MoharCustomHAR.MoharBodyAddon"><!--배광-->
+					<path>Antylike/Tails/ATTail_CP_south</path>
+					<hediffGraphics>
+						<Antypheromone_SuicideHigh>Antylike/Tails/ATTail_EP</Antypheromone_SuicideHigh>
+						<Antypheromone_ChargeHigh>Antylike/Tails/ATTail_CP</Antypheromone_ChargeHigh>
+						<Antypheromone_ShootingHigh>Antylike/Tails/ATTail_SP</Antypheromone_ShootingHigh>
+					</hediffGraphics>
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<drawIfDead>false</drawIfDead>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<hiddenUnderApparelTag>
+						<li>AntyFullside</li>
+					</hiddenUnderApparelTag>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+				
+				<li><!--변이리플리움-->
+					<path>Antylike/Tails/ATTail_MPA_south</path>
+					<hediffGraphics>
+						<AntyTransitionRefleum>Antylike/Tails/ATTail_MPA</AntyTransitionRefleum>
+					</hediffGraphics>
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+
+				<li><!--변이리플리움-->
+					<path>Antylike/Tails/ATTail_MPA_south</path>
+					<hediffGraphics>
+						<AntyTransitionRefleum>Antylike/Tails/ATTail_MPB</AntyTransitionRefleum>
+					</hediffGraphics>
+					<bodyPart>Antyabdomen</bodyPart>
+					<inFrontOfBody>true</inFrontOfBody>
+					<colorChannel>skin</colorChannel>
+					<drawSize>1</drawSize>
+					<drawnInBed>false</drawnInBed>
+					<angle>0</angle>
+					<defaultOffset>Tail</defaultOffset>
+					<shaderType>TransparentPostLight</shaderType>
+					<offsets>
+						<south>
+							<bodyTypes>
+							<Thin>(0,0)</Thin>
+							</bodyTypes>
+						</south>
+						
+						<north>
+							<bodyTypes>
+							<Thin>(0,0.55)</Thin>
+							</bodyTypes>
+						</north>
+					  
+						<east>
+							<bodyTypes>
+							<Thin>(-0.32,0.23)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
 			</bodyAddons><!-- 몸부착물 -->
 		</alienPartGenerator>
 		</generalSettings>
-		
-		<graphicPaths><!-- 텍스쳐 -->
-				<li>
-					<head>Antylike/Heads/</head>
-					<body>Antylike/Bodies/</body>
-					<skeleton>Antylike/Bodies/Dessicated_Anty_Thin</skeleton>
-					<skull>Antylike/Bodies/None_Average_Skull_Anty</skull>
-				</li>
-		</graphicPaths><!-- 텍스쳐 -->
-		
-		<styleSettings>
+      
+        <graphicPaths><!-- 텍스쳐 -->
+            <li>
+                <head>Antylike/Heads/</head>
+                <body>Antylike/Bodies/</body>
+                <skeleton>Antylike/Bodies/Dessicated_Anty_Thin</skeleton>
+				<skull>Antylike/Bodies/None_Average_Skull_Anty</skull>
+            </li>
+        </graphicPaths><!-- 텍스쳐 -->
+      
+        <styleSettings>
 			<li>
 				<key>HairDef</key>
 				<value>
@@ -393,7 +560,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 				</value>
 			</li>
 		</styleSettings>
-		
+      
 		<relationSettings><!-- 관계 -->
 				<relationChanceModifierLover>0</relationChanceModifierLover>
 				<relationChanceModifierExLover>0</relationChanceModifierExLover>
@@ -696,7 +863,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</researchList><!-- 연구 -->
 			
 			<recipeList><!-- 제작 -->
-				<li>MakeAnty_pheromone</li>
 			</recipeList><!-- 제작 -->
 			
 			<traitList><!-- 특성 -->
@@ -892,6 +1058,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		</ageGenerationCurve>
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
+				<li>Anty_HediffGiverSet</li>
 			</hediffGiverSets>
     </race><!-- 생태 -->
 
@@ -953,6 +1120,10 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
       </li>
 	  <li>
         <damageDef>AT_AcidBomb_B</damageDef>
+        <multiplier>0.8</multiplier>
+      </li>
+	   <li>
+        <damageDef>AT_AcidBomb_C</damageDef>
         <multiplier>0.8</multiplier>
       </li>
 	  <li>

@@ -36,9 +36,9 @@
 		</disallowedTraits>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<!-- <forcedHediffs>
+		<forcedHediffs>
 		<li>AntyErgatebirth</li>
-		</forcedHediffs> -->
+		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 
 	<!-- 일반유충 -->	
