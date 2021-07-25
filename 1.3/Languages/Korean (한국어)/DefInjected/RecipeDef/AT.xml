@@ -92,4 +92,8 @@
   <AntySoldierbirth.label>병정개미화</AntySoldierbirth.label>
   <AntySoldierbirth.description>병정개미화.</AntySoldierbirth.description>
   <AntySoldierbirth.jobString>병정개미화</AntySoldierbirth.jobString>
+
+  <MakeAnty_pheromone.label>페로몬 팩 제작 ×4</MakeAnty_pheromone.label>
+  <MakeAnty_pheromone.description>페로몬 팩 제작.</MakeAnty_pheromone.description>
+  <MakeAnty_pheromone.jobString>페로몬 팩 제작</MakeAnty_pheromone.jobString>
 </LanguageData>

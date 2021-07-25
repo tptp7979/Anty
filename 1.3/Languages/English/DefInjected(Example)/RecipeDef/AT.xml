@@ -48,6 +48,14 @@
   <CookProtyGum.jobString>Cook Proty Gum</CookProtyGum.jobString>
 
   <!-- 1.3only -->
+  <AntyErgatebirth.label>Make Ergate</AntyErgatebirth.label>
+  <AntyErgatebirth.description>Make Ergate.</AntyErgatebirth.description>
+  <AntyErgatebirth.jobString>Make Ergate</AntyErgatebirth.jobString>
+
+  <AntySoldierbirth.label>Make Soldier</AntySoldierbirth.label>
+  <AntySoldierbirth.description>Make Soldier.</AntySoldierbirth.description>
+  <AntySoldierbirth.jobString>Make Soldier</AntySoldierbirth.jobString>
+
   <MakeAnty_pheromone.label>Make pheromone Pack ×4</MakeAnty_pheromone.label>
   <MakeAnty_pheromone.description>Make pheromone Pack.</MakeAnty_pheromone.description>
   <MakeAnty_pheromone.jobString>Make pheromone Pack</MakeAnty_pheromone.jobString>
