@@ -363,14 +363,6 @@
 			<color>(0.2, 0.2, 0.6)</color>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
-		<comps>
-			<li Class="HeatSeeker.CompProperties_Missile">
-				<destinationOffsetRadius>0</destinationOffsetRadius>
-				<initialOffsetRadius>0</initialOffsetRadius>
-				<inertiaFactor>0.12</inertiaFactor>
-			</li>
-			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
-		</comps>
 		<projectile>
 			<speed>2</speed>
 			<damageDef>Stun</damageDef>
@@ -514,14 +506,6 @@
 			<color>(0.6, 0.2, 0.2)</color>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
-		<comps>
-			<li Class="HeatSeeker.CompProperties_Missile">
-				<destinationOffsetRadius>0</destinationOffsetRadius>
-				<initialOffsetRadius>0</initialOffsetRadius>
-				<inertiaFactor>0.12</inertiaFactor>
-			</li>
-			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
-		</comps>
 		<projectile>
 			<speed>2</speed>
 			<damageDef>Stun</damageDef>

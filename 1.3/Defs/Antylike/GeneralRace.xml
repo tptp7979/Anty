@@ -96,6 +96,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</chemicalSettings>
 
 		<alienPartGenerator>
+			<atlasScale>2</atlasScale>
 			<aliencrowntypes><!--머리-->
 				<li>AntyA</li>
 				<li>AntyB</li>
@@ -343,9 +344,9 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			  
 				<li><!--배-->
 					<path>Antylike/Tails/ATTail</path>
-					<!-- <hediffGraphics>
+					<hediffGraphics>
 						<AntyQueenbirth>Antylike/Tails/ATTailB</AntyQueenbirth>
-					</hediffGraphics> -->
+					</hediffGraphics>
 					<bodyPart>Antyabdomen</bodyPart>
 					<inFrontOfBody>true</inFrontOfBody>
 					<colorChannel>skin</colorChannel>
@@ -354,24 +355,26 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 					<angle>0</angle>
 					<defaultOffset>Tail</defaultOffset>
 					<shaderType>Cutout</shaderType>
-					<!-- <layerOffset>-0.319</layerOffset> -->
 					<offsets>
 						<south>
 							<bodyTypes>
 							<Thin>(0,0)</Thin>
 							</bodyTypes>
+							<layerOffset>-0.319</layerOffset>
 						</south>
 						
 						<north>
 							<bodyTypes>
 							<Thin>(0,0.55)</Thin>
 							</bodyTypes>
+							<layerOffset>-0.319</layerOffset>
 						</north>
 					  
 						<east>
 							<bodyTypes>
 							<Thin>(-0.32,0.23)</Thin>
 							</bodyTypes>
+							<layerOffset>-0.319</layerOffset>
 						</east>
 					</offsets>
 				</li>
@@ -1160,12 +1163,15 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 	<genericWounds>
 		<li>
 		  <texture>Things/Pawn/Wounds/WoundFleshA</texture>
+		  <color>0.46,0.50,0.46</color>
 		</li>
 		<li>
 		  <texture>Things/Pawn/Wounds/WoundFleshB</texture>
+		  <color>0.46,0.50,0.46</color>
 		</li>
 		<li>
 		  <texture>Things/Pawn/Wounds/WoundFleshC</texture>
+		  <color>0.46,0.50,0.46</color>
 		</li>
 	  </genericWounds>
 	  <bandagedWounds>
