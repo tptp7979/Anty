@@ -43,7 +43,12 @@
   <AntyCorpsesqueeze.label>Corpse squeeze</AntyCorpsesqueeze.label>
   <AntyCorpsesqueeze.description>Using corpses to create an extract.</AntyCorpsesqueeze.description>
   <AntyCorpsesqueeze.jobString>Corpse squeeze</AntyCorpsesqueeze.jobString>
-  <CookProtyGum.label>Cook Proty Gum</CookProtyGum.label>
+  <CookProtyGum.label>Cook Proty Gum ×10</CookProtyGum.label><!--  -->
   <CookProtyGum.description>Cook Proty Gum.</CookProtyGum.description>
   <CookProtyGum.jobString>Cook Proty Gum</CookProtyGum.jobString>
+
+  <!-- 1.3only -->
+  <MakeAnty_pheromone.label>Make pheromone Pack ×4</MakeAnty_pheromone.label>
+  <MakeAnty_pheromone.description>Make pheromone Pack.</MakeAnty_pheromone.description>
+  <MakeAnty_pheromone.jobString>Make pheromone Pack</MakeAnty_pheromone.jobString>
 </LanguageData>

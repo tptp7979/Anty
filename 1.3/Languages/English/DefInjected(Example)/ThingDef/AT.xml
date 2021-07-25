@@ -9,15 +9,15 @@
   <EggProtyUn.label>Proty egg</EggProtyUn.label>
   <EggProtyUn.description>An unfertilized egg of Protie.</EggProtyUn.description>
   <Nutritional_jelly_thing.label>Nutritional jelly</Nutritional_jelly_thing.label>
-  <Nutritional_jelly_thing.description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</Nutritional_jelly_thing.description>
+  <Nutritional_jelly_thing.description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender.</Nutritional_jelly_thing.description><!--  -->
   <Nutritional_jelly_thing.ingestible.ingestCommandString>Take {0}</Nutritional_jelly_thing.ingestible.ingestCommandString>
   <Nutritional_jelly_thing.ingestible.ingestReportString>Taking {0}.</Nutritional_jelly_thing.ingestible.ingestReportString>
   <Battlestimulation_jelly_thing.label>Combat-stim jelly</Battlestimulation_jelly_thing.label>
-  <Battlestimulation_jelly_thing.description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities. Anty larvae and serious injuries cannot survive this transformation.</Battlestimulation_jelly_thing.description>
+  <Battlestimulation_jelly_thing.description>Jelly that is consumed by combatant entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will experience heightened enhancements in physical abilities.</Battlestimulation_jelly_thing.description><!--  -->
   <Battlestimulation_jelly_thing.ingestible.ingestCommandString>Take {0}</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
   <Battlestimulation_jelly_thing.ingestible.ingestReportString>Taking {0}.</Battlestimulation_jelly_thing.ingestible.ingestReportString>
   <Eraser_jelly_thing.label>Eraser jelly</Eraser_jelly_thing.label>
-  <Eraser_jelly_thing.description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies. Anty larvae and serious injuries cannot survive this transformation.</Eraser_jelly_thing.description>
+  <Eraser_jelly_thing.description>Jelly that is consumed to nullify the trait and return to the original state. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will lose the traits gained by other jellies.</Eraser_jelly_thing.description><!--  -->
   <Eraser_jelly_thing.ingestible.ingestCommandString>Take {0}</Eraser_jelly_thing.ingestible.ingestCommandString>
   <Eraser_jelly_thing.ingestible.ingestReportString>Taking {0}.</Eraser_jelly_thing.ingestible.ingestReportString>
   <AT_Aphidextract.label>Aphid extract</AT_Aphidextract.label>
