@@ -17,7 +17,7 @@
   <Battlestimulation_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Battlestimulation_jelly_thing.ingestible.ingestCommandString>
   <Battlestimulation_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Battlestimulation_jelly_thing.ingestible.ingestReportString>
   <Eraser_jelly_thing.label>초기화 젤리</Eraser_jelly_thing.label>
-  <Eraser_jelly_thing.description>앤티들이 신체의 특성을 지우고 원래의 상태로 돌아가기 위해서 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 다른 젤리들로 추가된 신체능력이 사라집니다.</Eraser_jelly_thing.description>
+  <Eraser_jelly_thing.description>앤티들이 신체의 특성을 지우고 원래의 상태로 돌아가기 위해서 먹는 젤리입니다. 하지만 이것은 진짜 젤리가 아닌 유전자 변형을 유도하는 약물입니다. 이것을 섭취하게 되면, 다른 젤리들로 추가된 신체능력이 사라집니다.\n\n하지만 영양젤리로 인한 변형은 되돌릴 수 없습니다.</Eraser_jelly_thing.description>
   <Eraser_jelly_thing.ingestible.ingestCommandString>{0} 섭취</Eraser_jelly_thing.ingestible.ingestCommandString>
   <Eraser_jelly_thing.ingestible.ingestReportString>{0} 섭취중</Eraser_jelly_thing.ingestible.ingestReportString>
   <AT_AP_St_A.label>앤티 셔츠</AT_AP_St_A.label>
