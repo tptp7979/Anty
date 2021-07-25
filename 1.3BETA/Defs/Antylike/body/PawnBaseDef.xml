@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-	<ThingDef Name="AT_PawnBase" ParentName="BasePawn" Abstract="True">
-    <butcherProducts>
-    </butcherProducts>
-	</ThingDef>
-</Defs>

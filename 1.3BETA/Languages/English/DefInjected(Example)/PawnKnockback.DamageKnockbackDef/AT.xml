@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <AT_ChainDamageDef.label>knockback damaage</AT_ChainDamageDef.label>
-  <AT_ChainDamageDef.deathMessage>{0} has been shot to death.</AT_ChainDamageDef.deathMessage>
-  <AT_BackDamageDef.label>knockback damaage</AT_BackDamageDef.label>
-  <AT_BackDamageDef.deathMessage>{0} has been shot to death.</AT_BackDamageDef.deathMessage>
-</LanguageData>

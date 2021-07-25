@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <AT_Solidexoskeleton.degreeDatas.0.label>Solid exoskeleton</AT_Solidexoskeleton.degreeDatas.0.label>
-  <AT_Solidexoskeleton.degreeDatas.0.description>{PAWN_nameDef} has Solid exoskeleton, {PAWN_pronoun} takes much less damage than other Anties from the same blows.</AT_Solidexoskeleton.degreeDatas.0.description>
-</LanguageData>

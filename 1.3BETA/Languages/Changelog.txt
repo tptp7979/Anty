@@ -1,5 +1,0 @@
-BodyDef
-BodyPartDef
-RecipeDef
-ResearchProjectDef
-ThingDef
