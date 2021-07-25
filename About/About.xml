@@ -48,14 +48,14 @@ This mod
       <displayName>HumanoidAlienRaces</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
     </li>
-<!-- 	<li>
+	<li>
       <packageId>goudaquiche.MoharFramework</packageId>
       <displayName>MoHARframework</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
-    </li> -->
+    </li>
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
-	<!-- <li>goudaquiche.MoharFramework</li> -->
+	<li>goudaquiche.MoharFramework</li>
   </loadAfter>
 </ModMetaData>
