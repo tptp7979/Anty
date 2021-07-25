@@ -31,7 +31,7 @@
 			<li>Offworld</li>
 		</backstoryCategories>
 		<allowedCultures>
-			<li>Rustican</li>
+			<li>AntyCulture</li>
 		</allowedCultures>
 		<factionIconPath>Icon/ATP_Icon</factionIconPath>
 		<settlementTexturePath>Icon/ATP_HomeIcon</settlementTexturePath>
@@ -63,7 +63,7 @@
 			<li>Offworld</li>
 		</backstoryCategories>
 		<allowedCultures>
-			<li>Rustican</li>
+			<li>AntyCulture</li>
 		</allowedCultures>
 		<factionIconPath>Icon/ATP_Icon</factionIconPath>
 		<settlementTexturePath>Icon/ATP_HomeIcon</settlementTexturePath>
@@ -124,7 +124,7 @@
 			<li>Offworld</li>
 		</backstoryCategories>
 		<allowedCultures>
-			<li>Rustican</li>
+			<li>AntyCulture</li>
 		</allowedCultures>
 		<geneticVariance>0.7</geneticVariance>
 		<maxPawnCostPerTotalPointsCurve>
@@ -398,5 +398,59 @@
 				</fixedParams>
 			</root>
 	</ThingSetMakerDef>
+
+	<CultureDef>
+		<defName>AntyCulture</defName>
+		<label>Anty Hive(TEST)</label>
+		<description>TEST</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>OriginSpacer</li>
+		</allowedPlaceTags>
+		<iconPath>Icon/AT_Icon_B</iconPath>
+		<iconColor>(1.0, 1.0, 1.0)</iconColor>
+		<thingStyleCategories>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<category>Rustic</category>
+				<priority>2</priority>
+			</li>
+		</thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>AThair</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooFaceTribal</tag>
+				<baseWeight>0.4</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooBodyTribal</tag>
+				<baseWeight>0.4</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
  
 </Defs>
