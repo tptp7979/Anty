@@ -1062,6 +1062,38 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			</li>
 		</stages>
 	</HediffDef>
+
+	<HediffDef>
+		<defName>AT_Shield</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Physical force neutralization shield</label>
+		<labelNoun>Physical force neutralization shield</labelNoun>
+		<description>Physical force neutralization shield.</description>
+		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>180</disappearsAfterTicks>
+			</li>
+			<!-- <li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-20</severityPerDay>
+			</li> -->
+			<!-- <li Class="HediffCompProperties_Effecter">
+				<stateEffecter>TargetP</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li> -->
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>0</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<LetterDef Name="AT_Soldierbirth">
 		<defName>AT_Soldierbirth</defName>
