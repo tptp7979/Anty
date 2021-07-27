@@ -611,5 +611,6 @@
 		<defName>AT_AcidBomb_C</defName>
 		<soundExplosion>Explosion_Acid_SB</soundExplosion>
 		<minDamageToFragment>10</minDamageToFragment>
+		<externalViolence>false</externalViolence>
 	</DamageDef>
 </Defs>

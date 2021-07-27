@@ -57,7 +57,7 @@
 						<li>
 							<kindDefs>
 								<li>AT_Rifle_A</li>
-              </kindDefs>
+							</kindDefs>
 							<chance>1.0</chance>
 						</li>
 					</pawnKindEntries>
