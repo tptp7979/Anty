@@ -1142,16 +1142,16 @@
     <damageEffecter>Damage_HitInsect</damageEffecter>
 	<genericWounds>
 		<li>
-		  <texture>Things/Pawn/Wounds/WoundFleshA</texture>
-		  <color>0.46,0.50,0.46</color>
-		</li>
-		<li>
-		  <texture>Things/Pawn/Wounds/WoundFleshB</texture>
-		  <color>0.46,0.50,0.46</color>
-		</li>
-		<li>
-		  <texture>Things/Pawn/Wounds/WoundFleshC</texture>
-		  <color>0.46,0.50,0.46</color>
+			<texture>Things/Pawn/Wounds/WoundA</texture>
+			<color>0.23,0.20,0.17</color>
+		  </li>
+		  <li>
+			<texture>Things/Pawn/Wounds/WoundB</texture>
+			<color>0.23,0.20,0.17</color>
+		  </li>
+		  <li>
+			<texture>Things/Pawn/Wounds/WoundC</texture>
+			<color>0.23,0.20,0.17</color>
 		</li>
 	  </genericWounds>
 	  <bandagedWounds>
