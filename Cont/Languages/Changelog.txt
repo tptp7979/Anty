@@ -1,1 +1,10 @@
+(Year/Month/Day)
+
+(2021/7/25)
 BodyDef
+
+(2021/7/27)
+DamageDef
+HediffDef
+TingDef
+RecipeDef

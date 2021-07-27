@@ -28,4 +28,6 @@
   <AT_AcidBullet_B.deathMessage>{0} (은)는 레드버스트 탄에 맞아 죽었습니다.</AT_AcidBullet_B.deathMessage>
   <AT_TargetBomb.label>산성 폭발</AT_TargetBomb.label>
   <AT_TargetBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_TargetBomb.deathMessage>
+  <AT_AcidBomb_POP.label>물리력 차단 보호박</AT_AcidBomb_POP.label>
+  <AT_AcidBomb_POP.deathMessage>{0} (은)는 폭발로 죽었습니다.</AT_AcidBomb_POP.deathMessage>
 </LanguageData>

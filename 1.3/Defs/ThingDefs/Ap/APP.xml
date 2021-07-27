@@ -264,7 +264,7 @@
 	<ThingDef ParentName="Anty_GearBase"><!-- 디노포네라 아머 -->
 		<defName>AT_AP_Power_C</defName>
 		<label>Anty Dinoponera armor</label>
-		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIts heavy plating slows the wearer, but it is capable of pull the enemies to the wearer, instead of moving in to them.</description>
+		<description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nAlthough it is difficult to move due to its thick armor, it can deploy a shield that absorbs all damage.</description>
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
@@ -337,7 +337,7 @@
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
-				<maxCharges>5</maxCharges>
+				<maxCharges>2</maxCharges>
 				<ammoDef>Refleum</ammoDef>
 				<ammoCountToRefill>5</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
@@ -361,6 +361,10 @@
 					<consumeFuelPerShot>1</consumeFuelPerShot>
 					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 					<onlyManualCast>true</onlyManualCast>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<violent>false</violent>
 				</li>
 			</verbs>
 	</ThingDef>
@@ -378,7 +382,7 @@
 		<projectile>
 			<speed>50</speed>
 			<damageDef>AT_AcidBomb_POP</damageDef>
-			<explosionRadius>2.1</explosionRadius>
+			<explosionRadius>1.9</explosionRadius>
 			<explosionDelay>10</explosionDelay>
 		</projectile>
 	</ThingDef>
@@ -387,7 +391,7 @@
 		<defName>AT_AcidBomb_POP</defName>
 		<label>Physical force neutralization shield</label>
 		<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
-		<externalViolence>true</externalViolence>
+		<externalViolence>false</externalViolence>
 		<isExplosive>true</isExplosive>
 		<deathMessage>{0} has died in an explosion.</deathMessage>
 		<hediff>glueBomb</hediff>

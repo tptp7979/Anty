@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- 이 모드의 xml, Textures 에 관한 모든 저작권은 steam nick:: Roo / https://steamcommunity.com/id/tptp7979/ 에게 있음을 알리며
-무단 수정과 배포 및 중복 업로드를 금지합니다.
-
-All copyrights to the xml and Textures in this mod are reserved by steam nick:: Roo / https://steamcommunity.com/id/tptp7979/
-Unauthorized modification, distribution and duplicate upload are prohibited. -->
-
 	<!-- 변태 부작용 -->
 	<HediffDef>
 		<defName>transformationaftereffect</defName>
@@ -1067,7 +1061,6 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<defName>AT_Shield</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Physical force neutralization shield</label>
-		<labelNoun>Physical force neutralization shield</labelNoun>
 		<description>Physical force neutralization shield.</description>
 		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -1238,7 +1231,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 			<MarketValue>6.0</MarketValue>
 			<RoyalFavorValue>0.7</RoyalFavorValue>
 			<Mass>0.025</Mass>
-			<Nutrition>1</Nutrition>
+			<Nutrition>0.9</Nutrition>
 			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<ingestible>

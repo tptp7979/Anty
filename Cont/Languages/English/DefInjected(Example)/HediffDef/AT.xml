@@ -152,4 +152,6 @@
   <AT_Reinforcedexoskeleton.label>Anty Reinforced exoskeleton</AT_Reinforcedexoskeleton.label>
   <AT_Reinforcedexoskeleton.labelNoun>a Reinforced exoskeleton</AT_Reinforcedexoskeleton.labelNoun>
   <AT_Reinforcedexoskeleton.description>An installed Reinforced exoskeleton.</AT_Reinforcedexoskeleton.description>
+  <AT_Shield.label>Physical force neutralization shield</AT_Shield.label><!-- Change -->
+  <AT_Shield.description>Absorbs all damage.</AT_Shield.description><!-- Change -->
 </LanguageData>

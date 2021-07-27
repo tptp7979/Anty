@@ -85,8 +85,8 @@
   <AT_AP_AdditionalPower_B.label>Anty Cataglyphis Commender Additional armor</AT_AP_AdditionalPower_B.label>
   <AT_AP_AdditionalPower_B.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_B.description>
   <AT_AP_Power_C.label>Anty Dinoponera armor</AT_AP_Power_C.label>
-  <AT_AP_Power_C.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIts heavy plating slows the wearer, but it is capable of pull the enemies to the wearer, instead of moving in to them.</AT_AP_Power_C.description>
-  <AT_AP_Power_C.verbs.0.label>pop Diplomatic chain</AT_AP_Power_C.verbs.0.label>
+  <AT_AP_Power_C.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nAlthough it is difficult to move due to its thick armor, it can deploy a shield that absorbs all damage.</AT_AP_Power_C.description><!-- Change -->
+  <AT_AP_Power_C.verbs.0.label>pop Physical force neutralization shield</AT_AP_Power_C.verbs.0.label><!-- Change -->
   <AT_AP_Power_Head_C.label>Anty Dinoponera helmet</AT_AP_Power_Head_C.label>
   <AT_AP_Power_Head_C.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_C.description>
   <AT_AP_AdditionalPower_C.label>Anty Dinoponera Additional armor</AT_AP_AdditionalPower_C.label>
@@ -205,7 +205,7 @@
   <AT_PP_S.description>We wish you a merry warfare\n\nWe wish you a merry warfare\n\nWe wish you a merry warfare and a Painful death!\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nOh, bring us some pirate pudding\n\nOh, bring us some Tribal pudding\n\nOh, bring us some Empire pudding\n\nAnd bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death!\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nWe won't go until we get victory\n\nSo bring it right here\n\nGood tidings we bring to you and your kin\n\nWe wish you a merry warfare and a Painful death...again!</AT_PP_S.description>
   <AT_PP_S.tools.0.label>Box corner</AT_PP_S.tools.0.label>
   <Bullet_PP_A.label>Giftbox</Bullet_PP_A.label>
-  <BulletExecutionerChain.label>Diplomatic chain</BulletExecutionerChain.label>
+  <BulletExecutionerChain.label>Physical force neutralization shield</BulletExecutionerChain.label><!-- Change -->
   <AT_hydroheliumion_A.label>Red-Burst Rifle</AT_hydroheliumion_A.label>
   <AT_hydroheliumion_A.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It is the most standard form of Redburst weapon.</AT_hydroheliumion_A.description>
   <AT_hydroheliumion_A.tools.0.label>Nozzle</AT_hydroheliumion_A.tools.0.label>

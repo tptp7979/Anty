@@ -23,4 +23,6 @@
   <AT_AcidBullet_B.deathMessage>{0} has been shot to death.</AT_AcidBullet_B.deathMessage>
   <AT_TargetBomb.label>Acidbomb</AT_TargetBomb.label>
   <AT_TargetBomb.deathMessage>{0} has died in an explosion.</AT_TargetBomb.deathMessage>
+  <AT_AcidBomb_POP.label>Physical force neutralization shield</AT_AcidBomb_POP.label><!-- Change -->
+  <AT_AcidBomb_POP.deathMessage>{0} has died in an explosion.</AT_AcidBomb_POP.deathMessage><!-- Change -->
 </LanguageData>
