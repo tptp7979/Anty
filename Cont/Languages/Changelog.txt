@@ -6,5 +6,5 @@ BodyDef
 (2021/7/27)
 DamageDef
 HediffDef
-TingDef
+ThingDef
 RecipeDef
