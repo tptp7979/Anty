@@ -204,4 +204,37 @@
 				</li>
 			</children>
 	</EffecterDef>
+
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_AT_Shield</defName>
+		<graphicData>
+			<texPath>Things/Mote/IngressbreakerRadius</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(1, 0, 0)</color>
+		</graphicData>
+		<thingClass>MoteThrownAttached</thingClass>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<mote>
+			<fadeInTime>0.25</fadeInTime>
+			<solidTime>0</solidTime>
+			<fadeOutTime>0.25</fadeOutTime>
+			<attachedDrawOffset>(0, 0, 0)</attachedDrawOffset>
+		</mote>
+	</ThingDef>
+
+	<EffecterDef>
+		<defName>AT_Shield</defName>
+			<children>
+				<li>
+					<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+					<scale>1.75</scale>
+					<chancePerTick>0.15</chancePerTick>
+					<positionRadius>0</positionRadius>
+					<moteDef>Mote_AT_Shield</moteDef>
+					<speed>0</speed>
+					<angle>0~180</angle>
+				</li>
+			</children>
+	</EffecterDef>
 </Defs>

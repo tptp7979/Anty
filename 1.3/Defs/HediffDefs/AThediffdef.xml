@@ -849,6 +849,12 @@
 			<destroyedLabel>Destroyed</destroyedLabel>
 			<destroyedOutLabel>Destroyed</destroyedOutLabel>
 		</injuryProps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0</minSeverity>
+			</li>
+		</stages>
 	</HediffDef>
 	
 	<HediffDef>
@@ -1068,15 +1074,12 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>180</disappearsAfterTicks>
+				<disappearsAfterTicks>300</disappearsAfterTicks>
 			</li>
-			<!-- <li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-20</severityPerDay>
-			</li> -->
-			<!-- <li Class="HediffCompProperties_Effecter">
-				<stateEffecter>TargetP</stateEffecter>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>AT_Shield</stateEffecter>
 				<severityIndices>0~5</severityIndices>
-			</li> -->
+			</li>
 		</comps>
 		<stages>
 			<li>
