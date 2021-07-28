@@ -525,4 +525,15 @@
       </value>
     </match>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/CultureDef[defName = *]/styleItemTags</xpath>
+	<value>
+		<li>
+			<tag>AThair</tag>
+			<baseWeight>0.01</baseWeight>
+			<weightFactor>0.01</weightFactor>
+		</li>
+	</value>
+	</Operation>
 </Patch>
