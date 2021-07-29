@@ -52,11 +52,15 @@
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			  </li>
 		</comps>
 		<apparel>
 			<tags>
 				<li>AT_Apparel</li>
 			</tags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 
 		<recipeMaker>
@@ -120,6 +124,7 @@
 				<li>AT_Gear</li>
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 
 		<recipeMaker>
@@ -184,6 +189,7 @@
 			<tags>
 				<li>AT_Gear</li>
 			</tags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 
 		<recipeMaker>
