@@ -1142,13 +1142,13 @@
     <damageEffecter>Damage_HitInsect</damageEffecter>
 	<genericWounds>
 		<li>
-			<texture>Things/Pawn/Wounds/WoundA</texture>
+			<texture>Antylike/Wounds/WoundA</texture>
 		  </li>
 		  <li>
-			<texture>Things/Pawn/Wounds/WoundB</texture>
+			<texture>Antylike/Wounds/WoundB</texture>
 		  </li>
 		  <li>
-			<texture>Things/Pawn/Wounds/WoundC</texture>
+			<texture>Antylike/Wounds/WoundC</texture>
 		</li>
 	  </genericWounds>
 	  <bandagedWounds>
