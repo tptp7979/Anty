@@ -316,6 +316,7 @@
 			<ThingDef>Refleum</ThingDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Refleum</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -512,6 +513,7 @@
 			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/LifePoweredGenerator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

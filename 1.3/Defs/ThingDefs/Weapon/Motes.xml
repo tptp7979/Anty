@@ -151,4 +151,36 @@
 			<fadeOutTime>1</fadeOutTime>
 		</mote>
 	</ThingDef>
+
+<!-- 	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>AntyGasSmoke</defName>
+		<graphicData>
+			<texPath>Things/Weapons/AcidSmoke</texPath>
+			<drawSize>2.5</drawSize>
+			<color>(60,0,0,30)</color>
+			<shaderType>TransparentPostLight</shaderType>
+			<renderInstanced>true</renderInstanced>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.50</fadeInTime>
+		<solidTime>20</solidTime>
+		<fadeOutTime>0.5</fadeOutTime>
+		<growthRate>0.05</growthRate>
+	</FleckDef>
+
+	<EffecterDef>
+		<defName>AntyGasSmoke</defName>
+		<children>
+		<li>
+			<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+			<fleckDef>AntyGasSmoke</fleckDef>
+			<spawnLocType>OnSource</spawnLocType>
+			<rotationRate>-10~10</rotationRate>
+			<speed>0.1~0.22</speed>
+			<scale>0.1~0.15</scale>
+			<chancePerTick>0.02</chancePerTick>
+			<positionOffset>(0,0,0.25)</positionOffset>
+		</li>
+		</children>
+	</EffecterDef> -->
 </Defs>

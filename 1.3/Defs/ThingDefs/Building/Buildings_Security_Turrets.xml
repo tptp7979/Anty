@@ -10,6 +10,7 @@
 			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
@@ -156,6 +157,7 @@
 			<ThingDef>Anty_Recyclecore</ThingDef>
 		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
