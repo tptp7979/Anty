@@ -1153,7 +1153,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Waist</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AT_Aphidextract-stimReady</addsHediff>
+		<addsHediff>AT_Aphidextract-stim</addsHediff>
 		<researchPrerequisite>AntyAphidextract</researchPrerequisite>
 		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
 		<skillRequirements>
@@ -1161,7 +1161,7 @@
 		</skillRequirements>
 	</RecipeDef>
 	
-	<HediffDef>
+<!-- 	<HediffDef>
 		<defName>AT_Aphidextract-stimReady</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>AT_Aphidextract-stimReady</label>
@@ -1178,7 +1178,7 @@
 				
 			</li>
 		</comps>
-	</HediffDef>
+	</HediffDef> -->
 	
 	<HediffDef>
 		<defName>AT_Aphidextract-stim</defName>
