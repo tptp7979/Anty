@@ -613,6 +613,18 @@
 					<original>ButcheredHumanlikeCorpse</original>
 					<replacer>ButcheredHumanlikeCorpse_B</replacer> 
 				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>ButcheredHuman_Abhorrent</original>
+					<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>ButcheredHuman_Horrible</original>
+					<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>ButcheredHuman_Disapproved</original>
+					<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+				</li>
 				<li>
 					<original>HadAngeringFight</original>
 					<replacer>HadAngeringFight_B</replacer> 
@@ -783,6 +795,21 @@
 				<li>SharedBed</li>
 
 				<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
+
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent_Opinion</li>
+
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Horrible</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Horrible</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Horrible</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible_Opinion</li>
+
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Disapproved</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Disapproved</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Disapproved</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved_Opinion</li>
 				
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
