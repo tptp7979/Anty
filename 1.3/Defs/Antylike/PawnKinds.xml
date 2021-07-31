@@ -704,6 +704,14 @@
 			<min>3000</min>
 			<max>6000</max>
 		</apparelMoney>
+		<inventoryOptions>
+			<subOptionsChooseOne Inherit="False">
+			<li>
+				<thingDef>Antypheromone_Suicide</thingDef>
+				<countRange>1</countRange>
+			</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
