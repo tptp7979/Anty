@@ -308,7 +308,7 @@
 			</hediffGivers>
 			<statFactors>
 				<IncomingDamageFactor>1.5</IncomingDamageFactor>
-				<MoveSpeed>0.4</MoveSpeed>
+				<MoveSpeed>0.6</MoveSpeed>
 				<HungerRateMultiplier>1.5</HungerRateMultiplier>
 			</statFactors>
 		</li>
@@ -924,7 +924,7 @@
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
-						<setMax>0.1</setMax>
+						<setMax>0.8</setMax>
 					</li>
 				</capMods>
 			</li>
