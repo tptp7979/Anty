@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BaseMeleeWeaponAnty" Abstract="True" ParentName="BaseWeapon">
+	<ThingDef Name="BaseMeleeWeaponAnty" Abstract="True" ParentName="BaseMeleeWeapon">
 		<techLevel>Industrial</techLevel>
-		<smeltable>true</smeltable>
-		<burnableByRecipe>true</burnableByRecipe>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
-
 		<recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Smith</soundWorking>
-			<recipeUsers>
+			<recipeUsers Inherit="False">
 				<li>AntyCopyTableMachining</li>
 			</recipeUsers>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 			<defaultIngredientFilter>
 				<categories>
 					<li>Root</li>
@@ -28,9 +17,6 @@
 			</disallowedThingDefs>
 			</defaultIngredientFilter>
 		</recipeMaker>
-			<inspectorTabs>
-				<li>ITab_Art</li>
-			</inspectorTabs>
 			
 			<comps>
 				<li>
@@ -87,7 +73,7 @@
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
-				<Intellectual>10</Intellectual>
+				<Intellectual>5</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>hydroheliumion</researchPrerequisite>
 		</recipeMaker>
@@ -293,7 +279,7 @@
 		<recipeMaker>
 			<skillRequirements>
 					<Crafting>10</Crafting>
-					<Intellectual>10</Intellectual>
+					<Intellectual>5</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>hydroheliumion</researchPrerequisite>
 		</recipeMaker>
@@ -369,7 +355,7 @@
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
-				<Intellectual>10</Intellectual>
+				<Intellectual>5</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>hydroheliumion_B</researchPrerequisite>
 		</recipeMaker>
@@ -509,7 +495,7 @@
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
-				<Intellectual>12</Intellectual>
+				<Intellectual>8</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>hydroheliumion_B</researchPrerequisite>
 		</recipeMaker>

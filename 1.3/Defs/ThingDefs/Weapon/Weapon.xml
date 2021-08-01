@@ -127,7 +127,7 @@
 			</recipeUsers>
  			<researchPrerequisite>AntyAcidweapon_C</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
         </recipeMaker>
 		<weaponTags>
@@ -222,7 +222,7 @@
 			</recipeUsers>
  			<researchPrerequisite>AntyAcidweapon_C</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
         </recipeMaker>
 		<weaponTags>
@@ -326,7 +326,7 @@
 			</recipeUsers>
  			<researchPrerequisite>AntyAcidweapon_D</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>9</Crafting>
 			</skillRequirements>
         </recipeMaker>
 		<weaponTags>
@@ -435,7 +435,7 @@
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>9</Crafting>
 				<Intellectual>5</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>AntyAcidweapon_D</researchPrerequisite>
@@ -579,8 +579,8 @@
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>10</Crafting>
-				<Intellectual>5</Intellectual>
+				<Crafting>8</Crafting>
+				<Intellectual>2</Intellectual>
 			</skillRequirements>
 			<researchPrerequisite>Combatglue</researchPrerequisite>
 		</recipeMaker>
