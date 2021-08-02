@@ -14,7 +14,7 @@
 			<immuneToXenophobia>false</immuneToXenophobia>
 			<minAgeForAdulthood>0</minAgeForAdulthood>
 
-			<!-- <factionRelations>
+			<factionRelations>
 				<li>
 					<factions>
 						<li>AntyHive</li>
@@ -25,7 +25,7 @@
 						<max>100</max>
 					</goodwill>
 				</li>
-			</factionRelations> -->
+			</factionRelations>
 			
 			<forcedRaceTraitEntries>
 				<li>
