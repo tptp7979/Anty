@@ -18,6 +18,9 @@
 	<descriptionHyperlinks Inherit="False">
 		<HediffDef>Chemicaldissolution</HediffDef>
 	</descriptionHyperlinks>
+	<weaponClasses>
+		<li>Ultratech</li>
+	</weaponClasses>
   </ThingDef>
 
  <!-- 라이플 -->
@@ -857,6 +860,9 @@
 			<researchPrerequisite>Smithing</researchPrerequisite>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
+		<weaponClasses>
+			<li>Neolithic</li>
+		</weaponClasses>
 	</ThingDef>
  <!-- 낫 -->
  
@@ -918,11 +924,14 @@
 			<researchPrerequisite>Smithing</researchPrerequisite>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
+		<weaponClasses>
+			<li>Neolithic</li>
+		</weaponClasses>
 	</ThingDef>
  <!-- 할버드 -->
  
  <!-- 해머 -->
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>AT_Hammer</defName>
 		<label>Hammer</label>
 		<description>A hammer beloved by Antie warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</description>
@@ -961,6 +970,10 @@
 			<researchPrerequisite>Smithing</researchPrerequisite>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
+		<weaponClasses>
+			<li>Neolithic</li>
+			<li>Melee</li>
+		</weaponClasses>
 	</ThingDef>
  <!-- 해머 -->
 	

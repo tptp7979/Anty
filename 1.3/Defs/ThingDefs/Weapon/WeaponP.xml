@@ -33,6 +33,10 @@
 				<HediffDef>Chemicaldissolution_high</HediffDef>
 				<ThingDef>Anty_Recyclecore</ThingDef>
 			</descriptionHyperlinks>
+			<weaponClasses>
+				<li>Ultratech</li>
+				<li>MeleePiercer</li>
+			</weaponClasses>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMakeableGun_Anty">
