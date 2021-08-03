@@ -58,6 +58,10 @@
 				<target>Mech_Pikeman</target>
 				<radius>2.9</radius>
 			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>Mech_Termite</target>
+				<radius>2.9</radius>
+			</li>
 			<li Class="CompProperties_MoteEmitter">
 				<mote>Mote_IngressbreakerRadius</mote>
 				<maintain>True</maintain>
