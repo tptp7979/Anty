@@ -90,6 +90,32 @@
 		<researchPrerequisites>
 			<li>AntyAcidweapon_D</li>
 		</researchPrerequisites>
+		<damageMultipliers>
+			<li>
+			  <damageDef>Thump</damageDef>
+			  <multiplier>0.05</multiplier>
+			</li>
+			<li>
+			  <damageDef>Bomb</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>BombSuper</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBullet</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb_B</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+		  </damageMultipliers>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -237,6 +263,32 @@
 		<researchPrerequisites>
 			<li>Combatglue</li>
 		</researchPrerequisites>
+		<damageMultipliers>
+			<li>
+			  <damageDef>Thump</damageDef>
+			  <multiplier>0.05</multiplier>
+			</li>
+			<li>
+			  <damageDef>Bomb</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>BombSuper</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBullet</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb_B</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+		  </damageMultipliers>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">

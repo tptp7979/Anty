@@ -1138,6 +1138,10 @@
         <multiplier>0</multiplier>
       </li>
 	  <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+	  <li>
         <damageDef>AT_AcidBullet</damageDef>
         <multiplier>0.8</multiplier>
       </li>

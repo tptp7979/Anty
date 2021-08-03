@@ -93,6 +93,10 @@
         <damageDef>AT_glueBomb</damageDef>
         <multiplier>0</multiplier>
       </li>
+      <li>
+        <damageDef>AT_glueBomb_B</damageDef>
+        <multiplier>0</multiplier>
+      </li>
 	  <li>
         <damageDef>AT_AcidBullet</damageDef>
         <multiplier>0.8</multiplier>
@@ -104,6 +108,18 @@
 	  <li>
         <damageDef>AT_AcidBomb_B</damageDef>
         <multiplier>0.8</multiplier>
+      </li>
+      <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>BombSuper</damageDef>
+        <multiplier>0.1</multiplier>
       </li>
     </damageMultipliers>
   </ThingDef>
