@@ -82,6 +82,10 @@
     </comps>
     <damageMultipliers>
       <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>0.05</multiplier>
+      </li>
+      <li>
         <damageDef>Bomb</damageDef>
         <multiplier>0.15</multiplier>
       </li>
@@ -229,6 +233,10 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
 	<damageMultipliers>
+    <li>
+      <damageDef>Thump</damageDef>
+      <multiplier>0.05</multiplier>
+    </li>
       <li>
         <damageDef>Bomb</damageDef>
         <multiplier>0.15</multiplier>
@@ -311,6 +319,10 @@
       </li>
     </comps>
 	<damageMultipliers>
+    <li>
+      <damageDef>Thump</damageDef>
+      <multiplier>0.05</multiplier>
+    </li>
       <li>
         <damageDef>Bomb</damageDef>
         <multiplier>0.6</multiplier>
@@ -379,6 +391,10 @@
 			</li>
     </comps>
 	<damageMultipliers>
+    <li>
+      <damageDef>Thump</damageDef>
+      <multiplier>0.05</multiplier>
+    </li>
       <li>
         <damageDef>Bomb</damageDef>
         <multiplier>0.3</multiplier>

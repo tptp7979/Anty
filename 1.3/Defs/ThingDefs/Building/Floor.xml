@@ -20,6 +20,7 @@
       <Cleanliness>0.1</Cleanliness>
       <WorkToBuild>1200</WorkToBuild>
       <Beauty>3</Beauty>
+      <FilthMultiplier>0.25</FilthMultiplier>
     </statBases>
     <costList>
       <Refleum>3</Refleum>
