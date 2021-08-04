@@ -267,7 +267,7 @@
 			<li>Exoabdomen</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AT_Reinforcedexoskeleton</addsHediff>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 				<li>Anty</li>
 				<li>Anty_prototype</li>
 		</recipeUsers>
@@ -443,7 +443,7 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AT_ReinforcedJaw</addsHediff>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 			<li>Anty</li>
 			<li>Anty_prototype</li>
 		</recipeUsers>
