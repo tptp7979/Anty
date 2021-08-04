@@ -284,7 +284,7 @@
 			<li Class="CompProperties_Spawner">
 				<requiresPower>true</requiresPower>
 				<thingToSpawn>AntyExoskeleton</thingToSpawn>
-				<spawnCount>50</spawnCount>
+				<spawnCount>40</spawnCount>
 				<spawnIntervalRange><min>181335</min><max>321869</max></spawnIntervalRange> <!--5-7-->
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
@@ -360,7 +360,7 @@
 				<requiresPower>false</requiresPower>
 				<requiresFuel>true</requiresFuel>
 				<thingToSpawn>Refleum</thingToSpawn>
-				<spawnCount>60</spawnCount>
+				<spawnCount>40</spawnCount>
 				<spawnIntervalRange><min>181335</min><max>321869</max></spawnIntervalRange>
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
