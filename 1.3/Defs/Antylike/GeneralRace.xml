@@ -601,6 +601,22 @@
 					<original>KnowGuestOrganHarvested</original>
 					<replacer>KnowGuestOrganHarvested_B</replacer> 
 				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>HarvestedOrgan_Abhorrent</original>
+					<replacer>KnowGuestOrganHarvested_B</replacer> 
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>HarvestedOrgan_Know_Abhorrent_Mood</original>
+					<replacer>KnowGuestOrganHarvested_B</replacer> 
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>HarvestedOrgan_Horrible</original>
+					<replacer>KnowGuestOrganHarvested_B</replacer> 
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<original>HarvestedOrgan_Know_Horrible_Mood</original>
+					<replacer>KnowGuestOrganHarvested_B</replacer> 
+				</li>
 				<li>
 					<original>KnowColonistOrganHarvested</original>
 					<replacer>KnowColonistOrganHarvested_B</replacer> 
@@ -813,6 +829,19 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Disapproved</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved_Opinion</li>
+
+				<li MayRequire="Ludeon.RimWorld.Ideology">HarvestedOrgan_Know_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">HarvestedOrgan_Know_Horrible</li>
+
+				<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Know_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Know_Abhorrent_Mood</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Know_Abhorrent</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Know_Abhorrent_Mood</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Disapproved</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Horrible_Mood</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Disapproved</li>
 				
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 				<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
