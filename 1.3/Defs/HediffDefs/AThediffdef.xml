@@ -1247,12 +1247,13 @@
 			<foodType>AnimalProduct</foodType>
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestSound>Ingest_Inject</ingestSound>
-			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<thingCategories>
 			<li>AnimalProductRaw</li>
 		</thingCategories>
+		<socialPropernessMatters>false</socialPropernessMatters>
 	</ThingDef>
 	
 </Defs>
