@@ -122,6 +122,14 @@
   <Bullet_glueRifle.label>재활용 포탑 탄</Bullet_glueRifle.label>
   <Gun_RecycleTurretB.label>재활용 포탑</Gun_RecycleTurretB.label>
   <Gun_RecycleTurretB.description>시체나 환자, 게으른 개체가 들어간 포탑입니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Gun_RecycleTurretB.description>
+
+  <Anty_RecycleTurretC.label>재활용 포탑-교란장비</Anty_RecycleTurretC.label>
+  <Anty_RecycleTurretC.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Anty_RecycleTurretC.description>
+  <Anty_RecycleTurretC.comps.2.fuelLabel>재장전까지 남은 탄</Anty_RecycleTurretC.comps.2.fuelLabel>
+  <Anty_RecycleTurretC.comps.2.fuelGizmoLabel>남은 탄</Anty_RecycleTurretC.comps.2.fuelGizmoLabel>
+  <Anty_RecycleTurretC.comps.2.outOfFuelMessage>사격불가 : 탄약 없음</Anty_RecycleTurretC.comps.2.outOfFuelMessage>
+  <Gun_RecycleTurretC.label>재활용 포탑</Gun_RecycleTurretC.label>
+  <Gun_RecycleTurretC.description>시체나 환자, 게으른 개체가 들어간 포탑입니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Gun_RecycleTurretC.description>
   
   <AT_Wall.label>반 충격 벽</AT_Wall.label>
   <AT_Wall.description>지나갈 수 없는 벽입니다. 지붕을 지지할 수 있습니다. 또한 충격을 구조 전체로 흘려보내기 때문에 폭발과 같은 큰 충격에 보다 강한 내구성을 지닙니다.\n\n하지만 한 곳에 집중적으로 가해지는 힘에는 약합니다.</AT_Wall.description>

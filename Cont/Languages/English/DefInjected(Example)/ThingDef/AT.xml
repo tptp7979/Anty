@@ -131,6 +131,13 @@
   <Bullet_glueRifle.label>glue Bullet</Bullet_glueRifle.label>
   <Gun_RecycleTurretB.label>Recycle turret gun</Gun_RecycleTurretB.label>
   <Gun_RecycleTurretB.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurretB.description>
+  <Anty_RecycleTurretC.label>Recycle turret-obstruction addon</Anty_RecycleTurretC.label><!-- Change -->
+  <Anty_RecycleTurretC.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurretC.description><!-- Change -->
+  <Anty_RecycleTurretC.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurretC.comps.2.fuelLabel><!-- Change -->
+  <Anty_RecycleTurretC.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurretC.comps.2.fuelGizmoLabel><!-- Change -->
+  <Anty_RecycleTurretC.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurretC.comps.2.outOfFuelMessage><!-- Change -->
+  <Gun_RecycleTurretC.label>Recycle turret gun</Gun_RecycleTurretC.label><!-- Change -->
+  <Gun_RecycleTurretC.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurretC.description><!-- Change -->
   <AT_TP_AMM.label>Repurposed Landmine</AT_TP_AMM.label>
   <AT_TP_AMM.description>A landmine with advanced mechanoid detector, which can detonate when it sense mechanoid even from a distance. It can also works like a regular landmine against other targets.\n\nIt is filled with concentrated red-burst, which makes it effective against not only mechanoids, but all types of enemies.</AT_TP_AMM.description>
   <AT_Wall.label>Anti-impact wall</AT_Wall.label>

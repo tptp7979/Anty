@@ -12,3 +12,6 @@ RecipeDef
 (2021/8/4)
 HediffDef
 RecipeDef
+
+(2021/8/5)
+ThingDef
