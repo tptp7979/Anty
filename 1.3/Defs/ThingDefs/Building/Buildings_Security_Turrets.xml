@@ -80,7 +80,7 @@
 			<combatPower>20</combatPower>
 			<ai_combatDangerous>false</ai_combatDangerous>
 			<turretGunDef>Gun_RecycleTurret</turretGunDef>
-			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+			<turretBurstCooldownTime>7.5</turretBurstCooldownTime>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_TurretTop</li>
@@ -149,7 +149,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>7.5</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>5</Mass>
 			<Flammability>0</Flammability>
@@ -166,7 +166,7 @@
 				<soundCast>ShotAnty_D</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<consumeFuelPerShot>0.125</consumeFuelPerShot>
+				<consumeFuelPerShot>0.25</consumeFuelPerShot>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -221,7 +221,7 @@
 				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
 				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
 				<fuelFilter><thingDefs><li>AntyExoskeleton</li></thingDefs></fuelFilter>
-				<fuelCapacity>30</fuelCapacity>       <!-- 30 bursts -->
+				<fuelCapacity>30</fuelCapacity>       <!-- 15 bursts -->
 				<fuelMultiplier>1</fuelMultiplier>
 				<initialFuelPercent>1</initialFuelPercent>
 				<autoRefuelPercent>0.5</autoRefuelPercent>
@@ -343,7 +343,7 @@
 				<soundCast>ShotAnty_E</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<consumeFuelPerShot>0.1</consumeFuelPerShot>
+				<consumeFuelPerShot>0.2</consumeFuelPerShot>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -370,15 +370,18 @@
 		</additionalHediffs>
 	</DamageDef>
 	
-	
-	
-<!-- 	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>Anty_RecycleTurretC</defName>
-		<label>Recycle turret-Assult addon</label>
-		<description>.</description>
+		<label>Recycle turret-obstruction addon</label>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AT_glue_Link</HediffDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
+		</descriptionHyperlinks>
 		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-				<texPath>Things/Building/Turret/OUTurret_Bot</texPath>
+				<texPath>Things/Building/Turret/RETurret_Bot</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 				<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -389,7 +392,7 @@
 				<offset>(0,0,0)</offset>
 			</shadowData>
 		</graphicData>
-		<uiIconPath>Things/Building/Turret/OUTurret_Top</uiIconPath>
+		<uiIconPath>Things/Building/Turret/RETurretC</uiIconPath>
 		<uiIconScale>0.90</uiIconScale>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
@@ -406,6 +409,25 @@
 			<Beauty>-30</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>Shell_AT_glueBomb</li></thingDefs></fuelFilter>
+				<fuelCapacity>8</fuelCapacity>       <!-- 8 bursts -->
+				<fuelMultiplier>1</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
 		<passability>PassThroughOnly</passability>
 		<pathCost>80</pathCost>
 		<fillPercent>0.55</fillPercent>
@@ -418,7 +440,7 @@
 			<AntyExoskeleton>30</AntyExoskeleton>
 			<Steel>15</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
-			<Anty_Recyclecore>1</Anty_Recyclecore>
+			<Anty_Recyclecore>2</Anty_Recyclecore>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Antybuilding</designationCategory>
@@ -427,39 +449,43 @@
 			<combatPower>20</combatPower>
 			<ai_combatDangerous>false</ai_combatDangerous>
 			<turretGunDef>Gun_RecycleTurretC</turretGunDef>
-			<turretBurstCooldownTime>2.2</turretBurstCooldownTime>
+			<turretBurstCooldownTime>30</turretBurstCooldownTime>
 		</building>
 		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
 			<li>PlaceWorker_TurretTop</li>
-			<li>PlaceWorker_ShowTurretRadius</li>
-		</placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		  </placeWorkers>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
 			<li>Combatglue</li>
 		</researchPrerequisites>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_BackRifle</defName>
-		<label>Red Burst Bullet</label>
-		<graphicData>
-			<texPath>Things/Weapons/kan</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-		</graphicData>
-		<projectile>
-			<speed>70</speed>
-			<damageDef>AT_AcidBullet_B</damageDef>
-			<damageAmountBase>3</damageAmountBase>
-			<armorPenetrationBase>0.12</armorPenetrationBase>
-			<stoppingPower>3</stoppingPower>
-			<extraDamages>
-					<li>
-						<def>AT_BackDamageDef</def>
-						<amount>1</amount>
-					</li>
-			</extraDamages>
-		</projectile>
+		<damageMultipliers>
+			<li>
+			  <damageDef>Thump</damageDef>
+			  <multiplier>0.05</multiplier>
+			</li>
+			<li>
+			  <damageDef>Bomb</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>BombSuper</damageDef>
+			  <multiplier>0.5</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBullet</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+			<li>
+			  <damageDef>AT_AcidBomb_B</damageDef>
+			  <multiplier>0.2</multiplier>
+			</li>
+		  </damageMultipliers>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseWeaponTurret">
@@ -467,7 +493,7 @@
 		<label>Recycle turret gun</label>
 		<description>A simple automatic gun made to be mounted on a turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Turret/OUTurret_Top</texPath>
+			<texPath>Things/Building/Turret/RECTurret_Top</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -475,7 +501,7 @@
 			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.30</AccuracyMedium>
 			<AccuracyLong>0.1</AccuracyLong>
-			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>30</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>5</Mass>
 			<Flammability>0</Flammability>
@@ -483,17 +509,19 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<defaultProjectile>Bullet_BackRifle</defaultProjectile>
+				<defaultProjectile>Bullet_Shell_AT_glueBomb</defaultProjectile>
 				<warmupTime>0</warmupTime>
-				<range>20.9</range>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<minRange>49.9</minRange>
+				<forcedMissRadius>8</forcedMissRadius>
+				<range>500</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>ShotAnty_G</soundCast>
+				<soundCast>ShotAnty_D</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<consumeFuelPerShot>0.1</consumeFuelPerShot>
-				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<requireLineOfSight>false</requireLineOfSight>
 			</li>
 		</verbs>
-	</ThingDef> -->
+	</ThingDef>
 </Defs>
