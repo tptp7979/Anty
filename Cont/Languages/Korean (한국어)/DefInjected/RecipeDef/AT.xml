@@ -83,4 +83,8 @@
   <CookProtyGum.label>프로티 껌 조리 ×10</CookProtyGum.label>
   <CookProtyGum.description>가죽을 자르고 튀겨 프로티 껌을 만듭니다.</CookProtyGum.description>
   <CookProtyGum.jobString>프로티 껌 조리</CookProtyGum.jobString>
+
+  <InstallAT_ReinforcedJaw.label>앤티 강화 턱 장착</InstallAT_ReinforcedJaw.label>
+  <InstallAT_ReinforcedJaw.description>앤티 강화 턱을 장착합니다.</InstallAT_ReinforcedJaw.description>
+  <InstallAT_ReinforcedJaw.jobString>앤티 강화 턱 장착</InstallAT_ReinforcedJaw.jobString>
 </LanguageData>

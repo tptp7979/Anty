@@ -43,7 +43,10 @@
   <AntyCorpsesqueeze.label>Corpse squeeze</AntyCorpsesqueeze.label>
   <AntyCorpsesqueeze.description>Using corpses to create an extract.</AntyCorpsesqueeze.description>
   <AntyCorpsesqueeze.jobString>Corpse squeeze</AntyCorpsesqueeze.jobString>
-  <CookProtyGum.label>Cook Proty Gum ×10</CookProtyGum.label><!-- Change -->
+  <CookProtyGum.label>Cook Proty Gum ×10</CookProtyGum.label>
   <CookProtyGum.description>Cook Proty Gum.</CookProtyGum.description>
   <CookProtyGum.jobString>Cook Proty Gum</CookProtyGum.jobString>
+  <InstallAT_ReinforcedJaw.label>install Anty Reinforced Jaw</InstallAT_ReinforcedJaw.label><!-- Change -->
+  <InstallAT_ReinforcedJaw.description>install a Anty Reinforced Jaw.</InstallAT_ReinforcedJaw.description><!-- Change -->
+  <InstallAT_ReinforcedJaw.jobString>installing Anty Reinforced Jaw</InstallAT_ReinforcedJaw.jobString><!-- Change -->
 </LanguageData>

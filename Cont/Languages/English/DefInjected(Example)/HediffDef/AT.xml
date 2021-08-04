@@ -152,6 +152,9 @@
   <AT_Reinforcedexoskeleton.label>Anty Reinforced exoskeleton</AT_Reinforcedexoskeleton.label>
   <AT_Reinforcedexoskeleton.labelNoun>a Reinforced exoskeleton</AT_Reinforcedexoskeleton.labelNoun>
   <AT_Reinforcedexoskeleton.description>An installed Reinforced exoskeleton.</AT_Reinforcedexoskeleton.description>
-  <AT_Shield.label>Physical force neutralization shield</AT_Shield.label><!-- Change -->
-  <AT_Shield.description>Absorbs all damage.</AT_Shield.description><!-- Change -->
+  <AT_Shield.label>Physical force neutralization shield</AT_Shield.label>
+  <AT_Shield.description>Absorbs all damage.</AT_Shield.description>
+  <AT_ReinforcedJaw.label>Anty Reinforced Jaw</AT_ReinforcedJaw.label><!-- Change -->
+  <AT_ReinforcedJaw.description>An installed Anty Reinforced Jaw.</AT_ReinforcedJaw.description><!-- Change -->
+  <AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label>Big jaw</AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label><!-- Change -->
 </LanguageData>

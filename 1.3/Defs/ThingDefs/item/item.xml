@@ -184,7 +184,7 @@
 			<li>BodyPartsBionic</li>
 		</thingCategories>
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Item/HealthItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 			<color>(255,50,20)</color>
@@ -219,7 +219,9 @@
 		<description>An powered exoskeleton for Antys made with Refleum. It organicly binds to the existing exoskeleton, providing excellent protection without causing any discomfortA powered exoskeleton for Antys made with Refleum. It organically binds to the existing exoskeleton, providing excellent protection without causing any discomfort.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>InstallAT_Reinforcedexoskeleton</RecipeDef>
+			<RecipeDef>InstallAT_ReinforcedJaw</RecipeDef>
 			<HediffDef>AT_Reinforcedexoskeleton</HediffDef>
+			<HediffDef>AT_ReinforcedJaw</HediffDef>
 		</descriptionHyperlinks>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -358,6 +360,92 @@
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>AT_ReinforcedJaw</defName>
+		<label>Anty Reinforced Jaw</label>
+		<description>An installed Anty Reinforced Jaw.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallAT_ReinforcedJaw</RecipeDef>
+		</descriptionHyperlinks>
+		<priceImpact>true</priceImpact>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+				<li>
+					<label>Big jaw</label>
+					<capacities>
+						<li>Bite</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.65</cooldownTime>
+					<extraMeleeDamages>
+						<li>
+							<def>Anty_Poke</def>
+							<amount>10</amount>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<def>Anty_Cut</def>
+							<amount>10</amount>
+							<chance>0.5</chance>
+						</li>
+						<li>
+							<def>EMP</def>
+							<amount>60</amount>
+						</li>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+							<chance>0.1</chance>
+						</li>
+					</extraMeleeDamages>
+				</li>
+				</tools>
+			</li>
+		</comps>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.15</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallAT_ReinforcedJaw</defName>
+		<label>install Anty Reinforced Jaw</label>
+		<description>Install a Anty Reinforced Jaw.</description>
+		<jobString>Installing Anty Reinforced Jaw.</jobString>
+		<descriptionHyperlinks>
+			<HediffDef>AT_ReinforcedJaw</HediffDef>
+		</descriptionHyperlinks>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AT_Reinforcedexoskeleton_Thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AT_Reinforcedexoskeleton_Thing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AT_ReinforcedJaw</addsHediff>
+		<recipeUsers>
+			<li>Anty</li>
+			<li>Anty_prototype</li>
 		</recipeUsers>
 	</RecipeDef>
 </Defs>
