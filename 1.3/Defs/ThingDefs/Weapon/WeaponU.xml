@@ -261,7 +261,8 @@
 					<defaultProjectile>AT_Bulletchunk</defaultProjectile>
 					<warmupTime>0.1</warmupTime>
 					<range>5.9</range>
-					<forcedMissRadius>0.1</forcedMissRadius>
+					<forcedMissRadius>0.01</forcedMissRadius>
+					<noiseRadius>0</noiseRadius>
 					<burstShotCount>1</burstShotCount>
 					<soundCast>ShotAnty_D</soundCast>
 					<muzzleFlashScale>3</muzzleFlashScale>
@@ -364,7 +365,7 @@
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<speed>2</speed>
+			<speed>80</speed>
 			<damageDef>Stun</damageDef>
 			<damageAmountBase>0</damageAmountBase>
 			<explosionRadius>0.9</explosionRadius>
@@ -403,7 +404,8 @@
 					<defaultProjectile>AT_Bulletbarricade</defaultProjectile>
 					<warmupTime>0.1</warmupTime>
 					<range>5.9</range>
-					<forcedMissRadius>0.1</forcedMissRadius>
+					<forcedMissRadius>0.01</forcedMissRadius>
+					<noiseRadius>0</noiseRadius>
 					<burstShotCount>1</burstShotCount>
 					<soundCast>ShotAnty_D</soundCast>
 					<muzzleFlashScale>3</muzzleFlashScale>
@@ -507,7 +509,7 @@
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<speed>2</speed>
+			<speed>80</speed>
 			<damageDef>Stun</damageDef>
 			<damageAmountBase>0</damageAmountBase>
 			<explosionRadius>0.9</explosionRadius>
