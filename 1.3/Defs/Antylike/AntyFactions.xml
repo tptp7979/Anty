@@ -150,7 +150,7 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>80</commonality>
-			<maxTotalPoints>7000</maxTotalPoints>
+			<maxTotalPoints>2500</maxTotalPoints>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
 				<li>Siege</li>
@@ -165,7 +165,7 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>80</commonality>
-			<maxTotalPoints>8500</maxTotalPoints>
+			<maxTotalPoints>3500</maxTotalPoints>
 			<disallowedStrategies>
 				<li>ImmediateAttackSappers</li>
 			</disallowedStrategies>
