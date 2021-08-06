@@ -57,5 +57,6 @@ This mod
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
 	<li>goudaquiche.MoharFramework</li>
+	<li>Proxyer.DESurgeries.DESurgeries</li>
   </loadAfter>
 </ModMetaData>
