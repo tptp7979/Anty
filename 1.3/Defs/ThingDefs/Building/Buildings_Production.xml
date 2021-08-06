@@ -434,7 +434,7 @@
 		</statBases>
 		<size>(3,1)</size>
 		<costList>
-			<Steel>300</Steel> 
+			<Steel>125</Steel>
 		</costList>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<building>
