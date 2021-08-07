@@ -363,7 +363,7 @@
 				<range>27.9</range>
 				<burstShotCount>15</burstShotCount>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-				<soundCast>ShotAnty_E</soundCast>
+				<soundCast>ShotAnty_B</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
