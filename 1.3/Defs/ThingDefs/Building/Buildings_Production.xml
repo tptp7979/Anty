@@ -404,6 +404,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/BC</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>Mote</shaderType>
 			<drawSize>(3,4.5)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
