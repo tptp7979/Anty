@@ -91,6 +91,7 @@
 			</chemicalSettings>
 
 		<alienPartGenerator>
+			<borderScale>1</borderScale>
 			<atlasScale>2</atlasScale>
 			<aliencrowntypes><!--머리-->
 				<li>AntyA</li>

@@ -1249,6 +1249,7 @@
 			<ingestSound>Ingest_Inject</ingestSound>
 			<canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 		</ingestible>
 		<thingCategories>
 			<li>AnimalProductRaw</li>
