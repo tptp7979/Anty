@@ -653,6 +653,7 @@
 			<label>glueBomb</label>
 			<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
 			<externalViolence>true</externalViolence>
+			<harmsHealth>false</harmsHealth>
 			<isExplosive>true</isExplosive>
 			<deathMessage>{0} has died in an explosion.</deathMessage>
 			<hediff>glueBomb</hediff>
@@ -687,6 +688,7 @@
 			<label>glueBomb</label>
 			<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
 			<externalViolence>true</externalViolence>
+			<harmsHealth>false</harmsHealth>
 			<isExplosive>true</isExplosive>
 			<deathMessage>{0} has died in an explosion.</deathMessage>
 			<hediff>glueBomb</hediff>

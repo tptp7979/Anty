@@ -310,6 +310,11 @@
 						<def>AT_AcidBullet</def>
 						<amount>1</amount>
 					</li>
+					<li>
+						<def>EMP</def>
+						<amount>15</amount>
+						<chance>1</chance>
+					</li>
 			</extraDamages>
 		</projectile>
 	</ThingDef>
