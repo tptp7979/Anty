@@ -112,7 +112,7 @@
 				<li>Thin</li>
 			</alienbodytypes><!--몸-->
 			
-			<headOffset>(0,-0.015)</headOffset><!--머리위치-->
+			<headOffset>(0,0)</headOffset><!--머리위치-->
 			<useGenderedHeads>true</useGenderedHeads><!--성별머리-->
 			<useGenderedBodies>false</useGenderedBodies><!--성별몸-->
 			
