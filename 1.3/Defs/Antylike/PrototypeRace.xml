@@ -84,6 +84,10 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <willNeverEat>
+        <li>Nutritional_jelly_thing</li>
+        <li>Antypheromone_Suicide</li>
+      </willNeverEat>
     </race>
     <tradeTags>
 		<li>Anty_Bug</li>
