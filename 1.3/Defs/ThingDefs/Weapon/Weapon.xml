@@ -434,7 +434,8 @@
 		</equippedStatOffsets>
 		<costList>
 			<AntyExoskeleton>100</AntyExoskeleton>
-			<ComponentSpacer>4</ComponentSpacer>
+			<Steel>75</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
