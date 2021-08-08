@@ -1097,14 +1097,14 @@
 		</weaponTags>
 		<verbs>
 			<li>
-				<verbClass>Verb_ShootOneUse</verbClass>
+				<verbClass>Verb_LaunchProjectile</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_PP_A</defaultProjectile>
 				<forcedMissRadius>5.9</forcedMissRadius>
 				<warmupTime>0.1</warmupTime>
 				<range>9.9</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-				<burstShotCount>5</burstShotCount>
+				<burstShotCount>3</burstShotCount>
 				<soundCast>ThrowGrenade</soundCast>
 				<onlyManualCast>true</onlyManualCast>
 				<stopBurstWithoutLos>false</stopBurstWithoutLos>
@@ -1149,9 +1149,9 @@
 			<damageDef>Anty_Bomb_SS</damageDef>
 			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationBase>0.05</armorPenetrationBase>
-			<explosionRadius>1.9</explosionRadius>
+			<explosionRadius>1.1</explosionRadius>
 			<preExplosionSpawnThingDef>Chocolate</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+			<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
 			<speed>15</speed>
 			<explosionDelay>150</explosionDelay>
 			<arcHeightFactor>5</arcHeightFactor>
