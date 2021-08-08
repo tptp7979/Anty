@@ -704,8 +704,8 @@
 			<min>3000</min>
 			<max>6000</max>
 		</apparelMoney>
-		<inventoryOptions>
-			<subOptionsChooseOne Inherit="False">
+		<inventoryOptions  Inherit="False">
+			<subOptionsChooseOne>
 			<li>
 				<thingDef>Antypheromone_Suicide</thingDef>
 				<countRange>1</countRange>
