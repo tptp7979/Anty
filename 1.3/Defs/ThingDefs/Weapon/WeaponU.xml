@@ -255,24 +255,21 @@
 		</comps>
 			<verbs>
 				<li>
-					<verbClass>Verb_LaunchProjectileStatic</verbClass>
 					<label>pop chunk kit</label>
+					<verbClass>Verb_Spawn</verbClass>
 					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>AT_Bulletchunk</defaultProjectile>
 					<warmupTime>0.1</warmupTime>
+					<spawnDef>AT_Bulletchunk</spawnDef>
 					<range>5.9</range>
-					<forcedMissRadius>0.01</forcedMissRadius>
-					<noiseRadius>0</noiseRadius>
 					<burstShotCount>1</burstShotCount>
-					<soundCast>ShotAnty_D</soundCast>
-					<muzzleFlashScale>3</muzzleFlashScale>
+					<soundCast>OrbitalTargeter_Fire</soundCast>
+					<onlyManualCast>true</onlyManualCast>
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
 					<consumeFuelPerShot>1</consumeFuelPerShot>
 					<targetable>true</targetable>
 					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
-					<onlyManualCast>true</onlyManualCast>
 				</li>
 			</verbs>
 		<recipeMaker>
@@ -354,7 +351,7 @@
 		</apparel>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="AT_SuicideBase">
 		<defName>AT_Bulletchunk</defName>
 		<label>chunk Shell</label>
 		<graphicData>
@@ -362,17 +359,28 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.2, 0.2, 0.6)</color>
+			<drawSize>0.5</drawSize>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<speed>80</speed>
-			<damageDef>Stun</damageDef>
-			<damageAmountBase>0</damageAmountBase>
-			<explosionRadius>0.9</explosionRadius>
-			<explosionDelay>30</explosionDelay>
-			<preExplosionSpawnThingDef>AT_Chunk_A</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>1</preExplosionSpawnChance>
-		</projectile>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<preExplosionSpawnThingDef>AT_Chunk_A</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>15</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>AT_Bulletbarricade</target>
+				<radius>0.9</radius>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_barricadeRadius</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
+		</comps>
 	</ThingDef>
 	
 	
@@ -396,28 +404,25 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-			<verbs>
-				<li>
-					<verbClass>Verb_LaunchProjectileStatic</verbClass>
-					<label>pop barricade kit</label>
-					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>AT_Bulletbarricade</defaultProjectile>
-					<warmupTime>0.1</warmupTime>
-					<range>5.9</range>
-					<forcedMissRadius>0.01</forcedMissRadius>
-					<noiseRadius>0</noiseRadius>
-					<burstShotCount>1</burstShotCount>
-					<soundCast>ShotAnty_D</soundCast>
-					<muzzleFlashScale>3</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<consumeFuelPerShot>1</consumeFuelPerShot>
-					<targetable>true</targetable>
-					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
-					<onlyManualCast>true</onlyManualCast>
-				</li>
-			</verbs>
+		<verbs>
+			<li>
+				<label>pop barricade kit</label>
+				<verbClass>Verb_Spawn</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>0.1</warmupTime>
+				<spawnDef>AT_Bulletbarricade</spawnDef>
+				<range>5.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>OrbitalTargeter_Fire</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetable>true</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+			</li>
+		</verbs>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 			<researchPrerequisite>AT_Forwardbase_A</researchPrerequisite>
@@ -498,7 +503,7 @@
 		</apparel>
 	</ThingDef>
 	
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="AT_SuicideBase">
 		<defName>AT_Bulletbarricade</defName>
 		<label>barricade Shell</label>
 		<graphicData>
@@ -506,115 +511,51 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.6, 0.2, 0.2)</color>
+			<drawSize>0.5</drawSize>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<speed>80</speed>
-			<damageDef>Stun</damageDef>
-			<damageAmountBase>0</damageAmountBase>
-			<explosionRadius>0.9</explosionRadius>
-			<explosionDelay>30</explosionDelay>
-			<preExplosionSpawnThingDef>AT_Barricade_A</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>1</preExplosionSpawnChance>
-		</projectile>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<preExplosionSpawnThingDef>AT_Barricade_A</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>15</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuse">
+				<target>AT_Bulletbarricade</target>
+				<radius>0.9</radius>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_barricadeRadius</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
+		</comps>
 	</ThingDef>
-	
-	 <!-- 포탑 -->
- 
-<!-- 	<ThingDef ParentName="ApparelBase">
-		<defName>AT_Apparel_BlockingDevice</defName>
-		<label>Zone blocking device Gaspack</label>
-		<description>An equipment developed by Anty to suppress enemies' sights and movements. It sprays acidified refleum gas over a large area of the battlefield.</description>
-		<techLevel>Spacer</techLevel>
-			<verbs>
-				<li>
-					<verbClass>Verb_ShootOneUse</verbClass>
-					<label>pop Turret pack</label>
-					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>BulletTurretLauncher</defaultProjectile>
-					<warmupTime>1.2</warmupTime>
-					<range>12.9</range>
-					<minRange>7.1</minRange>
-					<forcedMissRadius>1.9</forcedMissRadius>
-					<burstShotCount>1</burstShotCount>
-					<soundCast>Shot_IncendiaryLauncher</soundCast>
-					<muzzleFlashScale>14</muzzleFlashScale>
-					<targetParams>
-						<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<consumeFuelPerShot>1</consumeFuelPerShot>
-					<targetable>true</targetable>
-					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
-					<onlyManualCast>true</onlyManualCast>
-				</li>
-			</verbs>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
-			<researchPrerequisite>hydroheliumion</researchPrerequisite>
-			<recipeUsers>
-				<li>AntyCopyTableMachining</li>
-			</recipeUsers>
-			<useIngredientsForColor>false</useIngredientsForColor>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Smith</soundWorking>
-			<skillRequirements>
-				<Crafting>10</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<costList>
-			<AntyExoskeleton>20</AntyExoskeleton>
-			<Refleum>10</Refleum>
-			<ComponentSpacer>1</ComponentSpacer>
-		</costList>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_barricadeRadius</defName>
+		<mote>
+			<fadeInTime>0.1</fadeInTime>
+			<solidTime>999999999</solidTime>
+			<fadeOutTime>0.75</fadeOutTime>
+			<needsMaintenance>True</needsMaintenance>
+		</mote>
 		<graphicData>
-			<texPath>Things/Weapons/AT_BlockingDevice</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
+			<texPath>Things/Mote/IngressbreakerRadius</texPath>
+			<shaderType>MoteProximityScannerRadius</shaderType>
+			<color>(1, 0.1, 0.1, 0.75)</color>
+			<drawSize>1.1</drawSize>
+			<shaderParameters>
+				<_smokeScrollSpeed>0.1</_smokeScrollSpeed>
+				<_rotationSpeed>0.75</_rotationSpeed>
+				<_smokeAmount>0.1</_smokeAmount>
+				<_MainTex>/Things/Mote/IngressbreakerRadius</_MainTex>
+				<_ScanTex>/Things/Mote/IngressbreakerRadius</_ScanTex>
+				<_SmokeTex>/Things/Mote/IngressbreakerRadius</_SmokeTex>
+			</shaderParameters>
 		</graphicData>
-		<tickerType>Normal</tickerType>
-		<statBases>
-			<WorkToMake>3200</WorkToMake>
-			<Mass>3</Mass>
-			<Flammability>0.4</Flammability>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<thingCategories>
-				<li>ATApparel</li>
-		</thingCategories>
-			<generateAllowChance>0</generateAllowChance>
-		<apparel>
-			<careIfWornByCorpse>false</careIfWornByCorpse>
-			<careIfDamaged>false</careIfDamaged>
-			<wearPerDay>0</wearPerDay>
-			<bodyPartGroups>
-				<li>Waist</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Belt</li>
-			</layers>
-		</apparel>
 	</ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>BulletTurretLauncher</defName>
-		<label>Zone blocking device launcher</label>
-		<graphicData>
-			<texPath>Things/Weapons/Pan</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-			<color>(0.6, 0.2, 0.2)</color>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<speed>50</speed>
-			<damageDef>Stun</damageDef>
-			<damageAmountBase>1</damageAmountBase>
-			<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>1</preExplosionSpawnChance>
-			<explosionRadius>0.9</explosionRadius>
-			<explosionDelay>30</explosionDelay>
-		</projectile>
-	</ThingDef> -->
 </Defs>
