@@ -728,6 +728,7 @@
 			<max>2500</max>
 		</weaponMoney>
 		<weaponTags>
+			<li>EmpireGrenadeDestructive</li>
 			<li>Anty_GunSingleUse_PP</li>
 		</weaponTags>
 		<apparelRequired>
