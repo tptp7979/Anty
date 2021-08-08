@@ -222,7 +222,7 @@
 				<AT_Charge_B>30</AT_Charge_B>
 				<AT_Launcher_A>2</AT_Launcher_A>
 				<!-- <AT_SingleUse>2</AT_SingleUse> -->
-				<!-- <AT_PP_S>2</AT_PP_S> -->
+				<AT_PP_S>2</AT_PP_S>
 			</options> 
 		</li>
 		

@@ -83,15 +83,15 @@
     <damageMultipliers>
       <li>
         <damageDef>Thump</damageDef>
-        <multiplier>0.05</multiplier>
+        <multiplier>0.5</multiplier>
       </li>
       <li>
         <damageDef>Bomb</damageDef>
-        <multiplier>0.15</multiplier>
+        <multiplier>0.25</multiplier>
       </li>
       <li>
         <damageDef>BombSuper</damageDef>
-        <multiplier>0.15</multiplier>
+        <multiplier>0.25</multiplier>
       </li>
 	  <li>
         <damageDef>AT_AcidBullet</damageDef>
@@ -235,15 +235,15 @@
 	<damageMultipliers>
     <li>
       <damageDef>Thump</damageDef>
-      <multiplier>0.05</multiplier>
+      <multiplier>0.5</multiplier>
     </li>
       <li>
         <damageDef>Bomb</damageDef>
-        <multiplier>0.15</multiplier>
+        <multiplier>0.25</multiplier>
       </li>
       <li>
         <damageDef>BombSuper</damageDef>
-        <multiplier>0.15</multiplier>
+        <multiplier>0.25</multiplier>
       </li>
 	  <li>
         <damageDef>AT_AcidBullet</damageDef>

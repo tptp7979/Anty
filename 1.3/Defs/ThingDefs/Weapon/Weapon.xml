@@ -1147,7 +1147,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Anty_Bomb_SS</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationBase>0.05</armorPenetrationBase>
 			<explosionRadius>1.9</explosionRadius>
 			<preExplosionSpawnThingDef>Chocolate</preExplosionSpawnThingDef>
@@ -1161,7 +1161,7 @@
 	
 	<DamageDef ParentName="Bomb">
 		<defName>Anty_Bomb_SS</defName>
-		<defaultDamage>0</defaultDamage>
+		<defaultDamage>10</defaultDamage>
 		<buildingDamageFactor>30</buildingDamageFactor>
 		<defaultStoppingPower>3.0</defaultStoppingPower>
 		<defaultArmorPenetration>0.15</defaultArmorPenetration>

@@ -718,13 +718,14 @@
 		<defName>AT_PP_S</defName>
 		<label>Anty Special diplomat</label>
 		<isFighter>true</isFighter>
-		<combatPower>320</combatPower>
+		<isGoodBreacher>true</isGoodBreacher>
+		<combatPower>400</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
-			<min>1000</min>
-			<max>1800</max>
+			<min>1500</min>
+			<max>2500</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>Anty_GunSingleUse_PP</li>
@@ -734,7 +735,6 @@
 			<li>AT_AP_Shooter_A</li>
 			<li>AT_AP_Head_B</li>
 			<li>AT_AP_CO_A</li>
-			<li>AT_AP_CO_B</li>
 		</apparelRequired>
 		<apparelMoney>
 			<min>1000</min>
