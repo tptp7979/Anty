@@ -1104,7 +1104,7 @@
 				<warmupTime>0.1</warmupTime>
 				<range>9.9</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<burstShotCount>5</burstShotCount>
 				<soundCast>ThrowGrenade</soundCast>
 				<onlyManualCast>true</onlyManualCast>
 				<stopBurstWithoutLos>false</stopBurstWithoutLos>
@@ -1150,8 +1150,6 @@
 			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationBase>0.05</armorPenetrationBase>
 			<explosionRadius>1.1</explosionRadius>
-			<preExplosionSpawnThingDef>Chocolate</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.25</preExplosionSpawnChance>
 			<speed>15</speed>
 			<explosionDelay>150</explosionDelay>
 			<arcHeightFactor>5</arcHeightFactor>
@@ -1161,7 +1159,7 @@
 	
 	<DamageDef ParentName="Bomb">
 		<defName>Anty_Bomb_SS</defName>
-		<defaultDamage>10</defaultDamage>
+		<defaultDamage>1</defaultDamage>
 		<buildingDamageFactor>30</buildingDamageFactor>
 		<defaultStoppingPower>3.0</defaultStoppingPower>
 		<defaultArmorPenetration>0.15</defaultArmorPenetration>
