@@ -203,8 +203,6 @@
 				<AT_Rifle_B>30</AT_Rifle_B>
 				<AT_Charge_B>15</AT_Charge_B>
 				<AT_Launcher_A>2</AT_Launcher_A>
-				<!-- <AT_SingleUse>2</AT_SingleUse> -->
-				<!-- <AT_PP_S>1</AT_PP_S> -->
 			</options> 
 		</li>
 		
@@ -221,8 +219,21 @@
 				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Charge_B>30</AT_Charge_B>
 				<AT_Launcher_A>2</AT_Launcher_A>
-				<!-- <AT_SingleUse>2</AT_SingleUse> -->
-				<AT_PP_S>2</AT_PP_S>
+			</options> 
+		</li>
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>10</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Sapper_B>5</AT_Sapper_B>
+				<AT_Rifle_B>20</AT_Rifle_B>
+				<AT_Charge_B>30</AT_Charge_B>
+				<AT_Launcher_A>2</AT_Launcher_A>
+				<AT_PP_S>1</AT_PP_S>
 			</options> 
 		</li>
 		
@@ -242,7 +253,6 @@
 				<AT_Charge_B>15</AT_Charge_B>
 				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>2</AT_Launcher_A>
-				<!-- <AT_PP_S>5</AT_PP_S> -->
 			</options> 
 		</li>
 		
@@ -259,8 +269,6 @@
 				<AT_Power_B>5</AT_Power_B>
 				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>3</AT_Launcher_A>
-				<!-- <AT_SingleUse>1</AT_SingleUse> -->
-				<!-- <AT_PP_S>3</AT_PP_S> -->
 			</options> 
 		</li>
 		
@@ -276,8 +284,6 @@
 				<AT_Power_B>10</AT_Power_B>
 				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>3</AT_Launcher_A>
-				<!-- <AT_SingleUse>1</AT_SingleUse> -->
-				<!-- <AT_PP_S>3</AT_PP_S> -->
 			</options> 
 		</li>
 		
@@ -293,7 +299,6 @@
 				<AT_Power_B>10</AT_Power_B>
 				<AT_Power_C>7</AT_Power_C>
 				<AT_Sapper_A>5</AT_Sapper_A>
-				<!-- <AT_PP_S>5</AT_PP_S> -->
 			</options> 
 		</li>
 		
