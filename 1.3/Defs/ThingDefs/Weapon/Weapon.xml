@@ -1083,7 +1083,7 @@
 		<statBases>
 			<MarketValue>1000</MarketValue>
 			<Mass>10</Mass>
-			<RangedWeapon_Cooldown>10</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>25</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>1</MoveSpeed>
@@ -1097,7 +1097,7 @@
 		</weaponTags>
 		<verbs>
 			<li>
-				<verbClass>Verb_LaunchProjectile</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_PP_A</defaultProjectile>
 				<forcedMissRadius>5.9</forcedMissRadius>
