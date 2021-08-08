@@ -225,6 +225,10 @@
 			<kindDef>Combat</kindDef>
 			<commonality>10</commonality>
 			<disallowedStrategies>
+				<li>Siege</li>
+				<li>ImmediateAttack</li>
+				<li>ImmediateAttackSmart</li>
+				<li>StageThenAttack</li>
 			</disallowedStrategies>
 			<options>
 				<Anty_Commander>5</Anty_Commander>
