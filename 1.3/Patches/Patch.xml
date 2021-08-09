@@ -53,10 +53,29 @@
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
+									<li>AT_Rifle_B</li>
+									<li>AT_Charge_B</li>
+									<li>AT_Launcher_A</li>
+									<li>Anty_Commander</li>
+									<li>AT_PP_S</li>
+									<li>AT_Power</li>
+									<li>AT_Power_A</li>
+									<li>AT_Power_B</li>
 								</pawnKinds>
-							</li>  
+							</li>
+							<li>
+								<factionDef>AntyHive_B</factionDef>
+								<pawnKinds>
+									<li>AT_Rifle_B</li>
+									<li>AT_Charge_B</li>
+									<li>AT_Launcher_A</li>
+									<li>Anty_Commander</li>
+									<li>AT_PP_S</li>
+									<li>AT_Power</li>
+									<li>AT_Power_A</li>
+									<li>AT_Power_B</li>
+								</pawnKinds>
+							</li>
 						</value>
 					</li>
 					<!-- Mercenaries -->
@@ -66,11 +85,29 @@
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
-									<li>AT_Charge_A</li>
+									<li>AT_Rifle_B</li>
+									<li>AT_Charge_B</li>
+									<li>AT_Launcher_A</li>
+									<li>Anty_Commander</li>
+									<li>AT_PP_S</li>
+									<li>AT_Power</li>
+									<li>AT_Power_A</li>
+									<li>AT_Power_B</li>
 								</pawnKinds>
-							</li>  
+							</li>
+							<li>
+								<factionDef>AntyHive_B</factionDef>
+								<pawnKinds>
+									<li>AT_Rifle_B</li>
+									<li>AT_Charge_B</li>
+									<li>AT_Launcher_A</li>
+									<li>Anty_Commander</li>
+									<li>AT_PP_S</li>
+									<li>AT_Power</li>
+									<li>AT_Power_A</li>
+									<li>AT_Power_B</li>
+								</pawnKinds>
+							</li> 
 						</value>
 					</li>
 
