@@ -371,7 +371,7 @@
 				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
 				<wickTicks>15</wickTicks>
 			</li>
-			<li Class="CompProperties_ProximityFuse">
+			<li Class="CompProperties_ProximityFuseAnty">
 				<target>AT_Bulletbarricade</target>
 				<radius>0.9</radius>
 			</li>
@@ -523,7 +523,7 @@
 				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
 				<wickTicks>15</wickTicks>
 			</li>
-			<li Class="CompProperties_ProximityFuse">
+			<li Class="CompProperties_ProximityFuseAnty">
 				<target>AT_Bulletbarricade</target>
 				<radius>0.9</radius>
 			</li>
