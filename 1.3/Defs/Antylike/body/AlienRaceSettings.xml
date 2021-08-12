@@ -37,7 +37,6 @@
 					<kindDefs>
 						<li>AT_Rifle_A</li>
 						<li>AT_Charge_B</li>
-						<li>Anty_Commander</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
