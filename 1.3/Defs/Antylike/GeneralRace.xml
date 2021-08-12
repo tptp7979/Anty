@@ -200,7 +200,7 @@
 					<offsets>
 						<south>
 							<bodyTypes>
-							<Thin>(-0.41,0.62)</Thin>
+							<Thin>(-0.41,0.65)</Thin>
 							</bodyTypes>
 						</south>
 						
@@ -212,7 +212,7 @@
 						
 						<east>
 							<bodyTypes>
-							<Thin>(-0.47,0.62)</Thin>
+							<Thin>(-0.47,0.65)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
@@ -240,7 +240,7 @@
 					<offsets>
 						<south>
 							<bodyTypes>
-							<Thin>(-0.43,0.62)</Thin>
+							<Thin>(-0.43,0.65)</Thin>
 							</bodyTypes>
 						</south>
 						
@@ -252,7 +252,7 @@
 						
 						<east>
 							<bodyTypes>
-							<Thin>(-0.47,0.62)</Thin>
+							<Thin>(-0.47,0.65)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
