@@ -14,6 +14,7 @@
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
+						<li>AT_PlayerFaction_B</li>
 						<li>AT_PlayerFaction</li>
 					</factionDefs>
 				</li>
@@ -28,6 +29,7 @@
 					</pawnKindEntries>
 					<factionDefs>
 						<li>AT_PlayerFaction_B</li>
+						<li>AT_PlayerFaction</li>
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -36,8 +38,15 @@
 				<li>
 					<kindDefs>
 						<li>AT_Rifle_A</li>
+						<li>AT_Charge_B</li>
 						<li>Anty_Commander</li>
 					</kindDefs>
+					<factionDefs>
+						<li>AntyHive</li>
+						<li>AntyHive_B</li>
+						<li>AT_PlayerFaction_B</li>
+						<li>AT_PlayerFaction</li>
+					</factionDefs>
 					<chance>20.0</chance>
 				</li>
 			</alienslavekinds>
@@ -48,6 +57,12 @@
 						<li>AT_Rifle_A</li>
 					</kindDefs>
 					<chance>20.0</chance>
+					<factionDefs>
+						<li>AntyHive</li>
+						<li>AntyHive_B</li>
+						<li>AT_PlayerFaction_B</li>
+						<li>AT_PlayerFaction</li>
+					</factionDefs>
 				</li>
 			</alienrefugeekinds>
 			
@@ -62,7 +77,10 @@
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
-						<li>AntyHive</li> 
+						<li>AntyHive</li>
+						<li>AntyHive_B</li>
+						<li>AT_PlayerFaction_B</li>
+						<li>AT_PlayerFaction</li>
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
