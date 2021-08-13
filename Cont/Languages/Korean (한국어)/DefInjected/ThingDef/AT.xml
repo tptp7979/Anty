@@ -258,7 +258,7 @@
   <AT_AcidCross.label>산성 쇠뇌</AT_AcidCross.label>
   <AT_AcidCross.description>앤티들이 체내에 저장해두는 산성 물질인 앤티산을 바른 화살을 쏘아냅니다. 평소에도 앤티산을 발라둔다면 화살촉이 녹아버리기에 발사시에 일일히 발라서 발사합니다.</AT_AcidCross.description>
   <AT_AcidCross.tools.0.label>손잡이</AT_AcidCross.tools.0.label>
-  <Aicdbolt.label>산성 화살</Aicdbolt.label>
+  <AT_Aicdbolt.label>산성 화살</AT_Aicdbolt.label>
   
   <AT_PP_S.label>앤티 X-전쟁 선물상자</AT_PP_S.label>
   <AT_PP_S.tools.0.label>상자 모서리</AT_PP_S.tools.0.label>

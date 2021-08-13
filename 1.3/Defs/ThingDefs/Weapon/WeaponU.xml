@@ -372,7 +372,7 @@
 				<wickTicks>15</wickTicks>
 			</li>
 			<li Class="CompProperties_ProximityFuseAnty">
-				<target>AT_Bulletbarricade</target>
+				<target>AT_Bulletchunk</target>
 				<radius>0.9</radius>
 			</li>
 			<li Class="CompProperties_MoteEmitter">
