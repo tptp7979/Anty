@@ -46,7 +46,7 @@
   <CookProtyGum.label>Cook Proty Gum ×10</CookProtyGum.label>
   <CookProtyGum.description>Cook Proty Gum.</CookProtyGum.description>
   <CookProtyGum.jobString>Cook Proty Gum</CookProtyGum.jobString>
-  <InstallAT_ReinforcedJaw.label>install Anty Reinforced Jaw</InstallAT_ReinforcedJaw.label><!-- Change -->
-  <InstallAT_ReinforcedJaw.description>install a Anty Reinforced Jaw.</InstallAT_ReinforcedJaw.description><!-- Change -->
-  <InstallAT_ReinforcedJaw.jobString>installing Anty Reinforced Jaw</InstallAT_ReinforcedJaw.jobString><!-- Change -->
+  <InstallAT_ReinforcedJaw.label>install Anty Reinforced Jaw</InstallAT_ReinforcedJaw.label>
+  <InstallAT_ReinforcedJaw.description>install a Anty Reinforced Jaw.</InstallAT_ReinforcedJaw.description>
+  <InstallAT_ReinforcedJaw.jobString>installing Anty Reinforced Jaw</InstallAT_ReinforcedJaw.jobString>
 </LanguageData>
