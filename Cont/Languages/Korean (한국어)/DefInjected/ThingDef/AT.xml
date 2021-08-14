@@ -106,7 +106,7 @@
   <LifePoweredGenerator.label>생명 연소기</LifePoweredGenerator.label>
   <LifePoweredGenerator.description>진딧물의 진액으로 전기를 생산하는 발전기입니다.</LifePoweredGenerator.description>
   <Anty_RecycleTurret.label>재활용 포탑-실외장비</Anty_RecycleTurret.label>
-  <Anty_RecycleTurret.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Anty_RecycleTurret.description>
+  <Anty_RecycleTurret.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.\n\n 산성유탄을 발사합니다.</Anty_RecycleTurret.description>
   <Anty_RecycleTurret.comps.2.fuelLabel>재장전까지 남은 탄</Anty_RecycleTurret.comps.2.fuelLabel>
   <Anty_RecycleTurret.comps.2.fuelGizmoLabel>남은 탄</Anty_RecycleTurret.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurret.comps.2.outOfFuelMessage>사격불가 : 탄약 없음</Anty_RecycleTurret.comps.2.outOfFuelMessage>
@@ -115,7 +115,7 @@
   <Gun_RecycleTurret.description>시체나 환자, 게으른 개체가 들어간 포탑입니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Gun_RecycleTurret.description>
   
   <Anty_RecycleTurretB.label>재활용 포탑-실내장비</Anty_RecycleTurretB.label>
-  <Anty_RecycleTurretB.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Anty_RecycleTurretB.description>
+  <Anty_RecycleTurretB.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.\n\n 접착 효과가 있는 산성탄을 발사합니다.</Anty_RecycleTurretB.description>
   <Anty_RecycleTurretB.comps.2.fuelLabel>재장전까지 남은 탄</Anty_RecycleTurretB.comps.2.fuelLabel>
   <Anty_RecycleTurretB.comps.2.fuelGizmoLabel>남은 탄</Anty_RecycleTurretB.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurretB.comps.2.outOfFuelMessage>사격불가 : 탄약 없음</Anty_RecycleTurretB.comps.2.outOfFuelMessage>
@@ -124,7 +124,7 @@
   <Gun_RecycleTurretB.description>시체나 환자, 게으른 개체가 들어간 포탑입니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Gun_RecycleTurretB.description>
 
   <Anty_RecycleTurretC.label>재활용 포탑-교란장비</Anty_RecycleTurretC.label>
-  <Anty_RecycleTurretC.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.</Anty_RecycleTurretC.description>
+  <Anty_RecycleTurretC.description>더 이상 싸울 수 없는 개체들을 재활용하여 만들어낸 자동 포탑입니다. 인원이 부족한 전선의 인원 보충, 기지의 방어 등 다방면으로 활용되는 포탑입니다. 게으른 개체가 사용되기도 합니다. 가끔, 주변을 지나가는 개체들을 뚫어져라 쳐다보는 것 같은 느낌을 줍니다.\n\n 접착탄을 발사합니다.</Anty_RecycleTurretC.description>
   <Anty_RecycleTurretC.comps.2.fuelLabel>재장전까지 남은 탄</Anty_RecycleTurretC.comps.2.fuelLabel>
   <Anty_RecycleTurretC.comps.2.fuelGizmoLabel>남은 탄</Anty_RecycleTurretC.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurretC.comps.2.outOfFuelMessage>사격불가 : 탄약 없음</Anty_RecycleTurretC.comps.2.outOfFuelMessage>
@@ -202,7 +202,7 @@
   <Filth_ApproachSmoke_B.label>산화 리플리움 가스</Filth_ApproachSmoke_B.label>
   
   <AT_hydroheliumion_B.label>레드버스트 전열소총</AT_hydroheliumion_B.label>
-  <AT_hydroheliumion_B.description>앤티들이 메카노이드 같이 장갑이 두텁거나 신체 자체가 강인한 대상을 상대하기 위해서 개발한 무기입니다.\n\n 기존의 산성 무기들과는 달리, 앤티산이 아닌 앤티산과 리플리움의 화합물인 레드버스트를 발사하여 더욱 강력한 위력을 발휘합니다.\n\n 불안정하게 방사하는 노즐 탓에 사거리가 짧지만 긴 사거리를 필요로 하지 않는 시가전에서 유용합니다. 또한 강력한 근접전 위력을 가지고 있기에 적과 백병전을 벌이더라도 문제가 없습니다.</AT_hydroheliumion_B.description>
+  <AT_hydroheliumion_B.description>앤티들이 메카노이드 같이 장갑이 두텁거나 신체 자체가 강인한 대상을 상대하기 위해서 개발한 무기입니다.\n\n 기존의 산성 무기들과는 달리, 앤티산이 아닌 앤티산과 리플리움의 화합물인 레드버스트를 발사하여 더욱 강력한 위력을 발휘합니다.\n\n 불안정하게 방사하는 노즐 탓에 사거리가 짧지만 긴 사거리를 필요로 하지 않는 시가전에서 유용합니다. 또한 강력한 근접전 위력을 가지고 있기에 적과 백병전을 벌이더라도 문제가 없습니다.\n\n 강력한 EMP기능을 탑재하고 있습니다.</AT_hydroheliumion_B.description>
   <AT_hydroheliumion_B.tools.0.label>노즐</AT_hydroheliumion_B.tools.0.label>
   <Bullethydroheliumion_B.label>레드버스트탄</Bullethydroheliumion_B.label>
   
@@ -213,7 +213,7 @@
   <Bullethydroheliumion_C_B.label>레드버스트탄</Bullethydroheliumion_C_B.label>
   
   <AT_RedHalberd.label>레드버스트 할버드</AT_RedHalberd.label>
-  <AT_RedHalberd.description>충격시 레드버스트를 쏟아내는 레드버스트 방출기가 내장된 할버드입니다. 방출기와 직접 연결된 창날에 찔리게 되면 대량의 레드버스트를 주입당할 수 있습니다.</AT_RedHalberd.description>
+  <AT_RedHalberd.description>충격시 레드버스트를 쏟아내는 레드버스트 방출기가 내장된 할버드입니다. 방출기와 직접 연결된 창날에 찔리게 되면 대량의 레드버스트를 주입당할 수 있습니다.\n\n 강력한 EMP기능을 탑재하고 있습니다.</AT_RedHalberd.description>
   <AT_RedHalberd.tools.0.label>도끼</AT_RedHalberd.tools.0.label>
   <AT_RedHalberd.tools.1.label>창</AT_RedHalberd.tools.1.label>
   <AT_RedHalberd.tools.2.label>갈고리</AT_RedHalberd.tools.2.label>

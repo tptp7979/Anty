@@ -116,7 +116,7 @@
   <LifePoweredGenerator.label>Life powered generator</LifePoweredGenerator.label>
   <LifePoweredGenerator.description>It is a generator that generates electricity from the extract of aphids.</LifePoweredGenerator.description>
   <Anty_RecycleTurret.label>Recycle turret-Outside addon</Anty_RecycleTurret.label>
-  <Anty_RecycleTurret.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurret.description>
+  <Anty_RecycleTurret.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires acid grenades.</Anty_RecycleTurret.description><!-- change -->
   <Anty_RecycleTurret.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurret.comps.2.fuelLabel>
   <Anty_RecycleTurret.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurret.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurret.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurret.comps.2.outOfFuelMessage>
@@ -124,7 +124,7 @@
   <Gun_RecycleTurret.label>Recycle turret gun</Gun_RecycleTurret.label>
   <Gun_RecycleTurret.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurret.description>
   <Anty_RecycleTurretB.label>Recycle turret-Inside addon</Anty_RecycleTurretB.label>
-  <Anty_RecycleTurretB.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurretB.description>
+  <Anty_RecycleTurretB.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires acid/glue bullets.</Anty_RecycleTurretB.description><!-- change -->
   <Anty_RecycleTurretB.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurretB.comps.2.fuelLabel>
   <Anty_RecycleTurretB.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurretB.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurretB.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurretB.comps.2.outOfFuelMessage>
@@ -132,7 +132,7 @@
   <Gun_RecycleTurretB.label>Recycle turret gun</Gun_RecycleTurretB.label>
   <Gun_RecycleTurretB.description>A simple automatic gun made to be mounted on a turret.</Gun_RecycleTurretB.description>
   <Anty_RecycleTurretC.label>Recycle turret-obstruction addon</Anty_RecycleTurretC.label>
-  <Anty_RecycleTurretC.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</Anty_RecycleTurretC.description>
+  <Anty_RecycleTurretC.description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires glue shells.</Anty_RecycleTurretC.description><!-- change -->
   <Anty_RecycleTurretC.comps.2.fuelLabel>Shots until barrel change</Anty_RecycleTurretC.comps.2.fuelLabel>
   <Anty_RecycleTurretC.comps.2.fuelGizmoLabel>Barrel durability</Anty_RecycleTurretC.comps.2.fuelGizmoLabel>
   <Anty_RecycleTurretC.comps.2.outOfFuelMessage>Cannot shoot: Needs new barrel</Anty_RecycleTurretC.comps.2.outOfFuelMessage>
@@ -219,12 +219,12 @@
   <Bullethydroheliumion.label>Red-Burst Bullet</Bullethydroheliumion.label>
   <Filth_ApproachSmoke_B.label>Acid Refleum gas</Filth_ApproachSmoke_B.label>
   <AT_RedHalberd.label>Red-burst halberd</AT_RedHalberd.label>
-  <AT_RedHalberd.description>A halberd with an in-built red-burst emitter, which releases red-burst upon impact. Stabbing with the spearhead, which the emitter is directly attached, will inject large amount of red-burst to the target.</AT_RedHalberd.description>
+  <AT_RedHalberd.description>A halberd with an in-built red-burst emitter, which releases red-burst upon impact. Stabbing with the spearhead, which the emitter is directly attached, will inject large amount of red-burst to the target.\n\nIt is equipped with a powerful EMP function.</AT_RedHalberd.description><!-- change -->
   <AT_RedHalberd.tools.0.label>Axe</AT_RedHalberd.tools.0.label>
   <AT_RedHalberd.tools.1.label>Spearhead</AT_RedHalberd.tools.1.label>
   <AT_RedHalberd.tools.2.label>Hook</AT_RedHalberd.tools.2.label>
   <AT_hydroheliumion_B.label>Red-Burst Line Rifle</AT_hydroheliumion_B.label>
-  <AT_hydroheliumion_B.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.</AT_hydroheliumion_B.description>
+  <AT_hydroheliumion_B.description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.\n\nIt is equipped with a powerful EMP function.</AT_hydroheliumion_B.description><!-- change -->
   <AT_hydroheliumion_B.tools.0.label>Nozzle</AT_hydroheliumion_B.tools.0.label>
   <Bullethydroheliumion_B.label>Red-Burst Bullet</Bullethydroheliumion_B.label>
   <AT_hydroheliumion_C.label>Red-Burst Cluster</AT_hydroheliumion_C.label>
