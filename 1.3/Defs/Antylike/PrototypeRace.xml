@@ -15,6 +15,7 @@
 	  <Flammability>2</Flammability>
 	  <PsychicSensitivity>0</PsychicSensitivity>
 	  <MeatAmount>20</MeatAmount>
+    <FilthRate>0.5</FilthRate>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
