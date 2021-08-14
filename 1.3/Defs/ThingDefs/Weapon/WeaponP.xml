@@ -182,7 +182,7 @@
 	<ThingDef ParentName="BaseMeleeWeaponAnty">
 		<defName>AT_RedHalberd</defName>
 		<label>Red-burst halberd</label>
-		<description>A halberd with an in-built red-burst emitter, which releases red-burst upon impact. Stabbing with the spearhead, which the emitter is directly attached, will inject large amount of red-burst to the target.</description>
+		<description>A halberd with an in-built red-burst emitter, which releases red-burst upon impact. Stabbing with the spearhead, which the emitter is directly attached, will inject large amount of red-burst to the target.\n\nIt is equipped with a powerful EMP function.</description>
 		<graphicData>
 			<texPath>Things/Weapons/RedBurstHalberd</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -320,7 +320,7 @@
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_hydroheliumion_B</defName>
 		<label>Red-Burst Line Rifle</label>
-		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.</description>
+		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It has shorter fire range due to the unstable nozzle, thus making it more effective in situations that does not require long fire range, such as urban warfare. Also, since it has superior firepower in close range, it can be utilized even in close combat.\n\nIt is equipped with a powerful EMP function.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution_high</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>

@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Anty_RecycleTurret</defName>
 		<label>Recycle turret-Outside addon</label>
-		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires acid grenades.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Chemicaldissolution</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
@@ -176,7 +176,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Anty_RecycleTurretB</defName>
 		<label>Recycle turret-Inside addon</label>
-		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires acid/glue bullets.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Chemicaldissolution</HediffDef>
 			<HediffDef>AT_glue_Link</HediffDef>
@@ -378,7 +378,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Anty_RecycleTurretC</defName>
 		<label>Recycle turret-obstruction addon</label>
-		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.</description>
+		<description>An auto-turret that is built using decommissioned or good-for-nothing lazy entities. It has proven its usefulness in many ways, such as fortifying the base and filling up the lacking firepower on the battlefield. Passerbys sometimes feel something glaring at them.\n\nFires glue shells.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AT_glue_Link</HediffDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
