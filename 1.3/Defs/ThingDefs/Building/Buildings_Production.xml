@@ -423,7 +423,6 @@
 		<passability>Impassable</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.1</fillPercent>
-		<canOverlapZones>false</canOverlapZones>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
@@ -431,19 +430,14 @@
 			<Beauty>15</Beauty>
 			<Mass>20</Mass>
 			<Flammability>0.25</Flammability>
-			<JoyGainFactor>1.1</JoyGainFactor>
 		</statBases>
 		<size>(3,1)</size>
 		<costList>
 			<Steel>125</Steel>
 		</costList>
-		<socialPropernessMatters>true</socialPropernessMatters>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
-			<joyKind>AT_ChartCheck</joyKind>
-			<watchBuildingStandDistanceRange>2~4</watchBuildingStandDistanceRange>
-			<watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
-			<watchBuildingInSameRoom>true</watchBuildingInSameRoom>
 		</building>
 		<researchPrerequisites>
 			<li>AntyMassiveButchering</li>
@@ -457,53 +451,16 @@
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
-					<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+					<WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
 				</statOffsets>
 				<maxSimultaneous>1</maxSimultaneous>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>2</glowRadius>
-				<glowColor>(220,220,220)</glowColor>
 			</li>
 		</comps>
 		<designationHotKey>Misc6</designationHotKey>
 		<placeWorkers>
-			<!-- <li>PlaceWorker_ShowFacilitiesConnections</li> -->
-			<li>PlaceWorker_WatchArea</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 	</ThingDef>
-	
-	<JoyKindDef>
-		<defName>AT_ChartCheck</defName>
-		<label>Checking butchering Chart</label>
-	</JoyKindDef>
-	
-	<JoyGiverDef>
-		<defName>AT_ChartCheck</defName>
-		<giverClass>JoyGiver_WatchBuilding</giverClass>
-		<baseChance>12</baseChance>
-		<thingDefs>
-			<li>AT_Chart</li>
-		</thingDefs>
-		<jobDef>AT_ChartCheck</jobDef>
-		<joyKind>AT_ChartCheck</joyKind>
-		<requiredCapacities>
-			<li>Sight</li>
-		</requiredCapacities>
-		<desireSit>false</desireSit>
-	</JoyGiverDef>
-	
-	<JobDef>
-		<defName>AT_ChartCheck</defName>
-		<driverClass>JobDriver_WatchBuilding</driverClass>
-		<reportString>Checking butchering Chart.</reportString>
-		<joyDuration>4000</joyDuration>
-		<joyMaxParticipants>8</joyMaxParticipants>
-		<joyKind>AT_ChartCheck</joyKind>
-		<joySkill>Medicine</joySkill>
-		<joyXpPerTick>0.006</joyXpPerTick>
-		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-	</JobDef>
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>LifePoweredGenerator</defName>
