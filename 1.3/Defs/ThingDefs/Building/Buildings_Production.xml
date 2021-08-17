@@ -435,7 +435,7 @@
 		<costList>
 			<Steel>125</Steel>
 		</costList>
-		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<!-- <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected> -->
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
