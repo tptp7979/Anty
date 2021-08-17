@@ -15,7 +15,7 @@
 	  <Flammability>2</Flammability>
 	  <PsychicSensitivity>0</PsychicSensitivity>
 	  <MeatAmount>20</MeatAmount>
-    <FilthRate>0.5</FilthRate>
+    <FilthRate>0.75</FilthRate>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
@@ -87,6 +87,8 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <willNeverEat>
         <li>Nutritional_jelly_thing</li>
+        <li>Antypheromone_Charge</li>
+        <li>Antypheromone_Shooting</li>
         <li>Antypheromone_Suicide</li>
       </willNeverEat>
     </race>
