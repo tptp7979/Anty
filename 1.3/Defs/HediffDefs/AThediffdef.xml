@@ -376,6 +376,7 @@
 					<toleranceChemical>Nutritional_jelly_chemical</toleranceChemical>
 				</li>
 			</outcomeDoers>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -499,6 +500,7 @@
 					<toleranceChemical>Battlestimulation_jelly_chemical</toleranceChemical>
 				</li>
 			</outcomeDoers>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -612,6 +614,7 @@
 			<ingestCommandString>Take {0}</ingestCommandString>
 			<ingestReportString>Taking {0}.</ingestReportString>
 			<drugCategory>Medical</drugCategory>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
