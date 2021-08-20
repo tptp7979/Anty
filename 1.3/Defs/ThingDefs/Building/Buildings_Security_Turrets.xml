@@ -38,6 +38,7 @@
 			<WorkToBuild>1800</WorkToBuild>
 			<Mass>22</Mass>
 			<Beauty>-30</Beauty>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">15</TerrorSource>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -211,6 +212,7 @@
 			<WorkToBuild>1800</WorkToBuild>
 			<Mass>22</Mass>
 			<Beauty>-30</Beauty>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">15</TerrorSource>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -412,6 +414,7 @@
 			<WorkToBuild>1800</WorkToBuild>
 			<Mass>22</Mass>
 			<Beauty>-30</Beauty>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">15</TerrorSource>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
