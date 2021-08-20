@@ -112,7 +112,7 @@
 				<li>Thin</li>
 			</alienbodytypes><!--몸-->
 			
-			<headOffset>(0,0)</headOffset><!--머리위치-->
+			<headOffset>(0,0.01)</headOffset><!--머리위치-->
 			<useGenderedHeads>true</useGenderedHeads><!--성별머리-->
 			<useGenderedBodies>false</useGenderedBodies><!--성별몸-->
 			
@@ -200,19 +200,19 @@
 					<offsets>
 						<south>
 							<bodyTypes>
-							<Thin>(-0.41,0.65)</Thin>
+							<Thin>(-0.4,0.67)</Thin>
 							</bodyTypes>
 						</south>
 						
 						<north>
 							<bodyTypes>
-							<Thin>(0,0.93)</Thin>
+							<Thin>(0,0.97)</Thin>
 							</bodyTypes>
 						</north>
 						
 						<east>
 							<bodyTypes>
-							<Thin>(-0.47,0.65)</Thin>
+							<Thin>(-0.47,0.67)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
@@ -240,19 +240,19 @@
 					<offsets>
 						<south>
 							<bodyTypes>
-							<Thin>(-0.43,0.65)</Thin>
+							<Thin>(-0.44,0.67)</Thin>
 							</bodyTypes>
 						</south>
 						
 						<north>
 							<bodyTypes>
-							<Thin>(0,0.93)</Thin>
+							<Thin>(0,0.97)</Thin>
 							</bodyTypes>
 						</north>
 						
 						<east>
 							<bodyTypes>
-							<Thin>(-0.47,0.65)</Thin>
+							<Thin>(-0.47,0.67)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
@@ -292,7 +292,7 @@
 					  
 						<east>
 							<bodyTypes>
-							<Thin>(-0.5,0.6)</Thin>
+							<Thin>(-0.5,0.67)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
@@ -332,7 +332,7 @@
 					  
 						<east>
 							<bodyTypes>
-							<Thin>(-0.5,0.6)</Thin>
+							<Thin>(-0.5,0.67)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
@@ -1226,7 +1226,7 @@
 		  <texture>Things/Pawn/Wounds/BandagedC</texture>
 		</li>
 	  </bandagedWounds>
-<!-- 	  <hediffWounds>
+	  <hediffWounds>
 		<li  MayRequire="Ludeon.RimWorld.Ideology">
 		  <hediff>Scarification</hediff>
 		  <wounds>
@@ -1254,10 +1254,10 @@
 		  <hediff>MissingBodyPart</hediff>
 		  <wounds>
 			<li>
-			  <textureSouth>Things/Pawn/Wounds/MissingEye_Scar_south</textureSouth>
-			  <textureNorth>Things/Pawn/Wounds/MissingEye_Scar_south</textureNorth>
-			  <textureEast>Things/Pawn/Wounds/MissingEye_Scar_east</textureEast>
-			  <textureWest>Things/Pawn/Wounds/MissingEye_Scar_east</textureWest>
+			  <textureSouth>Antylike/Wounds/MissingEye_Scar_south</textureSouth>
+			  <textureNorth>Antylike/Wounds/MissingEye_Scar_south</textureNorth>
+			  <textureEast>Antylike/Wounds/MissingEye_Scar_east</textureEast>
+			  <textureWest>Antylike/Wounds/MissingEye_Scar_east</textureWest>
 			  <flipWest>true</flipWest>
 			  <onlyOnPart>Eye</onlyOnPart>
 			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
@@ -1267,10 +1267,10 @@
 			  <scale>0.7</scale>
 			</li>
 			<li>
-			  <textureSouth>Things/Pawn/Wounds/MissingEye_Fresh</textureSouth>
-			  <textureNorth>Things/Pawn/Wounds/MissingEye_Fresh</textureNorth>
-			  <textureEast>Things/Pawn/Wounds/MissingEye_Fresh</textureEast>
-			  <textureWest>Things/Pawn/Wounds/MissingEye_Fresh</textureWest>
+			  <textureSouth>Antylike/Wounds/MissingEye_Fresh</textureSouth>
+			  <textureNorth>Antylike/Wounds/MissingEye_Fresh</textureNorth>
+			  <textureEast>Antylike/Wounds/MissingEye_Fresh</textureEast>
+			  <textureWest>Antylike/Wounds/MissingEye_Fresh</textureWest>
 			  <flipWest>true</flipWest>
 			  <onlyOnPart>Eye</onlyOnPart>
 			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
@@ -1284,10 +1284,10 @@
 		  <hediff>BionicEye</hediff>
 		  <wounds>
 			<li>
-			  <textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
-			  <textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
-			  <textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
-			  <textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
+			  <textureSouth>Antylike/Wounds/BionicEye_south</textureSouth>
+			  <textureNorth>Antylike/Wounds/BionicEye_south</textureNorth>
+			  <textureEast>Antylike/Wounds/BionicEye_east</textureEast>
+			  <textureWest>Antylike/Wounds/BionicEye_east</textureWest>
 			  <flipWest>true</flipWest>
 			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
 			  <flipOnRotation>South</flipOnRotation>
@@ -1299,10 +1299,10 @@
 		  <hediff>ArchotechEye</hediff>
 		  <wounds>
 			<li>
-			  <textureSouth>Things/Pawn/Wounds/ArchotechEye_south</textureSouth>
-			  <textureNorth>Things/Pawn/Wounds/ArchotechEye_south</textureNorth>
-			  <textureEast>Things/Pawn/Wounds/ArchotechEye_east</textureEast>
-			  <textureWest>Things/Pawn/Wounds/ArchotechEye_east</textureWest>
+				<textureSouth>Antylike/Wounds/ArchotechEye_south</textureSouth>
+				<textureNorth>Antylike/Wounds/ArchotechEye_south</textureNorth>
+				<textureEast>Antylike/Wounds/ArchotechEye_east</textureEast>
+				<textureWest>Antylike/Wounds/ArchotechEye_east</textureWest>
 			  <flipWest>true</flipWest>
 			  <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
 			  <flipOnRotation>South</flipOnRotation>
@@ -1310,6 +1310,6 @@
 			</li>
 		  </wounds>
 		</li>
-	  </hediffWounds> -->
+	  </hediffWounds>
 	</FleshTypeDef>
 </Defs>

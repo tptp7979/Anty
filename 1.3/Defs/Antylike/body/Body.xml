@@ -118,6 +118,7 @@
 											<li>FullHead</li>
 											<li>Eyes</li>
 										</groups>
+										<woundAnchorTag>LeftEye</woundAnchorTag>
 									</li>
 									
 									<li>
@@ -128,6 +129,7 @@
 											<li>FullHead</li>
 											<li>Eyes</li>
 										</groups>
+										<woundAnchorTag>RightEye</woundAnchorTag>
 									</li>
 
 									<li><!-- 좌측귀 67 -->
@@ -292,6 +294,7 @@
 										<groups>
 											<li>Shoulders</li>
 										</groups>
+										<woundAnchorTag>LeftShoulder</woundAnchorTag>
 									<parts><!-- 어깨파트 -->
 										<li><!-- 엑소암 -->
 												<def>Shoulder</def>
@@ -301,6 +304,7 @@
 												<groups>
 													<li>Arms</li>
 												</groups>
+												<woundAnchorTag>LeftShoulder</woundAnchorTag>
 											<parts><!-- 엑소암파트 -->
 												<li><!-- 팔 -->
 														<def>Arm</def>
@@ -406,6 +410,7 @@
 										<groups>
 											<li>Shoulders</li>
 										</groups>
+										<woundAnchorTag>RightShoulder</woundAnchorTag>
 									<parts><!-- 어깨파트 -->
 										<li><!-- 엑소암 -->
 												<def>Shoulder</def>
@@ -415,6 +420,7 @@
 												<groups>
 													<li>Arms</li>
 												</groups>
+												<woundAnchorTag>RightShoulder</woundAnchorTag>
 											<parts><!-- 엑소암파트 -->
 												<li><!-- 팔 -->
 														<def>Arm</def>
@@ -532,6 +538,7 @@
 										<groups>
 											<li>Legs</li>
 										</groups>
+										<woundAnchorTag>LeftLeg</woundAnchorTag>
 									<parts><!-- 엑소레그파트 -->
 										<li><!-- 다리 -->
 												<def>Leg</def>
@@ -542,6 +549,7 @@
 												<groups>
 													<li>Legs</li>
 												</groups>
+												<woundAnchorTag>LeftLeg</woundAnchorTag>
 											<parts><!-- 다리파트 -->
 												<li>
 													<def>Femur</def>
@@ -631,6 +639,7 @@
 										<groups>
 											<li>Legs</li>
 										</groups>
+										<woundAnchorTag>RightLeg</woundAnchorTag>
 									<parts><!-- 엑소레그파트 -->
 										<li><!-- 다리 -->
 												<def>Leg</def>
@@ -641,6 +650,7 @@
 												<groups>
 													<li>Legs</li>
 												</groups>
+												<woundAnchorTag>RightLeg</woundAnchorTag>
 											<parts><!-- 다리파트 -->
 												<li>
 													<def>Femur</def>
