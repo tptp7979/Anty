@@ -87,6 +87,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullethydroheliumion</defaultProjectile>
 				<warmupTime>1</warmupTime>
+				<minRange>2.1</minRange>
 				<range>34.9</range>
 				<forcedMissRadius>2.1</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
