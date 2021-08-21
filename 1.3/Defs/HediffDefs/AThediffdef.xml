@@ -252,6 +252,7 @@
 		<li>
 		</li>
 		<li>
+			<lifeThreatening>true</lifeThreatening>
 			<label>Bad nutrition</label>
 			<hediffGivers>
 				<li Class="HediffGiver_Random">
@@ -1215,6 +1216,20 @@
 		</comps>
 		<stages>
 			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.9</HungerRateMultiplier>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.964</minSeverity>
+				<lifeThreatening>true</lifeThreatening>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
