@@ -191,7 +191,7 @@
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AntyGlandoverload_Ready</hediffDef>
-					<severity>0.1</severity>
+					<severity>0.4</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -329,7 +329,7 @@
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AntyGlandoverload_Ready</hediffDef>
-					<severity>0.1</severity>
+					<severity>0.4</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -466,7 +466,7 @@
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AntyGlandoverload_Ready</hediffDef>
-					<severity>0.1</severity>
+					<severity>0.5</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
