@@ -47,7 +47,7 @@
 		</costList>
 		<building>
 			<bed_showSleeperBody>false</bed_showSleeperBody>
-			<bed_healPerDay>16</bed_healPerDay>
+			<bed_healPerDay>30</bed_healPerDay>
 			<bed_defaultMedical>true</bed_defaultMedical>
 			<buildingSizeCategory>Small</buildingSizeCategory>
 		</building>
