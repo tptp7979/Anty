@@ -25,7 +25,7 @@
 				<li>Bite</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>1.25</cooldownTime>
+				<cooldownTime>1.05</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -46,7 +46,7 @@
 				<li>Blunt</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>1.25</cooldownTime>
+				<cooldownTime>1.15</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.4</chanceFactor>
@@ -74,7 +74,7 @@
 			<fleshType>Anty_flesh</fleshType>
 			<baseBodySize>0.5</baseBodySize>
 			<baseHungerRate>0.2</baseHungerRate>
-			<baseHealthScale>0.65</baseHealthScale>
+			<baseHealthScale>0.5</baseHealthScale>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<trainability>Advanced</trainability>
 			<needsRest>false</needsRest>
