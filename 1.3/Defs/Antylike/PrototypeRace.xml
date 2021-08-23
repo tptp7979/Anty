@@ -27,7 +27,7 @@
 				<power>9</power>
 				<cooldownTime>1.25</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<!-- <surpriseAttack>
+				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
@@ -38,7 +38,7 @@
 							<amount>5</amount>
 						</li>
 					</extraMeleeDamages>
-				</surpriseAttack> -->
+				</surpriseAttack>
 			</li>
 			<li>
 				<label>head</label>
@@ -50,14 +50,14 @@
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.4</chanceFactor>
-				<!-- <surpriseAttack>
+				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
 							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
-				</surpriseAttack> -->
+				</surpriseAttack>
 			</li>
 		</tools>
 		<comps>
@@ -84,8 +84,8 @@
 			<lifeExpectancy>10</lifeExpectancy>
 			<herdAnimal>true</herdAnimal>
 			<packAnimal>true</packAnimal>
-			<!-- <predator>true</predator>
-			<maxPreyBodySize>2.1</maxPreyBodySize> -->
+			<predator>true</predator>
+			<maxPreyBodySize>2.1</maxPreyBodySize>
 			<lifeStageAges>
 				<li>
 					<def>EusocialInsectLarva</def>
