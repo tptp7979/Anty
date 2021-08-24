@@ -4,7 +4,7 @@
 
 	<PawnKindDef Name="AntyPlayerBasePawnKind" Abstract="True">
 		<race>Anty</race>
-		<combatPower>15</combatPower>
+		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>

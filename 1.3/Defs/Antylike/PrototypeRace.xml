@@ -9,7 +9,7 @@
 			<ArmorRating_Blunt>0.07</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
-			<MarketValue>500</MarketValue>
+			<MarketValue>350</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
 			<ToxicSensitivity>3</ToxicSensitivity>
 			<Flammability>2</Flammability>
@@ -157,7 +157,7 @@
 		<defName>Anty_prototype</defName>
 		<label>proty</label>
 		<race>Anty_prototype</race>
-		<combatPower>35</combatPower>
+		<combatPower>70</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.15</ecoSystemWeight>
 		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
