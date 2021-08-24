@@ -84,9 +84,9 @@
 	<ThingDef ParentName="MoteBase">
 		<defName>Mote_IngressbreakerRadius</defName>
 		<mote>
-			<fadeInTime>0.1</fadeInTime>
-			<solidTime>999999999</solidTime>
-			<fadeOutTime>0.75</fadeOutTime>
+			<fadeInTime>5</fadeInTime>
+			<solidTime>5</solidTime>
+			<fadeOutTime>15</fadeOutTime>
 			<needsMaintenance>True</needsMaintenance>
 		</mote>
 		<graphicData>
