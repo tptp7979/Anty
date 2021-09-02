@@ -397,7 +397,7 @@
 					<offsets>
 						<south>
 							<bodyTypes>
-							<Thin>(-0.42,0.55)</Thin>
+							<Thin>(-0.42,0.565)</Thin>
 							</bodyTypes>
 						</south>
 						
@@ -409,7 +409,7 @@
 					  
 						<east>
 							<bodyTypes>
-							<Thin>(-0.5,0.55)</Thin>
+							<Thin>(-0.5,0.565)</Thin>
 							</bodyTypes>
 						</east>
 					</offsets>
