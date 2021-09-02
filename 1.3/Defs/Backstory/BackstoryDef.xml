@@ -88,6 +88,7 @@
 		</spawnCategories>
 		<forcedHediffs Inherit="False">
 		<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
+		<li>AntySoldierbirth</li>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
