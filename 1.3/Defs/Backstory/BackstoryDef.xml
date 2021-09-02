@@ -91,6 +91,17 @@
 		<li>AntySoldierbirth</li>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anty_Larva_B_Brave">
+		<defName>Anty_Larva_B_Brave_Drop</defName>
+		<spawnCategories Inherit="False">
+			<li>ATAmigo_Melee_Drop</li>
+		</spawnCategories>
+		<forcedHediffs Inherit="False">
+		<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
+		<li>AntySoldierbirth</li>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="AntyBackStory">
 		<defName>Anty_Larva_B_Brave</defName>
