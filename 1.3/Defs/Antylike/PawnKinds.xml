@@ -588,6 +588,7 @@
 		</weaponMoney>
 		<weaponTags>
 			<li>hydroheliumion_A</li>
+			<li>hydroheliumion_B</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>AT_AP_Power_A</li>
