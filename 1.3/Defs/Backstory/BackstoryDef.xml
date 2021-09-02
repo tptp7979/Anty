@@ -103,7 +103,7 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="AntyBackStory">
+	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Larva_B_Brave">
 		<defName>Anty_Larva_B_Brave</defName>
 		<title>Anty Brave Larva</title>
 		<titleShort>Anty</titleShort>
