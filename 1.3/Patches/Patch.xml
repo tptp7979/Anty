@@ -48,11 +48,16 @@
 				<operations>
 				<!-- Guests -->
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+						<xpath>/Defs/QuestScriptDef[defName="Util_ChooseRandomQuestLodgerKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
 						<value>
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+									<li>AT_Charge_A</li>
+									<li>AT_Sapper_A</li>
+									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
@@ -66,6 +71,11 @@
 							<li>
 								<factionDef>AntyHive_B</factionDef>
 								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+									<li>AT_Charge_A</li>
+									<li>AT_Sapper_A</li>
+									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
@@ -80,11 +90,16 @@
 					</li>
 					<!-- Mercenaries -->
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+						<xpath>/Defs/QuestScriptDef[defName="Util_ChooseRandomQuestHelperKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
 						<value>
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+									<li>AT_Charge_A</li>
+									<li>AT_Sapper_A</li>
+									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
@@ -98,6 +113,11 @@
 							<li>
 								<factionDef>AntyHive_B</factionDef>
 								<pawnKinds>
+									<li>AT_Raid_A</li>
+									<li>AT_Rifle_A</li>
+									<li>AT_Charge_A</li>
+									<li>AT_Sapper_A</li>
+									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
@@ -154,7 +174,44 @@
 					<li Class="PatchOperationAdd">
 						<xpath>/Defs/PawnKindDef[defName="AT_PP_S"]</xpath>
 						<value>
-							<minTitleRequired>AT_platoonleader</minTitleRequired>
+							<royalTitleChance>0.25</royalTitleChance>
+							<titleSelectOne>
+								<li>AT_platoonleader</li>
+								<li>AT_companycommander</li>
+							</titleSelectOne>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="AT_Launcher_A"]</xpath>
+						<value>
+							<royalTitleChance>0.2</royalTitleChance>
+							<titleSelectOne>
+								<li>AT_platoonleader</li>
+								<li>AT_companycommander</li>
+							</titleSelectOne>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="AT_Rifle_A"]</xpath>
+						<value>
+							<royalTitleChance>0.05</royalTitleChance>
+							<titleSelectOne>
+								<li>AT_platoonleader</li>
+								<li>AT_companycommander</li>
+							</titleSelectOne>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="AT_Rifle_B"]</xpath>
+						<value>
+							<royalTitleChance>0.05</royalTitleChance>
+							<titleSelectOne>
+								<li>AT_platoonleader</li>
+								<li>AT_companycommander</li>
+							</titleSelectOne>
 						</value>
 					</li>
 				</operations>
