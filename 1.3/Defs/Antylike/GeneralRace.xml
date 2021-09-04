@@ -939,7 +939,7 @@
 		<MarketValue>800</MarketValue><!-- 가격 -->
 
 		<MoveSpeed>5</MoveSpeed><!-- 이속 -->
-		<Mass>35</Mass><!-- 무게 -->
+		<Mass>55</Mass><!-- 무게 -->
 		
 		<ComfyTemperatureMax>28</ComfyTemperatureMax><!-- 편한최대온도 -->
 		<ComfyTemperatureMin>19</ComfyTemperatureMin><!-- 편한최소온도 -->

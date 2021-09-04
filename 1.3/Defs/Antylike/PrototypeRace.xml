@@ -16,6 +16,7 @@
 			<PsychicSensitivity>0</PsychicSensitivity>
 			<MeatAmount>20</MeatAmount>
 			<FilthRate>0.75</FilthRate>
+			<Mass>50</Mass>
 		</statBases>
 		<uiIconScale>2</uiIconScale>
 		<tools>
