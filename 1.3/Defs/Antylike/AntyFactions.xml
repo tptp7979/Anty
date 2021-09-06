@@ -282,7 +282,6 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>3</commonality>
-			<maxTotalPoints>9500</maxTotalPoints>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
