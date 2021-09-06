@@ -591,11 +591,11 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveRadius>3.1</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
 				<damageAmountBase>100</damageAmountBase>
 				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
-				<preExplosionSpawnChance>0.1</preExplosionSpawnChance>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
 				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
 				<startWickHitPointsPercent>1</startWickHitPointsPercent>
 				<wickTicks>0</wickTicks>
