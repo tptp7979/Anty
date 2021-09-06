@@ -192,6 +192,7 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>30</commonality>
+			<maxTotalPoints>5000</maxTotalPoints>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
@@ -210,6 +211,7 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>20</commonality>
+			<maxTotalPoints>7000</maxTotalPoints>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
@@ -264,6 +266,7 @@
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>5</commonality>
+			<maxTotalPoints>8500</maxTotalPoints>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
@@ -301,7 +304,7 @@
 				<AT_Power>5</AT_Power>
 				<AT_Power_A>10</AT_Power_A>
 				<AT_Power_B>10</AT_Power_B>
-				<AT_Power_C>7</AT_Power_C>
+				<AT_Power_C>3</AT_Power_C>
 				<AT_Sapper_A>5</AT_Sapper_A>
 			</options> 
 		</li>
