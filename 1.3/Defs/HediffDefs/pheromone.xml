@@ -516,7 +516,7 @@
 	<HediffDef>
 		<defName>Antypheromone_SuicideHigh</defName>
 		<hediffClass>Hediff_High</hediffClass>
-		<label>Anty deonation pheromone</label>
+		<label>Anty detonation pheromone</label>
 		<description>Preparing for a powerful explosion.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Antypheromone_Suicide</ThingDef>

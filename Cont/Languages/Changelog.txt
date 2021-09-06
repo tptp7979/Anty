@@ -21,3 +21,6 @@ ThingDef
 
 (2021/9/3)
 AlienRace.BackstoryDef
+
+(2021/9/6)
+HediffDef
