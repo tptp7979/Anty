@@ -600,7 +600,7 @@
 				<startWickHitPointsPercent>1</startWickHitPointsPercent>
 				<wickTicks>0</wickTicks>
 			</li>
-			<li Class="CompProperties_ProximityFuse">
+			<li Class="CompProperties_ProximityFuseAnty">
 				<target>AT_SuicideBomb</target>
 				<radius>1.9</radius>
 			</li>
