@@ -120,6 +120,14 @@
 		</tradeTags>
 		<damageMultipliers>
 		<li>
+			<damageDef>AT_AcidDamage</damageDef>
+			<multiplier>0</multiplier>
+		</li>
+		<li>
+			<damageDef>AT_AcidDamage_High</damageDef>
+			<multiplier>0</multiplier>
+		</li>
+		<li>
 			<damageDef>AT_glueBomb</damageDef>
 			<multiplier>0</multiplier>
 		</li>
