@@ -450,7 +450,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>BulletAcidLauncher</defaultProjectile>
 				<warmupTime>2</warmupTime>
-				<minRange>2.1</minRange>
+				<minRange>7.1</minRange>
 				<range>30.9</range>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<burstShotCount>4</burstShotCount>
