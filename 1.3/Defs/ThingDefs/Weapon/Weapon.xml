@@ -668,7 +668,7 @@
 			<defaultArmorPenetration>1</defaultArmorPenetration>
 			<buildingDamageFactor>0</buildingDamageFactor>
 			<plantDamageFactor>0</plantDamageFactor>
-			<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+			<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
 			<explosionCellMote>Mote_GlueBlast</explosionCellMote>
 			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
 			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
@@ -703,7 +703,7 @@
 			<defaultArmorPenetration>1</defaultArmorPenetration>
 			<buildingDamageFactor>0</buildingDamageFactor>
 			<plantDamageFactor>0</plantDamageFactor>
-			<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+			<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
 			<explosionCellMote>Mote_GlueBlast</explosionCellMote>
 			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
 			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>

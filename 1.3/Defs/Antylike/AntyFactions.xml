@@ -285,12 +285,11 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>10</AT_Power>
+				<AT_Power>15</AT_Power>
 				<AT_Sapper_A>5</AT_Sapper_A>
-				<AT_Sapper_B>5</AT_Sapper_B>
-				<AT_Power_B>10</AT_Power_B>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Launcher_A>3</AT_Launcher_A>
+				<AT_Power_B>15</AT_Power_B>
+				<AT_Rifle_B>10</AT_Rifle_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
 			</options> 
 		</li>
 		

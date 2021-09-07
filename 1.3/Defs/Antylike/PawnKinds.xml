@@ -429,7 +429,7 @@
 			<max>1700</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>AcidRifle</li>
+			<li>AcidRifle_R</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>AT_AP_Additionalarmorplate_A</li>
@@ -478,7 +478,7 @@
 		<defName>AT_Launcher_A</defName>
 		<label>Anty Launcher Shooter</label>
 		<isFighter>true</isFighter>
-		<combatPower>200</combatPower>
+		<combatPower>130</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>0.85</apparelAllowHeadgearChance>
