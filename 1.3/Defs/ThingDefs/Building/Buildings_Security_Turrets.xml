@@ -305,7 +305,7 @@
 			<speed>70</speed>
 			<damageDef>AT_glueBullet</damageDef>
 			<damageAmountBase>1</damageAmountBase>
-			<armorPenetrationBase>0.02</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<extraDamages>
 					<li>
@@ -362,7 +362,7 @@
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been shot to death.</deathMessage>
 		<hediff>glueBomb</hediff>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
 		<impactSoundType>AntyAcid_Bullet</impactSoundType>
 		<armorCategory>Blunt</armorCategory>
 		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>

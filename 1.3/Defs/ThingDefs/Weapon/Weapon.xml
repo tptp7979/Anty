@@ -110,7 +110,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
 			<damageAmountBase>6</damageAmountBase>
-			<armorPenetrationBase>0.05</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 		</projectile>
 	</ThingDef>
@@ -203,7 +203,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
 			<damageAmountBase>7</damageAmountBase>
-			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>1.5</stoppingPower>
 		</projectile>
 	</ThingDef>
@@ -289,7 +289,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
 			<damageAmountBase>9</damageAmountBase>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 		</projectile>
 	</ThingDef>
@@ -306,7 +306,7 @@
 		<damageEffecter>Impact_ATAcid</damageEffecter>
 		<armorCategory>Blunt</armorCategory>
 		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
 		<isRanged>true</isRanged>
 		<makesAnimalsFlee>true</makesAnimalsFlee>
 		<makesBlood>false</makesBlood>
@@ -401,7 +401,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet</damageDef>
 			<damageAmountBase>6</damageAmountBase>
-			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 		</projectile>
 	</ThingDef>
@@ -519,7 +519,7 @@
 			<armorCategory>Blunt</armorCategory>
 			<minDamageToFragment>0</minDamageToFragment>
 			<defaultDamage>7</defaultDamage>
-			<defaultArmorPenetration>0.15</defaultArmorPenetration>
+			<defaultArmorPenetration>0</defaultArmorPenetration>
 			<buildingDamageFactor>1</buildingDamageFactor>
 			<plantDamageFactor>2</plantDamageFactor>
 			<!-- <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly> -->
@@ -1052,7 +1052,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidArrow</damageDef>
 			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 	

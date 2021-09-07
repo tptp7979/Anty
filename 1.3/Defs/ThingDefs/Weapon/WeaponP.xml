@@ -127,7 +127,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
 			<damageAmountBase>7</damageAmountBase>
-			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<explosionRadius>1.9</explosionRadius>
 			<explosionDelay>0</explosionDelay>
@@ -147,7 +147,7 @@
 		<armorCategory>Blunt</armorCategory>
 		<minDamageToFragment>1</minDamageToFragment>
 		<defaultDamage>10</defaultDamage>
-		<defaultArmorPenetration>0.2</defaultArmorPenetration>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
 		<buildingDamageFactor>1</buildingDamageFactor>
 		<plantDamageFactor>5</plantDamageFactor>
 		<!-- <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly> -->
@@ -297,7 +297,7 @@
 		<hediffSkin>Chemicaldissolution_high</hediffSkin>
 		<hediffSolid>Chemicaldissolution_high</hediffSolid>
 		<stabChanceOfForcedInternal>1</stabChanceOfForcedInternal>
-		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<defaultArmorPenetration>0.01</defaultArmorPenetration>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<impactSoundType>Toxic</impactSoundType>
 		<damageEffecter>Impact_ATAcid_High</damageEffecter>
@@ -309,7 +309,7 @@
 		<hediffSkin>Chemicaldissolution_high</hediffSkin>
 		<hediffSolid>Chemicaldissolution_high</hediffSolid>
 		<cutCleaveBonus>1.4</cutCleaveBonus>
-		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<defaultArmorPenetration>0.01</defaultArmorPenetration>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<armorCategory>Blunt</armorCategory>
 		<impactSoundType>Toxic</impactSoundType>
@@ -422,7 +422,7 @@
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet_B</damageDef>
 			<damageAmountBase>1</damageAmountBase>
-			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<extraDamages>
 					<li>
@@ -451,7 +451,7 @@
 		<damageEffecter>Impact_ATAcid_High</damageEffecter>
 		<armorCategory>Blunt</armorCategory>
 		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
 		<isRanged>true</isRanged>
 		<makesAnimalsFlee>true</makesAnimalsFlee>
 		<makesBlood>false</makesBlood>
@@ -551,7 +551,7 @@
 			<speed>30</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
 			<damageAmountBase>8</damageAmountBase>
-			<armorPenetrationBase>0.20</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<explosionRadius>3.1</explosionRadius>
 			<subProjectile>Bullethydroheliumion_C_B</subProjectile>
 			<clusterCount>25</clusterCount>
@@ -572,7 +572,7 @@
 			<speed>6.5</speed>
 			<damageDef>AT_AcidBomb_B</damageDef>
 			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationBase>0.20</armorPenetrationBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 			<explosionRadius>2.1</explosionRadius>
 			<explosionDelay>10</explosionDelay>
