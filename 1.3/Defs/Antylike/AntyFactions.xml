@@ -455,8 +455,8 @@
 			</li>
 			<li>
 				<tag>AThair</tag>
-				<baseWeight>0.01</baseWeight>
-				<weightFactor>0.01</weightFactor>
+				<baseWeight>0</baseWeight>
+				<weightFactor>0</weightFactor>
 			</li>
 			<li>
 				<tag>NoBeard</tag>
@@ -480,5 +480,10 @@
 			</li>
 		</styleItemTags>
 	</CultureDef>
+
+	<StyleItemCategoryDef>
+		<defName>AThair</defName>
+		<label>Anty hair style</label>
+	</StyleItemCategoryDef>
  
 </Defs>

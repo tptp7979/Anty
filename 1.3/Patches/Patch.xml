@@ -500,8 +500,8 @@
 	<value>
 		<li>
 			<tag>AThair</tag>
-			<baseWeight>0.01</baseWeight>
-			<weightFactor>0.01</weightFactor>
+			<baseWeight>0</baseWeight>
+			<weightFactor>0</weightFactor>
 		</li>
 	</value>
 	</Operation>
