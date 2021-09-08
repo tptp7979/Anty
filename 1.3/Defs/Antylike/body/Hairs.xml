@@ -7,9 +7,10 @@
 		<!-- <hairGender>Any</hairGender> -->
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_A</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 
 	<HairDef>
@@ -17,9 +18,10 @@
 		<label>AT_B</label>
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_B</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef>
@@ -27,9 +29,10 @@
 		<label>AT_C</label>
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_C</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef>
@@ -37,9 +40,10 @@
 		<label>AT_D</label>
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_D</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef>
@@ -47,9 +51,10 @@
 		<label>AT_E</label>
 		<hairGender>Male</hairGender>
 		<texPath>Antylike/Hairs/AThair_E</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef>
@@ -57,9 +62,10 @@
 		<label>AT_F</label>
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_F</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef>
@@ -67,9 +73,10 @@
 		<label>AT_G</label>
 		<hairGender>Female</hairGender>
 		<texPath>Antylike/Hairs/AThair_G</texPath>
-		<hairTags>
+		<category>AThair</category>
+		<styleTags>
 			<li>AThair</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
   
 </Defs>

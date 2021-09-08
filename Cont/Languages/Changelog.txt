@@ -24,3 +24,6 @@ AlienRace.BackstoryDef
 
 (2021/9/6)
 HediffDef
+
+(2021/9/8)
+StyleItemCategoryDef
