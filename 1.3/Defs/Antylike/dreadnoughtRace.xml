@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="AT_PawnBase">
+		<defName>AT_dreadnought</defName>
+		<label>Anty Dreadnought</label>
+		<description>.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<humanRecipeImport>false</humanRecipeImport>
+				<canLayDown>true</canLayDown>
+				<maxDamageForSocialfight>7</maxDamageForSocialfight>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<minAgeForAdulthood>0</minAgeForAdulthood>
+
+				<factionRelations>
+				</factionRelations>
+				
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>AT_Solidexoskeleton</defName>
+						<chance>30</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				
+				<disallowedTraits>
+					<li>
+						<defName>Bloodlust</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Psychopath</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Cannibal</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Undergrounder</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Tough</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Nudist</defName>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Wimp</defName>
+						<chance>100</chance>
+					</li>
+				</disallowedTraits>
+				
+				<chemicalSettings>
+				</chemicalSettings>
+
+			<alienPartGenerator>
+				<borderScale>1</borderScale>
+				<atlasScale>2</atlasScale>
+				<aliencrowntypes><!--머리-->
+					<li>DreadnoughtA</li>
+				</aliencrowntypes><!--머리-->
+				
+				<alienbodytypes><!--몸-->
+					<li>Thin</li>
+				</alienbodytypes><!--몸-->
+				
+				<headOffset>(0,0.0)</headOffset><!--머리위치-->
+				<useGenderedHeads>false</useGenderedHeads><!--성별머리-->
+				<useGenderedBodies>false</useGenderedBodies><!--성별몸-->
+				
+				<customDrawSize>(1.5,1.5)</customDrawSize><!--전체크기-->
+				<customHeadDrawSize>(1,1)</customHeadDrawSize><!--머리크기-->
+				<customPortraitDrawSize>(1,1)</customPortraitDrawSize><!--초상화크기-->
+
+				<colorChannels><!--색-->
+				<li>
+					<name>skin</name>
+					<first Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.0,1.0,1.0,1)</only>
+							</li>
+						</options>
+					</first>				
+				</li>
+				<li><!--헤어컬러-->
+					<name>hair</name>
+					<first Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>15</weight>
+								<only>(0,0,0)</only>
+							</li>
+						</options>
+					</first>
+				</li>
+				</colorChannels><!--색-->
+
+				<bodyAddons><!-- 몸부착물 -->
+				</bodyAddons><!-- 몸부착물 -->
+			</alienPartGenerator>
+			</generalSettings>
+		
+			<graphicPaths><!-- 텍스쳐 -->
+				<li>
+					<head>Dreadnoughtlike/Heads/</head>
+					<body>Dreadnoughtlike/Bodies/</body>
+					<skeleton>Dreadnoughtlike/Bodies/Dessicated_Dreadnought_Thin</skeleton>
+				</li>
+			</graphicPaths><!-- 텍스쳐 -->
+		
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		
+			<relationSettings><!-- 관계 -->
+					<relationChanceModifierLover>0</relationChanceModifierLover>
+					<relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+					<relationChanceModifierFiance>0</relationChanceModifierFiance>
+					<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+					<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
+					<relationChanceModifierParent>0</relationChanceModifierParent>
+					<relationChanceModifierChild>0</relationChanceModifierChild>
+					<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			</relationSettings><!-- 관계 -->
+		
+			<thoughtSettings><!-- 생각 -->
+				<replacerList>
+					<li>
+						<original>KnowGuestExecuted</original>
+						<replacer>KnowGuestExecuted_B</replacer> 
+					</li>
+					<li>
+						<original>KnowColonistExecuted</original>
+						<replacer>KnowColonistExecuted_B</replacer> 
+					</li>
+					<li>
+						<original>KnowPrisonerDiedInnocent</original>
+						<replacer>KnowPrisonerDiedInnocent_B</replacer> 
+					</li>
+					<li>
+						<original>KnowColonistDied</original>
+						<replacer>KnowColonistDied_B</replacer> 
+					</li>
+					<li>
+						<original>PawnWithGoodOpinionDied</original>
+						<replacer>PawnWithGoodOpinionDied_B</replacer> 
+					</li>
+					<li>
+						<original>PawnWithBadOpinionDied</original>
+						<replacer>PawnWithBadOpinionDied_B</replacer> 
+					</li>
+					<li>
+						<original>KnowGuestOrganHarvested</original>
+						<replacer>KnowGuestOrganHarvested_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HarvestedOrgan_Abhorrent</original>
+						<replacer>KnowGuestOrganHarvested_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HarvestedOrgan_Know_Abhorrent_Mood</original>
+						<replacer>KnowGuestOrganHarvested_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HarvestedOrgan_Horrible</original>
+						<replacer>KnowGuestOrganHarvested_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HarvestedOrgan_Know_Horrible_Mood</original>
+						<replacer>KnowGuestOrganHarvested_B</replacer> 
+					</li>
+					<li>
+						<original>KnowColonistOrganHarvested</original>
+						<replacer>KnowColonistOrganHarvested_B</replacer> 
+					</li>
+					<li>
+						<original>MyOrganHarvested</original>
+						<replacer>MyOrganHarvested_B</replacer> 
+					</li>
+					<li>
+						<original>ButcheredHumanlikeCorpse</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>ButcheredHuman_Abhorrent</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>ButcheredHuman_Horrible</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>ButcheredHuman_Disapproved</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer> 
+					</li>
+					<li>
+						<original>HadAngeringFight</original>
+						<replacer>HadAngeringFight_B</replacer> 
+					</li>
+					<li>
+						<original>KilledMyRival</original>
+						<replacer>KilledMyRival_B</replacer>
+					</li>
+					<li>
+						<original>PawnWithBadOpinionLost</original>
+						<replacer>PawnWithBadOpinionLost_B</replacer>
+					</li>
+					<li>
+						<original>ReleasedHealthyPrisoner</original>
+						<replacer>ReleasedHealthyPrisoner_B</replacer>
+					</li>
+					<li>
+						<original>PrisonerBanishedToDie</original>
+						<replacer>ReleasedHealthyPrisoner_B</replacer>
+					</li>
+					<li>
+						<original>ObservedLayingCorpse</original>
+						<replacer>ObservedLayingCorpse_B</replacer>
+					</li>
+					<li>
+						<original>AteInsectMeatDirect</original>
+						<replacer>AteInsectMeatDirect_B</replacer>
+					</li>
+					<li>
+						<original>AteInsectMeatAsIngredient</original>
+						<replacer>AteInsectMeatAsIngredient_B</replacer>
+					</li>
+					<li>
+						<original>HarmedMe</original>
+						<replacer>HarmedMe_B</replacer>
+					</li>
+					<li>
+						<original>ObservedLayingRottingCorpse</original>
+						<replacer>ObservedLayingRottingCorpse_B</replacer>
+					</li>
+					
+					<li>
+						<original>Insulted</original>
+						<replacer>Insulted_B</replacer>
+					</li>
+					<li>
+						<original>InsultedMood</original>
+						<replacer>InsultedMood_B</replacer>
+					</li>
+					
+					<li>
+						<original>KindWords</original>
+						<replacer>KindWords_B</replacer>
+					</li>
+					<li>
+						<original>KindWordsMood</original>
+						<replacer>KindWordsMood_B</replacer>
+					</li>
+					<li>
+						<original>AteCorpse</original>
+						<replacer>AteCorpse_B</replacer>
+					</li>
+					<li>
+						<original>Chocolate_Mood</original>
+						<replacer>Chocolate_Mood_B</replacer>
+					</li>
+					<li>
+						<original>DefeatedMechCluster</original>
+						<replacer>DefeatedMechCluster_B</replacer>
+					</li>
+					<li>
+						<original>KilledHumanlikeBloodlust</original>
+						<replacer>KilledHumanlikeBloodlust_B</replacer>
+					</li>
+				</replacerList>
+				<restrictedThoughts>
+					<li>NeedOutdoors_B</li>
+					<li>Expectations_B</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom_B</li>
+				</restrictedThoughts>
+				<cannotReceiveThoughts>
+					<li>Pain</li>
+					<li>Expectations</li>
+					<li>NewColonyOptimism</li>
+					<li>NewColonyHope</li>
+					
+					<li>MySonDied</li>
+					<li>MyDaughterDied</li>
+					<li>MyBrotherDied</li>
+					<li>MySisterDied</li>
+					<li>MyGrandchildDied</li>
+					<li>MyNieceDied</li>
+					<li>MyNephewDied</li>
+					<li>MyHalfSiblingDied</li>
+					<li>MyAuntDied</li>
+					<li>MyUncleDied</li>
+					<li>MyCousinDied</li>
+					<li>MyKinDied</li>
+					<li>MyHusbandDied</li>
+					<li>MyWifeDied</li>
+					<li>MyFianceDied</li>
+					<li>MyFianceeDied</li>
+					<li>MyLoverDied</li>
+					<li>MyFatherDied</li>
+					<li>MyMotherDied</li>
+					<li>MyGrandparentDied</li>
+					
+					<li>KilledMyFriend</li>
+					<li>KilledMyLover</li>
+					<li>KilledMyFiance</li>
+					<li>KilledMySpouse</li>
+					<li>KilledMyFather</li>
+					<li>KilledMyMother</li>
+
+					<li>KilledMySon</li>
+					<li>KilledMyDaughter</li>
+					<li>KilledMyBrother</li>
+					<li>KilledMySister</li>
+					<li>KilledMyKin</li>
+					<li>KilledColonist</li>
+					<li>KilledColonyAnimal</li>
+					
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+					<li>AteRawHumanlikeMeat</li>
+					
+					<li>WitnessedDeathAlly</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>WitnessedDeathFamily</li>
+					
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+					
+					<li>DeadMansApparel</li>
+					<li>HumanLeatherApparelSad</li>
+					
+					<li>ExecutedPrisoner</li>
+					<li>PawnWithBadOpinionLost</li>
+					
+					<li>ColonistLeftUnburied</li>
+					
+					<li>ColonistLost</li>
+					<li>PawnWithGoodOpinionLost</li>
+					<li>PawnWithBadOpinionLost</li>
+					
+					<li>MySonLost</li>
+					<li>MyDaughterLost</li>
+					<li>MyHusbandLost</li>
+					<li>MyWifeLost</li>
+					<li>MyFianceLost</li>
+					<li>MyFianceeLost</li>
+					<li>MyLoverLost</li>
+					<li>MyBrotherLost</li>
+					<li>MySisterLost</li>
+					<li>MyGrandchildLost</li>
+					<li>MyFatherLost</li>
+					<li>MyMotherLost</li>
+					<li>MyNieceLost</li>
+					<li>MyNephewLost</li>
+					<li>MyHalfSiblingLost</li>
+					<li>MyAuntLost</li>
+					<li>MyUncleLost</li>
+					<li>MyGrandparentLost</li>
+					<li>MyCousinLost</li>
+					<li>MyKinLost</li>
+					<li>SharedBed</li>
+
+					<li>Naked</li>
+
+					<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent_Opinion</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible_Opinion</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved_Opinion</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">HarvestedOrgan_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HarvestedOrgan_Know_Horrible</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">TradedOrgan_Know_Abhorrent_Mood</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InstalledOrgan_Know_Abhorrent_Mood</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Horrible_Mood</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Disapproved</li>
+					
+					<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
+					<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
+					
+				</cannotReceiveThoughts>
+			</thoughtSettings><!-- 생각 -->
+		
+			<raceRestriction><!-- 종족제한 -->
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel><!-- 종족옷제한설정 -->
+				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+				<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits><!-- 종족특성제한설정 -->
+			
+				<apparelList><!-- 옷 -->
+				</apparelList><!-- 옷 -->
+				
+				<whiteApparelList>
+				</whiteApparelList>
+					
+				<buildingList><!-- 건물 -->
+				</buildingList><!-- 건물 -->
+				
+				<weaponList><!-- 무기 -->
+				</weaponList><!-- 무기 -->
+				
+				<researchList><!-- 연구 -->
+				</researchList><!-- 연구 -->
+				
+				<recipeList><!-- 제작 -->
+				</recipeList><!-- 제작 -->
+				
+				<traitList><!-- 특성 -->
+					<li>AT_Solidexoskeleton</li>
+				</traitList><!-- 특성 -->
+				
+				<plantList><!-- 식물 -->
+				</plantList><!-- 식물 -->
+				
+			</raceRestriction><!-- 종족제한 -->
+		</alienRace>
+		
+		<statBases><!-- 능력치 -->
+			<MarketValue>3000</MarketValue><!-- 가격 -->
+
+			<MoveSpeed>2.15</MoveSpeed><!-- 이속 -->
+			<Mass>320</Mass><!-- 무게 -->
+			
+			<ComfyTemperatureMax>500</ComfyTemperatureMax><!-- 편한최대온도 -->
+			<ComfyTemperatureMin>-80</ComfyTemperatureMin><!-- 편한최소온도 -->
+			
+			<RestRateMultiplier>1</RestRateMultiplier><!-- 잠 -->
+			<HungerRateMultiplier>1</HungerRateMultiplier><!-- 허기 -->
+			<EatingSpeed>1</EatingSpeed><!-- 먹는속도 -->
+
+			<CarryingCapacity>200</CarryingCapacity><!-- 운반량 -->
+			<MeatAmount>150</MeatAmount><!-- 고기량 -->
+			<LeatherAmount>150</LeatherAmount><!-- 가죽량 --><!-- 가죽종류 밑에 있음 -->
+			
+			<PainShockThreshold>0.99</PainShockThreshold><!-- 쓰러짐고통 -->
+			<PsychicSensitivity>0</PsychicSensitivity><!-- 정신민감도 -->
+			<MentalBreakThreshold>0.01</MentalBreakThreshold><!-- 정신이상임계 -->
+			<ToxicSensitivity>0</ToxicSensitivity><!-- 독성민감도 -->
+			<Flammability>0</Flammability><!-- 가연성 -->
+			
+			<MeleeDodgeChance>1</MeleeDodgeChance><!-- 근접회피확률 -->
+			<MeleeHitChance>1</MeleeHitChance><!-- 근접적중확률 -->
+			<AimingDelayFactor>1</AimingDelayFactor><!-- 조준속도 -->
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn><!-- 조준정확도 -->
+
+			<NegotiationAbility>0</NegotiationAbility><!-- 외교영향력 -->
+			<SellPriceFactor>1</SellPriceFactor><!-- 판매가격 -->
+			<SocialImpact>0.1</SocialImpact><!-- 사회영향력 -->
+			<TradePriceImprovement>0</TradePriceImprovement><!-- 거래가격개선 -->
+
+			<ButcheryMechanoidEfficiency>1</ButcheryMechanoidEfficiency><!-- 메카분해효율 -->
+			<ButcheryMechanoidSpeed>1</ButcheryMechanoidSpeed><!-- 메카분해속도 -->
+			<SmeltingSpeed>1</SmeltingSpeed><!-- 금속제련속도 -->
+			<GeneralLaborSpeed>1</GeneralLaborSpeed><!-- 재단속도 -->
+			<ConstructionSpeed>1</ConstructionSpeed><!-- 건설속도 -->
+
+			<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency><!-- 도축효율 -->
+			<ButcheryFleshSpeed>1</ButcheryFleshSpeed><!-- 도축속도 -->
+			
+			<FoodPoisonChance>1</FoodPoisonChance><!-- 식중독확률 -->
+			<CookSpeed>1</CookSpeed><!-- 조리속도 -->
+
+			<PlantWorkSpeed>1</PlantWorkSpeed><!-- 원예 -->
+
+			<GlobalLearningFactor>1.5</GlobalLearningFactor><!-- 전역학습속도 -->
+			<ResearchSpeed>1</ResearchSpeed><!-- 연구속도 -->
+			
+			<MedicalTendQuality>1</MedicalTendQuality><!-- 치료품질 -->
+			<DrugSynthesisSpeed>1</DrugSynthesisSpeed><!-- 약물생산속도 -->
+			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance><!-- 수술성공확률 -->
+			<ImmunityGainSpeed>1</ImmunityGainSpeed><!-- 항체속도 -->
+			
+			<MiningSpeed>1</MiningSpeed><!-- 채굴속도 -->
+			<MiningYield>1</MiningYield><!-- 채굴효율 -->
+
+			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+		</statBases><!-- 능력치 -->
+		
+		<tools><!-- 육체무기 -->
+			<li>
+				<label>Big jaw</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<extraMeleeDamages>
+					<li>
+						<def>Anty_Cut</def>
+						<amount>15</amount>
+					</li>
+					<li>
+						<def>EMP</def>
+						<amount>60</amount>
+						<chance>0.15</chance>
+					</li>
+					<li>
+						<def>Stun</def>
+						<amount>10</amount>
+						<chance>0.05</chance>
+					</li>
+				</extraMeleeDamages>
+			</li>
+		</tools><!-- 육체무기 -->
+
+		<race><!-- 생태 -->
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<needsRest>false</needsRest>
+			<lifeExpectancy>150</lifeExpectancy>
+			<leatherDef>AntyExoskeleton</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+			<body>Anty</body>
+			<baseBodySize>3</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>1000</gestationPeriodDays>
+			<fleshType>Anty_flesh</fleshType>
+			<bloodDef>Filth_MachineBits</bloodDef>
+			<meatColor>(20,120,20)</meatColor>
+			<nameGenerator>Antypawn_rule</nameGenerator>
+			<nameGeneratorFemale>Antypawn_rule</nameGeneratorFemale>
+			
+			<litterSizeCurve>
+					<points>
+						<li>(0, 100)</li>
+						<li>(1, 0)</li>
+					</points>
+			</litterSizeCurve>
+			
+			<lifeStageAges>
+			<li>
+				<def>HumanlikeBaby</def>
+				<minAge>0</minAge>
+				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
+				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
+			</li>
+			<li>
+				<def>HumanlikeToddler</def>
+				<minAge>0.25</minAge>
+				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
+				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
+			</li>
+			<li>
+				<def>HumanlikeChild</def>
+				<minAge>0.26</minAge>
+				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
+				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
+			</li>
+			<li>
+				<def>HumanlikeTeenager</def>
+				<minAge>0.28</minAge>
+				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
+				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
+			</li>
+			<li>
+				<def>HumanlikeAdult</def>
+				<minAge>1</minAge>
+				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
+				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
+			</li>
+			</lifeStageAges>
+
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+			<points>
+				<li>(0,0)</li>
+				<li>(1,20)</li>
+				<li>(2,100)</li>
+				<li>(3,40)</li>
+				<li>(4,20)</li>
+				<li>(5,0)</li>
+			</points>
+			</ageGenerationCurve>
+				<hediffGiverSets>
+				</hediffGiverSets>
+		</race><!-- 생태 -->
+
+		<recipes>
+				<li>ExciseCarcinoma</li>
+				<li>AdministerMechSerumHealer</li>
+				<li>RemoveBodyPart</li>
+				<li>Euthanize</li>
+				<li>Anesthetize</li>
+				<li>CureScaria</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+		</recipes><!-- 수술 -->
+		<damageMultipliers>
+			<li>
+				<damageDef>EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Stun</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidDamage</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidDamage_High</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_glueBomb</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_glueBomb_B</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidBullet</damageDef>
+				<multiplier>0.8</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidBomb</damageDef>
+				<multiplier>0.8</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidBomb_B</damageDef>
+				<multiplier>0.8</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_AcidBomb_C</damageDef>
+				<multiplier>0.8</multiplier>
+			</li>
+			<li>
+				<damageDef>Flame</damageDef>
+				<multiplier>1.5</multiplier>
+			</li>
+			<li>
+				<damageDef>Burn</damageDef>
+				<multiplier>1.5</multiplier>
+			</li>
+		</damageMultipliers>
+		<comps>
+			<li Class="CompProperties_ProjectileInterceptor">
+				<radius>3.1</radius>
+				<interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<interceptNonHostileProjectiles>false</interceptNonHostileProjectiles>
+				<interceptOutgoingProjectiles>true</interceptOutgoingProjectiles>
+				<color>(0.8, 0.1, 0.1)</color>
+				<idlePulseSpeed>5</idlePulseSpeed>
+				<minIdleAlpha>0.05</minIdleAlpha>
+				<disarmedByEmpForTicks>600</disarmedByEmpForTicks>
+				<activeSound>Broadshield_Ambience</activeSound>
+			</li>
+		</comps>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

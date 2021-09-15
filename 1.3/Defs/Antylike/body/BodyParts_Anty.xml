@@ -24,7 +24,7 @@
 	<BodyPartDef>
 		<defName>ExoThorax</defName>
 		<label>Thorax Exoskeleton</label>
-		<hitPoints>1</hitPoints>
+		<hitPoints>1.4</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>
@@ -34,7 +34,7 @@
     <BodyPartDef>
 		<defName>Exoabdomen</defName>
 		<label>Abdomen Exoskeleton</label>
-		<hitPoints>1</hitPoints>
+		<hitPoints>1.4</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>
@@ -44,7 +44,7 @@
     <BodyPartDef>
 		<defName>ExoHead</defName>
 		<label>Head Exoskeleton</label>
-		<hitPoints>1</hitPoints>
+		<hitPoints>1.4</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>
@@ -54,7 +54,7 @@
 	<BodyPartDef>
 		<defName>ExoArm</defName>
 		<label>Arm Exoskeleton</label>
-		<hitPoints>1</hitPoints>
+		<hitPoints>1.4</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>
@@ -64,7 +64,7 @@
     <BodyPartDef>
 		<defName>ExoLeg</defName>
 		<label>Leg Exoskeleton</label>
-		<hitPoints>1</hitPoints>
+		<hitPoints>1.4</hitPoints>
 		<skinCovered>true</skinCovered>
 		<solid>true</solid>
 		<bleedRate>0</bleedRate>

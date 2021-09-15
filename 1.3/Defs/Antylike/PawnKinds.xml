@@ -99,6 +99,22 @@
 		</techHediffsTags>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
+		<defName>AT_Power_B_test</defName>
+		<label>Anty Dreadnought</label>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>3000</combatPower>
+		<race>AT_dreadnought</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dreadnought_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>		
+	</PawnKindDef>
+
 	<!-- 앤티NPC 기본 -->
 
 	<PawnKindDef Name="AntyBasePawnKind" Abstract="True">
