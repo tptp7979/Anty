@@ -712,4 +712,99 @@
 			</li>
 		</comps>
 	</AlienRace.ThingDef_AlienRace>
+
+	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
+		<defName>AT_Power_B_test</defName>
+		<label>Anty Dreadnought</label>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>3000</combatPower>
+		<race>AT_dreadnought</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Dreadnought_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>		
+	</PawnKindDef>
+
+	<AlienRace.BackstoryDef Name="DreadnoughtBackStory" Abstract="True">
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="DreadnoughtBackStory">
+		<defName>AT_DreadnoughtBackStory</defName>
+		<title>Dreadnought</title>
+		<titleShort>Dreadnought</titleShort>
+		<baseDescription>.</baseDescription>
+		<spawnCategories Inherit="False">
+			<li>Dreadnought_Melee_Drop</li>
+		</spawnCategories>
+		<slot>Adulthood</slot>
+		<forcedHediffs>
+			<li>AntyDreadnoughtbirth</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Animals</li>
+			<li>Social</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Cooking</li>
+			<li>PlantWork</li>
+			<li>Constructing</li>
+			<li>Crafting</li>
+			<li>Caring</li>
+			<li>Commoner</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="DreadnoughtBackStory">
+		<defName>AT_DreadnoughtBackStory_B</defName>
+		<title>Dreadnought</title>
+		<titleShort>Dreadnought</titleShort>
+		<baseDescription>.</baseDescription>
+		<spawnCategories Inherit="False">
+			<li>Dreadnought_Melee_Drop</li>
+		</spawnCategories>
+		<slot>Childhood</slot>
+	</AlienRace.BackstoryDef>
+
+	
+	<HediffDef>
+		<defName>AntyDreadnoughtbirth</defName>
+		<label>Anty Dreadnought</label>
+		<description>.</description>
+		<isBad>false</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<everCurableByItem>false</everCurableByItem>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Pregnant</li>
+					<li>Pregnant_B</li>
+				</hediffToNullify>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			<painFactor>0</painFactor>
+			<naturalHealingFactor>2</naturalHealingFactor>
+			<statFactors>
+				<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				<InjuryHealingFactor>3</InjuryHealingFactor>
+			</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

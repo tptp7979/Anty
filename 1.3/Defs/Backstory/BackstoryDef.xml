@@ -41,54 +41,6 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef Name="DreadnoughtBackStory" Abstract="True">
-		<skillGains>
-			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
-			</li>
-		</skillGains>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
-	</AlienRace.BackstoryDef>
-
-	<AlienRace.BackstoryDef ParentName="DreadnoughtBackStory">
-		<defName>AT_DreadnoughtBackStory</defName>
-		<title>Dreadnought</title>
-		<titleShort>Dreadnought</titleShort>
-		<baseDescription>.</baseDescription>
-		<spawnCategories Inherit="False">
-			<li>Dreadnought_Melee_Drop</li>
-		</spawnCategories>
-		<slot>Adulthood</slot>
-		<forcedHediffs>
-			<li>AntyDreadnoughtbirth</li>
-		</forcedHediffs>
-		<workDisables>
-			<li>Animals</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Cooking</li>
-			<li>PlantWork</li>
-			<li>Constructing</li>
-			<li>Crafting</li>
-			<li>Caring</li>
-			<li>Commoner</li>
-		</workDisables>
-	</AlienRace.BackstoryDef>
-
-	<AlienRace.BackstoryDef ParentName="DreadnoughtBackStory">
-		<defName>AT_DreadnoughtBackStory_B</defName>
-		<title>Dreadnought</title>
-		<titleShort>Dreadnought</titleShort>
-		<baseDescription>.</baseDescription>
-		<spawnCategories Inherit="False">
-			<li>Dreadnought_Melee_Drop</li>
-		</spawnCategories>
-		<slot>Childhood</slot>
-	</AlienRace.BackstoryDef>
-
 	<!-- 일반유충 -->	
 	
 	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Larva_B_lazy">

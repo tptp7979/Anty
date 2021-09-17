@@ -311,34 +311,4 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
-	<HediffDef>
-		<defName>AntyDreadnoughtbirth</defName>
-		<label>Anty Dreadnought</label>
-		<description>.</description>
-		<isBad>false</isBad>
-		<hediffClass>HediffWithComps</hediffClass>
-		<scenarioCanAdd>false</scenarioCanAdd>
-		<initialSeverity>1</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<everCurableByItem>false</everCurableByItem>
-		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
-				<hediffToNullify>
-					<li>Pregnant</li>
-					<li>Pregnant_B</li>
-				</hediffToNullify>
-			</li>
-		</comps>
-		<stages>
-			<li>
-			<painFactor>0</painFactor>
-			<naturalHealingFactor>2</naturalHealingFactor>
-			<statFactors>
-				<IncomingDamageFactor>0.5</IncomingDamageFactor>
-				<InjuryHealingFactor>3</InjuryHealingFactor>
-			</statFactors>
-			</li>
-		</stages>
-	</HediffDef>
 </Defs>
