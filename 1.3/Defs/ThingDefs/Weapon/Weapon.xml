@@ -857,6 +857,7 @@
 				<cooldownTime>3</cooldownTime>
 			</li>
 		</tools>
+		<meleeHitSound>AT_MeleeImpact_B</meleeHitSound>
 		<recipeMaker>
 			<skillRequirements>
 					<Crafting>3</Crafting>
@@ -921,6 +922,7 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+		<meleeHitSound>AT_MeleeImpact_A</meleeHitSound>
 		<recipeMaker>
 			<skillRequirements>
 					<Crafting>7</Crafting>
@@ -967,6 +969,7 @@
 				<cooldownTime>2.4</cooldownTime>
 			</li>
 		</tools>
+		<meleeHitSound>AT_ChainSoundE</meleeHitSound>
 		<recipeMaker>
 			<skillRequirements>
 					<Crafting>7</Crafting>

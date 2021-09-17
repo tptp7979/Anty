@@ -298,13 +298,43 @@
             <clipPath>gCE</clipPath>
           </li>
         </grains>      
-        <volumeRange>
-          <min>24</min>        
-          <max>24</max>
-        </volumeRange>
+        <volumeRange>25~26</volumeRange>
 		<pitchRange>1.6516304~1.954348</pitchRange>
       </li>
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+    <defName>AT_MeleeImpact_A</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>m01</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>30~32</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>AT_MeleeImpact_B</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+		<grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>m02</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>34~36</volumeRange>
+        <pitchRange>1.6516304~1.954348</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>

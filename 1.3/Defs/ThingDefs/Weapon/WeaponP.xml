@@ -283,6 +283,7 @@
 				<chanceFactor>0.4</chanceFactor>
 			</li>
 		</tools>
+		<meleeHitSound>AT_MeleeImpact_A</meleeHitSound>
 		<recipeMaker>
 			<skillRequirements>
 					<Crafting>10</Crafting>
@@ -408,6 +409,7 @@
 				</extraMeleeDamages>
 			</li>
 		</tools>
+		<meleeHitSound>AT_MeleeImpact_B</meleeHitSound>
 		<techLevel>Spacer</techLevel>
 	</ThingDef>
   
