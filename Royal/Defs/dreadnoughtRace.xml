@@ -536,11 +536,12 @@
 				<extraMeleeDamages>
 					<li>
 						<def>Anty_Cut</def>
-						<amount>15</amount>
+						<amount>10</amount>
+						<chance>0.5</chance>
 					</li>
 					<li>
 						<def>EMP</def>
-						<amount>60</amount>
+						<amount>25</amount>
 						<chance>0.15</chance>
 					</li>
 					<li>
