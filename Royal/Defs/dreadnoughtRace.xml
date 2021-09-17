@@ -702,7 +702,7 @@
 			<li Class="CompProperties_ProjectileInterceptor">
 				<radius>3.1</radius>
 				<interceptGroundProjectiles>true</interceptGroundProjectiles>
-				<interceptNonHostileProjectiles>false</interceptNonHostileProjectiles>
+				<interceptNonHostileProjectiles>true</interceptNonHostileProjectiles>
 				<interceptOutgoingProjectiles>true</interceptOutgoingProjectiles>
 				<color>(0.8, 0.1, 0.1)</color>
 				<idlePulseSpeed>5</idlePulseSpeed>
