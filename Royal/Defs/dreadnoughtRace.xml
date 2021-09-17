@@ -636,14 +636,6 @@
 		</race><!-- 생태 -->
 
 		<recipes>
-				<li>ExciseCarcinoma</li>
-				<li>AdministerMechSerumHealer</li>
-				<li>RemoveBodyPart</li>
-				<li>Euthanize</li>
-				<li>Anesthetize</li>
-				<li>CureScaria</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
 		</recipes><!-- 수술 -->
 		<damageMultipliers>
 			<li>
@@ -800,10 +792,9 @@
 		<stages>
 			<li>
 			<painFactor>0</painFactor>
-			<naturalHealingFactor>2</naturalHealingFactor>
 			<statFactors>
 				<IncomingDamageFactor>0.5</IncomingDamageFactor>
-				<InjuryHealingFactor>3</InjuryHealingFactor>
+				<InjuryHealingFactor>2</InjuryHealingFactor>
 			</statFactors>
 			</li>
 		</stages>
