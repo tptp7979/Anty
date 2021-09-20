@@ -141,12 +141,12 @@
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin><!-- 편한최소온도 -->
 			
 			<RestRateMultiplier>1</RestRateMultiplier><!-- 잠 -->
-			<HungerRateMultiplier>3</HungerRateMultiplier><!-- 허기 -->
+			<HungerRateMultiplier>2.5</HungerRateMultiplier><!-- 허기 -->
 			<EatingSpeed>1</EatingSpeed><!-- 먹는속도 -->
 
-			<CarryingCapacity>200</CarryingCapacity><!-- 운반량 -->
-			<MeatAmount>150</MeatAmount><!-- 고기량 -->
-			<LeatherAmount>150</LeatherAmount><!-- 가죽량 --><!-- 가죽종류 밑에 있음 -->
+			<CarryingCapacity>110</CarryingCapacity><!-- 운반량 -->
+			<MeatAmount>60</MeatAmount><!-- 고기량 -->
+			<LeatherAmount>30</LeatherAmount><!-- 가죽량 --><!-- 가죽종류 밑에 있음 -->
 			
 			<PainShockThreshold>0.99</PainShockThreshold><!-- 쓰러짐고통 -->
 			<PsychicSensitivity>0</PsychicSensitivity><!-- 정신민감도 -->
@@ -184,7 +184,7 @@
 			<MedicalTendQuality>1</MedicalTendQuality><!-- 치료품질 -->
 			<DrugSynthesisSpeed>1</DrugSynthesisSpeed><!-- 약물생산속도 -->
 			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance><!-- 수술성공확률 -->
-			<ImmunityGainSpeed>1</ImmunityGainSpeed><!-- 항체속도 -->
+			<ImmunityGainSpeed>1.1</ImmunityGainSpeed><!-- 항체속도 -->
 			
 			<MiningSpeed>1</MiningSpeed><!-- 채굴속도 -->
 			<MiningYield>1</MiningYield><!-- 채굴효율 -->
@@ -234,7 +234,7 @@
 			<hasGenders>true</hasGenders>
 			<body>Anty</body>
 			<baseBodySize>3</baseBodySize>
-			<baseHealthScale>4</baseHealthScale>
+			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>1000</gestationPeriodDays>
 			<fleshType>Anty_flesh</fleshType>
@@ -315,7 +315,7 @@
 		</damageMultipliers>
 		<comps>
 			<li Class="CompProperties_ProjectileInterceptor">
-				<radius>2.5</radius>
+				<radius>2.1</radius>
 				<interceptGroundProjectiles>true</interceptGroundProjectiles>
 				<interceptNonHostileProjectiles>true</interceptNonHostileProjectiles>
 				<interceptOutgoingProjectiles>true</interceptOutgoingProjectiles>
