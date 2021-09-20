@@ -233,7 +233,7 @@
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>true</hasGenders>
 			<body>Anty</body>
-			<baseBodySize>3</baseBodySize>
+			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>1000</gestationPeriodDays>
