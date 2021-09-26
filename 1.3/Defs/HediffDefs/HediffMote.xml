@@ -228,7 +228,7 @@
 			<children>
 				<li>
 					<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
-					<scale>1.75</scale>
+					<scale>1.85</scale>
 					<chancePerTick>0.15</chancePerTick>
 					<positionRadius>0</positionRadius>
 					<moteDef>Mote_AT_Shield</moteDef>
