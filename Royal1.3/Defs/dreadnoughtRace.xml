@@ -234,7 +234,7 @@
 			<hasGenders>true</hasGenders>
 			<body>Anty</body>
 			<baseBodySize>2</baseBodySize>
-			<baseHealthScale>3</baseHealthScale>
+			<baseHealthScale>2.5</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>1000</gestationPeriodDays>
 			<fleshType>Anty_flesh</fleshType>
