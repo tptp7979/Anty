@@ -205,7 +205,7 @@
 				<extraMeleeDamages>
 					<li>
 						<def>Anty_Cut</def>
-						<amount>10</amount>
+						<amount>8</amount>
 						<chance>0.5</chance>
 					</li>
 					<li>
