@@ -366,7 +366,6 @@
 		</backstoryFiltersOverride>		
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<initialWillRange>10~20</initialWillRange>
 		<initialWillRange>10~50</initialWillRange>
 		<initialResistanceRange>10~60</initialResistanceRange>
 	</PawnKindDef>
