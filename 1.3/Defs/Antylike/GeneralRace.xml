@@ -32,6 +32,10 @@
 						<defName>AT_Solidexoskeleton</defName>
 						<chance>30</chance>
 					</li>
+					<li>
+						<defName>Kind</defName>
+						<chance>5</chance>
+					</li>
 				</forcedRaceTraitEntries>
 				
 				<disallowedTraits>
