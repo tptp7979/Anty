@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraderKindDef ParentName="Caravan_AT_REA">
+		<defName>Caravan_AT_REB</defName>
+		<label>Anty close inspection Group</label>
+		<commonality>1</commonality>
+		<tradeCurrency>Favor</tradeCurrency>
+		<faction>AntyHive_B</faction>
+		<hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+		<stockGenerators Inherit="False">
+			<!-- Buying -->
+			<li Class="StockGenerator_BuySingleDef">
+			  <thingDef>AT_Aphidextract</thingDef>
+			</li>
+			<li Class="StockGenerator_BuySingleDef">
+			  <thingDef>Anty_Recyclecore</thingDef>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+		<RoyalTitleDef Abstract="True" Name="BaseAntyTitle" >
+			<tags>
+				<li>AntyTitle</li>
+			</tags>
+			<awardThought>GainedTitle</awardThought>
+			<lostThought>LostTitle</lostThought>
+		</RoyalTitleDef>
+
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_platoonleader</defName>
+			<label>Platoon leader</label>
+			<description>Platoon leader of Anty Hive.</description>
+			<seniority>500</seniority>
+			<favorCost>50</favorCost>
+			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
+			<allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+			<permitPointsAwarded>1</permitPointsAwarded>
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_companycommander</defName>
+			<label>Company commander</label>
+			<description>Company commander of Anty Hive.</description>
+			<seniority>700</seniority>
+			<favorCost>100</favorCost>
+			<changeHeirQuestPoints>1000</changeHeirQuestPoints>
+			<commonality>1</commonality>
+			<permitPointsAwarded>1</permitPointsAwarded>
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_battalioncommander</defName>
+			<label>Battalion commander</label>
+			<description>Battalion commander of Anty Hive.</description>
+			<seniority>900</seniority>
+			<favorCost>150</favorCost>
+			<minExpectation>Moderate</minExpectation>
+			<changeHeirQuestPoints>1200</changeHeirQuestPoints>
+			<recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+			<commonality>1</commonality>
+			<canBeInherited>True</canBeInherited>
+			<permitPointsAwarded>1</permitPointsAwarded>
+
+			<requiredApparel>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Shoulders</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Torso</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>UpperHead</li>
+				<li>FullHead</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			</requiredApparel>
+
+			<bedroomRequirements>
+			<li Class="RoomRequirement_Area">
+				<area>35</area>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>DoubleBed</li>
+				<li>RoyalBed</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Anty_RecycleTurretB</thingDef>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			</bedroomRequirements>
+
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+		
+		<RoyalTitleDef ParentName="BaseAntyTitle">
+			<defName>AT_SwarmLord</defName>
+			<label>Swarm Lord</label>
+			<description>Swarm Lord of Anty Hive.</description>
+			<seniority>1000</seniority>
+			<favorCost>200</favorCost>
+			<minExpectation>High</minExpectation>
+			<changeHeirQuestPoints>1600</changeHeirQuestPoints>
+			<recruitmentResistanceOffset>25</recruitmentResistanceOffset>
+			<commonality>1</commonality>
+			<canBeInherited>True</canBeInherited>
+			<permitPointsAwarded>1</permitPointsAwarded>
+
+			<requiredApparel>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Shoulders</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>Torso</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>Cape</li>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			<li>
+				<bodyPartGroupsMatchAny>
+				<li>UpperHead</li>
+				<li>FullHead</li>
+				</bodyPartGroupsMatchAny>
+				<requiredTags>
+				<li>RoyalTier2</li>
+				</requiredTags>
+				<allowedTags>
+				<li>PrestigeCombatGear</li>
+				<li>Psychic</li>
+				</allowedTags>
+			</li>
+			</requiredApparel>
+
+			<bedroomRequirements>
+			<li Class="RoomRequirement_Area">
+				<area>40</area>
+			</li>
+			<li Class="RoomRequirement_Impressiveness">
+				<impressiveness>40</impressiveness>
+			</li>
+			<li Class="RoomRequirement_TerrainWithTags">
+				<labelKey>RoomRequirementAllFloored</labelKey>
+				<tags>
+				<li>Floor</li>
+				<li>FineFloor</li>
+				</tags>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>DoubleBed</li>
+				<li>RoyalBed</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_ThingAnyOf">
+				<things>
+				<li>SculptureSmall</li>
+				<li>SculptureLarge</li>
+				</things>
+			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>EndTable</thingDef>
+			</li>
+			<li Class="RoomRequirement_Thing">
+				<thingDef>Dresser</thingDef>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Drape</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Brazier</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ThingCount">
+				<thingDef>Anty_RecycleTurretB</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="RoomRequirement_ForbiddenBuildings">
+				<labelKey>RoomRequirementNoProductionFacilities</labelKey>
+				<buildingTags><li>Production</li></buildingTags>
+			</li>
+			</bedroomRequirements>
+
+			<awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+		</RoyalTitleDef>
+
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallLaborerTeam</defName>
+			<label>Call Ergate team</label>
+			<description>Call a group of 4 Ergate Anties to assist you for 4 days.</description>
+			<workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+			<minTitle>AT_platoonleader</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,0)</uiPosition>
+			<royalAid>
+				<favorCost>20</favorCost>
+				<pawnKindDef>AT_Colonist_C</pawnKindDef>
+				<pawnCount>4</pawnCount>
+				<aidDurationDays>4</aidDurationDays>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidMelee</defName>
+			<label>Call Close Combat team</label>
+			<description>Call a group of 10 Close Combat Anties to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_companycommander</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,1)</uiPosition>
+			<royalAid>
+				<favorCost>20</favorCost>
+				<pawnKindDef>AT_Power_B</pawnKindDef>
+				<pawnCount>10</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidBomb</defName>
+			<label>Bomb drop</label>
+			<description>Call a group of 10 Bombs to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_battalioncommander</minTitle>
+			<prerequisite>AT_CallMilitaryAidMelee</prerequisite>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(1,1)</uiPosition>
+			<royalAid>
+				<favorCost>40</favorCost>
+				<pawnKindDef>AT_Power_D</pawnKindDef>
+				<pawnCount>10</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidRanged</defName>
+			<label>Call Ranged Combat team</label>
+			<description>Call a group of 5 Ranged Combat Anties to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_battalioncommander</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(0,2)</uiPosition>
+			<royalAid>
+				<favorCost>30</favorCost>
+				<pawnKindDef>AT_Power_A</pawnKindDef>
+				<pawnCount>5</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+		<RoyalTitlePermitDef>
+			<defName>AT_CallMilitaryAidCluster</defName>
+			<label>Call Cluster team</label>
+			<description>Call a group of 5 Cluster Anties to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_SwarmLord</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(1,2)</uiPosition>
+			<royalAid>
+				<favorCost>40</favorCost>
+				<pawnKindDef>AT_Power_C</pawnKindDef>
+				<pawnCount>5</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>60</cooldownDays>
+		</RoyalTitlePermitDef>
+
+</Defs>
