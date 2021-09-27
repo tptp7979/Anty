@@ -149,7 +149,7 @@
 			<recruitmentResistanceOffset>25</recruitmentResistanceOffset>
 			<commonality>1</commonality>
 			<canBeInherited>True</canBeInherited>
-			<permitPointsAwarded>1</permitPointsAwarded>
+			<permitPointsAwarded>2</permitPointsAwarded>
 
 			<requiredApparel>
 			<li>
