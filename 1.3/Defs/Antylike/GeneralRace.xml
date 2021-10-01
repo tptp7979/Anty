@@ -1279,7 +1279,7 @@
 					<flipOnRotation>South</flipOnRotation>
 					<tintWithSkinColor>true</tintWithSkinColor>
 					<missingBodyPartFresh>false</missingBodyPartFresh>
-					<scale>0.7</scale>
+					<scale>0.85</scale>
 				</li>
 				<li>
 					<textureSouth>Antylike/Wounds/MissingEye_Fresh</textureSouth>
@@ -1291,7 +1291,7 @@
 					<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
 					<flipOnRotation>South</flipOnRotation>
 					<missingBodyPartFresh>true</missingBodyPartFresh>
-					<scale>0.7</scale>
+					<scale>0.85</scale>
 				</li>
 			</wounds>
 			</li>
