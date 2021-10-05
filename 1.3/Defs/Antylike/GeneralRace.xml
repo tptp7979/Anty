@@ -520,6 +520,7 @@
 								<bodyTypes>
 								<Thin>(0,0.55)</Thin>
 								</bodyTypes>
+								<layerOffset>-1</layerOffset>
 							</north>
 						
 							<east>
@@ -1295,7 +1296,7 @@
 				</li>
 			</wounds>
 			</li>
-			<li>
+<!-- 			<li>
 			<hediff>BionicEye</hediff>
 			<wounds>
 				<li>
@@ -1324,7 +1325,7 @@
 					<scale>0.85</scale>
 				</li>
 			</wounds>
-			</li>
+			</li> -->
 		</hediffWounds>
 	</FleshTypeDef>
 </Defs>
