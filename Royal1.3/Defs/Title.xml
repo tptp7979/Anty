@@ -338,4 +338,22 @@
 			<cooldownDays>60</cooldownDays>
 		</RoyalTitlePermitDef>
 
+		<RoyalTitlePermitDef>
+			<defName>AT_CallDreadnoughtAid</defName>
+			<label>Call Dreadnought</label>
+			<description>Call a group of 3 Anty Dreadnoughts to aid you in battle.</description>
+			<workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+			<minTitle>AT_SwarmLord</minTitle>
+			<faction>AntyHive_B</faction>
+			<permitPointCost>1</permitPointCost>
+			<uiPosition>(2,1)</uiPosition>
+			<royalAid>
+				<favorCost>80</favorCost>
+				<pawnKindDef>AT_Dreadnought_A</pawnKindDef>
+				<pawnCount>3</pawnCount>
+				<targetingRange>39.9</targetingRange>
+			</royalAid>
+			<cooldownDays>80</cooldownDays>
+		</RoyalTitlePermitDef>
+
 </Defs>

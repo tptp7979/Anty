@@ -337,7 +337,7 @@
 	</AlienRace.ThingDef_AlienRace>
 
 	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
-		<defName>AT_Power_B_test</defName>
+		<defName>AT_Dreadnought_A</defName>
 		<label>Anty Dreadnought</label>
 		<defaultFactionType>AntyHive_B</defaultFactionType>
 		<isFighter>true</isFighter>
@@ -357,7 +357,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
-		<defName>AT_Power_C_test</defName>
+		<defName>AT_Dreadnought_B</defName>
 		<label>Anty Dreadnought</label>
 		<defaultFactionType>AT_PlayerFaction</defaultFactionType>
 		<isFighter>true</isFighter>
