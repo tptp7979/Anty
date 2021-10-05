@@ -9,9 +9,9 @@
   <Anty_Larva_B_Brave.title>Anty Brave Larva</Anty_Larva_B_Brave.title>
   <Anty_Larva_B_Brave.titleShort>Anty</Anty_Larva_B_Brave.titleShort>
   <Anty_Larva_B_Brave.baseDescription>[PAWN_nameDef] was one daring larva. [PAWN_pronoun] enjoyed extreme activities such as rolling from over the small ledge, squirming over a hard and round surface, and fighting off some mean flies. [PAWN_objective] didn't enjoy the part where he got scolded for it by the nannies.</Anty_Larva_B_Brave.baseDescription>
-  <Anty_Larva_B_Brave_Drop.title>Anty Brave Larva</Anty_Larva_B_Brave_Drop.title><!-- Change -->
-  <Anty_Larva_B_Brave_Drop.titleShort>Anty</Anty_Larva_B_Brave_Drop.titleShort><!-- Change -->
-  <Anty_Larva_B_Brave_Drop.baseDescription>[PAWN_nameDef] was one daring larva. [PAWN_pronoun] enjoyed extreme activities such as rolling from over the small ledge, squirming over a hard and round surface, and fighting off some mean flies. [PAWN_objective] didn't enjoy the part where he got scolded for it by the nannies.</Anty_Larva_B_Brave_Drop.baseDescription><!-- Change -->
+  <Anty_Larva_B_Brave_Drop.title>Anty Brave Larva</Anty_Larva_B_Brave_Drop.title>
+  <Anty_Larva_B_Brave_Drop.titleShort>Anty</Anty_Larva_B_Brave_Drop.titleShort>
+  <Anty_Larva_B_Brave_Drop.baseDescription>[PAWN_nameDef] was one daring larva. [PAWN_pronoun] enjoyed extreme activities such as rolling from over the small ledge, squirming over a hard and round surface, and fighting off some mean flies. [PAWN_objective] didn't enjoy the part where he got scolded for it by the nannies.</Anty_Larva_B_Brave_Drop.baseDescription>
   <Anty_Larva_B_Evil.title>Anty Evil Larva</Anty_Larva_B_Evil.title>
   <Anty_Larva_B_Evil.titleShort>Anty</Anty_Larva_B_Evil.titleShort>
   <Anty_Larva_B_Evil.baseDescription>[PAWN_nameDef] was an evil larva. [PAWN_pronoun] pretended to be sick to get sweeter jelly, bullied a weaker larva to get the attention of others, and even pulled a nanny's leg!</Anty_Larva_B_Evil.baseDescription>
@@ -45,4 +45,11 @@
   <Anty_Amigo_B_Commander.title>Anty Commander</Anty_Amigo_B_Commander.title>
   <Anty_Amigo_B_Commander.titleShort>Commander</Anty_Amigo_B_Commander.titleShort>
   <Anty_Amigo_B_Commander.baseDescription>[PAWN_nameDef] is a commander.\n\nTo command the hive's military, they are equipped with strong pheromone glands. This property allows them to give more commands with higher accuracy, unlike other entities.</Anty_Amigo_B_Commander.baseDescription>
+
+  <AT_DreadnoughtBackStory.title>Dreadnought</AT_DreadnoughtBackStory.title><!-- change -->
+  <AT_DreadnoughtBackStory.titleShort>Dreadnought</AT_DreadnoughtBackStory.titleShort><!-- change -->
+  <AT_DreadnoughtBackStory.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory.baseDescription><!-- change -->
+  <AT_DreadnoughtBackStory_B.title>Dreadnought</AT_DreadnoughtBackStory_B.title><!-- change -->
+  <AT_DreadnoughtBackStory_B.titleShort>Dreadnought</AT_DreadnoughtBackStory_B.titleShort><!-- change -->
+  <AT_DreadnoughtBackStory_B.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory_B.baseDescription><!-- change -->
 </LanguageData>

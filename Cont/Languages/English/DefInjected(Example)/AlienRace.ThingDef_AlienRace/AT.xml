@@ -4,4 +4,8 @@
   <Anty.description>Anties are genetically engineered beings by a private company to replace dying soldiers on the battle field.\n\nEverything has gone south when the company has let their guard down to celebrate their recent progress. Due to a mistake made by one of the employees, the Anties have been set free from the lab and ended up in space.\n\nTheir personalities are gentle by nature, but they were made to know only but war. On each planet they end up, they burn everything down to ash, using themselves as the main source of the fuel.</Anty.description>
   <Anty.tools.0.label>Small Jaw</Anty.tools.0.label>
   <Anty.tools.1.label>Big jaw</Anty.tools.1.label>
+
+  <AT_dreadnought.label>Anty Dreadnought</AT_dreadnought.label><!-- change -->
+  <AT_dreadnought.description>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_dreadnought.description><!-- change -->
+  <AT_dreadnought.tools.0.label>Big jaw</AT_dreadnought.tools.0.label><!-- change -->
 </LanguageData>

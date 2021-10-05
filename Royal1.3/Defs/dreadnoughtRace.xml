@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="AntyBase">
 		<defName>AT_dreadnought</defName>
 		<label>Anty Dreadnought</label>
-		<description>앤티들이 메카노이드를 보고 따라만든 생물병기입니다.\n\n극도로 발달한 군체만이 드레드노트를 가지고 있으며 주로 군체의 최후방 방어선에 배치됩니다.\n\n직사요격 기능을 탑재하고 있는데, 기존의 직사요격과는 달리 안 밖으로 향하는 모든 공격을 차단합니다.\n\n만약 드레드노트들이 최전방에서 보이기 시작했다면, 전쟁놀이는 끝났다는 뜻입니다.</description>
+		<description>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</description>
 		<alienRace>
 			<generalSettings Inherit="False">
 				<maleGenderProbability>0.5</maleGenderProbability>
@@ -385,7 +385,7 @@
 		<defName>AT_DreadnoughtBackStory</defName>
 		<title>Dreadnought</title>
 		<titleShort>Dreadnought</titleShort>
-		<baseDescription>.</baseDescription>
+		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
 		<spawnCategories Inherit="False">
 			<li>Dreadnought_Melee_Drop</li>
 		</spawnCategories>
@@ -411,7 +411,7 @@
 		<defName>AT_DreadnoughtBackStory_B</defName>
 		<title>Dreadnought</title>
 		<titleShort>Dreadnought</titleShort>
-		<baseDescription>앤티들이 메카노이드를 보고 따라만든 생물병기입니다.\n\n극도로 발달한 군체만이 드레드노트를 가지고 있으며 주로 군체의 최후방 방어선에 배치됩니다.\n\n직사요격 기능을 탑재하고 있는데, 기존의 직사요격과는 달리 안 밖으로 향하는 모든 공격을 차단합니다.\n\n만약 드레드노트들이 최전방에서 보이기 시작했다면, 전쟁놀이는 끝났다는 뜻입니다.</baseDescription>
+		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
 		<spawnCategories Inherit="False">
 			<li>Dreadnought_Melee_Drop</li>
 		</spawnCategories>
