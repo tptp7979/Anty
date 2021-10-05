@@ -31,3 +31,4 @@ StyleItemCategoryDef
 (2021/10/5)
 AlienRace.BackstoryDef
 AlienRace.ThingDef_AlienRace
+HediffDef

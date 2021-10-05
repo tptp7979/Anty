@@ -157,4 +157,6 @@
   <AT_ReinforcedJaw.label>Anty Reinforced Jaw</AT_ReinforcedJaw.label>
   <AT_ReinforcedJaw.description>An installed Anty Reinforced Jaw.</AT_ReinforcedJaw.description>
   <AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label>Big jaw</AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label>
+  <AntyDreadnoughtbirth.label>Anty Dreadnought</AntyDreadnoughtbirth.label><!-- change -->
+  <AntyDreadnoughtbirth.description>Anty Dreadnought.</AntyDreadnoughtbirth.description><!-- change -->
 </LanguageData>
