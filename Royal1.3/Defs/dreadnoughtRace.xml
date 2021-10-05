@@ -31,12 +31,12 @@
 					<li>Thin</li>
 				</alienbodytypes><!--몸-->
 				
-				<headOffset>(0,0.0)</headOffset><!--머리위치-->
+				<headOffset>(0,0)</headOffset><!--머리위치-->
 				<useGenderedHeads>false</useGenderedHeads><!--성별머리-->
 				<useGenderedBodies>false</useGenderedBodies><!--성별몸-->
 				
 				<customDrawSize>(1.5,1.5)</customDrawSize><!--전체크기-->
-				<customHeadDrawSize>(1,1)</customHeadDrawSize><!--머리크기-->
+				<customHeadDrawSize>(1.5,1.5)</customHeadDrawSize><!--머리크기-->
 				<customPortraitDrawSize>(1,1)</customPortraitDrawSize><!--초상화크기-->
 
 				<colorChannels><!--색-->
@@ -74,6 +74,12 @@
 					<head>Dreadnoughtlike/Heads/</head>
 					<body>Dreadnoughtlike/Bodies/</body>
 					<skeleton>Dreadnoughtlike/Bodies/Dessicated_Dreadnought_Thin</skeleton>
+					<headOffsetDirectional>
+						<north>(0, -0.35)</north>
+						<east>(-0.1, -0.35)</east>
+						<south>(0, -0.35)</south>
+						<west>(0.1, -0.35)</west>
+					</headOffsetDirectional>
 				</li>
 			</graphicPaths><!-- 텍스쳐 -->
 		
@@ -324,7 +330,7 @@
 				<minIdleAlpha>0.05</minIdleAlpha>
 				<disarmedByEmpForTicks>600</disarmedByEmpForTicks>
 				<activeSound>Broadshield_Ambience</activeSound>
-				<chargeIntervalTicks>1800</chargeIntervalTicks>
+				<chargeIntervalTicks>3600</chargeIntervalTicks>
 				<chargeDurationTicks>1800</chargeDurationTicks>
 			</li>
 		</comps>
