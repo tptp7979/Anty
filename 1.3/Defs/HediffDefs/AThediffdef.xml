@@ -15,6 +15,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.95</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>
@@ -405,6 +406,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>
@@ -529,6 +531,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>
@@ -920,6 +923,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-1.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>
@@ -948,6 +952,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-3.5</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>Combatglue</stateEffecter>
@@ -1019,6 +1024,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-7</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
 		<stages>
@@ -1049,6 +1055,7 @@
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-20</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>TargetP</stateEffecter>
