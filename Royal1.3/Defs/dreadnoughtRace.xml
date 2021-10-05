@@ -289,8 +289,8 @@
 			</li>
 			</lifeStageAges>
 
-			<soundMeleeHitPawn>AT_MeleeImpact_A</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>AT_MeleeImpact_A</soundMeleeHitBuilding>
+			<soundMeleeHitPawn>Pawn_Mech_Termite_Wounded</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Mech_Termite_Wounded</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.3, 0.8, 0.4)</volume>
