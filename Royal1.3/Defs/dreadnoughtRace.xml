@@ -196,7 +196,7 @@
 			<MiningYield>1</MiningYield><!-- 채굴효율 -->
 
 			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
 		</statBases><!-- 능력치 -->
 		
 		<tools Inherit="False"><!-- 육체무기 -->
