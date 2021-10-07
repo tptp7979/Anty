@@ -346,7 +346,7 @@
 			<minTitle>AT_SwarmLord</minTitle>
 			<faction>AntyHive_B</faction>
 			<permitPointCost>1</permitPointCost>
-			<uiPosition>(2,1)</uiPosition>
+			<uiPosition>(0,3)</uiPosition>
 			<royalAid>
 				<favorCost>80</favorCost>
 				<pawnKindDef>AT_Dreadnought_A</pawnKindDef>
