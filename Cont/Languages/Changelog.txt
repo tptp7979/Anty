@@ -32,3 +32,4 @@ StyleItemCategoryDef
 AlienRace.BackstoryDef
 AlienRace.ThingDef_AlienRace
 HediffDef
+PawnKindDef

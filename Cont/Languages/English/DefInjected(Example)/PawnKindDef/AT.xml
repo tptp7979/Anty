@@ -21,4 +21,6 @@
   <AT_Power_D.label>Anty Enhanced Close Combat Infantry</AT_Power_D.label>
   <AT_PP_S.label>Anty Special diplomat</AT_PP_S.label>
   <Anty_prototype.label>proty</Anty_prototype.label>
+  <AT_Dreadnought_A.label>Anty Dreadnought</AT_Dreadnought_A.label><!-- change -->
+  <AT_Dreadnought_B.label>Anty Dreadnought</AT_Dreadnought_B.label><!-- change -->
 </LanguageData>
