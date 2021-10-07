@@ -10,4 +10,6 @@
   <AT_CallMilitaryAidRanged.description>Call a group of 5 Ranged Combat Anties to aid you in battle.</AT_CallMilitaryAidRanged.description>
   <AT_CallMilitaryAidCluster.label>Call Cluster team</AT_CallMilitaryAidCluster.label>
   <AT_CallMilitaryAidCluster.description>Call a group of 5 Cluster Anties to aid you in battle.</AT_CallMilitaryAidCluster.description>
+  <AT_CallDreadnoughtAid.label>Call Dreadnought</AT_CallDreadnoughtAid.label>
+  <AT_CallDreadnoughtAid.description>Call a group of 3 Dreadnoughts to aid you in battle.</AT_CallDreadnoughtAid.description>
 </LanguageData>

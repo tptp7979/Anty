@@ -12,4 +12,7 @@
   <AT_CallMilitaryAidRanged.description>5명의 앤티 원거리 보병을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidRanged.description>
   <AT_CallMilitaryAidCluster.label>방사팀 호출</AT_CallMilitaryAidCluster.label>
   <AT_CallMilitaryAidCluster.description>5명의 앤티 방사기 보병단을 불러 전투에 참여시킵니다.</AT_CallMilitaryAidCluster.description>
+
+  <AT_CallDreadnoughtAid.label>드레드노트 호출</AT_CallDreadnoughtAid.label>
+  <AT_CallDreadnoughtAid.description>3명의 드레드노트들을 불러 전투에 참여시킵니다.</AT_CallDreadnoughtAid.description>
 </LanguageData>
