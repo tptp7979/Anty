@@ -205,8 +205,8 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>1</cooldownTime>
+				<power>23</power>
+				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<extraMeleeDamages>
 					<li>
@@ -331,7 +331,7 @@
 				<disarmedByEmpForTicks>600</disarmedByEmpForTicks>
 				<activeSound>Broadshield_Ambience</activeSound>
 				<chargeIntervalTicks>3600</chargeIntervalTicks>
-				<chargeDurationTicks>1800</chargeDurationTicks>
+				<chargeDurationTicks>900</chargeDurationTicks>
 			</li>
 		</comps>
 	</AlienRace.ThingDef_AlienRace>
