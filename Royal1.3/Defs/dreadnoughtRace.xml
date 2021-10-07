@@ -206,7 +206,7 @@
 					<li>Bite</li>
 				</capacities>
 				<power>23</power>
-				<cooldownTime>1.5</cooldownTime>
+				<cooldownTime>1</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<extraMeleeDamages>
 					<li>
@@ -354,6 +354,14 @@
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<initialWillRange>10~50</initialWillRange>
 		<initialResistanceRange>10~60</initialResistanceRange>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+			<li>
+				<thingDef>Antypheromone_Charge</thingDef>
+				<countRange>1</countRange>
+			</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyPlayerBasePawnKind">
