@@ -140,7 +140,7 @@
 		<statBases Inherit="False"><!-- 능력치 -->
 			<MarketValue>3000</MarketValue><!-- 가격 -->
 
-			<MoveSpeed>2.15</MoveSpeed><!-- 이속 -->
+			<MoveSpeed>4.15</MoveSpeed><!-- 이속 -->
 			<Mass>320</Mass><!-- 무게 -->
 			
 			<ComfyTemperatureMax>500</ComfyTemperatureMax><!-- 편한최대온도 -->
