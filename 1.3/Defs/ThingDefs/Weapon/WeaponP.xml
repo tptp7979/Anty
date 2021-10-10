@@ -89,7 +89,7 @@
 				<warmupTime>1</warmupTime>
 				<minRange>7.1</minRange>
 				<range>34.9</range>
-				<forcedMissRadius>2.1</forcedMissRadius>
+				<forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_G</soundCast>
