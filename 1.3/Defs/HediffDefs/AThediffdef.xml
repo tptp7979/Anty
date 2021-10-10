@@ -679,7 +679,7 @@
 				<minSeverity>0</minSeverity>
 			</li>
 			<li>
-				<minSeverity>40</minSeverity>
+				<minSeverity>60</minSeverity>
 				<destroyPart>true</destroyPart>
 			</li>
 		</stages>
