@@ -365,7 +365,7 @@
 				<Crafting>10</Crafting>
 				<Intellectual>5</Intellectual>
 			</skillRequirements>
-			<researchPrerequisite>hydroheliumion_B</researchPrerequisite>
+			<researchPrerequisite>hydroheliumion</researchPrerequisite>
 		</recipeMaker>
 		<verbs>
 			<li Class="TorgueAnty.Verb_Properties_ShotGun">
