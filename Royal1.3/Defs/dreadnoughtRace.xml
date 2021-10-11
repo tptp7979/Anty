@@ -455,6 +455,7 @@
 			<li>
 			<painFactor>0</painFactor>
 			<statFactors>
+				<IncomingDamageFactor>0.5</IncomingDamageFactor>
 				<InjuryHealingFactor>1.25</InjuryHealingFactor>
 			</statFactors>
 			</li>
