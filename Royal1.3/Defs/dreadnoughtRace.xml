@@ -14,11 +14,9 @@
 				<immuneToXenophobia>false</immuneToXenophobia>
 				<minAgeForAdulthood>0</minAgeForAdulthood>
 
-				<factionRelations>
-				</factionRelations>
+				<factionRelations Inherit="False"/>
 				
-				<chemicalSettings>
-				</chemicalSettings>
+				<chemicalSettings Inherit="False"/>
 
 			<alienPartGenerator>
 				<borderScale>1</borderScale>
