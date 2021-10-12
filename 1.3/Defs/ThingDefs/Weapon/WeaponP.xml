@@ -379,7 +379,7 @@
 				<soundCast>ShotAnty_G</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
-				<pelletCount>5</pelletCount>
+				<pelletCount>6</pelletCount>
 			</li>
 		</verbs>
 		<tools>
