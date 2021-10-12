@@ -1256,6 +1256,7 @@
 		<description>Aphid extract with a high concentration of nutrients. Due to the effect of nutritional jelly, it retains some of the gene modification properties.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AT_Aphidextract-stim</HediffDef>
+			<RecipeDef>AntyCorpsesqueeze</RecipeDef>
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/AT_LD</texPath>
