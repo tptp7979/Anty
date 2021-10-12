@@ -106,6 +106,7 @@
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel><!-- 종족옷제한설정 -->
 				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
 				<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits><!-- 종족특성제한설정 -->
+				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
 			
 				<apparelList><!-- 옷 -->
 				</apparelList><!-- 옷 -->
@@ -131,6 +132,10 @@
 				
 				<plantList><!-- 식물 -->
 				</plantList><!-- 식물 -->
+
+				<whiteFoodList>
+					<li>AT_Aphidextract</li>
+				</whiteFoodList>
 				
 			</raceRestriction><!-- 종족제한 -->
 		</alienRace>
