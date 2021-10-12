@@ -771,6 +771,7 @@
 					<li>KilledMyKin</li>
 					<li>KilledColonist</li>
 					<li>KilledColonyAnimal</li>
+					<li>KilledMyBondedAnimal</li>
 					
 					<li>AteHumanlikeMeatDirect</li>
 					<li>AteHumanlikeMeatAsIngredient</li>
@@ -819,6 +820,15 @@
 					<li>MyKinLost</li>
 					<li>SharedBed</li>
 
+					<li>BondedAnimalBanished</li>
+					<li>SoldMyBondedAnimal</li>
+					<li>SoldMyBondedAnimalMood</li>
+					<li>BondedAnimalReleased</li>
+					<li>BondedAnimalLost</li>
+					<li>BondedAnimalDied</li>
+					<li>BondedAnimalMaster</li>
+					<li>NotBondedAnimalMaster</li>
+					
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
 
 					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
