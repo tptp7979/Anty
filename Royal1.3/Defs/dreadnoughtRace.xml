@@ -195,8 +195,8 @@
 			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance><!-- 수술성공확률 -->
 			<ImmunityGainSpeed>1.1</ImmunityGainSpeed><!-- 항체속도 -->
 			
-			<MiningSpeed>1</MiningSpeed><!-- 채굴속도 -->
-			<MiningYield>1</MiningYield><!-- 채굴효율 -->
+			<MiningSpeed>4</MiningSpeed><!-- 채굴속도 -->
+			<MiningYield>0.5</MiningYield><!-- 채굴효율 -->
 
 			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
 			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
