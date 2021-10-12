@@ -405,18 +405,16 @@
 		<forcedHediffs>
 			<li>AntyDreadnoughtbirth</li>
 		</forcedHediffs>
-		<workDisables>
-			<li>Animals</li>
-			<li>Social</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Cooking</li>
-			<li>PlantWork</li>
-			<li>Constructing</li>
-			<li>Crafting</li>
-			<li>Caring</li>
+		<workAllows>
+			<li>Violent</li>
+			<li>Firefighting</li>
+			<li>Mining</li>
+			<li>AllWork</li>
 			<li>Commoner</li>
-		</workDisables>
+			<li>ManualSkilled</li>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workAllows>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="DreadnoughtBackStory">
@@ -428,6 +426,19 @@
 			<li>Dreadnought_Melee_Drop</li>
 		</spawnCategories>
 		<slot>Childhood</slot>
+		<forcedHediffs>
+			<li>AntyDreadnoughtbirth</li>
+		</forcedHediffs>
+		<workAllows>
+			<li>Violent</li>
+			<li>Firefighting</li>
+			<li>Mining</li>
+			<li>AllWork</li>
+			<li>Commoner</li>
+			<li>ManualSkilled</li>
+			<li>ManualDumb</li>
+			<li>Hauling</li>
+		</workAllows>
 	</AlienRace.BackstoryDef>
 
 	
