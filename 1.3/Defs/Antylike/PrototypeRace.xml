@@ -253,7 +253,7 @@
 	
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>EggProtyUn</defName>
-		<label>Proty egg</label>
+		<label>Proty egg(unfert.)</label>
 		<description>An unfertilized egg of Proty.</description>
 		<graphicData>
 			<color>(145,20,145)</color>
