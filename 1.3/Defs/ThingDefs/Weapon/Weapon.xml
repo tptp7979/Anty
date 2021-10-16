@@ -360,7 +360,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_AcidRifle_M</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
-				<range>27.9</range>
+				<range>30.9</range>
 				<burstShotCount>15</burstShotCount>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_B</soundCast>
