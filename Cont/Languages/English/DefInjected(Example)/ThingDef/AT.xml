@@ -7,7 +7,7 @@
   <EggProty.label>Proty egg</EggProty.label>
   <EggProty.description>This is Proty's egg.</EggProty.description>
   <EggProtyUn.label>Proty egg</EggProtyUn.label>
-  <EggProtyUn.description>An unfertilized egg of Protie.</EggProtyUn.description>
+  <EggProtyUn.description>An unfertilized egg of Proty.</EggProtyUn.description>
   <Nutritional_jelly_thing.label>Nutritional jelly</Nutritional_jelly_thing.label>
   <Nutritional_jelly_thing.description>Jelly that is consumed by reproductive entities. They are referred to as jelly, but in fact, they are congelation of mutagenic substances. When consumed, Anties will develop an egg sac, disregard of the gender. Anty larvae and serious injuries cannot survive this transformation.</Nutritional_jelly_thing.description>
   <Nutritional_jelly_thing.ingestible.ingestCommandString>Take {0}</Nutritional_jelly_thing.ingestible.ingestCommandString>

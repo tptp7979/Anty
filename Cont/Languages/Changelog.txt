@@ -34,3 +34,6 @@ AlienRace.ThingDef_AlienRace
 HediffDef
 PawnKindDef
 RoyalTitlePermitDef
+
+(2021/10/16)
+ThingDef : <EggProtyUn.description>
