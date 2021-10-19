@@ -37,3 +37,6 @@ RoyalTitlePermitDef
 
 (2021/10/16)
 ThingDef : <EggProtyUn.description>
+
+(2021/10/20)
+ThingDef : <AT_AP_CO_A.description> , <AT_AP_CO_B.description>

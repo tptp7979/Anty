@@ -1006,7 +1006,7 @@
 	<ThingDef ParentName="Anty_GearBase"><!--앤티 지휘관 케이프-->
 		<defName>AT_AP_CO_A</defName>
 		<label>Anty Commender Cape</label>
-		<description>A cloak worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
+		<description>A Cape worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
 
 		<recipeMaker>
 			 <researchPrerequisite>Antycomposite</researchPrerequisite>
@@ -1067,7 +1067,7 @@
 	<ThingDef ParentName="AT_AP_SH_A"><!--앤티 지휘관 망토-->
 		<defName>AT_AP_CO_B</defName>
 		<label>Anty Commender Cloak</label>
-		<description>A cape worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
+		<description>A Cloak worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
 		<graphicData>
 			<texPath>Antylike/Apparel/AT_AP_CommenderCover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
