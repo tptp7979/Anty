@@ -1266,7 +1266,7 @@
 			<MarketValue>6.0</MarketValue>
 			<RoyalFavorValue>0.7</RoyalFavorValue>
 			<Mass>0.025</Mass>
-			<Nutrition>0.9</Nutrition>
+			<Nutrition>0.7</Nutrition>
 			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<ingestible>
