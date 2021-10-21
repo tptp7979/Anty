@@ -35,8 +35,8 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>AT_Rifle_A</li>
-						<li>AT_Charge_B</li>
+						<li>AT_Colonist</li>
+						<li>AT_Colonist_C</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
