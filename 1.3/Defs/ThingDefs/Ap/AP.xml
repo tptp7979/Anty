@@ -1072,6 +1072,7 @@
 		<apparel>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_CommenderCover</wornGraphicPath>
 			<tags Inherit="False">
+				<li>Cape</li>
 				<li>AntyCommender</li>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
