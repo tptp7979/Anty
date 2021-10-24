@@ -2,6 +2,7 @@
 <Patch>
 	
 		<Operation Class="PatchOperationAdd">
+			<success>Always</success>
 			<xpath>/Defs/RecipeDef[defName = "InstallAT_Reinforcedexoskeleton"]/recipeUsers</xpath>
 			<value>
 				<li>AT_dreadnought</li>
@@ -9,6 +10,7 @@
 		</Operation>
 
 			<Operation Class="PatchOperationSequence">
+				<success>Always</success>
 				<operations>
 				<!-- Guests -->
 					<li Class="PatchOperationAdd">
