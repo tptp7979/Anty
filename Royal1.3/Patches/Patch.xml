@@ -2,17 +2,13 @@
 <Patch>
 	
 		<Operation Class="PatchOperationAdd">
-			<xpath>*/RecipeDef[defName = "InstallAT_Reinforcedexoskeleton"]/recipeUsers</xpath>
+			<xpath>/Defs/RecipeDef[defName = "InstallAT_Reinforcedexoskeleton"]/recipeUsers</xpath>
 			<value>
 				<li>AT_dreadnought</li>
 			</value>
 		</Operation>
-	
-		<Operation Class="PatchOperationFindMod">
-			<mods>
-				<li>Royalty</li>
-			</mods>
-			<match Class="PatchOperationSequence">
+
+			<Operation Class="PatchOperationSequence">
 				<operations>
 				<!-- Guests -->
 					<li Class="PatchOperationAdd">
@@ -183,8 +179,7 @@
 						</value>
 					</li>
 				</operations>
-			</match>
-		</Operation>
+			</Operation>
 
 		<Operation Class="PatchOperationSequence">
 			<success>Always</success>

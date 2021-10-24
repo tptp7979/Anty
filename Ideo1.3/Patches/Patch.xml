@@ -2,7 +2,7 @@
 <Patch>
 	
 		<Operation Class="PatchOperationAdd">
-			<xpath>*/PreceptDef[defName = "IdeoRole_Moralist"]/roleApparelRequirements</xpath>
+			<xpath>/Defs/PreceptDef[defName = "IdeoRole_Moralist"]/roleApparelRequirements</xpath>
 			<value>
 				<li>
 					<requirement>
@@ -29,7 +29,7 @@
 		</Operation>
 
 		<Operation Class="PatchOperationAdd">
-			<xpath>*/PreceptDef[defName = "IdeoRole_Leader"]/roleApparelRequirements</xpath>
+			<xpath>/Defs/PreceptDef[defName = "IdeoRole_Leader"]/roleApparelRequirements</xpath>
 			<value>
 				<li>
 					<requirement>
