@@ -724,6 +724,19 @@
 						<original>KilledHumanlikeBloodlust</original>
 						<replacer>KilledHumanlikeBloodlust_B</replacer>
 					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>InnocentPrisonerDied_Know_Abhorrent_Mood</original>
+						<replacer>KnowPrisonerDiedInnocent_B</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>ExecutedPrisoner_Horrible</original>
+						<replacer>KnowPrisonerDiedInnocent_B</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>ExecutedPrisonerInnocent_Horrible</original>
+						<replacer>KnowPrisonerDiedInnocent_B</replacer>
+					</li>
 				</replacerList>
 				<restrictedThoughts>
 					<li>NeedOutdoors_B</li>
@@ -861,6 +874,15 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Disapproved</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Horrible_Mood</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">SoldOrgan_Know_Disapproved</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">ExecutedPrisoner_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InnocentPrisonerDied_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ExecutedPrisoner_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InnocentPrisonerDied_Know_Horrible</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">ExecutedPrisonerInnocent_Know_Horrible</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">InnocentPrisonerDied_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">InnocentPrisonerDied_Horrible</li>
 					
 					<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 					<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
