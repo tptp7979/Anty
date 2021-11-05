@@ -731,7 +731,7 @@
 			<texPath>Things/Filth/Spatter</texPath>
 			<color>(0.2, 0.6, 0.2)</color>
 		</graphicData>
-		<pathCost>50</pathCost>
+		<pathCost>25</pathCost>
 		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
 		<filth>
 			<disappearsInDays>0.01~0.05</disappearsInDays>
