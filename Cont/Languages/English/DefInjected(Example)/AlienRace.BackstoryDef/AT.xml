@@ -33,6 +33,9 @@
   <Anty_Amigo_B_Rangedinfantry.title>Anty Ranged infantry</Anty_Amigo_B_Rangedinfantry.title>
   <Anty_Amigo_B_Rangedinfantry.titleShort>Ranged infantry</Anty_Amigo_B_Rangedinfantry.titleShort>
   <Anty_Amigo_B_Rangedinfantry.baseDescription>[PAWN_nameDef] is a ranged infantry.\n\nRanged infantry class was created to engage in a real war, despite the fact that Anties prefer close-quarter combat.\n\nEntities with talent in shooting or less than ideal physical abilities are usually chosen, and trained to master every type of weapon through rigorous training.</Anty_Amigo_B_Rangedinfantry.baseDescription>
+  <Anty_Amigo_B_Rangedinfantry_Drop.title>Anty Ranged infantry</Anty_Amigo_B_Rangedinfantry_Drop.title>
+  <Anty_Amigo_B_Rangedinfantry_Drop.titleShort>Ranged infantry</Anty_Amigo_B_Rangedinfantry_Drop.titleShort>
+  <Anty_Amigo_B_Rangedinfantry_Drop.baseDescription>[PAWN_nameDef] is a ranged infantry.\n\nRanged infantry class was created to engage in a real war, despite the fact that Anties prefer close-quarter combat.\n\nEntities with talent in shooting or less than ideal physical abilities are usually chosen, and trained to master every type of weapon through rigorous training.</Anty_Amigo_B_Rangedinfantry_Drop.baseDescription>
   <Anty_Amigo_B_Meleeinfantry.title>Anty Melee infantry</Anty_Amigo_B_Meleeinfantry.title>
   <Anty_Amigo_B_Meleeinfantry.titleShort>Melee infantry</Anty_Amigo_B_Meleeinfantry.titleShort>
   <Anty_Amigo_B_Meleeinfantry.baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</Anty_Amigo_B_Meleeinfantry.baseDescription>

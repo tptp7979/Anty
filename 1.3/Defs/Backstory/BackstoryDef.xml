@@ -362,6 +362,22 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
+	<AlienRace.BackstoryDef ParentName="Anty_Amigo_B_Rangedinfantry">
+		<defName>Anty_Amigo_B_Rangedinfantry_Drop</defName>
+		<spawnCategories Inherit="False">
+			<li>ATAmigo_Ranged_Drop</li>
+		</spawnCategories>
+		<forcedHediffs Inherit="False">
+			<li>AntySoldierbirth</li>
+		</forcedHediffs>
+		<forcedTraits>
+			<li>
+				<defName>AT_Solidexoskeleton</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+
 	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Amigo_B_Meleeinfantry">
 		<defName>Anty_Amigo_B_Meleeinfantry</defName>
 		<title>Anty Melee infantry</title>

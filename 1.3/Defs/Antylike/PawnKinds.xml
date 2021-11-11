@@ -542,7 +542,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ATAmigo_Melee_Drop</li>
+					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -578,7 +578,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ATAmigo_Melee_Drop</li>
+					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -641,14 +641,14 @@
 		<defName>AT_Power_C</defName>
 		<label>Anty Enhanced Grenadier</label>
 		<isFighter>true</isFighter>
-		<combatPower>280</combatPower>
+		<combatPower>325</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
-					<li>ATAmigo_Melee_Drop</li>
+					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
