@@ -336,7 +336,7 @@
 	</AlienRace.BackstoryDef>
 	
 	
-	<AlienRace.BackstoryDef ParentName="AntyBackStory">
+	<AlienRace.BackstoryDef ParentName="AntyBackStory" Name="Anty_Amigo_B_Rangedinfantry">
 		<defName>Anty_Amigo_B_Rangedinfantry</defName>
 		<title>Anty Ranged infantry</title>
 		<titleShort>Ranged infantry</titleShort>
