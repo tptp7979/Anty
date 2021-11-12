@@ -44,3 +44,7 @@ ThingDef : <AT_AP_CO_A.description> , <AT_AP_CO_B.description>
 (2021/11/1)
 AlienRace.BackstoryDef
   Anty_Amigo_B_Rangedinfantry_Drop .title .titleShort .baseDescription
+
+(2021/11/12)
+String/Name/Anty/First
+ After Weed
