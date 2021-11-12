@@ -546,7 +546,7 @@
 		<defName>Bullethydroheliumion_C</defName>
 		<label>Red-Burst Bullet</label>
 		<graphicData>
-			<texPath>Things/Weapons/kan</texPath>
+			<texPath>Things/Weapons/kanB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
