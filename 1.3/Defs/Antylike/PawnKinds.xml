@@ -542,6 +542,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
+					<li>ATlarva_B</li>
 					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
@@ -578,6 +579,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
+					<li>ATlarva_B</li>
 					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
@@ -613,6 +615,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
+					<li>ATlarva_B</li>
 					<li>ATAmigo_Melee_Drop</li>
 				</categories>
 			</li>
@@ -648,6 +651,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
+					<li>ATlarva_B</li>
 					<li>ATAmigo_Ranged_Drop</li>
 				</categories>
 			</li>
@@ -683,6 +687,7 @@
 		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
+					<li>ATlarva_B</li>
 					<li>ATAmigo_Melee_Drop</li>
 				</categories>
 			</li>

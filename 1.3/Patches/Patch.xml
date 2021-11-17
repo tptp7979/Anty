@@ -312,4 +312,8 @@
 		</li>
 	</value>
 	</Operation>
+	
+<!-- 	<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/FactionDef[defName = "Mechanoid"]/raidCommonalityFromPointsCurve</xpath>
+	</Operation> -->
 </Patch>
