@@ -121,12 +121,6 @@
 							<caravanTraderKinds>
 								<li>Caravan_AT_REB</li>
 							</caravanTraderKinds>
-							<visitorTraderKinds>
-								<li>Caravan_AT_REB</li>
-							</visitorTraderKinds>
-							<baseTraderKinds>
-								<li>Caravan_AT_REB</li>
-							</baseTraderKinds>
 						</value>
 					</li>
 
