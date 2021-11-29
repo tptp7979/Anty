@@ -46,6 +46,7 @@
 			<thingDefs>
 				<li>Leather_Pig</li>
 				<li>Leather_Human</li>
+				<li>AntyExoskeleton</li>
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
