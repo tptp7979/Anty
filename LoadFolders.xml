@@ -13,5 +13,7 @@
         <li IfModActive="Proxyer.DESurgeries.HARDColor">DESurgeries</li>
         <li IfModActive="Proxyer.DESurgeries.HARD">DESurgeries</li>
         <li IfModActive="Proxyer.DESurgeries.DESurgeriesColor">DESurgeries</li>
+        <li IfModActive="Proxyer.DESurgeries.RBSEonlyColor">DESurgeries</li>
+        <li IfModActive="Proxyer.DESurgeries.RBSEonly">DESurgeries</li>
     </v1.3>
 </loadFolders>
