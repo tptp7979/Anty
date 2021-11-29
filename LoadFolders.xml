@@ -10,5 +10,8 @@
 		<li>Cont</li>
         <li IfModActive="Ludeon.Rimworld.Royalty">Royal1.3</li>
         <li IfModActive="Proxyer.DESurgeries.DESurgeries">DESurgeries</li>
+        <li IfModActive="Proxyer.DESurgeries.HARDColor">DESurgeries</li>
+        <li IfModActive="Proxyer.DESurgeries.HARD">DESurgeries</li>
+        <li IfModActive="Proxyer.DESurgeries.DESurgeriesColor">DESurgeries</li>
     </v1.3>
 </loadFolders>
