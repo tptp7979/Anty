@@ -96,7 +96,7 @@
         </match>
     </Operation>
 		
-	<Operation Class="PatchOperationFindMod">
+<!-- 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>EvolvedOrgansRedux</li>
 		</mods>
@@ -279,7 +279,7 @@
 			</li>
 			</operations>
 		</match>
-	</Operation>
+	</Operation> -->
 	
 	<Operation Class="PatchOperationFindMod">
     <mods>
