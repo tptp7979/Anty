@@ -543,6 +543,7 @@
 			<li>
 				<categories>
 					<li>ATAmigo_Ranged_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -579,6 +580,7 @@
 			<li>
 				<categories>
 					<li>ATAmigo_Ranged_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -614,6 +616,7 @@
 			<li>
 				<categories>
 					<li>ATAmigo_Melee_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -649,6 +652,7 @@
 			<li>
 				<categories>
 					<li>ATAmigo_Ranged_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -684,6 +688,7 @@
 			<li>
 				<categories>
 					<li>ATAmigo_Melee_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
