@@ -64,4 +64,7 @@ This mod
     <li>goudaquiche.MoharFramework</li>
     <li>Proxyer.DESurgeries.DESurgeries</li>
   </forceLoadAfter>
+  <incompatibleWith>
+	<li>GhostRolly.Rim73</li>
+  </incompatibleWith>
 </ModMetaData>
