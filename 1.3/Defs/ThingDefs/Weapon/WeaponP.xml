@@ -425,10 +425,15 @@
 		<projectile>
 			<speed>70</speed>
 			<damageDef>AT_AcidBullet_B</damageDef>
-			<damageAmountBase>1.99</damageAmountBase>
+			<damageAmountBase>1</damageAmountBase>
 			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<extraDamages>
+					<li>
+						<def>AT_AcidBullet_B</def>
+						<amount>1</amount>
+						<chance>0.8</chance>
+					</li>
 					<li>
 						<def>Stun</def>
 						<amount>2</amount>
