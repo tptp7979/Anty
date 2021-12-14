@@ -435,6 +435,11 @@
 						<chance>0.8</chance>
 					</li>
 					<li>
+						<def>AT_AcidBullet_B</def>
+						<amount>1</amount>
+						<chance>0.2</chance>
+					</li>
+					<li>
 						<def>Stun</def>
 						<amount>2</amount>
 						<chance>0.05</chance>
