@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<RecipeDef ParentName="SurgeryEasy">
+	<RecipeDef ParentName="SurgeryNormal">
 		<defName>CureInjury_AT_Acidmelt_A</defName>
 		<label>cure Acid melt (1 med)</label>
 		<description>Cure Acid melt.</description>
@@ -26,7 +26,7 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="SurgeryEasy">
+	<RecipeDef ParentName="SurgeryNormal">
 		<defName>CureInjury_AT_Acidmelt_A_con</defName>
 		<label>cure Acid melt (1 med)</label>
 		<description>Cure Acid melt.</description>
