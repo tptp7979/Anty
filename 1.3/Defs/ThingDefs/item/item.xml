@@ -276,7 +276,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>ProtyGum</defName>
 		<label>Proty Gum</label>
-		<description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry Proteas and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proteas trying to chew anything can be suppressed.</description>
+		<description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry Proties and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proties trying to chew anything can be suppressed.</description>
 		<thingCategories>
 			<li>Foods</li>
 		</thingCategories>
