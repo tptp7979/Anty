@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		<Gunplay.GunPropDef>
+			<defName>AT_hydroheliumion_A</defName>
+		
+			<primer>
+				<frames>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayA</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayB</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayC</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayD</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayE</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayF</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayG</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayH</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayI</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayJ</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_A_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+				</frames>
+				<ticksToIdle>15</ticksToIdle>
+			</primer>
+			
+			<drawScale>1</drawScale>
+			
+			<trail>AT_hydroheliumion_Trail</trail>
+			<projectileImpactEffect>AT_hydroheliumion_PlayEffect</projectileImpactEffect>
+		</Gunplay.GunPropDef>
+		
+		<Gunplay.GunPropDef>
+			<defName>AT_hydroheliumion_B</defName>
+		
+			<primer>
+				<frames>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayA</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayB</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayC</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayD</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayE</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayF</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayG</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayH</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayI</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayJ</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_B_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+				</frames>
+				<ticksToIdle>45</ticksToIdle>
+			</primer>
+			
+			<drawScale>1</drawScale>
+			
+			<trail>AT_hydroheliumion_Trail</trail>
+			<projectileImpactEffect>AT_hydroheliumion_PlayEffect</projectileImpactEffect>
+		</Gunplay.GunPropDef>
+		
+		<Gunplay.GunPropDef>
+			<defName>AT_hydroheliumion_C</defName>
+		
+			<primer>
+				<frames>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayA</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayB</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayC</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayD</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayE</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayF</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayG</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayH</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayI</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayJ</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+					<li><texPath>Things/Weapons/Play/AT_hydroheliumion_C_PlayK</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType></li>
+				</frames>
+				<ticksToIdle>30</ticksToIdle>
+			</primer>
+			
+			<drawScale>1</drawScale>
+			
+			<soundAiming>AimingAnty_A</soundAiming>
+			<trail>AT_hydroheliumion_Trail</trail>
+			<projectileImpactEffect>AT_hydroheliumion_PlayEffect</projectileImpactEffect>
+		</Gunplay.GunPropDef>
+		
+		<Gunplay.ProjectileTrailDef ParentName="GunplayProjectileTrailDefault">
+			<defName>AT_hydroheliumion_Trail</defName>
+
+			<graphicData>
+				<shaderType>TransparentPostLight</shaderType>
+				<texPath>Things/Weapons/Play/AT_hydroheliumion_Trail</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</Gunplay.ProjectileTrailDef>
+		
+		<Gunplay.ProjectileImpactEffectDef>
+			<defName>AT_hydroheliumion_PlayEffect</defName>
+			
+			<fabric>Impact_ATAcid_High</fabric>
+			<metal>Impact_ATAcid_High</metal>
+			<soil>Impact_ATAcid_High</soil>
+			<stone>Impact_ATAcid_High</stone>
+			<wood>Impact_ATAcid_High</wood>
+		</Gunplay.ProjectileImpactEffectDef>
+	
+</Defs>
