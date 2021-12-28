@@ -417,9 +417,9 @@
 		<defName>Bullethydroheliumion_B</defName>
 		<label>Red-Burst Bullet</label>
 		<graphicData>
-			<texPath>Things/Weapons/kan</texPath>
+			<texPath>Things/Weapons/kanB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,0.5)</drawSize>
+			<drawSize>(1,1)</drawSize>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile>
@@ -556,9 +556,10 @@
 		<defName>Bullethydroheliumion_C</defName>
 		<label>Red-Burst Bullet</label>
 		<graphicData>
-			<texPath>Things/Weapons/kanB</texPath>
+			<texPath>Things/Weapons/kanC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
 		<thingClass>TorgueAnty.Projectile_Torgue_Rocket</thingClass>
 		<projectile Class="TorgueAnty.TorgueProjectileProps">
