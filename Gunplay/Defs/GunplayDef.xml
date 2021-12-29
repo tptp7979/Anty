@@ -104,5 +104,38 @@
 			<stone>Impact_ATAcid_High</stone>
 			<wood>Impact_ATAcid_High</wood>
 		</Gunplay.ProjectileImpactEffectDef>
+
+		<Gunplay.GunPropDef Name="AT_Acid_PlayBase">
+			<defName>AT_AcidRifle</defName>
+			<drawScale>1</drawScale>
+			<projectileImpactEffect>AT_acid_PlayEffect</projectileImpactEffect>
+		</Gunplay.GunPropDef>
+
+		<Gunplay.GunPropDef ParentName="AT_Acid_PlayBase">
+			<defName>AT_AcidAssaultRifle</defName>
+		</Gunplay.GunPropDef>
+
+		<Gunplay.GunPropDef ParentName="AT_Acid_PlayBase">
+			<defName>AT_AcidLineRifle</defName>
+		</Gunplay.GunPropDef>
+
+		<Gunplay.GunPropDef ParentName="AT_Acid_PlayBase">
+			<defName>AT_LMG</defName>
+		</Gunplay.GunPropDef>
+
+		<Gunplay.ProjectileImpactEffectDef>
+			<defName>AT_acid_PlayEffect</defName>
+			
+			<fabric>Impact_ATAcid</fabric>
+			<metal>Impact_ATAcid</metal>
+			<soil>Impact_ATAcid</soil>
+			<stone>Impact_ATAcid</stone>
+			<wood>Impact_ATAcid</wood>
+		</Gunplay.ProjectileImpactEffectDef>
+
+		<Gunplay.GunPropDef ParentName="AT_Acid_PlayBase">
+			<defName>AT_AcidCross</defName>
+			<projectileImpactEffect>arrow</projectileImpactEffect>
+		</Gunplay.GunPropDef>
 	
 </Defs>
