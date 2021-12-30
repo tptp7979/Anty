@@ -1244,6 +1244,8 @@
 				<multiplier>1.5</multiplier>
 			</li>
 		</damageMultipliers>
+		<butcherProducts />
+		<comps />
 	</AlienRace.ThingDef_AlienRace>
 		
 	<FleshTypeDef>
