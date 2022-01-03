@@ -58,11 +58,21 @@ This mod
     <li>erdelf.HumanoidAlienRaces</li>
 	<li>goudaquiche.MoharFramework</li>
 	<li>Proxyer.DESurgeries.DESurgeries</li>
+	<li>Proxyer.DESurgeries.HARDColor</li>
+	<li>Proxyer.DESurgeries.HARD</li>
+	<li>Proxyer.DESurgeries.DESurgeriesColor</li>
+	<li>Proxyer.DESurgeries.RBSEonlyColor</li>
+	<li>Proxyer.DESurgeries.RBSEonly</li>
   </loadAfter>
   <forceLoadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
     <li>goudaquiche.MoharFramework</li>
     <li>Proxyer.DESurgeries.DESurgeries</li>
+	<li>Proxyer.DESurgeries.HARDColor</li>
+	<li>Proxyer.DESurgeries.HARD</li>
+	<li>Proxyer.DESurgeries.DESurgeriesColor</li>
+	<li>Proxyer.DESurgeries.RBSEonlyColor</li>
+	<li>Proxyer.DESurgeries.RBSEonly</li>
   </forceLoadAfter>
   <incompatibleWith>
 	<li>GhostRolly.Rim73</li>
