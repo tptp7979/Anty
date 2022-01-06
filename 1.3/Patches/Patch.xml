@@ -319,6 +319,7 @@
 	<Operation Class="PatchOperationFindMod">
     <mods>
       <li>Babies and Children</li>
+	  <li>Babies and Children [1.3]</li>
     </mods>
     <match Class="PatchOperationReplace">
       <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Anty"]/race/lifeExpectancy</xpath>
