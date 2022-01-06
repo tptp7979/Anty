@@ -177,6 +177,7 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<!-- 앤티 사수, 전사 -->
