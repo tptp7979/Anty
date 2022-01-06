@@ -558,4 +558,171 @@
 			</shaderParameters>
 		</graphicData>
 	</ThingDef>
+
+	<ThingDef ParentName="BaseMakeableGun_Anty">
+		<defName>AT_Proty_spawner</defName>
+		<label>AT_Proty_spawner</label>
+		<description>AT_Proty_spawner.</description>
+		<descriptionHyperlinks Inherit="False">
+			<HediffDef>Chemicaldissolution_high</HediffDef>
+			<ThingDef>Anty_Recyclecore</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Weapons/AT_hydroheliumion_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<soundInteract>hydroheliumion_A</soundInteract>
+		<generateCommonality>0.3</generateCommonality>
+		<weaponTags>
+			<li>AT_Proty_spawner</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>3</Mass>
+			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<AntyExoskeleton>80</AntyExoskeleton>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker Inherit="False" />
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BulletProtyspawner</defaultProjectile>
+				<warmupTime>1</warmupTime>
+				<minRange>7.1</minRange>
+				<range>34.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_G</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>Nozzle</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+		</tools>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BulletProtyspawner</defName>
+		<label>BulletProtyspawner</label>
+		<graphicData>
+			<texPath>Things/Weapons/kan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>70</speed>
+			<damageDef>AT_AcidBomb_B</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<explosionRadius>0.1</explosionRadius>
+			<explosionDelay>0</explosionDelay>
+			<preExplosionSpawnThingDef>AT_Proty_spawner_Tunnel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+		</projectile>
+		<comps>
+			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
+		</comps>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BuildingBase" Name="AT_Proty_spawner_Tunnel_Close">
+		<defName>AT_Proty_spawner_Tunnel</defName>
+		<label>AT_Proty_spawner_Tunnel</label>
+		<description>AT_Proty_spawner_Tunnel.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Weapons/kan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<uiIconPath>Things/Weapons/kan</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>15</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Beauty>-3</Beauty>
+			<WorkToBuild>1500</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<rotatable>false</rotatable>
+		<selectable>false</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<designationHotKey>Misc1</designationHotKey>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<preExplosionSpawnThingDef>AT_Proty_spawner_Tunnel_Open</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>350</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuseAnty">
+				<target>AT_Proty_spawner_Tunnel</target>
+				<radius>0.9</radius>
+			</li>
+			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
+		</comps>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_Proty_spawner_Tunnel_Close">
+		<defName>AT_Proty_spawner_Tunnel_Open</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Proty_spawner_Tunnel_Open</texPath>
+		</graphicData>
+		<comps Inherit="False">
+			<li Class="CompProperties_SpawnerPawn">
+				<spawnablePawnKinds>
+					<li>Anty_prototype</li>
+				</spawnablePawnKinds>
+				<lordJob>LordJob_DefendAndExpandHive</lordJob>
+				<spawnSound>Hive_Spawn</spawnSound>
+				<initialPawnsPoints>70</initialPawnsPoints>
+				<maxSpawnedPawnsPoints>150</maxSpawnedPawnsPoints>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>
