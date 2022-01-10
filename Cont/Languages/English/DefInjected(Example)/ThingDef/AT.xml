@@ -250,4 +250,11 @@
   <AT_Bulletbarricade.label>barricade Shell</AT_Bulletbarricade.label>
   <ProtyGum.label>Proty Gum</ProtyGum.label>
   <ProtyGum.description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry proties and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proties trying to chew anything can be suppressed.</ProtyGum.description>
+  <AT_Proty_spawner.label>Proty Induced Pheromone Launcher</AT_Proty_spawner.label>
+  <AT_Proty_spawner.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</AT_Proty_spawner.description>
+  <AT_Proty_spaBulletProtyspawnerwner.label>Proty Induced Pheromone</AT_Proty_spaBulletProtyspawnerwner.label>
+  <AT_Proty_spawner_Tunnel.label>Proty Induced Pheromone</AT_Proty_spawner_Tunnel.label>
+  <AT_Proty_spawner_Tunnel.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</AT_Proty_spawner_Tunnel.description>
+  <AT_Proty_spawner_Tunnel_Open.label>Proty tunnel</AT_Proty_spawner_Tunnel_Open.label>
+  <AT_Proty_spawner_Tunnel_Open.description>This is the hole where the Proties who were waiting in the underground network of tunnels came out of.</AT_Proty_spawner_Tunnel_Open.description>
 </LanguageData>

@@ -297,4 +297,14 @@
 
   <ProtyGum.label>프로티 껌</ProtyGum.label>
   <ProtyGum.description>배고픈 프로티들로 가득한 방에 포로를 가두었을 때 프로티들이 포로를 하루 종일 물어뜯는 것을 보고 앤티들이 고안해낸 프로티용 음식입니다.\n말린 가죽을 튀겨 만든 것으로, 뭐든지 씹으려고 하는 프로티들을 조금이나마 억제할 수 있습니다.</ProtyGum.description>
+
+  <AT_Proty_spawner.label>프로티 유도 페로몬 사출기</AT_Proty_spawner.label>
+  <AT_Proty_spawner.description>지하의 땅굴망에서 대기중인 프로티들에게 신호를 보내는 무기입니다.</AT_Proty_spawner.description>
+  <AT_Proty_spaBulletProtyspawnerwner.label>프로티 유도 페로몬</AT_Proty_spaBulletProtyspawnerwner.label>
+
+  <AT_Proty_spawner_Tunnel.label>프로티 유도 페로몬</AT_Proty_spawner_Tunnel.label>
+  <AT_Proty_spawner_Tunnel.description>지하의 땅굴망에서 대기중인 프로티들에게 신호를 보내는 장치입니다.</AT_Proty_spawner_Tunnel.description>
+
+  <AT_Proty_spawner_Tunnel_Open.label>프로티 땅굴</AT_Proty_spawner_Tunnel_Open.label>
+  <AT_Proty_spawner_Tunnel_Open.description>지하의 땅굴망에서 대기중이던 프로티들이 빠져나온 구멍입니다.</AT_Proty_spawner_Tunnel_Open.description>
 </LanguageData>

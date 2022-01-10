@@ -48,3 +48,10 @@ AlienRace.BackstoryDef
 (2021/11/12)
 String/Name/Anty/First
  After Weed
+
+(2022/01/11)
+ThingDef
+  AT_Proty_spawner .label .description
+  AT_Proty_spaBulletProtyspawnerwner .label
+  AT_Proty_spawner_Tunnel .label .description
+  AT_Proty_spawner_Tunnel_Open .label .description
