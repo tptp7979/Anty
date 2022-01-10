@@ -568,7 +568,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
-		<soundInteract>hydroheliumion_A</soundInteract>
 		<generateCommonality>0.3</generateCommonality>
 		<weaponTags>
 			<li>AT_Proty_spawner</li>
@@ -599,7 +598,7 @@
 				<forcedMissRadius>3.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-				<soundCast>ShotAnty_G</soundCast>
+				<soundCast>ShotAnty_D</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 				<targetParams>
@@ -668,7 +667,7 @@
 		<fillPercent>0</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
+			<MaxHitPoints>20</MaxHitPoints>
 			<Beauty>-10</Beauty>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
@@ -681,7 +680,7 @@
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<rotatable>false</rotatable>
-		<selectable>false</selectable>
+		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationHotKey>Misc1</designationHotKey>
