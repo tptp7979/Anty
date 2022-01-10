@@ -561,10 +561,10 @@
 
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_Proty_spawner</defName>
-		<label>AT_Proty_spawner</label>
-		<description>AT_Proty_spawner.</description>
+		<label>Proty Induced Pheromone Launcher</label>
+		<description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</description>
 		<graphicData>
-			<texPath>Things/Weapons/AT_hydroheliumion_A</texPath>
+			<texPath>Things/Weapons/AT_Proty_spawner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -623,7 +623,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>BulletProtyspawner</defName>
-		<label>BulletProtyspawner</label>
+		<label>Proty Induced Pheromone</label>
 		<graphicData>
 			<texPath>Things/Weapons/Fan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -649,8 +649,8 @@
 	
 	<ThingDef ParentName="BuildingBase" Name="AT_Proty_spawner_Tunnel_Close">
 		<defName>AT_Proty_spawner_Tunnel</defName>
-		<label>AT_Proty_spawner_Tunnel</label>
-		<description>AT_Proty_spawner_Tunnel.</description>
+		<label>Proty Induced Pheromone</label>
+		<description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</description>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<graphicData>
@@ -706,6 +706,8 @@
 
 	<ThingDef ParentName="AT_Proty_spawner_Tunnel_Close">
 		<defName>AT_Proty_spawner_Tunnel_Open</defName>
+		<label>Proty tunnel</label>
+		<description>This is the hole where the Proties who were waiting in the underground network of tunnels came out of.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Proty_spawner_Tunnel_Open</texPath>
 			<drawSize>(2.1,2.1)</drawSize>
