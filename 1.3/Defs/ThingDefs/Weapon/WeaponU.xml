@@ -681,7 +681,7 @@
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
-		<neverMultiSelect>true</neverMultiSelect>
+		<neverMultiSelect>false</neverMultiSelect>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationHotKey>Misc1</designationHotKey>
 		<comps>
