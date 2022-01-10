@@ -163,10 +163,11 @@
 		</apparelRequired>
 		<weaponTags>
 			<li>AcidRifle_R</li>
+			<li>AT_Proty_spawner</li>
 		</weaponTags>
 		<weaponMoney>
 			<min>1400</min>
-			<max>1600</max>
+			<max>2500</max>
 		</weaponMoney>
 		<techHediffsChance>0.25</techHediffsChance>
 		<techHediffsMoney>

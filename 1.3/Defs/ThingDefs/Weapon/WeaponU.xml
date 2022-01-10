@@ -563,10 +563,6 @@
 		<defName>AT_Proty_spawner</defName>
 		<label>AT_Proty_spawner</label>
 		<description>AT_Proty_spawner.</description>
-		<descriptionHyperlinks Inherit="False">
-			<HediffDef>Chemicaldissolution_high</HediffDef>
-			<ThingDef>Anty_Recyclecore</ThingDef>
-		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Weapons/AT_hydroheliumion_A</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -597,10 +593,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>BulletProtyspawner</defaultProjectile>
-				<warmupTime>1</warmupTime>
+				<warmupTime>10</warmupTime>
 				<minRange>7.1</minRange>
 				<range>34.9</range>
-				<forcedMissRadius>1.9</forcedMissRadius>
+				<forcedMissRadius>3.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_G</soundCast>
@@ -629,14 +625,14 @@
 		<defName>BulletProtyspawner</defName>
 		<label>BulletProtyspawner</label>
 		<graphicData>
-			<texPath>Things/Weapons/kan</texPath>
+			<texPath>Things/Weapons/Fan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<speed>70</speed>
-			<damageDef>AT_AcidBomb_B</damageDef>
+			<damageDef>AT_AcidBomb</damageDef>
 			<damageAmountBase>0</damageAmountBase>
 			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
@@ -658,28 +654,29 @@
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Things/Weapons/kan</texPath>
+			<texPath>Things/Weapons/Proty_spawner_Tunnel_Beacon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Weapons/kan</uiIconPath>
+		<uiIconPath>Things/Weapons/Proty_spawner_Tunnel_Open</uiIconPath>
 		<uiIconScale>1.2</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>15</pathCost>
 		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
 		<passability>PassThroughOnly</passability>
-		<castEdgeShadows>true</castEdgeShadows>
+		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<MaxHitPoints>800</MaxHitPoints>
-			<Beauty>-3</Beauty>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>-10</Beauty>
 			<WorkToBuild>1500</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
+			<expandHomeArea>false</expandHomeArea>
 		</building>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
@@ -687,12 +684,11 @@
 		<selectable>false</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<designationHotKey>Misc1</designationHotKey>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>0.9</explosiveRadius>
-				<explosiveDamageType>Stun</explosiveDamageType>
+				<explosiveDamageType>AT_AcidBomb</explosiveDamageType>
 				<damageAmountBase>0</damageAmountBase>
 				<preExplosionSpawnThingDef>AT_Proty_spawner_Tunnel_Open</preExplosionSpawnThingDef>
 				<preExplosionSpawnChance>1</preExplosionSpawnChance>
@@ -701,7 +697,7 @@
 			</li>
 			<li Class="CompProperties_ProximityFuseAnty">
 				<target>AT_Proty_spawner_Tunnel</target>
-				<radius>0.9</radius>
+				<radius>1.1</radius>
 			</li>
 			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
 		</comps>
@@ -712,17 +708,23 @@
 		<defName>AT_Proty_spawner_Tunnel_Open</defName>
 		<graphicData>
 			<texPath>Things/Weapons/Proty_spawner_Tunnel_Open</texPath>
+			<drawSize>(2.1,2.1)</drawSize>
 		</graphicData>
 		<comps Inherit="False">
 			<li Class="CompProperties_SpawnerPawn">
 				<spawnablePawnKinds>
 					<li>Anty_prototype</li>
 				</spawnablePawnKinds>
-				<lordJob>LordJob_DefendAndExpandHive</lordJob>
-				<spawnSound>Hive_Spawn</spawnSound>
-				<initialPawnsPoints>70</initialPawnsPoints>
-				<maxSpawnedPawnsPoints>150</maxSpawnedPawnsPoints>
+				<lordJob>LordJob_MechanoidsDefend</lordJob>
+				<spawnSound>Tunnel_End</spawnSound>
+				<initialPawnsPoints>100</initialPawnsPoints>
+				<maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1800</lifespanTicks>
+				<expireEffect>RaisedRock_Collapse</expireEffect>
 			</li>
 		</comps>
+		<selectable>true</selectable>
 	</ThingDef>
 </Defs>
