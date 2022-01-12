@@ -617,6 +617,19 @@
 				<cooldownTime>3</cooldownTime>
 			</li>
 		</tools>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.9</explosiveRadius>
+				<explosiveDamageType>AT_AcidBomb</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>0</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuseAnty">
+				<target>AT_Proty_spawner_Tunnel_Open</target>
+				<radius>1.1</radius>
+			</li>
+		</comps>
 		<techLevel>Spacer</techLevel>
 	</ThingDef>
 
@@ -724,17 +737,6 @@
 			<li Class="CompProperties_Lifespan">
 				<lifespanTicks>1800</lifespanTicks>
 				<expireEffect>RaisedRock_Collapse</expireEffect>
-			</li>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>0.9</explosiveRadius>
-				<explosiveDamageType>AT_AcidBomb</explosiveDamageType>
-				<damageAmountBase>0</damageAmountBase>
-				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
-				<wickTicks>0</wickTicks>
-			</li>
-			<li Class="CompProperties_ProximityFuseAnty">
-				<target>AT_Proty_spawner_Tunnel_Open</target>
-				<radius>1.1</radius>
 			</li>
 		</comps>
 		<selectable>true</selectable>
