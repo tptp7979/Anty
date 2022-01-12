@@ -291,6 +291,7 @@
 				<AT_Power_B>5</AT_Power_B>
 				<AT_Rifle_B>20</AT_Rifle_B>
 				<AT_Launcher_A>3</AT_Launcher_A>
+				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
 		
@@ -305,6 +306,7 @@
 				<AT_Power_B>15</AT_Power_B>
 				<AT_Rifle_B>10</AT_Rifle_B>
 				<AT_Launcher_A>5</AT_Launcher_A>
+				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
 		
@@ -320,6 +322,7 @@
 				<AT_Power_B>10</AT_Power_B>
 				<AT_Power_C>3</AT_Power_C>
 				<AT_Sapper_A>5</AT_Sapper_A>
+				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
 		
