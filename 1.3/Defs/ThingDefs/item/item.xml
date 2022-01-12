@@ -449,7 +449,7 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<!-- <ThingDef ParentName="ResourceBase">
 		<defName>AntyTransitionRefleum_Thing</defName>
 		<label>Transition Refleum</label>
 		<description>.</description>
@@ -477,5 +477,5 @@
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
-	</ThingDef>
+	</ThingDef> -->
 </Defs>
