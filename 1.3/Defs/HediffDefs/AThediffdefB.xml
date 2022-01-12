@@ -53,8 +53,8 @@
 
 	<HediffDef ParentName="ImplantHediffBase">
 		<defName>AntyTransitionRefleum</defName>
-		<label>TransitionRefleum</label>
-		<labelNoun>TransitionRefleum</labelNoun>
+		<label>Transition Refleum</label>
+		<labelNoun>Transition Refleum</labelNoun>
 		<description>It is a side effect of increased viability. It is contagious and increases the aggression of Anty.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Refleum</ThingDef>

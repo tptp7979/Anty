@@ -448,4 +448,34 @@
 			<li>Anty_prototype</li>
 		</recipeUsers>
 	</RecipeDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AntyTransitionRefleum_Thing</defName>
+		<label>Transition Refleum</label>
+		<description>.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AntyTransitionRefleum</HediffDef>
+			<HediffDef>AntyIncreasedviability</HediffDef>
+			<RecipeDef>CureAntyTransitionRefleum</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/TransitionRefleum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<stackLimit>5</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<RoyalFavorValue>25</RoyalFavorValue>
+			<Mass>3</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
 </Defs>
