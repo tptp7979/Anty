@@ -592,7 +592,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>BulletProtyspawner</defaultProjectile>
-				<warmupTime>10</warmupTime>
+				<warmupTime>5</warmupTime>
 				<minRange>7.1</minRange>
 				<range>34.9</range>
 				<forcedMissRadius>3.9</forcedMissRadius>
