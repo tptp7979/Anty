@@ -251,7 +251,7 @@
   <ProtyGum.label>Proty Gum</ProtyGum.label>
   <ProtyGum.description>This is a food for Proties invented by the Anties when they locked up a prisoner in a room full of hungry proties and saw the proties biting them all day long.\nIt's made of fried dried Leather, and some proties trying to chew anything can be suppressed.</ProtyGum.description>
   <AT_Proty_spawner.label>Proty Induced Pheromone Launcher</AT_Proty_spawner.label>
-  <AT_Proty_spawner.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</AT_Proty_spawner.description>
+  <AT_Proty_spawner.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.\n\n\n\nA self-destruct device is built-in for security.</AT_Proty_spawner.description>
   <AT_Proty_spaBulletProtyspawnerwner.label>Proty Induced Pheromone</AT_Proty_spaBulletProtyspawnerwner.label>
   <AT_Proty_spawner_Tunnel.label>Proty Induced Pheromone</AT_Proty_spawner_Tunnel.label>
   <AT_Proty_spawner_Tunnel.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</AT_Proty_spawner_Tunnel.description>

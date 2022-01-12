@@ -562,7 +562,7 @@
 	<ThingDef ParentName="BaseMakeableGun_Anty">
 		<defName>AT_Proty_spawner</defName>
 		<label>Proty Induced Pheromone Launcher</label>
-		<description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</description>
+		<description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.\n\nA self-destruct device is built-in for security.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AT_Proty_spawner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -577,6 +577,7 @@
 			<WorkToMake>90000</WorkToMake>
 			<Mass>3</Mass>
 			<RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+			<MaxHitPoints>1</MaxHitPoints>
 		</statBases>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<equippedStatOffsets>
@@ -626,11 +627,12 @@
 				<wickTicks>0</wickTicks>
 			</li>
 			<li Class="CompProperties_ProximityFuseAnty">
-				<target>AT_Proty_spawner_Tunnel_Open</target>
+				<target>AT_Proty_spawner</target>
 				<radius>1.1</radius>
 			</li>
 		</comps>
 		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
