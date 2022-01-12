@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="AntyBase">
 		<defName>AT_dreadnought</defName>
 		<label>Anty Dreadnought</label>
-		<description>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</description>
+		<description>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles.(Dlc) \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</description>
 		<alienRace>
 			<generalSettings Inherit="False">
 				<maleGenderProbability>0.5</maleGenderProbability>
@@ -401,7 +401,7 @@
 		<defName>AT_DreadnoughtBackStory</defName>
 		<title>Dreadnought</title>
 		<titleShort>Dreadnought</titleShort>
-		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
+		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles.(Dlc) \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
 		<spawnCategories Inherit="False">
 			<li>Dreadnought_Melee_Drop</li>
 		</spawnCategories>
@@ -425,7 +425,7 @@
 		<defName>AT_DreadnoughtBackStory_B</defName>
 		<title>Dreadnought</title>
 		<titleShort>Dreadnought</titleShort>
-		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
+		<baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles.(Dlc) \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</baseDescription>
 		<spawnCategories Inherit="False">
 			<li>Dreadnought_Melee_Drop</li>
 		</spawnCategories>
