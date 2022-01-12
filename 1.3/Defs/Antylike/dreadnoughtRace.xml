@@ -323,7 +323,7 @@
 			</li>
 		</damageMultipliers>
 		<comps>
-			<li Class="CompProperties_ProjectileInterceptor">
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_ProjectileInterceptor">
 				<radius>2.1</radius>
 				<interceptGroundProjectiles>true</interceptGroundProjectiles>
 				<interceptNonHostileProjectiles>true</interceptNonHostileProjectiles>
