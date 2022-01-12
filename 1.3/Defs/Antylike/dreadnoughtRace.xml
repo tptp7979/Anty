@@ -134,7 +134,6 @@
 				</plantList><!-- 식물 -->
 
 				<whiteFoodList>
-					<li>AT_Aphidextract</li>
 				</whiteFoodList>
 				
 			</raceRestriction><!-- 종족제한 -->
