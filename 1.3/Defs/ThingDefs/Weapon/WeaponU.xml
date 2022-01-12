@@ -718,7 +718,7 @@
 				</spawnablePawnKinds>
 				<lordJob>LordJob_MechanoidsDefend</lordJob>
 				<spawnSound>Tunnel_End</spawnSound>
-				<initialPawnsPoints>100</initialPawnsPoints>
+				<initialPawnsPoints>70</initialPawnsPoints>
 				<maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
 			</li>
 			<li Class="CompProperties_Lifespan">
