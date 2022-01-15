@@ -190,6 +190,7 @@
 							<Anesthetic>Antylike/Ear/EarL/no/Ear_L0</Anesthetic>
 							<FoodPoisoning>Antylike/Ear/EarL/no/Ear_L2</FoodPoisoning>
 							<ToxicBuildup>Antylike/Ear/EarL/no/Ear_L1</ToxicBuildup>
+							<AT_Dreadnought_Reborn>Antylike/Ear/EarL/Ear_L2</AT_Dreadnought_Reborn>
 						</hediffGraphics>
 						<bodyPart>Left Feeler</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
@@ -230,6 +231,7 @@
 							<Anesthetic>Antylike/Ear/EarR/no/Ear_R0</Anesthetic>
 							<FoodPoisoning>Antylike/Ear/EarR/no/Ear_R2</FoodPoisoning>
 							<ToxicBuildup>Antylike/Ear/EarR/no/Ear_R1</ToxicBuildup>
+							<AT_Dreadnought_Reborn>Antylike/Ear/EarR/Ear_R2</AT_Dreadnought_Reborn>
 						</hediffGraphics>
 						<bodyPart>Right Feeler</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
@@ -270,6 +272,7 @@
 							<Anesthetic>Antylike/Ear/EarL/EarB/nob/Ear_LB0</Anesthetic>
 							<FoodPoisoning>Antylike/Ear/EarL/EarB/nob/Ear_LB1</FoodPoisoning>
 							<ToxicBuildup>Antylike/Ear/EarL/EarB/nob/Ear_LB2</ToxicBuildup>
+							<AT_Dreadnought_Reborn>Antylike/Ear/EarL/EarB/Ear_LB2</AT_Dreadnought_Reborn>
 						</hediffGraphics>
 						<bodyPart>Left Feeler</bodyPart>
 						<inFrontOfBody>false</inFrontOfBody>
@@ -310,6 +313,7 @@
 							<Anesthetic>Antylike/Ear/EarR/EarB/nob/Ear_RB0</Anesthetic>
 							<FoodPoisoning>Antylike/Ear/EarR/EarB/nob/Ear_RB1</FoodPoisoning>
 							<ToxicBuildup>Antylike/Ear/EarR/EarB/nob/Ear_RB2</ToxicBuildup>
+							<AT_Dreadnought_Reborn>Antylike/Ear/EarR/EarB/Ear_RB2</AT_Dreadnought_Reborn>
 						</hediffGraphics>
 						<bodyPart>Right Feeler</bodyPart>
 						<inFrontOfBody>false</inFrontOfBody>
@@ -526,6 +530,91 @@
 							<east>
 								<bodyTypes>
 								<Thin>(-0.32,0.23)</Thin>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+
+					<li Class="MoharCustomHAR.MoharBodyAddon"><!--고치 후면-->
+						<path>Antylike/Wounds/Cocoon_north/not_Cocoon_N</path>
+						<hediffGraphics>
+							<AT_Dreadnought_Reborn>
+								<path>Antylike/Wounds/Cocoon_N</path>
+								<severity>
+									<a0.01>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.01>
+									<a0.3>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.3>
+									<a0.6>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.6>
+									<a0.9>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.9>
+								</severity>
+							</AT_Dreadnought_Reborn>
+						</hediffGraphics>
+						<bodyPart>Torso</bodyPart>
+						<inFrontOfBody>false</inFrontOfBody>
+						<colorChannel>skin</colorChannel>
+						<drawSize>1.74</drawSize>
+						<drawnInBed>true</drawnInBed>
+						<drawIfDead>false</drawIfDead>
+						<angle>0</angle>
+						<defaultOffset>Tail</defaultOffset>
+						<shaderType>TransparentPostLight</shaderType>
+						<offsets>
+							<south>
+								<bodyTypes>
+								<Thin>(-0.42,0)</Thin>
+								</bodyTypes>
+							</south>
+							
+							<north>
+								<bodyTypes>
+								<Thin>(0,0.35)</Thin>
+								</bodyTypes>
+							</north>
+						
+							<east>
+								<bodyTypes>
+								<Thin>(-0.5,0)</Thin>
+								</bodyTypes>
+							</east>
+						</offsets>
+					</li>
+					<li Class="MoharCustomHAR.MoharBodyAddon"><!--고치 측면 정면-->
+						<path>Antylike/Wounds/Cocoon_south_east/not_Cocoon</path>
+						<hediffGraphics>
+							<AT_Dreadnought_Reborn>
+								<path>Antylike/Wounds/Cocoon</path>
+								<severity>
+									<a0.01>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.01>
+									<a0.3>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.3>
+									<a0.6>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.6>
+									<a0.9>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.9>
+								</severity>
+							</AT_Dreadnought_Reborn>
+						</hediffGraphics>
+						<bodyPart>Torso</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<colorChannel>skin</colorChannel>
+						<drawSize>1.74</drawSize>
+						<drawnInBed>true</drawnInBed>
+						<drawIfDead>false</drawIfDead>
+						<angle>0</angle>
+						<defaultOffset>Tail</defaultOffset>
+						<shaderType>TransparentPostLight</shaderType>
+						<offsets>
+							<south>
+								<bodyTypes>
+								<Thin>(-0.42,0)</Thin>
+								</bodyTypes>
+							</south>
+							
+							<north>
+								<bodyTypes>
+								<Thin>(0,0.35)</Thin>
+								</bodyTypes>
+							</north>
+						
+							<east>
+								<bodyTypes>
+								<Thin>(-0.5,0)</Thin>
 								</bodyTypes>
 							</east>
 						</offsets>

@@ -480,6 +480,7 @@
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
+				<minSeverity>0.05</minSeverity>
 				<painFactor>0.1</painFactor>
 				<statFactors>
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
@@ -581,24 +582,24 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<capMods>
+				<!-- <capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods>
+				</capMods> -->
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
-				<capMods>
+				<!-- <capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods>
+				</capMods> -->
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
@@ -617,12 +618,12 @@
 			</li>
 			<li>
 				<minSeverity>0.9</minSeverity>
-				<capMods>
+				<!-- <capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods>
+				</capMods> -->
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
