@@ -539,7 +539,7 @@
 						<path>Antylike/Wounds/Cocoon_north/not_Cocoon_N</path>
 						<hediffGraphics>
 							<AT_Dreadnought_Reborn>
-								<path>Antylike/Wounds/Cocoon_N</path>
+								<path>Antylike/Wounds/Cocoon_north/Cocoon_N</path>
 								<severity>
 									<a0.01>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.01>
 									<a0.3>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.3>
@@ -581,7 +581,7 @@
 						<path>Antylike/Wounds/Cocoon_south_east/not_Cocoon</path>
 						<hediffGraphics>
 							<AT_Dreadnought_Reborn>
-								<path>Antylike/Wounds/Cocoon</path>
+								<path>Antylike/Wounds/Cocoon_south_east/Cocoon</path>
 								<severity>
 									<a0.01>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.01>
 									<a0.3>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.3>
