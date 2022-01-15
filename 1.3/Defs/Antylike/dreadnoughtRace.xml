@@ -453,24 +453,179 @@
 		<isBad>false</isBad>
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
-		<initialSeverity>1</initialSeverity>
+		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<everCurableByItem>false</everCurableByItem>
 		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>Dreadnought birth</discoverLetterLabel>
+				<discoverLetterText>{0}</discoverLetterText>
+				<letterType>AT_Soldierbirth</letterType>
+				<messageType>PositiveEvent</messageType>
+			</li>
 			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
 				</hediffToNullify>
 			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>100</severityPerDay>
+			</li>
 		</comps>
 		<stages>
 			<li>
-			<painFactor>0</painFactor>
-			<statFactors>
-				<IncomingDamageFactor>0.7</IncomingDamageFactor>
-				<InjuryHealingFactor>1.25</InjuryHealingFactor>
-			</statFactors>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<painFactor>0.1</painFactor>
+				<statFactors>
+					<IncomingDamageFactor>0.7</IncomingDamageFactor>
+					<InjuryHealingFactor>1.25</InjuryHealingFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef>
+		<defName>AT_Dreadnought_Reborn</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>AT_Dreadnought</label>
+		<description>AT_Dreadnought</description>
+		<initialSeverity>0.01</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.2</severityPerDay>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AntyDreadnoughtbirth</li>
+				</triggeredHediff>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
+				<settings>
+					<things>
+						<li>
+							<pawnKindToSpawn>AT_Dreadnought_B</pawnKindToSpawn>
+							<copyParent>
+								<name>true</name>
+								<pawnKind>false</pawnKind>
+								<age>true</age>
+								<gender>true</gender>
+
+								<melanin>false</melanin>
+								<skinColorChannel>false</skinColorChannel>
+								<bodyType>false</bodyType>
+								<crownType>false</crownType>
+								<hair>false</hair>
+								<hairColor>false</hairColor>
+
+								<hediff>false</hediff>
+								<!-- <excludeHediff>
+									<li>AT_Dreadnought_Reborn</li>
+									<li>AntyQueenbirth</li>
+									<li>AntySoldierbirth</li>
+									<li>AntyErgatebirth</li>
+								</excludeHediff> -->
+
+								<childBS>false</childBS>
+								<adultBS>false</adultBS>
+
+								<skills>true</skills>
+								<passions>true</passions>
+								<traits>true</traits>
+							</copyParent>
+
+							<redressNewPawn>
+								<destroyApparel>true</destroyApparel>
+								<destroyEquipment>true</destroyEquipment>
+								<destroyInventory>true</destroyInventory>
+							</redressNewPawn>
+
+							<faction>
+								<li>
+									<inheritedFaction>true</inheritedFaction>
+								</li>
+							</faction>
+						</li>
+					</things>
+					<defaultSettings>
+						<stack>
+							<spawnCount>1</spawnCount>
+						</stack>
+						<filth>
+							<filthDef>Filth_Slime</filthDef>
+							<filthNum>10~12</filthNum>
+							<filthRadius>1~2</filthRadius>
+						</filth>
+					</defaultSettings>
+				</settings>
+
+				<redressParent>
+					<destroyCorpse>true</destroyCorpse>
+					<strip>true</strip>
+				</redressParent>
+
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+
+				<debug>true</debug>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
