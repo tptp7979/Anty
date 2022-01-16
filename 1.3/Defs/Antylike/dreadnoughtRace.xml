@@ -491,7 +491,7 @@
 	</HediffDef>
 
 
-	<HediffDef>
+	<!-- <HediffDef>
 		<defName>AT_Dreadnought_Reborn</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>AT_Dreadnought</label>
@@ -528,12 +528,6 @@
 								<hairColor>false</hairColor>
 
 								<hediff>false</hediff>
-								<!-- <excludeHediff>
-									<li>AT_Dreadnought_Reborn</li>
-									<li>AntyQueenbirth</li>
-									<li>AntySoldierbirth</li>
-									<li>AntyErgatebirth</li>
-								</excludeHediff> -->
 
 								<childBS>false</childBS>
 								<adultBS>false</adultBS>
@@ -582,24 +576,24 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<!-- <capMods>
+				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods> -->
+				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
 			</li>
 			<li>
 				<minSeverity>0.3</minSeverity>
-				<!-- <capMods>
+				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods> -->
+				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
@@ -618,16 +612,16 @@
 			</li>
 			<li>
 				<minSeverity>0.9</minSeverity>
-				<!-- <capMods>
+				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
 						<setMax>0.1</setMax>
 					</li>
-				</capMods> -->
+				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
 			</li>
 		</stages>
-	</HediffDef>
+	</HediffDef> -->
 </Defs>
