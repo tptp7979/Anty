@@ -491,7 +491,7 @@
 	</HediffDef>
 
 
-	<!-- <HediffDef>
+	<HediffDef>
 		<defName>AT_Dreadnought_Reborn</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>AT_Dreadnought</label>
@@ -623,5 +623,5 @@
 				</statFactors>
 			</li>
 		</stages>
-	</HediffDef> -->
+	</HediffDef>
 </Defs>
