@@ -237,7 +237,7 @@
 			<makesFootprints>true</makesFootprints>
 			<needsRest>false</needsRest>
 			<lifeExpectancy>150</lifeExpectancy>
-			<leatherDef>AntyExoskeleton</leatherDef>
+			<leatherDef>Refleum</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>true</hasGenders>
 			<body>Anty</body>
@@ -627,6 +627,18 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+			</li>
+			<li>
+				<minSeverity>0.1</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
