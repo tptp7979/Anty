@@ -15,6 +15,9 @@
 			<li Class="StockGenerator_BuySingleDef">
 			  <thingDef>Anty_Recyclecore</thingDef>
 			</li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>AntyTransitionRefleum_Thing</thingDef>
+			</li>
 		</stockGenerators>
 	</TraderKindDef>
 
