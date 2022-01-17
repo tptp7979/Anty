@@ -541,10 +541,10 @@
 							<AT_Dreadnought_Reborn>
 								<path>Antylike/Wounds/Cocoon_north/Cocoon_N</path>
 								<severity>
-									<a0.01>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.01>
-									<a0.3>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.3>
-									<a0.6>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.6>
-									<a0.9>Antylike/Wounds/Cocoon_north/Cocoon_N</a0.9>
+									<a0.9>Antylike/Wounds/Cocoon_north/Cocoon_ND</a0.9>
+									<a0.6>Antylike/Wounds/Cocoon_north/Cocoon_NC</a0.6>
+									<a0.3>Antylike/Wounds/Cocoon_north/Cocoon_NB</a0.3>
+									<a0.1>Antylike/Wounds/Cocoon_north/Cocoon_NA</a0.1>
 								</severity>
 							</AT_Dreadnought_Reborn>
 						</hediffGraphics>
@@ -584,10 +584,10 @@
 							<AT_Dreadnought_Reborn>
 								<path>Antylike/Wounds/Cocoon_south_east/Cocoon</path>
 								<severity>
-									<a0.01>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.01>
-									<a0.3>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.3>
-									<a0.6>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.6>
-									<a0.9>Antylike/Wounds/Cocoon_south_east/Cocoon</a0.9>
+									<a0.9>Antylike/Wounds/Cocoon_south_east/Cocoon_D</a0.9>
+									<a0.6>Antylike/Wounds/Cocoon_south_east/Cocoon_C</a0.6>
+									<a0.3>Antylike/Wounds/Cocoon_south_east/Cocoon_B</a0.3>
+									<a0.1>Antylike/Wounds/Cocoon_south_east/Cocoon_A</a0.1>
 								</severity>
 							</AT_Dreadnought_Reborn>
 						</hediffGraphics>
