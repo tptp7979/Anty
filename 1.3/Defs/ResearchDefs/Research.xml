@@ -391,5 +391,23 @@
 		<discoveredLetterTitle>About: Increased viability Surgery</discoveredLetterTitle>
 		<discoveredLetterText>Now you can surgery to increase the viability by injecting Refleum into the body of Anties.\n\nRefleum and Aphid extract are required for surgery.</discoveredLetterText>
 	</ResearchProjectDef>
-	
+
+	<ResearchProjectDef>
+		<defName>AT_Dreadnought_metamorphosis</defName>
+		<label>metamorphosis</label>
+		<description>test.</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>5500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+		  <li>AT_IncreasedviabilitySurgery</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+		<discoveredLetterTitle>About: metamorphosis</discoveredLetterTitle>
+		<discoveredLetterText>test.</discoveredLetterText>
+	</ResearchProjectDef>
 </Defs>
