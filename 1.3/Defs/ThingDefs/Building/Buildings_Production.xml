@@ -270,11 +270,6 @@
 			<Anty_Recyclecore>1</Anty_Recyclecore>
 		</costList>
 		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
-				<glowColor>(255,0,0,0)</glowColor>
-			</li>
-
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>800</basePowerConsumption>
@@ -289,6 +284,25 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
+			<!-- <li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
+				<requiresPower>true</requiresPower>
+				<requiresFuel>true</requiresFuel>
+				<thingToSpawn>AntyExoskeleton</thingToSpawn>
+				<spawnCount>40</spawnCount>
+				<spawnIntervalRange><min>181335</min><max>321869</max></spawnIntervalRange>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>5.0</fuelConsumptionRate>
+				<fuelCapacity>20.0</fuelCapacity>
+				<fuelFilter>
+				  <thingDefs>
+					<li>AT_Aphidextract</li>
+				  </thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li> -->
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>4</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb</explosiveDamageType>
@@ -351,10 +365,6 @@
 			<Anty_Recyclecore>1</Anty_Recyclecore>
 		</costList>
 		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
-				<glowColor>(255,0,0,0)</glowColor>
-			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
 				<requiresPower>false</requiresPower>
