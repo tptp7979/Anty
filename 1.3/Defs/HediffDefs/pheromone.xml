@@ -36,7 +36,7 @@
 		<initialSeverity>0.1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<lethalSeverity>1</lethalSeverity>
-		<isBad>true</isBad>
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.1</severityPerDay>

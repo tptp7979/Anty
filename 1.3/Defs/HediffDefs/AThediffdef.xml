@@ -71,6 +71,7 @@
 		<label>Transforming into a worker.</label>
 		<labelNoun>Transforming into a worker.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>300</disappearsAfterTicks>
@@ -133,6 +134,7 @@
 		<label>Transforming into a soldier.</label>
 		<labelNoun>Transforming into a soldier.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>300</disappearsAfterTicks>
@@ -221,6 +223,7 @@
 		<label>Transforming into a queen.</label>
 		<labelNoun>Transforming into a queen.</labelNoun>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>300</disappearsAfterTicks>
@@ -803,6 +806,8 @@
 		<maxSeverity>1.0</maxSeverity>
 		<lethalSeverity>1</lethalSeverity>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<everCurableByItem>false</everCurableByItem>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.016</severityPerDay>
