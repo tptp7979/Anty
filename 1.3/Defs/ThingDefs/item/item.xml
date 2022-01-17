@@ -452,7 +452,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AntyTransitionRefleum_Thing</defName>
 		<label>Transition Refleum</label>
-		<description>.</description>
+		<description>test.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyTransitionRefleum</HediffDef>
 			<HediffDef>AntyIncreasedviability</HediffDef>

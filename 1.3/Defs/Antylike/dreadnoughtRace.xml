@@ -480,7 +480,7 @@
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
-				<minSeverity>0.05</minSeverity>
+				<minSeverity>0.02</minSeverity>
 				<painFactor>0.1</painFactor>
 				<statFactors>
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
@@ -490,24 +490,75 @@
 		</stages>
 	</HediffDef>
 
-
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>AT_Dreadnought_metamorphosis</defName>
+		<label>metamorphosis surgery</label>
+		<description>test.</description>
+		<jobString>During metamorphosis surgery.</jobString>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Aphidextract</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AT_Aphidextract</li>
+					</thingDefs>
+				</filter>
+			<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AntyTransitionRefleum_Thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nutritional_jelly_thing</li>
+					</thingDefs>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Nutritional_jelly_thing</li>
+				<li>AT_Aphidextract</li>
+				<li>AntyTransitionRefleum_Thing</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Antyabdomen</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AT_Dreadnought_Reborn</addsHediff>
+		<researchPrerequisite>AT_Dreadnought_metamorphosis</researchPrerequisite>
+		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Anty</li>
+		</recipeUsers>
+	</RecipeDef>
+	
 	<HediffDef>
 		<defName>AT_Dreadnought_Reborn</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>AT_Dreadnought</label>
-		<description>AT_Dreadnought</description>
+		<description>test</description>
 		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<lethalSeverity>1</lethalSeverity>
 		<scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.2</severityPerDay>
-			</li>
-			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
-				<triggeredHediff>
-					<li>AntyDreadnoughtbirth</li>
-				</triggeredHediff>
 			</li>
 			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
 				<settings>

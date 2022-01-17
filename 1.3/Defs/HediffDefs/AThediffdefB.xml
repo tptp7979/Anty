@@ -58,6 +58,7 @@
 		<description>It is a side effect of increased viability. It is contagious and increases the aggression of Anty.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Refleum</ThingDef>
+			<ThingDef>AntyTransitionRefleum_Thing</ThingDef>
 			<HediffDef>AntyIncreasedviability</HediffDef>
 			<RecipeDef>CureAntyTransitionRefleum</RecipeDef>
 		</descriptionHyperlinks>
@@ -127,7 +128,7 @@
 				</mentalStateGivers>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>Refleum</spawnThingOnRemoved>
+		<spawnThingOnRemoved>AntyTransitionRefleum_Thing</spawnThingOnRemoved>
 	</HediffDef>
 
 	<ManeuverDef>
