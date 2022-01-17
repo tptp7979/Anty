@@ -538,7 +538,7 @@
 		<researchPrerequisite>AT_Dreadnought_metamorphosis</researchPrerequisite>
 		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
 		<skillRequirements>
-			<Medicine>6</Medicine>
+			<Medicine>10</Medicine>
 		</skillRequirements>
 		<recipeUsers>
 			<li>Anty</li>
