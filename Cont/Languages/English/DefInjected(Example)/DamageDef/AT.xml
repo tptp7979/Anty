@@ -4,7 +4,12 @@
   <AT_AcidDamage.deathMessage>{0} has been Acid melt to death.</AT_AcidDamage.deathMessage>
   <AT_AcidDamage_High.label>Red burst melt</AT_AcidDamage_High.label>
   <AT_AcidDamage_High.deathMessage>{0} has been Red burst melt to death.</AT_AcidDamage_High.deathMessage>
+  <AT_SporeBomb.label>Acidbomb</AT_SporeBomb.label>
+  <AT_SporeBomb.deathMessage>{0} has died in an explosion.</AT_SporeBomb.deathMessage>
+  <AT_AcidBomb_C.label>Acidbomb</AT_AcidBomb_C.label>
+  <AT_AcidBomb_C.deathMessage>{0} has died in an explosion.</AT_AcidBomb_C.deathMessage>
   <AT_ParaponeraBomb.label>Diplomatic needle</AT_ParaponeraBomb.label>
+  <AT_ParaponeraBomb.deathMessage>{0} has been shot to death.</AT_ParaponeraBomb.deathMessage>
   <AT_glueBullet.label>gluebullet</AT_glueBullet.label>
   <AT_glueBullet.deathMessage>{0} has been shot to death.</AT_glueBullet.deathMessage>
   <AT_AcidBullet.label>Acidbullet</AT_AcidBullet.label>
@@ -25,4 +30,8 @@
   <AT_TargetBomb.deathMessage>{0} has died in an explosion.</AT_TargetBomb.deathMessage>
   <AT_AcidBomb_POP.label>Physical force neutralization shield</AT_AcidBomb_POP.label>
   <AT_AcidBomb_POP.deathMessage>{0} has died in an explosion.</AT_AcidBomb_POP.deathMessage>
+  <AT_ChargeBomb_Proty.label>pheromone explosion</AT_ChargeBomb_Proty.label>
+  <AT_ChargeBomb_Proty.deathMessage>{0} has died in an explosion.</AT_ChargeBomb_Proty.deathMessage>
+  <AT_SuicideBomb_Proty.label>pheromone explosion</AT_SuicideBomb_Proty.label>
+  <AT_SuicideBomb_Proty.deathMessage>{0} has died in an explosion.</AT_SuicideBomb_Proty.deathMessage>
 </LanguageData>

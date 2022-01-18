@@ -71,3 +71,10 @@ RecipeDef
 
 ResearchProjectDef
   AT_Dreadnought_metamorphosisSurgery .label .description .discoveredLetterTitle .discoveredLetterText
+
+DamageDef
+  AT_SporeBomb .label .deathMessage
+  AT_AcidBomb_C .label .deathMessage
+  AT_ParaponeraBomb .deathMessage
+  AT_ChargeBomb_Proty .label .deathMessage
+  AT_SuicideBomb_Proty .label .deathMessage

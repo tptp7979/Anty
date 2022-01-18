@@ -30,4 +30,8 @@
   <AT_TargetBomb.deathMessage>{0} (은)는 산성 폭발로 죽었습니다.</AT_TargetBomb.deathMessage>
   <AT_AcidBomb_POP.label>물리력 차단 보호박</AT_AcidBomb_POP.label>
   <AT_AcidBomb_POP.deathMessage>{0} (은)는 폭발로 죽었습니다.</AT_AcidBomb_POP.deathMessage>
+  <AT_ChargeBomb_Proty.label>페로몬 폭발</AT_ChargeBomb_Proty.label>
+  <AT_ChargeBomb_Proty.deathMessage>{0} (은)는 폭발로 죽었습니다.</AT_ChargeBomb_Proty.deathMessage>
+  <AT_SuicideBomb_Proty.label>페로몬 폭발</AT_SuicideBomb_Proty.label>
+  <AT_SuicideBomb_Proty.deathMessage>{0} (은)는 폭발로 죽었습니다.</AT_SuicideBomb_Proty.deathMessage>
 </LanguageData>
