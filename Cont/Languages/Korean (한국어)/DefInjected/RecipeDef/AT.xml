@@ -87,4 +87,8 @@
   <InstallAT_ReinforcedJaw.label>앤티 강화 턱 장착</InstallAT_ReinforcedJaw.label>
   <InstallAT_ReinforcedJaw.description>앤티 강화 턱을 장착합니다.</InstallAT_ReinforcedJaw.description>
   <InstallAT_ReinforcedJaw.jobString>앤티 강화 턱 장착</InstallAT_ReinforcedJaw.jobString>
+
+  <AT_Dreadnought_metamorphosis.label>드레드노트 변태 수술</AT_Dreadnought_metamorphosis.label>
+  <AT_Dreadnought_metamorphosis.description>변이 리플리움을 이용해서 강인하고 거대한 육체로 변태할 수 있게 하는 수술입니다. 변이 리플리움의 무작위성 변이를 막기위해 진액과 영양젤리를 사용합니다.</AT_Dreadnought_metamorphosis.description>
+  <AT_Dreadnought_metamorphosis.jobString>드레드노트 변태 수술중.</AT_Dreadnought_metamorphosis.jobString>
 </LanguageData>

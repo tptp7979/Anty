@@ -159,4 +159,7 @@
 
   <AntyDreadnoughtbirth.label>앤티 드레드노트</AntyDreadnoughtbirth.label>
   <AntyDreadnoughtbirth.description>앤티 드레드노트.</AntyDreadnoughtbirth.description>
+
+  <AT_Dreadnought_Reborn.label>드레드노트 변태중</AT_Dreadnought_Reborn.label>
+  <AT_Dreadnought_Reborn.description>이 앤티는 고치를 형성해 곧 드레드노트로 변태할 것입니다. 본래의 앤티는 완전히 녹아 없어지겠지만, 일부의 기억과 지식은 드레드노트에게 이전됩니다.\n\n하지만 드레드노트는 오로지 전투만을 위한 형태이기 때문에 그 지식마저도 일부만 활용할 수 있습니다.</AT_Dreadnought_Reborn.description>
 </LanguageData>
