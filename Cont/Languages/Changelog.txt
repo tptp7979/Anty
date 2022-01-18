@@ -55,3 +55,16 @@ ThingDef
   AT_Proty_spaBulletProtyspawnerwner .label
   AT_Proty_spawner_Tunnel .label .description
   AT_Proty_spawner_Tunnel_Open .label .description
+
+(2022/01/18)
+ThingDef
+  AntyTransitionRefleum_Thing .label .description
+
+HediffDef
+  AT_Dreadnought_Reborn .label .description
+
+RecipeDef
+  AT_Dreadnought_metamorphosis .label .description .jobString
+
+ResearchProjectDef
+  AT_Dreadnought_metamorphosisSurgery .label .description .discoveredLetterTitle .discoveredLetterText
