@@ -452,7 +452,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AntyTransitionRefleum_Thing</defName>
 		<label>Transition Refleum</label>
-		<description>test.</description>
+		<description>This is Refleum which obtained nutrients and only a few genes from Anty body.\n\nNow it is closer to a living organism than a metal, and if nutrients are supplied, it can be seen as a tumor mass that causes random Transition.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AntyTransitionRefleum</HediffDef>
 			<HediffDef>AntyIncreasedviability</HediffDef>

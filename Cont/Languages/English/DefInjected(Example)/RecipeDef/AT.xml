@@ -49,4 +49,7 @@
   <InstallAT_ReinforcedJaw.label>install Anty Reinforced Jaw</InstallAT_ReinforcedJaw.label>
   <InstallAT_ReinforcedJaw.description>install a Anty Reinforced Jaw.</InstallAT_ReinforcedJaw.description>
   <InstallAT_ReinforcedJaw.jobString>installing Anty Reinforced Jaw</InstallAT_ReinforcedJaw.jobString>
+  <AT_Dreadnought_metamorphosis.label>metamorphosis surgery</AT_Dreadnought_metamorphosis.label>
+  <AT_Dreadnought_metamorphosis.description>This is a surgery that allows Anty to transform into a strong and huge body using Transition Refleum. Transition Refleum uses Aphid extract and Nutritional jelly to prevent random Transition.</AT_Dreadnought_metamorphosis.description>
+  <AT_Dreadnought_metamorphosis.jobString>During metamorphosis surgery.</AT_Dreadnought_metamorphosis.jobString>
 </LanguageData>

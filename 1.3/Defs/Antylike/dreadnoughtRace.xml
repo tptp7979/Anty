@@ -493,7 +493,7 @@
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>AT_Dreadnought_metamorphosis</defName>
 		<label>metamorphosis surgery</label>
-		<description>test.</description>
+		<description>This is a surgery that allows Anty to transform into a strong and huge body using Transition Refleum. Transition Refleum uses Aphid extract and Nutritional jelly to prevent random Transition.</description>
 		<jobString>During metamorphosis surgery.</jobString>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Aphidextract</ThingDef>
@@ -535,7 +535,7 @@
 			<li>Antyabdomen</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AT_Dreadnought_Reborn</addsHediff>
-		<researchPrerequisite>AT_Dreadnought_metamorphosis</researchPrerequisite>
+		<researchPrerequisite>AT_Dreadnought_metamorphosisSurgery</researchPrerequisite>
 		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
 		<skillRequirements>
 			<Medicine>10</Medicine>
@@ -548,8 +548,8 @@
 	<HediffDef>
 		<defName>AT_Dreadnought_Reborn</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>AT_Dreadnought</label>
-		<description>test</description>
+		<label>metamorphosing</label>
+		<description>This Anty will form a cocoon and will soon metamorphosing into a dreadnought. The original Anty will be completely melted away, but some memories and knowledge will be transferred to the dreadnought.\n\nHowever, since the dreadnought is only a form of battle, even that knowledge can be partially utilized.</description>
 		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<lethalSeverity>1</lethalSeverity>

@@ -257,4 +257,6 @@
   <AT_Proty_spawner_Tunnel.description>It is a weapon that sends a signal to the Proties waiting in the underground tunnel network.</AT_Proty_spawner_Tunnel.description>
   <AT_Proty_spawner_Tunnel_Open.label>Proty tunnel</AT_Proty_spawner_Tunnel_Open.label>
   <AT_Proty_spawner_Tunnel_Open.description>This is the hole where the Proties who were waiting in the underground network of tunnels came out of.</AT_Proty_spawner_Tunnel_Open.description>
+  <AntyTransitionRefleum_Thing.label>Transition Refleum</AntyTransitionRefleum_Thing.label>
+  <AntyTransitionRefleum_Thing.description>This is Refleum which obtained nutrients and only a few genes from Anty body.\n\nNow it is closer to a living organism than a metal, and if nutrients are supplied, it can be seen as a tumor mass that causes random Transition.</AntyTransitionRefleum_Thing.description>
 </LanguageData>
