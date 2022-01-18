@@ -837,7 +837,7 @@
 					</li>
 				</capMods>
 				<statFactors>
-					<HungerRateMultiplier>0.9</HungerRateMultiplier>
+					<HungerRateMultiplier>0.25</HungerRateMultiplier>
 				</statFactors>
 			</li>
 			<li>
@@ -850,7 +850,7 @@
 					</li>
 				</capMods>
 				<statFactors>
-					<HungerRateMultiplier>0.9</HungerRateMultiplier>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
 				</statFactors>
 			</li>
 		</stages>
