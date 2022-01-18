@@ -797,7 +797,7 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>4.9</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
-				<damageAmountBase>100</damageAmountBase>
+				<damageAmountBase>250</damageAmountBase>
 				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
 				<preExplosionSpawnChance>1</preExplosionSpawnChance>
 				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
