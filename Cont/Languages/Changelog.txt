@@ -62,6 +62,7 @@ ThingDef
 
 HediffDef
   AT_Dreadnought_Reborn .label .description
+  AT_Dreadnought_Reborn_High .label .description
 
 RecipeDef
   AT_Dreadnought_metamorphosis .label .description .jobString
