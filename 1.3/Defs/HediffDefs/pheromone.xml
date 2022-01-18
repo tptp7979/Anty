@@ -279,7 +279,7 @@
 
 	<ThingDef ParentName="AT_SuicideBase">
 		<defName>AT_ChargeBomb_Ready_Proty</defName>
-		<label>assaultBomb_Proty</label>
+		<label>pheromone explosion</label>
 		<description>.</description>
 		<graphicData>
 			<texPath>Things/Item/pheromone/BB</texPath>
@@ -657,7 +657,7 @@
 
 	<ThingDef ParentName="AT_SuicideBase">
 		<defName>AT_SuicideBomb_Ready_Proty</defName>
-		<label>SuicideBomb_Proty</label>
+		<label>pheromone explosion</label>
 		<description>.</description>
 		<graphicData>
 			<texPath>Things/Item/pheromone/BB</texPath>
