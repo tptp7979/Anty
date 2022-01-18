@@ -591,7 +591,7 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>3.1</explosiveRadius>
+				<explosiveRadius>4.9</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
 				<damageAmountBase>100</damageAmountBase>
 				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
@@ -612,5 +612,18 @@
 		<soundExplosion>Explosion_Acid_SB</soundExplosion>
 		<minDamageToFragment>10</minDamageToFragment>
 		<externalViolence>false</externalViolence>
+		<defaultArmorPenetration>2</defaultArmorPenetration>
+		<additionalHediffs>
+			<li>
+				<hediff>AT_Target</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+			<li>
+				<hediff>AT_Paraponera</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
 	</DamageDef>
 </Defs>
