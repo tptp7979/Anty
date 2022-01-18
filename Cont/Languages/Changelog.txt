@@ -63,6 +63,7 @@ ThingDef
 HediffDef
   AT_Dreadnought_Reborn .label .description
   AT_Dreadnought_Reborn_High .label .description
+  AntyDreadnoughtbirth .comps.0.discoverLetterLabel .comps.0.discoverLetterText
 
 RecipeDef
   AT_Dreadnought_metamorphosis .label .description .jobString

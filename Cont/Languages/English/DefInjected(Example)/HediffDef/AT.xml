@@ -159,6 +159,8 @@
   <AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label>Big jaw</AT_ReinforcedJaw.comps.HediffComp_VerbGiver.tools.0.label>
   <AntyDreadnoughtbirth.label>Anty Dreadnought</AntyDreadnoughtbirth.label>
   <AntyDreadnoughtbirth.description>Anty Dreadnought.</AntyDreadnoughtbirth.description>
+  <AntyDreadnoughtbirth.comps.0.discoverLetterLabel>Dreadnought birth</AntyDreadnoughtbirth.comps.0.discoverLetterLabel>
+  <AntyDreadnoughtbirth.comps.0.discoverLetterText>{0}'s body has grown stronger and larger. But it won't help much other than combat.</AntyDreadnoughtbirth.comps.0.discoverLetterText>
   <AT_Dreadnought_Reborn.label>metamorphosing</AT_Dreadnought_Reborn.label>
   <AT_Dreadnought_Reborn.description>This Anty will form a cocoon and will soon metamorphosing into a dreadnought. The original Anty will be completely melted away, but some memories and knowledge will be transferred to the dreadnought.\n\nHowever, since the dreadnought is only a form of battle, even that knowledge can be partially utilized.</AT_Dreadnought_Reborn.description>
   <AT_Dreadnought_Reborn_High.label>metamorphosing complete</AT_Dreadnought_Reborn_High.label>
