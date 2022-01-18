@@ -537,7 +537,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Antyabdomen</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AT_Dreadnought_Reborn</addsHediff>
+		<addsHediff>AT_Dreadnought_Reborn_Ready</addsHediff>
 		<researchPrerequisite>AT_Dreadnought_metamorphosisSurgery</researchPrerequisite>
 		<surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
 		<skillRequirements>
@@ -547,6 +547,33 @@
 			<li>Anty</li>
 		</recipeUsers>
 	</RecipeDef>
+
+	<HediffDef>
+		<defName>AT_Dreadnought_Reborn_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>metamorphosing</label>
+		<description>metamorphosing.</description>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+				<hediffGivers>
+					<li Class="AntyHediffGiver_Random">
+						<hediff>AT_Dreadnought_Reborn</hediff>
+						<mtbDays>0.01</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
 	
 	<HediffDef>
 		<defName>AT_Dreadnought_Reborn</defName>
@@ -555,7 +582,6 @@
 		<description>This Anty will form a cocoon and will soon metamorphosing into a dreadnought. The original Anty will be completely melted away, but some memories and knowledge will be transferred to the dreadnought.\n\nHowever, since the dreadnought is only a form of battle, even that knowledge can be partially utilized.</description>
 		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
-		<lethalSeverity>1</lethalSeverity>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<everCurableByItem>false</everCurableByItem>
 		<isBad>false</isBad>
@@ -563,6 +589,49 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>0.2</severityPerDay>
 			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>300000</disappearsAfterTicks>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Anesthetic</li>
+					<li>FoodPoisoning</li>
+				</hediffToNullify>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>AT_Dreadnought_Reborn_High</li>
+				</triggeredHediff>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AT_Dreadnought_Reborn_High</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>metamorphosing complete</description>
+		
+		<label>metamorphosing complete</label>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1</lethalSeverity>
+		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
 				<settings>
 					<things>
@@ -626,64 +695,11 @@
 
 				<debug>true</debug>
 			</li>
-			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
-				<hediffToNullify>
-					<li>Anesthetic</li>
-					<li>FoodPoisoning</li>
-				</hediffToNullify>
-			</li>
 		</comps>
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.1</setMax>
-					</li>
-				</capMods>
-				<statFactors>
-					<HungerRateMultiplier>0.1</HungerRateMultiplier>
-				</statFactors>
-			</li>
-			<li>
-				<minSeverity>0.1</minSeverity>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.1</setMax>
-					</li>
-				</capMods>
-				<statFactors>
-					<HungerRateMultiplier>0.1</HungerRateMultiplier>
-				</statFactors>
-			</li>
-			<li>
-				<minSeverity>0.3</minSeverity>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.1</setMax>
-					</li>
-				</capMods>
-				<statFactors>
-					<HungerRateMultiplier>0.1</HungerRateMultiplier>
-				</statFactors>
-			</li>
-			<li>
-				<minSeverity>0.6</minSeverity>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.1</setMax>
-					</li>
-				</capMods>
-				<statFactors>
-					<HungerRateMultiplier>0.1</HungerRateMultiplier>
-				</statFactors>
-			</li>
-			<li>
-				<minSeverity>0.9</minSeverity>
+				<becomeVisible>false</becomeVisible>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
