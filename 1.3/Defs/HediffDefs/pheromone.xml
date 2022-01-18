@@ -234,7 +234,47 @@
 				
 				<!-- <debug>false</debug> -->
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>Antypheromone_ChargeReady_Proty</li>
+				</triggeredHediff>
+			</li>
 		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Antypheromone_ChargeReady_Proty</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_assaultReady_Proty</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>Meat_Megaspider</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<minDaysB4Next>0.002</minDaysB4Next>
+				<maxDaysB4Next>0.0021</maxDaysB4Next>
+
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>molding</spawnVerb>
+				
+				<randomGrace>.0</randomGrace>
+				<graceDays>.0</graceDays>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>150</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<HediffDef>
@@ -353,7 +393,7 @@
 	<HediffDef>
 		<defName>Antypheromone_ShootingReady</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>Antypheromone_ChargeReady</label>
+		<label>Antypheromone_ShootingReady</label>
 		<description>!!!</description>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -510,7 +550,47 @@
 				
 				<!-- <debug>false</debug> -->
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+				<triggeredHediff>
+					<li>Antypheromone_SuicideReady_Proty</li>
+				</triggeredHediff>
+			</li>
 		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Antypheromone_SuicideReady_Proty</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_SuicideReady_Proty</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>Meat_Megaspider</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<minDaysB4Next>0.002</minDaysB4Next>
+				<maxDaysB4Next>0.0021</maxDaysB4Next>
+
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>molding</spawnVerb>
+				
+				<randomGrace>.0</randomGrace>
+				<graceDays>.0</graceDays>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>150</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<HediffDef>
