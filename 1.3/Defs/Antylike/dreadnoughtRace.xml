@@ -497,6 +497,8 @@
 		<jobString>During metamorphosis surgery.</jobString>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Aphidextract</ThingDef>
+			<ThingDef>AntyTransitionRefleum_Thing</ThingDef>
+			<ThingDef>Nutritional_jelly_thing</ThingDef>
 		</descriptionHyperlinks>
 		<ingredients>
 			<li>
