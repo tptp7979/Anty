@@ -138,7 +138,7 @@
   <Antypheromone_ChargeReady.description>!!!</Antypheromone_ChargeReady.description>
   <Antypheromone_ChargeHigh.label>Anty assault pheromone</Antypheromone_ChargeHigh.label>
   <Antypheromone_ChargeHigh.description>Pheromone glands released an unusal amount of assault pheromone, giving a large boost to melee combat performance.</Antypheromone_ChargeHigh.description>
-  <Antypheromone_ShootingReady.label>Antypheromone_ChargeReady</Antypheromone_ShootingReady.label>
+  <Antypheromone_ShootingReady.label>Antypheromone_ShootingReady</Antypheromone_ShootingReady.label>
   <Antypheromone_ShootingReady.description>!!!</Antypheromone_ShootingReady.description>
   <Antypheromone_ShootingHigh.label>Anty Shooting pheromone</Antypheromone_ShootingHigh.label>
   <Antypheromone_ShootingHigh.description>Pheromone glands released an unusual amount of shooting pheromone, giving a large boost shooting ability.</Antypheromone_ShootingHigh.description>
