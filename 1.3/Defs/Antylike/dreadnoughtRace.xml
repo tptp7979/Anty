@@ -468,6 +468,7 @@
 				<hediffToNullify>
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
+					<li>FoodPoisoning</li>
 				</hediffToNullify>
 			</li>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -624,6 +625,12 @@
 				<spawnForbidden>false</spawnForbidden>
 
 				<debug>true</debug>
+			</li>
+			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+				<hediffToNullify>
+					<li>Anesthetic</li>
+					<li>FoodPoisoning</li>
+				</hediffToNullify>
 			</li>
 		</comps>
 		<stages>
