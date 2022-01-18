@@ -272,7 +272,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>800</basePowerConsumption>
+				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -284,7 +284,7 @@
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
-			<!-- <li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
+			<li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
 				<requiresPower>true</requiresPower>
 				<requiresFuel>true</requiresFuel>
 				<thingToSpawn>AntyExoskeleton</thingToSpawn>
@@ -302,7 +302,7 @@
 				  </thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-			</li> -->
+			</li>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>4</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb</explosiveDamageType>
