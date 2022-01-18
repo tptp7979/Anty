@@ -553,7 +553,7 @@
 						<colorChannel>skin</colorChannel>
 						<drawSize>1.74</drawSize>
 						<drawnInBed>true</drawnInBed>
-						<drawIfDead>false</drawIfDead>
+						<drawIfDead>true</drawIfDead>
 						<angle>0</angle>
 						<defaultOffset>Tail</defaultOffset>
 						<shaderType>TransparentPostLight</shaderType>
@@ -597,7 +597,7 @@
 						<colorChannel>skin</colorChannel>
 						<drawSize>1.74</drawSize>
 						<drawnInBed>true</drawnInBed>
-						<drawIfDead>false</drawIfDead>
+						<drawIfDead>true</drawIfDead>
 						<angle>0</angle>
 						<defaultOffset>Tail</defaultOffset>
 						<shaderType>TransparentPostLight</shaderType>
