@@ -568,6 +568,7 @@
 								<bodyTypes>
 								<Thin>(0,0.35)</Thin>
 								</bodyTypes>
+								<layerOffset>1</layerOffset>
 							</north>
 						
 							<east>
@@ -605,6 +606,7 @@
 								<bodyTypes>
 								<Thin>(-0.42,0)</Thin>
 								</bodyTypes>
+								<layerOffset>1</layerOffset>
 							</south>
 							
 							<north>
@@ -617,6 +619,7 @@
 								<bodyTypes>
 								<Thin>(-0.5,0)</Thin>
 								</bodyTypes>
+								<layerOffset>1</layerOffset>
 							</east>
 						</offsets>
 					</li>
