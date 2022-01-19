@@ -231,13 +231,15 @@
 				<hediffToApply>Antypheromone_ChargeHigh</hediffToApply>
 				
 				<bodyDef>Anty</bodyDef>
-				
-				<!-- <debug>false</debug> -->
 			</li>
-			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
-				<triggeredHediff>
-					<li>Antypheromone_ChargeReady_Proty</li>
-				</triggeredHediff>
+			<li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>Anty</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>Antypheromone_ChargeReady_Proty</hediff>
+						<bodyPart>Antyabdomen</bodyPart>
+					</li>
+				</hediffAndBodypart>
 			</li>
 		</comps>
 	</HediffDef>
@@ -301,7 +303,6 @@
 	
 	<DamageDef ParentName="AT_AcidBomb_B">
 		<defName>AT_ChargeBomb_Proty</defName>
-		<soundExplosion>Explosion_Acid_SB</soundExplosion>
 		<minDamageToFragment>10</minDamageToFragment>
 		<externalViolence>false</externalViolence>
 		<defaultArmorPenetration>2</defaultArmorPenetration>
@@ -318,6 +319,8 @@
 		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
 		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
 		<plantDamageFactor>0</plantDamageFactor>
+		<soundExplosion>Explosion_Acid</soundExplosion>
+		<explosionCellMote>Mote_ChargeBlast</explosionCellMote>
 	</DamageDef>
 
 	<HediffDef>
@@ -608,14 +611,15 @@
 				<hediffToApply>Antypheromone_SuicideHigh</hediffToApply>
 				
 				<bodyDef>Anty</bodyDef>
-				<!-- <bodyPartDef>Heart</bodyPartDef> -->
-				
-				<!-- <debug>false</debug> -->
 			</li>
-			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
-				<triggeredHediff>
-					<li>Antypheromone_SuicideReady_Proty</li>
-				</triggeredHediff>
+			<li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>Anty</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>Antypheromone_SuicideReady_Proty</hediff>
+						<bodyPart>Antyabdomen</bodyPart>
+					</li>
+				</hediffAndBodypart>
 			</li>
 		</comps>
 	</HediffDef>
@@ -679,7 +683,6 @@
 	
 	<DamageDef ParentName="AT_AcidBomb_B">
 		<defName>AT_SuicideBomb_Proty</defName>
-		<soundExplosion>Explosion_Acid_SB</soundExplosion>
 		<minDamageToFragment>10</minDamageToFragment>
 		<externalViolence>false</externalViolence>
 		<defaultArmorPenetration>2</defaultArmorPenetration>
@@ -696,6 +699,8 @@
 		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
 		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
 		<plantDamageFactor>0</plantDamageFactor>
+		<soundExplosion>Explosion_Acid</soundExplosion>
+		<explosionCellMote>Mote_SuicideBlast</explosionCellMote>
 	</DamageDef>
 
 	<HediffDef>
