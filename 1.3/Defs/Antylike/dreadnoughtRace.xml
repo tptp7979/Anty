@@ -106,7 +106,7 @@
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel><!-- 종족옷제한설정 -->
 				<onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
 				<onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits><!-- 종족특성제한설정 -->
-				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+				<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
 			
 				<apparelList><!-- 옷 -->
 				</apparelList><!-- 옷 -->
