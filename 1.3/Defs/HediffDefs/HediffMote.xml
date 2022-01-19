@@ -28,11 +28,11 @@
 					<speed>0.18~0.6</speed>
 					<angle>-25~25</angle>
 				</li>
-				<li>
+				<!-- <li>
 					<subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
 					<soundDef>Pawn_Megascarab_Angry</soundDef>
 					<intermittentSoundInterval><min>750</min><max>1500</max></intermittentSoundInterval>
-				</li>
+				</li> -->
 			</children>
 	</EffecterDef>
 
@@ -64,11 +64,11 @@
 					<speed>0.18~0.6</speed>
 					<angle>-45~45</angle>
 				</li>
-				<li>
+				<!-- <li>
 					<subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
 					<soundDef>Pawn_Megascarab_Angry</soundDef>
 					<intermittentSoundInterval><min>750</min><max>1500</max></intermittentSoundInterval>
-				</li>
+				</li> -->
 			</children>
 	</EffecterDef>
 
