@@ -56,9 +56,11 @@ ThingDef
   AT_Proty_spawner_Tunnel .label .description
   AT_Proty_spawner_Tunnel_Open .label .description
 
-(2022/01/18)
+(2022/01/19)
 ThingDef
   AntyTransitionRefleum_Thing .label .description
+  AT_ChargeBomb_Ready_Proty .label
+  AT_SuicideBomb_Ready_Proty .label
 
 HediffDef
   AT_Dreadnought_Reborn .label .description

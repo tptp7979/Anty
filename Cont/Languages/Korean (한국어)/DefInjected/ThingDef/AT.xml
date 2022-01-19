@@ -310,4 +310,7 @@
 
   <AntyTransitionRefleum_Thing.label>변이 리플리움</AntyTransitionRefleum_Thing.label>
   <AntyTransitionRefleum_Thing.description>앤티의 몸 안에서 영양분과 극히 일부의 유전자를 얻은 리플리움 입니다.\n\n이제는 금속보다 생명체에 더 가까우며, 영양분만 공급이 된다면 무작위성 변이를 일으키는 종양덩어리라고 볼 수도 있습니다.</AntyTransitionRefleum_Thing.description>
+
+  <AT_ChargeBomb_Ready_Proty.label>페로몬 폭발</AT_ChargeBomb_Ready_Proty.label>
+  <AT_SuicideBomb_Ready_Proty.label>페로몬 폭발</AT_SuicideBomb_Ready_Proty.label>
 </LanguageData>
