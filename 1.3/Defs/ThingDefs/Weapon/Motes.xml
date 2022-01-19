@@ -152,6 +152,34 @@
 		</mote>
 	</ThingDef>
 
+	<ThingDef ParentName="AntyMotebase">
+		<defName>Mote_ChargeBlast</defName>
+		<graphicData>
+			<texPath>Things/Mote/Chargepheromone</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<solidTime>0.15</solidTime>
+			<fadeInTime>0.15</fadeInTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+
+	<ThingDef ParentName="AntyMotebase">
+		<defName>Mote_SuicideBlast</defName>
+		<graphicData>
+			<texPath>Things/Mote/Suicidepheromone</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<solidTime>0.15</solidTime>
+			<fadeInTime>0.15</fadeInTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+
 <!-- 	<FleckDef ParentName="FleckBase_Thrown">
 		<defName>AntyGasSmoke</defName>
 		<graphicData>
