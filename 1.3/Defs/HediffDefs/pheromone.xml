@@ -321,6 +321,7 @@
 		<plantDamageFactor>0</plantDamageFactor>
 		<soundExplosion>Explosion_Acid</soundExplosion>
 		<explosionCellMote>Mote_ChargeBlast</explosionCellMote>
+		<defaultStoppingPower>0</defaultStoppingPower>
 	</DamageDef>
 
 	<HediffDef>
@@ -701,6 +702,7 @@
 		<plantDamageFactor>0</plantDamageFactor>
 		<soundExplosion>Explosion_Acid</soundExplosion>
 		<explosionCellMote>Mote_SuicideBlast</explosionCellMote>
+		<defaultStoppingPower>0</defaultStoppingPower>
 	</DamageDef>
 
 	<HediffDef>
@@ -800,11 +802,11 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveRadius>6.9</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
-				<damageAmountBase>250</damageAmountBase>
+				<damageAmountBase>350</damageAmountBase>
 				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
-				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<preExplosionSpawnChance>0.8</preExplosionSpawnChance>
 				<explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
 				<startWickHitPointsPercent>1</startWickHitPointsPercent>
 				<wickTicks>0</wickTicks>
