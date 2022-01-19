@@ -1205,7 +1205,7 @@
 			</li>
 			<li>
 				<def>HumanlikeToddler</def>
-				<minAge>0.25</minAge>
+				<minAge>0.125</minAge>
 				<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
 				<soundDeath>Pawn_Megascarab_Death</soundDeath>
 			</li>
