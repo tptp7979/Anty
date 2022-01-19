@@ -514,7 +514,7 @@
 			<isExplosive>true</isExplosive>
 			<deathMessage>{0} has died in an explosion.</deathMessage>
 			<hediff>Chemicaldissolution</hediff>
-			<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+			<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 			<impactSoundType>Toxic</impactSoundType>
 			<armorCategory>Blunt</armorCategory>
 			<minDamageToFragment>0</minDamageToFragment>
