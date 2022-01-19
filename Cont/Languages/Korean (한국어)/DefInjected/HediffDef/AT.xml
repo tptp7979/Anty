@@ -106,7 +106,7 @@
   <Pregnant_B.stages.1.label>중기</Pregnant_B.stages.1.label>
   <Pregnant_B.stages.2.label>말기</Pregnant_B.stages.2.label>
   <AntyLarva_p.label>성장기</AntyLarva_p.label>
-  <AntyLarva_p.description>성장기이기 때문에 변태 부작용을 견딜 수 없습니다. 출생 후 15일 까지는 다른 행동을 할 수 없습니다.</AntyLarva_p.description>
+  <AntyLarva_p.description>성장기이기 때문에 변태 부작용을 견딜 수 없습니다. 출생 후 7일 까지는 다른 행동을 할 수 없습니다.</AntyLarva_p.description>
   <AntyLarva_p_STAGE.description>앤티 성장</AntyLarva_p_STAGE.description>
   <AntyLarva_p_STAGE.label>앤티 성장</AntyLarva_p_STAGE.label>
   <AntyLarva_p_STAGE.labelNoun>앤티 성장</AntyLarva_p_STAGE.labelNoun>

@@ -57,6 +57,9 @@ ThingDef
   AT_Proty_spawner_Tunnel_Open .label .description
 
 (2022/01/19)
+AlienRace.ThingDef_AlienRace
+  AT_dreadnought .description
+
 ThingDef
   AntyTransitionRefleum_Thing .label .description
   AT_ChargeBomb_Ready_Proty .label
@@ -67,6 +70,7 @@ HediffDef
   AT_Dreadnought_Reborn_High .label .description
   AntyDreadnoughtbirth .comps.0.discoverLetterLabel .comps.0.discoverLetterText
   Antypheromone_ShootingReady .label
+  AntyLarva_p .description
 
 RecipeDef
   AT_Dreadnought_metamorphosis .label .description .jobString
