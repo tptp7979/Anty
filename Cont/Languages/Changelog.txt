@@ -84,3 +84,7 @@ DamageDef
   AT_ParaponeraBomb .deathMessage
   AT_ChargeBomb_Proty .label .deathMessage
   AT_SuicideBomb_Proty .label .deathMessage
+
+(2022/1/20)
+ResearchProjectDef
+  AT_Dreadnought_metamorphosisSurgery .description .discoveredLetterText

@@ -395,7 +395,7 @@
 	<ResearchProjectDef>
 		<defName>AT_Dreadnought_metamorphosisSurgery</defName>
 		<label>Dreadnought metamorphosis</label>
-		<description>Research for surgery to obtain a huge and strong body using Transition Refleum.\n\nSurgery requires Aphid extract, Nutritional jelly, and Transition Refleum.\n\nThe Transition Refleum is can be extracted by treating Increased viability side effects.</description>
+		<description>Research for surgery to obtain a huge and strong body using Transition Refleum.\n\nSurgery requires Aphid extract, Nutritional jelly, and Transition Refleum.\n\nThe Transition Refleum is can be extracted by Remove Transition Refleum surgery for Increased viability side effects.</description>
 		<tab>AntyHiveTech</tab>
 		<baseCost>5500</baseCost>
 		<techLevel>Spacer</techLevel>
@@ -408,6 +408,6 @@
 			<li>AntyHive</li>
 		</tags>
 		<discoveredLetterTitle>About: metamorphosis</discoveredLetterTitle>
-		<discoveredLetterText>Now you can surgery to obtain a huge and strong body using Transition Refleum.\n\nSurgery requires Aphid extract, Nutritional jelly, and Transition Refleum.\n\nThe Transition Refleum is can be extracted by treating Increased viability side effects.</discoveredLetterText>
+		<discoveredLetterText>Now you can surgery to obtain a huge and strong body using Transition Refleum.\n\nSurgery requires Aphid extract, Nutritional jelly, and Transition Refleum.\n\nThe Transition Refleum is can be extracted by Remove Transition Refleum surgery for Increased viability side effects.</discoveredLetterText>
 	</ResearchProjectDef>
 </Defs>
