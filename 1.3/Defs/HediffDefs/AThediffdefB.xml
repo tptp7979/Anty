@@ -117,7 +117,7 @@
 		</comps>
 		<stages>
 			<li>
-				<!-- <lifeThreatening>true</lifeThreatening> -->
+				<lifeThreatening>true</lifeThreatening>
 				<statFactors>
 					<MoveSpeed>1.1</MoveSpeed>
 				</statFactors>
