@@ -117,7 +117,7 @@
 		</comps>
 		<stages>
 			<li>
-				<lifeThreatening>true</lifeThreatening>
+				<!-- <lifeThreatening>true</lifeThreatening> -->
 				<statFactors>
 					<MoveSpeed>1.1</MoveSpeed>
 				</statFactors>
@@ -129,7 +129,7 @@
 				</mentalStateGivers>
 			</li>
 		</stages>
-		<spawnThingOnRemoved>AntyTransitionRefleum_Thing</spawnThingOnRemoved>
+		<!-- <spawnThingOnRemoved>AntyTransitionRefleum_Thing</spawnThingOnRemoved> -->
 	</HediffDef>
 
 	<ManeuverDef>
@@ -265,6 +265,9 @@
 		<appliedOnFixedBodyParts>
 			<li>Antyabdomen</li>
 		</appliedOnFixedBodyParts>
+		<products>
+			<AntyTransitionRefleum_Thing>1</AntyTransitionRefleum_Thing>
+		</products>
 	</RecipeDef>
 
 	<LetterDef Name="AT_Increasedviability">
