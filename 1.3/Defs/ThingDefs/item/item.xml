@@ -270,6 +270,7 @@
 		<recipeUsers Inherit="False">
 				<li>Anty</li>
 				<li>Anty_prototype</li>
+				<li>AT_dreadnought</li>
 		</recipeUsers>
 	</RecipeDef>
 

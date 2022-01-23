@@ -222,8 +222,9 @@
 			<li>Antyabdomen</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AntyIncreasedviability</addsHediff>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 				<li>Anty</li>
+				<li>AT_dreadnought</li>
 		</recipeUsers>
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 	</RecipeDef>

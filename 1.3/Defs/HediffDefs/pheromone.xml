@@ -142,8 +142,9 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>pheromone-stim</addsHediff>
 		<researchPrerequisite>Antypheromonestim</researchPrerequisite>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 			<li>Anty</li>
+			<li>AT_dreadnought</li>
 		</recipeUsers>
 	</RecipeDef>
 

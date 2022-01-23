@@ -543,7 +543,7 @@
 		<skillRequirements>
 			<Medicine>10</Medicine>
 		</skillRequirements>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 			<li>Anty</li>
 		</recipeUsers>
 	</RecipeDef>
