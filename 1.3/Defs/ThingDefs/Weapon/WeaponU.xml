@@ -633,6 +633,7 @@
 		</comps>
 		<techLevel>Spacer</techLevel>
 		<tickerType>Normal</tickerType>
+		<tradeability>None</tradeability>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -716,6 +717,7 @@
 			<li Class="ExplosionFaction.CompProperties_FactionSetter"/>
 		</comps>
 		<tickerType>Normal</tickerType>
+		<tradeability>None</tradeability>
 	</ThingDef>
 
 	<ThingDef ParentName="AT_Proty_spawner_Tunnel_Close">
