@@ -162,13 +162,6 @@
 							</titleSelectOne>
 						</value>
 					</li>
-
-					<li Class="PatchOperationAdd">
-						<xpath>/Defs/RecipeDef[defName = "InstallAT_Reinforcedexoskeleton"]/recipeUsers</xpath>
-						<value>
-							<li>AT_dreadnought</li>
-						</value>
-					</li>
 				</operations>
 			</match>
 			</Operation>
