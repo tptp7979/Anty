@@ -8,9 +8,13 @@
 				<li>AT_dreadnought</li>
 			</value>
 		</Operation> -->
-
-			<Operation Class="PatchOperationSequence">
-				<success>Always</success>
+			
+			<Operation Class="PatchOperationFindMod">
+			<mods>
+				<li>Royalty</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+			<success>Always</success>	
 				<operations>
 				<!-- Guests -->
 					<li Class="PatchOperationAdd">
@@ -19,9 +23,6 @@
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
-									<li>AT_Charge_A</li>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
@@ -37,9 +38,6 @@
 							<li>
 								<factionDef>AntyHive_B</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
-									<li>AT_Charge_A</li>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
@@ -61,16 +59,11 @@
 							<li>
 								<factionDef>AntyHive</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
-									<li>AT_Charge_A</li>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
-									<li>Anty_Commander</li>
-									<li>AT_PP_S</li>
 									<li>AT_Power</li>
 									<li>AT_Power_A</li>
 									<li>AT_Power_B</li>
@@ -79,16 +72,11 @@
 							<li>
 								<factionDef>AntyHive_B</factionDef>
 								<pawnKinds>
-									<li>AT_Raid_A</li>
-									<li>AT_Rifle_A</li>
-									<li>AT_Charge_A</li>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
 									<li>AT_Rifle_B</li>
 									<li>AT_Charge_B</li>
 									<li>AT_Launcher_A</li>
-									<li>Anty_Commander</li>
-									<li>AT_PP_S</li>
 									<li>AT_Power</li>
 									<li>AT_Power_A</li>
 									<li>AT_Power_B</li>
@@ -182,9 +170,14 @@
 						</value>
 					</li>
 				</operations>
+			</match>
 			</Operation>
-
-		<Operation Class="PatchOperationSequence">
+		
+		<Operation Class="PatchOperationFindMod">
+			<mods>
+				<li>Royalty</li>
+			</mods>
+			<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationTest">
@@ -197,5 +190,6 @@
 					</value>
 				</li>
 			</operations>
+			</match>
 		</Operation>
 </Patch>
