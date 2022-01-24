@@ -393,7 +393,7 @@
 						<bodyPart>Eye</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
 						<colorChannel>skin</colorChannel>
-						<drawSize>0.9</drawSize>
+						<drawSize>1</drawSize>
 						<drawnInBed>false</drawnInBed>
 						<drawIfDead>false</drawIfDead>
 						<angle>0</angle>
@@ -405,7 +405,7 @@
 						<offsets>
 							<south>
 								<bodyTypes>
-								<Thin>(-0.42,0.565)</Thin>
+								<Thin>(-0.42,0.59)</Thin>
 								</bodyTypes>
 							</south>
 							
@@ -417,7 +417,7 @@
 						
 							<east>
 								<bodyTypes>
-								<Thin>(-0.5,0.565)</Thin>
+								<Thin>(-0.5,0.59)</Thin>
 								</bodyTypes>
 							</east>
 						</offsets>
