@@ -469,6 +469,7 @@
 					<li>Pregnant</li>
 					<li>Pregnant_B</li>
 					<li>FoodPoisoning</li>
+					<li>AntyIncreasedviability</li>
 				</hediffToNullify>
 			</li>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -487,6 +488,14 @@
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
 					<InjuryHealingFactor>1.25</InjuryHealingFactor>
 				</statFactors>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>WoundInfection</li>
+					<li>Flu</li>
+				</makeImmuneTo>
 			</li>
 		</stages>
 	</HediffDef>
