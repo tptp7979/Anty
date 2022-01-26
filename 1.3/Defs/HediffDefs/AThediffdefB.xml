@@ -51,7 +51,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="ImplantHediffBase">
+	<HediffDef>
 		<defName>AntyTransitionRefleum</defName>
 		<label>Transition Refleum</label>
 		<labelNoun>Transition Refleum</labelNoun>
@@ -64,6 +64,7 @@
 		</descriptionHyperlinks>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>true</isBad>
+		<hediffClass>HediffWithComps</hediffClass>
 		<tendable>true</tendable>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
