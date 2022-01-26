@@ -260,8 +260,9 @@
 			</categories>
 		</fixedIngredientFilter>
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 			<li>Anty</li>
+			<li>AT_dreadnought</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Antyabdomen</li>
