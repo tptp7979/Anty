@@ -224,7 +224,6 @@
 		<addsHediff>AntyIncreasedviability</addsHediff>
 		<recipeUsers Inherit="False">
 				<li>Anty</li>
-				<li>AT_dreadnought</li>
 		</recipeUsers>
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 	</RecipeDef>
@@ -262,7 +261,6 @@
 		<researchPrerequisite>AT_IncreasedviabilitySurgery</researchPrerequisite>
 		<recipeUsers Inherit="False">
 			<li>Anty</li>
-			<li>AT_dreadnought</li>
 		</recipeUsers>
 		<appliedOnFixedBodyParts>
 			<li>Antyabdomen</li>
