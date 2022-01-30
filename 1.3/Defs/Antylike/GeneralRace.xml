@@ -1212,13 +1212,13 @@
 			</li>
 			<li>
 				<def>HumanlikeChild</def>
-				<minAge>0.26</minAge>
+				<minAge>0.13</minAge>
 				<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
 				<soundDeath>Pawn_Megascarab_Death</soundDeath>
 			</li>
 			<li>
 				<def>HumanlikeTeenager</def>
-				<minAge>0.28</minAge>
+				<minAge>0.14</minAge>
 				<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
 				<soundDeath>Pawn_Megascarab_Death</soundDeath>
 			</li>
