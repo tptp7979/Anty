@@ -315,6 +315,7 @@
 		<explosionCellMote>Mote_ChargeBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
 		<impactSoundType>Toxic</impactSoundType>
+		<makesAnimalsFlee>fales</makesAnimalsFlee>
 	</DamageDef>
 
 	<HediffDef>
@@ -332,7 +333,7 @@
 				<becomeVisible>false</becomeVisible>
 				<hediffGivers>
 					<li Class="AntyHediffGiver_Random">
-						<hediff>AT_Dreadnought_Reborn</hediff>
+						<hediff>Antypheromone_ChargeHigh_Proty</hediff>
 						<mtbDays>0.01</mtbDays>
 					</li>
 				</hediffGivers>
@@ -719,6 +720,7 @@
 		<explosionCellMote>Mote_SuicideBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
 		<impactSoundType>Toxic</impactSoundType>
+		<makesAnimalsFlee>fales</makesAnimalsFlee>
 	</DamageDef>
 
 	<HediffDef>
