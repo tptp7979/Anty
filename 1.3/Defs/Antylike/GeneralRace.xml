@@ -1337,6 +1337,14 @@
 				<damageDef>Burn</damageDef>
 				<multiplier>1.5</multiplier>
 			</li>
+			<li>
+				<damageDef>AT_ChargeBomb_Proty</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>AT_SuicideBomb_Proty</damageDef>
+				<multiplier>0</multiplier>
+			</li>
 		</damageMultipliers>
 		<butcherProducts />
 		<comps />
