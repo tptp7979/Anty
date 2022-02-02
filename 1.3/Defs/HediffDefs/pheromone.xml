@@ -315,7 +315,7 @@
 		<explosionCellMote>Mote_ChargeBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
 		<impactSoundType>Toxic</impactSoundType>
-		<makesAnimalsFlee>fales</makesAnimalsFlee>
+		<makesAnimalsFlee>false</makesAnimalsFlee>
 	</DamageDef>
 
 	<HediffDef>
@@ -720,7 +720,7 @@
 		<explosionCellMote>Mote_SuicideBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
 		<impactSoundType>Toxic</impactSoundType>
-		<makesAnimalsFlee>fales</makesAnimalsFlee>
+		<makesAnimalsFlee>false</makesAnimalsFlee>
 	</DamageDef>
 
 	<HediffDef>
