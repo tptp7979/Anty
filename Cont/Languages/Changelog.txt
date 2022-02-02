@@ -114,6 +114,8 @@ AlienRace.BackstoryDef
 
 'Add'
 ThingDef
+  Anty_prototype .description
+  AntyExoskeleton .description
   Antypheromone_Charge .description
   Antypheromone_Suicide .description
 

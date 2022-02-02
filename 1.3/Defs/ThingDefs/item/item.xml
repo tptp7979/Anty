@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AntyExoskeleton</defName>
 		<label>Anty Exoskeleton</label>
-		<description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.</description>
+		<description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.\n\nIt has a double structure, with a non-magnetic metal on the outside and chitin on the inside. And the metal on the outside is covered with a thin film similar to human skin.</description>
 		<graphicData>
 			<texPath>Things/Item/AntyExoskeleton</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

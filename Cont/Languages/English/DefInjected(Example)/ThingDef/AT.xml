@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Anty_prototype.label>proty</Anty_prototype.label>
-  <Anty_prototype.description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.</Anty_prototype.description>
+  <Anty_prototype.description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.</Anty_prototype.description>
   <Anty_prototype.tools.0.label>BigJaw</Anty_prototype.tools.0.label>
   <Anty_prototype.tools.1.label>head</Anty_prototype.tools.1.label>
   <EggProty.label>Proty egg</EggProty.label>
@@ -151,7 +151,7 @@
   <AT_Barricade_A.label>Improvised Refleum barricade(3H)</AT_Barricade_A.label>
   <AT_Barricade_A.description>An improvised cover developed by Anties to protect themselves from the everchanging tide of the battlefield. It dissolves in time.</AT_Barricade_A.description>
   <AntyExoskeleton.label>Anty Exoskeleton</AntyExoskeleton.label>
-  <AntyExoskeleton.description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.</AntyExoskeleton.description>
+  <AntyExoskeleton.description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.\n\nIt has a double structure, with a non-magnetic metal on the outside and chitin on the inside. And the metal on the outside is covered with a thin film similar to human skin.</AntyExoskeleton.description>
   <Refleum.label>Refleum</Refleum.label>
   <Refleum.description>A metallic compound made based on Anty's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</Refleum.description>
   <Anty_Recyclecore.label>Recyclecore</Anty_Recyclecore.label>
