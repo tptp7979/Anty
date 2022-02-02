@@ -17,6 +17,14 @@
   <NamerFactionAnty.rulePack.rulesStrings.14>r_name->Swarm of Polyergus</NamerFactionAnty.rulePack.rulesStrings.14>
   <NamerFactionAnty.rulePack.rulesStrings.15>r_name->Swarm of Nylanderia</NamerFactionAnty.rulePack.rulesStrings.15>
   <NamerFactionAnty.rulePack.rulesStrings.16>r_name->Swarm of Cataglyphis</NamerFactionAnty.rulePack.rulesStrings.16>
+  <NamerFactionAnty.rulePack.rulesStrings.17>r_name->Swarm of Colobopsis</NamerFactionAnty.rulePack.rulesStrings.17>
+  <NamerFactionAnty.rulePack.rulesStrings.18>r_name->Swarm of Dorylus</NamerFactionAnty.rulePack.rulesStrings.18>
+  <NamerFactionAnty.rulePack.rulesStrings.19>r_name->Swarm of Solenopsis</NamerFactionAnty.rulePack.rulesStrings.19>
+  <NamerFactionAnty.rulePack.rulesStrings.20>r_name->Swarm of Dinoponera</NamerFactionAnty.rulePack.rulesStrings.20>
+  <NamerFactionAnty.rulePack.rulesStrings.21>r_name->Swarm of Odontomachus</NamerFactionAnty.rulePack.rulesStrings.21>
+  <NamerFactionAnty.rulePack.rulesStrings.22>r_name->Swarm of Myrmecia</NamerFactionAnty.rulePack.rulesStrings.22>
+  <NamerFactionAnty.rulePack.rulesStrings.23>r_name->Swarm of Cephalotes</NamerFactionAnty.rulePack.rulesStrings.23>
+  <NamerFactionAnty.rulePack.rulesStrings.24>r_name->Swarm of Oecophylla</NamerFactionAnty.rulePack.rulesStrings.24>
   <NamerSettlementAnty.rulePack.rulesStrings.0>r_name(p=12)->[townname_wordgen]</NamerSettlementAnty.rulePack.rulesStrings.0>
   <NamerSettlementAnty.rulePack.rulesStrings.1>r_name(p=4)->[townname_combo]</NamerSettlementAnty.rulePack.rulesStrings.1>
   <NamerSettlementAnty.rulePack.rulesStrings.2>r_name->[townname_near]</NamerSettlementAnty.rulePack.rulesStrings.2>

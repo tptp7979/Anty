@@ -24,6 +24,14 @@
 				<li>r_name->Swarm of Polyergus</li>
 				<li>r_name->Swarm of Nylanderia</li>
 				<li>r_name->Swarm of Cataglyphis</li>
+				<li>r_name->Swarm of Colobopsis</li>
+				<li>r_name->Swarm of Dorylus</li>
+				<li>r_name->Swarm of Solenopsis</li>
+				<li>r_name->Swarm of Dinoponera</li>
+				<li>r_name->Swarm of Odontomachus</li>
+				<li>r_name->Swarm of Myrmecia</li>
+				<li>r_name->Swarm of Cephalotes</li>
+				<li>r_name->Swarm of Oecophylla</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

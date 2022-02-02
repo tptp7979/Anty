@@ -122,3 +122,8 @@ ThingDef
 AlienRace.ThingDef_AlienRace
   Anty .description
 
+RulePackDef
+  NamerFactionAnty.rulePack.rulesStrings.17
+  ~
+  NamerFactionAnty.rulePack.rulesStrings.24
+
