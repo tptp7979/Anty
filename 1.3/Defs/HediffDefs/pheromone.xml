@@ -152,7 +152,7 @@
 	<ThingDef ParentName="MakeableDrugBase">
 		<defName>Antypheromone_Charge</defName>
 		<label>Anty assault pheromone</label>
-		<description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance. It also affects surrounding proties.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Antypheromone_ChargeHigh</HediffDef>
 			<HediffDef>AntyGlandoverload</HediffDef>
@@ -562,7 +562,7 @@
 	<ThingDef ParentName="MakeableDrugBase">
 		<defName>Antypheromone_Suicide</defName>
 		<label>Anty detonation phermone</label>
-		<description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
+		<description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion. It also affects surrounding proties.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</description>
 		<descriptionHyperlinks><HediffDef>Antypheromone_SuicideHigh</HediffDef></descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/pheromone/PE</texPath>

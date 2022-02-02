@@ -268,7 +268,7 @@
   <Anty_pheromone.description>농축된 앤티들의 페로몬을 점막으로 포장한 것입니다.</Anty_pheromone.description>
   
   <Antypheromone_Charge.label>앤티 돌격 페로몬</Antypheromone_Charge.label>
-  <Antypheromone_Charge.description>앤티들이 돌격시에 내뿜는 페로몬을 농축하여 만들어낸 흡입제입니다. 흡입시 체내에서도 대량의 돌격 페로몬이 뿜어져 나오며, 근접 전투능력이 비약적으로 상승합니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromone_Charge.description>
+  <Antypheromone_Charge.description>앤티들이 돌격시에 내뿜는 페로몬을 농축하여 만들어낸 흡입제입니다. 흡입시 체내에서도 대량의 돌격 페로몬이 뿜어져 나오며, 근접 전투능력이 비약적으로 상승합니다. 주변의 프로티들도 영향을 받습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromone_Charge.description>
   <Antypheromone_Charge.ingestible.ingestCommandString>{0} 흡입</Antypheromone_Charge.ingestible.ingestCommandString>
   <Antypheromone_Charge.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Charge.ingestible.ingestReportString>
   
@@ -278,7 +278,7 @@
   <Antypheromone_Shooting.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Shooting.ingestible.ingestReportString>
   
   <Antypheromone_Suicide.label>앤티 자폭 페로몬</Antypheromone_Suicide.label>
-  <Antypheromone_Suicide.description>앤티들의 산성주머니를 극단적으로 자극하는 페로몬입니다. 이 페로몬을 흡입한 앤티들은 강력한 레드버스트 폭발을 일으킵니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromone_Suicide.description>
+  <Antypheromone_Suicide.description>앤티들의 산성주머니를 극단적으로 자극하는 페로몬입니다. 이 페로몬을 흡입한 앤티들은 강력한 레드버스트 폭발을 일으킵니다. 주변의 프로티들도 영향을 받습니다.\n\n 유충들은 페로몬 흡입제의 강력한 자극을 견딜 수 없습니다.</Antypheromone_Suicide.description>
   <Antypheromone_Suicide.ingestible.ingestCommandString>{0} 흡입</Antypheromone_Suicide.ingestible.ingestCommandString>
   <Antypheromone_Suicide.ingestible.ingestReportString>{0} 흡입중</Antypheromone_Suicide.ingestible.ingestReportString>
   
