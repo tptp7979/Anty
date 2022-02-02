@@ -302,29 +302,43 @@
 		</comps>
 	</ThingDef>
 	
-	<DamageDef ParentName="AT_AcidBomb_B">
+	<DamageDef ParentName="AT_glueBomb">
 		<defName>AT_ChargeBomb_Proty</defName>
-		<minDamageToFragment>10</minDamageToFragment>
-		<externalViolence>false</externalViolence>
-		<defaultArmorPenetration>2</defaultArmorPenetration>
-		<additionalHediffs>
+		<additionalHediffs Inherit="False">
 			<li>
-				<hediff>Antypheromone_ChargeHigh_Proty</hediff>
-				<severityPerDamageDealt>10</severityPerDamageDealt>
+				<hediff>Antypheromone_ChargeHigh_Proty_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
 		</additionalHediffs>
-		<hediff>glueBomb</hediff>
-		<harmsHealth>false</harmsHealth>
-		<makesBlood>false</makesBlood>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-		<plantDamageFactor>0</plantDamageFactor>
 		<soundExplosion>Explosion_Acid</soundExplosion>
 		<explosionCellMote>Mote_ChargeBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
+		<impactSoundType>Toxic</impactSoundType>
 	</DamageDef>
 
+	<HediffDef>
+		<defName>Antypheromone_ChargeHigh_Proty_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_ChargeHigh_Proty_Ready</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<hediffGivers>
+					<li Class="AntyHediffGiver_Random">
+						<hediff>AT_Dreadnought_Reborn</hediff>
+						<mtbDays>0.01</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
 	<HediffDef>
 		<defName>Antypheromone_ChargeHigh_Proty</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -336,12 +350,21 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>Antypheromone_ChargeHigh_Proty_Ready</li>
+				</hediffToNullify>
 				
 				<hediffToApply>Antypheromone_ChargeHigh</hediffToApply>
 				
 				<bodyDef>Anty</bodyDef>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<HediffDef>
@@ -683,29 +706,43 @@
 		</comps>
 	</ThingDef>
 	
-	<DamageDef ParentName="AT_AcidBomb_B">
+	<DamageDef ParentName="AT_glueBomb">
 		<defName>AT_SuicideBomb_Proty</defName>
-		<minDamageToFragment>10</minDamageToFragment>
-		<externalViolence>false</externalViolence>
-		<defaultArmorPenetration>2</defaultArmorPenetration>
-		<additionalHediffs>
+		<additionalHediffs Inherit="False">
 			<li>
-				<hediff>Antypheromone_SuicideHigh_Proty</hediff>
-				<severityPerDamageDealt>10</severityPerDamageDealt>
+				<hediff>Antypheromone_SuicideHigh_Proty_Ready</hediff>
+				<severityPerDamageDealt>1</severityPerDamageDealt>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
 		</additionalHediffs>
-		<hediff>glueBomb</hediff>
-		<harmsHealth>false</harmsHealth>
-		<makesBlood>false</makesBlood>
-		<buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0</buildingDamageFactorPassable>
-		<plantDamageFactor>0</plantDamageFactor>
 		<soundExplosion>Explosion_Acid</soundExplosion>
 		<explosionCellMote>Mote_SuicideBlast</explosionCellMote>
 		<defaultStoppingPower>0</defaultStoppingPower>
+		<impactSoundType>Toxic</impactSoundType>
 	</DamageDef>
 
+	<HediffDef>
+		<defName>Antypheromone_SuicideHigh_Proty_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Antypheromone_SuicideHigh_Proty_Ready</label>
+		<description>!!!</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<hediffGivers>
+					<li Class="AntyHediffGiver_Random">
+						<hediff>Antypheromone_SuicideHigh_Proty</hediff>
+						<mtbDays>0.01</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
 	<HediffDef>
 		<defName>Antypheromone_SuicideHigh_Proty</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -717,12 +754,21 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+				<hediffToNullify>
+					<li>Antypheromone_SuicideHigh_Proty_Ready</li>
+				</hediffToNullify>
 				
 				<hediffToApply>Antypheromone_SuicideHigh</hediffToApply>
 				
 				<bodyDef>Anty</bodyDef>
 			</li>
 		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
 	</HediffDef>
   
 	<HediffDef>
