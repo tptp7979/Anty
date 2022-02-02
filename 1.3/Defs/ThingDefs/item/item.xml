@@ -59,7 +59,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>Refleum</defName>
 		<label>Refleum</label>
-		<description>A metallic compound made based on Antie's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</description>
+		<description>A metallic compound made based on Anty's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</description>
 		<graphicData>
 			<texPath>Things/Item/Refleum</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

@@ -88,3 +88,35 @@ DamageDef
 (2022/1/20)
 ResearchProjectDef
   AT_Dreadnought_metamorphosisSurgery .description .discoveredLetterText
+
+(2022/2/2)
+'Fix'
+"I fixed the typo. Please check not only the example, but also the Def itself. sorry."
+Antie -> Anties, Anty, Anty's
+ax -> axe
+ThingDef
+  AT_AP_Helm_A .description
+  AT_AP_SH_A .description
+  AT_AP_CO_A .description
+  AT_AP_CO_B .description
+
+  AntyExoskeleton_Production .description
+
+  Refleum .description
+
+  AT_Halberd .description
+  AT_Hammer .description
+  AT_AcidCross .description
+
+AlienRace.BackstoryDef
+  Anty_Amigo_B_Meleeinfantry .baseDescription
+  Anty_Amigo_B_Meleeinfantry_Drop .baseDescription
+
+'Add'
+ThingDef
+  Antypheromone_Charge .description
+  Antypheromone_Suicide .description
+
+AlienRace.ThingDef_AlienRace
+  Anty .description
+

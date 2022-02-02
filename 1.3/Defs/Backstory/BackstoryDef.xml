@@ -382,7 +382,7 @@
 		<defName>Anty_Amigo_B_Meleeinfantry</defName>
 		<title>Anty Melee infantry</title>
 		<titleShort>Melee infantry</titleShort>
-		<baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Antie population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</baseDescription>
+		<baseDescription>[PAWN_nameDef]is a Melee infantry.\n\nMelee infantry was there ever since the existence of Anties, which make up for over 30% of the Anties population.\n\nUsually, entities with better physical abilities or less fear of death are chosen. They are put through rigorous training to master every kind of melee weapons and to march fearlessly into the gunfires of both enemies and allies.</baseDescription>
 		<slot>Adulthood</slot>
 		
 		<skillGains>

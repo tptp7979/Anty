@@ -548,7 +548,7 @@
 	<ThingDef ParentName="Anty_MEHeadgearBase"><!--투구-->
 		<defName>AT_AP_Helm_A</defName>
 		<label>Anty Plate Helm</label>
-		<description>An Antie plate helm made by scrap metals.</description>
+		<description>An Anty's plate helm made by scrap metals.</description>
 
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -947,7 +947,7 @@
 	<ThingDef ParentName="Anty_GearBase" Name="AT_AP_SH_A"><!--앤티 전투복 덮개-->
 		<defName>AT_AP_SH_A</defName>
 		<label>Anty Military uniform Cloak</label>
-		<description>A camouflaged cloak worn by Antie soldiers. Although it lacks the ability to protect the user from the attacks, it protects the user from both hot and cold weather.</description>
+		<description>A camouflaged cloak worn by Anty soldiers. Although it lacks the ability to protect the user from the attacks, it protects the user from both hot and cold weather.</description>
 
 		<recipeMaker>
 			 <researchPrerequisite>Antycomposite</researchPrerequisite>
@@ -1003,7 +1003,7 @@
 	<ThingDef ParentName="Anty_GearBase"><!--앤티 지휘관 케이프-->
 		<defName>AT_AP_CO_A</defName>
 		<label>Anty Commender Cape</label>
-		<description>A Cape worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
+		<description>A Cape worn by Anty commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
 
 		<recipeMaker>
 			 <researchPrerequisite>Antycomposite</researchPrerequisite>
@@ -1064,7 +1064,7 @@
 	<ThingDef ParentName="AT_AP_SH_A"><!--앤티 지휘관 망토-->
 		<defName>AT_AP_CO_B</defName>
 		<label>Anty Commender Cloak</label>
-		<description>A Cloak worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
+		<description>A Cloak worn by Anty commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</description>
 		<graphicData>
 			<texPath>Antylike/Apparel/AT_AP_CommenderCover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

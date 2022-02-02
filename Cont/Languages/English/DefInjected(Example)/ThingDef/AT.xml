@@ -27,7 +27,7 @@
   <Anty_pheromone.label>Anty pheromone Pack</Anty_pheromone.label>
   <Anty_pheromone.description>Concentrated Anty pheromone that has been packaged with mucous membrane.</Anty_pheromone.description>
   <Antypheromone_Charge.label>Anty assault pheromone</Antypheromone_Charge.label>
-  <Antypheromone_Charge.description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Charge.description>
+  <Antypheromone_Charge.description>A phermone inhaler. This particular inhaler is made with phermone that is released from Antys when they charge on to their enemies. Inhalation causes chainreaction within user's body, which releases more phermone and drastically enhances close-quarters combat performance. It also affects surrounding proties.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Charge.description>
   <Antypheromone_Charge.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Charge.ingestible.ingestCommandString>
   <Antypheromone_Charge.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Charge.ingestible.ingestReportString>
   <Antypheromone_Shooting.label>Anty Shooting pheromone</Antypheromone_Shooting.label>
@@ -35,7 +35,7 @@
   <Antypheromone_Shooting.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Shooting.ingestible.ingestCommandString>
   <Antypheromone_Shooting.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Shooting.ingestible.ingestReportString>
   <Antypheromone_Suicide.label>Anty detonation phermone</Antypheromone_Suicide.label>
-  <Antypheromone_Suicide.description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Suicide.description>
+  <Antypheromone_Suicide.description>An inhaler filled with phermone that hyperstimulates Anty's acidsac. Inhalation causes a powerful red-burst explosion. It also affects surrounding proties.\n\n Larvae cannot tolerate the strong stimulation of pheromone inhalants.</Antypheromone_Suicide.description>
   <Antypheromone_Suicide.ingestible.ingestCommandString>Inhale {0}</Antypheromone_Suicide.ingestible.ingestCommandString>
   <Antypheromone_Suicide.ingestible.ingestReportString>Inhaling {0}.</Antypheromone_Suicide.ingestible.ingestReportString>
   <AT_SuicideBomb.label>SuicideBomb</AT_SuicideBomb.label>
@@ -53,7 +53,7 @@
   <AT_AP_Chain_A.label>Anty Chainarmor</AT_AP_Chain_A.label>
   <AT_AP_Chain_A.description>Early day armor used by Anties to protect their bodies. It is not as sturdy as plate armor, but it is much easier to move in.</AT_AP_Chain_A.description>
   <AT_AP_Helm_A.label>Anty Plate Helm</AT_AP_Helm_A.label>
-  <AT_AP_Helm_A.description>An Antie plate helm made by scrap metals.</AT_AP_Helm_A.description>
+  <AT_AP_Helm_A.description>An Anty's plate helm made by scrap metals.</AT_AP_Helm_A.description>
   <AT_AP_Additionalchain_A.label>Anty Additional chainarmor</AT_AP_Additionalchain_A.label>
   <AT_AP_Additionalchain_A.description>An extra piece of chain armor designed to protect stomach attached behind waist.</AT_AP_Additionalchain_A.description>
   <AT_AP_Shooter_A.label>Anty Military uniform</AT_AP_Shooter_A.label>
@@ -67,11 +67,11 @@
   <AT_AP_Additionalarmorplate_A.label>Anty Additional armor plate</AT_AP_Additionalarmorplate_A.label>
   <AT_AP_Additionalarmorplate_A.description>An extra piece of armorplate desigend to protect stomach attached behind waist.</AT_AP_Additionalarmorplate_A.description>
   <AT_AP_SH_A.label>Anty Military uniform Cloak</AT_AP_SH_A.label>
-  <AT_AP_SH_A.description>A camouflaged cloak worn by Antie soldiers. Although it lacks the ability to protect the user from the attacks, it protects the user from both hot and cold weather.</AT_AP_SH_A.description>
+  <AT_AP_SH_A.description>A camouflaged cloak worn by Anty soldiers. Although it lacks the ability to protect the user from the attacks, it protects the user from both hot and cold weather.</AT_AP_SH_A.description>
   <AT_AP_CO_A.label>Anty Commender Cape</AT_AP_CO_A.label>
-  <AT_AP_CO_A.description>A Cape worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_A.description>
+  <AT_AP_CO_A.description>A Cape worn by Anty commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_A.description>
   <AT_AP_CO_B.label>Anty Commender Cloak</AT_AP_CO_B.label>
-  <AT_AP_CO_B.description>A Cloak worn by Antie commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_B.description>
+  <AT_AP_CO_B.description>A Cloak worn by Anty commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_B.description>
   <AT_AP_Power_A.label>Anty Cataglyphis armor</AT_AP_Power_A.label>
   <AT_AP_Power_A.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt has a fire control system to reduce aiming time.</AT_AP_Power_A.description>
   <AT_AP_Power_Head_A.label>Anty Cataglyphis helmet</AT_AP_Power_Head_A.label>
@@ -108,7 +108,7 @@
   <AntyTableButcher.label>Anty machine butcher table</AntyTableButcher.label>
   <AntyTableButcher.description>An electric butchery table invented by Anties, to efficiently handle the vast amount of corpses as a product of countless combats.</AntyTableButcher.description>
   <AntyExoskeleton_Production.label>Exoskeleton Auto Mine</AntyExoskeleton_Production.label>
-  <AntyExoskeleton_Production.description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Antie DNA injected into the device.</AntyExoskeleton_Production.description>
+  <AntyExoskeleton_Production.description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Anty's DNA injected into the device.</AntyExoskeleton_Production.description>
   <At_farm.label>Refleum incubator</At_farm.label>
   <At_farm.description>A device that can incubate refleum based on the exoskeleton of Anties.</At_farm.description>
   <AT_Chart.label>Anty butcher-chart</AT_Chart.label>
@@ -153,7 +153,7 @@
   <AntyExoskeleton.label>Anty Exoskeleton</AntyExoskeleton.label>
   <AntyExoskeleton.description>Exoskeletons of Anties. It is hard to touch, but the texture is similar to that of humans. The cells in the exoskeleton can enter a dormant state, which allows it to stay alive for a long period of time after being detached from the body.</AntyExoskeleton.description>
   <Refleum.label>Refleum</Refleum.label>
-  <Refleum.description>A metallic compound made based on Antie's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</Refleum.description>
+  <Refleum.description>A metallic compound made based on Anty's exoskeleton. It pulsates faintly, which gave them the name 'the living metal.' If it is used without going through a special process, it will lose the properties of living beings.</Refleum.description>
   <Anty_Recyclecore.label>Recyclecore</Anty_Recyclecore.label>
   <Anty_Recyclecore.description>An artificial intelligence core fabricated with corpses.</Anty_Recyclecore.description>
   <AT_Reinforcedexoskeleton_Thing.label>Anty Reinforced exoskeleton</AT_Reinforcedexoskeleton_Thing.label>
@@ -197,15 +197,15 @@
   <AT_Sickle.tools.0.label>edge</AT_Sickle.tools.0.label>
   <AT_Sickle.tools.1.label>handle</AT_Sickle.tools.1.label>
   <AT_Halberd.label>Halberd</AT_Halberd.label>
-  <AT_Halberd.description>A giant ax beloved by Antie warriors. The axeblade is often used as a drawing board.</AT_Halberd.description>
+  <AT_Halberd.description>A giant axe beloved by Anty warriors. The axeblade is often used as a drawing board.</AT_Halberd.description>
   <AT_Halberd.tools.0.label>Axe</AT_Halberd.tools.0.label>
   <AT_Halberd.tools.1.label>Spear</AT_Halberd.tools.1.label>
   <AT_Halberd.tools.2.label>Hook</AT_Halberd.tools.2.label>
   <AT_Hammer.label>Hammer</AT_Hammer.label>
-  <AT_Hammer.description>A hammer beloved by Antie warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</AT_Hammer.description>
+  <AT_Hammer.description>A hammer beloved by Anty warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</AT_Hammer.description>
   <AT_Hammer.tools.0.label>Hammer</AT_Hammer.tools.0.label>
   <AT_AcidCross.label>Acid Crossbow</AT_AcidCross.label>
-  <AT_AcidCross.description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Antie. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</AT_AcidCross.description>
+  <AT_AcidCross.description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Anties. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</AT_AcidCross.description>
   <AT_AcidCross.tools.0.label>handle</AT_AcidCross.tools.0.label>
   <AT_Aicdbolt.label>Aicd Bolt</AT_Aicdbolt.label>
   <AT_PP_S.label>Anty X-war Gift box</AT_PP_S.label>

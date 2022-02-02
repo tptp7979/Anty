@@ -875,7 +875,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>AT_Halberd</defName>
 		<label>Halberd</label>
-		<description>A giant ax beloved by Antie warriors. The axeblade is often used as a drawing board.</description>
+		<description>A giant axe beloved by Anty warriors. The axeblade is often used as a drawing board.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Halberd</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -940,7 +940,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>AT_Hammer</defName>
 		<label>Hammer</label>
-		<description>A hammer beloved by Antie warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</description>
+		<description>A hammer beloved by Anty warriors. When not in combat, it is used to break the heads of patients and prisoners alike.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Hammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -988,7 +988,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>AT_AcidCross</defName>
 		<label>Acid Crossbow</label>
-		<description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Antie. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</description>
+		<description>A ranged weapon that shoots bolts covered in Anty-Acid, the acid that builds upon a body of Anties. The Anty-Acid is applied manually before firing because it corrodes the tip otherwise.</description>
 		<descriptionHyperlinks Inherit="False">
 			<HediffDef>Chemicaldissolution</HediffDef>
 		</descriptionHyperlinks>

@@ -235,7 +235,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AntyExoskeleton_Production</defName>
 		<label>Exoskeleton Auto Mine</label>
-		<description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Antie DNA injected into the device.</description>
+		<description>A device made to harvest exoskeleton without the inefficient sacrifice of Anties.  The built-in AI core regularly creates an exoskeleton based on the Anty's DNA injected into the device.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AntyExoskeleton</ThingDef>
 			<ThingDef>Anty_Recyclecore</ThingDef>
