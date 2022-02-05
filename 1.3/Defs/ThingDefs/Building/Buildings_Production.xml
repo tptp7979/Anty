@@ -250,8 +250,8 @@
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>Impassable</passability>
-		<pathCost>100</pathCost>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<fillPercent>1.0</fillPercent>
 		<rotatable>false</rotatable>
@@ -346,8 +346,8 @@
 			</damageData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>Impassable</passability>
-		<pathCost>100</pathCost>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<fillPercent>1.0</fillPercent>
 		<rotatable>false</rotatable>
