@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		<ThingDef ParentName="BaseInsect">
+		<ThingDef ParentName="AnimalThingBase">
 		<defName>Anty_prototype</defName>
 		<label>proty</label>
 		<description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.</description>
@@ -114,6 +114,10 @@
 				<li>Antypheromone_Shooting</li>
 				<li>Antypheromone_Suicide</li>
 			</willNeverEat>
+			<foodType>OmnivoreHuman</foodType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<meatColor>(160,168,139)</meatColor>
+			<meatMarketValue>0.5</meatMarketValue>
 		</race>
 		<tradeTags>
 			<li>Anty_Bug</li>
