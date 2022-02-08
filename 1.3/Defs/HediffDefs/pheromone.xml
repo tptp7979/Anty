@@ -335,7 +335,7 @@
 				<hediffGivers>
 					<li Class="AntyHediffGiver_Random">
 						<hediff>Antypheromone_ChargeHigh_Proty</hediff>
-						<mtbDays>0.005</mtbDays>
+						<mtbDays>0.01</mtbDays>
 					</li>
 				</hediffGivers>
 			</li>
@@ -741,7 +741,7 @@
 				<hediffGivers>
 					<li Class="AntyHediffGiver_Random">
 						<hediff>Antypheromone_SuicideHigh_Proty</hediff>
-						<mtbDays>0.005</mtbDays>
+						<mtbDays>0.01</mtbDays>
 					</li>
 				</hediffGivers>
 			</li>
