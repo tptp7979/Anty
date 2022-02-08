@@ -146,6 +146,7 @@
 		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
 		<interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
 		<uiIconThing>Meat_Muffalo</uiIconThing>
+		<!-- <autoStripCorpses>false</autoStripCorpses> -->
 		<ingredients>
 		  <li>
 			<filter>
