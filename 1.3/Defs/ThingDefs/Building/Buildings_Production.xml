@@ -323,6 +323,7 @@
 			<li>Mediumcolony</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
@@ -405,6 +406,7 @@
 			<li>Largecolony</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 	 
 	
