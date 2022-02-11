@@ -260,6 +260,7 @@
 			<WorkToBuild>4500</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>-25</Beauty>
+			<Mass>30</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
@@ -324,6 +325,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
 	</ThingDef>
 	
 	<ThingDef ParentName="BuildingBase">
@@ -357,6 +361,7 @@
 			<WorkToBuild>4500</WorkToBuild>
 			<Flammability>0</Flammability>
 			<Beauty>-25</Beauty>
+			<Mass>60</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
@@ -407,6 +412,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
 	</ThingDef>
 	 
 	
