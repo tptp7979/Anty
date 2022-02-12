@@ -830,6 +830,14 @@
 						<original>ExecutedPrisonerInnocent_Horrible</original>
 						<replacer>KnowPrisonerDiedInnocent_B</replacer>
 					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HAR_ButcheredAlien_Abhorrent</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">
+						<original>HAR_ButcheredAlien_Disapproved</original>
+						<replacer>ButcheredHumanlikeCorpse_B</replacer>
+					</li>
 				</replacerList>
 				<restrictedThoughts>
 					<li>NeedOutdoors_B</li>
@@ -936,6 +944,16 @@
 					<li>NotBondedAnimalMaster</li>
 					
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Abhorrent</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent_Opinion</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent</li>
+					
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved_Opinion</li>
 
 					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Abhorrent</li>
