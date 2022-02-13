@@ -167,11 +167,11 @@
 			<points>
 				<li>(10,  1)</li>
 				<li>(700,  1)</li>
-				<li>(1400, 1.5)</li>
-				<li>(2800, 2.1)</li>
-				<li>(4000, 2.2)</li>
-				<li>(5000, 2.4)</li>
-				<li>(6000, 2.6)</li>
+				<li>(2400, 1.5)</li>
+				<li>(3800, 2.1)</li>
+				<li>(5000, 2.2)</li>
+				<li>(6500, 2.4)</li>
+				<li>(8000, 2.6)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<pawnGroupMakers>
