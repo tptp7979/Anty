@@ -424,6 +424,12 @@
 			<li>AT_PlayerFaction</li>
 			<li>AT_PlayerFaction_B</li>
 		</permanentEnemyToEveryoneExcept>
+		<raidCommonalityFromPointsCurve Inherit="false">
+			<points>
+				<li>(10,  0.1)</li>
+				<li>(8000, 0.3)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
 	</FactionDef>
 	
 	<ThingSetMakerDef>
