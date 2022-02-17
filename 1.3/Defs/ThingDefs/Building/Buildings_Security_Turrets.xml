@@ -161,6 +161,7 @@
 				<defaultProjectile>Bullet_RecycleTurret</defaultProjectile>
 				<warmupTime>0</warmupTime>
 				<forcedMissRadius>2.9</forcedMissRadius>
+				<minRange>7.1</minRange>
 				<range>44.9</range>
 				<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
 				<burstShotCount>4</burstShotCount>
