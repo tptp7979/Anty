@@ -52,7 +52,6 @@
 			<layers>
 				<li>Middle</li>
 				<li>AntyCover</li>
-				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -186,6 +185,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_A</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -314,7 +314,6 @@
 			<layers>
 				<li>Middle</li>
 				<li>AntyCover</li>
-				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -533,6 +532,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_C</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -614,7 +614,6 @@
 			<layers>
 				<li>Middle</li>
 				<li>AntyCover</li>
-				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -842,6 +841,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_D</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
