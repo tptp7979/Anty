@@ -118,6 +118,8 @@
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<meatColor>(160,168,139)</meatColor>
 			<meatMarketValue>0.5</meatMarketValue>
+			<thinkTreeMain>Animal</thinkTreeMain>
+			<thinkTreeConstant>ProtyConstant</thinkTreeConstant>
 		</race>
 		<tradeTags>
 			<li>Anty_Bug</li>
@@ -266,5 +268,29 @@
 			<MarketValue>7.0</MarketValue>
 		</statBases>
 	</ThingDef>
+
+	<ThinkTreeDef>
+		<defName>ProtyConstant</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
+				<subNodes>
+					<!-- Flee explosion -->
+					<li Class="JobGiver_FleePotentialExplosion" />
+		
+					<!-- Join auto joinable caravan -->
+					<li Class="ThinkNode_Subtree">
+					<treeDef>JoinAutoJoinableCaravan</treeDef>
+					</li>
+					
+					<!-- Lord directives -->
+					<li Class="ThinkNode_Subtree">
+					<treeDef>LordDutyConstant</treeDef>
+					</li>
+				</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
 	
 </Defs>
