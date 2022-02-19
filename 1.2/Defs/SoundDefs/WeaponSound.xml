@@ -10,7 +10,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g10</clipPath>
+            <clipPath>AntySound/g10</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -31,7 +31,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g02</clipPath>
+            <clipPath>AntySound/g02</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -52,7 +52,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g03</clipPath>
+            <clipPath>AntySound/g03</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -73,7 +73,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g07</clipPath>
+            <clipPath>AntySound/g07</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -109,7 +109,7 @@
       <li>
 		<grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>g01</clipFolderPath>
+            <clipFolderPath>AntySound/g01</clipFolderPath>
           </li>
         </grains>
         <volumeRange>80~82</volumeRange>
@@ -126,7 +126,7 @@
       <li>
 		<grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>g12</clipFolderPath>
+            <clipFolderPath>AntySound/g12</clipFolderPath>
           </li>
         </grains>
         <volumeRange>20~22</volumeRange>
@@ -143,7 +143,7 @@
       <li>
 		<grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>g09</clipFolderPath>
+            <clipFolderPath>AntySound/g09</clipFolderPath>
           </li>
         </grains>
         <volumeRange>30~32</volumeRange>
@@ -174,7 +174,7 @@
         <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Char_B</clipPath>
+            <clipPath>AntySound/Char_B</clipPath>
           </li>
         </grains>      
         <pitchRange>0.99~1.01</pitchRange>
@@ -191,7 +191,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Char_A</clipPath>
+            <clipPath>AntySound/Char_A</clipPath>
           </li>
         </grains>
 		<volumeRange>15~20</volumeRange>
@@ -209,7 +209,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g06</clipPath>
+            <clipPath>AntySound/g06</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -230,7 +230,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g08</clipPath>
+            <clipPath>AntySound/g08</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -251,7 +251,7 @@
         <name>Shot</name>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>g13</clipPath>
+            <clipPath>AntySound/g13</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -275,7 +275,7 @@
       <li>   
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>gSS</clipPath>
+            <clipPath>AntySound/gSS</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -295,7 +295,7 @@
       <li>   
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>gCE</clipPath>
+            <clipPath>AntySound/gCE</clipPath>
           </li>
         </grains>      
         <volumeRange>
