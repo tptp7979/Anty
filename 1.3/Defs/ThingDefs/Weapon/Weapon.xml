@@ -569,7 +569,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 		<generateCommonality>0.3</generateCommonality>
 		<weaponTags>
-			<li>AcidLauncher_A</li>
+			<li>AcidLauncher_B</li>
 			<li>ammo_industrial</li>
 		</weaponTags>
 		<statBases>

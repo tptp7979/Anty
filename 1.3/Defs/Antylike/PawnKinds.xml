@@ -320,6 +320,7 @@
 			<max>2000</max>
 		</apparelMoney>
 		<inventoryOptions>
+			<skipChance>0.5</skipChance>
 			<subOptionsChooseOne>
 			<li>
 				<thingDef>Antypheromone_Charge</thingDef>
@@ -491,7 +492,34 @@
 		</weaponMoney>
 		<weaponTags>
 			<li>AcidLauncher_A</li>
-			<li>AcidRifle_R</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>AT_AP_Additionalarmorplate_A</li>
+			<li>AT_AP_Shooter_A</li>
+			<li>AT_AP_Head_A</li>
+			<!-- <li>AT_AP_Flakvest</li> -->
+		</apparelRequired>
+		<apparelMoney>
+			<min>2000</min>
+			<max>3000</max>
+		</apparelMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AntyArmyBase_RB">
+		<defName>AT_Launcher_B</defName>
+		<label>Anty Launcher Shooter</label>
+		<isFighter>true</isFighter>
+		<combatPower>130</combatPower>
+		<maxGenerationAge>5</maxGenerationAge>
+		<minGenerationAge>2</minGenerationAge>
+		<apparelAllowHeadgearChance>0.85</apparelAllowHeadgearChance>
+		<canBeSapper>true</canBeSapper>
+		<weaponMoney>
+			<min>1700</min>
+			<max>1800</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>AcidLauncher_B</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>AT_AP_Additionalarmorplate_A</li>
@@ -592,7 +620,76 @@
 		</weaponMoney>
 		<weaponTags>
 			<li>hydroheliumion_A</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>AT_AP_Power_A</li>
+			<li>AT_AP_Shooter_A</li>
+			<li>AT_AP_Power_Head_A</li>
+			<li>AT_AP_AdditionalPower_A</li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>3000</min>
+			<max>6000</max>
+		</apparelMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AntyArmyBase_RB">
+		<defName>AT_Power_A_B</defName>
+		<label>Anty Enhanced Ranged Infantry</label>
+		<isFighter>true</isFighter>
+		<combatPower>220</combatPower>
+		<maxGenerationAge>5</maxGenerationAge>
+		<minGenerationAge>2</minGenerationAge>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Ranged_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>
+			<min>2500</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
 			<li>hydroheliumion_B</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>AT_AP_Power_A</li>
+			<li>AT_AP_Shooter_A</li>
+			<li>AT_AP_Power_Head_A</li>
+			<li>AT_AP_AdditionalPower_A</li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>3000</min>
+			<max>6000</max>
+		</apparelMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AntyArmyBase_RB">
+		<defName>AT_Power_A_C</defName>
+		<label>Anty Enhanced Ranged Infantry</label>
+		<isFighter>true</isFighter>
+		<combatPower>220</combatPower>
+		<maxGenerationAge>5</maxGenerationAge>
+		<minGenerationAge>2</minGenerationAge>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categories>
+					<li>ATAmigo_Ranged_Drop</li>
+					<li>ATLarva_Melee_Drop</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>
+			<min>2500</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>hydroheliumion_D</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>AT_AP_Power_A</li>
