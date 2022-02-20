@@ -185,7 +185,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
-				<li>Neck</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_A</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -532,7 +532,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
-				<li>Neck</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_C</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -841,7 +841,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Waist</li>
-				<li>Neck</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_AdditionalPower_D</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
