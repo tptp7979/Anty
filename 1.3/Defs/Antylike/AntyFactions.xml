@@ -185,8 +185,8 @@
 				<li>Siege</li>
 			</disallowedStrategies>
 			<options>
-				<AT_Raid_A>20</AT_Raid_A>
-				<AT_Rifle_A>5</AT_Rifle_A>
+				<AT_Raid_A>75</AT_Raid_A>
+				<AT_Rifle_A>25</AT_Rifle_A>
 			</options> 
 		</li>
 		
@@ -199,13 +199,13 @@
 				<li>ImmediateAttackSappers</li>
 			</disallowedStrategies>
 			<options>
-				<AT_Raid_A>20</AT_Raid_A>
-				<AT_Rifle_A>5</AT_Rifle_A>
-				<AT_Charge_A>5</AT_Charge_A>
+				<AT_Raid_A>50</AT_Raid_A>
+				<AT_Rifle_A>25</AT_Rifle_A>
+				<AT_Charge_A>25</AT_Charge_A>
 			</options> 
 		</li>
 
-			<!-- 정규 -->
+			<!-- 정규 근거리 -->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>30</commonality>
@@ -213,18 +213,54 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Raid_A>5</AT_Raid_A>
-				<AT_Rifle_A>5</AT_Rifle_A>
-				<AT_Charge_A>5</AT_Charge_A>
+				<AT_Raid_A>10</AT_Raid_A>
+				<AT_Rifle_A>10</AT_Rifle_A>
+				<AT_Charge_A>40</AT_Charge_A>
 				<Anty_Commander>5</Anty_Commander>
-				<AT_Sapper_A>2</AT_Sapper_A>
-				<AT_Rifle_B>30</AT_Rifle_B>
-				<AT_Charge_B>15</AT_Charge_B>
-				<AT_Launcher_A>2</AT_Launcher_A>
+				<AT_Charge_B>30</AT_Charge_B>
+				<AT_Launcher_B>5</AT_Launcher_B>
 			</options> 
 		</li>
-		
-			<!-- 정규-화력강화 -->
+
+			<!-- 정규 원거리 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>30</commonality>
+			<maxTotalPoints>5000</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Raid_A>10</AT_Raid_A>
+				<AT_Rifle_A>40</AT_Rifle_A>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Rifle_B>30</AT_Rifle_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
+			</options> 
+		</li>
+
+			<!-- 정규 혼합 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>30</commonality>
+			<maxTotalPoints>5000</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Raid_A>10</AT_Raid_A>
+				<AT_Rifle_A>20</AT_Rifle_A>
+				<AT_Charge_A>20</AT_Charge_A>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Rifle_B>15</AT_Rifle_B>
+				<AT_Charge_B>15</AT_Charge_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
+			</options> 
+		</li>
+
+			<!-- 정규-화력강화 근거리 -->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>20</commonality>
@@ -235,11 +271,45 @@
 				<Anty_Commander>5</Anty_Commander>
 				<AT_Sapper_A>5</AT_Sapper_A>
 				<AT_Sapper_B>5</AT_Sapper_B>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Charge_B>30</AT_Charge_B>
-				<AT_Launcher_A>2</AT_Launcher_A>
+				<AT_Charge_B>80</AT_Charge_B>
+				<AT_Launcher_B>5</AT_Launcher_B>
 			</options> 
 		</li>
+
+			<!-- 정규-화력강화 원거리 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>20</commonality>
+			<maxTotalPoints>7000</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Sapper_B>5</AT_Sapper_B>
+				<AT_Rifle_B>80</AT_Rifle_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
+			</options> 
+		</li>
+
+			<!-- 정규-화력강화 혼합 -->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>20</commonality>
+			<maxTotalPoints>7000</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<Anty_Commander>5</Anty_Commander>
+				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Sapper_B>5</AT_Sapper_B>
+				<AT_Rifle_B>40</AT_Rifle_B>
+				<AT_Charge_B>40</AT_Charge_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
+			</options> 
+		</li>
+
+			<!-- 정규-중앙드랍, 브리칭 -->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>10</commonality>
@@ -253,9 +323,10 @@
 				<Anty_Commander>5</Anty_Commander>
 				<AT_Sapper_A>5</AT_Sapper_A>
 				<AT_Sapper_B>5</AT_Sapper_B>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Charge_B>30</AT_Charge_B>
-				<AT_Launcher_A>2</AT_Launcher_A>
+				<AT_Rifle_B>35</AT_Rifle_B>
+				<AT_Charge_B>40</AT_Charge_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
 				<AT_PP_S>1</AT_PP_S>
 			</options> 
 		</li>
@@ -273,13 +344,13 @@
 			</disallowedStrategies>
 			<options>
 				<Anty_Commander>5</Anty_Commander>
-				<AT_Charge_B>15</AT_Charge_B>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Launcher_A>2</AT_Launcher_A>
+				<AT_Charge_B>20</AT_Charge_B>
+				<AT_Rifle_B>70</AT_Rifle_B>
+				<AT_Launcher_A>5</AT_Launcher_A>
 			</options> 
 		</li>
 		
-			<!-- 전차화 습격 -->
+			<!-- 전차화 습격 1단계 근거리-->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>5</commonality>
@@ -287,55 +358,152 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>5</AT_Power>
-				<AT_Sapper_A>3</AT_Sapper_A>
-				<AT_Sapper_B>1</AT_Sapper_B>
-				<AT_Power_B>5</AT_Power_B>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Launcher_A>3</AT_Launcher_A>
+				<AT_Charge_B>70</AT_Charge_B>
+				<AT_Power_B>20</AT_Power_B>
+				<AT_Launcher_B>5</AT_Launcher_B>
 				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
-		
+
+			<!-- 전차화 습격 1단계 원거리-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>5</commonality>
+			<maxTotalPoints>8500</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Rifle_B>70</AT_Rifle_B>
+				<AT_Power>20</AT_Power>
+				<AT_Launcher_A>5</AT_Launcher_A>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
+			<!-- 전차화 습격 1단계 혼합-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>5</commonality>
+			<maxTotalPoints>8500</maxTotalPoints>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Rifle_B>35</AT_Rifle_B>
+				<AT_Charge_B>35</AT_Charge_B>
+				<AT_Power_B>10</AT_Power_B>
+				<AT_Power>10</AT_Power>
+				<AT_Launcher_B>5</AT_Launcher_B>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
+			<!-- 전차화 습격 2단계 근거리-->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>3</commonality>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power>15</AT_Power>
-				<AT_Sapper_A>5</AT_Sapper_A>
-				<AT_Power_B>15</AT_Power_B>
-				<AT_Rifle_B>10</AT_Rifle_B>
-				<AT_Launcher_A>5</AT_Launcher_A>
+				<AT_Charge_B>20</AT_Charge_B>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Power_A_C>10</AT_Power_A_C>
+				<AT_Power_B>50</AT_Power_B>
+				<AT_Launcher_B>5</AT_Launcher_B>
 				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
-		
+
+			<!-- 전차화 습격 2단계 원거리-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>3</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Rifle_B>10</AT_Rifle_B>
+				<AT_Power>10</AT_Power>
+				<AT_Power_A>50</AT_Power_A>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
+			<!-- 전차화 습격 2단계 혼합-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>3</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Rifle_B>10</AT_Rifle_B>
+				<AT_Power>10</AT_Power>
+				<AT_Power_A>25</AT_Power_A>
+				<AT_Power_A_B>5</AT_Power_A_B>
+				<AT_Power_A_C>5</AT_Power_A_C>
+				<AT_Power_B>25</AT_Power_B>
+				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
+			<!-- 전차화 습격 3단계 근거리-->
 		<li> 
 			<kindDef>Combat</kindDef>
 			<commonality>1</commonality>
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Rifle_B>20</AT_Rifle_B>
-				<AT_Power>5</AT_Power>
-				<AT_Power_A>10</AT_Power_A>
-				<AT_Power_B>10</AT_Power_B>
-				<AT_Power_C>3</AT_Power_C>
-				<AT_Sapper_A>5</AT_Sapper_A>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_B>50</AT_Power_B>
+				<AT_Power_C>5</AT_Power_C>
 				<Anty_Commander>5</Anty_Commander>
 			</options> 
 		</li>
-		
+	
+			<!-- 전차화 습격 3단계 원거리-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>1</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Power_A>50</AT_Power_A>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_C>5</AT_Power_C>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
+			<!-- 전차화 습격 3단계 혼합-->
+		<li> 
+			<kindDef>Combat</kindDef>
+			<commonality>1</commonality>
+			<disallowedStrategies>
+			</disallowedStrategies>
+			<options>
+				<AT_Power_B>25</AT_Power_B>
+				<AT_Power_A>25</AT_Power_A>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_C>5</AT_Power_C>
+				<Anty_Commander>5</Anty_Commander>
+			</options> 
+		</li>
+
 		<li>
 			<kindDef>Settlement</kindDef>
 			<maxTotalPoints>5500</maxTotalPoints>
 			<options>
 				<AT_Rifle_B>10</AT_Rifle_B>
 				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Launcher_B>10</AT_Launcher_B>
 				<AT_Charge_B>50</AT_Charge_B>
-				<AT_SingleUse>5</AT_SingleUse>
+				<AT_SingleUse>10</AT_SingleUse>
 			</options>
 		</li>
 
@@ -343,15 +511,41 @@
 			<kindDef>Settlement</kindDef>
 			<options>
 				<AT_Rifle_B>10</AT_Rifle_B>
-				<AT_Launcher_A>10</AT_Launcher_A>
+				<AT_Launcher_A>5</AT_Launcher_A>
+				<AT_Launcher_B>5</AT_Launcher_B>
 				<AT_Charge_B>10</AT_Charge_B>
 				<AT_Power>5</AT_Power>
 				<AT_Power_A>10</AT_Power_A>
-				<AT_Power_B>50</AT_Power_B>
-				<AT_Power_C>7</AT_Power_C>
+				<AT_Power_A_B>10</AT_Power_A_B>
+				<AT_Power_A_C>10</AT_Power_A_C>
+				<AT_Power_B>10</AT_Power_B>
+				<AT_Power_C>5</AT_Power_C>
 				<Anty_Commander>5</Anty_Commander>
 				<AT_SingleUse>5</AT_SingleUse>
-				<AT_Dreadnought_A>2</AT_Dreadnought_A>
+				<AT_Dreadnought_A>5</AT_Dreadnought_A>
+			</options>
+		</li>
+
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<AT_Power_A_B>20</AT_Power_A_B>
+				<AT_Power_A_C>20</AT_Power_A_C>
+				<AT_Power_B>40</AT_Power_B>
+				<AT_Power_C>10</AT_Power_C>
+				<AT_Dreadnought_A>10</AT_Dreadnought_A>
+			</options>
+		</li>
+
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<AT_Launcher_B>10</AT_Launcher_B>
+				<AT_Power_A>40</AT_Power_A>
+				<AT_Power_A_B>20</AT_Power_A_B>
+				<AT_Power_A_C>20</AT_Power_A_C>
+				<AT_Power_C>5</AT_Power_C>
+				<AT_Dreadnought_A>5</AT_Dreadnought_A>
 			</options>
 		</li>
 		
