@@ -39,7 +39,7 @@
 			</weaponClasses>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMakeableGun_Anty">
+	<ThingDef ParentName="BaseMakeableGun_Anty" Name="AT_hydroheliumion_A">
 		<defName>AT_hydroheliumion_A</defName>
 		<label>Red-Burst Rifle</label>
 		<description>Weapon developed by Anty to face against innately strong or heavily armored enemies.\n\n Unlike the standard acid weapons, this devastating weapon fires Redburst, the Antyacid-Refleum chemical compound.\n\n It is the most standard form of Redburst weapon.</description>
@@ -114,7 +114,7 @@
 		<techLevel>Spacer</techLevel>
 	</ThingDef>
   
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet" Name="Bullethydroheliumion">
 		<defName>Bullethydroheliumion</defName>
 		<label>Red-Burst Bullet</label>
 		<graphicData>
@@ -596,5 +596,135 @@
 			<flyOverhead>true</flyOverhead>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_hydroheliumion_A">
+		<defName>AT_hydroheliumion_D</defName>
+		<label>Refleum gas thrower</label>
+		<description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.</description>
+		<graphicData>
+			<texPath>Things/Weapons/AT_hydroheliumion_D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<soundInteract>hydroheliumion_A</soundInteract>
+		<generateCommonality>0.3</generateCommonality>
+		<weaponTags>
+			<li>hydroheliumion_D</li>
+			<li>ammo_none</li>
+		</weaponTags>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<AntyExoskeleton>40</AntyExoskeleton>
+			<Refleum>55</Refleum>
+			<Uranium>20</Uranium>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+		</costList>
+		<verbs Inherit="false">
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullethydroheliumion_D</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<minRange>4.1</minRange>
+				<range>24.9</range>
+				<burstShotCount>25</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_Gas</soundCast>
+				<soundCastTail>GunTail_Anty_Gas</soundCastTail>
+				<muzzleFlashScale>1</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="Bullethydroheliumion_B">
+		<defName>Bullethydroheliumion_D</defName>
+		<label>Acid Refleum gas</label>
+		<graphicData>
+			<texPath>Things/Weapons/AcidSmoke</texPath>
+			<drawSize>2</drawSize>
+			<color>(60,0,0)</color>
+			<shaderType>TransparentPostLight</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_RangeHediffAnty">
+				<hediff>AT_Damage_Gas</hediff>
+				<range>1.9</range>
+				<severityPerSecond>1.00</severityPerSecond>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<requiresPower>false</requiresPower>
+				<thingToSpawn>Filth_ApproachSmoke_A</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<spawnIntervalRange><min>5</min><max>5</max></spawnIntervalRange>
+				<writeTimeLeftToSpawn>false</writeTimeLeftToSpawn>
+				<showMessageIfOwned>false</showMessageIfOwned>
+			</li>
+		</comps>
+		<projectile Inherit="false">
+			<speed>30</speed>
+			<damageDef>AT_AcidBullet_B</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+		</projectile>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>AT_Damage_Gas</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>AT_Damage_Gas</label>
+		<description>AT_Damage_Gas.</description>
+		<defaultLabelColor>(0.2,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>7</disappearsAfterTicks>
+			</li>
+			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
+				<damageDef>AT_AcidBomb_B</damageDef>
+				<ticksPerDamage>5</ticksPerDamage>
+				<damageAmount>0.3</damageAmount>
+				<endTicks>7</endTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="BaseGas">
+		<defName>Filth_ApproachSmoke_A</defName>
+		<label>Acid Refleum gas</label>
+		<graphicData>
+			<texPath>Things/Weapons/AcidSmoke</texPath>
+			<drawSize>2</drawSize>
+			<color>(60,0,0)</color>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<pathCost>25</pathCost>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+		<gas>
+			<expireSeconds>5~8</expireSeconds>
+			<blockTurretTracking>true</blockTurretTracking>
+			<accuracyPenalty>0.80</accuracyPenalty>
+			<rotationSpeed>50</rotationSpeed>
+		</gas>
 	</ThingDef>
 </Defs>
