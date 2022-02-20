@@ -638,7 +638,7 @@
 				<burstShotCount>25</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_Gas</soundCast>
-				<soundCastTail>GunTail_Anty_Gas</soundCastTail>
+				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>1</muzzleFlashScale>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
