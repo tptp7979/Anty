@@ -370,8 +370,8 @@
             <clipPath>AntySound/Gas</clipPath>
           </li>
         </grains>       
-        <volumeRange>20~25</volumeRange>
-        <pitchRange>1~1.9</pitchRange>
+        <volumeRange>18~20</volumeRange>
+        <pitchRange>0.8~1.9</pitchRange>
       </li>
     </subSounds>
   </SoundDef>
