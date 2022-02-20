@@ -693,13 +693,13 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>7</disappearsAfterTicks>
+				<disappearsAfterTicks>10</disappearsAfterTicks>
 			</li>
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidBomb_B</damageDef>
-				<ticksPerDamage>5</ticksPerDamage>
-				<damageAmount>0.3</damageAmount>
-				<endTicks>7</endTicks>
+				<ticksPerDamage>8</ticksPerDamage>
+				<damageAmount>0.1</damageAmount>
+				<endTicks>10</endTicks>
 			</li>
 		</comps>
 		<stages>
