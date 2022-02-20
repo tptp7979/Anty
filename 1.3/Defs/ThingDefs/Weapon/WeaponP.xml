@@ -660,7 +660,7 @@
 		<comps>
 			<li Class="CompProperties_RangeHediffAnty">
 				<hediff>AT_Damage_Gas</hediff>
-				<range>1.9</range>
+				<range>2.5</range>
 				<severityPerSecond>1.00</severityPerSecond>
 			</li>
 			<li Class="CompProperties_Spawner">
