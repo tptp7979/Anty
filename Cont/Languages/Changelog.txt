@@ -127,3 +127,9 @@ RulePackDef
   ~
   NamerFactionAnty.rulePack.rulesStrings.24
 
+(2022/02/20)
+ThingDef
+  AT_hydroheliumion_D .label .description .tools.0.label
+  Bullethydroheliumion_D .label
+  Filth_ApproachSmoke_A .label
+

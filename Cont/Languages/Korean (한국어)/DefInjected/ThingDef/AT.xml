@@ -211,6 +211,12 @@
   <AT_hydroheliumion_C.tools.0.label>노즐</AT_hydroheliumion_C.tools.0.label>
   <Bullethydroheliumion_C.label>레드버스트탄</Bullethydroheliumion_C.label>
   <Bullethydroheliumion_C_B.label>레드버스트탄</Bullethydroheliumion_C_B.label>
+
+  <AT_hydroheliumion_D.label>리플리움 가스 방사기</AT_hydroheliumion_D.label>
+  <AT_hydroheliumion_D.description>앤티들이 안정적인 전열공격지원을 위해서 개발한 무기입니다, 다른 레드버스트 무기들과는 다르게 메카노이드 들에게는 효과적이지 않습니다.\n\n산화 리플리움 가스는 앤티들에게 해롭지 않지만, 다른 종족들에게는 위협적입니다.</AT_hydroheliumion_D.description>
+  <AT_hydroheliumion_D.tools.0.label>노즐</AT_hydroheliumion_D.tools.0.label>
+  <Bullethydroheliumion_D.label>산화 리플리움 가스</Bullethydroheliumion_D.label>
+  <Filth_ApproachSmoke_A.label>산화 리플리움 가스</Filth_ApproachSmoke_A.label>
   
   <AT_RedHalberd.label>레드버스트 할버드</AT_RedHalberd.label>
   <AT_RedHalberd.description>충격시 레드버스트를 쏟아내는 레드버스트 방출기가 내장된 할버드입니다. 방출기와 직접 연결된 창날에 찔리게 되면 대량의 레드버스트를 주입당할 수 있습니다.\n\n 강력한 EMP기능을 탑재하고 있습니다.</AT_RedHalberd.description>

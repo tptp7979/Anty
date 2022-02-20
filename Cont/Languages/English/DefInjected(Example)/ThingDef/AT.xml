@@ -261,4 +261,9 @@
   <AntyTransitionRefleum_Thing.description>This is Refleum which obtained nutrients and only a few genes from Anty body.\n\nNow it is closer to a living organism than a metal, and if nutrients are supplied, it can be seen as a tumor mass that causes random Transition.</AntyTransitionRefleum_Thing.description>
   <AT_ChargeBomb_Ready_Proty.label>pheromone explosion</AT_ChargeBomb_Ready_Proty.label>
   <AT_SuicideBomb_Ready_Proty.label>pheromone explosion</AT_SuicideBomb_Ready_Proty.label>
+  <AT_hydroheliumion_D.label>Refleum gas thrower</AT_hydroheliumion_D.label>
+  <AT_hydroheliumion_D.description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.</AT_hydroheliumion_D.description>
+  <AT_hydroheliumion_D.tools.0.label>Nozzle</AT_hydroheliumion_D.tools.0.label>
+  <Bullethydroheliumion_D.label>Acid Refleum gas</Bullethydroheliumion_D.label>
+  <Filth_ApproachSmoke_A.label>Acid Refleum gas</Filth_ApproachSmoke_A.label>
 </LanguageData>
