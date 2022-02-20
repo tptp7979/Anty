@@ -647,7 +647,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="Bullethydroheliumion_B">
+	<ThingDef ParentName="BaseBullet">
 		<defName>Bullethydroheliumion_D</defName>
 		<label>Acid Refleum gas</label>
 		<graphicData>
