@@ -601,7 +601,7 @@
 	<ThingDef ParentName="AT_hydroheliumion_A">
 		<defName>AT_hydroheliumion_D</defName>
 		<label>Refleum gas thrower</label>
-		<description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.</description>
+		<description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.\n\n※If used by other races, the user will also take damage.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AT_hydroheliumion_D</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -614,10 +614,10 @@
 			<li>ammo_none</li>
 		</weaponTags>
 		<statBases>
-			<AccuracyTouch>1</AccuracyTouch>
-			<AccuracyShort>1</AccuracyShort>
-			<AccuracyMedium>1</AccuracyMedium>
-			<AccuracyLong>1</AccuracyLong>
+			<AccuracyTouch>0</AccuracyTouch>
+			<AccuracyShort>0</AccuracyShort>
+			<AccuracyMedium>0</AccuracyMedium>
+			<AccuracyLong>0</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
@@ -675,7 +675,7 @@
 		<projectile Inherit="false">
 			<speed>30</speed>
 			<damageDef>AT_AcidBullet_B</damageDef>
-			<damageAmountBase>1</damageAmountBase>
+			<damageAmountBase>0</damageAmountBase>
 			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 		</projectile>

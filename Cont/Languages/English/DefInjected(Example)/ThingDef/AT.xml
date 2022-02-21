@@ -262,7 +262,7 @@
   <AT_ChargeBomb_Ready_Proty.label>pheromone explosion</AT_ChargeBomb_Ready_Proty.label>
   <AT_SuicideBomb_Ready_Proty.label>pheromone explosion</AT_SuicideBomb_Ready_Proty.label>
   <AT_hydroheliumion_D.label>Refleum gas thrower</AT_hydroheliumion_D.label>
-  <AT_hydroheliumion_D.description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.</AT_hydroheliumion_D.description>
+  <AT_hydroheliumion_D.description>It is a weapon developed by Anties to reliably support the front-line. Unlike other Red Burst weapons, it is not effective against Mechanoids.\n\nAcid Refleum gas is not harmful to Anty, but dangerous to other races.\n\n※If used by other races, the user will also take damage.</AT_hydroheliumion_D.description>
   <AT_hydroheliumion_D.tools.0.label>Nozzle</AT_hydroheliumion_D.tools.0.label>
   <Bullethydroheliumion_D.label>Acid Refleum gas</Bullethydroheliumion_D.label>
   <Filth_ApproachSmoke_A.label>Acid Refleum gas</Filth_ApproachSmoke_A.label>
