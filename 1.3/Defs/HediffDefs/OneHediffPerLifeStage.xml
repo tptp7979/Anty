@@ -14,6 +14,7 @@
 			<li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
 				<triggeredHediff>
 					<li>transformationaftereffect_B</li>
+					<li>AT_LarvaLearningAid</li>
 				</triggeredHediff>
 			</li>
 		</comps>
@@ -29,6 +30,30 @@
 				</li>
 			</capMods>
 		</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AT_LarvaLearningAid</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>curiosity</label>
+		<description>Curiosity has increased the learning rate.</description>
+		<defaultLabelColor>(0,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>900000</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<GlobalLearningFactor>0.4</GlobalLearningFactor>
+				</statOffsets>
+			</li>
 		</stages>
 	</HediffDef>
 	
