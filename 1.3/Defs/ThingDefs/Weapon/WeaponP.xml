@@ -675,7 +675,7 @@
 		<projectile Inherit="false">
 			<speed>30</speed>
 			<damageDef>AT_AcidBullet_B</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageAmountBase>1</damageAmountBase>
 			<armorPenetrationBase>0</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 		</projectile>
@@ -698,7 +698,7 @@
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidBomb_B</damageDef>
 				<ticksPerDamage>8</ticksPerDamage>
-				<damageAmount>0.1</damageAmount>
+				<damageAmount>0.3</damageAmount>
 				<endTicks>10</endTicks>
 			</li>
 		</comps>
