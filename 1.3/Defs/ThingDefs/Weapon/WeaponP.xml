@@ -614,10 +614,10 @@
 			<li>ammo_none</li>
 		</weaponTags>
 		<statBases>
-			<AccuracyTouch>0</AccuracyTouch>
-			<AccuracyShort>0</AccuracyShort>
-			<AccuracyMedium>0</AccuracyMedium>
-			<AccuracyLong>0</AccuracyLong>
+			<AccuracyTouch>100</AccuracyTouch>
+			<AccuracyShort>80</AccuracyShort>
+			<AccuracyMedium>40</AccuracyMedium>
+			<AccuracyLong>25</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList  Inherit="false">
@@ -661,7 +661,7 @@
 			<li Class="CompProperties_RangeHediffAnty">
 				<hediff>AT_Damage_Gas</hediff>
 				<range>2.5</range>
-				<severityPerSecond>1.00</severityPerSecond>
+				<severityPerSecond>0.2</severityPerSecond>
 			</li>
 			<li Class="CompProperties_Spawner">
 				<requiresPower>false</requiresPower>
@@ -673,7 +673,7 @@
 			</li>
 		</comps>
 		<projectile Inherit="false">
-			<speed>30</speed>
+			<speed>15</speed>
 			<damageDef>AT_AcidBullet_B</damageDef>
 			<damageAmountBase>0</damageAmountBase>
 			<armorPenetrationBase>0</armorPenetrationBase>
@@ -693,13 +693,13 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>10</disappearsAfterTicks>
+				<disappearsAfterTicks>20</disappearsAfterTicks>
 			</li>
 			<li Class="ContDamAnty.HediffCompProperties_ContinuousDamage">
 				<damageDef>AT_AcidBomb_B</damageDef>
-				<ticksPerDamage>8</ticksPerDamage>
+				<ticksPerDamage>9</ticksPerDamage>
 				<damageAmount>0.3</damageAmount>
-				<endTicks>10</endTicks>
+				<endTicks>20</endTicks>
 			</li>
 		</comps>
 		<stages>
@@ -721,7 +721,7 @@
 		<pathCost>25</pathCost>
 		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
 		<gas>
-			<expireSeconds>5~8</expireSeconds>
+			<expireSeconds>4~6</expireSeconds>
 			<blockTurretTracking>true</blockTurretTracking>
 			<accuracyPenalty>0.80</accuracyPenalty>
 			<rotationSpeed>50</rotationSpeed>
