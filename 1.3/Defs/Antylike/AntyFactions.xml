@@ -456,8 +456,8 @@
 			<disallowedStrategies>
 			</disallowedStrategies>
 			<options>
-				<AT_Power_A_B>10</AT_Power_A_B>
-				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_A_B>30</AT_Power_A_B>
+				<AT_Power_A_C>10</AT_Power_A_C>
 				<AT_Power_B>50</AT_Power_B>
 				<AT_Power_C>5</AT_Power_C>
 				<Anty_Commander>5</Anty_Commander>
@@ -472,8 +472,8 @@
 			</disallowedStrategies>
 			<options>
 				<AT_Power_A>50</AT_Power_A>
-				<AT_Power_A_B>10</AT_Power_A_B>
-				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_A_B>30</AT_Power_A_B>
+				<AT_Power_A_C>10</AT_Power_A_C>
 				<AT_Power_C>5</AT_Power_C>
 				<Anty_Commander>5</Anty_Commander>
 			</options> 
@@ -488,8 +488,8 @@
 			<options>
 				<AT_Power_B>25</AT_Power_B>
 				<AT_Power_A>25</AT_Power_A>
-				<AT_Power_A_B>10</AT_Power_A_B>
-				<AT_Power_A_C>30</AT_Power_A_C>
+				<AT_Power_A_B>30</AT_Power_A_B>
+				<AT_Power_A_C>10</AT_Power_A_C>
 				<AT_Power_C>5</AT_Power_C>
 				<Anty_Commander>5</Anty_Commander>
 			</options> 

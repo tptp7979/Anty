@@ -672,7 +672,7 @@
 		<defName>AT_Power_A_C</defName>
 		<label>Anty Enhanced Ranged Infantry</label>
 		<isFighter>true</isFighter>
-		<combatPower>220</combatPower>
+		<combatPower>300</combatPower>
 		<maxGenerationAge>5</maxGenerationAge>
 		<minGenerationAge>2</minGenerationAge>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
