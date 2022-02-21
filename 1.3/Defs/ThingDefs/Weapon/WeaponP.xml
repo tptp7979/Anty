@@ -609,18 +609,18 @@
 		</graphicData>
 		<soundInteract>hydroheliumion_A</soundInteract>
 		<generateCommonality>0.3</generateCommonality>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>hydroheliumion_D</li>
 			<li>ammo_none</li>
 		</weaponTags>
-		<statBases>
+		<statBases  Inherit="false">
 			<AccuracyTouch>0</AccuracyTouch>
 			<AccuracyShort>0</AccuracyShort>
 			<AccuracyMedium>0</AccuracyMedium>
 			<AccuracyLong>0</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
-		<costList>
+		<costList  Inherit="false">
 			<AntyExoskeleton>40</AntyExoskeleton>
 			<Refleum>55</Refleum>
 			<Uranium>20</Uranium>
