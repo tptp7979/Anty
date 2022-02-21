@@ -634,7 +634,7 @@
 				<defaultProjectile>Bullethydroheliumion_D</defaultProjectile>
 				<warmupTime>3</warmupTime>
 				<minRange>4.1</minRange>
-				<range>24.9</range>
+				<range>14.9</range>
 				<burstShotCount>25</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>ShotAnty_Gas</soundCast>
