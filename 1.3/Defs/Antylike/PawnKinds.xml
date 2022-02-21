@@ -685,7 +685,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<weaponMoney>
-			<min>2400</min>
+			<min>2700</min>
 			<max>3000</max>
 		</weaponMoney>
 		<weaponTags>
