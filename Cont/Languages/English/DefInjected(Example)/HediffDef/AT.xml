@@ -165,4 +165,6 @@
   <AT_Dreadnought_Reborn.description>This Anty will form a cocoon and will soon metamorphosing into a dreadnought. The original Anty will be completely melted away, but some memories and knowledge will be transferred to the dreadnought.\n\nHowever, since the dreadnought is only a form of battle, even that knowledge can be partially utilized.</AT_Dreadnought_Reborn.description>
   <AT_Dreadnought_Reborn_High.label>metamorphosing complete</AT_Dreadnought_Reborn_High.label>
   <AT_Dreadnought_Reborn_High.description>metamorphosing complete.</AT_Dreadnought_Reborn_High.description>
+  <AT_LarvaLearningAid.label>curiosity</AT_LarvaLearningAid.label>
+  <AT_LarvaLearningAid.description>Curiosity has increased the learning rate.</AT_LarvaLearningAid.description>
 </LanguageData>

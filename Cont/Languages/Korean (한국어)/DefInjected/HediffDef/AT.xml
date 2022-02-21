@@ -166,4 +166,7 @@
   <AT_Dreadnought_Reborn.description>이 앤티는 고치를 형성해 곧 드레드노트로 변태할 것입니다. 본래의 앤티는 완전히 녹아 없어지겠지만, 일부의 기억과 지식은 드레드노트에게 이전됩니다.\n\n하지만 드레드노트는 오로지 전투만을 위한 형태이기 때문에 그 지식마저도 일부만 활용할 수 있습니다.</AT_Dreadnought_Reborn.description>
   <AT_Dreadnought_Reborn_High.label>드레드노트 변태 완료</AT_Dreadnought_Reborn_High.label>
   <AT_Dreadnought_Reborn_High.description>드레드노트 변태 완료.</AT_Dreadnought_Reborn_High.description>
+
+  <AT_LarvaLearningAid.label>호기심</AT_LarvaLearningAid.label>
+  <AT_LarvaLearningAid.description>호기심으로 인해 학습 속도가 증가했습니다.</AT_LarvaLearningAid.description>
 </LanguageData>
