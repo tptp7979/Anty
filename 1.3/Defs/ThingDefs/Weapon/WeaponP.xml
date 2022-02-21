@@ -613,7 +613,7 @@
 			<li>hydroheliumion_D</li>
 			<li>ammo_none</li>
 		</weaponTags>
-		<statBases  Inherit="false">
+		<statBases>
 			<AccuracyTouch>0</AccuracyTouch>
 			<AccuracyShort>0</AccuracyShort>
 			<AccuracyMedium>0</AccuracyMedium>
