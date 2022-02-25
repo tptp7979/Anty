@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>2006535182</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/FactionDef[defName="AT_PlayerFaction_B"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+				<li>PColony</li>
+			</value>
+		</match>
+		</Operation>
+</Patch>
