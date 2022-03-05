@@ -1,3 +1,0 @@
-# Anty
-Anty moding
-Start
