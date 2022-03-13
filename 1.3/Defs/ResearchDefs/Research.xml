@@ -410,4 +410,21 @@
 		<discoveredLetterTitle>About: metamorphosis</discoveredLetterTitle>
 		<discoveredLetterText>Now you can surgery to obtain a huge and strong body using Transition Refleum.\n\nSurgery requires Aphid extract, Nutritional jelly, and Transition Refleum.\n\nThe Transition Refleum is can be extracted by Remove Transition Refleum surgery for Increased viability side effects.</discoveredLetterText>
 	</ResearchProjectDef>
+	
+<!-- 	<ResearchProjectDef>
+		<defName>ATdeliciousfriends</defName>
+		<label>Delicious friends</label>
+		<description>Yum!</description>
+		<tab>AntyHiveTech</tab>
+		<baseCost>120</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		  <li>Earlycolony</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tags>
+			<li>AntyHive</li>
+		</tags>
+	</ResearchProjectDef> -->
 </Defs>
