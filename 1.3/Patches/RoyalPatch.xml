@@ -121,14 +121,18 @@
 					</li>
 
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/PawnKindDef[defName="Anty_Commander"]</xpath>
+						<xpath>/Defs/PawnKindDef[defName="Anty_Commander_title"]</xpath>
 						<value>
-							<minTitleRequired>AT_SwarmLord</minTitleRequired>
+							<royalTitleChance>1</royalTitleChance>
+							<titleSelectOne>
+								<li>AT_battalioncommander</li>
+								<li>AT_SwarmLord</li>
+							</titleSelectOne>
 						</value>
 					</li>
 
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/PawnKindDef[defName="AT_PP_S"]</xpath>
+						<xpath>/Defs/PawnKindDef[defName="AT_PP_S_title"]</xpath>
 						<value>
 							<royalTitleChance>0.25</royalTitleChance>
 							<titleSelectOne>
@@ -139,34 +143,25 @@
 					</li>
 
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/PawnKindDef[defName="AT_Launcher_A"]</xpath>
+						<xpath>/Defs/PawnKindDef[defName="AT_Launcher_A_title"]</xpath>
 						<value>
 							<royalTitleChance>0.2</royalTitleChance>
 							<titleSelectOne>
 								<li>AT_platoonleader</li>
 								<li>AT_companycommander</li>
+								<li>AT_battalioncommander</li>
 							</titleSelectOne>
 						</value>
 					</li>
 
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/PawnKindDef[defName="AT_Rifle_A"]</xpath>
+						<xpath>/Defs/PawnKindDef[defName="AT_Rifle_B_title"]</xpath>
 						<value>
 							<royalTitleChance>0.05</royalTitleChance>
 							<titleSelectOne>
 								<li>AT_platoonleader</li>
 								<li>AT_companycommander</li>
-							</titleSelectOne>
-						</value>
-					</li>
-
-					<li Class="PatchOperationAdd">
-						<xpath>/Defs/PawnKindDef[defName="AT_Rifle_B"]</xpath>
-						<value>
-							<royalTitleChance>0.05</royalTitleChance>
-							<titleSelectOne>
-								<li>AT_platoonleader</li>
-								<li>AT_companycommander</li>
+								<li>AT_battalioncommander</li>
 							</titleSelectOne>
 						</value>
 					</li>

@@ -124,7 +124,7 @@
 
 	<!-- 앤티 지휘관 -->
 
-	<PawnKindDef ParentName="AntyBasePawnKind">
+	<PawnKindDef ParentName="AntyBasePawnKind" Name="Anty_Commander">
 		<defName>Anty_Commander</defName>
 		<label>Anty Commander</label>
 		<combatPower>130</combatPower>
@@ -419,7 +419,7 @@
 		</apparelRequired>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="AntyArmyBase_RB">
+	<PawnKindDef ParentName="AntyArmyBase_RB" Name="AT_Rifle_B">
 		<defName>AT_Rifle_B</defName>
 		<label>Anty Ranged infantry</label>
 		<isFighter>true</isFighter>
@@ -477,7 +477,7 @@
 		</apparelMoney>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="AntyArmyBase_RB">
+	<PawnKindDef ParentName="AntyArmyBase_RB" Name="AT_Launcher_A">
 		<defName>AT_Launcher_A</defName>
 		<label>Anty Launcher Shooter</label>
 		<isFighter>true</isFighter>
@@ -819,7 +819,7 @@
 		</inventoryOptions>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="AntyArmyBase_RB">
+	<PawnKindDef ParentName="AntyArmyBase_RB" Name="AT_PP_S">
 		<defName>AT_PP_S</defName>
 		<label>Anty Special diplomat</label>
 		<isFighter>true</isFighter>
@@ -854,6 +854,23 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anty_Commander">
+		<defName>Anty_Commander_title</defName>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AT_PP_S">
+		<defName>AT_PP_S_title</defName>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AT_Launcher_A">
+		<defName>AT_Launcher_A_title</defName>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AT_Rifle_B">
+		<defName>AT_Rifle_B_title</defName>
+		<defaultFactionType>AntyHive_B</defaultFactionType>
 	</PawnKindDef>
 
 </Defs>

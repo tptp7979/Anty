@@ -141,3 +141,9 @@ PawnKindDef
 HediffDef
   AT_LarvaLearningAid .label .description
 
+(2022/03/23)
+PawnKindDef
+  AT_Rifle_B_title  .label
+  AT_PP_S_title .label
+  Anty_Commander_title  .label
+  AT_Launcher_A_title .label
