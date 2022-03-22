@@ -634,6 +634,7 @@
 		<techLevel>Spacer</techLevel>
 		<tickerType>Normal</tickerType>
 		<tradeability>None</tradeability>
+		<relicChance>0</relicChance>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
