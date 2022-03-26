@@ -687,7 +687,8 @@
 	<DamageDef Name="AT_ParaponeraBomb" ParentName="AT_glueBomb">
 			<defName>AT_ParaponeraBomb</defName>
 			<label>Diplomatic needle</label>
-			<explosionCellMote>Mote_HyBlast</explosionCellMote>
+			<explosionCellFleck>PsycastPsychicEffect</explosionCellFleck>
+			<!-- <explosionCellMote>Mote_HyBlast</explosionCellMote> -->
 			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
 			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
 			<soundExplosion>AT_ChainSoundE</soundExplosion>
