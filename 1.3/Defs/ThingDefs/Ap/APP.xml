@@ -688,9 +688,9 @@
 			<defName>AT_ParaponeraBomb</defName>
 			<label>Diplomatic needle</label>
 			<explosionCellFleck>PsycastPsychicEffect</explosionCellFleck>
-			<!-- <explosionCellMote>Mote_HyBlast</explosionCellMote> -->
-			<explosionColorCenter>(0.2, 0.6, 0.2)</explosionColorCenter>
-			<explosionColorEdge>(0.2, 0.6, 0.2)</explosionColorEdge>
+			<explosionCellMote Inherit="false"/>
+			<explosionColorCenter>(0, 0, 0)</explosionColorCenter>
+			<explosionColorEdge>(0, 0, 0)</explosionColorEdge>
 			<soundExplosion>AT_ChainSoundE</soundExplosion>
 			<impactSoundType>Electric</impactSoundType>
 			<additionalHediffs Inherit="False">
