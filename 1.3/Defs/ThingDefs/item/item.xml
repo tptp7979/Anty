@@ -479,4 +479,65 @@
 			<li>Manufactured</li>
 		</thingCategories>
 	</ThingDef>
+
+<!-- 	<ThingDef ParentName="SkyfallerBase">
+		<defName>AT_SKYIncoming</defName>
+		<label>SKY (접근중)</label>
+		<size>(1, 1)</size>
+		<graphicData>
+			<texPath>Things/Weapons/skyfall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(5, 8)</drawSize>
+		</graphicData>
+		<skyfaller>
+			<shadowSize>(2.5, 2.5)</shadowSize>
+			<explosionRadius>5.5</explosionRadius>
+			<explosionDamage>AT_AcidBomb_B</explosionDamage>
+			<explosionDamageFactor>2</explosionDamageFactor>
+			<rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
+			<anticipationSound>AT_MortarRound_Ambient_skyfall</anticipationSound>
+			<anticipationSoundTicks>300</anticipationSoundTicks>
+			<impactSound>fallimpactAnty_A</impactSound>
+		</skyfaller>
+	</ThingDef>
+
+	<SoundDef>
+		<defName>AT_MortarRound_Ambient_skyfall</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapon/Artillery/MortarRound_Ambient</clipFolderPath>
+				</li>
+				</grains>
+				<volumeRange>13.17392~13.17392</volumeRange>
+				<pitchRange>0.95~1.05</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>fallimpactAnty_A</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<name>Shot</name>      
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>AntySound/fallimpact</clipPath>
+			  </li>
+			</grains>      
+			<volumeRange>
+			  <min>20</min>        
+			  <max>30</max>
+			</volumeRange>
+			<pitchRange>0.95~1.05</pitchRange>
+		  </li>
+		</subSounds>
+	  </SoundDef> -->
 </Defs>
