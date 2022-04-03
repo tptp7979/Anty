@@ -63,6 +63,7 @@ This mod
 	<li>Proxyer.DESurgeries.DESurgeriesColor</li>
 	<li>Proxyer.DESurgeries.RBSEonlyColor</li>
 	<li>Proxyer.DESurgeries.RBSEonly</li>
+	<li>automatic.gunplay</li>
   </loadAfter>
   <forceLoadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
@@ -73,6 +74,7 @@ This mod
 	<li>Proxyer.DESurgeries.DESurgeriesColor</li>
 	<li>Proxyer.DESurgeries.RBSEonlyColor</li>
 	<li>Proxyer.DESurgeries.RBSEonly</li>
+	<li>automatic.gunplay</li>
   </forceLoadAfter>
   <incompatibleWith>
 	<li>GhostRolly.Rim73</li>
