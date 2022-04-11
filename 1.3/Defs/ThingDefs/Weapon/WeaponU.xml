@@ -746,8 +746,8 @@
 		</comps>
 		<selectable>true</selectable>
 	</ThingDef>
-
-	<ThingDef ParentName="ApparelBase"><!-- 급조 벙커 -->
+<!-- 급조 벙커 -->
+<!-- 	<ThingDef ParentName="ApparelBase">
 		<defName>AT_Apparel_bunker</defName>
 		<label>Quick bunker Kit</label>
 		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
@@ -961,5 +961,5 @@
 			</li>
 		</comps>
 		<killedLeavings Inherit="false"/>
-	</ThingDef>
+	</ThingDef> -->
 </Defs>
