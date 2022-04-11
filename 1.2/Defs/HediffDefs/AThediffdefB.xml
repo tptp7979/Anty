@@ -175,7 +175,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 				</hediffToNullify>

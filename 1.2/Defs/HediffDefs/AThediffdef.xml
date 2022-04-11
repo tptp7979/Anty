@@ -1136,7 +1136,7 @@ Unauthorized modification, distribution and duplicate upload are prohibited. -->
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				
 				<hediffToApply>AT_Aphidextract-stim</hediffToApply>
 

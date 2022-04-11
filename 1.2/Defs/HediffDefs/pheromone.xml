@@ -11,7 +11,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 				</hediffToNullify>
@@ -222,7 +222,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>Antypheromone_ShootingHigh</li>
@@ -360,7 +360,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 					<li>Antypheromone_ChargeHigh</li>
@@ -498,7 +498,7 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			<li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+			<li Class="MoharHediffs.HeDiffCompProperties_HediffExclusive">
 				<hediffToNullify>
 					<li>AntyLarva_p</li>
 				</hediffToNullify>
