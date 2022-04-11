@@ -335,7 +335,7 @@
 	<tickerType>Normal</tickerType>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase" Name="AT_Barricade_A">
     <defName>AT_Barricade_A</defName>
     <label>Improvised Refleum barricade(3H)</label>
     <description>An improvised cover developed by Anties to protect themselves from the everchanging tide of the battlefield. It dissolves in time.</description>

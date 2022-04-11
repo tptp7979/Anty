@@ -746,4 +746,220 @@
 		</comps>
 		<selectable>true</selectable>
 	</ThingDef>
+
+	<ThingDef ParentName="ApparelBase"><!-- 급조 벙커 -->
+		<defName>AT_Apparel_bunker</defName>
+		<label>Quick bunker Kit</label>
+		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AT_Barricade_A</ThingDef>
+		</descriptionHyperlinks>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>10</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>barricade Shell</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>pop barricade kit</label>
+				<verbClass>Verb_Spawn</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>0.1</warmupTime>
+				<spawnDef>AT_Bulletbarricade</spawnDef>
+				<range>5.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>OrbitalTargeter_Fire</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetable>true</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+			</li>
+		</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>AT_Forwardbase_A</researchPrerequisite>
+			<recipeUsers>
+				<li>AntyCopyTableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>10</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<graphicData>
+			<texPath>Antylike/Apparel/barricade/AT_barricade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+			<statBases>
+				<WorkToMake>2200</WorkToMake>
+				<Mass>3</Mass>
+				<Flammability>0.4</Flammability>
+				<EquipDelay>2</EquipDelay>
+				<AccuracyTouch>1</AccuracyTouch>
+				<AccuracyShort>1</AccuracyShort>
+				<AccuracyMedium>1</AccuracyMedium>
+				<AccuracyLong>1</AccuracyLong>
+			</statBases>
+				<thingCategories>
+					<li>ATApparel</li>
+				</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Antylike/Apparel/barricade/AT_barricade</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<offset>(0,0)</offset>
+					</north>
+					<south>
+						<offset>(0,0)</offset>
+					</south>
+					<east>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(-0.15,0)</offset></hulk>
+						<fat> <offset>(-0.20,0)</offset></fat>
+					</east>
+					<west>
+						<offset>(0,0)</offset>
+						<thin><offset>(0,0)</offset></thin>
+						<hulk><offset>(0.15,0)</offset></hulk>
+						<fat> <offset>(0.20,0)</offset></fat>
+					</west>
+
+					<male>  <scale>(1,1)</scale></male>
+					<female><scale>(1,1)</scale></female>
+					<thin>  <scale>(1,1)</scale></thin>
+					<hulk>  <scale>(1.51,1.51)</scale></hulk>
+					<fat>   <scale>(1.51,1.51)</scale></fat>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_Bulletbunker</defName>
+		<label>bunker Shell</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(0.6, 0.2, 0.2)</color>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_barricadeRadius</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_Barricade_A" Name="AT_Bunker_Ready">
+		<defName>AT_Bunker_Ready</defName>
+		<label>AT_Bunker_Ready</label>
+		<comps Inherit="false">
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.9</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<preExplosionSpawnThingDef>AT_Bunker_Stop</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>15</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuseAnty">
+				<target>AT_Bunker_Ready</target>
+				<radius>0.9</radius>
+			</li>
+		</comps>
+		<killedLeavings Inherit="false">
+			<AT_Bunker_Ready_B>1</AT_Bunker_Ready_B>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_Bunker_Ready" Name="AT_Bunker_Stop">
+		<defName>AT_Bunker_Stop</defName>
+		<label>AT_Bunker_Stop</label>
+		<graphicData>
+			<texPath>Things/Building/Linked/Chblocker_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Barricades</li>
+			</linkFlags>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<comps Inherit="false">
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>30</lifespanTicks>
+			</li>
+		</comps>
+		<killedLeavings Inherit="false"/>
+		<passability>Impassable</passability>
+	</ThingDef>
+	<ThingDef ParentName="AT_Bunker_Ready" Name="AT_Bunker_Ready_B">
+		<defName>AT_Bunker_Ready_B</defName>
+		<label>AT_Bunker_Ready_B</label>
+		<comps Inherit="false">
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>5</lifespanTicks>
+			</li>
+		</comps>
+		<killedLeavings Inherit="false">
+			<AT_Bunker_Ready_C>1</AT_Bunker_Ready_C>
+		</killedLeavings>
+		<passability>Impassable</passability>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_Bunker_Ready" Name="AT_Bunker_Ready_C">
+		<defName>AT_Bunker_Ready_C</defName>
+		<label>AT_Bunker_Ready_C</label>
+		<comps Inherit="false">
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.5</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<damageAmountBase>0</damageAmountBase>
+				<preExplosionSpawnThingDef>AT_Barricade_A</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
+				<wickTicks>15</wickTicks>
+			</li>
+			<li Class="CompProperties_ProximityFuseAnty">
+				<target>AT_Bunker_Ready_C</target>
+				<radius>0.9</radius>
+			</li>
+		</comps>
+		<killedLeavings Inherit="false"/>
+	</ThingDef>
 </Defs>
