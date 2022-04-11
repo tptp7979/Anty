@@ -319,14 +319,14 @@
 		<damageEffecter>Impact_ATAcid_High</damageEffecter>
 	</DamageDef>
 	
-	<!-- <ThingDef ParentName="EtherealThingBase">
+	<ThingDef ParentName="EtherealThingBase">
 		<defName>AntyMeleeExplosion</defName>
 		<label>explosion</label>
 		<thingClass>AntyMelee.AntyMeleeExplosion</thingClass>
 		<tickerType>Normal</tickerType>
 	</ThingDef>
 
-	<ToolCapacityDef>
+	<!-- <ToolCapacityDef>
 		<defName>AntyMeleeExplosion</defName>
 	</ToolCapacityDef>
 	<ManeuverDef>
