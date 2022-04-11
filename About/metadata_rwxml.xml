@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+	<default>
+		<modDependency>
+			<optional>
+				<li>
+					<packageId>erdelf.HumanoidAlienRaces</packageId>
+				</li>
+				<li>
+					<packageId>Ludeon.RimWorld.Royalty</packageId>
+				</li>
+				<li>
+					<packageId>Ludeon.RimWorld.Ideology</packageId>
+				</li>
+				<li>
+					<packageId>Smuffle.HarvestOrgansPostMortem</packageId>
+				</li>
+				<li>
+					<packageId>automatic.gunplay</packageId>
+				</li>
+				<li>
+					<packageId>goudaquiche.MoharFramework</packageId>
+				</li>
+			</optional>
+		</modDependency>
+	</default>
+</Metadata>
