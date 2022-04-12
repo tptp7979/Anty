@@ -773,7 +773,7 @@
 				<verbClass>Verb_Spawn</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>0.1</warmupTime>
-				<spawnDef>AT_Bulletbarricade</spawnDef>
+				<spawnDef>AT_Bunker_Ready</spawnDef>
 				<range>5.9</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>OrbitalTargeter_Fire</soundCast>
@@ -865,29 +865,17 @@
 			</layers>
 		</apparel>
 	</ThingDef>
-	
-	<ThingDef ParentName="AT_SuicideBase">
-		<defName>AT_Bulletbunker</defName>
-		<label>bunker Shell</label>
-		<graphicData>
+
+	<ThingDef ParentName="AT_Barricade_A" Name="AT_Bunker_Ready">
+		<defName>AT_Bunker_Ready</defName>
+		<label>AT_Bunker_Ready</label>
+		<graphicData Inherit="false">
 			<texPath>Things/Weapons/Pan</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.6, 0.2, 0.2)</color>
 			<drawSize>0.5</drawSize>
 		</graphicData>
-		<comps>
-			<li Class="CompProperties_MoteEmitter">
-				<mote>Mote_barricadeRadius</mote>
-				<maintain>True</maintain>
-				<saveKeysPrefix>glow</saveKeysPrefix>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="AT_Barricade_A" Name="AT_Bunker_Ready">
-		<defName>AT_Bunker_Ready</defName>
-		<label>AT_Bunker_Ready</label>
 		<comps Inherit="false">
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>1.9</explosiveRadius>
@@ -901,6 +889,11 @@
 			<li Class="CompProperties_ProximityFuseAnty">
 				<target>AT_Bunker_Ready</target>
 				<radius>0.9</radius>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_barricadeRadius</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
 			</li>
 		</comps>
 		<killedLeavings Inherit="false">
