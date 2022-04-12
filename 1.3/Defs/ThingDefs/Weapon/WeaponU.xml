@@ -757,9 +757,9 @@
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
-				<maxCharges>5</maxCharges>
+				<maxCharges>1</maxCharges>
 				<ammoDef>Refleum</ammoDef>
-				<ammoCountToRefill>10</ammoCountToRefill>
+				<ammoCountToRefill>26</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
@@ -769,7 +769,7 @@
 		</comps>
 		<verbs>
 			<li>
-				<label>pop barricade kit</label>
+				<label>pop bunker kit</label>
 				<verbClass>Verb_Spawn</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>0.1</warmupTime>
@@ -803,11 +803,11 @@
 		</recipeMaker>
 		<costList>
 			<AntyExoskeleton>20</AntyExoskeleton>
-			<Refleum>10</Refleum>
+			<Refleum>26</Refleum>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<graphicData>
-			<texPath>Antylike/Apparel/barricade/AT_barricade</texPath>
+			<texPath>Antylike/Apparel/barricade/AT_bunker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
@@ -960,7 +960,7 @@
 	<!-- 궤도폭격 -->
 	<ThingDef ParentName="SkyfallerBase">
 		<defName>AT_SKYIncoming</defName>
-		<label>SKY (접근중)</label>
+		<label>Anty orbital bombardment</label>
 		<size>(1, 1)</size>
 		<graphicData>
 			<texPath>Things/Weapons/skyfall</texPath>
@@ -1109,7 +1109,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>750</disappearsAfterTicks>
+				<disappearsAfterTicks>400</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>TargetP</stateEffecter>
