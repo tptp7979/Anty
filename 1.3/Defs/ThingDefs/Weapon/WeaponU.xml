@@ -900,6 +900,7 @@
 				<spawnDef>AT_SKYIncoming_Ready</spawnDef>
 				<range>35.9</range>
 				<burstShotCount>1</burstShotCount>
+				<soundAiming>OrbitalTargeter_Aiming</soundAiming>
 				<soundCast>OrbitalTargeter_Fire</soundCast>
 				<onlyManualCast>true</onlyManualCast>
 				<targetParams>
