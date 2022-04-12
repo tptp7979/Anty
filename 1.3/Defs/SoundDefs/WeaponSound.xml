@@ -375,4 +375,43 @@
       </li>
     </subSounds>
   </SoundDef>
+
+  <SoundDef>
+		<defName>AT_MortarRound_Ambient_skyfall</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapon/Artillery/MortarRound_Ambient</clipFolderPath>
+				</li>
+				</grains>
+				<volumeRange>13.17392~13.17392</volumeRange>
+				<pitchRange>0.95~1.05</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>fallimpactAnty_A</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<name>Shot</name>      
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>AntySound/fallimpact</clipPath>
+			  </li>
+			</grains>      
+			<volumeRange>
+			  <min>20</min>        
+			  <max>30</max>
+			</volumeRange>
+			<pitchRange>0.95~1.05</pitchRange>
+		  </li>
+		</subSounds>
+	  </SoundDef>
 </Defs>
