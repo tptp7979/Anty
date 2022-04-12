@@ -923,6 +923,7 @@
 		</graphicData>
 		<tickerType>Normal</tickerType>
 			<statBases>
+				<MarketValue>120</MarketValue>
 				<WorkToMake>2200</WorkToMake>
 				<Mass>1</Mass>
 				<Flammability>0.4</Flammability>
