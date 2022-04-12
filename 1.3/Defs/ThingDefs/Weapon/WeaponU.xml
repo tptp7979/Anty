@@ -874,6 +874,80 @@
 	</ThingDef>
 
 	<!-- 궤도폭격 -->
+	<ThingDef ParentName="ApparelBase">
+		<defName>AT_Apparel_orbitalbombardment</defName>
+		<label>Anty orbital support kit</label>
+		<description>.</description>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<ammoDef>Anty_Recyclecore</ammoDef>
+				<ammoCountToRefill>1</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>barricade Shell</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>call orbital bombardment</label>
+				<verbClass>Verb_Spawn</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>4.25</warmupTime>
+				<spawnDef>AT_SKYIncoming_Ready</spawnDef>
+				<range>35.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>OrbitalTargeter_Fire</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetable>true</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+			</li>
+		</verbs>
+		<recipeMaker Inherit="false"/>
+		<costList>
+			<AntyExoskeleton>20</AntyExoskeleton>
+			<Refleum>50</Refleum>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Anty_Recyclecore>1</Anty_Recyclecore>
+		</costList>
+		<graphicData>
+			<texPath>Antylike/Apparel/barricade/AT_orbitalbombardment</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+			<statBases>
+				<WorkToMake>2200</WorkToMake>
+				<Mass>1</Mass>
+				<Flammability>0.4</Flammability>
+				<EquipDelay>2</EquipDelay>
+				<AccuracyTouch>1</AccuracyTouch>
+				<AccuracyShort>1</AccuracyShort>
+				<AccuracyMedium>1</AccuracyMedium>
+				<AccuracyLong>1</AccuracyLong>
+			</statBases>
+				<thingCategories>
+					<li>ATApparel</li>
+				</thingCategories>
+			<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
 	<ThingDef ParentName="SkyfallerBase">
 		<defName>AT_SKYIncoming</defName>
 		<label>Anty orbital bombardment</label>
