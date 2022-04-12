@@ -747,7 +747,7 @@
 		<selectable>true</selectable>
 	</ThingDef>
 <!-- 급조 벙커 -->
-<!-- 	<ThingDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase">
 		<defName>AT_Apparel_bunker</defName>
 		<label>Quick bunker Kit</label>
 		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
@@ -899,6 +899,7 @@
 		<killedLeavings Inherit="false">
 			<AT_Bunker_Ready_B>1</AT_Bunker_Ready_B>
 		</killedLeavings>
+		<selectable>false</selectable>
 	</ThingDef>
 
 	<ThingDef ParentName="AT_Bunker_Ready" Name="AT_Bunker_Stop">
@@ -954,10 +955,10 @@
 			</li>
 		</comps>
 		<killedLeavings Inherit="false"/>
-	</ThingDef> -->
+	</ThingDef>
 
 	<!-- 궤도폭격 -->
-	<!-- 	<ThingDef ParentName="SkyfallerBase">
+	<ThingDef ParentName="SkyfallerBase">
 		<defName>AT_SKYIncoming</defName>
 		<label>SKY (접근중)</label>
 		<size>(1, 1)</size>
@@ -968,8 +969,8 @@
 			<drawSize>(5, 8)</drawSize>
 		</graphicData>
 		<skyfaller>
-			<shadowSize>(2.5, 2.5)</shadowSize>
-			<explosionRadius>5.5</explosionRadius>
+			<shadowSize>(1, 1)</shadowSize>
+			<explosionRadius>3.9</explosionRadius>
 			<explosionDamage>AT_AcidBomb_B</explosionDamage>
 			<explosionDamageFactor>2</explosionDamageFactor>
 			<rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
@@ -1130,5 +1131,5 @@
 					<becomeVisible>false</becomeVisible>
 				</li>
 			</stages>
-	</HediffDef> -->
+	</HediffDef>
 </Defs>
