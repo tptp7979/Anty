@@ -311,34 +311,6 @@
 				</thingCategories>
 			<generateAllowChance>0</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Antylike/Apparel/barricade/AT_chunk</wornGraphicPath>
-			<wornGraphicData>
-				<renderUtilityAsPack>true</renderUtilityAsPack>
-					<north>
-						<offset>(0,0)</offset>
-					</north>
-					<south>
-						<offset>(0,0)</offset>
-					</south>
-					<east>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(-0.15,0)</offset></hulk>
-						<fat> <offset>(-0.20,0)</offset></fat>
-					</east>
-					<west>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(0.15,0)</offset></hulk>
-						<fat> <offset>(0.20,0)</offset></fat>
-					</west>
-
-					<male>  <scale>(1,1)</scale></male>
-					<female><scale>(1,1)</scale></female>
-					<thin>  <scale>(1,1)</scale></thin>
-					<hulk>  <scale>(1.51,1.51)</scale></hulk>
-					<fat>   <scale>(1.51,1.51)</scale></fat>
-			</wornGraphicData>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<wearPerDay>0</wearPerDay>
@@ -463,34 +435,6 @@
 				</thingCategories>
 			<generateAllowChance>0</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Antylike/Apparel/barricade/AT_barricade</wornGraphicPath>
-			<wornGraphicData>
-				<renderUtilityAsPack>true</renderUtilityAsPack>
-					<north>
-						<offset>(0,0)</offset>
-					</north>
-					<south>
-						<offset>(0,0)</offset>
-					</south>
-					<east>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(-0.15,0)</offset></hulk>
-						<fat> <offset>(-0.20,0)</offset></fat>
-					</east>
-					<west>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(0.15,0)</offset></hulk>
-						<fat> <offset>(0.20,0)</offset></fat>
-					</west>
-
-					<male>  <scale>(1,1)</scale></male>
-					<female><scale>(1,1)</scale></female>
-					<thin>  <scale>(1,1)</scale></thin>
-					<hulk>  <scale>(1.51,1.51)</scale></hulk>
-					<fat>   <scale>(1.51,1.51)</scale></fat>
-			</wornGraphicData>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<wearPerDay>0</wearPerDay>
@@ -826,34 +770,6 @@
 				</thingCategories>
 			<generateAllowChance>0</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Antylike/Apparel/barricade/AT_barricade</wornGraphicPath>
-			<wornGraphicData>
-				<renderUtilityAsPack>true</renderUtilityAsPack>
-					<north>
-						<offset>(0,0)</offset>
-					</north>
-					<south>
-						<offset>(0,0)</offset>
-					</south>
-					<east>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(-0.15,0)</offset></hulk>
-						<fat> <offset>(-0.20,0)</offset></fat>
-					</east>
-					<west>
-						<offset>(0,0)</offset>
-						<thin><offset>(0,0)</offset></thin>
-						<hulk><offset>(0.15,0)</offset></hulk>
-						<fat> <offset>(0.20,0)</offset></fat>
-					</west>
-
-					<male>  <scale>(1,1)</scale></male>
-					<female><scale>(1,1)</scale></female>
-					<thin>  <scale>(1,1)</scale></thin>
-					<hulk>  <scale>(1.51,1.51)</scale></hulk>
-					<fat>   <scale>(1.51,1.51)</scale></fat>
-			</wornGraphicData>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<wearPerDay>0</wearPerDay>
