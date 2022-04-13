@@ -136,6 +136,40 @@
 			</children>
 	</EffecterDef>
 	
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_AT_SkyTarget</defName>
+		<graphicData>
+			<texPath>Things/Mote/AT_SkyTarget</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(1, 0, 0)</color>
+		</graphicData>
+		<thingClass>MoteThrownAttached</thingClass>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<mote>
+			<fadeInTime>0.25</fadeInTime>
+			<solidTime>0</solidTime>
+			<fadeOutTime>0.25</fadeOutTime>
+			<attachedDrawOffset>(0, 0, 0.3)</attachedDrawOffset>
+		</mote>
+	</ThingDef>
+	
+	<EffecterDef>
+		<defName>AT_SkyTarget</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+				<scale>1</scale>
+				<chancePerTick>0.06</chancePerTick>
+				<moteDef>Mote_TargetP</moteDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+				<scale>1</scale>
+				<chancePerTick>0.06</chancePerTick>
+				<moteDef>Mote_AT_SkyTarget</moteDef>
+			</li>
+		</children>
+	</EffecterDef>
 	
 	<ThingDef ParentName="MoteBase">
 		<defName>Mote_Suicidepheromone</defName>

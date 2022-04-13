@@ -1062,10 +1062,10 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>400</disappearsAfterTicks>
+				<disappearsAfterTicks>600</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
-				<stateEffecter>TargetP</stateEffecter>
+				<stateEffecter>AT_SkyTarget</stateEffecter>
 				<severityIndices>0~5</severityIndices>
 			</li>
 			<li Class="MoharHediffs.HediffCompProperties_Spawner">
