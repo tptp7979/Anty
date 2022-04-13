@@ -976,7 +976,7 @@
 		<defName>AT_SKYIncoming_Ready</defName>
 		<label>AT_SKYIncoming_Ready</label>
 		<graphicData>
-			<texPath>Things/Weapons/Pan</texPath>
+			<texPath>Things/Item/pheromone/BB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 			<color>(0.6, 0.2, 0.2)</color>
