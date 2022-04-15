@@ -88,6 +88,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 	
@@ -200,6 +201,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 	
@@ -320,6 +322,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 	
@@ -444,6 +447,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 	
@@ -779,6 +783,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 
@@ -878,7 +883,7 @@
 		<defName>AT_Apparel_orbitalbombardment</defName>
 		<label>Anty orbital support kit</label>
 		<description>It is a device that can send a signal to the Anty fleet waiting in planetary orbit to request an orbital bombardment.\n\nAll targets within range are bombarded, but buildings are not.</description>
-		<techLevel>Spacer</techLevel>
+		<techLevel>Ultra</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
 				<maxCharges>1</maxCharges>
@@ -939,6 +944,7 @@
 					<li>ATApparel</li>
 				</thingCategories>
 			<generateAllowChance>0</generateAllowChance>
+			<generateCommonality>0</generateCommonality>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
@@ -949,6 +955,7 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 	</ThingDef>
 	<ThingDef ParentName="SkyfallerBase">
