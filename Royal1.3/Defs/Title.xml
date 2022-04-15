@@ -18,6 +18,10 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>AntyTransitionRefleum_Thing</thingDef>
 			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AT_Apparel_orbitalbombardment</thingDef>
+				<countRange>-1~2</countRange>
+			</li>
 		</stockGenerators>
 	</TraderKindDef>
 
