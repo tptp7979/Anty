@@ -707,13 +707,13 @@
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
-				<chargeNoun>barricade Shell</chargeNoun>
+				<chargeNoun>T-Bunker Shell</chargeNoun>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
 		<verbs>
 			<li>
-				<label>pop bunker kit</label>
+				<label>pop T-bunker kit</label>
 				<verbClass>Verb_Spawn</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<warmupTime>0.1</warmupTime>
@@ -887,7 +887,7 @@
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
-				<chargeNoun>barricade Shell</chargeNoun>
+				<chargeNoun>Recyclecore</chargeNoun>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>

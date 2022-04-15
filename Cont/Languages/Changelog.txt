@@ -147,3 +147,8 @@ PawnKindDef
   AT_PP_S_title .label
   Anty_Commander_title  .label
   AT_Launcher_A_title .label
+
+(2022/04/15)
+ThingDef
+  AT_Apparel_bunker .label .description .comps.CompReloadable.chargeNoun .verbs.0.label
+  AT_Apparel_orbitalbombardment .label .description .comps.CompReloadable.chargeNoun .verbs.0.label

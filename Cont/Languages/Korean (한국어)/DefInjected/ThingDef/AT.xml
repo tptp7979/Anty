@@ -319,4 +319,14 @@
 
   <AT_ChargeBomb_Ready_Proty.label>페로몬 폭발</AT_ChargeBomb_Ready_Proty.label>
   <AT_SuicideBomb_Ready_Proty.label>페로몬 폭발</AT_SuicideBomb_Ready_Proty.label>
+
+  <AT_Apparel_bunker.label>급조 T-벙커 킷</AT_Apparel_bunker.label>
+  <AT_Apparel_bunker.description>언제 상황이 급변할지 모르는 전장에서 앤티들이 적의 공격으로부터 자신들을 보호하기 위해서 개발된 급조 엄폐물입니다. 시간이 지나면 사라집니다.</AT_Apparel_bunker.description>
+  <AT_Apparel_bunker.comps.CompReloadable.chargeNoun>T-벙커</AT_Apparel_bunker.comps.CompReloadable.chargeNoun>
+  <AT_Apparel_bunker.verbs.0.label>T-벙커 발사</AT_Apparel_bunker.verbs.0.label>
+
+  <AT_Apparel_orbitalbombardment.label>앤티 궤도폭격 킷</AT_Apparel_orbitalbombardment.label>
+  <AT_Apparel_orbitalbombardment.description>행성 궤도에서 대기 중인 앤티 함대에게 궤도 폭격을 요청하는 신호를 보낼 수 있는 장치입니다.\n\n범위 내의 모든 목표는 폭격을 당하지만 건물은 대상이 되지 않습니다.</AT_Apparel_orbitalbombardment.description>
+  <AT_Apparel_orbitalbombardment.comps.CompReloadable.chargeNoun>재활용코어</AT_Apparel_orbitalbombardment.comps.CompReloadable.chargeNoun>
+  <AT_Apparel_orbitalbombardment.verbs.0.label>궤도폭격 유도</AT_Apparel_orbitalbombardment.verbs.0.label>
 </LanguageData>
