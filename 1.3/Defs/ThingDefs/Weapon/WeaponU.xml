@@ -693,7 +693,7 @@
 <!-- 급조 벙커 -->
 	<ThingDef ParentName="ApparelBase">
 		<defName>AT_Apparel_bunker</defName>
-		<label>Quick bunker Kit</label>
+		<label>Quick T-bunker Kit</label>
 		<description>Improvisable field cover that was developed by Anty to protect themselves from the ever-changing battlefield. It disintegrates over time.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AT_Barricade_A</ThingDef>
@@ -877,7 +877,7 @@
 	<ThingDef ParentName="ApparelBase">
 		<defName>AT_Apparel_orbitalbombardment</defName>
 		<label>Anty orbital support kit</label>
-		<description>.</description>
+		<description>It is a device that can send a signal to the Anty fleet waiting in planetary orbit to request an orbital bombardment.\n\nAll targets within range are bombarded, but buildings are not.</description>
 		<techLevel>Spacer</techLevel>
 		<comps>
 			<li Class="CompProperties_Reloadable">
