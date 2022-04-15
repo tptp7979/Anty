@@ -655,7 +655,7 @@
 				<startWickHitPointsPercent>0.99</startWickHitPointsPercent>
 				<wickTicks>350</wickTicks>
 			</li>
-			<li Class="CompProperties_ProximityFuseAnty">
+			<li Class="CompProperties_ProximityFuse">
 				<target>AT_Proty_spawner_Tunnel</target>
 				<radius>1.1</radius>
 			</li>
@@ -680,7 +680,7 @@
 				</spawnablePawnKinds>
 				<lordJob>LordJob_MechanoidsDefend</lordJob>
 				<spawnSound>Tunnel_End</spawnSound>
-				<initialPawnsPoints>70</initialPawnsPoints>
+				<initialPawnsPoints>120</initialPawnsPoints>
 				<maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
 			</li>
 			<li Class="CompProperties_Lifespan">
