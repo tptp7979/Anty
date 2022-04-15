@@ -889,6 +889,7 @@
 				<hotKey>Misc4</hotKey>
 				<chargeNoun>Recyclecore</chargeNoun>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+				<destroyOnEmpty>true</destroyOnEmpty>
 			</li>
 		</comps>
 		<verbs>
