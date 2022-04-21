@@ -939,6 +939,8 @@
 				<AccuracyShort>1</AccuracyShort>
 				<AccuracyMedium>1</AccuracyMedium>
 				<AccuracyLong>1</AccuracyLong>
+				<ArmorRating_Blunt>0</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0</ArmorRating_Sharp>
 			</statBases>
 				<thingCategories>
 					<li>ATApparel</li>
