@@ -110,4 +110,47 @@
 		<texturePath>Things/Building/Linked/AntyFloorTE</texturePath>
   </TerrainDef>
 
+  <TerrainDef Name="DeteriorationFloorA">
+    <defName>DeteriorationFloorA</defName>
+    <label>Acid fungal</label>
+    <description>A floor that has grown mold that spits out acid.It quickly corrodes the material it comes in contact with.</description>
+    <texturePath>Things/Building/Linked/AntyFloorDeterioration_A</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <holdSnow>false</holdSnow>
+    <takeSplashes>false</takeSplashes>
+    <extinguishesFire>false</extinguishesFire>
+    <extraDeteriorationFactor>99</extraDeteriorationFactor>
+    <traversedThought/>
+    <extraNonDraftedPerceivedPathCost>180</extraNonDraftedPerceivedPathCost>
+    <extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
+    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>80</WorkToBuild>
+      <Beauty>-4</Beauty>
+      <FilthMultiplier>0</FilthMultiplier>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <WoodLog>4</WoodLog>
+    </costList>
+    <designationCategory>Antybuilding</designationCategory>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>Mediumcolony</li>
+    </researchPrerequisites>
+  </TerrainDef>
 </Defs>

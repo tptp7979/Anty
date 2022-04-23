@@ -19,4 +19,6 @@
   <AntyfloorTES.label>Tech floor T-Road (D ┬)</AntyfloorTES.label>
   <AntyfloorTW.label>Tech floor T-Road (L ┤)</AntyfloorTW.label>
   <AntyfloorTE.label>Tech floor T-Road (R ├)</AntyfloorTE.label>
+  <DeteriorationFloorA.label>Acid fungal</DeteriorationFloorA.label>
+  <DeteriorationFloorA.description>A floor that has grown mold that spits out acid.It quickly corrodes the material it comes in contact with.</DeteriorationFloorA.description>
 </LanguageData>

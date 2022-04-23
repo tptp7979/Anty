@@ -26,4 +26,6 @@
   <AntyfloorTW.description>대군체 이상의 군체에서 쓰이는 고도의 기술이 담긴 바닥재 입니다. 보행을 보조해 주거나 불을 소화합니다.</AntyfloorTW.description>
   <AntyfloorTE.label>테크 플로어 T길 (우 ├)</AntyfloorTE.label>
   <AntyfloorTE.description>대군체 이상의 군체에서 쓰이는 고도의 기술이 담긴 바닥재 입니다. 보행을 보조해 주거나 불을 소화합니다.</AntyfloorTE.description>
+  <DeteriorationFloorA.label>산성 균사</DeteriorationFloorA.label>
+  <DeteriorationFloorA.description>산성 물질을 뱉어내는 곰팡이를 증식시킨 바닥입니다. 접촉한 물질을 빠른 속도로 부식시킵니다.</DeteriorationFloorA.description>
 </LanguageData>
