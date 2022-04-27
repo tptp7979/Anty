@@ -116,6 +116,7 @@
     <description>A floor that has grown mold that spits out acid.It quickly corrodes the material it comes in contact with.</description>
     <texturePath>Things/Building/Linked/AntyFloorDeterioration_A</texturePath>
     <edgeType>FadeRough</edgeType>
+	<layerable>true</layerable>
     <fertility>0</fertility>
     <avoidWander>true</avoidWander>
     <holdSnow>false</holdSnow>
@@ -126,6 +127,7 @@
     <extraNonDraftedPerceivedPathCost>180</extraNonDraftedPerceivedPathCost>
     <extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
     <burnedDef>BurnedWoodPlankFloor</burnedDef>
+	<constructEffect>ConstructDirt</constructEffect>
     <statBases>
       <Cleanliness>-1</Cleanliness>
       <WorkToBuild>80</WorkToBuild>
