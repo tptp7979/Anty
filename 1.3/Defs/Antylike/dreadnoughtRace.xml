@@ -260,32 +260,8 @@
 			
 			<lifeStageAges>
 			<li>
-				<def>HumanlikeBaby</def>
-				<minAge>0</minAge>
-				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
-				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
-			</li>
-			<li>
-				<def>HumanlikeToddler</def>
-				<minAge>0.25</minAge>
-				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
-				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
-			</li>
-			<li>
-				<def>HumanlikeChild</def>
-				<minAge>0.26</minAge>
-				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
-				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
-			</li>
-			<li>
-				<def>HumanlikeTeenager</def>
-				<minAge>0.28</minAge>
-				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
-				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
-			</li>
-			<li>
 				<def>HumanlikeAdult</def>
-				<minAge>1</minAge>
+				<minAge>0</minAge>
 				<soundWounded>Pawn_Mech_Termite_Wounded</soundWounded>
 				<soundDeath>Pawn_Mech_Termite_Death</soundDeath>
 			</li>
