@@ -87,7 +87,6 @@
 			<li>ATLarva_Melee_Drop</li>
 		</spawnCategories>
 		<forcedHediffs Inherit="False">
-		<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		<li>AntySoldierbirth</li>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
@@ -98,7 +97,6 @@
 			<li>ATLarva_Melee_Drop</li>
 		</spawnCategories>
 		<forcedHediffs Inherit="False">
-		<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		<li>AntySoldierbirth</li>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
