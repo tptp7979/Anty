@@ -461,7 +461,7 @@
 								<bodyTypes>
 								<Thin>(-0.32,0.23)</Thin>
 								</bodyTypes>
-								<layerOffset>-0.4</layerOffset>
+								<layerOffset>-0.25</layerOffset>
 							</east>
 						</offsets>
 					</li>
@@ -1346,7 +1346,7 @@
 			</li>
 			<li>
 				<damageDef>AT_AcidBomb_C</damageDef>
-				<multiplier>0.8</multiplier>
+				<multiplier>0.02</multiplier>
 			</li>
 			<li>
 				<damageDef>Flame</damageDef>
