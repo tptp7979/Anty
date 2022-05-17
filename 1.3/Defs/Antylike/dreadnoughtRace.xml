@@ -20,7 +20,7 @@
 
 			<alienPartGenerator>
 				<borderScale>1</borderScale>
-				<atlasScale>2</atlasScale>
+				<atlasScale>4</atlasScale>
 				<aliencrowntypes><!--머리-->
 					<li>DreadnoughtA</li>
 				</aliencrowntypes><!--머리-->
