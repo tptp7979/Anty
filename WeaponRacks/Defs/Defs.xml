@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_AcidRifle</defName>
+		<thingDef>AT_AcidRifle</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_AcidAssaultRifle</defName>
+		<thingDef>AT_AcidAssaultRifle</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_AcidLineRifle</defName>
+		<thingDef>AT_AcidLineRifle</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_LMG</defName>
+		<thingDef>AT_LMG</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_AcidLauncher</defName>
+		<thingDef>AT_AcidLauncher</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_Combatglue</defName>
+		<thingDef>AT_Combatglue</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_Sickle</defName>
+		<thingDef>AT_Sickle</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>90</rotationHorizontal>
+		<rotationVertical>90</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_Halberd</defName>
+		<thingDef>AT_Halberd</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_Hammer</defName>
+		<thingDef>AT_Hammer</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_AcidCross</defName>
+		<thingDef>AT_AcidCross</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>0</rotationHorizontal>
+		<rotationVertical>0</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_hydroheliumion_A</defName>
+		<thingDef>AT_hydroheliumion_A</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_hydroheliumion_B</defName>
+		<thingDef>AT_hydroheliumion_B</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_hydroheliumion_C</defName>
+		<thingDef>AT_hydroheliumion_C</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_hydroheliumion_D</defName>
+		<thingDef>AT_hydroheliumion_D</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+	<WeaponRacks.WeaponAdjustmentDef>
+		<defName>WeaponRacks_AT_RedHalberd</defName>
+		<thingDef>AT_RedHalberd</thingDef>
+		<sizeFactor>1.0</sizeFactor>
+		<horizontalOffset>0.0</horizontalOffset>
+		<verticalOffset>0.0</verticalOffset>
+		<rotationHorizontal>45</rotationHorizontal>
+		<rotationVertical>45</rotationVertical>
+	</WeaponRacks.WeaponAdjustmentDef>
+
+</Defs>

@@ -21,6 +21,9 @@
 				<li>
 					<packageId>goudaquiche.MoharFramework</packageId>
 				</li>
+				<li>
+					<packageId>Aelanna.WeaponRacks</packageId>
+				</li>
 			</optional>
 		</modDependency>
 	</default>
