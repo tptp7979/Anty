@@ -1146,7 +1146,7 @@
 		<canUseAvoidGrid>false</canUseAvoidGrid>
 		<techLevel>Animal</techLevel>
 		<canSiege>false</canSiege>
-		<!-- <permanentEnemy>true</permanentEnemy> -->
+		<permanentEnemy>true</permanentEnemy>
 		<settlementTexturePath>Icon/AT_Icon_P</settlementTexturePath>
 		<allowedArrivalTemperatureRange>0~60</allowedArrivalTemperatureRange>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
