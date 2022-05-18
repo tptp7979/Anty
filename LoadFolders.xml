@@ -16,6 +16,7 @@
         <li IfModActive="Proxyer.DESurgeries.RBSEonlyColor">DESurgeries</li>
         <li IfModActive="Proxyer.DESurgeries.RBSEonly">DESurgeries</li>
 		<li IfModActive="automatic.gunplay">Gunplay</li>
-		<li IfModActive="Aelanna.WeaponRacks">WeaponRacks</li>
+
+        <li IfModActive="Aelanna.WeaponRacks">WeaponRacks</li>
     </v1.3>
 </loadFolders>

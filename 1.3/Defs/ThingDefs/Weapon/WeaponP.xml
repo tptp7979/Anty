@@ -195,7 +195,7 @@
 		</weaponTags>
 		<statBases>
 			<WorkToMake>43000</WorkToMake>
-			<Mass>12</Mass>
+			<Mass>9.95</Mass>
 		</statBases>
 		<costList>
 			<AntyExoskeleton>100</AntyExoskeleton>
