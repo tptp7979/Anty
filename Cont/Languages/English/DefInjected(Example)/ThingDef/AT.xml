@@ -274,4 +274,8 @@
   <AT_Apparel_orbitalbombardment.description>It is a device that can send a signal to the Anty fleet waiting in planetary orbit to request an orbital bombardment.\n\nAll targets within range are bombarded, but buildings are not.</AT_Apparel_orbitalbombardment.description>
   <AT_Apparel_orbitalbombardment.comps.CompReloadable.chargeNoun>Recyclecore</AT_Apparel_orbitalbombardment.comps.CompReloadable.chargeNoun>
   <AT_Apparel_orbitalbombardment.verbs.0.label>call orbital bombardment</AT_Apparel_orbitalbombardment.verbs.0.label>
+  <Anty_prototype_Wild.label>Wild proty</Anty_prototype_Wild.label>
+  <Anty_prototype_Wild.description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.</Anty_prototype_Wild.description>
+  <Anty_prototype_Wild.tools.0.label>BigJaw</Anty_prototype_Wild.tools.0.label>
+  <Anty_prototype_Wild.tools.1.label>head</Anty_prototype_Wild.tools.1.label>
 </LanguageData>

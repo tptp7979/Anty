@@ -156,3 +156,17 @@ ThingDef
 (2022/04/23)
 TerrainDef
   DeteriorationFloorA .label .description
+
+(2022/05/18)
+PawnKindDef
+  Anty_prototype_Wild .label
+
+ThingDef
+  Anty_prototype_Wild.label .tools.0.label .tools.1.label
+
+FactionDef
+  ProtyHive .label .description .pawnSingular .pawnsPlural .fixedName
+
+TraderKindDef
+  Caravan_Proty .label
+  

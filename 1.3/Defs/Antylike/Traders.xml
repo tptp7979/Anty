@@ -101,5 +101,50 @@
 			<li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
 		</stockGenerators>
 	</TraderKindDef>
+
+	<TraderKindDef Name="Caravan_Proty">
+		<defName>Caravan_Proty</defName>
+		<label>Wild Proty</label>
+		<commonality>10</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>10</min>
+					<max>15</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>
+					<min>30</min>
+					<max>50</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Jade</thingDef>
+				<totalPriceRange>
+					<min>75</min>
+					<max>75</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>BlocksMarble</thingDef>
+				<totalPriceRange>
+					<min>75</min>
+					<max>75</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+		</stockGenerators>
+	</TraderKindDef>
   
 </Defs>

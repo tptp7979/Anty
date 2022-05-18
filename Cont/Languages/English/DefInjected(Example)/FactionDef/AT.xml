@@ -19,4 +19,9 @@
   <AntyHive_B.label>Anty Symbiotic-Hive</AntyHive_B.label>
   <AntyHive_B.description>As the species with genes of ants, they excel at construction and war, especially war of attrition.\n\nThey travel everywhere in space and try to settle any planet with a lifeform, whether sapient or not.\n\nThe scouting Anties land on the surface first, then rapidly construct bases, and send environmental analysis to the hive waiting in the orbit.\n\nOnce the hive obtain the data, they gear up suited for that environment they are to face and drop down to the surface. Then, they start playing out their war.\n\nThis Hive likes to mingle with other Hives. But they don't want to mingle with other races at all.</AntyHive_B.description>
   <AntyHive_B.royalFavorLabel>Medal of Hive</AntyHive_B.royalFavorLabel>
+  <ProtyHive.label>Wild Proty Hive</ProtyHive.label>
+  <ProtyHive.fixedName>Wild Proty Hive</ProtyHive.fixedName>
+  <ProtyHive.description>Wild Proty Hive.</ProtyHive.description>
+  <ProtyHive.pawnSingular>Proty</ProtyHive.pawnSingular>
+  <ProtyHive.pawnsPlural>Proties</ProtyHive.pawnsPlural>
 </LanguageData>
