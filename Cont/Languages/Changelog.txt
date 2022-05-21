@@ -165,7 +165,7 @@ ThingDef
   Anty_prototype_Wild.label .tools.0.label .tools.1.label
 
 FactionDef
-  ProtyHive .label .description .pawnSingular .pawnsPlural .fixedName
+  ProtyHive .label .description .pawnSingular .pawnsPlural .fixedName .leaderTitle
 
 TraderKindDef
   Caravan_Proty .label

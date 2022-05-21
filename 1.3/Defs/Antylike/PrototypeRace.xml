@@ -296,7 +296,7 @@
 	<ThingDef ParentName="ProtrBase">
 		<defName>Anty_prototype_Wild</defName>
 		<label>Wild proty</label>
-		<description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.</description>
+		<description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.\n\nThey are independently evolving individuals outside the sphere of influence of Anties. It's a little smarter than the regular Proty.</description>
 		<comps Inherit="false"/>
 		<race>
 			<intelligence>ToolUser</intelligence>
