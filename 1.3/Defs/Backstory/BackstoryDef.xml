@@ -11,6 +11,10 @@
 				<defName>Plants</defName>
 				<amount>1</amount>
 			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
 		</skillGains>
 		<disallowedTraits>
 				<li>
@@ -51,10 +55,6 @@
 		<slot>Childhood</slot>
 		
 		<skillGains>
-			<li>
-				<defName>Mining</defName>
-				<amount>-2</amount>
-			</li>
 			<li>
 				<defName>Artistic</defName>
 				<amount>3</amount>
@@ -244,10 +244,6 @@
 			<li>
 				<defName>Melee</defName>
 				<amount>4</amount>
-			</li>
-			<li>
-				<defName>Mining</defName>
-				<amount>2</amount>
 			</li>
 		</skillGains>
 		
