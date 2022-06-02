@@ -57,6 +57,7 @@
 			  </li>
 		</comps>
 		<apparel>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<tags>
 				<li>AT_Apparel</li>
 			</tags>
@@ -119,6 +120,7 @@
       </li>
 		</comps>
 		<apparel>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<tags>
 				<li>AT_Gear</li>
 			</tags>
@@ -1048,7 +1050,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<tags>
-				<li>Cape</li>
+				<li>AntyCape</li>
 				<li>AntyCommender</li>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
@@ -1072,7 +1074,7 @@
 		<apparel>
 			<wornGraphicPath>Antylike/Apparel/AT_AP_CommenderCover</wornGraphicPath>
 			<tags Inherit="False">
-				<li>Cape</li>
+				<li>AntyCape</li>
 				<li>AntyCommender</li>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
