@@ -120,6 +120,7 @@
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
+		<biocodeWeaponChance>0.05</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<!-- 앤티 지휘관 -->
@@ -444,6 +445,7 @@
 			<min>1200</min>
 			<max>2500</max>
 		</apparelMoney>
+		<biocodeWeaponChance>0.1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_MB">
@@ -503,6 +505,7 @@
 			<min>2000</min>
 			<max>3000</max>
 		</apparelMoney>
+		<biocodeWeaponChance>0.1</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyArmyBase_RB">
@@ -531,6 +534,7 @@
 			<min>2000</min>
 			<max>3000</max>
 		</apparelMoney>
+		<biocodeWeaponChance>0.1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_R">
@@ -599,6 +603,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
@@ -637,6 +642,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyArmyBase_RB">
@@ -675,6 +681,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyArmyBase_RB">
@@ -713,6 +720,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_MB">
@@ -752,6 +760,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB">
@@ -791,6 +800,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="AntyArmyBase_MB">
@@ -838,6 +848,7 @@
 		<techHediffsRequired>
 			<li MayRequire="Ludeon.RimWorld.Royalty">DeathAcidifier</li>
 		</techHediffsRequired>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="AntyArmyBase_RB" Name="AT_PP_S">
