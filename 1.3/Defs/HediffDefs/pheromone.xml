@@ -853,7 +853,7 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>6.9</explosiveRadius>
+				<explosiveRadius>3.9</explosiveRadius>
 				<explosiveDamageType>AT_AcidBomb_C</explosiveDamageType>
 				<damageAmountBase>350</damageAmountBase>
 				<preExplosionSpawnThingDef>Filth_ApproachSmoke_B</preExplosionSpawnThingDef>
