@@ -21,6 +21,9 @@
 	<weaponClasses>
 		<li>Ultratech</li>
 	</weaponClasses>
+	<comps>
+		<li Class="CompProperties_Biocodable"/>
+	</comps>
   </ThingDef>
 
  <!-- 라이플 -->

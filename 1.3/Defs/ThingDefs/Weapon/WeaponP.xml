@@ -27,6 +27,7 @@
 					<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
 					<minQualityForArtistic>Excellent</minQualityForArtistic>
 				</li>
+				<li Class="CompProperties_Biocodable"/>
 			</comps>
 
 			<descriptionHyperlinks>
