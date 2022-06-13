@@ -368,7 +368,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>300</disappearsAfterTicks>
+				<disappearsAfterTicks>600</disappearsAfterTicks>
 			</li>
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>AT_Shield</stateEffecter>
@@ -380,13 +380,7 @@
 				<minSeverity>0</minSeverity>
 				<statFactors>
 					<IncomingDamageFactor>0</IncomingDamageFactor>
-					<ArmorRating_Blunt>2</ArmorRating_Blunt>
-					<ArmorRating_Sharp>2</ArmorRating_Sharp>
 				</statFactors>
-				<statOffsets>
-					<ArmorRating_Blunt>2</ArmorRating_Blunt>
-					<ArmorRating_Sharp>2</ArmorRating_Sharp>
-				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>
