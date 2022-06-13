@@ -271,4 +271,35 @@
 				</li>
 			</children>
 	</EffecterDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_AT_Acceleration</defName>
+		<graphicData>
+			<texPath>Things/Mote/AT_Acceleration</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<thingClass>MoteThrownAttached</thingClass>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<mote>
+			<fadeInTime>0.25</fadeInTime>
+			<solidTime>0</solidTime>
+			<fadeOutTime>0.25</fadeOutTime>
+			<attachedDrawOffset>(0, 0, 0)</attachedDrawOffset>
+		</mote>
+	</ThingDef>
+
+	<EffecterDef>
+		<defName>AT_Acceleration</defName>
+			<children>
+				<li>
+					<subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+					<scale>1</scale>
+					<chancePerTick>0.15</chancePerTick>
+					<positionRadius>0</positionRadius>
+					<moteDef>Mote_AT_Acceleration</moteDef>
+					<speed>1</speed>
+					<angle>0</angle>
+				</li>
+			</children>
+	</EffecterDef>
 </Defs>

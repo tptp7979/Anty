@@ -73,6 +73,91 @@
 			</tags>
 		</apparel>
 		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<ammoDef>Refleum</ammoDef>
+				<ammoCountToRefill>5</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>acceleration field</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_Spawn</verbClass>
+					<label>pop Acceleration field</label>
+					<hasStandardCommand>true</hasStandardCommand>
+					<warmupTime>0.2</warmupTime>
+					<spawnDef>AT_Accelerationfield</spawnDef>
+					<range>9.9</range>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>OrbitalTargeter_Fire</soundCast>
+					<consumeFuelPerShot>1</consumeFuelPerShot>
+					<onlyManualCast>true</onlyManualCast>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<targetable>true</targetable>
+					<violent>false</violent>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+				</li>
+			</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_Accelerationfield</defName>
+		<label>AT_Accelerationfield</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect_Anty_Acceleration</mote>
+				<emissionInterval>55</emissionInterval>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_Accelerationfield</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
+			<li Class="CompProperties_RangeHediffAnty">
+				<hediff>AT_Acceleration</hediff>
+				<range>2</range>
+				<severityPerSecond>0.2</severityPerSecond>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>300</lifespanTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Mote_IngressbreakerRadius" Name="Mote_Accelerationfield">
+		<defName>Mote_Accelerationfield</defName>
+		<graphicData>
+			<drawSize>2.7</drawSize>
+			<color>(1, 0.8, 0.2, 0.35)</color>
+			<shaderParameters>
+				<_rotationSpeed>0.15</_rotationSpeed>
+			</shaderParameters>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Mote_PsychicConditionCauserEffect">
+		<defName>Mote_PsychicEmanatorEffect_Anty_Acceleration</defName>
+		<graphicData>
+			<shaderParameters>
+				<_distortionIntensity>0.006</_distortionIntensity>
+				<_brightnessMultiplier>1.075</_brightnessMultiplier>
+				<_distortionScale>25</_distortionScale>
+			</shaderParameters>
+			<drawSize>4</drawSize>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef Name="AT_AP_Power_Head_A" ParentName="Anty_HeadgearBase"><!-- 카타글리피스 헬멧 -->
@@ -349,24 +434,76 @@
 		</comps>
 			<verbs>
 				<li>
-					<verbClass>Verb_LaunchProjectileStaticAnty</verbClass>
+					<verbClass>Verb_Spawn</verbClass>
 					<label>pop Physical force neutralization shield</label>
 					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>BulletExecutionerChain</defaultProjectile>
 					<warmupTime>0.2</warmupTime>
+					<spawnDef>AT_Physicalforceneutralizationshield</spawnDef>
 					<range>15.9</range>
 					<burstShotCount>1</burstShotCount>
-					<soundCast>ShotAnty_A</soundCast>
-					<muzzleFlashScale>14</muzzleFlashScale>
+					<soundCast>OrbitalTargeter_Fire</soundCast>
 					<consumeFuelPerShot>1</consumeFuelPerShot>
-					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 					<onlyManualCast>true</onlyManualCast>
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
 					</targetParams>
+					<targetable>true</targetable>
 					<violent>false</violent>
+					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 				</li>
 			</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="AT_SuicideBase">
+		<defName>AT_Physicalforceneutralizationshield</defName>
+		<label>AT_Physicalforceneutralizationshield</label>
+		<graphicData>
+			<texPath>Things/Weapons/Pan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_PsychicEmanatorEffect_Anty_Physical</mote>
+				<emissionInterval>55</emissionInterval>
+			</li>
+			<li Class="CompProperties_MoteEmitter">
+				<mote>Mote_Physicalforceneutralizationshield</mote>
+				<maintain>True</maintain>
+				<saveKeysPrefix>glow</saveKeysPrefix>
+			</li>
+			<li Class="CompProperties_RangeHediffAnty">
+				<hediff>AT_Shield</hediff>
+				<range>2</range>
+				<severityPerSecond>0.2</severityPerSecond>
+			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>300</lifespanTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Mote_IngressbreakerRadius" Name="Mote_Physicalforceneutralizationshield">
+		<defName>Mote_Physicalforceneutralizationshield</defName>
+		<graphicData>
+			<drawSize>2.7</drawSize>
+			<shaderParameters>
+				<_rotationSpeed>0.15</_rotationSpeed>
+			</shaderParameters>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Mote_PsychicConditionCauserEffect">
+		<defName>Mote_PsychicEmanatorEffect_Anty_Physical</defName>
+		<graphicData>
+			<shaderParameters>
+				<_distortionIntensity>0.006</_distortionIntensity>
+				<_brightnessMultiplier>1.075</_brightnessMultiplier>
+				<_distortionScale>25</_distortionScale>
+			</shaderParameters>
+			<drawSize>4</drawSize>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">

@@ -385,4 +385,32 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>AT_Acceleration</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Physical force neutralization shield</label>
+		<description>Physical force neutralization shield.</description>
+		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>600</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>AT_Acceleration</stateEffecter>
+				<severityIndices>0~5</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
 </Defs>
