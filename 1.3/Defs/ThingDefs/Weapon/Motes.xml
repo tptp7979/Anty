@@ -180,6 +180,35 @@
 		</mote>
 	</ThingDef>
 
+
+<!-- 	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>AT_WarmupFleck</defName>
+		<graphicData>
+			<texPath>Things/Mote/AT_SkyTarget</texPath>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MetaOverlays</altitudeLayer>
+		<fadeInTime>0.02</fadeInTime>
+		<solidTime>0.8</solidTime>
+		<fadeOutTime>0.2</fadeOutTime>
+		<growthRate>-2</growthRate>
+	</FleckDef>
+	<EffecterDef>
+		<defName>AT_WarmupFleck</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>
+				<spawnLocType>OnSource</spawnLocType>
+				<fleckDef>AT_WarmupFleck</fleckDef>
+				<initialDelayTicks>20</initialDelayTicks>
+				<speed>0.2</speed>
+				<angle>170~190</angle>
+				<absoluteAngle>true</absoluteAngle>
+			</li>
+		</children>
+	</EffecterDef> -->
+
 <!-- 	<FleckDef ParentName="FleckBase_Thrown">
 		<defName>AntyGasSmoke</defName>
 		<graphicData>
