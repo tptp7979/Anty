@@ -103,6 +103,7 @@
 					<targetable>true</targetable>
 					<violent>false</violent>
 					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<commandIcon>Things/Weapons/Pan</commandIcon>
 				</li>
 			</verbs>
 	</ThingDef>
@@ -450,6 +451,7 @@
 					<targetable>true</targetable>
 					<violent>false</violent>
 					<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+					<commandIcon>Things/Weapons/Pan</commandIcon>
 				</li>
 			</verbs>
 	</ThingDef>
