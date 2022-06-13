@@ -81,7 +81,7 @@
 		<designationCategory>Antybuilding</designationCategory>
 	</ThingDef>
 	
-	<ThingDef ParentName="MoteBase">
+	<ThingDef ParentName="MoteBase" Name="Mote_IngressbreakerRadius">
 		<defName>Mote_IngressbreakerRadius</defName>
 		<mote>
 			<fadeInTime>5</fadeInTime>
