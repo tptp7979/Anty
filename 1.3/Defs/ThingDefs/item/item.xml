@@ -479,4 +479,86 @@
 			<li>Manufactured</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>AT_RandomBox</defName>
+		<label>lump of dirt</label>
+		<description>It is the soil in which the things that the proties cannot eat are put in.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>0.2</Flammability>
+			<MarketValue>500</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/ProtySoilBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Open</useLabel>
+				<useDuration>400</useDuration>
+			</li>
+			<li Class="AntyRandom.CompProperties_AT_RandomBox">
+					<oneTspawn>
+						<li>PsychicEmanator</li>
+						<li>VanometricPowerCell</li>
+						<li>InfiniteChemreactor</li>
+						<li>PsychicAnimalPulser</li>
+						<li>PsychicSoothePulser</li>
+						<li>AIPersonaCore</li>
+						<li>TechprofSubpersonaCore</li>
+						<li>MechSerumResurrector</li>
+						<li>ArchotechEye</li>
+						<li>ArchotechArm</li>
+						<li>ArchotechLeg</li>
+					</oneTspawn>
+					<twoTspawn>
+						<li>MechSerumHealer</li>
+						<li>Apparel_PsychicShockLance</li>
+						<li>Apparel_PsychicInsanityLance</li>
+						<li>Gun_ChargeRifle</li>
+						<li>Gun_ChargeLance</li>
+						<li>Gun_TripleRocket</li>
+						<li>Gun_DoomsdayRocket</li>
+						<li>BionicHeart</li>
+						<li>BionicStomach</li>
+						<li>ChunkSlagSteel</li>
+						<li>ChunkMarble</li>
+						<li>BlocksMarble</li>
+					</twoTspawn>
+					<threeTspawn>
+						<li>ThrumboHorn</li>
+						<li>ElephantTusk</li>
+						<li>MedicineUltratech</li>
+						<li>Apparel_SmokepopBelt</li>
+						<li>Apparel_ShieldBelt</li>
+						<li>Gun_ChargeRifle</li>
+						<li>Gun_ChargeLance</li>
+						<li>BionicEye</li>
+						<li>BionicArm</li>
+						<li>BionicLeg</li>
+						<li>BionicSpine</li>
+						<li>BionicHeart</li>
+						<li>BionicStomach</li>
+						<li>BionicEar</li>
+						<li>BionicTongue</li>
+						<li>ChunkSlagSteel</li>
+						<li>ChunkMarble</li>
+						<li>BlocksMarble</li>
+					</threeTspawn>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+	</ThingDef>
 </Defs>

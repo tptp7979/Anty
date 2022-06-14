@@ -336,4 +336,7 @@
   <Anty_prototype_Wild.description>프로젝트 초기에 만들어졌던 앤티들의 조상입니다. 현재의 앤티들과는 달리 인간보다는 개미에 더 가까우며 그만큼 지능이 떨어져 자세한 지시를 이해할 수 없습니다.\n\n앤티들이 실험실을 탈출할 무렵에 페로몬에 이끌려 군체에 합류하게 되었습니다. 앤티들이 의도한 것은 아니었지만 앤티들은 프로티들이 강아지 같고 맛있다며 좋아했습니다.\n\n프로티의 신장은 평균 95cm로 인간형, 개미형 모두 동일합니다.\n\n앤티들의 영향권에서 벗어나, 독자적으로 진화중인 개체입니다. 일반적인 프로티보다 조금 더 똑똑합니다.</Anty_prototype_Wild.description>
   <Anty_prototype_Wild.tools.0.label>큰 턱</Anty_prototype_Wild.tools.0.label>
   <Anty_prototype_Wild.tools.1.label>머리</Anty_prototype_Wild.tools.1.label>
+
+  <AT_RandomBox.label>흙뭉치</AT_RandomBox.label>
+  <AT_RandomBox.description>프로티들이 먹을 수 없는 물건을 넣어둔 흙뭉치입니다.</AT_RandomBox.description>
 </LanguageData>

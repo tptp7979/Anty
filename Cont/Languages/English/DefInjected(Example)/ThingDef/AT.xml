@@ -284,4 +284,7 @@
   <Anty_prototype_Wild.description>An ancestor of Anties in earlier stage of the project. Unlike the Anties, they are closer to ants than human, which lacks intelligence to recieve delicate commands.\n\nBy the time the Anties escaped from the lab, they were drawn to the Hive by pheromones. This wasn't intentional but Anties are liked them, saying they were like a puppy And delicious.\n\nProty's average height are 95cm, human type and ant type are same.\n\nThey are independently evolving individuals outside the sphere of influence of Anties. It's a little smarter than the regular Proty.</Anty_prototype_Wild.description>
   <Anty_prototype_Wild.tools.0.label>BigJaw</Anty_prototype_Wild.tools.0.label>
   <Anty_prototype_Wild.tools.1.label>head</Anty_prototype_Wild.tools.1.label>
+  <AT_RandomBox.label>lump of dirt</AT_RandomBox.label>
+  <AT_RandomBox.description>It is the soil in which the things that the proties cannot eat are put in.</AT_RandomBox.description>
+
 </LanguageData>

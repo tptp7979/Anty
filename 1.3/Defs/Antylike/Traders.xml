@@ -135,6 +135,13 @@
 					<max>75</max>
 				</totalPriceRange>
 			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AT_RandomBox</thingDef>
+				<totalPriceRange>
+					<min>-2</min>
+					<max>5</max>
+				</totalPriceRange>
+			</li>
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
