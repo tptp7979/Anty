@@ -388,8 +388,8 @@
 	<HediffDef>
 		<defName>AT_Acceleration</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>Physical force neutralization shield</label>
-		<description>Physical force neutralization shield.</description>
+		<label>Acceleration Aura</label>
+		<description>Acceleration Aura.</description>
 		<defaultLabelColor>(0.7,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>

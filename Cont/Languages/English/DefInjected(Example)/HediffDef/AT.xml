@@ -167,4 +167,6 @@
   <AT_Dreadnought_Reborn_High.description>metamorphosing complete.</AT_Dreadnought_Reborn_High.description>
   <AT_LarvaLearningAid.label>curiosity</AT_LarvaLearningAid.label>
   <AT_LarvaLearningAid.description>Curiosity has increased the learning rate.</AT_LarvaLearningAid.description>
+  <AT_Acceleration.label>Acceleration Aura</AT_Acceleration.label>
+  <AT_Acceleration.description>Acceleration Aura.</AT_Acceleration.description>
 </LanguageData>

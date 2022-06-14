@@ -170,3 +170,12 @@ FactionDef
 TraderKindDef
   Caravan_Proty .label
   
+(2022/06/14)
+ThingDef
+  AT_AP_Power_A .comps.CompReloadable.chargeNoun .verbs.0.label
+  AT_AP_Power_B .comps.CompReloadable.chargeNoun .verbs.0.label
+  AT_AP_Power_C .comps.CompReloadable.chargeNoun
+  AT_AP_Power_D .comps.CompReloadable.chargeNoun
+
+HediffDef
+  AT_Acceleration .label .description

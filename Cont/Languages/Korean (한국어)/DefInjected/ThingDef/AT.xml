@@ -59,7 +59,8 @@
   <AT_AP_Power_Head_A.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_A.description>
   <AT_AP_AdditionalPower_A.label>앤티 카타글리피스 사이드아머</AT_AP_AdditionalPower_A.label>
   <AT_AP_AdditionalPower_A.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_A.description>
-  
+  <AT_AP_Power_A.comps.CompReloadable.chargeNoun>가속장</AT_AP_Power_A.comps.CompReloadable.chargeNoun>
+  <AT_AP_Power_A.verbs.0.label>가속장 발사</AT_AP_Power_A.verbs.0.label>
   
   <AT_AP_Power_B.label>앤티 카타글리피스 커멘더 아머</AT_AP_Power_B.label>
   <AT_AP_Power_B.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_B.description>
@@ -67,7 +68,8 @@
   <AT_AP_Power_Head_B.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복 헬멧입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.</AT_AP_Power_Head_B.description>
   <AT_AP_AdditionalPower_B.label>앤티 카타글리피스 커멘더 사이드아머</AT_AP_AdditionalPower_B.label>
   <AT_AP_AdditionalPower_B.description>앤티들이 자신들의 약점인 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동합니다.</AT_AP_AdditionalPower_B.description>
-  
+  <AT_AP_Power_B.comps.CompReloadable.chargeNoun>가속장</AT_AP_Power_B.comps.CompReloadable.chargeNoun>
+  <AT_AP_Power_B.verbs.0.label>가속장 발사</AT_AP_Power_B.verbs.0.label>
   
   <AT_AP_Power_C.label>앤티 디노포네라 아머</AT_AP_Power_C.label>
   <AT_AP_Power_C.description>앤티들이 자신들의 약점인 독과 불에 대응하기 위해서 개발된 강화복입니다. 리플리움을 기반으로 한 다수의 방열, 단열판이 온도에 따라 작동하며 체내에 들어오는 독성 물질을 정화합니다. 하지만 여전히 식중독에는 걸립니다.\n\n 두터운 장갑 때문에 이동이 불편하지만 모든 피해를 흡수하는 보호막을 전개할 수 있습니다.</AT_AP_Power_C.description>

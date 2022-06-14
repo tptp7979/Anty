@@ -74,12 +74,16 @@
   <AT_AP_CO_B.description>A Cloak worn by Anty commanders to show the class distinction. It lacks the ability to protect the user, but it still provides some protection from hot and cold weather.</AT_AP_CO_B.description>
   <AT_AP_Power_A.label>Anty Cataglyphis armor</AT_AP_Power_A.label>
   <AT_AP_Power_A.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt has a fire control system to reduce aiming time.</AT_AP_Power_A.description>
+  <AT_AP_Power_A.comps.CompReloadable.chargeNoun>Acceleration field</AT_AP_Power_A.comps.CompReloadable.chargeNoun>
+  <AT_AP_Power_A.verbs.0.label>pop Acceleration field</AT_AP_Power_A.verbs.0.label>
   <AT_AP_Power_Head_A.label>Anty Cataglyphis helmet</AT_AP_Power_Head_A.label>
   <AT_AP_Power_Head_A.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_A.description>
   <AT_AP_AdditionalPower_A.label>Anty Cataglyphis Additional armor</AT_AP_AdditionalPower_A.label>
   <AT_AP_AdditionalPower_A.description>A powered helmat that is developed to compensate for their weakness against fire. The refleum radiant panels and insulation panels work depending on the surroundings.</AT_AP_AdditionalPower_A.description>
   <AT_AP_Power_B.label>Anty Cataglyphis Commender armor</AT_AP_Power_B.label>
   <AT_AP_Power_B.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_B.description>
+  <AT_AP_Power_B.comps.CompReloadable.chargeNoun>Acceleration field</AT_AP_Power_B.comps.CompReloadable.chargeNoun>
+  <AT_AP_Power_B.verbs.0.label>pop Acceleration field</AT_AP_Power_B.verbs.0.label>
   <AT_AP_Power_Head_B.label>Anty Cataglyphis Commender helmet</AT_AP_Power_Head_B.label>
   <AT_AP_Power_Head_B.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_B.description>
   <AT_AP_AdditionalPower_B.label>Anty Cataglyphis Commender Additional armor</AT_AP_AdditionalPower_B.label>
@@ -87,6 +91,7 @@
   <AT_AP_Power_C.label>Anty Dinoponera armor</AT_AP_Power_C.label>
   <AT_AP_Power_C.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nAlthough it is difficult to move due to its thick armor, it can deploy a shield that absorbs all damage.</AT_AP_Power_C.description>
   <AT_AP_Power_C.verbs.0.label>pop Physical force neutralization shield</AT_AP_Power_C.verbs.0.label>
+  <AT_AP_Power_C.comps.CompReloadable.chargeNoun>Physical force neutralization shield</AT_AP_Power_C.comps.CompReloadable.chargeNoun>
   <AT_AP_Power_Head_C.label>Anty Dinoponera helmet</AT_AP_Power_Head_C.label>
   <AT_AP_Power_Head_C.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_C.description>
   <AT_AP_AdditionalPower_C.label>Anty Dinoponera Additional armor</AT_AP_AdditionalPower_C.label>
@@ -94,6 +99,7 @@
   <AT_AP_Power_D.label>Anty Paraponera armor</AT_AP_Power_D.label>
   <AT_AP_Power_D.description>A powered armor that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.\n\nIt can disarm the enemy.</AT_AP_Power_D.description>
   <AT_AP_Power_D.verbs.0.label>pop Diplomatic needle</AT_AP_Power_D.verbs.0.label>
+  <AT_AP_Power_D.comps.CompReloadable.chargeNoun>Diplomatic needle</AT_AP_Power_D.comps.CompReloadable.chargeNoun>
   <AT_BulletParaponeraLauncher.label>Diplomatic needle</AT_BulletParaponeraLauncher.label>
   <AT_AP_Power_Head_D.label>Anty Paraponera helmet</AT_AP_Power_Head_D.label>
   <AT_AP_Power_Head_D.description>A powered helmat that is developed to compensate for their weakness against fire and toxin. The refleum radiant panels and insulation panels work depending on the surroundings, and purifies the toxins entering the body. It still won't prevent food poisoning.</AT_AP_Power_Head_D.description>
