@@ -317,4 +317,98 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
+
+	<HediffDef>
+		<defName>AT_Proty_Reborn</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		
+		<description>???</description>
+		
+		<label>???</label>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="MoharHediffs.HediffCompProperties_RandySpawnUponDeath">
+				<settings>
+					<things>
+						<li>
+							<pawnKindToSpawn>Anty_prototype_Wild</pawnKindToSpawn>
+							<copyParent>
+								<name>false</name>
+								<pawnKind>false</pawnKind>
+								<age>false</age>
+								<gender>false</gender>
+
+								<melanin>false</melanin>
+								<skinColorChannel>false</skinColorChannel>
+								<bodyType>false</bodyType>
+								<crownType>false</crownType>
+								<hair>false</hair>
+								<hairColor>false</hairColor>
+
+								<hediff>false</hediff>
+
+								<childBS>false</childBS>
+								<adultBS>false</adultBS>
+
+								<skills>false</skills>
+								<passions>false</passions>
+								<traits>false</traits>
+							</copyParent>
+
+							<redressNewPawn>
+								<destroyApparel>true</destroyApparel>
+								<destroyEquipment>true</destroyEquipment>
+								<destroyInventory>true</destroyInventory>
+							</redressNewPawn>
+
+							<faction>
+								<li>
+									<inheritedFaction>true</inheritedFaction>
+								</li>
+							</faction>
+
+						</li>
+					</things>
+					<defaultSettings>
+						<stack>
+							<spawnCount>3</spawnCount>
+						</stack>
+						<filth>
+							<filthDef>Filth_Slime</filthDef>
+							<filthNum>10~12</filthNum>
+							<filthRadius>1~2</filthRadius>
+						</filth>
+					</defaultSettings>
+				</settings>
+
+				<redressParent>
+					<destroyCorpse>false</destroyCorpse>
+					<strip>false</strip>
+				</redressParent>
+
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+
+				<debug>true</debug>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<becomeVisible>true</becomeVisible>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.8</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>3</HungerRateMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

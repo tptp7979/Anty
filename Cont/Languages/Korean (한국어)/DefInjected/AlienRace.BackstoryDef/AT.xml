@@ -55,4 +55,8 @@
   <AT_DreadnoughtBackStory_B.title>드레드노트</AT_DreadnoughtBackStory_B.title>
   <AT_DreadnoughtBackStory_B.titleShort>드레드노트</AT_DreadnoughtBackStory_B.titleShort>
   <AT_DreadnoughtBackStory_B.baseDescription>앤티들이 메카노이드를 보고 따라만든 생물병기입니다.\n\n극도로 발달한 군체만이 드레드노트를 가지고 있으며 주로 군체의 최후방 방어선에 배치됩니다.\n\n직사요격 기능을 탑재하고 있는데, 기존의 직사요격과는 달리 안 밖으로 향하는 모든 공격을 차단합니다.\n\n만약 드레드노트들이 최전방에서 보이기 시작했다면, 전쟁놀이는 끝났다는 뜻입니다.</AT_DreadnoughtBackStory_B.baseDescription>
+
+  <Proty_Doll.title>야생 프로티 인형</Proty_Doll.title>
+  <Proty_Doll.titleShort>야생 프로티</Proty_Doll.titleShort>
+  <Proty_Doll.baseDescription>[PAWN_nameDef] 은(는) 야생을 떠돌다가 야생 프로티 군체에 합류했습니다.</Proty_Doll.baseDescription>
 </LanguageData>

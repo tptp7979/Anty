@@ -473,4 +473,33 @@
 			<li>ATAmigo_Commander</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Proty_Doll</defName>
+		<title>Wild Proty Doll</title>
+		<titleShort>Wild Proty</titleShort>
+		<baseDescription>[PAWN_nameDef] is Wandering through the wilds, joined the Wild Proty Hive.</baseDescription>
+		<slot>Adulthood</slot>
+		
+		<skillGains>
+		</skillGains>
+
+		<forcedHediffs>
+			<li>AT_Proty_Reborn</li>
+		</forcedHediffs>
+		
+		<forcedTraits>
+		</forcedTraits>
+		
+		<workDisables>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Cooking</li>
+		</workDisables>
+		
+		<spawnCategories>
+			<li>Proty_Doll</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
 </Defs>

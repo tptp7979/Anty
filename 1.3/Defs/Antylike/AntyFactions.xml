@@ -1164,14 +1164,14 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<Anty_prototype_Wild>1000</Anty_prototype_Wild>
-					<Tribal_ChiefMelee>1</Tribal_ChiefMelee>
+					<Tribal_Proty>1</Tribal_Proty>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
 					<Anty_prototype_Wild>100</Anty_prototype_Wild>
-					<Tribal_Trader>1</Tribal_Trader>
+					<Tribal_Proty>1</Tribal_Proty>
 				</options>
 			</li>
 			
@@ -1179,16 +1179,13 @@
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<Anty_prototype_Wild>100</Anty_prototype_Wild>
-					<Tribal_Trader>1</Tribal_Trader>
+					<Tribal_Proty>1</Tribal_Proty>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 					<traders>
-						<RB_SubOfficer MayRequire="RunneLatki.RabbieRaceMod">1</RB_SubOfficer>
-						<Moyo_BottomCivilan MayRequire="Nemonian.MY">1</Moyo_BottomCivilan>
-						<RatkinMerchant MayRequire="Solaris.RatkinRaceMod">1</RatkinMerchant>
-						<Tribal_Trader>1</Tribal_Trader>
+						<Tribal_Proty>1</Tribal_Proty>
 					</traders>
 					<carriers>
 						<Elephant>6</Elephant>

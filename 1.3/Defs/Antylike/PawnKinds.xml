@@ -905,4 +905,29 @@
 		<defaultFactionType>AntyHive_B</defaultFactionType>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="Tribal_Hunter">
+		<defName>Tribal_Proty</defName>
+		<label>Tribal Proty Doll</label>
+		<trader>true</trader>
+		<factionLeader>true</factionLeader>
+		<apparelRequired Inherit="False">
+			<li>Apparel_TribalHeaddress</li>
+		</apparelRequired>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>9~15</initialResistanceRange>
+		<backstoryFiltersOverride Inherit="false">
+			<li>
+				<categoriesAdulthood>
+					<li>Proty_Doll</li>
+				</categoriesAdulthood>
+			</li>
+			<li>
+				<categoriesChildhood>
+					<li>Tribal</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+		<defaultFactionType>ProtyHive</defaultFactionType>
+	</PawnKindDef>
+
 </Defs>

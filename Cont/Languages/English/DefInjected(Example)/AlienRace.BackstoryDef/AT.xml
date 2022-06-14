@@ -49,10 +49,14 @@
   <Anty_Amigo_B_Commander.titleShort>Commander</Anty_Amigo_B_Commander.titleShort>
   <Anty_Amigo_B_Commander.baseDescription>[PAWN_nameDef] is a commander.\n\nTo command the hive's military, they are equipped with strong pheromone glands. This property allows them to give more commands with higher accuracy, unlike other entities.</Anty_Amigo_B_Commander.baseDescription>
 
-  <AT_DreadnoughtBackStory.title>Dreadnought</AT_DreadnoughtBackStory.title><!-- change -->
-  <AT_DreadnoughtBackStory.titleShort>Dreadnought</AT_DreadnoughtBackStory.titleShort><!-- change -->
-  <AT_DreadnoughtBackStory.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory.baseDescription><!-- change -->
-  <AT_DreadnoughtBackStory_B.title>Dreadnought</AT_DreadnoughtBackStory_B.title><!-- change -->
-  <AT_DreadnoughtBackStory_B.titleShort>Dreadnought</AT_DreadnoughtBackStory_B.titleShort><!-- change -->
-  <AT_DreadnoughtBackStory_B.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory_B.baseDescription><!-- change -->
+  <AT_DreadnoughtBackStory.title>Dreadnought</AT_DreadnoughtBackStory.title>
+  <AT_DreadnoughtBackStory.titleShort>Dreadnought</AT_DreadnoughtBackStory.titleShort>
+  <AT_DreadnoughtBackStory.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory.baseDescription>
+  <AT_DreadnoughtBackStory_B.title>Dreadnought</AT_DreadnoughtBackStory_B.title>
+  <AT_DreadnoughtBackStory_B.titleShort>Dreadnought</AT_DreadnoughtBackStory_B.titleShort>
+  <AT_DreadnoughtBackStory_B.baseDescription>They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles. \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.</AT_DreadnoughtBackStory_B.baseDescription>
+
+  <Proty_Doll.title>Wild Proty Doll</Proty_Doll.title>
+  <Proty_Doll.titleShort>Wild Proty</Proty_Doll.titleShort>
+  <Proty_Doll.baseDescription>[PAWN_nameDef] is Wandering through the wilds, joined the Wild Proty Hive.</Proty_Doll.baseDescription>
 </LanguageData>

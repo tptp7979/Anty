@@ -179,3 +179,9 @@ ThingDef
 
 HediffDef
   AT_Acceleration .label .description
+
+PawnKindDef
+  Tribal_Proty .label
+
+BackstoryDef
+  Proty_Doll .title .titleShort .baseDescription
