@@ -59,4 +59,8 @@
   <Proty_Doll.title>Wild Proty Doll</Proty_Doll.title>
   <Proty_Doll.titleShort>Wild Proty</Proty_Doll.titleShort>
   <Proty_Doll.baseDescription>[PAWN_nameDef] is Wandering through the wilds, joined the Wild Proty Hive.</Proty_Doll.baseDescription>
+
+  <Proty_Doll_B.title>Wild Proty Doll</Proty_Doll_B.title>
+  <Proty_Doll_B.titleShort>Wild Proty</Proty_Doll_B.titleShort>
+  <Proty_Doll_B.baseDescription>[PAWN_nameDef] is Wandering through the wilds, joined the Wild Proty Hive.</Proty_Doll_B.baseDescription>
 </LanguageData>

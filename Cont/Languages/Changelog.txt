@@ -186,3 +186,4 @@ PawnKindDef
 
 BackstoryDef
   Proty_Doll .title .titleShort .baseDescription
+  Proty_Doll_B .title .titleShort .baseDescription

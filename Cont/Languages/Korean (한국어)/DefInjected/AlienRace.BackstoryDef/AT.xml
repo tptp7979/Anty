@@ -59,4 +59,8 @@
   <Proty_Doll.title>야생 프로티 인형</Proty_Doll.title>
   <Proty_Doll.titleShort>야생 프로티</Proty_Doll.titleShort>
   <Proty_Doll.baseDescription>[PAWN_nameDef] 은(는) 야생을 떠돌다가 야생 프로티 군체에 합류했습니다.</Proty_Doll.baseDescription>
+
+  <Proty_Doll_B.title>야생 프로티 인형</Proty_Doll_B.title>
+  <Proty_Doll_B.titleShort>야생 프로티</Proty_Doll_B.titleShort>
+  <Proty_Doll_B.baseDescription>[PAWN_nameDef] 은(는) 야생을 떠돌다가 야생 프로티 군체에 합류했습니다.</Proty_Doll_B.baseDescription>
 </LanguageData>

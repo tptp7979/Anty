@@ -1124,6 +1124,10 @@
 		<requiredCountAtGameStart>0</requiredCountAtGameStart>
 		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 		<factionIconPath>Icon/AT_Icon_P</factionIconPath>
+		<backstoryCategories Inherit="false">
+			<li>Tribal</li>
+			<li>Proty_Doll</li>
+		</backstoryCategories>
 		<colorSpectrum Inherit="false">
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>

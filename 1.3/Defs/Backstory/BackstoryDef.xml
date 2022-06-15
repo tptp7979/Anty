@@ -474,7 +474,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef Name="Proty_Doll">
 		<defName>Proty_Doll</defName>
 		<title>Wild Proty Doll</title>
 		<titleShort>Wild Proty</titleShort>
@@ -501,5 +501,10 @@
 		<spawnCategories>
 			<li>Proty_Doll</li>
 		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Proty_Doll">
+		<defName>Proty_Doll_B</defName>
+		<slot>Childhood</slot>
 	</AlienRace.BackstoryDef>
 </Defs>

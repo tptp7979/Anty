@@ -917,14 +917,9 @@
 		<initialResistanceRange>9~15</initialResistanceRange>
 		<backstoryFiltersOverride Inherit="false">
 			<li>
-				<categoriesAdulthood>
+				<categories>
 					<li>Proty_Doll</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>Tribal</li>
-				</categoriesChildhood>
+				</categories>
 			</li>
 		</backstoryFiltersOverride>
 		<defaultFactionType>ProtyHive</defaultFactionType>
