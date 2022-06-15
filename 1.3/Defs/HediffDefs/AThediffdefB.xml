@@ -392,7 +392,7 @@
 				<spawnMaxAdjacent>40</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 
-				<debug>true</debug>
+				<debug>false</debug>
 			</li>
 		</comps>
 		<stages>
