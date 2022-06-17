@@ -93,7 +93,7 @@
 				<minDaysB4Next>0.98</minDaysB4Next>
 				<maxDaysB4Next>0.99</maxDaysB4Next>
 				<randomGrace>0</randomGrace>
-				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnMaxAdjacent>-1</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 				<spawnVerb>production</spawnVerb>
 			</li>

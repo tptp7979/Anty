@@ -301,6 +301,16 @@
 					<li>transformationaftereffect</li>
 				</triggeredHediff>
 			</li>
+			<li Class="MoharHediffs.HediffCompProperties_Spawner">
+				<thingToSpawn>Anty_pheromone</thingToSpawn>
+				<spawnCount>4</spawnCount>
+				<minDaysB4Next>0.98</minDaysB4Next>
+				<maxDaysB4Next>0.99</maxDaysB4Next>
+				<randomGrace>0</randomGrace>
+				<spawnMaxAdjacent>-1</spawnMaxAdjacent>
+				<spawnForbidden>false</spawnForbidden>
+				<spawnVerb>production</spawnVerb>
+			</li>
 		</comps>
 		<stages>
 		<li>
