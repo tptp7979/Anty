@@ -485,14 +485,14 @@
 		<label>lump of dirt</label>
 		<description>It is the soil in which the things that the proties cannot eat are put in.</description>
 		<thingClass>ThingWithComps</thingClass>
-		<tradeability>Buyable</tradeability>
+		<tradeability>All</tradeability>
 		<stackLimit>1</stackLimit>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>10</Mass>
 			<Flammability>0.2</Flammability>
-			<MarketValue>500</MarketValue>
+			<MarketValue>200</MarketValue>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Item/ProtySoilBall</texPath>
@@ -502,7 +502,7 @@
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
 				<useLabel>Open</useLabel>
-				<useDuration>400</useDuration>
+				<useDuration>120</useDuration>
 			</li>
 			<li Class="AntyRandom.CompProperties_AT_RandomBox">
 					<oneTspawn>

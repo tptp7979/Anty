@@ -116,31 +116,31 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Chocolate</thingDef>
-				<totalPriceRange>
+				<countRange>
 					<min>30</min>
 					<max>50</max>
-				</totalPriceRange>
+				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Jade</thingDef>
-				<totalPriceRange>
-					<min>75</min>
+				<countRange>
+					<min>1</min>
 					<max>75</max>
-				</totalPriceRange>
+				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>BlocksMarble</thingDef>
-				<totalPriceRange>
-					<min>75</min>
+				<countRange>
+					<min>15</min>
 					<max>75</max>
-				</totalPriceRange>
+				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>AT_RandomBox</thingDef>
-				<totalPriceRange>
-					<min>-2</min>
+				<countRange>
+					<min>1</min>
 					<max>5</max>
-				</totalPriceRange>
+				</countRange>
 			</li>
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
