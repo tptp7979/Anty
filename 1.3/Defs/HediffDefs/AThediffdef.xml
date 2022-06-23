@@ -853,7 +853,7 @@
 				<vomitMtbDays>3</vomitMtbDays>
 			</li>
 			<li>
-				<minSeverity>0</minSeverity>
+				<minSeverity>0.25</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>

@@ -190,7 +190,7 @@ BackstoryDef
 
 (2022/06/23)
 ThingDef
-  AT_RandomBox .comps.0.useLabel
+  AT_RandomBox .comps.CompUsable.useLabel
 
 ThoughtDef
   AT_Aphidextract_Mood .stages.0.label .stages.0.description
