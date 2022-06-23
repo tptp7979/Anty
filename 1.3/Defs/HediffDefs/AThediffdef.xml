@@ -824,11 +824,11 @@
 			</li>
 			<li Class="MoharHediffs.HediffCompProperties_Spawner">
 				<thingToSpawn>AT_Aphidextract</thingToSpawn>
-				<spawnCount>5</spawnCount>
+				<spawnCount>7</spawnCount>
 				<minDaysB4Next>2</minDaysB4Next>
 				<maxDaysB4Next>3.5</maxDaysB4Next>
 				<randomGrace>0</randomGrace>
-				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnMaxAdjacent>-1</spawnMaxAdjacent>
 				<spawnForbidden>false</spawnForbidden>
 				<spawnVerb>production</spawnVerb>
 			</li>
@@ -842,12 +842,28 @@
 				<minSeverity>0</minSeverity>
 				<capMods>
 					<li>
-						<capacity>Consciousness</capacity>
+						<capacity>Moving</capacity>
 						<setMax>0.1</setMax>
 					</li>
 				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.25</HungerRateMultiplier>
+					<MeatAmount>0.8</MeatAmount>
+				</statFactors>
+				<vomitMtbDays>3</vomitMtbDays>
+			</li>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<HungerRateMultiplier>0.25</HungerRateMultiplier>
+					<MeatAmount>0.5</MeatAmount>
+					<LeatherAmount>0.8</LeatherAmount>
 				</statFactors>
 			</li>
 			<li>
@@ -855,16 +871,32 @@
 				<lifeThreatening>true</lifeThreatening>
 				<capMods>
 					<li>
-						<capacity>Consciousness</capacity>
+						<capacity>Moving</capacity>
 						<setMax>0.1</setMax>
 					</li>
 				</capMods>
 				<statFactors>
 					<HungerRateMultiplier>0.1</HungerRateMultiplier>
+					<MeatAmount>0.2</MeatAmount>
+					<LeatherAmount>0.8</LeatherAmount>
 				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<ThoughtDef>
+		<defName>AT_Aphidextract_Mood</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AT_Aphidextract-stim</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+		<li>
+			<label>my body is melting</label>
+			<description>Save me, help me, let me go home, I'm melting now, I feel like I'm on fire, save me, help me...I want to live!!!</description>
+			<baseMoodEffect>-444</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
 	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AT_Aphidextract</defName>

@@ -109,4 +109,7 @@
 
   <TitleNoPersonalBedroom_B.stages.0.label>개인 침실을 원함</TitleNoPersonalBedroom_B.stages.0.label>
   <TitleNoPersonalBedroom_B.stages.0.description>난 나만의 침실을 원해!</TitleNoPersonalBedroom_B.stages.0.description>
+
+  <AT_Aphidextract_Mood.stages.0.label>몸이 녹아내리고 있음</AT_Aphidextract_Mood.stages.0.label>
+  <AT_Aphidextract_Mood.stages.0.description>살려줘, 도와줘, 내 몸이 녹고있다고, 몸이 타는 것 같아, 집에 보내줘, 살려줘, 도와줘, 살고 싶다고!!!</AT_Aphidextract_Mood.stages.0.description>
 </LanguageData>

@@ -187,3 +187,10 @@ PawnKindDef
 BackstoryDef
   Proty_Doll .title .titleShort .baseDescription
   Proty_Doll_B .title .titleShort .baseDescription
+
+(2022/06/23)
+ThingDef
+  AT_RandomBox .comps.0.useLabel
+
+ThoughtDef
+  AT_Aphidextract_Mood .stages.0.label .stages.0.description
