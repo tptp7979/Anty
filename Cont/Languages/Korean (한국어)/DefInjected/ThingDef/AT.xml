@@ -339,4 +339,5 @@
 
   <AT_RandomBox.label>흙뭉치</AT_RandomBox.label>
   <AT_RandomBox.description>프로티들이 먹을 수 없는 물건을 넣어둔 흙뭉치입니다.</AT_RandomBox.description>
+  <AT_RandomBox.comps.0.useLabel>열어보기</AT_RandomBox.comps.0.useLabel>
 </LanguageData>

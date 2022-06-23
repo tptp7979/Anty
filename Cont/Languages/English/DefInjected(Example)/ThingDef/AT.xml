@@ -286,5 +286,6 @@
   <Anty_prototype_Wild.tools.1.label>head</Anty_prototype_Wild.tools.1.label>
   <AT_RandomBox.label>lump of dirt</AT_RandomBox.label>
   <AT_RandomBox.description>It is the soil in which the things that the proties cannot eat are put in.</AT_RandomBox.description>
+  <AT_RandomBox.comps.0.useLabel>open</AT_RandomBox.comps.0.useLabel>
 
 </LanguageData>
