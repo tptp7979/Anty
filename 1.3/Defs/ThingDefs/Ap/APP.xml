@@ -7,6 +7,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -168,6 +169,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -238,6 +240,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -354,6 +357,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -567,6 +571,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -638,6 +643,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -708,6 +714,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -877,6 +884,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -948,6 +956,7 @@
 
 		<recipeMaker>
 			<researchPrerequisite>Antycomposite_B</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>

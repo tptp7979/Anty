@@ -953,6 +953,7 @@
 
 		<recipeMaker>
 			 <researchPrerequisite>Antycomposite</researchPrerequisite>
+			 <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
@@ -1009,6 +1010,7 @@
 
 		<recipeMaker>
 			 <researchPrerequisite>Antycomposite</researchPrerequisite>
+			 <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 
 		<graphicData>
