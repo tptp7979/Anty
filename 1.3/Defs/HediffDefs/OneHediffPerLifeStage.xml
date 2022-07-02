@@ -2,6 +2,39 @@
 <Defs>
 
 	<!-- baby -->
+
+	<HediffDef ParentName="HiddenHediffBase_Anty">
+		<defName>AntyLarva_Ready</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>.</description>
+		<label>LARVA_Ready</label>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.01</minSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+				<showHoursToRecover>false</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+		<li>
+			<minSeverity>0.95</minSeverity>
+			<becomeVisible>false</becomeVisible>
+			<lifeThreatening>false</lifeThreatening>
+			<hediffGivers>
+				<li Class="AntyHediffGiver_Random">
+					<hediff>AntyLarva_p</hediff>
+					<mtbDays>0.001</mtbDays>
+					<partsToAffect>
+						<li>Antyabdomen</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+		</stages>
+	</HediffDef>
 	<HediffDef ParentName="HiddenHediffBase_Anty">
 		<defName>AntyLarva_p</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -17,12 +50,15 @@
 					<li>AT_LarvaLearningAid</li>
 				</triggeredHediff>
 			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>70000</disappearsAfterTicks>
+			</li>
 		</comps>
 		<stages>
 		<li>
-        <minSeverity>0.01</minSeverity>
-		<becomeVisible>true</becomeVisible>
-        <lifeThreatening>false</lifeThreatening>
+			<minSeverity>0.01</minSeverity>
+			<becomeVisible>true</becomeVisible>
+			<lifeThreatening>false</lifeThreatening>
 			<capMods>
 				<li>
 					<capacity>Consciousness</capacity>
@@ -77,7 +113,7 @@
 				<associations>
 					<li>
 						<lifeStageDef>HumanlikeBaby</lifeStageDef>
-						<hediff>AntyLarva_p</hediff>
+						<hediff>AntyLarva_Ready</hediff>
 					</li>
 				</associations>
 				
