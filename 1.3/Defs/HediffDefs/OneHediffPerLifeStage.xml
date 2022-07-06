@@ -51,7 +51,7 @@
 				</triggeredHediff>
 			</li>
 			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>70000</disappearsAfterTicks>
+				<disappearsAfterTicks>420000</disappearsAfterTicks>
 			</li>
 		</comps>
 		<stages>
