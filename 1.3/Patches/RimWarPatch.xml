@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>2222935097</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/RimWar.RimWarDef[defName = "RimWar_FactionBehavior"]/defDatas</xpath>
+			<value>
+				<li>
+					<factionDefname>AT_PlayerFaction</factionDefname>
+					<behavior>Player</behavior>
+					<createsSettlements>false</createsSettlements>
+					<hatesPlayer>false</hatesPlayer>
+					<movesAtNight>true</movesAtNight>
+				</li>
+				<li>
+					<factionDefname>AT_PlayerFaction_B</factionDefname>
+					<behavior>Player</behavior>
+					<createsSettlements>false</createsSettlements>
+					<hatesPlayer>false</hatesPlayer>
+					<movesAtNight>true</movesAtNight>
+				</li>
+				<li>
+					<factionDefname>AntyHive</factionDefname>
+					<behavior>Warmonger</behavior>
+					<movementBonus>1.2</movementBonus>
+					<growthBonus>1.05</growthBonus>
+					<combatBonus>1.2</combatBonus>
+					<movesAtNight>true</movesAtNight>
+				</li>
+				<li>
+					<factionDefname>AntyHive_B</factionDefname>
+					<behavior>Warmonger</behavior>
+					<movementBonus>0.25</movementBonus>
+					<growthBonus>0.05</growthBonus>
+					<combatBonus>1.6</combatBonus>
+					<movesAtNight>true</movesAtNight>
+				</li>
+			</value>
+		</match>
+		</Operation>
+</Patch>
