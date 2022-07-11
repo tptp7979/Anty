@@ -942,6 +942,9 @@
 					<li>BondedAnimalDied</li>
 					<li>BondedAnimalMaster</li>
 					<li>NotBondedAnimalMaster</li>
+
+					<li>Ugly</li>
+					<li>Pretty</li>
 					
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleNoPersonalBedroom</li>
 
