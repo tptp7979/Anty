@@ -42,11 +42,11 @@
 								<pawnKinds>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
-									<li>AT_Rifle_B</li>
+									<li>AT_Rifle_B_title</li>
 									<li>AT_Charge_B</li>
-									<li>AT_Launcher_A</li>
-									<li>Anty_Commander</li>
-									<li>AT_PP_S</li>
+									<li>AT_Launcher_A_title</li>
+									<li>Anty_Commander_title</li>
+									<li>AT_PP_S_title</li>
 									<li>AT_Power</li>
 									<li>AT_Power_A</li>
 									<li>AT_Power_A_B</li>
@@ -80,9 +80,9 @@
 								<pawnKinds>
 									<li>AT_Sapper_A</li>
 									<li>AT_Sapper_B</li>
-									<li>AT_Rifle_B</li>
+									<li>AT_Rifle_B_title</li>
 									<li>AT_Charge_B</li>
-									<li>AT_Launcher_A</li>
+									<li>AT_Launcher_A_title</li>
 									<li>AT_Power</li>
 									<li>AT_Power_A</li>
 									<li>AT_Power_A_B</li>
