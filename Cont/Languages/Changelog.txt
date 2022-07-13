@@ -194,3 +194,8 @@ ThingDef
 
 ThoughtDef
   AT_Aphidextract_Mood .stages.0.label .stages.0.description
+
+(2022/07/13)
+HediffDef
+  Badnutritiondamage .label .description
+  [Organizational -> Sell ]
