@@ -332,8 +332,8 @@
 	
 	<HediffDef ParentName="DiseaseBase">
 		<defName>Badnutritiondamage</defName>
-		<label>Organizational collapse</label>
-		<description>Organizational collapse.</description>
+		<label>Sell collapse</label>
+		<description>Sell collapse.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<stages>
 		<li>
