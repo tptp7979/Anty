@@ -24,6 +24,7 @@
 					<points>
 						<li>(0, 0)</li>
 						<li>(1, 0)</li>
+						<li>(14, 0)</li>
 						<li>(15, 0.85)</li>
 					</points>
 				</ageFractionChanceCurve>
